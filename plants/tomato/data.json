@@ -1,0 +1,1547 @@
+{
+  "id": "tomato",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Tomato",
+      "alternate": []
+    },
+    "ur": {
+      "common": "ٹماٹر",
+      "alternate": []
+    },
+    "ar": {
+      "common": "طماطم",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Tomate",
+      "alternate": []
+    },
+    "botanical": "Solanum lycopersicum",
+    "aliases": ["tamaatar", "timatar", "tamatar", "tomate", "banadoura"]
+  },
+  "category": "vegetable",
+  "subcategory": "fruiting",
+  "germinationDays": 8,
+  "weatherRules": {
+    "highRiskFungalHumidity": 75,
+    "highWindSupportKmh": 20,
+    "slowGrowthBelowC": 15,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "DETERMINATE",
+    "INDETERMINATE",
+    "CHERRY",
+    "ROMA",
+    "BEEFSTEAK"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "DETERMINATE": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Bush type. Grows to a fixed size and produces a concentrated harvest. Pruning is generally not required.",
+          "ur": "بش قسم۔ ایک مقررہ سائز تک بڑھتا ہے اور ایک ساتھ فصل دیتا ہے۔ کٹائی کی ضرورت نہیں ہوتی۔"
+        }
+      },
+      "INDETERMINATE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Vining type. Continues to grow and produce fruit until killed by frost. Regular pruning of suckers is required.",
+          "ur": "بیل قسم۔ مسلسل بڑھتا اور پھل دیتا ہے۔ سکرز کی باقاعدہ کٹائی ضروری ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": true,
+    "triggers": [
+      {
+        "en": "Triggered during low wind/high humidity by vibrating flowers",
+        "ur": "کم ہوا یا زیادہ نمی میں پھولوں کو ہلانا",
+        "ar": "يهتز أثناء الرياح الخفيفة/الرطوبة العالية",
+        "fr": "Déclenché par temps calme ou très humide en touchant les fleurs"
+      }
+    ]
+  },
+  "tags": ["summer", "fruiting", "container-friendly", "continuous-harvest"],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 29,
+    "survivalMinC": 10,
+    "survivalMaxC": 38,
+    "germinationMinC": 16,
+    "germinationOptimalC": 24,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 15
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 800,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "high",
+    "wateringNature": "Deep and Infrequent",
+    "soilMoisturePreference": "Keep soil moist, Do not keep soil soggy",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "High during flowering and fruiting",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 55,
+      "max": 75
+    },
+    "drynessThreshold": {
+      "warning": 40,
+      "critical": 25
+    },
+    "waterStressSymptoms": [
+      "drooping leaves",
+      "leaf curling",
+      "flower drop",
+      "small fruits"
+    ],
+    "overwateringSymptoms": [
+      "yellow lower leaves",
+      "soft stem",
+      "fungus smell",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Deep root watering",
+    "thingsToAvoid": [
+      "water on leaves",
+      "standing water",
+      "shallow frequent watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "reduce fungal splash",
+      "reduce heat stress"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Use pots with drainage",
+        "ur": "ڈرینیج والے گملے استعمال کریں",
+        "ar": "استخدم أواني بفتحات تصريف",
+        "fr": "Utilisez des pots avec drainage"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric breathes well",
+        "ur": "کپڑے کے گملے بہتر ہیں",
+        "ar": "أكياس الزراعة جيدة",
+        "fr": "Les sacs de culture sont respirants"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 40,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Space well",
+        "ur": "فاصلہ رکھیں",
+        "ar": "اترك مسافة",
+        "fr": "Espacez bien"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 35,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Deep soil helps root development",
+        "ur": "گہری مٹی جڑوں کی نشوونما میں مدد کرتی ہے",
+        "ar": "التربة العميقة تساعد على تطور الجذور",
+        "fr": "Un sol profond aide au développement des racines"
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand.",
+              "ur": "50% مٹی، 30% کھاد، 20% ریت ملائیں",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable"
+            },
+            "INTERMEDIATE": {
+              "en": "Add bone meal & perlite to mix.",
+              "ur": "مکس میں بون میل اور پرلائٹ شامل کریں",
+              "ar": "أضف مسحوق العظام والبيرلايت",
+              "fr": "Ajoutez de la poudre d'os et de la perlite"
+            },
+            "EXPERT": {
+              "en": "Amend soil with calcium & check pH.",
+              "ur": "پی ایچ چیک کریں اور کیلشیم شامل کریں",
+              "ar": "عدّل التربة بالكالسيوم وتحقق من درجة الحموضة",
+              "fr": "Amendez le sol avec du calcium et vérifiez le pH"
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep.",
+              "ur": "بیج 1/4 انچ گہرائی میں بوئیں",
+              "ar": "ابذر البذور بعمق 1/4 بوصة",
+              "fr": "Semez les graines à 1/4 de profondeur"
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2 seeds per hole, 1/4 in deep.",
+              "ur": "ہر سوراخ میں 2 بیج بوئیں",
+              "ar": "ازرع بذرتين في كل حفرة",
+              "fr": "Plantez 2 graines par trou"
+            },
+            "EXPERT": {
+              "en": "Sow 1/4\" deep and lightly cover.",
+              "ur": "1/4 انچ گہرائی میں بوئیں",
+              "ar": "ابذر بعمق 1/4 بوصة وغطها برفق",
+              "fr": "Semez à 1/4 de pouce et couvrez"
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for sprouts.",
+              "ur": "کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم.",
+              "fr": "Vérifiez les pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Check moisture and sprouts.",
+              "ur": "نمی اور کونپلیں چیک کریں",
+              "ar": "تحقق من الرطوبة",
+              "fr": "Vérifiez l'humidité"
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination.",
+              "ur": "یکساں انکرن چیک کریں",
+              "ar": "افحص الإنبات الموحد",
+              "fr": "Inspectez la germination"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil",
+              "ur": "مٹی پر چھڑکاؤ کریں",
+              "ar": "رش التربة",
+              "fr": "Vaporisez le sol"
+            },
+            "INTERMEDIATE": {
+              "en": "Mist lightly",
+              "ur": "ہلکا پانی دیں",
+              "ar": "رش خفيف",
+              "fr": "Vaporisez légèrement"
+            },
+            "EXPERT": {
+              "en": "Maintain moisture",
+              "ur": "نمی برقرار رکھیں",
+              "ar": "حافظ على الرطوبة",
+              "fr": "Maintenez l'humidité"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 16,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently",
+              "ur": "آہستہ پانی دیں",
+              "ar": "اسقِ بلطف",
+              "fr": "Arrosez doucement"
+            },
+            "INTERMEDIATE": {
+              "en": "Keep moist",
+              "ur": "نمی رکھیں",
+              "ar": "حافظ على الرطوبة",
+              "fr": "Gardez humide"
+            },
+            "EXPERT": {
+              "en": "Monitor roots",
+              "ur": "جڑوں کا خیال رکھیں",
+              "ar": "راقب الجذور",
+              "fr": "Surveillez les racines"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 16,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "True leaves form",
+        "ur": "نئے پتے آنا",
+        "ar": "تكون الأوراق",
+        "fr": "Apparition des feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Move seedling to larger pot. Bury deep.",
+              "ur": "پودے کو بڑے گملے میں منتقل کریں۔",
+              "ar": "انقل الشتلة لوعاء أكبر.",
+              "fr": "Déplacez le plant."
+            },
+            "INTERMEDIATE": {
+              "en": "Transplant and bury up to cotyledons.",
+              "ur": "پہلے پتوں تک دبا دیں۔",
+              "ar": "ادفن حتى الأوراق الأولى.",
+              "fr": "Enterrez jusqu'aux cotylédons."
+            },
+            "EXPERT": {
+              "en": "Trench transplant.",
+              "ur": "ٹرینچ ٹرانسپلانٹ کریں۔",
+              "ar": "ازرع في خندق.",
+              "fr": "Transplantez en tranchée."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water base",
+              "ur": "جڑوں میں پانی دیں",
+              "ar": "اسقِ القاعدة",
+              "fr": "Arrosez la base"
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid leaves",
+              "ur": "پتوں کو بچائیں",
+              "ar": "تجنب الأوراق",
+              "fr": "Évitez les feuilles"
+            },
+            "EXPERT": {
+              "en": "Deep water",
+              "ur": "گہرا پانی دیں",
+              "ar": "سقي عميق",
+              "fr": "Arrosage profond"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 22,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Rapid growth",
+        "ur": "تیز نشوونما",
+        "ar": "نمو سريع",
+        "fr": "Croissance rapide"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Spray Neem Oil if bugs seen.",
+              "ur": "کیڑے نظر آئیں تو نیم کا تیل چھڑکیں",
+              "ar": "رش زيت النيم",
+              "fr": "Pulvérisez de l'huile de neem"
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray preventatively.",
+              "ur": "نامیاتی کیڑے مار دوا استعمال کریں",
+              "ar": "رش مبيد حشري عضوي",
+              "fr": "Appliquez un spray bio"
+            },
+            "EXPERT": {
+              "en": "Apply balanced IPM spray (Neem/Soap).",
+              "ur": "سپرے استعمال کریں",
+              "ar": "تطبيق رش متوازن (نيم/صابون)",
+              "fr": "Appliquez un traitement IPM"
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for spots or bugs.",
+              "ur": "پتوں پر کیڑے یا دھبے چیک کریں",
+              "ar": "تحقق من الأوراق بحثًا عن بقع أو حشرات",
+              "fr": "Vérifiez s'il y a des taches ou des insectes"
+            },
+            "INTERMEDIATE": {
+              "en": "Look under leaves for aphids and blight.",
+              "ur": "پتوں کے نیچے کیڑے چیک کریں",
+              "ar": "ابحث تحت الأوراق عن المن واللفحة المبكرة",
+              "fr": "Regardez sous les feuilles"
+            },
+            "EXPERT": {
+              "en": "Inspect for early signs of disease.",
+              "ur": "بیماریوں کی ابتدائی علامات چیک کریں",
+              "ar": "افحص بحثًا عن علامات مبكرة للأمراض",
+              "fr": "Inspectez pour les premiers signes de maladies"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Yellow leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunes"
+            }
+          ]
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Locate 'suckers' (small leaves and stems growing out of the V-joint between the main stem and branches). Pinch them off gently with your fingers. This directs the plant's energy into fruit production instead of excessive leaves.",
+              "ur": "مرکزی تنے اور شاخوں کے درمیان 'V' جوڑ میں اگنے والی چھوٹی کونپلوں (سکرز) کو تلاش کریں اور انہیں انگلیوں سے توڑ دیں۔ اس سے پودے کی توانائی تازہ پتوں کے بجائے پھل پیدا کرنے پر لگے گی۔",
+              "ar": "اقطع الفروع الصغيرة",
+              "fr": "Pincez les petites pousses"
+            },
+            "INTERMEDIATE": {
+              "en": "Remove suckers.",
+              "ur": "سکرز کو کاٹ دیں",
+              "ar": "أزل السرطانات",
+              "fr": "Retirez les gourmands"
+            },
+            "EXPERT": {
+              "en": "Prune suckers and lowest leaves touching soil.",
+              "ur": "مٹی کو چھونے والے سب سے نچلے پتے کاٹ دیں",
+              "ar": "قلم السرطانات والأوراق السفلية",
+              "fr": "Taillez les gourmands et feuilles basses"
+            }
+          }
+        },
+        "support": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Tie plant to a stake.",
+              "ur": "پودے کو لکڑی سے باندھیں",
+              "ar": "اربط النبات بعصا",
+              "fr": "Attachez la plante à un tuteur"
+            },
+            "INTERMEDIATE": {
+              "en": "Add a tomato cage.",
+              "ur": "پنجرہ لگائیں",
+              "ar": "أضف قفص طماطم",
+              "fr": "Ajoutez une cage à tomates"
+            },
+            "EXPERT": {
+              "en": "Establish trellis system.",
+              "ur": "مضبوط پنجرے کا نظام قائم کریں",
+              "ar": "أنشئ نظام تعريشة",
+              "fr": "Établissez un système de treillis"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Soak soil",
+              "ur": "مٹی بھگو دیں",
+              "ar": "انقع التربة",
+              "fr": "Trempez le sol"
+            },
+            "INTERMEDIATE": {
+              "en": "Deep soak",
+              "ur": "گہرا پانی",
+              "ar": "سقي عميق",
+              "fr": "Bain profond"
+            },
+            "EXPERT": {
+              "en": "Check depth",
+              "ur": "گہرائی چیک کریں",
+              "ar": "تحقق من العمق",
+              "fr": "Vérifiez la profondeur"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 16,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Flowers bloom",
+        "ur": "پھول کھلنا",
+        "ar": "إزهار",
+        "fr": "Floraison"
+      },
+      "emoji": "🌼",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Spray Neem Oil if bugs seen.",
+              "ur": "کیڑے نظر آئیں تو نیم کا تیل چھڑکیں",
+              "ar": "رش زيت النيم",
+              "fr": "Pulvérisez de l'huile de neem"
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray preventatively.",
+              "ur": "نامیاتی کیڑے مار دوا استعمال کریں",
+              "ar": "رش مبيد حشري عضوي",
+              "fr": "Appliquez un spray bio"
+            },
+            "EXPERT": {
+              "en": "Apply balanced IPM spray (Neem/Soap).",
+              "ur": "سپرے استعمال کریں",
+              "ar": "تطبيق رش متوازن (نيم/صابون)",
+              "fr": "Appliquez un traitement IPM"
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for flower drop.",
+              "ur": "گھردے ہوئے پھولوں کو چیک کریں",
+              "ar": "تحقق من تساقط الأزهار",
+              "fr": "Vérifiez la chute des fleurs"
+            },
+            "INTERMEDIATE": {
+              "en": "Look for powdery mildew.",
+              "ur": "پاؤڈری پھپھوندی چیک کریں",
+              "ar": "ابحث عن البياض الدقيقي",
+              "fr": "Vérifiez l'oïdium"
+            },
+            "EXPERT": {
+              "en": "Inspect for blossom drop.",
+              "ur": "ابتدائی بیماریوں کے آثار چیک کریں",
+              "ar": "افحص مبكراً",
+              "fr": "Inspectez minutieusement"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Spider Mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس",
+              "fr": "Acariens"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            },
+            {
+              "en": "Flower Drop",
+              "ur": "پھولوں کا گرنا",
+              "ar": "سقوط الأزهار",
+              "fr": "Chute des fleurs"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Consistent water",
+              "ur": "باقاعدہ پانی دیں",
+              "ar": "سقي منتظم",
+              "fr": "Arrosage régulier"
+            },
+            "INTERMEDIATE": {
+              "en": "Don't dry out",
+              "ur": "سوکھنے نہ دیں",
+              "ar": "لا تدعه يجف",
+              "fr": "Ne laissez pas sécher"
+            },
+            "EXPERT": {
+              "en": "Even moisture",
+              "ur": "برابر نمی",
+              "ar": "رطوبة متساوية",
+              "fr": "Humidité uniforme"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 22,
+      "durationDaysCool": 38,
+      "description": {
+        "en": "Fruits develop",
+        "ur": "پھل بننا",
+        "ar": "تكون الثمار",
+        "fr": "Fructification"
+      },
+      "emoji": "🍅",
+      "tips": [],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check tomatoes for rot.",
+              "ur": "ٹماٹروں کو گلنے سے بچائیں",
+              "ar": "تحقق من تعفن الطماطم",
+              "fr": "Vérifiez la pourriture"
+            },
+            "INTERMEDIATE": {
+              "en": "Look for late blight and splitting.",
+              "ur": "پھٹنے اور بیماریوں کے لیے چیک کریں",
+              "ar": "ابحث عن اللفحة المتأخرة والتشقق",
+              "fr": "Vérifiez le mildiou et le fendillement"
+            },
+            "EXPERT": {
+              "en": "Monitor fruit for pest boring and blossom end rot.",
+              "ur": "کیڑوں اور بیماریوں کے لیے پھلوں کی نگرانی کریں",
+              "ar": "راقب تعفن الطرف الزهري وثقب الحشرات",
+              "fr": "Surveillez la nécrose apicale"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Blossom End Rot",
+              "ur": "بلاسّم اینڈ روٹ",
+              "ar": "تعفن الطرف الزهري",
+              "fr": "Nécrose apicale"
+            },
+            {
+              "en": "Late Blight",
+              "ur": "لیٹ بلائٹ",
+              "ar": "لفحة متأخرة",
+              "fr": "Mildiou"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Heavy water",
+              "ur": "زیادہ پانی دیں",
+              "ar": "سقي كثيف",
+              "fr": "Arrosage abondant"
+            },
+            "INTERMEDIATE": {
+              "en": "Prevent splitting",
+              "ur": "پھٹنے سے بچائیں",
+              "ar": "تجنب التشقق",
+              "fr": "Évitez le fendillement"
+            },
+            "EXPERT": {
+              "en": "Manage tension",
+              "ur": "دباؤ کنٹرول کریں",
+              "ar": "تحكم في التوتر",
+              "fr": "Gérez la tension"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Harvest ready",
+        "ur": "پھل تیار ہیں",
+        "ar": "جاهز للحصاد",
+        "fr": "Prêt pour la récolte"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pick ripe red tomatoes.",
+              "ur": "پکے ہوئے ٹماٹر توڑ لیں۔",
+              "ar": "اقطف الطماطم الحمراء.",
+              "fr": "Cueillir les tomates rouges."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest tomatoes when fully colored.",
+              "ur": "ٹماٹر مکمل رنگ پکڑ لیں تو توڑیں۔",
+              "ar": "احصد الطماطم.",
+              "fr": "Récolter les tomates."
+            },
+            "EXPERT": {
+              "en": "Harvest before frost.",
+              "ur": "گرمی کم ہونے سے پہلے توڑ لیں۔",
+              "ar": "احصد قبل الصقيع.",
+              "fr": "Récolter avant les gelées."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce water",
+              "ur": "پانی کم کریں",
+              "ar": "قلل الماء",
+              "fr": "Réduisez l'eau"
+            },
+            "INTERMEDIATE": {
+              "en": "Enhance flavor",
+              "ur": "ذائقہ بہتر کریں",
+              "ar": "عزز النكهة",
+              "fr": "Améliorez la saveur"
+            },
+            "EXPERT": {
+              "en": "Controlled dry",
+              "ur": "کنٹرولڈ خشکی",
+              "ar": "جفاف متحكم فيه",
+              "fr": "Séchage contrôlé"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے۔"
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست",
+          "fr": "Thé de compost"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "اخلط",
+          "fr": "Mélangez"
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Rich in Nitrogen, supports vigorous leaf and stem growth before flowers begin to form.",
+          "ur": "یہ نائٹروجن سے بھرپور ہے، جو پودے کے پتوں اور تنے کی بہترین نشوونما کرتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب",
+          "fr": "Poudre d'os & cendre"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر على السطح",
+          "fr": "Surfacez"
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts blossom production and provides crucial calcium to avoid Blossom End Rot.",
+          "ur": "یہ پھولوں کی پیداوار بڑھاتا ہے اور پھل کو گلنے سے بچانے کے لیے کیلشیم فراہم کرتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Crushed Eggshells",
+          "ur": "کیلے کے چھلکے کی چائے اور پسے ہوئے انڈے کے چھلکے",
+          "ar": "شاي قشر الموز",
+          "fr": "Thé de peau de banane"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in fine crushed eggshells. Pour the nutrient water around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر پانی میں 48 گھنٹے بھگو دیں۔ پسے انڈے کے چھلکے شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "انقع القشور 48 ساعة",
+          "fr": "Faites tremper les peaux 48h"
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium helps fruit swell, mature properly, and improves flavor sweetness.",
+          "ur": "پوٹاشیم پھل کے سائز، پکنے کے عمل اور مٹھاس کو بہتر بناتا ہے۔"
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (20-20-20)",
+          "ur": "بیلنسڈ این پی کے",
+          "ar": "سماد متوازن",
+          "fr": "NPK équilibré"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 20-20-20 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 20-20-20 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High nitrogen concentration drives robust leaf production.",
+          "ur": "نائٹروجن پتوں کی بھرپور نشوونما میں مدد کرتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Tomato-Specific Fertilizer (e.g. 5-10-10 or low Nitrogen)",
+          "ur": "ٹماٹر کی مخصوص کھاد (مثلاً 5-10-10)",
+          "ar": "سماد عالي البوتاسيوم",
+          "fr": "Engrais riche en K"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 5-10-10 fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ 5-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Calcium Nitrate & High-Potassium blend (e.g. 0-0-50)",
+          "ur": "کیلشیم نائٹریٹ اور ہائی پوٹاشیم (مثلاً 0-0-50)",
+          "ar": "نترات الكالسيوم",
+          "fr": "Nitrate de calcium"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of Calcium Nitrate and 1 teaspoon of High-K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ کیلشیم نائٹریٹ اور پوٹاشیم کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Calcium directly prevents Blossom End Rot. Potassium ensures plump, juicy tomatoes.",
+          "ur": "کیلشیم پھل کو نیچے سے گلنے سے بچاتا ہے اور پوٹاشیم پھل کو بڑا اور رس دار بناتا ہے۔"
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "Calcium Nitrate",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "basil",
+      "benefit": {
+        "en": "Repels pests like tomato hornworms, reduces mosquitoes, and may improve the flavor and growth of the tomatoes.",
+        "ur": "ٹماٹر کے کیڑوں کو دور بھگاتا ہے اور اس کے ذائقہ اور نشوونما میں بہتری لاتا ہے۔",
+        "ar": "يطرد الآفات مثل دودة الطماطم ويحسن النكهة ونمو النبات.",
+        "fr": "Repousse les parasites et peut améliorer la saveur et la croissance des tomates."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, and flowers repel other harmful insects.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، اور پھول کیڑوں کو بھگاتے ہیں۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية، والزهور تطرد الحشرات الضارة.",
+        "fr": "Les racines tuent les nématodes à galles et les fleurs repoussent les insectes nuisibles."
+      }
+    },
+    {
+      "plantId": "borage",
+      "benefit": {
+        "en": "Attracts beneficial pollinators like bees, and is known to repel the tomato hornworm.",
+        "ur": "فائدہ مند کیڑوں جیسے شہد کی مکھیوں کو راغب کرتا ہے اور ٹماٹر کے کیڑوں کو دور رکھتا ہے۔",
+        "ar": "يجذب الملقحات المفيدة مثل النحل، ويطرد آفات الطماطم.",
+        "fr": "Attire les pollinisateurs et repousse notoirement le sphinx de la tomate."
+      }
+    },
+    {
+      "plantId": "garlic",
+      "benefit": {
+        "en": "Emits a strong scent that deters spider mites, aphids, and other common pests.",
+        "ur": "مضبوط خوشبو چھوڑتا ہے جو مکڑیوں اور افڈس کو پودے سے دور رکھتی ہے۔",
+        "ar": "ينبعث منه رائحة قوية تردع سوس العنكبوت وحشرات المن التي تهاجم الطماطم.",
+        "fr": "Dégage une forte odeur qui dissuade les tétranyques et les pucerons."
+      }
+    },
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Shatters the soil and aerates it, allowing water and air to better reach the deep roots of the tomato plant.",
+        "ur": "مٹی کو نرم کرتا ہے جس سے پانی اور ہوا ٹماٹر کی گہری جڑوں تک آسانی سے پہنچتے ہیں۔",
+        "ar": "يخفف التربة لتهويتها والسماح بوصول الماء والهواء بشكل أفضل إلى الجذور العميقة.",
+        "fr": "Aère le sol, permettant à l'eau et à l'air de mieux atteindre les racines profondes de la tomate."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Shares the same blight diseases and insects (like Colorado potato beetle), and heavily competes for nutrients.",
+        "ur": "یہ ایک ہی طرح کی بیماریوں کا شکار ہوتے ہیں اور غذائی اجزاء کے لیے سخت مقابلہ کرتے ہیں۔",
+        "ar": "يتشارك معها نفس أمراض اللفحة والحشرات، ويتنافس بشدة على العناصر الغذائية.",
+        "fr": "Partage les mêmes maladies comme le mildiou et rivalise fortement pour les nutriments du sol."
+      }
+    },
+    {
+      "plantId": "corn",
+      "reason": {
+        "en": "Attracts the tomato fruitworm (also known as the corn earworm), which can devastate the tomato harvest.",
+        "ur": "تمباکو سنڈی اور دیگر کیڑوں کو راغب کرتا ہے جو ٹماٹر کی فصل کو تباہ کر سکتے ہیں۔",
+        "ar": "يجذب دودة ثمار الطماطم التي قد تدمر محصول الطماطم بالكامل.",
+        "fr": "Attire le ver de l'épi de maïs, qui dévaste également les fruits de la tomate."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "All members of the brassica family (cabbage, broccoli, kale) severely stunt the growth of tomato plants.",
+        "ur": "گوبھی کے خاندان کے تمام پودے ٹماٹر کی نشوونما کو شدید طرح سے روکتے ہیں۔",
+        "ar": "تتسبب عائلة الصليبيات في إعاقة نمو نباتات الطماطم بشكل شديد.",
+        "fr": "Toutes les brassicacées inhibent fortement et retardent la croissance des plants de tomates."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances from its roots that inhibit the growth of tomatoes and many other vegetables.",
+        "ur": "اس کی جڑوں سے ایسے مادے نکلتے ہیں جو ٹماٹر اور دیگر سبزیوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "تفرز جذوره مواد تثبط نمو الطماطم والعديد من الخضروات الأخرى.",
+        "fr": "Produit des substances qui inhibent la croissance des tomates et de nombreux autres légumes."
+      }
+    },
+    {
+      "plantId": "walnut",
+      "reason": {
+        "en": "Releases juglone, a chemical highly toxic to the nightshade family, causing fatal walnut wilt in tomatoes.",
+        "ur": "اس سے جگلون نامی کیمیکل نکلتا ہے جو ٹماٹر کے لیے جان لیوا ثابت ہوتا ہے۔",
+        "ar": "يفرز مادة الجغلون السامة جداً، والتي تتسبب في ذبول وموت نباتات الطماطم.",
+        "fr": "Libère de la juglone, une toxine mortelle pour la famille des solanacées, provoquant le flétrissement de la tomate."
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "id": "early_blight",
+      "name": {
+        "en": "Early Blight",
+        "ur": "ابتدائی جھلساؤ",
+        "ar": "لفحة مبكرة",
+        "fr": "Brûlure alternarienne"
+      },
+      "type": "DISEASE",
+      "causedBy": {
+        "en": "Fungus",
+        "ur": "پھپھوندی",
+        "ar": "فطر",
+        "fr": "Champignon"
+      },
+      "severity": "MODERATE",
+      "spreadRate": "MODERATE",
+      "mostLikelyStage": ["VEGETATIVE", "FLOWERING", "FRUITING"],
+      "symptoms": [
+        {
+          "en": "Brown or black spots with concentric rings (target spots) on lower leaves first, then yellowing leaves surrounding the spots.",
+          "ur": "نچلے پتوں پر بھورے یا کالے رنگ کے نشان جس کے گرد دائرے (ٹارگٹ سپاٹ) ہوں، اور ارد گرد کے پتوں کا پیلا ہونا۔"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Prune and dispose of infected leaves immediately. Thoroughly mulch the base of the plant to prevent soil spores from splashing up.",
+            "ur": "متاثرہ پتوں کو کاٹ کر فوراً ضائع کر دیں۔ پودے کے گرد ملچ لگائیں تاکہ مٹی سے فنگس اوپر پتوں تک نہ اڑے۔"
+          }
+        ],
+        "expectedDays": 7
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Spray with a copper-based fungicide every 7 to 10 days according to package instructions.",
+            "ur": "پیکج کی ہدایات کے مطابق ہر 7 سے 10 دن کے بعد کاپر والا فنگل سپرے کریں۔"
+          }
+        ],
+        "expectedDays": 4
+      },
+      "prevention": {
+        "en": "Rotate crops each year. Ensure good airflow by staking and pruning. Avoid getting leaves wet when watering.",
+        "ur": "ہر سال فصل کی جگہ تبدیل کریں۔ ہوا کے گزر کے لیے پودے کی کانٹ چھانٹ کریں۔ پودے کو اوپر سے پانی دینے سے گریز کریں۔",
+        "ar": "تهوية جيدة",
+        "fr": "Bonne aération"
+      },
+      "needsProfessional": false,
+      "imagePaths": ["/plants/tomato/images/diseases/early_blight/ref_01.jpg"]
+    },
+    {
+      "id": "late_blight",
+      "name": {
+        "en": "Late Blight",
+        "ur": "پکچھتا جھلساؤ",
+        "ar": "اللفحة المتأخرة",
+        "fr": "Mildiou"
+      },
+      "type": "DISEASE",
+      "causedBy": {
+        "en": "Oomycete",
+        "ur": "فنگس",
+        "ar": "فطر",
+        "fr": "Oomycète"
+      },
+      "severity": "SEVERE",
+      "spreadRate": "FAST",
+      "mostLikelyStage": ["FRUITING", "HARVEST"],
+      "symptoms": [
+        {
+          "en": "Rapidly spreading large dark brown/purple blotches on leaves and stems. White mold might appear on undersides.",
+          "ur": "پتوں اور تنے پر تیزی سے پھیلنے والے گہرے بھورے/جامنی نشانات۔ پتوں کے نیچے سفید پھپھوندی ظاہر ہو سکتی ہے۔"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Highly contagious. Pull out the entire infected plant and destroy it (do not compost).",
+            "ur": "یہ انتہائی تیزی سے پھیلتا ہے۔ پورے متاثرہ پودے کو جڑ سے نکال کر ضائع کر دیں (کمپوسٹ میں نہ ڈالیں)۔"
+          }
+        ],
+        "expectedDays": 1
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Fungicide",
+            "ur": "فنگل سپرے",
+            "ar": "مبيد فطري",
+            "fr": "Fongicide"
+          }
+        ],
+        "expectedDays": 7
+      },
+      "prevention": {
+        "en": "Plant resistant varieties. Destroy any volunteer tomato plants. Keep foliage completely dry.",
+        "ur": "بیماری کے خلاف مزاحم اقسام لگائیں۔ پودے کے پتوں کو مکمل خشک رکھیں۔",
+        "ar": "أبق الأوراق جافة",
+        "fr": "Gardez les feuilles sèches"
+      },
+      "needsProfessional": true,
+      "imagePaths": ["/plants/tomato/images/diseases/late_blight/ref_01.jpg"]
+    },
+    {
+      "id": "bacterial_spot",
+      "name": {
+        "en": "Bacterial Spot",
+        "ur": "بیکٹیریل دھبے",
+        "ar": "تبقع بكتيري",
+        "fr": "Tache bactérienne"
+      },
+      "type": "DISEASE",
+      "causedBy": {
+        "en": "Bacteria",
+        "ur": "بیکٹیریا",
+        "ar": "بكتيريا",
+        "fr": "Bactéries"
+      },
+      "severity": "MODERATE",
+      "spreadRate": "MODERATE",
+      "mostLikelyStage": ["VEGETATIVE"],
+      "symptoms": [
+        {
+          "en": "Small dark spots",
+          "ur": "چھوٹے سیاہ دھبے",
+          "ar": "بقع داكنة صغيرة",
+          "fr": "Petites taches sombres"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Remove leaves",
+            "ur": "پتے ہٹائیں",
+            "ar": "أزل الأوراق",
+            "fr": "Retirez les feuilles"
+          }
+        ],
+        "expectedDays": 7
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Copper spray",
+            "ur": "کاپر سپرے",
+            "ar": "رذاذ النحاس",
+            "fr": "Pulvérisation de cuivre"
+          }
+        ],
+        "expectedDays": 5
+      },
+      "prevention": {
+        "en": "Avoid overhead watering",
+        "ur": "اوپر سے پانی نہ دیں",
+        "ar": "تجنب الري العلوي",
+        "fr": "Évitez l'arrosage par le haut"
+      },
+      "needsProfessional": false,
+      "imagePaths": ["/plants/tomato/images/diseases/bacterial_spot/ref_01.jpg"]
+    },
+    {
+      "id": "powdery_mildew",
+      "name": {
+        "en": "Powdery Mildew",
+        "ur": "پاؤڈری پھپھوندی",
+        "ar": "البياض الدقيقي",
+        "fr": "Oïdium"
+      },
+      "type": "DISEASE",
+      "causedBy": {
+        "en": "Fungus",
+        "ur": "پھپھوندی",
+        "ar": "فطر",
+        "fr": "Champignon"
+      },
+      "severity": "MILD",
+      "spreadRate": "MODERATE",
+      "mostLikelyStage": ["FLOWERING", "FRUITING"],
+      "symptoms": [
+        {
+          "en": "White powdery or dusty spots appearing mostly on older leaves, reducing plant vigor.",
+          "ur": "پرانے پتوں پر سفید پاؤڈر یا گرد جیسے نشان، جس سے پودا کمزور ہوتا ہے۔"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Spray affected foliage with Neem oil or a mix of baking soda, soap, and water.",
+            "ur": "متاثرہ پتوں پر نیم کا تیل یا بیکنگ سوڈا، صابن اور پانی کا مکسچر سپرے کریں۔"
+          }
+        ],
+        "expectedDays": 5
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Fungicide",
+            "ur": "فنگل سپرے",
+            "ar": "مبيد فطري",
+            "fr": "Fongicide"
+          }
+        ],
+        "expectedDays": 3
+      },
+      "prevention": {
+        "en": "Ensure full sun exposure and do not crowd plants. Improve air circulation.",
+        "ur": "اس بات کو یقینی بنائیں کہ پودوں کو پوری دھوپ ملے اور انہیں گنجان نہ لگائیں۔ ہوا کا گزر بہتر بنائیں۔",
+        "ar": "تهوية",
+        "fr": "Aération"
+      },
+      "needsProfessional": false,
+      "imagePaths": ["/plants/tomato/images/diseases/powdery_mildew/ref_01.jpg"]
+    },
+    {
+      "id": "spider_mites",
+      "name": {
+        "en": "Spider Mites",
+        "ur": "مکڑی کے کیڑے",
+        "ar": "سوس العنكبوت",
+        "fr": "Tétranyques"
+      },
+      "type": "PEST",
+      "causedBy": {
+        "en": "Mites",
+        "ur": "کیڑے",
+        "ar": "سوس",
+        "fr": "Acariens"
+      },
+      "severity": "MODERATE",
+      "spreadRate": "FAST",
+      "mostLikelyStage": ["VEGETATIVE", "FLOWERING"],
+      "symptoms": [
+        {
+          "en": "Tiny pale yellow or white speckles on leaves. Fine silk webbing on the undersides of leaves and stems. Leaves turn bronze or yellow.",
+          "ur": "پتوں پر چھوٹے پیلے یا سفید دھبے۔ پتوں کے نیچے اور تنے پر باریک جالے۔ پتے پیلے یا کانسی رنگ کے ہو جاتے ہیں۔"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Spray the plant forcefully with water to dislodge mites, then apply insecticidal soap or Neem oil regularly.",
+            "ur": "کیڑوں کو گرانے کے لیے تیز پانی کا چھڑکاؤ کریں، پھر باقاعدگی سے کیڑے مار صابن یا نیم کا تیل استعمال کریں۔"
+          }
+        ],
+        "expectedDays": 3
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Miticide",
+            "ur": "کیڑے مار دوا",
+            "ar": "مبيد عناكب",
+            "fr": "Acaricide"
+          }
+        ],
+        "expectedDays": 2
+      },
+      "prevention": {
+        "en": "Maintain adequate soil moisture. Spider mites thrive in dry, hot conditions with low humidity.",
+        "ur": "مٹی میں مناسب نمی برقرار رکھیں۔ مکڑی کے کیڑے خشک اور گرم حالات میں زیادہ پھیلتے ہیں۔",
+        "ar": "رطوبة",
+        "fr": "Humidité"
+      },
+      "needsProfessional": false,
+      "imagePaths": ["/plants/tomato/images/diseases/spider_mites/ref_01.jpg"]
+    },
+    {
+      "id": "blossom_end_rot",
+      "name": {
+        "en": "Blossom End Rot",
+        "ur": "پھل کا نچلا حصہ گلنا",
+        "ar": "تعفن الطرف الزهري",
+        "fr": "Nécrose apicale"
+      },
+      "type": "DEFICIENCY",
+      "causedBy": {
+        "en": "Calcium Deficiency / Inconsistent Watering",
+        "ur": "کیلشیم کی کمی / پانی کا غیر متوازن استعمال",
+        "ar": "نقص الكالسيوم / الري غير المتسق",
+        "fr": "Carence en calcium"
+      },
+      "severity": "SEVERE",
+      "spreadRate": "MODERATE",
+      "mostLikelyStage": ["FRUITING", "HARVEST"],
+      "symptoms": [
+        {
+          "en": "Water-soaked, dark, sunken spot at the bottom end of the tomato",
+          "ur": "ٹماٹر کے نچلے حصے پر پانی بھرا، گہرا اور دھنسا ہوا دھبہ",
+          "ar": "بقعة غائرة داكنة ومبللة بالماء في أسفل الطماطم",
+          "fr": "Tache sombre, enfoncée et imbibée d'eau à la base de la tomate"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Remove affected fruits immediately. Regulate watering to be consistent. Top dress soil around the stem deeply with crushed egg shells or a dedicated calcium additive.",
+            "ur": "متاثرہ پھلوں کو فوری ہٹا دیں۔ پانی مناسب اور وقت پر دیں۔ مٹی کے اوپر پسے ہوئے انڈے کے چھلکے یا کیلشیم ڈالیں۔",
+            "ar": "أزل الثمار المصابة فوراً. نظّم الري ليكون متسقاً، ضع قشر البيض",
+            "fr": "Retirez les fruits touchés. Régulez l'arrosage. Ajoutez des coquilles d'œufs pilées."
+          }
+        ],
+        "expectedDays": 7
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Apply a calcium chloride or calcium nitrate foliar spray directly to leaves and remaining fruits.",
+            "ur": "فوری طور پر کیلشیم کلورائیڈ یا کیلشیم نائٹریٹ کا سپرے پتوں اور پھلوں پر کریں۔",
+            "ar": "رش رذاذ كلوريد الكالسيوم أو نترات الكالسيوم فوراً",
+            "fr": "Appliquez un spray foliaire au calcium."
+          }
+        ],
+        "expectedDays": 3
+      },
+      "prevention": {
+        "en": "Provide consistent, deep watering preventing dry spells. Maintain a layer of soil mulch to retain moisture.",
+        "ur": "پانی مستقل اور گہرائی تک دیں، مٹی کو سوکھنے نہ دیں۔ نمی برقرار رکھنے کے لیے ملچ (Mulch) کا استعمال کریں۔",
+        "ar": "وفر ريًا معتدلًا وعميقًا، لا تدعها تجف. استخدم نشارة للرطوبة.",
+        "fr": "Arrosage régulier et profond pour éviter le dessèchement."
+      },
+      "needsProfessional": false,
+      "imagePaths": [
+        "/plants/tomato/images/diseases/blossom_end_rot/ref_01.jpg"
+      ]
+    },
+    {
+      "id": "flower_drop",
+      "name": {
+        "en": "Flower Drop (Blossom Drop)",
+        "ur": "پھولوں کا گرنا",
+        "ar": "سقوط الأزهار",
+        "fr": "Chute des fleurs"
+      },
+      "type": "DEFICIENCY",
+      "causedBy": {
+        "en": "Temperature Stress / Lack of Pollination / Unbalanced Watering",
+        "ur": "درجہ حرارت میں تبدیلی / زیرگی کی کمی / پانی کا غیر متوازن استعمال",
+        "ar": "إجهاد درجات الحرارة / نقص التلقيح",
+        "fr": "Stress thermique / Manque de pollinisation"
+      },
+      "severity": "MODERATE",
+      "spreadRate": "SLOW",
+      "mostLikelyStage": ["FLOWERING"],
+      "symptoms": [
+        {
+          "en": "Flowers dry up, turn brown, and fall off at the stem joint before setting fruit.",
+          "ur": "پھول سوکھ جاتے ہیں، بھورے ہو جاتے ہیں، اور پھل بننے سے پہلے ہی تنے کے جوڑ سے گر جاتے ہیں۔"
+        }
+      ],
+      "organicTreatment": {
+        "steps": [
+          {
+            "en": "Vibrate flowers gently or use an electric toothbrush on stems to aid pollination. Ensure deep, consistent watering and protect from extreme heat or cold.",
+            "ur": "پھولوں کو نرمی سے ہلائیں تاکہ زیرگی ہو سکے۔ مٹی کو نم رکھیں اور شدید گرمی یا سردی سے بچائیں۔"
+          }
+        ],
+        "expectedDays": 3
+      },
+      "chemicalTreatment": {
+        "steps": [
+          {
+            "en": "Apply a blossom set spray if temperature variations are the primary cause.",
+            "ur": "اگر درجہ حرارت کا مسئلہ ہو تو بلاسم سیٹ سپرے کا استعمال کریں۔"
+          }
+        ],
+        "expectedDays": 1
+      },
+      "prevention": {
+        "en": "Plant flowers nearby to attract pollinators. Maintain consistent moisture and provide shade during heatwaves.",
+        "ur": "زیرگی کرنے والوں کو راغب کرنے کے لیے قریب پھول لگائیں۔ سخت گرمی میں پودے کو سایہ فراہم کریں۔"
+      },
+      "needsProfessional": false,
+      "imagePaths": []
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 85,
+    "continuousHarvest": true,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Full color",
+        "ur": "پورا رنگ",
+        "ar": "لون كامل",
+        "fr": "Couleur pleine"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Twist gently",
+        "ur": "آرام سے موڑیں",
+        "ar": "لف بلطف",
+        "fr": "Tournez doucement"
+      },
+      "INTERMEDIATE": {
+        "en": "Use snips",
+        "ur": "قینچی استعمال کریں",
+        "ar": "استخدم مقص",
+        "fr": "Utilisez des ciseaux"
+      },
+      "EXPERT": {
+        "en": "Pick at brekaer stage",
+        "ur": "صحیح وقت پر توڑیں",
+        "ar": "اقطف في الوقت المناسب",
+        "fr": "Cueillez à temps"
+      }
+    },
+    "storage": {
+      "en": "Room temp",
+      "ur": "کمرے کا درجہ حرارت",
+      "ar": "درجة حرارة الغرفة",
+      "fr": "Température ambiante"
+    },
+    "yieldEstimateKg": {
+      "10L": 2,
+      "20L": 4,
+      "30L": 6,
+      "GROUND": 8
+    }
+  }
+}
