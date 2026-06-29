@@ -1,0 +1,1598 @@
+{
+  "id": "chili-pepper",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1577717903184-d7547779f33b?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Chili Pepper",
+      "alternate": [
+        "Chilli",
+        "Hot Pepper"
+      ]
+    },
+    "ur": {
+      "common": "مرچ",
+      "alternate": [
+        "لال مرچ",
+        "ہری مرچ"
+      ]
+    },
+    "ar": {
+      "common": "فلفل حار",
+      "alternate": [
+        "شطة",
+        "فلفل حار"
+      ]
+    },
+    "fr": {
+      "common": "Piment",
+      "alternate": [
+        "Piment fort",
+        "Piment chili"
+      ]
+    },
+    "botanical": "Capsicum annuum",
+    "aliases": [
+      "chilli",
+      "hot pepper",
+      "aji",
+      "paprika",
+      "mirch",
+      "shatta",
+      "piment fort"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "fruiting",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 25,
+    "slowGrowthBelowC": 18,
+    "rainSkipWateringMm": 8
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 10,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "BUSH",
+    "UPRIGHT",
+    "DWARF",
+    "TRAILING"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "BUSH": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Compact, bushy growth. Good for containers and smaller spaces. May need light staking when laden with fruit.",
+          "ur": "چھوٹی، جھاڑی دار نشوونما۔ گملوں اور چھوٹی جگہوں کے لیے بہترین۔ پھلوں سے لدے ہونے پر ہلکی سہارے کی ضرورت پڑ سکتی ہے۔",
+          "ar": "نمو كثيف ومضغوط. جيد للأواني والمساحات الصغيرة. قد يحتاج إلى دعم خفيف عند حمل الفاكهة.",
+          "fr": "Croissance compacte et buissonnante. Idéal pour les conteneurs et les petits espaces. Peut nécessiter un léger tuteurage lorsqu'il est chargé de fruits."
+        }
+      },
+      "UPRIGHT": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Taller, more columnar growth. Often requires staking or support, especially for heavy fruit loads.",
+          "ur": "لمبی، زیادہ سیدھی نشوونما۔ اکثر سہارے کی ضرورت ہوتی ہے، خاص طور پر زیادہ پھلوں کے لیے۔",
+          "ar": "نمو أطول وأكثر عمودية. غالبًا ما يتطلب دعامة أو دعمًا، خاصة للأحمال الثقيلة من الفاكهة.",
+          "fr": "Croissance plus haute et plus colonnaire. Nécessite souvent un tuteurage ou un support, surtout pour les charges de fruits lourdes."
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": true,
+    "triggers": [
+      {
+        "en": "Triggered during low wind/high humidity by vibrating flowers",
+        "ur": "کم ہوا یا زیادہ نمی میں پھولوں کو ہلانا",
+        "ar": "يهتز أثناء الرياح الخفيفة/الرطوبة العالية",
+        "fr": "Déclenché par temps calme ou très humide en touchant les fleurs"
+      }
+    ]
+  },
+  "tags": [
+    "summer",
+    "fruiting",
+    "container-friendly",
+    "spicy",
+    "warm-season"
+  ],
+  "temperature": {
+    "optimalMinC": 21,
+    "optimalMaxC": 32,
+    "survivalMinC": 10,
+    "survivalMaxC": 38,
+    "germinationMinC": 20,
+    "germinationOptimalC": 28,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 15
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 90,
+    "requiredGDD": 1500,
+    "baseTempC": 15,
+    "plantingConditions": {
+      "soilTempMinC": 18,
+      "airTempMinC": 20
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": 12,
+      "frostWarningC": 2,
+      "heavyRainMm": 25,
+      "highWindKmh": 35,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 900,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent Moisture",
+    "soilMoisturePreference": "Keep soil consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "High during flowering and fruiting",
+    "rootRotRisk": "High if soil remains soggy",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf curling",
+      "flower drop",
+      "stunted growth",
+      "small fruits"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot",
+      "fungal issues"
+    ],
+    "preferredWateringMethod": "Deep root watering, drip irrigation",
+    "thingsToAvoid": [
+      "water on leaves (can cause fungal issues)",
+      "standing water",
+      "shallow frequent watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium to deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "regulate soil temperature",
+      "suppress weeds",
+      "reduce fungal splash"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Ensure good drainage. Larger pots for larger varieties.",
+        "ur": "اچھی نکاسی کو یقینی بنائیں۔ بڑی اقسام کے لیے بڑے گملے استعمال کریں۔",
+        "ar": "تأكد من الصرف الجيد. أواني أكبر للأصناف الأكبر.",
+        "fr": "Assurez un bon drainage. Des pots plus grands pour les variétés plus grandes."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.6,
+      "notes": {
+        "en": "Excellent for aeration and drainage.",
+        "ur": "ہوا اور نکاسی کے لیے بہترین۔",
+        "ar": "ممتاز للتهوية والصرف.",
+        "fr": "Excellent pour l'aération et le drainage."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Requires well-draining soil and good spacing.",
+        "ur": "اچھی نکاسی والی مٹی اور مناسب فاصلہ درکار ہے۔",
+        "ar": "يتطلب تربة جيدة التصريف ومسافات جيدة.",
+        "fr": "Nécessite un sol bien drainé et un bon espacement."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 25,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.1,
+      "notes": {
+        "en": "Provides excellent drainage and soil control.",
+        "ur": "بہترین نکاسی اور مٹی کا کنٹرول فراہم کرتا ہے۔",
+        "ar": "يوفر صرفًا ممتازًا وتحكمًا في التربة.",
+        "fr": "Offre un excellent drainage et un bon contrôle du sol."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Seed sowing for chili peppers",
+        "ur": "مرچ کے بیج بونا",
+        "ar": "بذر بذور الفلفل الحار",
+        "fr": "Semis des graines de piment"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand for good drainage.",
+              "ur": "اچھی نکاسی کے لیے 50% مٹی، 30% کھاد، 20% ریت ملائیں۔",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل لتصريف جيد.",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable pour un bon drainage."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure well-draining seed starting mix, add perlite if needed.",
+              "ur": "یقینی بنائیں کہ بیج شروع کرنے والا مکس اچھی طرح سے نکاسی والا ہو، اگر ضرورت ہو تو پرلائٹ شامل کریں۔",
+              "ar": "تأكد من خليط بذر جيد التصريف، أضف البيرلايت إذا لزم الأمر.",
+              "fr": "Assurez un mélange de semis bien drainant, ajoutez de la perlite si nécessaire."
+            },
+            "EXPERT": {
+              "en": "Sterilize seed starting mix and check pH (6.0-6.8).",
+              "ur": "بیج شروع کرنے والے مکس کو جراثیم سے پاک کریں اور پی ایچ (6.0-6.8) چیک کریں۔",
+              "ar": "عقم خليط بذر البذور وتحقق من درجة الحموضة (6.0-6.8).",
+              "fr": "Stérilisez le mélange de semis et vérifiez le pH (6.0-6.8)."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep in small pots or seed trays.",
+              "ur": "بیجوں کو چھوٹے گملوں یا سیڈ ٹرے میں 1/4 انچ گہرائی میں بوئیں۔",
+              "ar": "ازرع البذور بعمق 1/4 بوصة في أواني صغيرة أو صواني بذور.",
+              "fr": "Semez les graines à 1/4 de pouce de profondeur dans de petits pots ou des plateaux de semis."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2 seeds per cell, 1/4 inch deep, cover lightly.",
+              "ur": "ہر خانے میں 2 بیج 1/4 انچ گہرائی میں بوئیں، ہلکے سے ڈھانپیں۔",
+              "ar": "ازرع بذرتين في كل خلية، بعمق 1/4 بوصة، وغطها برفق.",
+              "fr": "Plantez 2 graines par cellule, à 1/4 de pouce de profondeur, couvrez légèrement."
+            },
+            "EXPERT": {
+              "en": "Pre-soak seeds for 8-12 hours before sowing 1/4\" deep.",
+              "ur": "بونے سے پہلے بیجوں کو 8-12 گھنٹے تک بھگو دیں پھر 1/4 انچ گہرائی میں بوئیں۔",
+              "ar": "انقع البذور لمدة 8-12 ساعة قبل الزراعة بعمق 1/4 بوصة.",
+              "fr": "Faites tremper les graines pendant 8 à 12 heures avant de semer à 1/4 de pouce de profondeur."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی کونپلوں کو چیک کریں۔",
+              "ar": "تحقق من ظهور البراعم الصغيرة من التربة.",
+              "fr": "Vérifiez l'apparition de petites pousses du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for consistent moisture and signs of germination.",
+              "ur": "مستقل نمی اور انکرن کی علامات کی نگرانی کریں۔",
+              "ar": "راقب الرطوبة المستمرة وعلامات الإنبات.",
+              "fr": "Surveillez l'humidité constante et les signes de germination."
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination and remove any weak seedlings.",
+              "ur": "یکساں انکرن کا معائنہ کریں اور کسی بھی کمزور پودے کو ہٹا دیں۔",
+              "ar": "افحص الإنبات الموحد وأزل أي شتلات ضعيفة.",
+              "fr": "Inspectez la germination uniforme et retirez les jeunes plants faibles."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface to keep it moist.",
+              "ur": "مٹی کی سطح کو نم رکھنے کے لیے چھڑکاؤ کریں۔",
+              "ar": "رش سطح التربة للحفاظ عليها رطبة.",
+              "fr": "Vaporisez la surface du sol pour la maintenir humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the seed starting mix consistently moist, not waterlogged.",
+              "ur": "بیج شروع کرنے والے مکس کو مسلسل نم رکھیں، پانی سے بھرا ہوا نہیں۔",
+              "ar": "حافظ على خليط بذر البذور رطباً باستمرار، وليس مشبعاً بالماء.",
+              "fr": "Maintenez le mélange de semis constamment humide, pas détrempé."
+            },
+            "EXPERT": {
+              "en": "Use a humidity dome and bottom watering to maintain optimal moisture.",
+              "ur": "بہترین نمی برقرار رکھنے کے لیے نمی کا گنبد اور نیچے سے پانی دیں۔",
+              "ar": "استخدم قبة رطوبة والري السفلي للحفاظ على الرطوبة المثلى.",
+              "fr": "Utilisez un dôme d'humidité et un arrosage par le bas pour maintenir une humidité optimale."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Chili pepper sprouts appear",
+        "ur": "مرچ کی کونپلیں نکلنا",
+        "ar": "ظهور براعم الفلفل الحار",
+        "fr": "Apparition des pousses de piment"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour ne pas déranger les pousses délicates."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil moist but not soggy, allowing slight drying between waterings.",
+              "ur": "مٹی کو نم رکھیں لیکن گیلی نہ ہو، پانی دینے کے درمیان ہلکا خشک ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة ولكن ليس مشبعة بالماء، مما يسمح بالجفاف الطفيف بين الريات.",
+              "fr": "Gardez le sol humide mais pas détrempé, en laissant sécher légèrement entre les arrosages."
+            },
+            "EXPERT": {
+              "en": "Monitor root development and adjust watering to encourage strong growth.",
+              "ur": "جڑوں کی نشوونما کی نگرانی کریں اور مضبوط نشوونما کی حوصلہ افزائی کے لیے پانی کو ایڈجسٹ کریں۔",
+              "ar": "راقب نمو الجذور واضبط الري لتشجيع النمو القوي.",
+              "fr": "Surveillez le développement des racines et ajustez l'arrosage pour favoriser une croissance forte."
+            }
+          }
+        },
+        "light": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide bright, indirect light for your seedlings.",
+              "ur": "اپنے پودوں کو روشن، بالواسطہ روشنی فراہم کریں۔",
+              "ar": "وفر ضوءًا ساطعًا وغير مباشر لشتلاتك.",
+              "fr": "Fournissez une lumière vive et indirecte à vos semis."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure 12-16 hours of light per day, using grow lights if natural light is insufficient.",
+              "ur": "یقینی بنائیں کہ روزانہ 12-16 گھنٹے روشنی ملے، اگر قدرتی روشنی ناکافی ہو تو گرو لائٹس استعمال کریں۔",
+              "ar": "تأكد من 12-16 ساعة من الضوء يوميًا، باستخدام أضواء النمو إذا كان الضوء الطبيعي غير كافٍ.",
+              "fr": "Assurez 12 à 16 heures de lumière par jour, en utilisant des lampes de croissance si la lumière naturelle est insuffisante."
+            },
+            "EXPERT": {
+              "en": "Position grow lights 2-4 inches above seedlings to prevent legginess.",
+              "ur": "پودوں کو لمبا ہونے سے روکنے کے لیے گرو لائٹس کو 2-4 انچ اوپر رکھیں۔",
+              "ar": "ضع أضواء النمو 2-4 بوصات فوق الشتلات لمنع استطالتها.",
+              "fr": "Positionnez les lampes de croissance à 2-4 pouces au-dessus des semis pour éviter l'étiolement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 28,
+      "durationDaysWarm": 21,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Chili pepper true leaves form",
+        "ur": "مرچ کے اصلی پتے بننا",
+        "ar": "تكون الأوراق الحقيقية للفلفل الحار",
+        "fr": "Formation des vraies feuilles de piment"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "When seedlings have 2-3 sets of true leaves, move to larger pots.",
+              "ur": "جب پودوں میں 2-3 اصلی پتوں کے سیٹ ہوں، تو انہیں بڑے گملوں میں منتقل کریں۔",
+              "ar": "عندما تحتوي الشتلات على 2-3 مجموعات من الأوراق الحقيقية، انقلها إلى أواني أكبر.",
+              "fr": "Lorsque les semis ont 2-3 paires de vraies feuilles, déplacez-les dans des pots plus grands."
+            },
+            "INTERMEDIATE": {
+              "en": "Harden off seedlings for a week before transplanting outdoors.",
+              "ur": "بیرونی منتقلی سے پہلے ایک ہفتے کے لیے پودوں کو سخت کریں۔",
+              "ar": "قم بتقوية الشتلات لمدة أسبوع قبل زرعها في الخارج.",
+              "fr": "Endurcissez les semis pendant une semaine avant de les transplanter à l'extérieur."
+            },
+            "EXPERT": {
+              "en": "Transplant when soil temperatures are consistently above 60°F (15°C).",
+              "ur": "جب مٹی کا درجہ حرارت مسلسل 60°F (15°C) سے اوپر ہو تو منتقل کریں۔",
+              "ar": "انقل الشتلات عندما تكون درجة حرارة التربة أعلى من 15 درجة مئوية (60 درجة فهرنهايت) باستمرار.",
+              "fr": "Transplantez lorsque les températures du sol sont constamment supérieures à 15°C (60°F)."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water the base of the plant, avoiding wetting the leaves.",
+              "ur": "پودے کی جڑ میں پانی دیں، پتوں کو گیلا کرنے سے گریز کریں۔",
+              "ar": "اسقِ قاعدة النبات، وتجنب تبليل الأوراق.",
+              "fr": "Arrosez la base de la plante, en évitant de mouiller les feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow the top inch of soil to dry out slightly between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کی اوپری ایک انچ کو ہلکا خشک ہونے دیں۔",
+              "ar": "دع الطبقة العلوية من التربة تجف قليلاً بين الريات.",
+              "fr": "Laissez le pouce supérieur du sol sécher légèrement entre les arrosages."
+            },
+            "EXPERT": {
+              "en": "Deep water to encourage strong root development, checking soil moisture with a finger.",
+              "ur": "مضبوط جڑوں کی نشوونما کی حوصلہ افزائی کے لیے گہرا پانی دیں، انگلی سے مٹی کی نمی چیک کریں۔",
+              "ar": "اسقِ بعمق لتشجيع نمو الجذور القوي، وتحقق من رطوبة التربة بإصبعك.",
+              "fr": "Arrosez profondément pour encourager un fort développement racinaire, en vérifiant l'humidité du sol avec un doigt."
+            }
+          }
+        },
+        "fertilizing": {
+          "required": false,
+          "dayOffset": 14,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Feed with a diluted liquid fertilizer once true leaves appear.",
+              "ur": "اصلی پتے نکلنے کے بعد ایک بار پتلی مائع کھاد دیں۔",
+              "ar": "قم بالتسميد بسماد سائل مخفف بمجرد ظهور الأوراق الحقيقية.",
+              "fr": "Fertilisez avec un engrais liquide dilué une fois que les vraies feuilles apparaissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a balanced liquid fertilizer (e.g., 5-1-1) at half strength every two weeks.",
+              "ur": "ہر دو ہفتے بعد آدھی طاقت پر متوازن مائع کھاد (مثلاً 5-1-1) استعمال کریں۔",
+              "ar": "استخدم سمادًا سائلًا متوازنًا (مثل 5-1-1) بنصف القوة كل أسبوعين.",
+              "fr": "Appliquez un engrais liquide équilibré (par exemple, 5-1-1) à demi-dose toutes les deux semaines."
+            },
+            "EXPERT": {
+              "en": "Use a weak fish emulsion or seaweed extract to promote healthy growth.",
+              "ur": "صحت مند نشوونما کو فروغ دینے کے لیے کمزور مچھلی کا امولشن یا سمندری سوار کا عرق استعمال کریں۔",
+              "ar": "استخدم مستحلب سمك ضعيف أو مستخلص أعشاب بحرية لتعزيز النمو الصحي.",
+              "fr": "Utilisez une émulsion de poisson faible ou un extrait d'algues pour favoriser une croissance saine."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 40,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 50,
+      "description": {
+        "en": "Rapid growth and bushiness for chili peppers",
+        "ur": "مرچوں کی تیز نشوونما اور جھاڑی نما بننا",
+        "ar": "نمو سريع وتفرع للفلفل الحار",
+        "fr": "Croissance rapide et buissonnement des piments"
+      },
+      "emoji": "🌶️🌿",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Spray Neem Oil if you see any bugs on the leaves.",
+              "ur": "اگر پتوں پر کوئی کیڑے نظر آئیں تو نیم کا تیل چھڑکیں۔",
+              "ar": "رش زيت النيم إذا رأيت أي حشرات على الأوراق.",
+              "fr": "Pulvérisez de l'huile de neem si vous voyez des insectes sur les feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply an organic pest spray preventatively every two weeks.",
+              "ur": "ہر دو ہفتے بعد احتیاطی طور پر نامیاتی کیڑے مار دوا کا چھڑکاؤ کریں۔",
+              "ar": "استخدم رذاذًا عضويًا لمكافحة الآفات بشكل وقائي كل أسبوعين.",
+              "fr": "Appliquez un spray anti-parasitaire biologique préventivement toutes les deux semaines."
+            },
+            "EXPERT": {
+              "en": "Implement an Integrated Pest Management (IPM) strategy, rotating organic sprays.",
+              "ur": "ایک مربوط کیڑے مار انتظام (IPM) کی حکمت عملی نافذ کریں، نامیاتی سپرے کو گھماتے رہیں۔",
+              "ar": "طبق استراتيجية إدارة متكاملة للآفات (IPM)، مع تناوب الرش العضوي.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM), en alternant les sprays biologiques."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for discoloration, holes, or small insects.",
+              "ur": "پتوں کو رنگت کی تبدیلی، سوراخوں یا چھوٹے کیڑوں کے لیے چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن تغير اللون أو الثقوب أو الحشرات الصغيرة.",
+              "fr": "Vérifiez les feuilles pour la décoloration, les trous ou les petits insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Look under leaves for aphids, spider mites, and early signs of disease.",
+              "ur": "پتوں کے نیچے ایفڈز، مکڑی کے کیڑے اور بیماری کے ابتدائی آثار تلاش کریں۔",
+              "ar": "ابحث تحت الأوراق عن المن، وعث العنكبوت، والعلامات المبكرة للمرض.",
+              "fr": "Recherchez sous les feuilles les pucerons, les tétranyques et les premiers signes de maladie."
+            },
+            "EXPERT": {
+              "en": "Thoroughly inspect for pest eggs, fungal spots, and nutrient deficiencies.",
+              "ur": "کیڑوں کے انڈوں، فنگل دھبوں اور غذائی اجزاء کی کمی کے لیے اچھی طرح معائنہ کریں۔",
+              "ar": "افحص بدقة بحثًا عن بيض الآفات، والبقع الفطرية، ونقص المغذيات.",
+              "fr": "Inspectez minutieusement les œufs de ravageurs, les taches fongiques et les carences nutritionnelles."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Spider Mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس العنكبوت",
+              "fr": "Acariens"
+            },
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            }
+          ]
+        },
+        "pruning": {
+          "required": false,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off the main stem tip (topping) to encourage a bushier plant.",
+              "ur": "جھاڑی نما پودے کی حوصلہ افزائی کے لیے مرکزی تنے کی نوک کو چٹکی سے کاٹ دیں۔",
+              "ar": "اقطع طرف الساق الرئيسي (التقليم العلوي) لتشجيع نبات أكثر كثافة.",
+              "fr": "Pincez l'extrémité de la tige principale (étêtage) pour encourager une plante plus buissonnante."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove any leaves touching the soil to prevent disease.",
+              "ur": "بیماری سے بچنے کے لیے مٹی کو چھونے والے کسی بھی پتے کو ہٹا دیں۔",
+              "ar": "أزل أي أوراق تلامس التربة لمنع الأمراض.",
+              "fr": "Retirez toutes les feuilles touchant le sol pour prévenir les maladies."
+            },
+            "EXPERT": {
+              "en": "Strategically prune for air circulation and light penetration, removing inward-growing branches.",
+              "ur": "ہوا کی گردش اور روشنی کے داخلے کے لیے حکمت عملی سے چھانٹیں، اندر کی طرف بڑھنے والی شاخوں کو ہٹا دیں۔",
+              "ar": "قم بتقليم استراتيجيًا لتهوية الهواء واختراق الضوء، مع إزالة الفروع النامية للداخل.",
+              "fr": "Taillez stratégiquement pour la circulation de l'air et la pénétration de la lumière, en retirant les branches poussant vers l'intérieur."
+            }
+          }
+        },
+        "support": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "As the plant grows, provide a stake or small cage for support.",
+              "ur": "جیسے جیسے پودا بڑھتا ہے، سہارے کے لیے ایک لکڑی یا چھوٹا پنجرہ فراہم کریں۔",
+              "ar": "مع نمو النبات، وفر دعامة أو قفصًا صغيرًا للدعم.",
+              "fr": "À mesure que la plante grandit, fournissez un tuteur ou une petite cage pour le soutien."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a sturdy tomato cage or trellis system to support heavy fruit loads.",
+              "ur": "بھاری پھلوں کے بوجھ کو سہارا دینے کے لیے ایک مضبوط ٹماٹر کا پنجرہ یا ٹریلس سسٹم استعمال کریں۔",
+              "ar": "استخدم قفص طماطم قويًا أو نظام تعريشة لدعم أحمال الفاكهة الثقيلة.",
+              "fr": "Utilisez une cage à tomates robuste ou un système de treillis pour supporter les lourdes charges de fruits."
+            },
+            "EXPERT": {
+              "en": "Train branches onto a trellis or use a Florida weave method for optimal support.",
+              "ur": "شاخوں کو ٹریلس پر تربیت دیں یا بہترین سہارے کے لیے فلوریڈا ویو طریقہ استعمال کریں۔",
+              "ar": "درب الفروع على تعريشة أو استخدم طريقة فلوريدا وييف للدعم الأمثل.",
+              "fr": "Dressez les branches sur un treillis ou utilisez la méthode du tressage floridien pour un soutien optimal."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری ایک انچ خشک محسوس ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque le pouce supérieur du sol semble sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture to prevent stress, which can lead to flower drop.",
+              "ur": "تناؤ کو روکنے کے لیے مستقل نمی برقرار رکھیں، جو پھولوں کے گرنے کا سبب بن سکتا ہے۔",
+              "ar": "حافظ على رطوبة ثابتة لمنع الإجهاد، الذي يمكن أن يؤدي إلى تساقط الأزهار.",
+              "fr": "Maintenez une humidité constante pour éviter le stress, qui peut entraîner la chute des fleurs."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a meter and adjust watering based on plant vigor and weather.",
+              "ur": "مٹی کی نمی کو میٹر سے مانیٹر کریں اور پودے کی طاقت اور موسم کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "راقب رطوبة التربة بمقياس واضبط الري بناءً على حيوية النبات والطقس.",
+              "fr": "Surveillez l'humidité du sol avec un humidimètre et ajustez l'arrosage en fonction de la vigueur de la plante et de la météo."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use a general-purpose fertilizer every two weeks.",
+              "ur": "ہر دو ہفتے بعد ایک عام مقصد کی کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا متعدد الأغراض كل أسبوعين.",
+              "fr": "Utilisez un engrais universel toutes les deux semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a balanced NPK fertilizer (e.g., 5-10-10) to support vegetative growth.",
+              "ur": "نباتاتی نشوونما کو سہارا دینے کے لیے متوازن NPK کھاد (مثلاً 5-10-10) استعمال کریں۔",
+              "ar": "استخدم سماد NPK متوازنًا (مثل 5-10-10) لدعم النمو الخضري.",
+              "fr": "Appliquez un engrais NPK équilibré (par exemple, 5-10-10) pour soutenir la croissance végétative."
+            },
+            "EXPERT": {
+              "en": "Monitor leaf color and growth rate to adjust nitrogen levels as needed.",
+              "ur": "پتوں کا رنگ اور نشوونما کی شرح کی نگرانی کریں تاکہ ضرورت کے مطابق نائٹروجن کی سطح کو ایڈجسٹ کیا جا سکے۔",
+              "ar": "راقب لون الأوراق ومعدل النمو لضبط مستويات النيتروجين حسب الحاجة.",
+              "fr": "Surveillez la couleur des feuilles et le taux de croissance pour ajuster les niveaux d'azote si nécessaire."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Chili pepper flowers bloom and set fruit",
+        "ur": "مرچ کے پھول کھلنا اور پھل لگنا",
+        "ar": "أزهار الفلفل الحار تتفتح وتثمر",
+        "fr": "Floraison et nouaison des piments"
+      },
+      "emoji": "🌼",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue spraying Neem Oil if pests are observed, especially on flowers.",
+              "ur": "اگر کیڑے نظر آئیں تو نیم کا تیل چھڑکنا جاری رکھیں، خاص طور پر پھولوں پر۔",
+              "ar": "استمر في رش زيت النيم إذا لوحظت آفات، خاصة على الأزهار.",
+              "fr": "Continuez à pulvériser de l'huile de neem si des parasites sont observés, surtout sur les fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Focus on organic pest control methods that are safe for pollinators.",
+              "ur": "جرگوں کے لیے محفوظ نامیاتی کیڑے مار طریقوں پر توجہ دیں۔",
+              "ar": "ركز على طرق مكافحة الآفات العضوية الآمنة للملقحات.",
+              "fr": "Concentrez-vous sur les méthodes de lutte antiparasitaire biologique sans danger pour les pollinisateurs."
+            },
+            "EXPERT": {
+              "en": "Monitor for thrips and other flower-damaging pests, using targeted biological controls.",
+              "ur": "تھرپس اور پھولوں کو نقصان پہنچانے والے دیگر کیڑوں کی نگرانی کریں، ہدف شدہ حیاتیاتی کنٹرول استعمال کریں۔",
+              "ar": "راقب التربس والآفات الأخرى التي تلحق الضرر بالزهور، باستخدام ضوابط بيولوجية مستهدفة.",
+              "fr": "Surveillez les thrips et autres ravageurs endommageant les fleurs, en utilisant des contrôles biologiques ciblés."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for flowers dropping off, which can indicate stress.",
+              "ur": "پھولوں کے گرنے کی جانچ کریں، جو تناؤ کی نشاندہی کر سکتا ہے۔",
+              "ar": "تحقق من تساقط الأزهار، مما قد يشير إلى الإجهاد.",
+              "fr": "Vérifiez la chute des fleurs, ce qui peut indiquer un stress."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for powdery mildew on leaves and stems, and signs of blossom end rot.",
+              "ur": "پتوں اور تنوں پر پاؤڈری پھپھوندی اور پھولوں کے سرے کے سڑنے کی علامات تلاش کریں۔",
+              "ar": "ابحث عن البياض الدقيقي على الأوراق والسيقان، وعلامات تعفن الطرف الزهري.",
+              "fr": "Recherchez l'oïdium sur les feuilles et les tiges, et les signes de pourriture apicale."
+            },
+            "EXPERT": {
+              "en": "Inspect for early signs of nutrient deficiencies affecting flower and fruit set.",
+              "ur": "پھول اور پھل کے سیٹ کو متاثر کرنے والی غذائی اجزاء کی کمی کے ابتدائی آثار کا معائنہ کریں۔",
+              "ar": "افحص بحثًا عن العلامات المبكرة لنقص المغذيات التي تؤثر على الإزهار وتكوين الثمار.",
+              "fr": "Inspectez les premiers signes de carences nutritionnelles affectant la floraison et la nouaison."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Spider Mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس العنكبوت",
+              "fr": "Acariens"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            },
+            {
+              "en": "Flower Drop",
+              "ur": "پھولوں کا گرنا",
+              "ar": "تساقط الأزهار",
+              "fr": "Chute des fleurs"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent watering to support flower and fruit development.",
+              "ur": "پھول اور پھل کی نشوونما کو سہارا دینے کے لیے مستقل پانی دیں۔",
+              "ar": "حافظ على ري ثابت لدعم نمو الأزهار والثمار.",
+              "fr": "Maintenez un arrosage constant pour soutenir le développement des fleurs et des fruits."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid extreme fluctuations in moisture, which can cause blossom drop.",
+              "ur": "نمی میں شدید اتار چڑھاؤ سے گریز کریں، جو پھولوں کے گرنے کا سبب بن سکتا ہے۔",
+              "ar": "تجنب التقلبات الشديدة في الرطوبة، والتي يمكن أن تسبب تساقط الأزهار.",
+              "fr": "Évitez les fluctuations extrêmes d'humidité, qui peuvent provoquer la chute des fleurs."
+            },
+            "EXPERT": {
+              "en": "Ensure even moisture distribution to prevent stress and promote optimal fruit set.",
+              "ur": "تناؤ کو روکنے اور بہترین پھل سیٹ کو فروغ دینے کے لیے یکساں نمی کی تقسیم کو یقینی بنائیں۔",
+              "ar": "تأكد من توزيع الرطوبة بالتساوي لمنع الإجهاد وتعزيز تكوين الثمار الأمثل.",
+              "fr": "Assurez une répartition uniforme de l'humidité pour prévenir le stress et favoriser une nouaison optimale."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Switch to a 'bloom' or 'fruit' fertilizer to encourage fruit set.",
+              "ur": "پھل لگنے کی حوصلہ افزائی کے لیے 'بلوم' یا 'پھل' کھاد پر سوئچ کریں۔",
+              "ar": "انتقل إلى سماد 'الإزهار' أو 'الثمار' لتشجيع تكوين الثمار.",
+              "fr": "Passez à un engrais 'floraison' ou 'fruits' pour encourager la nouaison."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a fertilizer higher in phosphorus and potassium (e.g., 2-8-4).",
+              "ur": "فاسفورس اور پوٹاشیم میں زیادہ کھاد (مثلاً 2-8-4) استعمال کریں۔",
+              "ar": "استخدم سمادًا غنيًا بالفوسفور والبوتاسيوم (مثل 2-8-4).",
+              "fr": "Appliquez un engrais plus riche en phosphore et en potassium (par exemple, 2-8-4)."
+            },
+            "EXPERT": {
+              "en": "Consider foliar feeding with calcium and magnesium to prevent blossom end rot.",
+              "ur": "پھولوں کے سرے کے سڑنے کو روکنے کے لیے کیلشیم اور میگنیشیم کے ساتھ پتوں کو کھاد دینے پر غور کریں۔",
+              "ar": "فكر في التسميد الورقي بالكالسيوم والمغنيسيوم لمنع تعفن الطرف الزهري.",
+              "fr": "Envisagez une fertilisation foliaire avec du calcium et du magnésium pour prévenir la pourriture apicale."
+            }
+          }
+        },
+        "pollination": {
+          "required": false,
+          "dayOffset": 7,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently shake the plant or tap flowers daily to aid pollination.",
+              "ur": "پولینیشن میں مدد کے لیے روزانہ پودے کو آہستہ سے ہلائیں یا پھولوں کو تھپتھپائیں۔",
+              "ar": "هز النبات بلطف أو انقر على الأزهار يوميًا للمساعدة في التلقيح.",
+              "fr": "Secouez doucement la plante ou tapotez les fleurs quotidiennement pour faciliter la pollinisation."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a small, soft brush to transfer pollen between flowers for better fruit set.",
+              "ur": "بہتر پھل لگنے کے لیے پھولوں کے درمیان پولن منتقل کرنے کے لیے ایک چھوٹا، نرم برش استعمال کریں۔",
+              "ar": "استخدم فرشاة صغيرة وناعمة لنقل حبوب اللقاح بين الأزهار لتحسين تكوين الثمار.",
+              "fr": "Utilisez une petite brosse douce pour transférer le pollen entre les fleurs pour une meilleure nouaison."
+            },
+            "EXPERT": {
+              "en": "Ensure good air circulation and optimal humidity (50-70%) for natural pollination.",
+              "ur": "قدرتی پولینیشن کے لیے اچھی ہوا کی گردش اور بہترین نمی (50-70%) کو یقینی بنائیں۔",
+              "ar": "تأكد من تهوية جيدة ورطوبة مثالية (50-70%) للتلقيح الطبيعي.",
+              "fr": "Assurez une bonne circulation de l'air et une humidité optimale (50-70%) pour une pollinisation naturelle."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 50,
+      "durationDaysCool": 70,
+      "description": {
+        "en": "Chili pepper fruits develop and ripen",
+        "ur": "مرچ کے پھل بننا اور پکنا",
+        "ar": "ثمار الفلفل الحار تتطور وتنضج",
+        "fr": "Développement et maturation des piments"
+      },
+      "emoji": "🌶️",
+      "tips": [],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check peppers for any signs of rot or discoloration.",
+              "ur": "مرچوں کو سڑنے یا رنگت کی تبدیلی کی کسی بھی علامت کے لیے چیک کریں۔",
+              "ar": "تحقق من الفلفل بحثًا عن أي علامات تعفن أو تغير في اللون.",
+              "fr": "Vérifiez les piments pour tout signe de pourriture ou de décoloration."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for blossom end rot (dark sunken spots) and sunscald (white patches).",
+              "ur": "پھولوں کے سرے کے سڑنے (گہرے دھبے) اور سورج کی جلن (سفید دھبے) تلاش کریں۔",
+              "ar": "ابحث عن تعفن الطرف الزهري (بقع غائرة داكنة) وحروق الشمس (بقع بيضاء).",
+              "fr": "Recherchez la pourriture apicale (taches sombres et enfoncées) et les coups de soleil (taches blanches)."
+            },
+            "EXPERT": {
+              "en": "Monitor fruit for pest boring, fungal spots, and consistent ripening.",
+              "ur": "پھلوں کو کیڑوں کے سوراخ، فنگل دھبوں اور مستقل پکنے کے لیے مانیٹر کریں۔",
+              "ar": "راقب الثمار بحثًا عن ثقوب الآفات، والبقع الفطرية، والنضج المتسق.",
+              "fr": "Surveillez les fruits pour les perforations de ravageurs, les taches fongiques et une maturation constante."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Blossom End Rot",
+              "ur": "بلاسّم اینڈ روٹ",
+              "ar": "تعفن الطرف الزهري",
+              "fr": "Nécrose apicale"
+            },
+            {
+              "en": "Sunscald",
+              "ur": "سورج کی جلن",
+              "ar": "حروق الشمس",
+              "fr": "Coup de soleil"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water heavily and consistently to support fruit development.",
+              "ur": "پھل کی نشوونما کو سہارا دینے کے لیے بھاری اور مستقل پانی دیں۔",
+              "ar": "اسقِ بغزارة وباستمرار لدعم نمو الثمار.",
+              "fr": "Arrosez abondamment et constamment pour soutenir le développement des fruits."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep, consistent watering to prevent blossom end rot and fruit splitting.",
+              "ur": "پھولوں کے سرے کے سڑنے اور پھل کے پھٹنے کو روکنے کے لیے گہرا، مستقل پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق والمستمر لمنع تعفن الطرف الزهري وتشقق الثمار.",
+              "fr": "Assurez un arrosage profond et constant pour prévenir la pourriture apicale et le fendillement des fruits."
+            },
+            "EXPERT": {
+              "en": "Manage soil moisture carefully to avoid stress during hot periods, which can affect pungency.",
+              "ur": "گرم ادوار میں تناؤ سے بچنے کے لیے مٹی کی نمی کو احتیاط سے منظم کریں، جو تیزی کو متاثر کر سکتا ہے۔",
+              "ar": "أدر رطوبة التربة بعناية لتجنب الإجهاد خلال الفترات الحارة، مما قد يؤثر على حدة الطعم.",
+              "fr": "Gérez l'humidité du sol avec soin pour éviter le stress pendant les périodes chaudes, ce qui peut affecter la saveur piquante."
+            }
+          }
+        },
+        "sunProtection": {
+          "required": false,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide some shade for fruits during the hottest part of the day to prevent sunscald.",
+              "ur": "دن کے سب سے گرم حصے میں پھلوں کو سورج کی جلن سے بچانے کے لیے کچھ سایہ فراہم کریں۔",
+              "ar": "وفر بعض الظل للثمار خلال الجزء الأكثر حرارة من اليوم لمنع حروق الشمس.",
+              "fr": "Fournissez de l'ombre aux fruits pendant la partie la plus chaude de la journée pour éviter les coups de soleil."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a light shade cloth (30-40%) over plants during intense heat waves.",
+              "ur": "شدید گرمی کی لہروں کے دوران پودوں پر ہلکا سایہ دار کپڑا (30-40%) استعمال کریں۔",
+              "ar": "استخدم قماش تظليل خفيف (30-40%) فوق النباتات خلال موجات الحر الشديدة.",
+              "fr": "Utilisez un voile d'ombrage léger (30-40%) sur les plantes pendant les vagues de chaleur intenses."
+            },
+            "EXPERT": {
+              "en": "Optimize leaf canopy through strategic pruning to naturally protect developing fruits.",
+              "ur": "پتوں کی چھتری کو حکمت عملی سے چھانٹ کر ترقی پذیر پھلوں کو قدرتی طور پر بچانے کے لیے بہتر بنائیں۔",
+              "ar": "حسن مظلة الأوراق من خلال التقليم الاستراتيجي لحماية الثمار النامية بشكل طبيعي.",
+              "fr": "Optimisez la canopée foliaire par une taille stratégique pour protéger naturellement les fruits en développement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Chili peppers are ready for harvest",
+        "ur": "مرچیں کٹائی کے لیے تیار ہیں",
+        "ar": "الفلفل الحار جاهز للحصاد",
+        "fr": "Les piments sont prêts à être récoltés"
+      },
+      "emoji": "🧺🌶️",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pick peppers when they reach their full color and desired size.",
+              "ur": "مرچوں کو جب وہ مکمل رنگ اور مطلوبہ سائز پر پہنچ جائیں تو توڑ لیں۔",
+              "ar": "اقطف الفلفل عندما يصل إلى لونه الكامل وحجمه المطلوب.",
+              "fr": "Cueillez les piments lorsqu'ils atteignent leur pleine couleur et la taille désirée."
+            },
+            "INTERMEDIATE": {
+              "en": "Use clean pruning shears or a sharp knife to cut peppers from the plant, leaving a small stem.",
+              "ur": "پودے سے مرچوں کو کاٹنے کے لیے صاف کینچی یا تیز چاقو استعمال کریں، ایک چھوٹا تنا چھوڑ دیں۔",
+              "ar": "استخدم مقص تقليم نظيف أو سكينًا حادًا لقطع الفلفل من النبات، مع ترك ساق صغيرة.",
+              "fr": "Utilisez des sécateurs propres ou un couteau aiguisé pour couper les piments de la plante, en laissant une petite tige."
+            },
+            "EXPERT": {
+              "en": "Harvest regularly to encourage more fruit production; pick green peppers before frost.",
+              "ur": "زیادہ پھل کی پیداوار کی حوصلہ افزائی کے لیے باقاعدگی سے کٹائی کریں؛ ٹھنڈ پڑنے سے پہلے سبز مرچیں توڑ لیں۔",
+              "ar": "احصد بانتظام لتشجيع إنتاج المزيد من الثمار؛ اقطف الفلفل الأخضر قبل الصقيع.",
+              "fr": "Récoltez régulièrement pour encourager une plus grande production de fruits ; cueillez les piments verts avant le gel."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue regular watering, but you can slightly reduce it towards the end of the season.",
+              "ur": "باقاعدہ پانی دینا جاری رکھیں، لیکن موسم کے اختتام کی طرف اسے تھوڑا کم کر سکتے ہیں۔",
+              "ar": "استمر في الري المنتظم، ولكن يمكنك تقليله قليلاً نحو نهاية الموسم.",
+              "fr": "Continuez un arrosage régulier, mais vous pouvez le réduire légèrement vers la fin de la saison."
+            },
+            "INTERMEDIATE": {
+              "en": "Slightly reduce watering to concentrate flavors in the ripening peppers.",
+              "ur": "پکنے والی مرچوں میں ذائقوں کو مرکوز کرنے کے لیے پانی کو تھوڑا کم کریں۔",
+              "ar": "قلل الري قليلاً لتركيز النكهات في الفلفل الناضج.",
+              "fr": "Réduisez légèrement l'arrosage pour concentrer les saveurs dans les piments mûrissants."
+            },
+            "EXPERT": {
+              "en": "Implement a controlled drying period before the final harvest to intensify heat and flavor.",
+              "ur": "آخری کٹائی سے پہلے گرمی اور ذائقہ کو تیز کرنے کے لیے ایک کنٹرول شدہ خشک کرنے کی مدت نافذ کریں۔",
+              "ar": "طبق فترة تجفيف متحكم بها قبل الحصاد النهائي لتكثيف الحرارة والنكهة.",
+              "fr": "Mettez en œuvre une période de séchage contrôlée avant la récolte finale pour intensifier la chaleur et la saveur."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے۔"
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست",
+          "fr": "Thé de compost"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "اخلط",
+          "fr": "Mélangez"
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Rich in Nitrogen, supports vigorous leaf and stem growth before flowers begin to form.",
+          "ur": "یہ نائٹروجن سے بھرپور ہے، جو پودے کے پتوں اور تنے کی بہترین نشوونما کرتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب",
+          "fr": "Poudre d'os & cendre"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر على السطح",
+          "fr": "Surfacez"
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts blossom production and provides crucial nutrients for fruit set.",
+          "ur": "یہ پھولوں کی پیداوار بڑھاتا ہے اور پھل لگنے کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Crushed Eggshells",
+          "ur": "کیلے کے چھلکے کی چائے اور پسے ہوئے انڈے کے چھلکے",
+          "ar": "شاي قشر الموز",
+          "fr": "Thé de peau de banane"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in fine crushed eggshells. Pour the nutrient water around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر پانی میں 48 گھنٹے بھگو دیں۔ پسے انڈے کے چھلکے شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "انقع القشور 48 ساعة",
+          "fr": "Faites tremper les peaux 48h"
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium helps fruit swell, mature properly, and improves flavor/heat. Calcium prevents Blossom End Rot.",
+          "ur": "پوٹاشیم پھل کے سائز، پکنے کے عمل اور ذائقہ/تیزی کو بہتر بناتا ہے۔ کیلشیم پھل کو گلنے سے بچاتا ہے۔"
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 20-20-20)",
+          "ur": "بیلنسڈ این پی کے",
+          "ar": "سماد متوازن",
+          "fr": "NPK équilibré"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 10-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 10-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High nitrogen concentration drives robust leaf production.",
+          "ur": "نائٹروجن پتوں کی بھرپور نشوونما میں مدد کرتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Pepper-Specific Fertilizer (e.g. 5-10-10 or low Nitrogen)",
+          "ur": "مرچ کی مخصوص کھاد (مثلاً 5-10-10)",
+          "ar": "سماد عالي البوتاسيوم",
+          "fr": "Engrais riche en K"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 5-10-10 fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ 5-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Lower nitrogen prevents excessive foliage at the expense of fruit production.",
+          "ur": "کم نائٹروجن پھل کی پیداوار کی قیمت پر زیادہ پتوں کی نشوونما کو روکتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Calcium Nitrate & High-Potassium blend (e.g. 0-0-50)",
+          "ur": "کیلشیم نائٹریٹ اور ہائی پوٹاشیم (مثلاً 0-0-50)",
+          "ar": "نترات الكالسيوم",
+          "fr": "Nitrate de calcium"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of Calcium Nitrate and 1 teaspoon of High-K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ کیلشیم نائٹریٹ اور پوٹاشیم کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Calcium directly prevents Blossom End Rot. Potassium ensures plump, flavorful peppers.",
+          "ur": "کیلشیم پھل کو نیچے سے گلنے سے بچاتا ہے اور پوٹاشیم پھل کو بڑا اور ذائقہ دار بناتا ہے۔"
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low NPK (High P&K) Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "Calcium Nitrate",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "basil",
+      "benefit": {
+        "en": "Repels thrips, flies, and mosquitoes. May improve the flavor and growth of chili peppers.",
+        "ur": "تھرپس، مکھیوں اور مچھروں کو دور بھگاتا ہے۔ مرچوں کے ذائقہ اور نشوونما کو بہتر بنا سکتا ہے۔",
+        "ar": "يطرد التربس والذباب والبعوض. قد يحسن نكهة ونمو الفلفل الحار.",
+        "fr": "Repousse les thrips, les mouches et les moustiques. Peut améliorer la saveur et la croissance des piments."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, and flowers repel other harmful insects.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، اور پھول کیڑوں کو بھگاتے ہیں۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية، والزهور تطرد الحشرات الضارة.",
+        "fr": "Les racines tuent les nématodes à galles et les fleurs repoussent les insectes nuisibles."
+      }
+    },
+    {
+      "plantId": "onion",
+      "benefit": {
+        "en": "Emits a strong scent that deters aphids, spider mites, and other common pests.",
+        "ur": "مضبوط خوشبو چھوڑتا ہے جو افڈس، مکڑیوں اور دیگر کیڑوں کو پودے سے دور رکھتی ہے۔",
+        "ar": "ينبعث منه رائحة قوية تردع حشرات المن وسوس العنكبوت والآفات الشائعة الأخرى.",
+        "fr": "Dégage une forte odeur qui dissuade les pucerons, les tétranyques et autres ravageurs."
+      }
+    },
+    {
+      "plantId": "spinach",
+      "benefit": {
+        "en": "Acts as a living mulch, keeping the soil cool and moist, and suppressing weeds around chili plants.",
+        "ur": "زندہ ملچ کا کام کرتا ہے، مٹی کو ٹھنڈا اور نم رکھتا ہے، اور مرچ کے پودوں کے گرد جڑی بوٹیوں کو دباتا ہے۔",
+        "ar": "يعمل كغطاء حيوي، يحافظ على برودة ورطوبة التربة، ويقمع الأعشاب الضارة حول نباتات الفلفل الحار.",
+        "fr": "Agit comme un paillis vivant, gardant le sol frais et humide, et supprimant les mauvaises herbes autour des plants de piment."
+      }
+    },
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Shatters the soil and aerates it, allowing water and air to better reach the deep roots of the chili plant.",
+        "ur": "مٹی کو نرم کرتا ہے جس سے پانی اور ہوا مرچ کے پودے کی گہری جڑوں تک آسانی سے پہنچتے ہیں۔",
+        "ar": "يخفف التربة لتهويتها والسماح بوصول الماء والهواء بشكل أفضل إلى الجذور العميقة.",
+        "fr": "Aère le sol, permettant à l'eau et à l'air de mieux atteindre les racines profondes du piment."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Shares the same blight diseases and insects (like Colorado potato beetle), and heavily competes for nutrients.",
+        "ur": "یہ ایک ہی طرح کی بیماریوں کا شکار ہوتے ہیں اور غذائی اجزاء کے لیے سخت مقابلہ کرتے ہیں۔",
+        "ar": "يتشارك معها نفس أمراض اللفحة والحشرات، ويتنافس بشدة على العناصر الغذائية.",
+        "fr": "Partage les mêmes maladies comme le mildiou et rivalise fortement pour les nutriments du sol."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances from its roots that inhibit the growth of chili peppers and many other vegetables.",
+        "ur": "اس کی جڑوں سے ایسے مادے نکلتے ہیں جو مرچوں اور دیگر سبزیوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "تفرز جذوره مواد تثبط نمو الفلفل الحار والعديد من الخضروات الأخرى.",
+        "fr": "Produit des substances qui inhibent la croissance des piments et de nombreux autres légumes."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "All members of the brassica family (cabbage, broccoli, kale) can stunt the growth of chili pepper plants.",
+        "ur": "گوبھی کے خاندان کے تمام پودے مرچ کے پودوں کی نشوونما کو شدید طرح سے روکتے ہیں۔",
+        "ar": "تتسبب عائلة الصليبيات في إعاقة نمو نباتات الفلفل الحار بشكل شديد.",
+        "fr": "Toutes les brassicacées peuvent inhiber et retarder la croissance des plants de piment."
+      }
+    },
+    {
+      "plantId": "apricot_tree",
+      "reason": {
+        "en": "Can host Verticillium wilt, a fungal disease that can spread to chili peppers and cause wilting and death.",
+        "ur": "ورٹیسیلیم وِلٹ کا میزبان ہو سکتا ہے، ایک فنگل بیماری جو مرچوں میں پھیل کر پودے کو مرجھا سکتی ہے اور مار سکتی ہے۔",
+        "ar": "يمكن أن يستضيف ذبول الفرتيسيليوم، وهو مرض فطري يمكن أن ينتشر إلى الفلفل الحار ويسبب الذبول والموت.",
+        "fr": "Peut héberger le verticillium, une maladie fongique qui peut se propager aux piments et provoquer le flétrissement et la mort."
+      }
+    },
+    {
+      "plantId": "beans",
+      "reason": {
+        "en": "Some bean varieties can stunt the growth of chili peppers due to competition for nutrients or allelopathic effects.",
+        "ur": "کچھ پھلیوں کی اقسام غذائی اجزاء کے لیے مقابلہ یا ایلوپیتھک اثرات کی وجہ سے مرچوں کی نشوونما کو روک سکتی ہیں۔",
+        "ar": "يمكن لبعض أصناف الفاصوليا أن تعيق نمو الفلفل الحار بسبب المنافسة على العناصر الغذائية أو التأثيرات الأليلوباثية.",
+        "fr": "Certaines variétés de haricots peuvent inhiber la croissance des piments en raison de la compétition pour les nutriments ou d'effets allélopathiques."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and secreting sticky honeydew.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔",
+        "ar": "حشرات صغيرة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج.",
+        "fr": "Petits insectes qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause leaves to look stippled, pale, and eventually turn yellow and drop. Fine webbing may be visible.",
+        "ur": "بہت چھوٹے کیڑے جو پتوں کو پیلا اور کمزور کر دیتے ہیں اور پھر پتے گر جاتے ہیں۔ پتوں پر باریک جالا بھی نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تتسبب في ظهور الأوراق منقطة، باهتة، وتتحول في النهاية إلى اللون الأصفر وتتساقط. قد تكون الخيوط الدقيقة مرئية.",
+        "fr": "Minuscules ravageurs qui donnent aux feuilles un aspect pointillé, pâle, finissent par jaunir et tomber. De fines toiles peuvent être visibles."
+      }
+    },
+    {
+      "pestId": "whiteflies",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, white, winged insects that fly up when the plant is disturbed. They suck sap, weaken the plant, and can transmit viruses.",
+        "ur": "چھوٹے سفید اڑنے والے کیڑے جو پودے کو ہلانے پر اڑتے ہیں۔ یہ پودے کو کمزور کرتے ہیں اور وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة بيضاء مجنحة تطير عندما يضطرب النبات. تمتص العصارة، تضعف النبات، ويمكن أن تنقل الفيروسات.",
+        "fr": "De minuscules insectes blancs ailés qui s'envolent lorsque la plante est dérangée. Ils sucent la sève, affaiblissent la plante et transmettent des virus."
+      }
+    },
+    {
+      "pestId": "thrips",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, slender insects that feed on flowers and young fruit, causing distortion, silvery streaks, and reduced yield.",
+        "ur": "چھوٹے، پتلے کیڑے جو پھولوں اور چھوٹے پھلوں پر حملہ کرتے ہیں، جس سے پھل بگڑ جاتے ہیں، چاندی کی لکیریں پڑ جاتی ہیں اور پیداوار کم ہو جاتی ہے۔",
+        "ar": "حشرات صغيرة نحيلة تتغذى على الأزهار والثمار الصغيرة، مما يسبب تشوهًا وخطوطًا فضية وانخفاضًا في المحصول.",
+        "fr": "Minuscules insectes élancés qui se nourrissent des fleurs et des jeunes fruits, provoquant des déformations, des stries argentées et une réduction du rendement."
+      }
+    },
+    {
+      "pestId": "flea_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, jumping beetles that chew numerous small, round holes in leaves, giving them a 'shot-hole' appearance. Can severely damage young plants.",
+        "ur": "چھوٹے، اچھلنے والے کیڑے جو پتوں میں بہت سے چھوٹے، گول سوراخ کرتے ہیں، جس سے پتے 'چھلنی' جیسے نظر آتے ہیں۔ یہ چھوٹے پودوں کو شدید نقصان پہنچا سکتے ہیں۔",
+        "ar": "خنافس صغيرة قافزة تمضغ العديد من الثقوب الصغيرة المستديرة في الأوراق، مما يمنحها مظهر 'الثقب بالرصاص'. يمكن أن تلحق أضرارًا جسيمة بالنباتات الصغيرة.",
+        "fr": "Petits coléoptères sauteurs qui mâchent de nombreux petits trous ronds dans les feuilles, leur donnant un aspect 'criblé de balles'. Peut gravement endommager les jeunes plants."
+      }
+    },
+    {
+      "pestId": "blossom_end_rot",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "A dark, sunken, leathery patch appears at the bottom (blossom end) of the fruit. Caused by calcium deficiency, often due to uneven watering.",
+        "ur": "پھل کے نچلے حصے پر ایک گہرا اور دھنسا ہوا نشان بن جاتا ہے۔ یہ کیلشیم کی کمی اور بے قاعدہ پانی دینے کی وجہ سے ہوتا ہے۔",
+        "ar": "تظهر رقعة داكنة غائرة وجلدية في الجزء السفلي (الطرف الزهري) من الثمرة. ناتج عن نقص الكالسيوم، وغالبًا ما يكون بسبب عدم انتظام الري.",
+        "fr": "Une tache sombre, enfoncée et coriace apparaît au bas (côté fleur) du fruit. Causé par une carence en calcium, souvent due à un arrosage irrégulier."
+      }
+    },
+    {
+      "pestId": "anthracnose",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes sunken, water-soaked spots on ripe or ripening fruit, often with concentric rings. Can lead to fruit decay.",
+        "ur": "پکے یا پکنے والے پھلوں پر دھنسے ہوئے، پانی بھرے دھبے پیدا کرتا ہے، اکثر گول دائروں کے ساتھ۔ پھل کے گلنے کا سبب بن سکتا ہے۔",
+        "ar": "يسبب بقعًا غائرة ومشبعة بالماء على الثمار الناضجة أو التي في طور النضج، غالبًا مع حلقات متحدة المركز. يمكن أن يؤدي إلى تعفن الثمار.",
+        "fr": "Provoque des taches enfoncées et gorgées d'eau sur les fruits mûrs ou en cours de maturation, souvent avec des anneaux concentriques. Peut entraîner la pourriture des fruits."
+      }
+    },
+    {
+      "pestId": "bacterial_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "24-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, dark, water-soaked spots on leaves that may dry up and fall out (shot-hole). Spots on fruits appear as scabby lesions.",
+        "ur": "پتوں پر چھوٹے، گہرے دھبے جو بعد میں سوکھ کر سوراخ بن سکتے ہیں۔ پھلوں پر یہ کھردرے نشانات کی طرح نظر آتے ہیں۔",
+        "ar": "بقع صغيرة داكنة مشبعة بالماء على الأوراق قد تجف وتسقط. تظهر البقع على الثمار كآفات متقشرة.",
+        "fr": "Petites taches sombres et gorgées d'eau sur les feuilles qui peuvent sécher et tomber. Les taches sur les fruits apparaissent comme des lésions galeuses."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Causes leaves to yellow and die off prematurely.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے دھبے ظاہر ہوتے ہیں، جس سے پتے پیلے ہو کر گر جاتے ہیں۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يسبب اصفرار الأوراق وموتها المبكر.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Fait jaunir et mourir les feuilles prématurément."
+      }
+    },
+    {
+      "pestId": "fusarium_wilt",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "25-32"
+      },
+      "plantSpecificNotes": {
+        "en": "Soil-borne fungal disease causing yellowing of leaves, wilting, and eventual death of the plant, often on one side first.",
+        "ur": "مٹی سے پیدا ہونے والی فنگل بیماری جو پتوں کے پیلے ہونے، مرجھانے اور بالآخر پودے کی موت کا سبب بنتی ہے، اکثر پہلے ایک طرف سے شروع ہوتی ہے۔",
+        "ar": "مرض فطري ينتقل عن طريق التربة يسبب اصفرار الأوراق، الذبول، وموت النبات في النهاية، غالبًا ما يبدأ من جانب واحد.",
+        "fr": "Maladie fongique transmise par le sol provoquant le jaunissement des feuilles, le flétrissement et la mort éventuelle de la plante, souvent d'un seul côté au début."
+      }
+    },
+    {
+      "pestId": "pepper_weevil",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, dark beetles that lay eggs in flower buds and young fruit. Larvae feed inside, causing buds to drop and fruit to become distorted or rot.",
+        "ur": "چھوٹے، گہرے کیڑے جو پھولوں کی کلیوں اور چھوٹے پھلوں میں انڈے دیتے ہیں۔ لاروا اندر سے کھاتے ہیں، جس سے کلیاں گر جاتی ہیں اور پھل بگڑ جاتے یا گل جاتے ہیں۔",
+        "ar": "خنافس صغيرة داكنة تضع البيض في براعم الزهور والثمار الصغيرة. تتغذى اليرقات في الداخل، مما يتسبب في سقوط البراعم وتشوه الثمار أو تعفنها.",
+        "fr": "Petits coléoptères sombres qui pondent leurs œufs dans les boutons floraux et les jeunes fruits. Les larves se nourrissent à l'intérieur, provoquant la chute des boutons et la déformation ou la pourriture des fruits."
+      }
+    },
+    {
+      "pestId": "leaf_curl",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">30 or <15"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves roll upward and inward, often due to environmental stress like excessive heat, uneven watering, or viral infections spread by whiteflies.",
+        "ur": "پتے اوپر کی طرف مڑ جاتے ہیں، جو زیادہ تر گرمی، بے قاعدہ پانی، یا سفید مکھی سے پھیلنے والے وائرس کی وجہ سے ہوتا ہے۔",
+        "ar": "تلتف الأوراق لأعلى وللداخل، وغالبًا ما يكون ذلك بسبب الإجهاد البيئي مثل الحرارة الزائدة، أو الري غير المنتظم، أو الالتهابات الفيروسية التي تنشرها الذبابة البيضاء.",
+        "fr": "Les feuilles s'enroulent vers le haut et vers l'intérieur, souvent en raison d'un stress comme une chaleur excessive, un arrosage irrégulier ou des virus propagés par les aleurodes."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 70,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 90,
+    "readinessSigns": [
+      {
+        "en": "Full color (red, yellow, orange, etc., depending on variety), firm to touch",
+        "ur": "پورا رنگ (سرخ، پیلا، نارنجی وغیرہ، قسم کے لحاظ سے)، چھونے پر سخت",
+        "ar": "لون كامل (أحمر، أصفر، برتقالي، إلخ، حسب الصنف)، صلب الملمس",
+        "fr": "Couleur pleine (rouge, jaune, orange, etc., selon la variété), ferme au toucher"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently pull or twist upwards to detach the pepper from the stem.",
+        "ur": "مرچ کو تنے سے الگ کرنے کے لیے آہستہ سے اوپر کی طرف کھینچیں یا موڑیں۔",
+        "ar": "اسحب أو لف بلطف للأعلى لفصل الفلفل عن الساق.",
+        "fr": "Tirez ou tournez doucement vers le haut pour détacher le piment de la tige."
+      },
+      "INTERMEDIATE": {
+        "en": "Use clean snips or a sharp knife to cut the stem just above the cap, leaving a small piece of stem attached.",
+        "ur": "مرچ کے اوپر والے حصے سے تھوڑا اوپر تنے کو کاٹنے کے لیے صاف قینچی یا تیز چاقو استعمال کریں، تنے کا ایک چھوٹا ٹکڑا لگا رہنے دیں۔",
+        "ar": "استخدم مقصًا نظيفًا أو سكينًا حادًا لقطع الساق فوق الغطاء مباشرةً، مع ترك قطعة صغيرة من الساق متصلة.",
+        "fr": "Utilisez des ciseaux propres ou un couteau aiguisé pour couper la tige juste au-dessus du calice, en laissant un petit morceau de tige attaché."
+      },
+      "EXPERT": {
+        "en": "Harvest regularly to encourage more production. Pick when fully colored for best flavor and heat, or earlier for milder heat.",
+        "ur": "زیادہ پیداوار کی حوصلہ افزائی کے لیے باقاعدگی سے کٹائی کریں۔ بہترین ذائقہ اور تیزی کے لیے مکمل رنگ آنے پر توڑیں، یا ہلکی تیزی کے لیے پہلے توڑیں۔",
+        "ar": "احصد بانتظام لتشجيع المزيد من الإنتاج. اقطف عندما يكون لونه كاملاً للحصول على أفضل نكهة وحرارة، أو قبل ذلك للحصول على حرارة أخف.",
+        "fr": "Récoltez régulièrement pour encourager une production accrue. Cueillez lorsque la couleur est pleine pour une saveur et une chaleur optimales, ou plus tôt pour une chaleur plus douce."
+      }
+    },
+    "storage": {
+      "en": "Room temp for a few days, refrigerate for up to 2 weeks, or dry/freeze for long-term storage.",
+      "ur": "کمرے کے درجہ حرارت پر چند دن، 2 ہفتے تک فریج میں، یا طویل مدت کے لیے خشک/فریز کریں۔",
+      "ar": "درجة حرارة الغرفة لبضعة أيام، تبريد لمدة تصل إلى أسبوعين، أو تجفيف/تجميد للتخزين طويل الأمد.",
+      "fr": "Température ambiante quelques jours, réfrigérer jusqu'à 2 semaines, ou sécher/congeler pour le long terme."
+    },
+    "yieldEstimateKg": {
+      "10L": 1.5,
+      "20L": 3,
+      "30L": 4.5,
+      "GROUND": 6
+    }
+  }
+}
