@@ -1,0 +1,1527 @@
+{
+  "id": "potato",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Potato",
+      "alternate": []
+    },
+    "ur": {
+      "common": "آلو",
+      "alternate": []
+    },
+    "ar": {
+      "common": "بطاطس",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Pomme de terre",
+      "alternate": []
+    },
+    "botanical": "Solanum tuberosum",
+    "aliases": [
+      "aloo",
+      "batatis",
+      "patate",
+      "kartoffel"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "tuber",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "DETERMINATE",
+    "INDETERMINATE"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "DETERMINATE": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Bush type. Produces tubers in a single layer near the surface. Matures earlier and has a concentrated harvest. Hilling is still beneficial but less critical.",
+          "ur": "بش قسم۔ سطح کے قریب ایک ہی تہہ میں آلو پیدا کرتا ہے۔ جلد پکتا ہے اور ایک ساتھ فصل دیتا ہے۔ مٹی چڑھانا اب بھی فائدہ مند ہے لیکن کم اہم ہے۔"
+        }
+      },
+      "INDETERMINATE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Vining type. Continues to grow and produce tubers in multiple layers along the stem until killed by frost. Requires regular hilling to cover developing tubers and prevent greening.",
+          "ur": "بیل قسم۔ مسلسل بڑھتا ہے اور تنے کے ساتھ کئی تہوں میں آلو پیدا کرتا ہے جب تک کہ ٹھنڈ سے ختم نہ ہو جائے۔ بڑھتے ہوئے آلو کو ڈھانپنے اور سبز ہونے سے بچانے کے لیے باقاعدہ مٹی چڑھانا ضروری ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "tuber",
+    "container-friendly",
+    "staple",
+    "root-crop"
+  ],
+  "temperature": {
+    "optimalMinC": 15,
+    "optimalMaxC": 24,
+    "survivalMinC": 0,
+    "survivalMaxC": 30,
+    "germinationMinC": 7,
+    "germinationOptimalC": 18,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 10
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 100,
+    "requiredGDD": 1500,
+    "baseTempC": 7,
+    "plantingConditions": {
+      "soilTempMinC": 7,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": 5,
+      "frostWarningC": 2,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Keep soil consistently moist, but not soggy",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "High during tuber formation",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "small tubers"
+    ],
+    "overwateringSymptoms": [
+      "yellowing lower leaves",
+      "soft stems",
+      "tuber rot",
+      "fungus smell"
+    ],
+    "preferredWateringMethod": "Drip irrigation or base watering",
+    "thingsToAvoid": [
+      "overhead watering (can promote blight)",
+      "standing water",
+      "extreme fluctuations in moisture"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow to medium",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "keep tubers cool",
+      "prevent greening of tubers"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Ensure good drainage and space for hilling.",
+        "ur": "اچھی نکاسی اور مٹی چڑھانے کے لیے جگہ یقینی بنائیں۔",
+        "ar": "تأكد من الصرف الجيد ومساحة للتغطية بالتربة.",
+        "fr": "Assurez un bon drainage et de l'espace pour le buttage."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 25,
+      "minDepthCm": 35,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Excellent for hilling and harvesting. Fabric bags promote air pruning.",
+        "ur": "مٹی چڑھانے اور کٹائی کے لیے بہترین۔ کپڑے کے تھیلے ہوا کی کٹائی کو فروغ دیتے ہیں۔",
+        "ar": "ممتاز للتغطية بالتربة والحصاد. الأكياس القماشية تعزز تقليم الجذور الهوائي.",
+        "fr": "Excellent pour le buttage et la récolte. Les sacs en tissu favorisent l'élagage aérien."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Plant in well-drained soil, hill regularly.",
+        "ur": "اچھی نکاسی والی مٹی میں لگائیں، باقاعدگی سے مٹی چڑھائیں۔",
+        "ar": "ازرع في تربة جيدة التصريف، وقم بالتغطية بالتربة بانتظام.",
+        "fr": "Plantez dans un sol bien drainé, buttez régulièrement."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 35,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Provides excellent drainage and allows for deep hilling.",
+        "ur": "بہترین نکاسی فراہم کرتا ہے اور گہری مٹی چڑھانے کی اجازت دیتا ہے۔",
+        "ar": "يوفر تصريفًا ممتازًا ويسمح بالتغطية العميقة بالتربة.",
+        "fr": "Offre un excellent drainage et permet un buttage profond."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "PLANTING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Planting seed potatoes",
+        "ur": "بیج آلو لگانا",
+        "ar": "زراعة درنات البطاطس",
+        "fr": "Plantation des pommes de terre de semence"
+      },
+      "emoji": "🥔",
+      "tips": [],
+      "tasks": {
+        "seedPotatoPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut large seed potatoes into pieces with 2-3 'eyes' each. Let them cure for 1-2 days.",
+              "ur": "بڑے بیج آلو کو 2-3 'آنکھوں' والے ٹکڑوں میں کاٹ لیں۔ انہیں 1-2 دن کے لیے خشک ہونے دیں۔",
+              "ar": "قطع درنات البطاطس الكبيرة إلى قطع تحتوي على 2-3 'عيون' لكل منها. اتركها لتجف لمدة 1-2 يوم.",
+              "fr": "Coupez les grosses pommes de terre de semence en morceaux avec 2-3 'yeux' chacun. Laissez-les sécher 1-2 jours."
+            },
+            "INTERMEDIATE": {
+              "en": "Chit seed potatoes in a cool, bright place for 2-4 weeks before planting.",
+              "ur": "بیج آلو کو لگانے سے پہلے 2-4 ہفتوں تک ٹھنڈی، روشن جگہ پر 'چِٹ' کریں۔",
+              "ar": "قم بتبرعم درنات البطاطس في مكان بارد ومشرق لمدة 2-4 أسابيع قبل الزراعة.",
+              "fr": "Faites germer les pommes de terre de semence dans un endroit frais et lumineux pendant 2 à 4 semaines avant la plantation."
+            },
+            "EXPERT": {
+              "en": "Select disease-free certified seed potatoes. Chit for strong sprouts.",
+              "ur": "بیماری سے پاک تصدیق شدہ بیج آلو کا انتخاب کریں۔ مضبوط کونپلوں کے لیے 'چِٹ' کریں۔",
+              "ar": "اختر درنات بطاطس معتمدة وخالية من الأمراض. قم بتبرعمها للحصول على براعم قوية.",
+              "fr": "Sélectionnez des pommes de terre de semence certifiées et exemptes de maladies. Faites-les germer pour des pousses fortes."
+            }
+          }
+        },
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare loose, well-drained soil. Mix in some compost.",
+              "ur": "ڈھیلی، اچھی نکاسی والی مٹی تیار کریں۔ کچھ کھاد ملائیں۔",
+              "ar": "جهز تربة مفككة وجيدة التصريف. اخلط بعض السماد العضوي.",
+              "fr": "Préparez un sol meuble et bien drainé. Incorporez du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil pH is between 5.0-6.0. Amend with organic matter.",
+              "ur": "یقینی بنائیں کہ مٹی کا پی ایچ 5.0-6.0 کے درمیان ہے۔ نامیاتی مواد سے ترمیم کریں۔",
+              "ar": "تأكد من أن درجة حموضة التربة تتراوح بين 5.0-6.0. عدلها بالمواد العضوية.",
+              "fr": "Assurez-vous que le pH du sol est entre 5.0 et 6.0. Amendez avec de la matière organique."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test. Adjust nutrients and pH for optimal potato growth.",
+              "ur": "مٹی کا ٹیسٹ کروائیں۔ آلو کی بہترین نشوونما کے لیے غذائی اجزاء اور پی ایچ کو ایڈجسٹ کریں۔",
+              "ar": "قم بإجراء اختبار للتربة. اضبط المغذيات ودرجة الحموضة لنمو البطاطس الأمثل.",
+              "fr": "Effectuez une analyse de sol. Ajustez les nutriments et le pH pour une croissance optimale des pommes de terre."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 1,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant seed potato pieces 4-6 inches deep, 12 inches apart.",
+              "ur": "بیج آلو کے ٹکڑوں کو 4-6 انچ گہرا، 12 انچ کے فاصلے پر لگائیں۔",
+              "ar": "ازرع قطع درنات البطاطس بعمق 4-6 بوصات، وبفارق 12 بوصة بين القطع.",
+              "fr": "Plantez les morceaux de pomme de terre de semence à 4-6 pouces de profondeur, espacés de 12 pouces."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant in trenches 6-8 inches deep, covering with 4 inches of soil. Space rows 3 feet apart.",
+              "ur": "6-8 انچ گہری خندقوں میں لگائیں، 4 انچ مٹی سے ڈھانپیں۔ قطاروں کو 3 فٹ کے فاصلے پر رکھیں۔",
+              "ar": "ازرع في خنادق بعمق 6-8 بوصات، وغطها بـ 4 بوصات من التربة. اترك مسافة 3 أقدام بين الصفوف.",
+              "fr": "Plantez dans des tranchées de 6-8 pouces de profondeur, en recouvrant de 4 pouces de terre. Espacez les rangs de 3 pieds."
+            },
+            "EXPERT": {
+              "en": "Consider raised beds or containers for better drainage and pest control. Ensure proper orientation of 'eyes'.",
+              "ur": "بہتر نکاسی اور کیڑوں پر قابو پانے کے لیے اونچے بستر یا کنٹینرز پر غور کریں۔ 'آنکھوں' کی صحیح سمت یقینی بنائیں۔",
+              "ar": "فكر في الأسرة المرتفعة أو الأوعية لتحسين الصرف ومكافحة الآفات. تأكد من التوجيه الصحيح لـ 'العيون'.",
+              "fr": "Envisagez des plates-bandes surélevées ou des conteneurs pour un meilleur drainage et contrôle des parasites. Assurez une orientation correcte des 'yeux'."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": false,
+          "dayOffset": 1,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly after planting.",
+              "ur": "لگانے کے بعد اچھی طرح پانی دیں۔",
+              "ar": "اسقِ جيدًا بعد الزراعة.",
+              "fr": "Arrosez abondamment après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is consistently moist but not waterlogged.",
+              "ur": "یقینی بنائیں کہ مٹی مسلسل نم رہے لیکن پانی جمع نہ ہو۔",
+              "ar": "تأكد من أن التربة رطبة باستمرار ولكن ليست مشبعة بالماء.",
+              "fr": "Assurez-vous que le sol est constamment humide mais non gorgé d'eau."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply to encourage root establishment.",
+              "ur": "جڑوں کے قیام کی حوصلہ افزائی کے لیے مٹی کی نمی کو گہرائی سے مانیٹر کریں۔",
+              "ar": "راقب رطوبة التربة بعمق لتشجيع ترسيخ الجذور.",
+              "fr": "Surveillez l'humidité du sol en profondeur pour favoriser l'établissement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "EMERGENCE",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "First shoots appear",
+        "ur": "پہلی کونپلیں نکلنا",
+        "ar": "ظهور البراعم الأولى",
+        "fr": "Apparition des premières pousses"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "emergenceCheck": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for green shoots breaking through the soil.",
+              "ur": "مٹی سے نکلتی ہوئی سبز کونپلوں کو چیک کریں۔",
+              "ar": "تحقق من ظهور البراعم الخضراء من التربة.",
+              "fr": "Vérifiez les pousses vertes qui percent le sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for uniform emergence and healthy sprout color.",
+              "ur": "یکساں ابھرنے اور صحت مند کونپل کے رنگ کو دیکھیں۔",
+              "ar": "ابحث عن ظهور موحد ولون براعم صحي.",
+              "fr": "Recherchez une émergence uniforme et une couleur de pousse saine."
+            },
+            "EXPERT": {
+              "en": "Assess vigor and identify any signs of disease or pest damage on emerging shoots.",
+              "ur": "ابھرتی ہوئی کونپلوں پر بیماری یا کیڑوں کے نقصان کی علامات کی شناخت کریں۔",
+              "ar": "قيم الحيوية وحدد أي علامات مرض أو تلف من الآفات على البراعم الناشئة.",
+              "fr": "Évaluez la vigueur et identifiez tout signe de maladie ou de dommage parasitaire sur les pousses émergentes."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil lightly moist.",
+              "ur": "مٹی کو ہلکا نم رکھیں۔",
+              "ar": "حافظ على التربة رطبة قليلاً.",
+              "fr": "Gardez le sol légèrement humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Water consistently to prevent stress on young sprouts.",
+              "ur": "نوجوان کونپلوں پر دباؤ سے بچنے کے لیے مسلسل پانی دیں۔",
+              "ar": "اسقِ باستمرار لمنع الإجهاد على البراعم الصغيرة.",
+              "fr": "Arrosez régulièrement pour éviter le stress sur les jeunes pousses."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture depth to ensure adequate hydration for developing root systems.",
+              "ur": "جڑ کے نظام کی مناسب ہائیڈریشن کو یقینی بنانے کے لیے مٹی کی نمی کی گہرائی کی نگرانی کریں۔",
+              "ar": "راقب عمق رطوبة التربة لضمان الترطيب الكافي لأنظمة الجذور النامية.",
+              "fr": "Surveillez la profondeur de l'humidité du sol pour assurer une hydratation adéquate aux systèmes racinaires en développement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "EARLY_VEGETATIVE",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Foliage growth begins",
+        "ur": "پتوں کی نشوونما شروع ہونا",
+        "ar": "بدء نمو الأوراق",
+        "fr": "Début de la croissance du feuillage"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "hilling1": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "When plants are 6-8 inches tall, pull soil up around the stems, leaving a few inches of foliage exposed.",
+              "ur": "جب پودے 6-8 انچ لمبے ہو جائیں، تو تنوں کے گرد مٹی چڑھائیں، چند انچ پتے کھلے چھوڑ دیں۔",
+              "ar": "عندما يصل طول النباتات إلى 6-8 بوصات، اجمع التربة حول السيقان، مع ترك بضع بوصات من الأوراق مكشوفة.",
+              "fr": "Lorsque les plantes atteignent 6-8 pouces de hauteur, ramenez la terre autour des tiges, en laissant quelques pouces de feuillage exposé."
+            },
+            "INTERMEDIATE": {
+              "en": "Hill potatoes to cover emerging tubers and protect from greening. Form a mound around the base.",
+              "ur": "آلو کو ابھرتے ہوئے آلوؤں کو ڈھانپنے اور سبز ہونے سے بچانے کے لیے مٹی چڑھائیں۔ بنیاد کے گرد ایک ڈھیر بنائیں۔",
+              "ar": "قم بتكويم التربة حول البطاطس لتغطية الدرنات الناشئة وحمايتها من الاخضرار. شكل تلاً حول القاعدة.",
+              "fr": "Buttez les pommes de terre pour couvrir les tubercules émergents et les protéger du verdissement. Formez un monticule autour de la base."
+            },
+            "EXPERT": {
+              "en": "Ensure hilling creates a loose, well-aerated mound to promote tuber formation and prevent blight.",
+              "ur": "یقینی بنائیں کہ مٹی چڑھانے سے ایک ڈھیلا، اچھی طرح ہوادار ڈھیر بنتا ہے تاکہ آلو کی تشکیل کو فروغ ملے اور بیماری سے بچا جا سکے۔",
+              "ar": "تأكد من أن التكويم يخلق تلاً مفككًا وجيد التهوية لتعزيز تكوين الدرنات ومنع اللفحة.",
+              "fr": "Assurez-vous que le buttage crée un monticule meuble et bien aéré pour favoriser la formation des tubercules et prévenir le mildiou."
+            }
+          }
+        },
+        "pestCheck": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for any bugs or holes.",
+              "ur": "پتوں پر کیڑوں یا سوراخوں کو چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن أي حشرات أو ثقوب.",
+              "fr": "Vérifiez les feuilles pour tout insecte ou trou."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect for Colorado potato beetles or flea beetles, especially on new growth.",
+              "ur": "کولوراڈو آلو کے بھنوروں یا فلی بھنوروں کا معائنہ کریں، خاص طور پر نئی نشوونما پر۔",
+              "ar": "افحص بحثًا عن خنافس البطاطس كولورادو أو خنافس البراغيث، خاصة على النمو الجديد.",
+              "fr": "Inspectez la présence de doryphores ou d'altises, surtout sur les nouvelles pousses."
+            },
+            "EXPERT": {
+              "en": "Implement early IPM strategies. Hand-pick beetles or apply organic deterrents.",
+              "ur": "ابتدائی IPM حکمت عملیوں کو نافذ کریں۔ بھنوروں کو ہاتھ سے چنیں یا نامیاتی روک تھام کا استعمال کریں۔",
+              "ar": "نفذ استراتيجيات الإدارة المتكاملة للآفات مبكرًا. التقط الخنافس يدويًا أو طبق مواد طاردة عضوية.",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée précoce. Ramassez les coléoptères à la main ou appliquez des répulsifs biologiques."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Colorado Potato Beetle",
+              "ur": "کولوراڈو آلو کا بھنور",
+              "ar": "خنفساء البطاطس كولورادو",
+              "fr": "Doryphore"
+            },
+            {
+              "en": "Flea Beetles",
+              "ur": "فلی بھنور",
+              "ar": "خنافس البراغيث",
+              "fr": "Altises"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant.",
+              "ur": "پودے کی بنیاد پر پانی دیں۔",
+              "ar": "اسقِ قاعدة النبات.",
+              "fr": "Arrosez au pied de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide consistent moisture, avoiding overhead watering to prevent leaf diseases.",
+              "ur": "پتوں کی بیماریوں سے بچنے کے لیے اوپر سے پانی دینے سے گریز کرتے ہوئے مسلسل نمی فراہم کریں۔",
+              "ar": "وفر رطوبة مستمرة، وتجنب الري العلوي لمنع أمراض الأوراق.",
+              "fr": "Fournissez une humidité constante, en évitant l'arrosage par le haut pour prévenir les maladies foliaires."
+            },
+            "EXPERT": {
+              "en": "Deep watering encourages deeper root growth and better tuber development.",
+              "ur": "گہرا پانی دینا گہری جڑوں کی نشوونما اور بہتر آلو کی تشکیل کی حوصلہ افزائی کرتا ہے۔",
+              "ar": "الري العميق يشجع نمو الجذور الأعمق وتطور الدرنات بشكل أفضل.",
+              "fr": "Un arrosage profond favorise une croissance racinaire plus profonde et un meilleur développement des tubercules."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "MAIN_VEGETATIVE",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 55,
+      "description": {
+        "en": "Rapid foliage growth and tuber initiation",
+        "ur": "تیز پتوں کی نشوونما اور آلو بننا شروع ہونا",
+        "ar": "نمو سريع للأوراق وبدء تكون الدرنات",
+        "fr": "Croissance rapide du feuillage et initiation des tubercules"
+      },
+      "emoji": "🥔🌿",
+      "tips": [],
+      "tasks": {
+        "hilling2": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Add more soil around the stems as plants grow, covering any exposed tubers.",
+              "ur": "پودوں کے بڑھنے کے ساتھ تنوں کے گرد مزید مٹی ڈالیں، کسی بھی کھلے آلو کو ڈھانپیں۔",
+              "ar": "أضف المزيد من التربة حول السيقان مع نمو النباتات، لتغطية أي درنات مكشوفة.",
+              "fr": "Ajoutez plus de terre autour des tiges à mesure que les plantes poussent, en couvrant tous les tubercules exposés."
+            },
+            "INTERMEDIATE": {
+              "en": "Continue hilling every 2-3 weeks until flowering, or until mounds are 10-12 inches high.",
+              "ur": "پھول آنے تک یا جب تک ڈھیر 10-12 انچ اونچے نہ ہو جائیں، ہر 2-3 ہفتوں میں مٹی چڑھانا جاری رکھیں۔",
+              "ar": "استمر في التكويم كل 2-3 أسابيع حتى الإزهار، أو حتى يصل ارتفاع التلال إلى 10-12 بوصة.",
+              "fr": "Continuez à butter toutes les 2-3 semaines jusqu'à la floraison, ou jusqu'à ce que les monticules atteignent 10-12 pouces de hauteur."
+            },
+            "EXPERT": {
+              "en": "Proper hilling is critical for maximizing tuber yield and preventing greening. Ensure good soil structure.",
+              "ur": "آلو کی پیداوار کو زیادہ سے زیادہ کرنے اور سبز ہونے سے بچنے کے لیے مناسب مٹی چڑھانا بہت ضروری ہے۔ مٹی کی اچھی ساخت کو یقینی بنائیں۔",
+              "ar": "التكويم الصحيح أمر بالغ الأهمية لزيادة محصول الدرنات ومنع الاخضرار. تأكد من بنية التربة الجيدة.",
+              "fr": "Un buttage approprié est essentiel pour maximiser le rendement en tubercules et prévenir le verdissement. Assurez une bonne structure du sol."
+            }
+          }
+        },
+        "fertilizing": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced fertilizer (e.g., 5-10-10) around the base of the plants.",
+              "ur": "پودوں کی بنیاد کے گرد متوازن کھاد (مثلاً 5-10-10) لگائیں۔",
+              "ar": "ضع سمادًا متوازنًا (مثل 5-10-10) حول قاعدة النباتات.",
+              "fr": "Appliquez un engrais équilibré (par exemple, 5-10-10) autour de la base des plantes."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with compost or a low-nitrogen, high-phosphorus and potassium fertilizer.",
+              "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم والی کھاد یا کمپوسٹ سے سائیڈ ڈریس کریں۔",
+              "ar": "قم بتسميد جانبي بالسماد العضوي أو سماد منخفض النيتروجين وعالي الفوسفور والبوتاسيوم.",
+              "fr": "Apportez un engrais à faible teneur en azote, riche en phosphore et en potassium, ou du compost en surfaçage."
+            },
+            "EXPERT": {
+              "en": "Based on soil test, apply specific nutrients. Avoid excessive nitrogen which promotes foliage over tubers.",
+              "ur": "مٹی کے ٹیسٹ کی بنیاد پر، مخصوص غذائی اجزاء لگائیں۔ زیادہ نائٹروجن سے گریز کریں جو آلو کے بجائے پتوں کی نشوونما کو فروغ دیتا ہے۔",
+              "ar": "بناءً على اختبار التربة، طبق مغذيات محددة. تجنب النيتروجين الزائد الذي يعزز نمو الأوراق على حساب الدرنات.",
+              "fr": "Selon l'analyse de sol, appliquez des nutriments spécifiques. Évitez l'excès d'azote qui favorise le feuillage au détriment des tubercules."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for potato beetles and hand-pick them off.",
+              "ur": "آلو کے بھنوروں کو چیک کریں اور انہیں ہاتھ سے چن لیں۔",
+              "ar": "ابحث عن خنافس البطاطس والتقطها يدويًا.",
+              "fr": "Vérifiez la présence de doryphores et retirez-les à la main."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest control like Neem oil or Bacillus thuringiensis (Bt) for caterpillars.",
+              "ur": "کیٹرپلرز کے لیے نیم کا تیل یا Bacillus thuringiensis (Bt) جیسے نامیاتی کیڑے مار دوا کا استعمال کریں۔",
+              "ar": "طبق مكافحة الآفات العضوية مثل زيت النيم أو Bacillus thuringiensis (Bt) لليرقات.",
+              "fr": "Appliquez un contrôle biologique des parasites comme l'huile de Neem ou le Bacillus thuringiensis (Bt) pour les chenilles."
+            },
+            "EXPERT": {
+              "en": "Monitor for early blight and late blight. Ensure good air circulation and consider preventative organic fungicides.",
+              "ur": "ابتدائی اور دیر سے آنے والی بیماریوں کی نگرانی کریں۔ اچھی ہوا کی گردش کو یقینی بنائیں اور حفاظتی نامیاتی فنگسائڈز پر غور کریں۔",
+              "ar": "راقب اللفحة المبكرة واللفحة المتأخرة. تأكد من تهوية جيدة وفكر في مبيدات الفطريات العضوية الوقائية.",
+              "fr": "Surveillez le mildiou précoce et tardif. Assurez une bonne circulation de l'air et envisagez des fongicides biologiques préventifs."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Colorado Potato Beetle",
+              "ur": "کولوراڈو آلو کا بھنور",
+              "ar": "خنفساء البطاطس كولورادو",
+              "fr": "Doryphore"
+            },
+            {
+              "en": "Early Blight",
+              "ur": "ابتدائی بیماری",
+              "ar": "اللفحة المبكرة",
+              "fr": "Mildiou précoce"
+            },
+            {
+              "en": "Late Blight",
+              "ur": "دیر سے بیماری",
+              "ar": "اللفحة المتأخرة",
+              "fr": "Mildiou tardif"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently.",
+              "ur": "گہرا اور مسلسل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار.",
+              "fr": "Arrosez profondément et régulièrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even soil moisture, especially during tuber initiation, to prevent growth defects.",
+              "ur": "خاص طور پر آلو کی تشکیل کے دوران، مٹی کی نمی کو یکساں رکھیں تاکہ نشوونما کے نقائص سے بچا جا سکے۔",
+              "ar": "حافظ على رطوبة التربة متساوية، خاصة أثناء بدء تكون الدرنات، لمنع عيوب النمو.",
+              "fr": "Maintenez une humidité du sol uniforme, surtout pendant l'initiation des tubercules, pour prévenir les défauts de croissance."
+            },
+            "EXPERT": {
+              "en": "Use a moisture meter to ensure water penetrates 6-8 inches deep. Avoid water stress.",
+              "ur": "یقینی بنائیں کہ پانی 6-8 انچ گہرائی تک پہنچے، نمی میٹر کا استعمال کریں۔ پانی کے دباؤ سے بچیں۔",
+              "ar": "استخدم مقياس الرطوبة لضمان اختراق الماء بعمق 6-8 بوصات. تجنب الإجهاد المائي.",
+              "fr": "Utilisez un humidimètre pour vous assurer que l'eau pénètre à 6-8 pouces de profondeur. Évitez le stress hydrique."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Flowers appear",
+        "ur": "پھول نکلنا",
+        "ar": "ظهور الأزهار",
+        "fr": "Apparition des fleurs"
+      },
+      "emoji": "🌸",
+      "tips": [],
+      "tasks": {
+        "hilling3": {
+          "required": false,
+          "dayOffset": 5,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If any tubers are exposed, add more soil to cover them.",
+              "ur": "اگر کوئی آلو کھلا ہو تو اسے ڈھانپنے کے لیے مزید مٹی ڈالیں۔",
+              "ar": "إذا كانت هناك أي درنات مكشوفة، أضف المزيد من التربة لتغطيتها.",
+              "fr": "Si des tubercules sont exposés, ajoutez plus de terre pour les couvrir."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform a final hilling to ensure all developing tubers are well-covered and protected from sunlight.",
+              "ur": "تمام بڑھتے ہوئے آلوؤں کو اچھی طرح ڈھانپنے اور سورج کی روشنی سے بچانے کے لیے آخری بار مٹی چڑھائیں۔",
+              "ar": "قم بالتكويم النهائي لضمان تغطية جميع الدرنات النامية وحمايتها من أشعة الشمس.",
+              "fr": "Effectuez un buttage final pour vous assurer que tous les tubercules en développement sont bien couverts et protégés de la lumière du soleil."
+            },
+            "EXPERT": {
+              "en": "Assess the depth of tuber set and adjust hilling to optimize conditions for growth and prevent greening.",
+              "ur": "آلو کے سیٹ کی گہرائی کا اندازہ لگائیں اور نشوونما کے حالات کو بہتر بنانے اور سبز ہونے سے بچنے کے لیے مٹی چڑھانے کو ایڈجسٹ کریں۔",
+              "ar": "قيم عمق وضع الدرنات واضبط التكويم لتحسين ظروف النمو ومنع الاخضرار.",
+              "fr": "Évaluez la profondeur de l'implantation des tubercules et ajustez le buttage pour optimiser les conditions de croissance et prévenir le verdissement."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue checking for potato beetles and other common pests.",
+              "ur": "آلو کے بھنوروں اور دیگر عام کیڑوں کی جانچ جاری رکھیں۔",
+              "ar": "استمر في البحث عن خنافس البطاطس والآفات الشائعة الأخرى.",
+              "fr": "Continuez à vérifier la présence de doryphores et autres parasites courants."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for signs of late blight, especially in humid conditions. Remove affected leaves.",
+              "ur": "خاص طور پر مرطوب حالات میں دیر سے آنے والی بیماری کی علامات کی نگرانی کریں۔ متاثرہ پتوں کو ہٹا دیں۔",
+              "ar": "راقب علامات اللفحة المتأخرة، خاصة في الظروف الرطبة. أزل الأوراق المصابة.",
+              "fr": "Surveillez les signes de mildiou tardif, surtout par temps humide. Retirez les feuilles affectées."
+            },
+            "EXPERT": {
+              "en": "Implement targeted organic treatments for specific pests or diseases identified. Maintain good air circulation.",
+              "ur": "شناخت شدہ مخصوص کیڑوں یا بیماریوں کے لیے ہدف شدہ نامیاتی علاج نافذ کریں۔ اچھی ہوا کی گردش کو برقرار رکھیں۔",
+              "ar": "طبق علاجات عضوية مستهدفة للآفات أو الأمراض المحددة. حافظ على تهوية جيدة.",
+              "fr": "Mettez en œuvre des traitements biologiques ciblés pour les parasites ou maladies identifiés. Maintenez une bonne circulation de l'air."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Late Blight",
+              "ur": "دیر سے بیماری",
+              "ar": "اللفحة المتأخرة",
+              "fr": "Mildiou tardif"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly and deeply.",
+              "ur": "باقاعدگی سے اور گہرا پانی دیں۔",
+              "ar": "اسقِ بانتظام وبعمق.",
+              "fr": "Arrosez régulièrement et profondément."
+            },
+            "INTERMEDIATE": {
+              "en": "Consistent moisture is crucial during flowering and early tuber set for good yields.",
+              "ur": "اچھی پیداوار کے لیے پھول آنے اور ابتدائی آلو کے سیٹ کے دوران مسلسل نمی بہت ضروری ہے۔",
+              "ar": "الرطوبة المستمرة حاسمة خلال الإزهار وتكوين الدرنات المبكر للحصول على غلات جيدة.",
+              "fr": "Une humidité constante est cruciale pendant la floraison et la formation précoce des tubercules pour de bons rendements."
+            },
+            "EXPERT": {
+              "en": "Avoid fluctuations in soil moisture to prevent common potato defects like hollow heart or growth cracks.",
+              "ur": "مٹی کی نمی میں اتار چڑھاؤ سے بچیں تاکہ آلو کے عام نقائص جیسے کھوکھلا دل یا نشوونما کی دراڑیں نہ پڑیں۔",
+              "ar": "تجنب تقلبات رطوبة التربة لمنع عيوب البطاطس الشائعة مثل القلب الأجوف أو تشققات النمو.",
+              "fr": "Évitez les fluctuations de l'humidité du sol pour prévenir les défauts courants de la pomme de terre comme le cœur creux ou les fissures de croissance."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "TUBER_DEVELOPMENT",
+      "durationDaysBase": 50,
+      "durationDaysWarm": 40,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Tubers grow and mature",
+        "ur": "آلو بڑھنا اور پکنا",
+        "ar": "نمو ونضج الدرنات",
+        "fr": "Croissance et maturation des tubercules"
+      },
+      "emoji": "🍠",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue deep and consistent watering.",
+              "ur": "گہرا اور مسلسل پانی دینا جاری رکھیں۔",
+              "ar": "استمر في الري العميق والمستمر.",
+              "fr": "Continuez un arrosage profond et régulier."
+            },
+            "INTERMEDIATE": {
+              "en": "Watering is critical for tuber sizing. Do not let the soil dry out completely.",
+              "ur": "آلو کے سائز کے لیے پانی دینا بہت ضروری ہے۔ مٹی کو مکمل طور پر خشک نہ ہونے دیں۔",
+              "ar": "الري حاسم لحجم الدرنات. لا تدع التربة تجف تمامًا.",
+              "fr": "L'arrosage est crucial pour le calibrage des tubercules. Ne laissez pas le sol sécher complètement."
+            },
+            "EXPERT": {
+              "en": "Maintain optimal soil moisture to maximize tuber bulk and quality. Reduce slightly as foliage begins to yellow.",
+              "ur": "آلو کی مقدار اور معیار کو زیادہ سے زیادہ کرنے کے لیے مٹی کی بہترین نمی برقرار رکھیں۔ جب پتے پیلے ہونے لگیں تو تھوڑا کم کریں۔",
+              "ar": "حافظ على رطوبة التربة المثلى لزيادة حجم وجودة الدرنات. قلل قليلاً عندما يبدأ الأوراق في الاصفرار.",
+              "fr": "Maintenez une humidité optimale du sol pour maximiser le volume et la qualité des tubercules. Réduisez légèrement lorsque le feuillage commence à jaunir."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for any signs of disease on the foliage.",
+              "ur": "پتوں پر بیماری کی کسی بھی علامت کو چیک کریں۔",
+              "ar": "تحقق من أي علامات مرض على الأوراق.",
+              "fr": "Vérifiez tout signe de maladie sur le feuillage."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for late blight, scab, and wireworms. Consider harvesting 'new potatoes' if desired.",
+              "ur": "دیر سے آنے والی بیماری، خارش اور تار کیڑوں کی نگرانی کریں۔ اگر چاہیں تو 'نئے آلو' کی کٹائی پر غور کریں۔",
+              "ar": "راقب اللفحة المتأخرة، الجرب، والديدان السلكية. فكر في حصاد 'البطاطس الجديدة' إذا رغبت في ذلك.",
+              "fr": "Surveillez le mildiou tardif, la gale et les vers fil de fer. Envisagez de récolter les 'nouvelles pommes de terre' si désiré."
+            },
+            "EXPERT": {
+              "en": "Regularly inspect foliage and soil for disease progression. Note natural dieback as a sign of maturity.",
+              "ur": "بیماری کی پیشرفت کے لیے پتوں اور مٹی کا باقاعدگی سے معائنہ کریں۔ پختگی کی علامت کے طور پر قدرتی مرجھانے کو نوٹ کریں۔",
+              "ar": "افحص الأوراق والتربة بانتظام لتقدم المرض. لاحظ الذبول الطبيعي كعلامة على النضج.",
+              "fr": "Inspectez régulièrement le feuillage et le sol pour la progression des maladies. Notez le dépérissement naturel comme signe de maturité."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Late Blight",
+              "ur": "دیر سے بیماری",
+              "ar": "اللفحة المتأخرة",
+              "fr": "Mildiou tardif"
+            },
+            {
+              "en": "Potato Scab",
+              "ur": "آلو کی خارش",
+              "ar": "جرب البطاطس",
+              "fr": "Gale de la pomme de terre"
+            },
+            {
+              "en": "Wireworms",
+              "ur": "تار کیڑے",
+              "ar": "الديدان السلكية",
+              "fr": "Vers fil de fer"
+            }
+          ]
+        },
+        "foliageDieback": {
+          "required": false,
+          "dayOffset": 40,
+          "estimatedMinutes": 0,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Observe the potato plant's leaves starting to yellow and die back naturally.",
+              "ur": "آلو کے پودے کے پتوں کو قدرتی طور پر پیلا اور مرجھانا شروع ہوتے دیکھیں۔",
+              "ar": "راقب أوراق نبات البطاطس وهي تبدأ في الاصفرار والذبول بشكل طبيعي.",
+              "fr": "Observez les feuilles de la pomme de terre commencer à jaunir et à mourir naturellement."
+            },
+            "INTERMEDIATE": {
+              "en": "This natural process indicates tubers are maturing. Stop watering once foliage is mostly yellow.",
+              "ur": "یہ قدرتی عمل آلو کے پختہ ہونے کی نشاندہی کرتا ہے۔ جب پتے زیادہ تر پیلے ہو جائیں تو پانی دینا بند کر دیں۔",
+              "ar": "تشير هذه العملية الطبيعية إلى نضوج الدرنات. توقف عن الري بمجرد أن يصبح معظم الأوراق صفراء.",
+              "fr": "Ce processus naturel indique que les tubercules mûrissent. Arrêtez d'arroser une fois que le feuillage est majoritairement jaune."
+            },
+            "EXPERT": {
+              "en": "Allow foliage to die back completely for optimal tuber skin set and storage quality.",
+              "ur": "آلو کی جلد کی بہترین سیٹنگ اور ذخیرہ کرنے کے معیار کے لیے پتوں کو مکمل طور پر مرجھانے دیں۔",
+              "ar": "اسمح للأوراق بالذبول تمامًا للحصول على أفضل تثبيت لقشرة الدرنات وجودة التخزين.",
+              "fr": "Laissez le feuillage mourir complètement pour une fixation optimale de la peau des tubercules et une bonne qualité de conservation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Tubers ready for harvest and curing",
+        "ur": "آلو کٹائی اور خشک کرنے کے لیے تیار",
+        "ar": "الدرنات جاهزة للحصاد والمعالجة",
+        "fr": "Tubercules prêts pour la récolte et le séchage"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "foliageRemoval": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut off all the potato plant's foliage at ground level once it has died back.",
+              "ur": "جب آلو کے پودے کے پتے مرجھا جائیں تو انہیں زمین کی سطح سے کاٹ دیں۔",
+              "ar": "اقطع جميع أوراق نبات البطاطس عند مستوى الأرض بمجرد ذبولها.",
+              "fr": "Coupez tout le feuillage de la plante de pomme de terre au niveau du sol une fois qu'il est mort."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove all foliage 2-3 weeks before harvesting to allow tubers to 'set' their skins.",
+              "ur": "آلو کی جلد کو 'سیٹ' ہونے دینے کے لیے کٹائی سے 2-3 ہفتے پہلے تمام پتے ہٹا دیں۔",
+              "ar": "أزل جميع الأوراق قبل 2-3 أسابيع من الحصاد للسماح للدرنات بتثبيت قشورها.",
+              "fr": "Retirez tout le feuillage 2-3 semaines avant la récolte pour permettre aux tubercules de 'fixer' leur peau."
+            },
+            "EXPERT": {
+              "en": "This 'killing' of the tops helps toughen skins, improving storage life and reducing disease risk.",
+              "ur": "پتوں کو 'مارنا' جلد کو سخت کرنے میں مدد کرتا ہے، ذخیرہ کرنے کی عمر کو بہتر بناتا ہے اور بیماری کے خطرے کو کم کرتا ہے۔",
+              "ar": "يساعد 'قتل' الأوراق على تقوية القشور، مما يحسن مدة التخزين ويقلل من خطر الأمراض.",
+              "fr": "Cette 'destruction' des fanes aide à durcir la peau, améliorant la durée de conservation et réduisant le risque de maladies."
+            }
+          }
+        },
+        "harvesting": {
+          "required": true,
+          "dayOffset": 14,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently dig up potatoes with a fork or spade, starting about 6 inches from the plant base.",
+              "ur": "پودے کی بنیاد سے تقریباً 6 انچ کے فاصلے پر شروع کرتے ہوئے، کانٹے یا بیلچے سے آلو کو آہستہ سے کھودیں۔",
+              "ar": "احفر البطاطس برفق باستخدام شوكة أو مجرفة، بدءًا من حوالي 6 بوصات من قاعدة النبات.",
+              "fr": "Déterrez délicatement les pommes de terre avec une fourche ou une bêche, en commençant à environ 6 pouces de la base de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Wait 2-3 weeks after foliage dies back before harvesting. Dig carefully to avoid damaging tubers.",
+              "ur": "پتوں کے مرجھانے کے 2-3 ہفتے بعد کٹائی کریں۔ آلو کو نقصان پہنچانے سے بچنے کے لیے احتیاط سے کھودیں۔",
+              "ar": "انتظر 2-3 أسابيع بعد ذبول الأوراق قبل الحصاد. احفر بعناية لتجنب إتلاف الدرنات.",
+              "fr": "Attendez 2-3 semaines après la mort du feuillage avant de récolter. Creusez avec précaution pour éviter d'endommager les tubercules."
+            },
+            "EXPERT": {
+              "en": "Harvest on a dry day. Gently brush off excess soil, but do not wash. Handle carefully to prevent bruising.",
+              "ur": "خشک دن میں کٹائی کریں۔ اضافی مٹی کو آہستہ سے صاف کریں، لیکن دھوئیں نہیں۔ چوٹ لگنے سے بچنے کے لیے احتیاط سے سنبھالیں۔",
+              "ar": "احصد في يوم جاف. قم بتنظيف التربة الزائدة برفق، ولكن لا تغسل. تعامل بحذر لمنع الكدمات.",
+              "fr": "Récoltez par temps sec. Brossez délicatement l'excès de terre, mais ne lavez pas. Manipulez avec soin pour éviter les meurtrissures."
+            }
+          }
+        },
+        "curing": {
+          "required": true,
+          "dayOffset": 14,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "After harvesting, let potatoes sit in a cool, dark, humid place for 1-2 weeks to cure.",
+              "ur": "کٹائی کے بعد، آلو کو 1-2 ہفتے تک ٹھنڈی، تاریک، نم جگہ پر رکھیں تاکہ وہ خشک ہو جائیں۔",
+              "ar": "بعد الحصاد، اترك البطاطس في مكان بارد، مظلم، ورطب لمدة 1-2 أسبوع للمعالجة.",
+              "fr": "Après la récolte, laissez les pommes de terre dans un endroit frais, sombre et humide pendant 1-2 semaines pour les faire sécher."
+            },
+            "INTERMEDIATE": {
+              "en": "Cure potatoes at 50-60°F (10-15°C) with high humidity (85-95%) for 10-14 days.",
+              "ur": "آلو کو 50-60°F (10-15°C) پر زیادہ نمی (85-95%) کے ساتھ 10-14 دن تک خشک کریں۔",
+              "ar": "عالج البطاطس عند 50-60 درجة فهرنهايت (10-15 درجة مئوية) مع رطوبة عالية (85-95%) لمدة 10-14 يومًا.",
+              "fr": "Faites sécher les pommes de terre à 10-15°C (50-60°F) avec une humidité élevée (85-95%) pendant 10-14 jours."
+            },
+            "EXPERT": {
+              "en": "Proper curing heals minor wounds and thickens skins, significantly extending storage life.",
+              "ur": "مناسب خشک کرنا چھوٹے زخموں کو بھرتا ہے اور جلد کو گاڑھا کرتا ہے، جس سے ذخیرہ کرنے کی عمر میں نمایاں اضافہ ہوتا ہے۔",
+              "ar": "المعالجة الصحيحة تشفي الجروح الطفيفة وتثخن القشور، مما يطيل عمر التخزين بشكل كبير.",
+              "fr": "Un séchage approprié guérit les petites blessures et épaissit la peau, prolongeant considérablement la durée de conservation."
+            }
+          }
+        },
+        "storage": {
+          "required": true,
+          "dayOffset": 21,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Store cured potatoes in a cool, dark, well-ventilated place.",
+              "ur": "خشک شدہ آلو کو ٹھنڈی، تاریک، اچھی ہوادار جگہ پر ذخیرہ کریں۔",
+              "ar": "خزن البطاطس المعالجة في مكان بارد، مظلم، وجيد التهوية.",
+              "fr": "Conservez les pommes de terre séchées dans un endroit frais, sombre et bien ventilé."
+            },
+            "INTERMEDIATE": {
+              "en": "Ideal storage conditions are 40-45°F (4-7°C) with high humidity. Avoid light to prevent greening.",
+              "ur": "ذخیرہ کرنے کے لیے مثالی حالات 40-45°F (4-7°C) ہیں جس میں زیادہ نمی ہو۔ سبز ہونے سے بچنے کے لیے روشنی سے بچیں۔",
+              "ar": "ظروف التخزين المثالية هي 40-45 درجة فهرنهايت (4-7 درجات مئوية) مع رطوبة عالية. تجنب الضوء لمنع الاخضرار.",
+              "fr": "Les conditions de stockage idéales sont 4-7°C (40-45°F) avec une humidité élevée. Évitez la lumière pour prévenir le verdissement."
+            },
+            "EXPERT": {
+              "en": "Regularly check stored potatoes for sprouts or rot. Remove any affected tubers immediately.",
+              "ur": "ذخیرہ شدہ آلو کو کونپلوں یا گلنے کے لیے باقاعدگی سے چیک کریں۔ کسی بھی متاثرہ آلو کو فوری طور پر ہٹا دیں۔",
+              "ar": "افحص البطاطس المخزنة بانتظام بحثًا عن البراعم أو التعفن. أزل أي درنات مصابة على الفور.",
+              "fr": "Vérifiez régulièrement les pommes de terre stockées pour les germes ou la pourriture. Retirez immédiatement tout tubercule affecté."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3.7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة دون حرق الجذور الصغيرة الحساسة.",
+          "fr": "Donne un coup de pouce nutritif doux sans brûler les jeunes racines délicates."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Balanced Organic Mix",
+          "ur": "کمپوسٹ چائے یا متوازن نامیاتی مکس",
+          "ar": "شاي الكمبوست أو خليط عضوي متوازن",
+          "fr": "Thé de compost ou mélange organique équilibré"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو روث الدود في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de lombricompost dans 3.7 litres d'eau pendant 24-48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous leaf and stem growth, crucial before tuber formation.",
+          "ur": "یہ پتوں اور تنوں کی بھرپور نشوونما میں مدد کرتا ہے، جو آلو بننے سے پہلے ضروری ہے۔",
+          "ar": "يدعم النمو القوي للأوراق والسيقان، وهو أمر بالغ الأهمية قبل تكوين الدرنات.",
+          "fr": "Soutient une croissance vigoureuse des feuilles et des tiges, cruciale avant la formation des tubercules."
+        }
+      },
+      "TUBER_FORMATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal, Rock Phosphate & Wood Ash (P & K)",
+          "ur": "بون میل، راک فاسفیٹ اور لکڑی کی راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام، فوسفات الصخور ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Farine d'os, phosphate de roche et cendre de bois (P & K)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal, 1 tablespoon of rock phosphate, and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل، 1 چمچ راک فاسفیٹ اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام، وملعقة كبيرة من فوسفات الصخور، وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os, 1 cuillère à soupe de phosphate de roche et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Provides essential phosphorus and potassium for strong tuber development.",
+          "ur": "یہ آلو کی مضبوط نشوونما کے لیے ضروری فاسفورس اور پوٹاشیم فراہم کرتا ہے۔",
+          "ar": "يوفر الفوسفور والبوتاسيوم الأساسيين لتطوير الدرنات القوية.",
+          "fr": "Fournit le phosphore et le potassium essentiels pour un développement robuste des tubercules."
+        }
+      },
+      "TUBER_BULKING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal or Banana Peel Tea (High Potassium)",
+          "ur": "کیلپ میل یا کیلے کے چھلکے کی چائے (ہائی پوٹاشیم)",
+          "ar": "وجبة عشب البحر أو شاي قشر الموز (عالي البوتاسيوم)",
+          "fr": "Farine d'algues ou thé de peau de banane (riche en potassium)"
+        },
+        "preparation": {
+          "en": "For kelp meal, side-dress 1 tablespoon per plant. For banana peel tea, chop 3-4 peels, steep in 1 gallon of water for 48 hours. Pour around roots.",
+          "ur": "کیلپ میل کے لیے، ہر پودے کے گرد 1 چمچ ڈالیں۔ کیلے کے چھلکے کی چائے کے لیے، 3-4 چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ جڑوں میں ڈالیں۔",
+          "ar": "لوجبة عشب البحر، ضع ملعقة كبيرة لكل نبات. لشاي قشر الموز، قطع 3-4 قشور، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اسكب حول الجذور.",
+          "fr": "Pour la farine d'algues, épandez 1 cuillère à soupe par plante. Pour le thé de peau de banane, hachez 3-4 peaux, faites-les tremper dans 3.7 litres d'eau pendant 48 heures. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium helps tubers swell, mature properly, and improves starch content.",
+          "ur": "پوٹاشیم آلو کو پھولنے، صحیح طریقے سے پکنے اور نشاستہ کے مواد کو بہتر بنانے میں مدد کرتا ہے۔",
+          "ar": "يساعد البوتاسيوم الدرنات على الانتفاخ والنضوج بشكل صحيح ويحسن محتوى النشا.",
+          "fr": "Le potassium aide les tubercules à grossir, à mûrir correctement et améliore la teneur en amidon."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 15-15-15)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10 یا 15-15-15)",
+          "ar": "سماد NPK متوازن (مثلاً 10-10-10 أو 15-15-15)",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 15-15-15)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 3.7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong foliage growth, essential for photosynthesis.",
+          "ur": "یہ پتوں کی مضبوط نشوونما کو فروغ دیتا ہے، جو فوٹو سنتھیسز کے لیے ضروری ہے۔",
+          "ar": "يعزز نمو الأوراق القوي، وهو ضروري لعملية التمثيل الضوئي.",
+          "fr": "Favorise une croissance foliaire robuste, essentielle à la photosynthèse."
+        }
+      },
+      "TUBER_FORMATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus & Potassium (e.g., 5-10-10 or 8-24-24)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم (مثلاً 5-10-10 یا 8-24-24)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور والبوتاسيوم (مثلاً 5-10-10 أو 8-24-24)",
+          "fr": "Faible en azote, riche en phosphore et potassium (ex: 5-10-10 ou 8-24-24)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "ہر پودے کے گرد 2 چمچ دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "ضع ملعقتين كبيرتين من السماد الحبيبي لكل نبات. اسقِ الماء فورًا بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire par plante. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes energy allocation for tuber initiation and early development.",
+          "ur": "یہ آلو کی ابتدائی نشوونما کے لیے توانائی کی تقسیم کو بہتر بناتا ہے۔",
+          "ar": "يحسن تخصيص الطاقة لبدء الدرنات وتطورها المبكر.",
+          "fr": "Optimise l'allocation d'énergie pour l'initiation et le développement précoce des tubercules."
+        }
+      },
+      "TUBER_BULKING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-50 or specific potato fertilizer)",
+          "ur": "ہائی پوٹاشیم مکس (مثلاً 0-0-50 یا آلو کی مخصوص کھاد)",
+          "ar": "خليط عالي البوتاسيوم (مثلاً 0-0-50 أو سماد بطاطس خاص)",
+          "fr": "Mélange riche en potassium (ex: 0-0-50 ou engrais spécifique pour pommes de terre)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high-K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ ہائی پوٹاشیم کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من السماد عالي البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en K dans 3.7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for tuber sizing, starch accumulation, and overall quality.",
+          "ur": "پوٹاشیم آلو کے سائز، نشاستہ جمع کرنے اور مجموعی معیار کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم حيوي لتحديد حجم الدرنات، وتراكم النشا، والجودة الشاملة.",
+          "fr": "Le potassium est vital pour le calibrage des tubercules, l'accumulation d'amidon et la qualité globale."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "TUBER_FORMATION": {
+        "week1": "Bone Meal & Rock Phosphate",
+        "week2": "Low N, High P/K Fertilizer",
+        "alternating": true
+      },
+      "TUBER_BULKING": {
+        "week1": "Kelp Meal",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "beans",
+      "benefit": {
+        "en": "Fix nitrogen in the soil, which benefits potatoes, and can deter Colorado potato beetles.",
+        "ur": "مٹی میں نائٹروجن کو ٹھیک کرتے ہیں، جو آلو کے لیے فائدہ مند ہے، اور کولوراڈو آلو کے کیڑوں کو دور رکھ سکتے ہیں۔",
+        "ar": "تثبت النيتروجين في التربة، مما يفيد البطاطس، ويمكن أن تردع خنفساء البطاطس كولورادو.",
+        "fr": "Fixent l'azote dans le sol, ce qui est bénéfique pour les pommes de terre, et peuvent repousser les doryphores."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, and flowers repel other harmful insects.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، اور پھول کیڑوں کو بھگاتے ہیں۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية، والزهور تطرد الحشرات الضارة.",
+        "fr": "Les racines produisent une substance chimique qui tue les nématodes à galles, et les fleurs repoussent d'autres insectes nuisibles."
+      }
+    },
+    {
+      "plantId": "horseradish",
+      "benefit": {
+        "en": "Known to deter Colorado potato beetles and other potato pests.",
+        "ur": "کولوراڈو آلو کے کیڑوں اور دیگر آلو کے کیڑوں کو دور رکھنے کے لیے جانا جاتا ہے۔",
+        "ar": "معروف بقدرته على ردع خنافس البطاطس كولورادو وغيرها من آفات البطاطس.",
+        "fr": "Connu pour repousser les doryphores et autres ravageurs de la pomme de terre."
+      }
+    },
+    {
+      "plantId": "flax",
+      "benefit": {
+        "en": "Improves potato growth and health, potentially reducing disease incidence.",
+        "ur": "آلو کی نشوونما اور صحت کو بہتر بناتا ہے، ممکنہ طور پر بیماریوں کے واقعات کو کم کرتا ہے۔",
+        "ar": "يحسن نمو البطاطس وصحتها، ويقلل من حدوث الأمراض.",
+        "fr": "Améliore la croissance et la santé des pommes de terre, réduisant potentiellement l'incidence des maladies."
+      }
+    },
+    {
+      "plantId": "dead_nettle",
+      "benefit": {
+        "en": "Acts as a ground cover, suppressing weeds, and is believed to repel potato beetles.",
+        "ur": "زمین کو ڈھانپنے کا کام کرتا ہے، جڑی بوٹیوں کو دباتا ہے، اور آلو کے کیڑوں کو دور بھگانے کے لیے مانا جاتا ہے۔",
+        "ar": "يعمل كغطاء أرضي، يقمع الأعشاب الضارة، ويعتقد أنه يطرد خنافس البطاطس.",
+        "fr": "Agit comme couvre-sol, supprimant les mauvaises herbes, et est censé repousser les doryphores."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Shares the same blight diseases (early and late blight) and insects (like Colorado potato beetle), increasing risk for both.",
+        "ur": "یہ ایک ہی طرح کی بیماریوں (ابتدائی اور دیر سے جھلساؤ) اور کیڑوں (جیسے کولوراڈو آلو کا کیڑا) کا شکار ہوتے ہیں، جس سے دونوں کے لیے خطرہ بڑھ جاتا ہے۔",
+        "ar": "يتشارك معها نفس أمراض اللفحة (اللفحة المبكرة والمتأخرة) والحشرات (مثل خنفساء البطاطس كولورادو)، مما يزيد من المخاطر لكليهما.",
+        "fr": "Partage les mêmes maladies (mildiou précoce et tardif) et insectes (comme le doryphore), augmentant les risques pour les deux."
+      }
+    },
+    {
+      "plantId": "raspberry",
+      "reason": {
+        "en": "Can spread Verticillium wilt, a fungal disease that affects potatoes.",
+        "ur": "ورٹیسیلیم وِلٹ پھیلا سکتا ہے، جو ایک فنگل بیماری ہے جو آلو کو متاثر کرتی ہے۔",
+        "ar": "يمكن أن ينشر ذبول الفرتيسيليوم، وهو مرض فطري يصيب البطاطس.",
+        "fr": "Peut propager le verticillium, une maladie fongique qui affecte les pommes de terre."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Inhibits potato growth due to allelopathic chemicals released from its roots.",
+        "ur": "اس کی جڑوں سے نکلنے والے ایلوپیتھک کیمیکلز کی وجہ سے آلو کی نشوونما کو روکتا ہے۔",
+        "ar": "يثبط نمو البطاطس بسبب المواد الكيميائية الأليلوباثية التي تطلقها جذوره.",
+        "fr": "Inhibe la croissance des pommes de terre en raison des produits chimiques allélopathiques libérés par ses racines."
+      }
+    },
+    {
+      "plantId": "cucumber",
+      "reason": {
+        "en": "Can attract blight and compete for nutrients, potentially weakening potato plants.",
+        "ur": "جھلساؤ کو اپنی طرف متوجہ کر سکتا ہے اور غذائی اجزاء کے لیے مقابلہ کر سکتا ہے، ممکنہ طور پر آلو کے پودوں کو کمزور کر سکتا ہے۔",
+        "ar": "يمكن أن يجذب اللفحة ويتنافس على العناصر الغذائية، مما قد يضعف نباتات البطاطس.",
+        "fr": "Peut attirer le mildiou et concurrencer les nutriments, affaiblissant potentiellement les plants de pommes de terre."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances from its roots that inhibit the growth of many vegetables, including potatoes.",
+        "ur": "اس کی جڑوں سے ایسے مادے نکلتے ہیں جو آلو سمیت کئی سبزیوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "تفرز جذوره مواد تثبط نمو العديد من الخضروات، بما في ذلك البطاطس.",
+        "fr": "Produit des substances à partir de ses racines qui inhibent la croissance de nombreux légumes, y compris les pommes de terre."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "early_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Starts as small, dark spots with concentric rings on older leaves. Can lead to significant defoliation and reduced tuber yield.",
+        "ur": "یہ پرانے پتوں پر چھوٹے اور گہرے دھبوں سے شروع ہوتا ہے جس میں گول دائرے ہوتے ہیں۔ اس سے پتے گر سکتے ہیں اور آلو کی پیداوار کم ہو سکتی ہے۔",
+        "ar": "يبدأ كبقع صغيرة داكنة بحلقات متحدة المركز على الأوراق القديمة. يمكن أن يؤدي إلى تساقط الأوراق بشكل كبير وانخفاض محصول الدرنات.",
+        "fr": "Commence par de petites taches sombres avec des anneaux concentriques sur les feuilles plus âgées. Peut entraîner une forte défoliation et réduire le rendement des tubercules."
+      }
+    },
+    {
+      "pestId": "late_blight",
+      "vulnerableStages": [
+        "TUBER_FORMATION",
+        "TUBER_BULKING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes rapidly spreading, large, dark water-soaked spots on leaves and stems, and firm, reddish-brown decay on tubers. Devastating in cool, wet weather.",
+        "ur": "اس سے پتوں اور تنے پر پانی بھرے دھبے پڑ جاتے ہیں اور آلو گل کر سرخ بھورے ہو جاتے ہیں۔ یہ ٹھنڈے اور گیلے موسم میں بہت نقصان دہ ہے۔",
+        "ar": "يتسبب في بقع داكنة كبيرة وسريعة الانتشار مشبعة بالماء على الأوراق والسيقان، وتعفن صلب بني محمر على الدرنات. مدمر في الطقس البارد والرطب.",
+        "fr": "Provoque de grandes taches sombres et gorgées d'eau sur les feuilles et les tiges, et une pourriture ferme brun-rougeâtre sur les tubercules. Dévastateur par temps frais et humide."
+      }
+    },
+    {
+      "pestId": "colorado_potato_beetle",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "TUBER_FORMATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles and their red larvae chew holes in leaves, often defoliating plants entirely. Can severely reduce yields.",
+        "ur": "بالغ کیڑے اور ان کے سرخ لاروا پتوں میں سوراخ کرتے ہیں، اکثر پودوں کو مکمل طور پر پتے سے محروم کر دیتے ہیں۔ پیداوار کو شدید طور پر کم کر سکتے ہیں۔",
+        "ar": "تحدث الخنافس البالغة ويرقاتها الحمراء ثقوبًا في الأوراق، وغالبًا ما تجرد النباتات بالكامل من أوراقها. يمكن أن تقلل الغلة بشكل كبير.",
+        "fr": "Les coléoptères adultes et leurs larves rouges mâchent des trous dans les feuilles, défoliant souvent entièrement les plantes. Peut réduire considérablement les rendements."
+      }
+    },
+    {
+      "pestId": "potato_scab",
+      "vulnerableStages": [
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes rough, corky lesions or raised spots on the surface of tubers, reducing marketability. Favors alkaline soils.",
+        "ur": "آلو کی سطح پر کھردری، کارکی زخم یا ابھرے ہوئے دھبے پیدا کرتا ہے، جس سے بازار میں اس کی قیمت کم ہو جاتی ہے۔ الکلائن مٹی کو پسند کرتا ہے۔",
+        "ar": "يسبب آفات خشنة، فلينية أو بقع مرتفعة على سطح الدرنات، مما يقلل من قابليتها للتسويق. يفضل التربة القلوية.",
+        "fr": "Provoque des lésions rugueuses et liégeuses ou des taches en relief sur la surface des tubercules, réduisant leur commercialisation. Préfère les sols alcalins."
+      }
+    },
+    {
+      "pestId": "potato_leafhopper",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, wedge-shaped insects that suck sap from leaves, causing 'hopperburn' (yellowing, curling, and browning of leaf margins).",
+        "ur": "چھوٹے، پچر کی شکل کے کیڑے جو پتوں سے رس چوستے ہیں، جس سے 'ہوپربرن' (پتوں کے کناروں کا پیلا ہونا، مڑنا اور بھورا ہونا) ہوتا ہے۔",
+        "ar": "حشرات صغيرة على شكل إسفين تمتص العصارة من الأوراق، مما يسبب 'حروق النطاط' (اصفرار، تجعد، واسمرار حواف الأوراق).",
+        "fr": "Petits insectes en forme de coin qui sucent la sève des feuilles, provoquant le 'hopperburn' (jaunissement, enroulement et brunissement des bords des feuilles)."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "TUBER_FORMATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and secreting sticky honeydew. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "potato_virus_y",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes mosaic patterns, leaf distortion, stunted growth, and significant yield reduction. Spread by aphids.",
+        "ur": "یہ موزیک پیٹرن، پتوں کی خرابی، نشوونما میں رکاوٹ، اور پیداوار میں نمایاں کمی کا سبب بنتا ہے۔ افڈس کے ذریعے پھیلتا ہے۔",
+        "ar": "يسبب أنماطًا فسيفسائية، تشوه الأوراق، تباطؤ النمو، وانخفاضًا كبيرًا في الغلة. ينتشر عن طريق حشرات المن.",
+        "fr": "Provoque des motifs en mosaïque, une distorsion des feuilles, un retard de croissance et une réduction significative du rendement. Propagé par les pucerons."
+      }
+    },
+    {
+      "pestId": "rhizoctonia",
+      "vulnerableStages": [
+        "SEEDLING",
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes black scurf (dark sclerotia) on tubers, stem cankers, and damping-off of sprouts. Favors cool, wet soil.",
+        "ur": "آلو پر کالی کھجلی (گہرے سکلیروشیا)، تنے کے کینکر، اور پودوں کا مرجھانا کا سبب بنتا ہے۔ ٹھنڈی، گیلی مٹی کو پسند کرتا ہے۔",
+        "ar": "يسبب الجرب الأسود (تصلب داكن) على الدرنات، وتقرحات الساق، وموت البادرات. يفضل التربة الباردة والرطبة.",
+        "fr": "Provoque la gale noire (sclérotes sombres) sur les tubercules, des chancres sur les tiges et la fonte des semis. Préfère les sols frais et humides."
+      }
+    },
+    {
+      "pestId": "wireworms",
+      "vulnerableStages": [
+        "TUBER_FORMATION",
+        "TUBER_BULKING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into tubers, creating tunnels and holes, making them unmarketable. Often found in grassy areas or after sod.",
+        "ur": "لاروا آلو میں سوراخ کرتے ہیں، سرنگیں اور سوراخ بناتے ہیں، جس سے وہ بازار کے قابل نہیں رہتے۔ اکثر گھاس والے علاقوں یا گھاس کے بعد پائے جاتے ہیں۔",
+        "ar": "تحفر اليرقات في الدرنات، مما يخلق أنفاقًا وثقوبًا، ويجعلها غير قابلة للتسويق. غالبًا ما توجد في المناطق العشبية أو بعد العشب.",
+        "fr": "Les larves creusent des galeries et des trous dans les tubercules, les rendant invendables. Souvent trouvées dans les zones herbeuses ou après une pelouse."
+      }
+    },
+    {
+      "pestId": "flea_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">18"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, jumping beetles that chew numerous small holes ('shot-holes') in leaves. Severe infestations can stunt growth and reduce yields.",
+        "ur": "چھوٹے، اچھلنے والے کیڑے جو پتوں میں بے شمار چھوٹے سوراخ ('شاٹ ہولز') کرتے ہیں۔ شدید حملے نشوونما کو روک سکتے ہیں اور پیداوار کو کم کر سکتے ہیں۔",
+        "ar": "خنافس صغيرة قافزة تمضغ العديد من الثقوب الصغيرة ('ثقوب الرصاص') في الأوراق. يمكن أن تؤدي الإصابات الشديدة إلى توقف النمو وتقليل الغلة.",
+        "fr": "Petits coléoptères sauteurs qui mâchent de nombreux petits trous ('trous de balle') dans les feuilles. Les infestations sévères peuvent retarder la croissance et réduire les rendements."
+      }
+    },
+    {
+      "pestId": "verticillium_wilt",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "TUBER_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes yellowing and wilting of lower leaves, often on one side of the plant, leading to premature death. Soil-borne fungal disease.",
+        "ur": "نیچے کے پتوں کا پیلا ہونا اور مرجھانا، اکثر پودے کے ایک طرف، جس سے وقت سے پہلے موت واقع ہو جاتی ہے۔ مٹی سے پیدا ہونے والی فنگل بیماری۔",
+        "ar": "يسبب اصفرار وذبول الأوراق السفلية، غالبًا على جانب واحد من النبات، مما يؤدي إلى الموت المبكر. مرض فطري ينتقل عن طريق التربة.",
+        "fr": "Provoque le jaunissement et le flétrissement des feuilles inférieures, souvent d'un seul côté de la plante, entraînant une mort prématurée. Maladie fongique transmise par le sol."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 90,
+    "firstHarvestDayMax": 120,
+    "continuousHarvest": false,
+    "harvestWindowDays": 21,
+    "readinessSigns": [
+      {
+        "en": "Foliage dies back and turns yellow/brown",
+        "ur": "پتے مرجھا کر پیلے/بھورے ہو جائیں",
+        "ar": "ذبول الأوراق وتحولها إلى اللون الأصفر/البني",
+        "fr": "Le feuillage se fane et jaunit/brunît"
+      },
+      {
+        "en": "Skin is firm and doesn't rub off easily (after 2-3 weeks of foliage dieback)",
+        "ur": "چھلکا مضبوط ہو اور آسانی سے نہ اترے (پتوں کے مرجھانے کے 2-3 ہفتے بعد)",
+        "ar": "الجلد صلب ولا يتقشر بسهولة (بعد 2-3 أسابيع من ذبول الأوراق)",
+        "fr": "La peau est ferme et ne s'enlève pas facilement (après 2-3 semaines de fanaison du feuillage)"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Wait until the plant's foliage has completely died back. Gently dig around the plant with a garden fork, starting about a foot away from the stem to avoid piercing tubers. Lift the plant and carefully collect all potatoes.",
+        "ur": "پودے کے پتے مکمل طور پر مرجھانے کا انتظار کریں۔ پودے کے تنے سے تقریباً ایک فٹ دور سے باغ کے کانٹے سے احتیاط سے کھودنا شروع کریں تاکہ آلو کو چھیدنے سے بچا جا سکے۔ پودے کو اٹھائیں اور تمام آلو احتیاط سے جمع کریں۔",
+        "ar": "انتظر حتى يذبل نبات البطاطس تمامًا. احفر برفق حول النبات باستخدام شوكة الحديقة، بدءًا من حوالي قدم واحد بعيدًا عن الساق لتجنب ثقب الدرنات. ارفع النبات واجمع جميع البطاطس بعناية.",
+        "fr": "Attendez que le feuillage de la plante soit complètement mort. Creusez doucement autour de la plante avec une fourche de jardin, en commençant à environ un pied de la tige pour éviter de percer les tubercules. Soulevez la plante et ramassez soigneusement toutes les pommes de terre."
+      },
+      "INTERMEDIATE": {
+        "en": "For best storage, wait 2-3 weeks after the foliage dies back for the potato skins to 'set' or cure. Dig carefully on a dry day, brush off excess soil, and avoid washing. Cure in a cool, dark, humid place for 1-2 weeks before long-term storage.",
+        "ur": "بہترین ذخیرہ کے لیے، پتوں کے مرجھانے کے 2-3 ہفتے بعد تک انتظار کریں تاکہ آلو کے چھلکے 'سیٹ' ہو جائیں یا ٹھیک ہو جائیں۔ خشک دن میں احتیاط سے کھودیں، اضافی مٹی کو صاف کریں، اور دھونے سے گریز کریں۔ طویل مدتی ذخیرہ سے پہلے 1-2 ہفتے کے لیے ٹھنڈی، تاریک، مرطوب جگہ پر ٹھیک کریں۔",
+        "ar": "لأفضل تخزين، انتظر 2-3 أسابيع بعد ذبول الأوراق حتى 'تتصلب' قشور البطاطس أو تتعالج. احفر بعناية في يوم جاف، ونظف التربة الزائدة، وتجنب الغسيل. عالجها في مكان بارد ومظلم ورطب لمدة 1-2 أسبوع قبل التخزين طويل الأمد.",
+        "fr": "Pour une meilleure conservation, attendez 2-3 semaines après la mort du feuillage pour que la peau des pommes de terre 'se fixe' ou durcisse. Creusez soigneusement par temps sec, brossez l'excès de terre et évitez de laver. Faites-les sécher dans un endroit frais, sombre et humide pendant 1-2 semaines avant un stockage à long terme."
+      },
+      "EXPERT": {
+        "en": "Consider 'robbing' new potatoes by gently reaching into the soil around the plant to pull out a few early tubers, allowing the rest to continue growing. For main harvest, ensure proper curing conditions (10-15°C, 85-95% humidity) to maximize storage life and minimize disease.",
+        "ur": "نئے آلو 'چوری' کرنے پر غور کریں، پودے کے ارد گرد مٹی میں آہستہ سے ہاتھ ڈال کر کچھ ابتدائی آلو نکال لیں، باقی کو بڑھنے دیں۔ مرکزی فصل کے لیے، ذخیرہ کی زندگی کو زیادہ سے زیادہ کرنے اور بیماری کو کم کرنے کے لیے مناسب علاج کی شرائط (10-15°C، 85-95% نمی) کو یقینی بنائیں۔",
+        "ar": "فكر في 'سرقة' البطاطس الجديدة عن طريق الوصول برفق إلى التربة حول النبات لسحب بعض الدرنات المبكرة، مما يسمح للبقية بالاستمرار في النمو. للحصاد الرئيسي، تأكد من ظروف المعالجة المناسبة (10-15 درجة مئوية، 85-95% رطوبة) لزيادة عمر التخزين وتقليل الأمراض.",
+        "fr": "Envisagez de 'voler' de nouvelles pommes de terre en atteignant doucement le sol autour de la plante pour retirer quelques tubercules précoces, permettant aux autres de continuer à pousser. Pour la récolte principale, assurez des conditions de séchage appropriées (10-15°C, 85-95% d'humidité) pour maximiser la durée de conservation et minimiser les maladies."
+      }
+    },
+    "storage": {
+      "en": "Cool, dark, dry place (e.g., root cellar, basement) after curing.",
+      "ur": "علاج کے بعد ٹھنڈی، تاریک، خشک جگہ (مثلاً جڑ کا تہہ خانہ، تہہ خانہ)۔",
+      "ar": "مكان بارد، مظلم، وجاف (مثل قبو الجذور، الطابق السفلي) بعد المعالجة.",
+      "fr": "Endroit frais, sombre et sec (ex: cave, sous-sol) après séchage."
+    },
+    "yieldEstimateKg": {
+      "10L": 1.5,
+      "20L": 3,
+      "30L": 4.5,
+      "GROUND": 8
+    }
+  }
+}
