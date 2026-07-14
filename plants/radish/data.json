@@ -1,0 +1,954 @@
+{
+  "id": "radish",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1596160408468-19e591039912?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Radish",
+      "alternate": []
+    },
+    "ur": {
+      "common": "مولی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "فجل",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Radis",
+      "alternate": []
+    },
+    "botanical": "Raphanus sativus",
+    "aliases": [
+      "mooli",
+      "fajl",
+      "radis"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "root",
+  "germinationDays": 5,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 7,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": false,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "STANDARD"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "STANDARD": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Fast-growing root vegetable. Develops edible roots quickly. No specific pruning required.",
+          "ur": "تیزی سے بڑھنے والی جڑ والی سبزی۔ خوردنی جڑیں تیزی سے تیار ہوتی ہیں۔ کسی خاص کٹائی کی ضرورت نہیں۔",
+          "ar": "خضروات جذرية سريعة النمو. تطور جذورًا صالحة للأكل بسرعة. لا تتطلب تقليمًا محددًا.",
+          "fr": "Légume-racine à croissance rapide. Développe rapidement des racines comestibles. Aucune taille spécifique n'est requise."
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "fast-growing",
+    "root-vegetable",
+    "container-friendly",
+    "direct-sow"
+  ],
+  "temperature": {
+    "optimalMinC": 10,
+    "optimalMaxC": 18,
+    "survivalMinC": -5,
+    "survivalMaxC": 25,
+    "germinationMinC": 4,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 25,
+    "flowerDropBelowC": -5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "LOW",
+    "daysToMaturity": 25,
+    "requiredGDD": 250,
+    "baseTempC": 4,
+    "plantingConditions": {
+      "soilTempMinC": 7,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 25,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 20,
+      "highWindKmh": 30,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 600,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Keep consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "high",
+    "rootRotRisk": "Medium if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 50,
+      "critical": 35
+    },
+    "waterStressSymptoms": [
+      "woody roots",
+      "hot taste",
+      "cracked roots",
+      "bolting"
+    ],
+    "overwateringSymptoms": [
+      "split roots",
+      "root rot",
+      "yellowing leaves"
+    ],
+    "preferredWateringMethod": "Consistent, gentle watering",
+    "thingsToAvoid": [
+      "inconsistent watering",
+      "letting soil dry out completely",
+      "waterlogging"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "keep soil cool"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Shallow but wide pots are best",
+        "ur": "کم گہرے لیکن چوڑے گملے بہترین ہیں",
+        "ar": "الأواني الضحلة والواسعة هي الأفضل",
+        "fr": "Les pots peu profonds mais larges sont les meilleurs"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Good for drainage and aeration",
+        "ur": "نکاسی اور ہوا کے لیے اچھا ہے",
+        "ar": "جيد للتصريف والتهوية",
+        "fr": "Bon pour le drainage et l'aération"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 15,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Ensure loose, well-draining soil",
+        "ur": "ڈھیلی، اچھی نکاسی والی مٹی یقینی بنائیں",
+        "ar": "تأكد من تربة رخوة وجيدة التصريف",
+        "fr": "Assurez-vous d'un sol meuble et bien drainé"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for controlling soil conditions",
+        "ur": "مٹی کی حالت کو کنٹرول کرنے کے لیے بہترین",
+        "ar": "ممتاز للتحكم في ظروف التربة",
+        "fr": "Excellent pour contrôler les conditions du sol"
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 3,
+      "durationDaysWarm": 2,
+      "durationDaysCool": 5,
+      "description": {
+        "en": "Direct sowing of radish seeds",
+        "ur": "مولی کے بیج براہ راست بونا",
+        "ar": "بذر بذور الفجل مباشرة",
+        "fr": "Semis direct des graines de radis"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare loose, well-draining soil. Radishes prefer sandy loam.",
+              "ur": "ڈھیلی، اچھی نکاسی والی مٹی تیار کریں۔ مولی ریتلی لوم کو ترجیح دیتی ہے۔",
+              "ar": "جهز تربة خفيفة وجيدة التصريف. يفضل الفجل التربة الرملية الطينية.",
+              "fr": "Préparez un sol léger et bien drainé. Les radis préfèrent un loam sableux."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with compost for nutrients and good drainage.",
+              "ur": "غذائی اجزاء اور اچھی نکاسی کے لیے مٹی میں کھاد ملائیں۔",
+              "ar": "عدّل التربة بالسماد العضوي للمغذيات والصرف الجيد.",
+              "fr": "Amendez le sol avec du compost pour les nutriments et un bon drainage."
+            },
+            "EXPERT": {
+              "en": "Ensure soil pH is between 6.0-7.0 for optimal growth.",
+              "ur": "بہترین نشوونما کے لیے مٹی کا پی ایچ 6.0-7.0 کے درمیان رکھیں۔",
+              "ar": "تأكد من أن درجة حموضة التربة تتراوح بين 6.0-7.0 للنمو الأمثل.",
+              "fr": "Assurez-vous que le pH du sol est entre 6.0 et 7.0 pour une croissance optimale."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/2 inch deep and 1 inch apart in rows.",
+              "ur": "بیجوں کو 1/2 انچ گہرائی میں اور 1 انچ کے فاصلے پر قطاروں میں بوئیں۔",
+              "ar": "ازرع البذور بعمق 1/2 بوصة وعلى بعد 1 بوصة في صفوف.",
+              "fr": "Semez les graines à 1/2 pouce de profondeur et à 1 pouce d'intervalle en rangées."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant seeds thinly, about 1/2 inch deep, in well-prepared beds.",
+              "ur": "تیار شدہ بستروں میں بیجوں کو پتلا، تقریباً 1/2 انچ گہرائی میں بوئیں۔",
+              "ar": "ازرع البذور رقيقة، بعمق حوالي 1/2 بوصة، في أحواض معدة جيدًا.",
+              "fr": "Plantez les graines finement, à environ 1/2 pouce de profondeur, dans des plates-bandes bien préparées."
+            },
+            "EXPERT": {
+              "en": "Stagger planting every week for a continuous harvest.",
+              "ur": "مسلسل کٹائی کے لیے ہر ہفتے بونا جاری رکھیں۔",
+              "ar": "ازرع على فترات أسبوعية لحصاد مستمر.",
+              "fr": "Échelonnez les semis chaque semaine pour une récolte continue."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist after sowing.",
+              "ur": "بونے کے بعد مٹی کو مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار بعد البذر.",
+              "fr": "Maintenez le sol constamment humide après le semis."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fine spray to avoid disturbing shallowly sown seeds.",
+              "ur": "سطحی طور پر بوئے گئے بیجوں کو خراب ہونے سے بچانے کے لیے باریک سپرے استعمال کریں۔",
+              "ar": "استخدم رذاذًا ناعمًا لتجنب إزعاج البذور المزروعة سطحيًا.",
+              "fr": "Utilisez un pulvérisateur fin pour éviter de déranger les graines semées peu profondément."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture daily; do not let the soil dry out.",
+              "ur": "روزانہ مٹی کی نمی کی نگرانی کریں؛ مٹی کو خشک نہ ہونے دیں۔",
+              "ar": "راقب رطوبة التربة يوميًا؛ لا تدع التربة تجف.",
+              "fr": "Surveillez l'humidité du sol quotidiennement; ne laissez pas le sol sécher."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 5,
+      "durationDaysWarm": 3,
+      "durationDaysCool": 8,
+      "description": {
+        "en": "Radish sprouts appear",
+        "ur": "مولی کی کونپلیں نکلنا",
+        "ar": "ظهور براعم الفجل",
+        "fr": "Apparition des pousses de radis"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 3,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for tiny green sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلتی ہوئی چھوٹی سبز کونپلیں تلاش کریں۔",
+              "ar": "ابحث عن براعم خضراء صغيرة تظهر من التربة.",
+              "fr": "Recherchez de minuscules pousses vertes émergeant du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Check for uniform germination and healthy cotyledons.",
+              "ur": "یکساں انکرن اور صحت مند کوٹیلیڈنز کی جانچ کریں۔",
+              "ar": "تحقق من الإنبات الموحد والفلقات الصحية.",
+              "fr": "Vérifiez la germination uniforme et les cotylédons sains."
+            },
+            "EXPERT": {
+              "en": "Assess germination rate and identify any potential issues.",
+              "ur": "انکرن کی شرح کا اندازہ لگائیں اور کسی بھی ممکنہ مسئلے کی نشاندہی کریں۔",
+              "ar": "قيم معدل الإنبات وحدد أي مشاكل محتملة.",
+              "fr": "Évaluez le taux de germination et identifiez tout problème potentiel."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 150,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid dislodging delicate sprouts.",
+              "ur": "نازک کونپلوں کو ہٹانے سے بچنے کے لیے آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزاحة البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour éviter de déloger les pousses délicates."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture; do not let the soil surface crust.",
+              "ur": "مسلسل نمی برقرار رکھیں؛ مٹی کی سطح کو سخت نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة ثابتة؛ لا تدع سطح التربة يتصلب.",
+              "fr": "Maintenez une humidité constante; ne laissez pas la surface du sol croûter."
+            },
+            "EXPERT": {
+              "en": "Ensure adequate drainage to prevent damping-off disease.",
+              "ur": "ڈیمپنگ آف بیماری سے بچنے کے لیے مناسب نکاسی کو یقینی بنائیں۔",
+              "ar": "تأكد من الصرف الكافي لمنع مرض الذبول.",
+              "fr": "Assurez un drainage adéquat pour prévenir la fonte des semis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 15,
+      "description": {
+        "en": "True leaves develop, thinning is crucial",
+        "ur": "حقیقی پتے نکلتے ہیں، پتلا کرنا ضروری ہے",
+        "ar": "تتطور الأوراق الحقيقية، والتخفيف ضروري",
+        "fr": "Les vraies feuilles se développent, l'éclaircissage est crucial"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 5,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 2-3 inches apart for root development.",
+              "ur": "جڑوں کی نشوونما کے لیے پودوں کو 2-3 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "خفف الشتلات لتكون على بعد 2-3 بوصات لتطوير الجذور.",
+              "fr": "Éclaircissez les semis à 2-3 pouces d'intervalle pour le développement des racines."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully pull out weaker seedlings, leaving the strongest.",
+              "ur": "کمزور پودوں کو احتیاط سے نکالیں، مضبوط ترین کو چھوڑ دیں۔",
+              "ar": "اسحب الشتلات الأضعف بعناية، مع ترك الأقوى.",
+              "fr": "Retirez délicatement les semis les plus faibles, en laissant les plus forts."
+            },
+            "EXPERT": {
+              "en": "Thin to optimal spacing based on radish variety for maximum yield.",
+              "ur": "زیادہ سے زیادہ پیداوار کے لیے مولی کی قسم کے مطابق بہترین فاصلے پر پتلا کریں۔",
+              "ar": "خفف إلى المسافة المثلى بناءً على نوع الفجل لتحقيق أقصى إنتاجية.",
+              "fr": "Éclaircissez à l'espacement optimal en fonction de la variété de radis pour un rendement maximal."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 250,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil moist but not waterlogged.",
+              "ur": "مٹی کو نم رکھیں لیکن پانی سے بھری نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة ولكن ليست مشبعة بالماء.",
+              "fr": "Maintenez le sol humide mais non gorgé d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تشعر أن البوصة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque le premier pouce de sol est sec au toucher."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": false,
+          "dayOffset": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for small holes in leaves, which could be flea beetles.",
+              "ur": "پتوں میں چھوٹے سوراخوں کی جانچ کریں، جو فلی بیٹل ہو سکتے ہیں۔",
+              "ar": "ابحث عن ثقوب صغيرة في الأوراق، والتي قد تكون بسبب خنافس البراغيث.",
+              "fr": "Vérifiez les petits trous dans les feuilles, qui pourraient être des altises."
+            },
+            "INTERMEDIATE": {
+              "en": "If flea beetles are present, consider dusting with diatomaceous earth.",
+              "ur": "اگر فلی بیٹل موجود ہوں تو ڈائیٹومیشس ارتھ سے دھولنے پر غور کریں۔",
+              "ar": "إذا كانت خنافس البراغيث موجودة، فكر في رش التراب الدياتومي.",
+              "fr": "Si des altises sont présentes, envisagez de saupoudrer de terre de diatomées."
+            },
+            "EXPERT": {
+              "en": "Implement row covers early to prevent flea beetle damage.",
+              "ur": "فلی بیٹل کے نقصان کو روکنے کے لیے جلد ہی قطار کے کور لگائیں۔",
+              "ar": "طبق أغطية الصفوف مبكرًا لمنع تلف خنافس البراغيث.",
+              "fr": "Mettez en place des voiles de forçage tôt pour prévenir les dégâts des altises."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 15,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Radish roots begin to swell and mature",
+        "ur": "مولی کی جڑیں پھولنا اور پکنا شروع ہو جاتی ہیں",
+        "ar": "تبدأ جذور الفجل في الانتفاخ والنضوج",
+        "fr": "Les racines de radis commencent à gonfler et à mûrir"
+      },
+      "emoji": "🥕",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 400,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Consistent watering is key to tender, flavorful radishes.",
+              "ur": "نرم اور ذائقہ دار مولیوں کے لیے مسلسل پانی دینا ضروری ہے۔",
+              "ar": "الري المستمر هو مفتاح الفجل الطري واللذيذ.",
+              "fr": "Un arrosage constant est essentiel pour des radis tendres et savoureux."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid erratic watering, which can cause roots to crack or become woody.",
+              "ur": "بے ترتیب پانی دینے سے گریز کریں، جو جڑوں کو پھٹنے یا لکڑی جیسا بنا سکتا ہے۔",
+              "ar": "تجنب الري المتقطع، الذي يمكن أن يتسبب في تشقق الجذور أو أن تصبح خشبية.",
+              "fr": "Évitez les arrosages irréguliers, qui peuvent faire craquer les racines ou les rendre ligneuses."
+            },
+            "EXPERT": {
+              "en": "Maintain even soil moisture to promote rapid, uniform root development.",
+              "ur": "تیز، یکساں جڑ کی نشوونما کو فروغ دینے کے لیے مٹی کی نمی کو یکساں رکھیں۔",
+              "ar": "حافظ على رطوبة التربة متساوية لتعزيز نمو الجذور السريع والموحد.",
+              "fr": "Maintenez une humidité du sol uniforme pour favoriser un développement racinaire rapide et homogène."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids on the undersides of leaves; spray with water.",
+              "ur": "پتوں کے نیچے ایفڈز کی جانچ کریں؛ پانی سے سپرے کریں۔",
+              "ar": "ابحث عن المن على الجانب السفلي من الأوراق؛ رش بالماء.",
+              "fr": "Vérifiez la présence de pucerons sous les feuilles; pulvérisez de l'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply insecticidal soap if pest pressure is high.",
+              "ur": "اگر کیڑوں کا دباؤ زیادہ ہو تو کیڑے مار صابن کا استعمال کریں۔",
+              "ar": "استخدم صابون مبيد للحشرات إذا كان ضغط الآفات مرتفعًا.",
+              "fr": "Appliquez du savon insecticide si la pression des ravageurs est élevée."
+            },
+            "EXPERT": {
+              "en": "Monitor for root maggots; consider beneficial nematodes if a problem.",
+              "ur": "جڑ کے کیڑوں کی نگرانی کریں؛ اگر مسئلہ ہو تو فائدہ مند نیماٹوڈز پر غور کریں۔",
+              "ar": "راقب يرقات الجذور؛ فكر في استخدام النيماتودا المفيدة إذا كانت هناك مشكلة.",
+              "fr": "Surveillez les asticots des racines; envisagez les nématodes bénéfiques si un problème."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently push back soil to check if radish roots are swelling.",
+              "ur": "آہستہ سے مٹی کو پیچھے ہٹا کر دیکھیں کہ کیا مولی کی جڑیں پھول رہی ہیں۔",
+              "ar": "ادفع التربة بلطف للتحقق مما إذا كانت جذور الفجل تنتفخ.",
+              "fr": "Repoussez délicatement la terre pour vérifier si les racines de radis gonflent."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for signs of bolting (tall flower stalk) which indicates roots are past prime.",
+              "ur": "بولٹنگ (لمبی پھول کی ڈنڈی) کی علامات تلاش کریں جو بتاتی ہے کہ جڑیں اپنی بہترین حالت سے گزر چکی ہیں۔",
+              "ar": "ابحث عن علامات التزهير (ساق زهرة طويلة) مما يشير إلى أن الجذور تجاوزت ذروتها.",
+              "fr": "Recherchez les signes de montaison (tige florale haute) qui indique que les racines sont passées leur prime."
+            },
+            "EXPERT": {
+              "en": "Assess root size and texture to determine readiness for harvest.",
+              "ur": "کٹائی کے لیے تیاری کا تعین کرنے کے لیے جڑ کے سائز اور ساخت کا اندازہ لگائیں۔",
+              "ar": "قيم حجم الجذر وملمسه لتحديد جاهزيته للحصاد.",
+              "fr": "Évaluez la taille et la texture des racines pour déterminer leur maturité pour la récolte."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Flea Beetles",
+              "ur": "فلی بیٹل",
+              "ar": "خنافس البراغيث",
+              "fr": "Altises"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Bolting",
+              "ur": "بولٹنگ",
+              "ar": "التزهير المبكر",
+              "fr": "Montaison"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 20,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Radish roots are ready to be pulled",
+        "ur": "مولی کی جڑیں نکالنے کے لیے تیار ہیں",
+        "ar": "جذور الفجل جاهزة للحصاد",
+        "fr": "Les racines de radis sont prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pull radishes when roots are 1 inch in diameter.",
+              "ur": "جب جڑیں 1 انچ قطر کی ہوں تو مولی نکال لیں۔",
+              "ar": "اسحب الفجل عندما تكون الجذور بقطر 1 بوصة.",
+              "fr": "Récoltez les radis lorsque les racines mesurent 1 pouce de diamètre."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest promptly to prevent roots from becoming woody or pithy.",
+              "ur": "جڑوں کو لکڑی جیسا یا پیتھی بننے سے روکنے کے لیے فوری طور پر کٹائی کریں۔",
+              "ar": "احصد بسرعة لمنع الجذور من أن تصبح خشبية أو لبية.",
+              "fr": "Récoltez rapidement pour éviter que les racines ne deviennent ligneuses ou spongieuses."
+            },
+            "EXPERT": {
+              "en": "Gently loosen soil around the base before pulling to avoid damaging roots.",
+              "ur": "جڑوں کو نقصان پہنچانے سے بچنے کے لیے کھینچنے سے پہلے بنیاد کے ارد گرد مٹی کو آہستہ سے ڈھیلا کریں۔",
+              "ar": "خفف التربة بلطف حول القاعدة قبل السحب لتجنب إتلاف الجذور.",
+              "fr": "Desserrez délicatement le sol autour de la base avant de tirer pour éviter d'endommager les racines."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water before harvesting to make pulling easier.",
+              "ur": "کٹائی سے پہلے پانی دیں تاکہ نکالنا آسان ہو۔",
+              "ar": "اسقِ قبل الحصاد لتسهيل السحب.",
+              "fr": "Arrosez avant la récolte pour faciliter l'arrachage."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain soil moisture to keep remaining radishes tender.",
+              "ur": "باقی مولیوں کو نرم رکھنے کے لیے مٹی کی نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة للحفاظ على الفجل المتبقي طريًا.",
+              "fr": "Maintenez l'humidité du sol pour garder les radis restants tendres."
+            },
+            "EXPERT": {
+              "en": "Ensure consistent moisture to prevent cracking during harvest.",
+              "ur": "کٹائی کے دوران پھٹنے سے بچنے کے لیے مسلسل نمی کو یقینی بنائیں۔",
+              "ar": "تأكد من الرطوبة المستمرة لمنع التشقق أثناء الحصاد.",
+              "fr": "Assurez une humidité constante pour éviter les fissures pendant la récolte."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 10,
+        "product": {
+          "en": "Diluted Liquid Seaweed or Compost Tea",
+          "ur": "پتلا مائع سی ویڈ یا کمپوسٹ چائے",
+          "ar": "مستخلص الطحالب البحرية المخفف أو شاي الكمبوست",
+          "fr": "Extrait d'algues liquide dilué ou thé de compost"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of liquid seaweed extract or compost tea in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مائع سی ویڈ یا کمپوسٹ چائے 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستخلص الطحالب البحرية السائل أو شاي الكمبوست في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'extrait d'algues liquide ou de thé de compost dans 3.7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young radishes, promoting healthy initial growth without over-fertilizing.",
+          "ur": "نوجوان مولیوں کے لیے ہلکی غذائیت فراہم کرتا ہے، زیادہ کھاد ڈالے بغیر صحت مند ابتدائی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة للفجل الصغير، مما يعزز النمو الأولي الصحي دون الإفراط في التسميد.",
+          "fr": "Fournit un léger coup de pouce nutritif aux jeunes radis, favorisant une croissance initiale saine sans sur-fertilisation."
+        }
+      },
+      "ROOT_DEVELOPMENT": {
+        "apply": true,
+        "intervalDays": 10,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 1 tablespoon of bone meal and 1 teaspoon of wood ash around the base of the plants. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودوں کی جڑوں کے گرد 1 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقة كبيرة من مسحوق العظام وملعقة صغيرة من رماد الخشب حول قاعدة النباتات. ادمجها بلطف في الطبقة العلوية من التربة.",
+          "fr": "Saupoudrez 1 cuillère à soupe de poudre d'os et 1 cuillère à café de cendre de bois autour de la base des plantes. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Encourages strong root development and prevents woody texture in radishes. Avoid excessive nitrogen.",
+          "ur": "مولیوں میں جڑوں کی مضبوط نشوونما کو فروغ دیتا ہے اور لکڑی کی ساخت کو روکتا ہے۔ زیادہ نائٹروجن سے پرہیز کریں۔",
+          "ar": "يشجع على نمو جذور قوية ويمنع الملمس الخشبي في الفجل. تجنب النيتروجين الزائد.",
+          "fr": "Favorise un fort développement des racines et prévient la texture ligneuse des radis. Évitez l'excès d'azote."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "ROOT_DEVELOPMENT": {
+        "apply": true,
+        "intervalDays": 10,
+        "product": {
+          "en": "Low Nitrogen NPK (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن این پی کے (مثلاً 5-10-10)",
+          "ar": "سماد NPK منخفض النيتروجين (مثل 5-10-10)",
+          "fr": "NPK faible en azote (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of 5-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة صغيرة من مسحوق NPK 5-10-10 في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à café de poudre NPK 5-10-10 dans 3.7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential phosphorus and potassium for root development without promoting excessive leaf growth.",
+          "ur": "جڑوں کی نشوونما کے لیے ضروری فاسفورس اور پوٹاشیم فراہم کرتا ہے بغیر زیادہ پتوں کی نشوونما کو فروغ دیے۔",
+          "ar": "يوفر الفوسفور والبوتاسيوم الأساسيين لنمو الجذور دون تعزيز النمو المفرط للأوراق.",
+          "fr": "Fournit le phosphore et le potassium essentiels au développement des racines sans favoriser une croissance excessive du feuillage."
+        }
+      }
+    },
+    "HYBRID": {
+      "ROOT_DEVELOPMENT": {
+        "week1": "Bone Meal & Wood Ash",
+        "week2": "Low Nitrogen NPK",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Provides shade to the soil, keeping it cool and moist, which helps prevent radishes from bolting prematurely.",
+        "ur": "مٹی کو سایہ فراہم کرتا ہے، اسے ٹھنڈا اور نم رکھتا ہے، جو مولیوں کو وقت سے پہلے پھولنے سے روکنے میں مدد کرتا ہے۔",
+        "ar": "يوفر الظل للتربة، مما يحافظ عليها باردة ورطبة، ويساعد على منع الفجل من الإزهار المبكر.",
+        "fr": "Fournit de l'ombre au sol, le gardant frais et humide, ce qui aide à empêcher les radis de monter en graine prématurément."
+      }
+    },
+    {
+      "plantId": "nasturtium",
+      "benefit": {
+        "en": "Acts as a trap crop for aphids, drawing them away from radishes, and can deter other pests like flea beetles.",
+        "ur": "افڈس کے لیے ایک پھندے کی فصل کے طور پر کام کرتا ہے، انہیں مولیوں سے دور رکھتا ہے، اور دیگر کیڑوں جیسے فلی بیٹلز کو بھی دور کر سکتا ہے۔",
+        "ar": "يعمل كمصيدة لحشرات المن، ويبعدها عن الفجل، ويمكن أن يردع آفات أخرى مثل خنافس البراغيث.",
+        "fr": "Agit comme une plante-piège pour les pucerons, les éloignant des radis, et peut repousser d'autres parasites comme les altises."
+      }
+    },
+    {
+      "plantId": "mint",
+      "benefit": {
+        "en": "Its strong scent helps deter flea beetles and other common radish pests.",
+        "ur": "اس کی تیز خوشبو فلی بیٹلز اور مولی کے دیگر عام کیڑوں کو دور رکھنے میں مدد کرتی ہے۔",
+        "ar": "رائحته القوية تساعد على طرد خنافس البراغيث والآفات الشائعة الأخرى للفجل.",
+        "fr": "Son parfum puissant aide à repousser les altises et autres parasites courants du radis."
+      }
+    },
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Both are root vegetables with similar soil requirements, and carrots can help loosen the soil for easier radish growth.",
+        "ur": "دونوں جڑ والی سبزیاں ہیں جن کی مٹی کی ضروریات ایک جیسی ہیں، اور گاجریں مولی کی آسان نشوونما کے لیے مٹی کو ڈھیلا کرنے میں مدد کر سکتی ہیں۔",
+        "ar": "كلاهما من الخضروات الجذرية ذات المتطلبات المتشابهة للتربة، ويمكن للجزر أن يساعد في تفكيك التربة لنمو الفجل بسهولة أكبر.",
+        "fr": "Les deux sont des légumes-racines avec des exigences de sol similaires, et les carottes peuvent aider à ameublir le sol pour une croissance plus facile des radis."
+      }
+    },
+    {
+      "plantId": "chervil",
+      "benefit": {
+        "en": "Believed to improve the flavor and growth of radishes.",
+        "ur": "مولیوں کے ذائقے اور نشوونما کو بہتر بنانے کے لیے مانا جاتا ہے۔",
+        "ar": "يُعتقد أنه يحسن نكهة ونمو الفجل.",
+        "fr": "On pense qu'il améliore la saveur et la croissance des radis."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "hyssop",
+      "reason": {
+        "en": "Known to inhibit the growth of radishes and other brassicas.",
+        "ur": "مولیوں اور دیگر براسیکا کی نشوونما کو روکنے کے لیے جانا جاتا ہے۔",
+        "ar": "معروف بأنه يثبط نمو الفجل وغيره من الخضروات الصليبية.",
+        "fr": "Connu pour inhiber la croissance des radis et autres brassicacées."
+      }
+    },
+    {
+      "plantId": "grape",
+      "reason": {
+        "en": "Can stunt the growth of radishes if planted too close.",
+        "ur": "اگر بہت قریب لگایا جائے تو مولیوں کی نشوونما کو روک سکتا ہے۔",
+        "ar": "يمكن أن يعيق نمو الفجل إذا زرع قريبًا جدًا.",
+        "fr": "Peut ralentir la croissance des radis s'il est planté trop près."
+      }
+    },
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Competes for nutrients and can attract similar pests, though less critical than for other crops.",
+        "ur": "غذائی اجزاء کے لیے مقابلہ کرتا ہے اور اسی طرح کے کیڑوں کو اپنی طرف متوجہ کر سکتا ہے، اگرچہ دیگر فصلوں کے مقابلے میں کم اہم ہے۔",
+        "ar": "يتنافس على العناصر الغذائية ويمكن أن يجذب آفات مماثلة، على الرغم من أنه أقل أهمية من المحاصيل الأخرى.",
+        "fr": "Rivalise pour les nutriments et peut attirer des parasites similaires, bien que moins critique que pour d'autres cultures."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "flea_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">18"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, jumping beetles that chew small, round holes in radish leaves, especially on young seedlings. Can stunt growth.",
+        "ur": "چھوٹے، اچھلنے والے کیڑے جو مولی کے پتوں میں چھوٹے، گول سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ نشوونما کو روک سکتے ہیں۔",
+        "ar": "خنافس صغيرة قافزة تمضغ ثقوبًا صغيرة مستديرة في أوراق الفجل، خاصة على الشتلات الصغيرة. يمكن أن تعيق النمو.",
+        "fr": "Petits coléoptères sauteurs qui mâchent de petits trous ronds dans les feuilles de radis, surtout sur les jeunes semis. Peut retarder la croissance."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on the undersides of leaves and new growth, sucking sap and weakening the plant.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو پتوں کے نیچے اور نئی نشوونما پر جمع ہوتے ہیں، رس چوستے ہیں اور پودے کو کمزور کرتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على الجانب السفلي من الأوراق والنمو الجديد، تمتص العصارة وتضعف النبات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sous les feuilles et sur les nouvelles pousses, suçant la sève et affaiblissant la plante."
+      }
+    },
+    {
+      "pestId": "root_maggots",
+      "vulnerableStages": [
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae of the cabbage root fly tunnel into radish roots, creating unsightly channels and making them inedible. Often leads to wilting.",
+        "ur": "گوبھی کی جڑ کی مکھی کے لاروا مولی کی جڑوں میں سرنگیں بناتے ہیں، جس سے وہ بدصورت اور ناقابل استعمال ہو جاتی ہیں۔ اکثر پودا مرجھا جاتا ہے۔",
+        "ar": "تتغلغل يرقات ذبابة جذور الكرنب في جذور الفجل، مما يخلق قنوات قبيحة ويجعلها غير صالحة للأكل. غالبًا ما يؤدي إلى الذبول.",
+        "fr": "Les larves de la mouche du chou creusent des galeries dans les racines de radis, créant des canaux inesthétiques et les rendant immangeables. Conduit souvent au flétrissement."
+      }
+    },
+    {
+      "pestId": "downy_mildew",
+      "vulnerableStages": [
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes yellow spots on the upper surface of leaves and fuzzy, grayish-purple growth on the undersides. Can lead to defoliation.",
+        "ur": "پتوں کی اوپری سطح پر پیلے دھبے اور نچلی سطح پر بھوری مائل جامنی رنگ کی پھپھوندی کی نشوونما کا سبب بنتا ہے۔ پتوں کے گرنے کا سبب بن سکتا ہے۔",
+        "ar": "يسبب بقعًا صفراء على السطح العلوي للأوراق ونموًا زغبيًا رماديًا بنفسجيًا على الجانب السفلي. يمكن أن يؤدي إلى تساقط الأوراق.",
+        "fr": "Provoque des taches jaunes sur la face supérieure des feuilles et une croissance duveteuse gris-violet sur la face inférieure. Peut entraîner la défoliation."
+      }
+    },
+    {
+      "pestId": "clubroot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "A soil-borne disease causing swollen, distorted, club-like roots. Infected plants are stunted and wilt easily. Affects all brassicas.",
+        "ur": "مٹی سے پیدا ہونے والی بیماری جو جڑوں کو سوجن، بگڑی ہوئی اور گٹھلی نما بنا دیتی ہے۔ متاثرہ پودے کمزور ہو جاتے ہیں اور آسانی سے مرجھا جاتے ہیں۔ تمام براسیکا کو متاثر کرتی ہے۔",
+        "ar": "مرض ينتقل عن طريق التربة يسبب جذورًا متورمة، مشوهة، تشبه العصا. النباتات المصابة تتقزم وتذبل بسهولة. يؤثر على جميع الخضروات الصليبية.",
+        "fr": "Maladie transmise par le sol provoquant des racines gonflées, déformées, en forme de massue. Les plantes infectées sont rabougries et se flétrissent facilement. Affecte toutes les brassicacées."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Premature flowering and seed stalk formation, often triggered by hot weather, inconsistent watering, or overcrowding. Makes roots woody and spicy.",
+        "ur": "وقت سے پہلے پھول آنا اور بیج کے ڈنٹھل بننا، جو اکثر گرم موسم، بے قاعدہ پانی یا زیادہ بھیڑ کی وجہ سے ہوتا ہے۔ جڑوں کو لکڑی جیسا اور کڑوا بنا دیتا ہے۔",
+        "ar": "الإزهار المبكر وتكوين ساق البذور، غالبًا ما يحدث بسبب الطقس الحار، الري غير المنتظم، أو الاكتظاظ. يجعل الجذور خشبية وحارة.",
+        "fr": "Floraison prématurée et formation de tiges de graines, souvent déclenchée par le temps chaud, un arrosage irrégulier ou le surpeuplement. Rend les racines ligneuses et piquantes."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 21,
+    "firstHarvestDayMax": 30,
+    "continuousHarvest": true,
+    "harvestWindowDays": 10,
+    "readinessSigns": [
+      {
+        "en": "Root diameter 1-2 inches",
+        "ur": "جڑ کا قطر 1-2 انچ",
+        "ar": "قطر الجذر 1-2 بوصة",
+        "fr": "Diamètre de la racine 2.5-5 cm"
+      },
+      {
+        "en": "Firm to the touch",
+        "ur": "چھونے پر سخت",
+        "ar": "صلب عند اللمس",
+        "fr": "Ferme au toucher"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently pull from soil",
+        "ur": "آرام سے مٹی سے کھینچیں",
+        "ar": "اسحب بلطف من التربة",
+        "fr": "Tirez doucement du sol"
+      },
+      "INTERMEDIATE": {
+        "en": "Loosen soil around root, then pull",
+        "ur": "جڑ کے گرد مٹی ڈھیلی کریں، پھر کھینچیں",
+        "ar": "فك التربة حول الجذر، ثم اسحب",
+        "fr": "Ameublissez le sol autour de la racine, puis tirez"
+      },
+      "EXPERT": {
+        "en": "Harvest before bolting for best flavor",
+        "ur": "بہترین ذائقے کے لیے پھول آنے سے پہلے کاٹ لیں",
+        "ar": "احصد قبل الإزهار للحصول على أفضل نكهة",
+        "fr": "Récoltez avant la montée en graine pour une meilleure saveur"
+      }
+    },
+    "storage": {
+      "en": "Refrigerate with tops removed",
+      "ur": "اوپر کے پتے ہٹا کر فریج میں رکھیں",
+      "ar": "احفظ في الثلاجة بعد إزالة الأوراق العلوية",
+      "fr": "Réfrigérer avec les fanes retirées"
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2
+    }
+  }
+}

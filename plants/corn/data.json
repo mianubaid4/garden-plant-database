@@ -1,0 +1,1456 @@
+{
+  "id": "corn",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1596280459529-6e3a6e3e3e3e?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Corn",
+      "alternate": [
+        "Maize",
+        "Sweet Corn"
+      ]
+    },
+    "ur": {
+      "common": "مکئی",
+      "alternate": [
+        "بھٹا"
+      ]
+    },
+    "ar": {
+      "common": "ذرة",
+      "alternate": [
+        "ذرة حلوة"
+      ]
+    },
+    "fr": {
+      "common": "Maïs",
+      "alternate": [
+        "Blé d'Inde"
+      ]
+    },
+    "botanical": "Zea mays",
+    "aliases": [
+      "makai",
+      "bhutta",
+      "dhurra",
+      "maiz",
+      "corn"
+    ]
+  },
+  "category": "grain",
+  "subcategory": "cereal",
+  "germinationDays": 7,
+  "weatherRules": {
+    "highRiskFungalHumidity": 85,
+    "highWindSupportKmh": 40,
+    "slowGrowthBelowC": 13,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "SWEET_CORN",
+    "DENT_CORN",
+    "FLINT_CORN",
+    "POPCORN"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "SWEET_CORN": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Cultivated for its sweet kernels, harvested when immature. Requires consistent moisture and nutrients.",
+          "ur": "میٹھے دانوں کے لیے کاشت کیا جاتا ہے، کچے ہونے پر کاٹا جاتا ہے۔ مستقل نمی اور غذائی اجزاء کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "DENT_CORN": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Also known as field corn, characterized by a dent in the kernel when dry. Primarily used for animal feed and industrial products.",
+          "ur": "فیلڈ کارن کے نام سے بھی جانا جاتا ہے، خشک ہونے پر دانے میں ایک گڑھا ہوتا ہے۔ بنیادی طور پر جانوروں کے چارے اور صنعتی مصنوعات کے لیے استعمال ہوتا ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": true,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Wind-pollinated. Ensure good air circulation for pollen transfer from tassels to silks.",
+        "ur": "ہوا سے پولینیٹ ہوتا ہے۔ پولن کو ٹیسل سے سلک تک منتقل کرنے کے لیے اچھی ہوا کی گردش کو یقینی بنائیں۔",
+        "ar": "يتم تلقيحه بالرياح. تأكد من تهوية جيدة لنقل حبوب اللقاح من النورات الذكرية إلى الخيوط الحريرية.",
+        "fr": "Pollinisation par le vent. Assurer une bonne circulation de l'air pour le transfert du pollen des panicules aux soies."
+      }
+    ]
+  },
+  "tags": [
+    "summer",
+    "heavy-feeder",
+    "wind-pollinated",
+    "tall-plant",
+    "grain"
+  ],
+  "temperature": {
+    "optimalMinC": 21,
+    "optimalMaxC": 32,
+    "survivalMinC": 5,
+    "survivalMaxC": 38,
+    "germinationMinC": 10,
+    "germinationOptimalC": 24,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 10
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 80,
+    "requiredGDD": 1000,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 13,
+      "airTempMinC": 18
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": 10,
+      "frostWarningC": 2,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Deep and Consistent",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "High during tasseling and silking",
+    "rootRotRisk": "Medium if soil remains soggy",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "leaf curling",
+      "wilting",
+      "poor kernel development"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or deep root watering",
+    "thingsToAvoid": [
+      "shallow watering",
+      "waterlogging",
+      "overhead watering during tasseling"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium-deep",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires large pots and consistent watering. Best for dwarf varieties.",
+        "ur": "بڑے گملے اور مستقل پانی کی ضرورت ہوتی ہے۔ بونے اقسام کے لیے بہترین۔",
+        "ar": "يتطلب أواني كبيرة وريًا منتظمًا. الأفضل للأصناف القزمة.",
+        "fr": "Nécessite de grands pots et un arrosage constant. Idéal pour les variétés naines."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags provide good aeration but dry out faster.",
+        "ur": "کپڑے کے تھیلے اچھی ہوا فراہم کرتے ہیں لیکن تیزی سے خشک ہوتے ہیں۔",
+        "ar": "الأكياس القماشية توفر تهوية جيدة ولكنها تجف أسرع.",
+        "fr": "Les sacs en tissu offrent une bonne aération mais sèchent plus vite."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Plant in blocks for better wind pollination. Requires fertile, well-drained soil.",
+        "ur": "بہتر ہوا پولینیشن کے لیے بلاکس میں لگائیں۔ زرخیز، اچھی نکاسی والی مٹی کی ضرورت ہوتی ہے۔",
+        "ar": "ازرع في كتل لتحسين التلقيح بالرياح. يتطلب تربة خصبة جيدة التصريف.",
+        "fr": "Plantez en blocs pour une meilleure pollinisation par le vent. Nécessite un sol fertile et bien drainé."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 50,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Excellent for deep root development and soil control. Ensure adequate spacing.",
+        "ur": "گہری جڑوں کی نشوونما اور مٹی کے کنٹرول کے لیے بہترین۔ مناسب فاصلہ یقینی بنائیں۔",
+        "ar": "ممتاز لتطوير الجذور العميقة والتحكم في التربة. تأكد من التباعد الكافي.",
+        "fr": "Excellent pour le développement des racines profondes et le contrôle du sol. Assurez un espacement adéquat."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 4,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Planting corn seeds",
+        "ur": "مکئی کے بیج بونا",
+        "ar": "زراعة بذور الذرة",
+        "fr": "Semis des graines de maïs"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix compost into soil.",
+              "ur": "مٹی میں کھاد ملائیں۔",
+              "ar": "اخلط السماد مع التربة.",
+              "fr": "Mélangez du compost à la terre."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with balanced fertilizer.",
+              "ur": "مٹی کو متوازن کھاد سے بہتر بنائیں۔",
+              "ar": "عدّل التربة بسماد متوازن.",
+              "fr": "Amendez le sol avec un engrais équilibré."
+            },
+            "EXPERT": {
+              "en": "Test soil pH (6.0-6.8) and nutrient levels.",
+              "ur": "مٹی کا پی ایچ (6.0-6.8) اور غذائی اجزاء کی سطح چیک کریں۔",
+              "ar": "اختبر درجة حموضة التربة (6.0-6.8) ومستويات المغذيات.",
+              "fr": "Testez le pH du sol (6.0-6.8) et les niveaux de nutriments."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant seeds 1 inch deep, 6 inches apart.",
+              "ur": "بیج 1 انچ گہرائی میں، 6 انچ کے فاصلے پر بوئیں۔",
+              "ar": "ازرع البذور بعمق 1 بوصة، بمسافة 6 بوصات بينها.",
+              "fr": "Plantez les graines à 1 pouce de profondeur, à 6 pouces d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Sow 1-2 inches deep, 6-8 inches apart in blocks for better pollination.",
+              "ur": "بہتر پولینیشن کے لیے 1-2 انچ گہرائی میں، 6-8 انچ کے فاصلے پر بلاکس میں بوئیں۔",
+              "ar": "ازرع بعمق 1-2 بوصة، بمسافة 6-8 بوصات في كتل لتحسين التلقيح.",
+              "fr": "Semez à 1-2 pouces de profondeur, à 6-8 pouces d'intervalle en blocs pour une meilleure pollinisation."
+            },
+            "EXPERT": {
+              "en": "Ensure proper spacing for block planting (e.g., 4x4 ft block with 1 ft spacing).",
+              "ur": "بلاک پلانٹنگ کے لیے مناسب فاصلہ یقینی بنائیں (مثلاً، 4x4 فٹ بلاک میں 1 فٹ کا فاصلہ)۔",
+              "ar": "تأكد من التباعد المناسب للزراعة في كتل (مثل كتلة 4x4 قدم بمسافة 1 قدم).",
+              "fr": "Assurez un espacement approprié pour la plantation en blocs (par exemple, bloc de 4x4 pieds avec un espacement de 1 pied)."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 3,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for sprouts.",
+              "ur": "کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم.",
+              "fr": "Vérifiez les pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Check moisture and sprouts.",
+              "ur": "نمی اور کونپلیں چیک کریں۔",
+              "ar": "تحقق من الرطوبة والبراعم.",
+              "fr": "Vérifiez l'humidité et les pousses."
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination.",
+              "ur": "یکساں انکرن چیک کریں۔",
+              "ar": "افحص الإنبات الموحد.",
+              "fr": "Inspectez la germination uniforme."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil to keep it moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے چھڑکاؤ کریں۔",
+              "ar": "رش التربة للحفاظ على رطوبتها.",
+              "fr": "Vaporisez le sol pour le maintenir humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں لیکن پانی سے بھری نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار ولكن ليس مشبعة بالماء.",
+              "fr": "Maintenez le sol constamment humide mais non gorgé d'eau."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture daily to ensure optimal conditions for germination.",
+              "ur": "انکرن کے لیے بہترین حالات کو یقینی بنانے کے لیے روزانہ مٹی کی نمی کی نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة يوميًا لضمان الظروف المثلى للإنبات.",
+              "fr": "Surveillez l'humidité du sol quotidiennement pour des conditions de germination optimales."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Corn sprouts emerge",
+        "ur": "مکئی کی کونپلیں نکلنا",
+        "ar": "ظهور براعم الذرة",
+        "fr": "Les pousses de maïs émergent"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 5,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin to 1 plant every 12 inches.",
+              "ur": "ہر 12 انچ پر 1 پودا رکھیں۔",
+              "ar": "خفف إلى نبتة واحدة كل 12 بوصة.",
+              "fr": "Éclaircissez à 1 plante tous les 12 pouces."
+            },
+            "INTERMEDIATE": {
+              "en": "Thin to the strongest seedling, 8-12 inches apart.",
+              "ur": "سب سے مضبوط پودے کو رکھیں، 8-12 انچ کے فاصلے پر۔",
+              "ar": "خفف إلى أقوى شتلة، بمسافة 8-12 بوصة بينها.",
+              "fr": "Éclaircissez au plant le plus fort, à 8-12 pouces d'intervalle."
+            },
+            "EXPERT": {
+              "en": "Ensure optimal plant density for desired yield, considering variety and space.",
+              "ur": "مطلوبہ پیداوار کے لیے پودوں کی بہترین کثافت یقینی بنائیں، قسم اور جگہ کو مدنظر رکھتے ہوئے۔",
+              "ar": "تأكد من الكثافة المثلى للنباتات لتحقيق العائد المطلوب، مع مراعاة التنوع والمساحة.",
+              "fr": "Assurez une densité de plantes optimale pour le rendement souhaité, en tenant compte de la variété et de l'espace."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 250,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing young sprouts.",
+              "ur": "نوجوان کونپلوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البراعم الصغيرة.",
+              "fr": "Arrosez doucement pour ne pas déranger les jeunes pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil consistently moist around the base of the seedlings.",
+              "ur": "پودوں کی جڑوں کے گرد مٹی کو مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار حول قاعدة الشتلات.",
+              "fr": "Maintenez le sol constamment humide autour de la base des semis."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture depth to encourage root development.",
+              "ur": "جڑوں کی نشوونما کو فروغ دینے کے لیے مٹی کی نمی کی گہرائی کی نگرانی کریں۔",
+              "ar": "راقب عمق رطوبة التربة لتشجيع نمو الجذور.",
+              "fr": "Surveillez la profondeur de l'humidité du sol pour favoriser le développement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Young corn plants develop true leaves",
+        "ur": "نوجوان مکئی کے پودوں میں نئے پتے آنا",
+        "ar": "تطور الأوراق الحقيقية في نباتات الذرة الصغيرة",
+        "fr": "Les jeunes plants de maïs développent de vraies feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "fertilizing": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer.",
+              "ur": "متوازن مائع کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا سائلًا متوازنًا.",
+              "fr": "Appliquez un engrais liquide équilibré."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with compost or a slow-release granular fertilizer.",
+              "ur": "کمپوسٹ یا آہستہ جاری ہونے والی دانے دار کھاد سے سائیڈ ڈریس کریں۔",
+              "ar": "أضف السماد العضوي أو سماد حبيبي بطيء الإطلاق.",
+              "fr": "Apportez du compost ou un engrais granulaire à libération lente en surface."
+            },
+            "EXPERT": {
+              "en": "Apply nitrogen-rich fertilizer based on soil test recommendations.",
+              "ur": "مٹی کے ٹیسٹ کی سفارشات کے مطابق نائٹروجن سے بھرپور کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا غنيًا بالنيتروجين بناءً على توصيات اختبار التربة.",
+              "fr": "Appliquez un engrais riche en azote selon les recommandations de l'analyse du sol."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently remove weeds by hand around the corn plants.",
+              "ur": "مکئی کے پودوں کے گرد جڑی بوٹیاں ہاتھ سے آہستہ سے ہٹائیں۔",
+              "ar": "أزل الأعشاب الضارة يدويًا بلطف حول نباتات الذرة.",
+              "fr": "Enlevez délicatement les mauvaises herbes à la main autour des plants de maïs."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform shallow cultivation to control weeds and avoid damaging corn roots.",
+              "ur": "جڑی بوٹیوں کو کنٹرول کرنے اور مکئی کی جڑوں کو نقصان پہنچانے سے بچنے کے لیے ہلکی کاشت کریں۔",
+              "ar": "قم بالحرث السطحي للتحكم في الأعشاب الضارة وتجنب إتلاف جذور الذرة.",
+              "fr": "Effectuez un désherbage superficiel pour contrôler les mauvaises herbes et éviter d'endommager les racines du maïs."
+            },
+            "EXPERT": {
+              "en": "Implement integrated weed management strategies, considering mulch or cover crops.",
+              "ur": "ملچ یا کور فصلوں کو مدنظر رکھتے ہوئے مربوط جڑی بوٹیوں کے انتظام کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "طبق استراتيجيات متكاملة لإدارة الأعشاب الضارة، مع الأخذ في الاعتبار استخدام النشارة أو المحاصيل الغطائية.",
+              "fr": "Mettez en œuvre des stratégies de gestion intégrée des mauvaises herbes, en considérant le paillis ou les cultures de couverture."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water the base of the plants, increasing the amount as they grow.",
+              "ur": "پودوں کی جڑوں میں پانی دیں، جیسے جیسے وہ بڑھیں مقدار بڑھاتے جائیں۔",
+              "ar": "اسقِ قاعدة النباتات، وزد الكمية مع نموها.",
+              "fr": "Arrosez la base des plantes, en augmentant la quantité à mesure qu'elles grandissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کو فروغ دینے کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لتشجيع نمو الجذور القوية.",
+              "fr": "Assurez un arrosage profond pour favoriser un fort développement racinaire."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture profile to prevent drought stress and overwatering.",
+              "ur": "خشک سالی کے دباؤ اور زیادہ پانی دینے سے بچنے کے لیے مٹی کی نمی کی پروفائل کی نگرانی کریں۔",
+              "ar": "راقب ملف رطوبة التربة لمنع إجهاد الجفاف والري الزائد.",
+              "fr": "Surveillez le profil d'humidité du sol pour prévenir le stress hydrique et l'excès d'arrosage."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Rapid stalk and leaf growth",
+        "ur": "تیزی سے تنے اور پتوں کی نشوونما",
+        "ar": "نمو سريع للساق والأوراق",
+        "fr": "Croissance rapide de la tige et des feuilles"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "hilling": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mound soil around the base of the plants for support.",
+              "ur": "پودوں کو سہارا دینے کے لیے ان کی جڑوں کے گرد مٹی کا ڈھیر لگائیں۔",
+              "ar": "كوم التربة حول قاعدة النباتات للدعم.",
+              "fr": "Buttez la terre autour de la base des plantes pour le soutien."
+            },
+            "INTERMEDIATE": {
+              "en": "Hill soil around stalks to cover brace roots and provide stability.",
+              "ur": "تنے کے گرد مٹی کا ڈھیر لگائیں تاکہ سہارا دینے والی جڑوں کو ڈھانپیں اور استحکام فراہم کریں۔",
+              "ar": "كوم التربة حول السيقان لتغطية الجذور الداعمة وتوفير الاستقرار.",
+              "fr": "Buttez la terre autour des tiges pour couvrir les racines adventives et assurer la stabilité."
+            },
+            "EXPERT": {
+              "en": "Optimize hilling for stability, moisture retention, and weed suppression.",
+              "ur": "استحکام، نمی برقرار رکھنے اور جڑی بوٹیوں کو دبانے کے لیے ہِلنگ کو بہتر بنائیں۔",
+              "ar": "حسّن التكويم لتحقيق الاستقرار، الاحتفاظ بالرطوبة، وقمع الأعشاب الضارة.",
+              "fr": "Optimisez le buttage pour la stabilité, la rétention d'humidité et la suppression des mauvaises herbes."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a general purpose fertilizer.",
+              "ur": "عام مقصد کی کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا متعدد الأغراض.",
+              "fr": "Appliquez un engrais tout usage."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with a nitrogen fertilizer to support leaf growth.",
+              "ur": "پتوں کی نشوونما کو سہارا دینے کے لیے نائٹروجن کھاد سے سائیڈ ڈریس کریں۔",
+              "ar": "أضف سمادًا نيتروجينيًا لدعم نمو الأوراق.",
+              "fr": "Apportez un engrais azoté en surface pour soutenir la croissance des feuilles."
+            },
+            "EXPERT": {
+              "en": "Foliar feed with micronutrients if soil tests indicate deficiencies.",
+              "ur": "اگر مٹی کے ٹیسٹ میں کمی ظاہر ہو تو مائیکرو نیوٹرینٹس کے ساتھ فولیر فیڈ کریں۔",
+              "ar": "قم بالتغذية الورقية بالمغذيات الدقيقة إذا أشارت اختبارات التربة إلى نقص.",
+              "fr": "Apportez des micronutriments par voie foliaire si les analyses de sol indiquent des carences."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for corn earworm or aphids.",
+              "ur": "مکئی کے کیڑے یا ایفڈز کے لیے پتے چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن دودة الذرة أو المن.",
+              "fr": "Vérifiez les feuilles pour la pyrale du maïs ou les pucerons."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest control like Neem oil if pests are observed.",
+              "ur": "اگر کیڑے نظر آئیں تو نیم کے تیل جیسے نامیاتی کیڑے مار دوا کا استعمال کریں۔",
+              "ar": "استخدم مبيدات الآفات العضوية مثل زيت النيم إذا لوحظت الآفات.",
+              "fr": "Appliquez un contrôle biologique des nuisibles comme l'huile de Neem si des parasites sont observés."
+            },
+            "EXPERT": {
+              "en": "Scout regularly and use targeted biological controls or IPM strategies.",
+              "ur": "باقاعدگی سے نگرانی کریں اور ہدف شدہ حیاتیاتی کنٹرول یا IPM حکمت عملیوں کا استعمال کریں۔",
+              "ar": "استكشف بانتظام واستخدم ضوابط بيولوجية مستهدفة أو استراتيجيات IPM.",
+              "fr": "Surveillez régulièrement et utilisez des contrôles biologiques ciblés ou des stratégies de lutte intégrée."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Corn Earworm",
+              "ur": "مکئی کا کیڑا",
+              "ar": "دودة الذرة",
+              "fr": "Pyrale du maïs"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply, corn needs a lot of water during this stage.",
+              "ur": "گہرا پانی دیں، اس مرحلے میں مکئی کو بہت زیادہ پانی کی ضرورت ہوتی ہے۔",
+              "ar": "اسقِ بعمق، فالذرة تحتاج إلى الكثير من الماء في هذه المرحلة.",
+              "fr": "Arrosez profondément, le maïs a besoin de beaucoup d'eau à ce stade."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent deep watering, especially during dry spells.",
+              "ur": "خشک موسم میں خاص طور پر مسلسل گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق المستمر، خاصة خلال فترات الجفاف.",
+              "fr": "Assurez un arrosage profond et constant, surtout pendant les périodes sèches."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation for efficient water delivery and conservation.",
+              "ur": "پانی کی موثر ترسیل اور تحفظ کے لیے ڈرپ اریگیشن کا استعمال کریں۔",
+              "ar": "استخدم الري بالتنقيط لتوصيل المياه بكفاءة والحفاظ عليها.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour une distribution d'eau efficace et une conservation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Tassels and silks emerge",
+        "ur": "ٹیسلز اور سلکس کا نکلنا",
+        "ar": "ظهور النورات والحرير",
+        "fr": "Apparition des panicules et des soies"
+      },
+      "emoji": "🌾",
+      "tips": [],
+      "tasks": {
+        "pollination": {
+          "required": false,
+          "dayOffset": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently shake corn stalks on calm mornings to aid pollination.",
+              "ur": "پولینیشن میں مدد کے لیے پرسکون صبحوں میں مکئی کے تنے کو آہستہ سے ہلائیں۔",
+              "ar": "هز سيقان الذرة بلطف في الصباح الهادئ للمساعدة في التلقيح.",
+              "fr": "Secouez doucement les tiges de maïs les matins calmes pour faciliter la pollinisation."
+            },
+            "INTERMEDIATE": {
+              "en": "Hand-pollinate by dusting pollen from tassels onto silks for better kernel fill.",
+              "ur": "بہتر دانے بھرنے کے لیے ٹیسلز سے پولن کو سلکس پر چھڑک کر ہاتھ سے پولینیشن کریں۔",
+              "ar": "قم بالتلقيح اليدوي عن طريق رش حبوب اللقاح من النورات على الحرير لملء أفضل للحبوب.",
+              "fr": "Pollinisez à la main en saupoudrant le pollen des panicules sur les soies pour un meilleur remplissage des grains."
+            },
+            "EXPERT": {
+              "en": "Monitor pollen viability and silk emergence timing for optimal pollination success.",
+              "ur": "بہترین پولینیشن کی کامیابی کے لیے پولن کی قابل عملت اور سلک کے نکلنے کے وقت کی نگرانی کریں۔",
+              "ar": "راقب حيوية حبوب اللقاح وتوقيت ظهور الحرير لتحقيق أفضل نجاح في التلقيح.",
+              "fr": "Surveillez la viabilité du pollen et le moment de l'émergence des soies pour un succès optimal de la pollinisation."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check silks for corn earworm activity.",
+              "ur": "مکئی کے کیڑے کی سرگرمی کے لیے سلکس چیک کریں۔",
+              "ar": "تحقق من الحرير بحثًا عن نشاط دودة الذرة.",
+              "fr": "Vérifiez les soies pour l'activité de la pyrale du maïs."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a few drops of mineral oil to the tip of each ear's silk to deter earworms.",
+              "ur": "کیڑوں کو روکنے کے لیے ہر بھٹے کے سلک کی نوک پر معدنی تیل کے چند قطرے لگائیں۔",
+              "ar": "ضع بضع قطرات من الزيت المعدني على طرف حرير كل كوز لردع دودة الذرة.",
+              "fr": "Appliquez quelques gouttes d'huile minérale sur la pointe de la soie de chaque épi pour dissuader les pyrales."
+            },
+            "EXPERT": {
+              "en": "Deploy beneficial insects or pheromone traps for targeted earworm control.",
+              "ur": "ہدف شدہ کیڑے کے کنٹرول کے لیے فائدہ مند کیڑے یا فیرومون ٹریپس استعمال کریں۔",
+              "ar": "انشر الحشرات النافعة أو مصائد الفيرومون للتحكم المستهدف في دودة الذرة.",
+              "fr": "Déployez des insectes auxiliaires ou des pièges à phéromones pour un contrôle ciblé de la pyrale."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Corn Earworm",
+              "ur": "مکئی کا کیڑا",
+              "ar": "دودة الذرة",
+              "fr": "Pyrale du maïs"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently, critical for kernel development.",
+              "ur": "گہرا اور مسلسل پانی دیں، یہ دانوں کی نشوونما کے لیے بہت اہم ہے۔",
+              "ar": "اسقِ بعمق وباستمرار، وهو أمر بالغ الأهمية لتطور الحبوب.",
+              "fr": "Arrosez profondément et constamment, c'est crucial pour le développement des grains."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even soil moisture to prevent stress during pollination and kernel set.",
+              "ur": "پولینیشن اور دانے بننے کے دوران دباؤ سے بچنے کے لیے مٹی کی نمی کو یکساں رکھیں۔",
+              "ar": "حافظ على رطوبة التربة متساوية لمنع الإجهاد أثناء التلقيح وتكوين الحبوب.",
+              "fr": "Maintenez une humidité du sol uniforme pour prévenir le stress pendant la pollinisation et la formation des grains."
+            },
+            "EXPERT": {
+              "en": "Monitor plant water status and adjust irrigation based on environmental conditions.",
+              "ur": "پودے کے پانی کی حالت کی نگرانی کریں اور ماحولیاتی حالات کی بنیاد پر آبپاشی کو ایڈجسٹ کریں۔",
+              "ar": "راقب حالة مياه النبات واضبط الري بناءً على الظروف البيئية.",
+              "fr": "Surveillez l'état hydrique de la plante et ajustez l'irrigation en fonction des conditions environnementales."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Ears develop and fill with kernels",
+        "ur": "بھٹے بننا اور دانے بھرنا",
+        "ar": "تكون الكيزان وامتلائها بالحبوب",
+        "fr": "Développement et remplissage des épis"
+      },
+      "emoji": "🌽",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect corn ears for any signs of pest damage.",
+              "ur": "مکئی کے بھٹوں کو کیڑوں کے نقصان کی کسی بھی علامت کے لیے چیک کریں۔",
+              "ar": "افحص كيزان الذرة بحثًا عن أي علامات لتلف الآفات.",
+              "fr": "Inspectez les épis de maïs pour tout signe de dommage causé par les parasites."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove any visible pests by hand or apply targeted organic treatments.",
+              "ur": "کسی بھی نظر آنے والے کیڑوں کو ہاتھ سے ہٹائیں یا ہدف شدہ نامیاتی علاج کا استعمال کریں۔",
+              "ar": "أزل أي آفات مرئية يدويًا أو طبق علاجات عضوية مستهدفة.",
+              "fr": "Enlevez les parasites visibles à la main ou appliquez des traitements biologiques ciblés."
+            },
+            "EXPERT": {
+              "en": "Implement advanced IPM strategies to protect developing ears from pests.",
+              "ur": "کیڑوں سے بڑھتے ہوئے بھٹوں کو بچانے کے لیے جدید IPM حکمت عملیوں کو نافذ کریں۔",
+              "ar": "طبق استراتيجيات IPM متقدمة لحماية الكيزان النامية من الآفات.",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée avancées pour protéger les épis en développement des parasites."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Corn Earworm",
+              "ur": "مکئی کا کیڑا",
+              "ar": "دودة الذرة",
+              "fr": "Pyrale du maïs"
+            },
+            {
+              "en": "Stink Bugs",
+              "ur": "بدبودار کیڑے",
+              "ar": "بق الفراش",
+              "fr": "Punaises"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain heavy, consistent watering to ensure plump kernels.",
+              "ur": "موٹے دانوں کو یقینی بنانے کے لیے بھاری، مسلسل پانی دیں۔",
+              "ar": "حافظ على ري غزير ومستمر لضمان حبوب ممتلئة.",
+              "fr": "Maintenez un arrosage abondant et constant pour des grains charnus."
+            },
+            "INTERMEDIATE": {
+              "en": "Prevent drought stress which can lead to shriveled or poorly filled kernels.",
+              "ur": "خشک سالی کے دباؤ سے بچیں جو دانوں کو سکڑنے یا خراب بھرنے کا سبب بن سکتا ہے۔",
+              "ar": "امنع إجهاد الجفاف الذي يمكن أن يؤدي إلى حبوب ذابلة أو غير ممتلئة جيدًا.",
+              "fr": "Prévenez le stress hydrique qui peut entraîner des grains ratatinés ou mal remplis."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation schedules based on evapotranspiration rates and soil moisture sensors.",
+              "ur": "بخارات کے اخراج کی شرح اور مٹی کی نمی کے سینسر کی بنیاد پر آبپاشی کے شیڈول کو بہتر بنائیں۔",
+              "ar": "حسّن جداول الري بناءً على معدلات التبخر النتحي وأجهزة استشعار رطوبة التربة.",
+              "fr": "Optimisez les programmes d'irrigation en fonction des taux d'évapotranspiration et des capteurs d'humidité du sol."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Feel ears for plumpness and fullness.",
+              "ur": "بھٹوں کو موٹاپے اور بھرپور پن کے لیے محسوس کریں۔",
+              "ar": "تحسس الكيزان لتقييم امتلاءها.",
+              "fr": "Palpez les épis pour vérifier leur grosseur et leur remplissage."
+            },
+            "INTERMEDIATE": {
+              "en": "Peel back a small section of husk to check kernel development and color.",
+              "ur": "دانے کی نشوونما اور رنگ چیک کرنے کے لیے بھٹے کا ایک چھوٹا سا حصہ ہٹائیں۔",
+              "ar": "قشر جزءًا صغيرًا من الغلاف للتحقق من تطور الحبوب ولونها.",
+              "fr": "Épluchez une petite section de la spathe pour vérifier le développement et la couleur des grains."
+            },
+            "EXPERT": {
+              "en": "Perform a 'milk test' by puncturing a kernel; milky liquid indicates ripeness.",
+              "ur": "ایک دانے کو چھید کر 'ملک ٹیسٹ' کریں؛ دودھیا مائع پختگی کی نشاندہی کرتا ہے۔",
+              "ar": "قم بإجراء 'اختبار الحليب' عن طريق ثقب حبة؛ السائل اللبني يشير إلى النضج.",
+              "fr": "Effectuez un 'test du lait' en perçant un grain ; un liquide laiteux indique la maturité."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Shriveled Kernels",
+              "ur": "سکڑے ہوئے دانے",
+              "ar": "حبوب ذابلة",
+              "fr": "Grains ratatinés"
+            },
+            {
+              "en": "Poor Kernel Fill",
+              "ur": "دانے کا خراب بھرنا",
+              "ar": "ملء الحبوب ضعيف",
+              "fr": "Mauvais remplissage des grains"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 7,
+      "description": {
+        "en": "Sweet corn is ready to pick",
+        "ur": "میٹھی مکئی چننے کے لیے تیار ہے",
+        "ar": "الذرة الحلوة جاهزة للحصاد",
+        "fr": "Le maïs doux est prêt à être récolté"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harvest when silks are brown and dry, and kernels are plump.",
+              "ur": "جب سلکس بھورے اور خشک ہوں، اور دانے موٹے ہوں تو کٹائی کریں۔",
+              "ar": "احصد عندما يكون الحرير بنيًا وجافًا، وتكون الحبوب ممتلئة.",
+              "fr": "Récoltez lorsque les soies sont brunes et sèches, et que les grains sont charnus."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform a 'milk test' – milky liquid indicates peak ripeness for sweet corn.",
+              "ur": "'ملک ٹیسٹ' کریں – دودھیا مائع میٹھی مکئی کی بہترین پختگی کی نشاندہی کرتا ہے۔",
+              "ar": "قم بإجراء 'اختبار الحليب' – السائل اللبني يشير إلى ذروة النضج للذرة الحلوة.",
+              "fr": "Effectuez un 'test du lait' – un liquide laiteux indique la maturité optimale pour le maïs doux."
+            },
+            "EXPERT": {
+              "en": "Harvest early in the morning for best sweetness and store immediately.",
+              "ur": "بہترین مٹھاس کے لیے صبح سویرے کٹائی کریں اور فوری طور پر ذخیرہ کریں۔",
+              "ar": "احصد في الصباح الباكر للحصول على أفضل حلاوة وخزنها فورًا.",
+              "fr": "Récoltez tôt le matin pour une meilleure douceur et stockez immédiatement."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering slightly as harvest approaches.",
+              "ur": "کٹائی کے قریب آتے ہی پانی کی مقدار تھوڑی کم کریں۔",
+              "ar": "قلل الري قليلاً مع اقتراب الحصاد.",
+              "fr": "Réduisez légèrement l'arrosage à l'approche de la récolte."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture but avoid overwatering to prevent ear rot.",
+              "ur": "مسلسل نمی برقرار رکھیں لیکن بھٹے کے گلنے سے بچنے کے لیے زیادہ پانی دینے سے گریز کریں۔",
+              "ar": "حافظ على رطوبة ثابتة ولكن تجنب الإفراط في الري لمنع تعفن الكيزان.",
+              "fr": "Maintenez une humidité constante mais évitez l'excès d'arrosage pour prévenir la pourriture des épis."
+            },
+            "EXPERT": {
+              "en": "Adjust irrigation based on weather and plant needs to optimize final ear quality.",
+              "ur": "موسم اور پودے کی ضروریات کی بنیاد پر آبپاشی کو ایڈجسٹ کریں تاکہ بھٹے کے آخری معیار کو بہتر بنایا جا سکے۔",
+              "ar": "اضبط الري بناءً على الطقس واحتياجات النبات لتحسين جودة الكيزان النهائية.",
+              "fr": "Ajustez l'irrigation en fonction de la météo et des besoins de la plante pour optimiser la qualité finale des épis."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young corn plants, promoting strong root development.",
+          "ur": "نوجوان مکئی کے پودوں کے لیے ہلکی غذائیت فراہم کرتا ہے، مضبوط جڑوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة لنباتات الذرة الصغيرة، مما يعزز نمو الجذور القوية.",
+          "fr": "Fournit un léger coup de pouce nutritif aux jeunes plants de maïs, favorisant un fort développement racinaire."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Blood Meal (High Nitrogen)",
+          "ur": "کمپوسٹ چائے یا بلڈ میل (زیادہ نائٹروجن)",
+          "ar": "شاي الكمبوست أو مسحوق الدم (عالي النيتروجين)",
+          "fr": "Thé de compost ou farine de sang (riche en azote)"
+        },
+        "preparation": {
+          "en": "For compost tea: Steep 1 cup of rich compost in 1 gallon of water for 24-48 hours. For blood meal: Sprinkle 1/4 cup around the base of each plant and gently scratch into the soil.",
+          "ur": "کمپوسٹ چائے کے لیے: ایک کپ کمپوسٹ کو 4 لیٹر پانی میں 24-48 گھنٹے بھگو دیں۔ بلڈ میل کے لیے: ہر پودے کی جڑ کے گرد 1/4 کپ چھڑکیں اور مٹی میں ہلکا سا ملائیں۔",
+          "ar": "لشاي الكمبوست: انقع كوبًا واحدًا من السماد الغني في 3.7 لتر من الماء لمدة 24-48 ساعة. لمسحوق الدم: انثر 1/4 كوب حول قاعدة كل نبات واخدش برفق في التربة.",
+          "fr": "Pour le thé de compost : Laissez infuser 1 tasse de compost riche dans 3,7 litres d'eau pendant 24 à 48 heures. Pour la farine de sang : Saupoudrez 1/4 tasse autour de la base de chaque plante et grattez doucement le sol."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Corn is a heavy nitrogen feeder, especially during its rapid vegetative growth phase.",
+          "ur": "مکئی نائٹروجن کی بہت زیادہ ضرورت ہوتی ہے، خاص طور پر اس کی تیز پودوں کی نشوونما کے مرحلے کے دوران۔",
+          "ar": "الذرة تحتاج إلى كميات كبيرة من النيتروجين، خاصة خلال مرحلة النمو الخضري السريع.",
+          "fr": "Le maïs est un gros consommateur d'azote, surtout pendant sa phase de croissance végétative rapide."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Farine d'os et cendre de bois (phosphore et potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها برفق في الطبقة العلوية من التربة.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Supports strong tassel and silk development, crucial for good pollination and ear formation.",
+          "ur": "اچھی پولینیشن اور مکئی کے دانے کی تشکیل کے لیے ضروری ہے، یہ ٹیسل اور سلک کی مضبوط نشوونما میں مدد کرتا ہے۔",
+          "ar": "يدعم نمو السنابل والحرير القوي، وهو أمر بالغ الأهمية للتلقيح الجيد وتكوين الأذن.",
+          "fr": "Soutient le développement robuste des panicules et des soies, essentiel pour une bonne pollinisation et la formation des épis."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal or Banana Peel Tea (High Potassium)",
+          "ur": "کیلپ میل یا کیلے کے چھلکے کی چائے (زیادہ پوٹاشیم)",
+          "ar": "وجبة عشب البحر أو شاي قشر الموز (عالي البوتاسيوم)",
+          "fr": "Farine de varech ou thé de peau de banane (riche en potassium)"
+        },
+        "preparation": {
+          "en": "For kelp meal: Sprinkle 1/4 cup around the base of each plant. For banana peel tea: Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Pour around roots.",
+          "ur": "کیلپ میل کے لیے: ہر پودے کی جڑ کے گرد 1/4 کپ چھڑکیں۔ کیلے کے چھلکے کی چائے کے لیے: 3-4 کیلے کے چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ جڑوں میں ڈالیں۔",
+          "ar": "لوجبة عشب البحر: انثر 1/4 كوب حول قاعدة كل نبات. لشاي قشر الموز: قطع 3-4 قشور موز، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اسكب حول الجذور.",
+          "fr": "Pour la farine de varech : Saupoudrez 1/4 tasse autour de la base de chaque plante. Pour le thé de peau de banane : Hachez 3-4 peaux de banane, faites-les infuser dans 3,7 litres d'eau pendant 48 heures. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for kernel development and sweetness in corn.",
+          "ur": "پوٹاشیم مکئی میں دانے کی نشوونما اور مٹھاس کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم حيوي لتطور الحبوب وحلاوتها في الذرة.",
+          "fr": "Le potassium est vital pour le développement des grains et la douceur du maïs."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Nitrogen NPK (e.g., 20-10-10)",
+          "ur": "زیادہ نائٹروجن این پی کے (مثلاً 20-10-10)",
+          "ar": "سماد NPK عالي النيتروجين (مثل 20-10-10)",
+          "fr": "NPK riche en azote (ex: 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 20-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 20-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 20-10-10 في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 20-10-10 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Corn requires significant nitrogen for robust stalk and leaf growth.",
+          "ur": "مکئی کو مضبوط تنے اور پتوں کی نشوونما کے لیے کافی نائٹروجن کی ضرورت ہوتی ہے۔",
+          "ar": "تحتاج الذرة إلى كمية كبيرة من النيتروجين لنمو الساق والأوراق بشكل قوي.",
+          "fr": "Le maïs nécessite beaucoup d'azote pour une croissance robuste des tiges et des feuilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK or slightly higher P & K (e.g., 8-16-16)",
+          "ur": "متوازن این پی کے یا تھوڑا زیادہ فاسفورس اور پوٹاشیم (مثلاً 8-16-16)",
+          "ar": "سماد NPK متوازن أو أعلى قليلاً في الفوسفور والبوتاسيوم (مثل 8-16-16)",
+          "fr": "NPK équilibré ou légèrement plus riche en P & K (ex: 8-16-16)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of granular 8-16-16 fertilizer per plant in 1 gallon of water. Water immediately after applying.",
+          "ur": "ہر پودے کے لیے 1 چمچ دانے دار 8-16-16 کھاد 4 لیٹر پانی میں حل کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "أذب ملعقة كبيرة من سماد 8-16-16 الحبيبي لكل نبات في 3.7 لتر من الماء. اسقِ الماء فورًا بعد التطبيق.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais granulaire 8-16-16 par plante dans 3,7 litres d'eau. Arrosez immédiatement après l'application."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Phosphorus and potassium are essential for tassel and silk development, leading to good ear set.",
+          "ur": "فاسفورس اور پوٹاشیم ٹیسل اور سلک کی نشوونما کے لیے ضروری ہیں، جو اچھی مکئی کی پیداوار کا باعث بنتے ہیں۔",
+          "ar": "الفوسفور والبوتاسيوم ضروريان لتطور السنابل والحرير، مما يؤدي إلى تكوين جيد للأذن.",
+          "fr": "Le phosphore et le potassium sont essentiels au développement des panicules et des soies, menant à une bonne formation des épis."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-60 Muriate of Potash)",
+          "ur": "زیادہ پوٹاشیم کا مرکب (مثلاً 0-0-60 میوریٹ آف پوٹاش)",
+          "ar": "مزيج عالي البوتاسيوم (مثل 0-0-60 كلوريد البوتاسيوم)",
+          "fr": "Mélange riche en potassium (ex: 0-0-60 Muriate de Potasse)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of 0-0-60 fertilizer in 1 gallon of water. Apply as a drench around the base of the plants.",
+          "ur": "ایک چمچ 0-0-60 کھاد 4 لیٹر پانی میں حل کریں۔ پودوں کی جڑوں کے گرد ڈالیں۔",
+          "ar": "أذب ملعقة صغيرة من سماد 0-0-60 في 3.7 لتر من الماء. طبقها كغمر حول قاعدة النباتات.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais 0-0-60 dans 3,7 litres d'eau. Appliquez en arrosage au pied des plantes."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is crucial for kernel filling, sweetness, and overall ear quality.",
+          "ur": "پوٹاشیم دانے بھرنے، مٹھاس اور مکئی کی مجموعی کوالٹی کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم ضروري لملء الحبوب، وحلاوتها، وجودة الأذن بشكل عام.",
+          "fr": "Le potassium est crucial pour le remplissage des grains, la douceur et la qualité globale des épis."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "High Nitrogen NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "High-Potassium blend",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "beans",
+      "benefit": {
+        "en": "Beans are nitrogen fixers, enriching the soil for corn. Pole beans can also use corn stalks for support.",
+        "ur": "پھلیاں نائٹروجن فکسر ہیں، جو مکئی کے لیے مٹی کو زرخیز بناتی ہیں۔ پول پھلیاں مکئی کے تنوں کو سہارے کے طور پر بھی استعمال کر سکتی ہیں۔",
+        "ar": "الفاصوليا تثبت النيتروجين، مما يثري التربة للذرة. يمكن للفاصوليا المتسلقة أيضًا استخدام سيقان الذرة للدعم.",
+        "fr": "Les haricots fixent l'azote, enrichissant le sol pour le maïs. Les haricots grimpants peuvent également utiliser les tiges de maïs comme support."
+      }
+    },
+    {
+      "plantId": "squash",
+      "benefit": {
+        "en": "Squash plants act as a living mulch, shading the soil, suppressing weeds, and retaining moisture. Part of the 'Three Sisters' planting method.",
+        "ur": "کدو کے پودے زندہ ملچ کے طور پر کام کرتے ہیں، مٹی کو سایہ دیتے ہیں، جڑی بوٹیوں کو دباتے ہیں اور نمی برقرار رکھتے ہیں۔ 'تھری سسٹرز' پودے لگانے کے طریقہ کار کا حصہ۔",
+        "ar": "نباتات القرع تعمل كغطاء حيوي، تظلل التربة، تقمع الأعشاب الضارة، وتحتفظ بالرطوبة. جزء من طريقة الزراعة 'الأخوات الثلاث'.",
+        "fr": "Les courges agissent comme un paillis vivant, ombrageant le sol, supprimant les mauvaises herbes et retenant l'humidité. Fait partie de la méthode de plantation des 'Trois Sœurs'."
+      }
+    },
+    {
+      "plantId": "pumpkin",
+      "benefit": {
+        "en": "Similar to squash, pumpkins provide ground cover, suppress weeds, and help retain soil moisture, benefiting corn.",
+        "ur": "کدو کی طرح، کدو زمین کو ڈھانپتے ہیں، جڑی بوٹیوں کو دباتے ہیں، اور مٹی کی نمی کو برقرار رکھنے میں مدد کرتے ہیں، جو مکئی کے لیے فائدہ مند ہے۔",
+        "ar": "مثل القرع، توفر اليقطين غطاءً أرضيًا، تقمع الأعشاب الضارة، وتساعد في الاحتفاظ برطوبة التربة، مما يفيد الذرة.",
+        "fr": "Similaire aux courges, les citrouilles couvrent le sol, suppriment les mauvaises herbes et aident à retenir l'humidité du sol, bénéficiant au maïs."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other harmful soil pests that can affect corn roots.",
+        "ur": "نیماٹوڈس اور دیگر نقصان دہ مٹی کے کیڑوں کو دور بھگاتا ہے جو مکئی کی جڑوں کو متاثر کر سکتے ہیں۔",
+        "ar": "يطرد الديدان الخيطية والآفات الأخرى الضارة بالتربة التي يمكن أن تؤثر على جذور الذرة.",
+        "fr": "Repousse les nématodes et autres ravageurs du sol nuisibles qui peuvent affecter les racines du maïs."
+      }
+    },
+    {
+      "plantId": "borage",
+      "benefit": {
+        "en": "Attracts beneficial pollinators and predatory insects, which can help control corn earworms and other pests.",
+        "ur": "فائدہ مند پولینیٹرز اور شکاری کیڑوں کو راغب کرتا ہے، جو مکئی کے کیڑوں اور دیگر آفات کو کنٹرول کرنے میں مدد کر سکتے ہیں۔",
+        "ar": "يجذب الملقحات المفيدة والحشرات المفترسة، مما يساعد على مكافحة دودة الذرة وغيرها من الآفات.",
+        "fr": "Attire les pollinisateurs bénéfiques et les insectes prédateurs, ce qui peut aider à contrôler les vers de l'épi de maïs et d'autres ravageurs."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Both corn and tomatoes are susceptible to corn earworm (also known as tomato fruitworm), which can devastate both crops.",
+        "ur": "مکئی اور ٹماٹر دونوں مکئی کے کیڑے (ٹماٹر فروٹ ورم کے نام سے بھی جانا جاتا ہے) کے لیے حساس ہیں، جو دونوں فصلوں کو تباہ کر سکتے ہیں۔",
+        "ar": "الذرة والطماطم كلاهما عرضة لدودة الذرة (المعروفة أيضًا باسم دودة ثمار الطماطم)، والتي يمكن أن تدمر كلا المحصولين.",
+        "fr": "Le maïs et les tomates sont tous deux sensibles à la chenille de l'épi de maïs (également connue sous le nom de ver du fruit de la tomate), qui peut dévaster les deux cultures."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "Members of the Brassica family (cabbage, broccoli, kale) are heavy feeders and compete with corn for nutrients, potentially stunting corn growth.",
+        "ur": "براسیکا خاندان کے افراد (گوبھی، بروکولی، کیلے) بہت زیادہ غذائیت استعمال کرتے ہیں اور مکئی کے ساتھ غذائی اجزاء کے لیے مقابلہ کرتے ہیں، جس سے مکئی کی نشوونما رک سکتی ہے۔",
+        "ar": "أفراد عائلة الكرنب (الملفوف، البروكلي، الكرنب الأجعد) يستهلكون الكثير من العناصر الغذائية ويتنافسون مع الذرة عليها، مما قد يعيق نمو الذرة.",
+        "fr": "Les membres de la famille des Brassicas (chou, brocoli, chou frisé) sont de gros consommateurs et concurrencent le maïs pour les nutriments, ce qui peut freiner la croissance du maïs."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Fennel produces substances that can inhibit the growth of many plants, including corn.",
+        "ur": "سونف ایسے مادے پیدا کرتی ہے جو مکئی سمیت کئی پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "الشمر ينتج مواد يمكن أن تمنع نمو العديد من النباتات، بما في ذلك الذرة.",
+        "fr": "Le fenouil produit des substances qui peuvent inhiber la croissance de nombreuses plantes, y compris le maïs."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Sunflowers are tall and aggressive growers that compete with corn for sunlight, water, and nutrients, often to the detriment of corn.",
+        "ur": "سورج مکھی لمبے اور جارحانہ بڑھنے والے پودے ہیں جو سورج کی روشنی، پانی اور غذائی اجزاء کے لیے مکئی کے ساتھ مقابلہ کرتے ہیں، اکثر مکئی کو نقصان پہنچاتے ہیں۔",
+        "ar": "عباد الشمس نباتات طويلة وعدوانية تتنافس مع الذرة على ضوء الشمس والماء والمغذيات، وغالبًا ما يكون ذلك على حساب الذرة.",
+        "fr": "Les tournesols sont des plantes hautes et agressives qui concurrencent le maïs pour la lumière du soleil, l'eau et les nutriments, souvent au détriment du maïs."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "corn_earworm",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae feed on corn silks and developing kernels inside the ear, causing significant damage and opening pathways for fungal infections.",
+        "ur": "لاروا مکئی کے ریشوں اور دانے کے اندر کے دانوں کو کھاتا ہے، جس سے کافی نقصان ہوتا ہے اور فنگل انفیکشن کے راستے کھل جاتے ہیں۔",
+        "ar": "تتغذى اليرقات على حرير الذرة والحبوب النامية داخل الأذن، مما يسبب أضرارًا كبيرة ويفتح مسارات للعدوى الفطرية.",
+        "fr": "Les larves se nourrissent des soies de maïs et des grains en développement à l'intérieur de l'épi, causant des dommages importants et ouvrant des voies aux infections fongiques."
+      }
+    },
+    {
+      "pestId": "european_corn_borer",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">15"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into stalks, tassels, and ears, weakening the plant, causing stalk breakage, and direct damage to kernels.",
+        "ur": "لاروا تنوں، ٹیسل اور مکئی کے دانے میں سوراخ کرتا ہے، پودے کو کمزور کرتا ہے، تنے کو توڑتا ہے اور دانوں کو براہ راست نقصان پہنچاتا ہے۔",
+        "ar": "تحفر اليرقات في السيقان، السنابل، والآذان، مما يضعف النبات، ويسبب كسر الساق، وتلفًا مباشرًا للحبوب.",
+        "fr": "Les larves forent dans les tiges, les panicules et les épis, affaiblissant la plante, provoquant la rupture des tiges et des dommages directs aux grains."
+      }
+    },
+    {
+      "pestId": "corn_smut",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-27"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing large, silvery-white galls on ears, tassels, stalks, and leaves. Galls eventually rupture, releasing black spores.",
+        "ur": "فنگل بیماری جو مکئی کے دانے، ٹیسل، تنوں اور پتوں پر بڑے، چاندی جیسے سفید گال بناتی ہے۔ گال آخر کار پھٹ جاتے ہیں، سیاہ بیج چھوڑتے ہیں۔",
+        "ar": "مرض فطري يسبب أورامًا كبيرة، فضية-بيضاء على الآذان، السنابل، السيقان، والأوراق. تنفجر الأورام في النهاية، مطلقة جراثيم سوداء.",
+        "fr": "Maladie fongique provoquant de grandes galles blanc argenté sur les épis, les panicules, les tiges et les feuilles. Les galles finissent par se rompre, libérant des spores noires."
+      }
+    },
+    {
+      "pestId": "rust",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Appears as small, raised, reddish-brown pustules on leaves, which can merge and cause premature leaf death, reducing yield.",
+        "ur": "پتوں پر چھوٹے، اٹھے ہوئے، سرخی مائل بھورے دانے کے طور پر ظاہر ہوتا ہے، جو مل کر پتوں کی قبل از وقت موت کا سبب بن سکتے ہیں، پیداوار کو کم کرتے ہیں۔",
+        "ar": "يظهر على شكل بثور صغيرة، مرتفعة، بنية محمرة على الأوراق، والتي يمكن أن تندمج وتسبب موت الأوراق المبكر، مما يقلل من المحصول.",
+        "fr": "Apparaît sous forme de petites pustules surélevées, brun-rougeâtre sur les feuilles, qui peuvent fusionner et provoquer la mort prématurée des feuilles, réduisant le rendement."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Cluster on new growth and undersides of leaves, sucking sap, causing stunted growth, distorted leaves, and secreting sticky honeydew.",
+        "ur": "نئی نشوونما اور پتوں کے نیچے جمع ہوتے ہیں، رس چوستے ہیں، جس سے نشوونما رک جاتی ہے، پتے بگڑ جاتے ہیں اور چپچپا شہد کی طرح مادہ خارج ہوتا ہے۔",
+        "ar": "تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة، مما يسبب توقف النمو، تشوه الأوراق، وتفرز ندى عسلي لزج.",
+        "fr": "Se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève, provoquant un retard de croissance, des feuilles déformées et sécrétant du miellat collant."
+      }
+    },
+    {
+      "pestId": "stalk_rot",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing internal decay of the stalk, leading to premature plant death and lodging (falling over) before harvest.",
+        "ur": "فنگل بیماری جو تنے کے اندرونی سڑنے کا سبب بنتی ہے، جس سے پودے کی قبل از وقت موت اور کٹائی سے پہلے گرنا (لوجنگ) ہوتا ہے۔",
+        "ar": "مرض فطري يسبب تعفنًا داخليًا للساق، مما يؤدي إلى موت النبات المبكر وسقوطه قبل الحصاد.",
+        "fr": "Maladie fongique provoquant la pourriture interne de la tige, entraînant la mort prématurée de la plante et le verse (chute) avant la récolte."
+      }
+    },
+    {
+      "pestId": "stewarts_wilt",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Bacterial disease spread by flea beetles. Causes long, irregular streaks on leaves, wilting, and premature death, especially in sweet corn.",
+        "ur": "فلی بیٹل کے ذریعے پھیلنے والی بیکٹیریل بیماری۔ پتوں پر لمبی، بے قاعدہ دھاریاں، مرجھانا اور قبل از وقت موت کا سبب بنتی ہے، خاص طور پر میٹھی مکئی میں۔",
+        "ar": "مرض بكتيري ينتشر بواسطة خنافس البراغيث. يسبب خطوطًا طويلة وغير منتظمة على الأوراق، ذبولًا، وموتًا مبكرًا، خاصة في الذرة الحلوة.",
+        "fr": "Maladie bactérienne propagée par les altises. Provoque de longues stries irrégulières sur les feuilles, le flétrissement et la mort prématurée, surtout chez le maïs doux."
+      }
+    },
+    {
+      "pestId": "northern_corn_leaf_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "18-27"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease characterized by large, cigar-shaped, grayish-green lesions on leaves, leading to reduced photosynthesis and yield.",
+        "ur": "فنگل بیماری جو پتوں پر بڑے، سگار کی شکل کے، سرمئی سبز دھبوں سے نمایاں ہوتی ہے، جس سے فوٹو سنتھیسز اور پیداوار کم ہوتی ہے۔",
+        "ar": "مرض فطري يتميز بآفات كبيرة، على شكل سيجار، خضراء رمادية على الأوراق، مما يؤدي إلى انخفاض التمثيل الضوئي والمحصول.",
+        "fr": "Maladie fongique caractérisée par de grandes lésions gris-vert en forme de cigare sur les feuilles, entraînant une réduction de la photosynthèse et du rendement."
+      }
+    },
+    {
+      "pestId": "drought_stress",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<40%",
+        "temp": ">30"
+      },
+      "plantSpecificNotes": {
+        "en": "Corn is highly sensitive to water stress during pollination and kernel filling, leading to poor ear development and reduced yield. Leaves may roll to conserve moisture.",
+        "ur": "مکئی پولینیشن اور دانے بھرنے کے دوران پانی کی کمی کے لیے بہت حساس ہے، جس سے مکئی کے دانے کی ناقص نشوونما اور پیداوار میں کمی ہوتی ہے۔ پتے نمی کو بچانے کے لیے مڑ سکتے ہیں۔",
+        "ar": "الذرة حساسة للغاية للإجهاد المائي أثناء التلقيح وملء الحبوب، مما يؤدي إلى ضعف نمو الأذن وانخفاض المحصول. قد تلتف الأوراق للحفاظ على الرطوبة.",
+        "fr": "Le maïs est très sensible au stress hydrique pendant la pollinisation et le remplissage des grains, entraînant un mauvais développement des épis et une réduction du rendement. Les feuilles peuvent s'enrouler pour conserver l'humidité."
+      }
+    },
+    {
+      "pestId": "nitrogen_deficiency",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes yellowing of older leaves, starting from the tip and moving down the midrib in a 'V' shape. Overall stunted growth.",
+        "ur": "پرانے پتوں کا پیلا ہونا، نوک سے شروع ہو کر درمیانی رگ کے ساتھ 'V' کی شکل میں نیچے کی طرف بڑھتا ہے۔ مجموعی طور پر نشوونما رک جاتی ہے۔",
+        "ar": "يسبب اصفرار الأوراق القديمة، بدءًا من الطرف نزولاً على طول العرق الوسطي بشكل 'V'. نمو متوقف بشكل عام.",
+        "fr": "Provoque le jaunissement des feuilles plus âgées, commençant par la pointe et descendant le long de la nervure centrale en forme de 'V'. Croissance globalement ralentie."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 100,
+    "continuousHarvest": false,
+    "harvestWindowDays": 10,
+    "readinessSigns": [
+      {
+        "en": "Silks are dry and brown",
+        "ur": "ریشے خشک اور بھورے ہو جائیں",
+        "ar": "الحرير جاف وبني",
+        "fr": "Les soies sont sèches et brunes"
+      },
+      {
+        "en": "Kernels are plump and release milky liquid when punctured",
+        "ur": "دانے موٹے ہوں اور چھیدنے پر دودھیا مائع نکلے",
+        "ar": "الحبوب ممتلئة وتطلق سائلًا حليبيًا عند ثقبها",
+        "fr": "Les grains sont dodus et libèrent un liquide laiteux lorsqu'ils sont percés"
+      },
+      {
+        "en": "Ear feels firm and full",
+        "ur": "مکئی کا بھٹا مضبوط اور بھرا ہوا محسوس ہو",
+        "ar": "الأذن تبدو صلبة وممتلئة",
+        "fr": "L'épi est ferme et plein"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Grasp the ear firmly and twist downwards, then pull away from the stalk.",
+        "ur": "مکئی کے بھٹے کو مضبوطی سے پکڑیں اور نیچے کی طرف موڑیں، پھر تنے سے الگ کریں۔",
+        "ar": "امسك الأذن بقوة ولفها للأسفل، ثم اسحبها بعيدًا عن الساق.",
+        "fr": "Saisissez fermement l'épi et tournez-le vers le bas, puis tirez-le de la tige."
+      },
+      "INTERMEDIATE": {
+        "en": "Check for ripeness by peeling back a small section of the husk and puncturing a kernel. If milky, it's ready.",
+        "ur": "چھلکے کا ایک چھوٹا حصہ چھیل کر اور ایک دانے کو چھید کر پختگی کی جانچ کریں۔ اگر دودھیا ہو تو تیار ہے۔",
+        "ar": "تحقق من النضج عن طريق تقشير جزء صغير من القشرة وثقب حبة. إذا كان حليبيًا، فهو جاهز.",
+        "fr": "Vérifiez la maturité en retirant une petite section de l'enveloppe et en perçant un grain. S'il est laiteux, c'est prêt."
+      },
+      "EXPERT": {
+        "en": "Harvest early in the morning for best sweetness. Store immediately in the refrigerator to preserve sugar content.",
+        "ur": "بہترین مٹھاس کے لیے صبح سویرے کٹائی کریں۔ چینی کی مقدار کو محفوظ رکھنے کے لیے فوری طور پر فریج میں رکھیں۔",
+        "ar": "احصد في الصباح الباكر للحصول على أفضل حلاوة. خزن فورًا في الثلاجة للحفاظ على محتوى السكر.",
+        "fr": "Récoltez tôt le matin pour une meilleure douceur. Conservez immédiatement au réfrigérateur pour préserver la teneur en sucre."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate immediately (unhusked) for up to 1 week, or blanch and freeze for longer storage.",
+      "ur": "فوری طور پر فریج میں رکھیں (بغیر چھلکے) 1 ہفتے تک، یا زیادہ دیر تک ذخیرہ کرنے کے لیے بلانچ اور فریز کریں۔",
+      "ar": "ضع في الثلاجة فورًا (غير مقشر) لمدة تصل إلى أسبوع واحد، أو اسلقه ثم جمد للتخزين لفترة أطول.",
+      "fr": "Réfrigérez immédiatement (non décortiqué) jusqu'à 1 semaine, ou blanchissez et congelez pour une conservation plus longue."
+    },
+    "yieldEstimateKg": {
+      "10L": 1,
+      "20L": 2,
+      "30L": 3,
+      "GROUND": 10
+    }
+  }
+}
