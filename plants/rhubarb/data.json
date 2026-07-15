@@ -1,0 +1,1076 @@
+{
+  "id": "rhubarb",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1620803403566-077517179124?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Rhubarb",
+      "alternate": []
+    },
+    "ur": {
+      "common": "ریوند چینی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "راوند",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Rhubarbe",
+      "alternate": []
+    },
+    "botanical": "Rheum rhabarbarum",
+    "aliases": [
+      "pie plant",
+      "wine plant"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "stem",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 5,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "STANDARD"
+  ],
+  "metadata": {
+    "growthHabits": {}
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "perennial",
+    "cold-hardy",
+    "edible-stalk",
+    "spring-harvest",
+    "acidic-soil"
+  ],
+  "temperature": {
+    "optimalMinC": 10,
+    "optimalMaxC": 24,
+    "survivalMinC": -30,
+    "survivalMaxC": 30,
+    "germinationMinC": 10,
+    "germinationOptimalC": 18,
+    "flowerDropAboveC": 30,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "LOW",
+    "daysToMaturity": 365,
+    "requiredGDD": 500,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 5
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": -5,
+      "frostWarningC": -2,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent and Deep",
+    "soilMoisturePreference": "Consistently moist, but not soggy",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "high",
+    "rootRotRisk": "Medium if drainage is poor",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "stalks become stringy"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "soft crown",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Soaker hose or drip irrigation",
+    "thingsToAvoid": [
+      "overhead watering (can promote disease)",
+      "standing water",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature",
+      "add organic matter"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Requires a very large pot with excellent drainage. May not thrive as well as in ground.",
+        "ur": "بہت بڑے گملے کی ضرورت ہے جس میں بہترین نکاسی ہو۔ زمین کی نسبت اتنی اچھی نشوونما نہیں ہو سکتی۔",
+        "ar": "يتطلب وعاء كبير جداً مع تصريف ممتاز. قد لا يزدهر جيداً كما في الأرض.",
+        "fr": "Nécessite un très grand pot avec un excellent drainage. Peut ne pas prospérer aussi bien qu'en pleine terre."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 2,
+      "notes": {
+        "en": "Large grow bags can work, but require frequent watering.",
+        "ur": "بڑے گرو بیگز کام کر سکتے ہیں، لیکن بار بار پانی دینے کی ضرورت ہے۔",
+        "ar": "يمكن أن تعمل أكياس الزراعة الكبيرة، ولكنها تتطلب سقيًا متكررًا.",
+        "fr": "Les grands sacs de culture peuvent fonctionner, mais nécessitent un arrosage fréquent."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Prefers rich, well-drained soil. Space plants 1-1.5m apart.",
+        "ur": "زرخیز، اچھی نکاسی والی مٹی کو ترجیح دیتا ہے۔ پودوں کو 1-1.5 میٹر کے فاصلے پر لگائیں۔",
+        "ar": "يفضل التربة الغنية جيدة التصريف. تباعد النباتات 1-1.5 متر.",
+        "fr": "Préfère un sol riche et bien drainé. Espacez les plantes de 1 à 1,5 m."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 50,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Excellent for providing deep, well-drained soil and good aeration.",
+        "ur": "گہری، اچھی نکاسی والی مٹی اور اچھی ہوا کی فراہمی کے لیے بہترین ہے۔",
+        "ar": "ممتاز لتوفير تربة عميقة جيدة التصريف وتهوية جيدة.",
+        "fr": "Excellent pour fournir un sol profond, bien drainé et une bonne aération."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Planting seeds or crowns",
+        "ur": "بیج یا کراؤن لگانا",
+        "ar": "زراعة البذور أو التيجان",
+        "fr": "Semis de graines ou plantation de couronnes"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Rhubarb is often grown from crowns (root divisions) for faster establishment and true-to-type plants. If starting from seeds, be patient as germination can be slow.",
+          "ur": "روبرب اکثر کراؤن (جڑ کے ٹکڑوں) سے اگایا جاتا ہے تاکہ تیزی سے نشوونما ہو اور پودے اپنی اصل قسم کے ہوں۔ اگر بیجوں سے شروع کر رہے ہیں تو صبر کریں کیونکہ انکرن سست ہو سکتا ہے۔",
+          "ar": "غالبًا ما يزرع الراوند من التيجان (تقسيمات الجذور) لنمو أسرع ونباتات مطابقة للنوع. إذا بدأت من البذور، كن صبورًا حيث يمكن أن يكون الإنبات بطيئًا.",
+          "fr": "La rhubarbe est souvent cultivée à partir de couronnes (divisions de racines) pour une croissance plus rapide et des plantes fidèles au type. Si vous partez de graines, soyez patient car la germination peut être lente."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Choose a sunny spot with well-drained soil. Amend with compost.",
+              "ur": "دھوپ والی جگہ کا انتخاب کریں جس میں اچھی نکاسی والی مٹی ہو۔ کھاد شامل کریں۔",
+              "ar": "اختر بقعة مشمسة بتربة جيدة التصريف. عدلها بالسماد.",
+              "fr": "Choisissez un endroit ensoleillé avec un sol bien drainé. Amendez avec du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is rich, well-drained, and slightly acidic (pH 6.0-6.8).",
+              "ur": "یقینی بنائیں کہ مٹی زرخیز، اچھی نکاسی والی اور ہلکی تیزابی (pH 6.0-6.8) ہو۔",
+              "ar": "تأكد من أن التربة غنية وجيدة التصريف وحمضية قليلاً (pH 6.0-6.8).",
+              "fr": "Assurez-vous que le sol est riche, bien drainé et légèrement acide (pH 6.0-6.8)."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to confirm pH and nutrient levels. Incorporate aged manure or balanced organic fertilizer.",
+              "ur": "پی ایچ اور غذائی اجزاء کی سطح کی تصدیق کے لیے مٹی کا ٹیسٹ کریں۔ پرانی کھاد یا متوازن نامیاتی کھاد شامل کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتأكيد مستويات الحموضة والمغذيات. أضف السماد العضوي القديم أو الأسمدة العضوية المتوازنة.",
+              "fr": "Effectuez un test de sol pour confirmer le pH et les niveaux de nutriments. Incorporez du fumier vieilli ou un engrais organique équilibré."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "For seeds: Sow 1/2 inch deep, 3 inches apart. For crowns: Plant with buds just below soil surface.",
+              "ur": "بیجوں کے لیے: 1/2 انچ گہرائی میں، 3 انچ کے فاصلے پر بوئیں۔ کراؤن کے لیے: کلیوں کو مٹی کی سطح سے تھوڑا نیچے رکھ کر لگائیں۔",
+              "ar": "للبذور: ازرع بعمق 1/2 بوصة، بمسافة 3 بوصات بين البذور. للتيجان: ازرع البراعم تحت سطح التربة مباشرة.",
+              "fr": "Pour les graines : Semez à 1/2 pouce de profondeur, espacées de 3 pouces. Pour les couronnes : Plantez les bourgeons juste sous la surface du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Sow seeds 1/2 inch deep, thinning to 3 feet apart later. Plant crowns 3-4 feet apart, ensuring good root spread.",
+              "ur": "بیجوں کو 1/2 انچ گہرائی میں بوئیں، بعد میں 3 فٹ کے فاصلے پر پتلا کریں۔ کراؤن کو 3-4 فٹ کے فاصلے پر لگائیں، جڑوں کے اچھے پھیلاؤ کو یقینی بنائیں۔",
+              "ar": "ازرع البذور بعمق 1/2 بوصة، ثم خففها لاحقًا لتكون بمسافة 3 أقدام. ازرع التيجان بمسافة 3-4 أقدام، مع ضمان انتشار جيد للجذور.",
+              "fr": "Semez les graines à 1/2 pouce de profondeur, éclaircissez ensuite à 3 pieds d'intervalle. Plantez les couronnes à 3-4 pieds d'intervalle, en assurant une bonne répartition des racines."
+            },
+            "EXPERT": {
+              "en": "Optimize spacing for mature plant size (3-4 ft apart). Ensure crown buds are precisely at or just below soil level for optimal growth.",
+              "ur": "بالغ پودے کے سائز کے لیے فاصلہ بہتر بنائیں (3-4 فٹ کے فاصلے پر)۔ یقینی بنائیں کہ کراؤن کی کلیاں بہترین نشوونما کے لیے مٹی کی سطح پر یا اس سے تھوڑا نیچے ہوں۔",
+              "ar": "حسّن المسافة لحجم النبات الناضج (3-4 أقدام). تأكد من أن براعم التاج تكون بالضبط عند مستوى التربة أو أسفلها بقليل لتحقيق النمو الأمثل.",
+              "fr": "Optimisez l'espacement pour la taille de la plante mature (3-4 pieds d'intervalle). Assurez-vous que les bourgeons de la couronne sont précisément au niveau du sol ou juste en dessous pour une croissance optimale."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, especially after planting.",
+              "ur": "مٹی کو مسلسل نم رکھیں، خاص طور پر لگانے کے بعد۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، خاصة بعد الزراعة.",
+              "fr": "Gardez le sol constamment humide, surtout après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even moisture without waterlogging to encourage root development.",
+              "ur": "جڑوں کی نشوونما کی حوصلہ افزائی کے لیے پانی جمع کیے بغیر یکساں نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة متساوية دون غمر بالماء لتشجيع نمو الجذور.",
+              "fr": "Maintenez une humidité constante sans engorgement pour favoriser le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply to ensure adequate hydration for emerging roots/crowns.",
+              "ur": "ابھرتی ہوئی جڑوں/کراؤن کے لیے مناسب ہائیڈریشن کو یقینی بنانے کے لیے مٹی کی نمی کو گہرائی سے مانیٹر کریں۔",
+              "ar": "راقب رطوبة التربة بعمق لضمان ترطيب كافٍ للجذور/التيجان الناشئة.",
+              "fr": "Surveillez l'humidité du sol en profondeur pour assurer une hydratation adéquate aux racines/couronnes émergentes."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Seedlings emerge (if starting from seed)",
+        "ur": "کونپلیں نکلنا (اگر بیج سے شروع کیا گیا ہو)",
+        "ar": "ظهور الشتلات (إذا بدأت من البذور)",
+        "fr": "Apparition des plantules (si semé)"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Rhubarb seeds can take a few weeks to germinate. Ensure consistent moisture and warmth.",
+          "ur": "روبرب کے بیجوں کو انکرن میں چند ہفتے لگ سکتے ہیں۔ مسلسل نمی اور گرمی کو یقینی بنائیں۔",
+          "ar": "يمكن أن تستغرق بذور الراوند بضعة أسابيع لتنبت. تأكد من الرطوبة والدفء المستمرين.",
+          "fr": "Les graines de rhubarbe peuvent prendre quelques semaines pour germer. Assurez une humidité et une chaleur constantes."
+        }
+      ],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for small sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی کونپلوں کو چیک کریں۔",
+              "ar": "تحقق من ظهور البراعم الصغيرة من التربة.",
+              "fr": "Vérifiez l'apparition de petites pousses du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for uniform germination and signs of healthy seedling emergence.",
+              "ur": "یکساں انکرن اور صحت مند کونپلوں کے ابھرنے کی علامات کی نگرانی کریں۔",
+              "ar": "راقب الإنبات الموحد وعلامات ظهور الشتلات الصحية.",
+              "fr": "Surveillez la germination uniforme et les signes d'émergence saine des plantules."
+            },
+            "EXPERT": {
+              "en": "Assess germination rates and identify any environmental factors hindering emergence.",
+              "ur": "انکرن کی شرح کا اندازہ لگائیں اور ابھرنے میں رکاوٹ بننے والے کسی بھی ماحولیاتی عوامل کی نشاندہی کریں۔",
+              "ar": "قم بتقييم معدلات الإنبات وتحديد أي عوامل بيئية تعيق الظهور.",
+              "fr": "Évaluez les taux de germination et identifiez les facteurs environnementaux entravant l'émergence."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing delicate seedlings.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج الشتلات الرقيقة.",
+              "fr": "Arrosez doucement pour ne pas perturber les jeunes plantules."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent, light moisture; avoid overwatering.",
+              "ur": "مسلسل، ہلکی نمی برقرار رکھیں؛ زیادہ پانی دینے سے گریز کریں۔",
+              "ar": "حافظ على رطوبة خفيفة ومتسقة؛ تجنب الإفراط في الري.",
+              "fr": "Maintenez une humidité légère et constante ; évitez l'excès d'eau."
+            },
+            "EXPERT": {
+              "en": "Utilize bottom watering or fine mist to prevent damping-off disease.",
+              "ur": "ڈیمپنگ آف بیماری سے بچنے کے لیے نیچے سے پانی دیں یا باریک چھڑکاؤ کریں۔",
+              "ar": "استخدم الري من الأسفل أو الرذاذ الناعم لمنع مرض الذبول الفطري.",
+              "fr": "Utilisez l'arrosage par le bas ou une fine brumisation pour prévenir la fonte des semis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Young plants establish true leaves and root system",
+        "ur": "نوجوان پودے اصلی پتے اور جڑ کا نظام قائم کرتے ہیں",
+        "ar": "تؤسس النباتات الصغيرة أوراقًا حقيقية ونظامًا جذريًا",
+        "fr": "Les jeunes plants développent leurs vraies feuilles et leur système racinaire"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "If you started from seeds, thin your seedlings to the strongest plants to ensure adequate spacing for growth. For crowns, focus on consistent watering and weeding.",
+          "ur": "اگر آپ نے بیجوں سے شروع کیا ہے، تو اپنی کونپلوں کو مضبوط ترین پودوں تک پتلا کریں تاکہ نشوونما کے لیے مناسب فاصلہ یقینی بنایا جا سکے۔ کراؤن کے لیے، مسلسل پانی دینے اور گھاس نکالنے پر توجہ دیں۔",
+          "ar": "إذا بدأت من البذور، خفف شتلاتك إلى أقوى النباتات لضمان مسافة كافية للنمو. بالنسبة للتيجان، ركز على الري المنتظم وإزالة الأعشاب الضارة.",
+          "fr": "Si vous avez commencé à partir de graines, éclaircissez vos semis pour ne garder que les plantes les plus fortes afin d'assurer un espacement adéquat pour la croissance. Pour les couronnes, concentrez-vous sur un arrosage et un désherbage constants."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": false,
+          "dayOffset": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If growing from seeds, thin seedlings to 12 inches apart once they have a few true leaves.",
+              "ur": "اگر بیجوں سے اگا رہے ہیں، تو کونپلوں کو 12 انچ کے فاصلے پر پتلا کریں جب ان کے چند اصلی پتے آ جائیں۔",
+              "ar": "إذا كنت تزرع من البذور، خفف الشتلات لتكون بمسافة 12 بوصة بمجرد أن يكون لديها بضعة أوراق حقيقية.",
+              "fr": "Si vous cultivez à partir de graines, éclaircissez les semis à 12 pouces d'intervalle une fois qu'ils ont quelques vraies feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Select the strongest seedlings, snipping weaker ones at the soil line to avoid disturbing roots.",
+              "ur": "مضبوط ترین کونپلوں کا انتخاب کریں، کمزور کونپلوں کو مٹی کی سطح پر کاٹ دیں تاکہ جڑوں کو پریشان نہ کیا جائے۔",
+              "ar": "اختر أقوى الشتلات، وقم بقص الأضعف عند خط التربة لتجنب إزعاج الجذور.",
+              "fr": "Sélectionnez les semis les plus forts, coupez les plus faibles au niveau du sol pour éviter de perturber les racines."
+            },
+            "EXPERT": {
+              "en": "Optimize final spacing to 3-4 feet between plants for mature rhubarb crowns, ensuring ample air circulation.",
+              "ur": "بالغ روبرب کراؤن کے لیے پودوں کے درمیان حتمی فاصلہ 3-4 فٹ تک بہتر بنائیں، تاکہ ہوا کی مناسب گردش یقینی بنائی جا سکے۔",
+              "ar": "حسّن المسافة النهائية إلى 3-4 أقدام بين النباتات لتيجان الراوند الناضجة، مع ضمان تهوية كافية.",
+              "fr": "Optimisez l'espacement final à 3-4 pieds entre les plantes pour les couronnes de rhubarbe matures, en assurant une circulation d'air suffisante."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently remove any weeds around young rhubarb plants.",
+              "ur": "نوجوان روبرب کے پودوں کے ارد گرد کسی بھی گھاس کو آہستہ سے ہٹا دیں۔",
+              "ar": "أزل أي أعشاب ضارة حول نباتات الراوند الصغيرة بلطف.",
+              "fr": "Enlevez délicatement les mauvaises herbes autour des jeunes plants de rhubarbe."
+            },
+            "INTERMEDIATE": {
+              "en": "Hand-weed regularly to prevent competition for nutrients and moisture.",
+              "ur": "غذائی اجزاء اور نمی کے لیے مقابلہ کو روکنے کے لیے باقاعدگی سے ہاتھ سے گھاس نکالیں۔",
+              "ar": "قم بإزالة الأعشاب الضارة يدويًا بانتظام لمنع المنافسة على المغذيات والرطوبة.",
+              "fr": "Désherbez régulièrement à la main pour éviter la concurrence pour les nutriments et l'humidité."
+            },
+            "EXPERT": {
+              "en": "Apply a light layer of mulch to suppress weeds and retain soil moisture.",
+              "ur": "گھاس کو دبانے اور مٹی کی نمی کو برقرار رکھنے کے لیے ملچ کی ایک ہلکی تہہ لگائیں۔",
+              "ar": "ضع طبقة خفيفة من النشارة لقمع الأعشاب الضارة والاحتفاظ برطوبة التربة.",
+              "fr": "Appliquez une légère couche de paillis pour supprimer les mauvaises herbes et retenir l'humidité du sol."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply at the base of the plant, ensuring the soil is moist.",
+              "ur": "پودے کی جڑ میں گہرا پانی دیں، یقینی بنائیں کہ مٹی نم ہے۔",
+              "ar": "اسقِ بعمق عند قاعدة النبات، مع التأكد من رطوبة التربة.",
+              "fr": "Arrosez profondément à la base de la plante, en vous assurant que le sol est humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide consistent deep watering to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کی حوصلہ افزائی کے لیے مسلسل گہرا پانی فراہم کریں۔",
+              "ar": "وفر ريًا عميقًا ومتسقًا لتشجيع نمو الجذور القوية.",
+              "fr": "Fournissez un arrosage profond et constant pour encourager un fort développement racinaire."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture profile to ensure water penetrates to the full root zone.",
+              "ur": "پانی کے مکمل جڑ کے علاقے تک پہنچنے کو یقینی بنانے کے لیے مٹی کی نمی کے پروفائل کی نگرانی کریں۔",
+              "ar": "راقب ملف رطوبة التربة لضمان اختراق الماء لمنطقة الجذور بالكامل.",
+              "fr": "Surveillez le profil d'humidité du sol pour vous assurer que l'eau pénètre jusqu'à la zone racinaire complète."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 120,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 150,
+      "description": {
+        "en": "Vigorous growth of leaves and stalks; plant establishes for future harvests",
+        "ur": "پتوں اور تنوں کی بھرپور نشوونما؛ پودا مستقبل کی فصلوں کے لیے قائم ہوتا ہے",
+        "ar": "نمو قوي للأوراق والسيقان؛ النبات يتأسس للحصاد المستقبلي",
+        "fr": "Croissance vigoureuse des feuilles et des tiges ; la plante s'établit pour les futures récoltes"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Do not harvest rhubarb in its first year to allow the plant to establish a strong root system. Remove any flower stalks that appear to direct energy into stalk production.",
+          "ur": "پودے کو مضبوط جڑ کا نظام قائم کرنے کے لیے پہلے سال میں روبرب کی کٹائی نہ کریں۔ کسی بھی پھول کے تنے کو ہٹا دیں جو تنے کی پیداوار میں توانائی کو ہدایت کرنے کے لیے ظاہر ہوں۔",
+          "ar": "لا تحصد الراوند في عامه الأول للسماح للنبات بتكوين نظام جذري قوي. أزل أي سيقان زهور تظهر لتوجيه الطاقة نحو إنتاج السيقان.",
+          "fr": "Ne récoltez pas la rhubarbe la première année pour permettre à la plante d'établir un système racinaire solide. Supprimez toutes les tiges florales qui apparaissent pour diriger l'énergie vers la production de tiges."
+        }
+      ],
+      "tasks": {
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced organic fertilizer or compost around the base of the plant.",
+              "ur": "پودے کی جڑ کے ارد گرد متوازن نامیاتی کھاد یا کمپوسٹ لگائیں۔",
+              "ar": "ضع سمادًا عضويًا متوازنًا أو سمادًا حول قاعدة النبات.",
+              "fr": "Appliquez un engrais organique équilibré ou du compost autour de la base de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Rhubarb is a heavy feeder. Apply a side dressing of aged manure or a high-nitrogen fertilizer in early spring.",
+              "ur": "روبرب ایک بھاری خوراک لینے والا پودا ہے۔ ابتدائی موسم بہار میں پرانی کھاد یا زیادہ نائٹروجن والی کھاد کی ایک سائیڈ ڈریسنگ لگائیں۔",
+              "ar": "الراوند نبات يستهلك الكثير من المغذيات. ضع سمادًا جانبيًا من السماد القديم أو سمادًا عالي النيتروجين في أوائل الربيع.",
+              "fr": "La rhubarbe est gourmande. Appliquez un apport latéral de fumier vieilli ou un engrais riche en azote au début du printemps."
+            },
+            "EXPERT": {
+              "en": "Perform a soil test to tailor fertilizer application. Consider a balanced slow-release granular fertilizer or liquid feed.",
+              "ur": "کھاد کے استعمال کو بہتر بنانے کے لیے مٹی کا ٹیسٹ کریں۔ متوازن سست ریلیز دانے دار کھاد یا مائع خوراک پر غور کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتخصيص تطبيق الأسمدة. فكر في سماد حبيبي متوازن بطيء الإطلاق أو تغذية سائلة.",
+              "fr": "Effectuez un test de sol pour adapter l'application d'engrais. Envisagez un engrais granulaire à libération lente équilibré ou un engrais liquide."
+            }
+          }
+        },
+        "flowerStalkRemoval": {
+          "required": true,
+          "dayOffset": 60,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If you see a tall stalk with small buds forming, cut it off at the base.",
+              "ur": "اگر آپ کو چھوٹے کلیوں کے ساتھ ایک لمبا تنا بنتا ہوا نظر آئے تو اسے جڑ سے کاٹ دیں۔",
+              "ar": "إذا رأيت ساقًا طويلًا تتشكل عليه براعم صغيرة، اقطعه من القاعدة.",
+              "fr": "Si vous voyez une longue tige avec de petits bourgeons se former, coupez-la à la base."
+            },
+            "INTERMEDIATE": {
+              "en": "Promptly remove any flower stalks as they appear to redirect plant energy into leaf and stalk production.",
+              "ur": "پودے کی توانائی کو پتے اور تنے کی پیداوار میں منتقل کرنے کے لیے کسی بھی پھول کے تنے کو فوری طور پر ہٹا دیں۔",
+              "ar": "أزل أي سيقان زهور فور ظهورها لإعادة توجيه طاقة النبات إلى إنتاج الأوراق والسيقان.",
+              "fr": "Supprimez rapidement toutes les tiges florales dès leur apparition pour rediriger l'énergie de la plante vers la production de feuilles et de tiges."
+            },
+            "EXPERT": {
+              "en": "Regularly inspect plants for bolting. Cut flower stalks cleanly at the base to prevent seed formation and maintain plant vigor.",
+              "ur": "پودوں کو بولٹنگ کے لیے باقاعدگی سے معائنہ کریں۔ بیج کی تشکیل کو روکنے اور پودے کی طاقت کو برقرار رکھنے کے لیے پھول کے تنوں کو جڑ سے صاف کاٹ دیں۔",
+              "ar": "افحص النباتات بانتظام بحثًا عن التزهير المبكر. اقطع سيقان الزهور نظيفة من القاعدة لمنع تكوين البذور والحفاظ على حيوية النبات.",
+              "fr": "Inspectez régulièrement les plantes pour la montée en graine. Coupez proprement les tiges florales à la base pour éviter la formation de graines et maintenir la vigueur de la plante."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep the area around rhubarb free of weeds.",
+              "ur": "روبرب کے ارد گرد کے علاقے کو گھاس سے پاک رکھیں۔",
+              "ar": "حافظ على المنطقة المحيطة بالراوند خالية من الأعشاب الضارة.",
+              "fr": "Gardez la zone autour de la rhubarbe exempte de mauvaises herbes."
+            },
+            "INTERMEDIATE": {
+              "en": "Regular weeding is essential as rhubarb dislikes competition.",
+              "ur": "باقاعدگی سے گھاس نکالنا ضروری ہے کیونکہ روبرب مقابلہ پسند نہیں کرتا۔",
+              "ar": "إزالة الأعشاب الضارة بانتظام أمر ضروري حيث أن الراوند لا يحب المنافسة.",
+              "fr": "Un désherbage régulier est essentiel car la rhubarbe n'aime pas la concurrence."
+            },
+            "EXPERT": {
+              "en": "Maintain a consistent mulch layer (straw, shredded leaves) to suppress weeds and conserve moisture.",
+              "ur": "گھاس کو دبانے اور نمی کو محفوظ رکھنے کے لیے ملچ کی ایک مستقل تہہ (بھوسا، کٹے ہوئے پتے) برقرار رکھیں۔",
+              "ar": "حافظ على طبقة نشارة متسقة (قش، أوراق ممزقة) لقمع الأعشاب الضارة والحفاظ على الرطوبة.",
+              "fr": "Maintenez une couche de paillis constante (paille, feuilles déchiquetées) pour supprimer les mauvaises herbes et conserver l'humidité."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, especially during dry periods.",
+              "ur": "ہفتے میں ایک بار گہرا پانی دیں، خاص طور پر خشک ادوار میں۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، خاصة خلال الفترات الجافة.",
+              "fr": "Arrosez profondément une fois par semaine, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture, aiming for 1-2 inches of water per week.",
+              "ur": "مسلسل نمی کو یقینی بنائیں، فی ہفتہ 1-2 انچ پانی کا ہدف رکھیں۔",
+              "ar": "تأكد من الرطوبة المستمرة، مستهدفًا 1-2 بوصة من الماء أسبوعيًا.",
+              "fr": "Assurez une humidité constante, visez 1 à 2 pouces d'eau par semaine."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation to deliver consistent moisture directly to the root zone, minimizing evaporation.",
+              "ur": "جڑوں کے علاقے میں براہ راست مستقل نمی فراہم کرنے کے لیے ڈرپ ایریگیشن کا استعمال کریں، بخارات کو کم سے کم کریں۔",
+              "ar": "استخدم الري بالتنقيط لتوفير رطوبة مستمرة مباشرة إلى منطقة الجذور، مما يقلل من التبخر.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour fournir une humidité constante directement à la zone racinaire, minimisant l'évaporation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Stalks are ready for picking (from second year onwards)",
+        "ur": "تنے چننے کے لیے تیار ہیں (دوسرے سال سے)",
+        "ar": "السيقان جاهزة للقطف (من السنة الثانية فصاعدًا)",
+        "fr": "Les tiges sont prêtes à être cueillies (à partir de la deuxième année)"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Only harvest stalks that are at least 10-12 inches long and have good color. Never harvest more than half of the plant's stalks at one time to ensure continued vigor.",
+          "ur": "صرف ان تنوں کی کٹائی کریں جو کم از کم 10-12 انچ لمبے ہوں اور ان کا رنگ اچھا ہو۔ پودے کی مسلسل طاقت کو یقینی بنانے کے لیے ایک وقت میں پودے کے آدھے سے زیادہ تنے کبھی نہ کاٹیں۔",
+          "ar": "احصد فقط السيقان التي يبلغ طولها 10-12 بوصة على الأقل ولها لون جيد. لا تحصد أبدًا أكثر من نصف سيقان النبات في وقت واحد لضمان استمرار الحيوية.",
+          "fr": "Ne récoltez que les tiges d'au moins 10-12 pouces de long et de bonne couleur. Ne récoltez jamais plus de la moitié des tiges de la plante à la fois pour assurer une vigueur continue."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Grasp a stalk near the base and pull it with a twisting motion.",
+              "ur": "تنے کو جڑ کے قریب سے پکڑیں اور اسے گھما کر کھینچیں۔",
+              "ar": "امسك الساق بالقرب من القاعدة واسحبها بحركة لولبية.",
+              "fr": "Saisissez une tige près de la base et tirez-la avec un mouvement de torsion."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest stalks by pulling them from the base, rather than cutting, to avoid leaving stubs that can rot.",
+              "ur": "تنوں کو جڑ سے کھینچ کر کاٹیں، نہ کہ کاٹ کر، تاکہ سڑنے والے ٹکڑے نہ رہیں۔",
+              "ar": "احصد السيقان بسحبها من القاعدة، بدلاً من قطعها، لتجنب ترك جذوع يمكن أن تتعفن.",
+              "fr": "Récoltez les tiges en les tirant de la base, plutôt qu'en les coupant, pour éviter de laisser des souches qui pourraient pourrir."
+            },
+            "EXPERT": {
+              "en": "Select mature, firm stalks. Twist and pull cleanly from the crown, ensuring not to damage adjacent growth points.",
+              "ur": "پختہ، مضبوط تنوں کا انتخاب کریں۔ کراؤن سے صاف طور پر گھما کر کھینچیں، اس بات کو یقینی بناتے ہوئے کہ ملحقہ نشوونما کے مقامات کو نقصان نہ پہنچے۔",
+              "ar": "اختر السيقان الناضجة والصلبة. قم بلفها وسحبها نظيفة من التاج، مع التأكد من عدم إتلاف نقاط النمو المجاورة.",
+              "fr": "Sélectionnez des tiges matures et fermes. Tordez et tirez proprement de la couronne, en veillant à ne pas endommager les points de croissance adjacents."
+            }
+          }
+        },
+        "flowerStalkRemoval": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue to remove any flower stalks that emerge during the harvest season.",
+              "ur": "کٹائی کے موسم میں ابھرنے والے کسی بھی پھول کے تنے کو ہٹانا جاری رکھیں۔",
+              "ar": "استمر في إزالة أي سيقان زهور تظهر خلال موسم الحصاد.",
+              "fr": "Continuez à supprimer toutes les tiges florales qui apparaissent pendant la saison de récolte."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly check for and remove flower stalks to maintain plant productivity.",
+              "ur": "پودے کی پیداواری صلاحیت کو برقرار رکھنے کے لیے پھول کے تنوں کو باقاعدگی سے چیک کریں اور ہٹا دیں۔",
+              "ar": "تحقق بانتظام من سيقان الزهور وأزلها للحفاظ على إنتاجية النبات.",
+              "fr": "Vérifiez et supprimez régulièrement les tiges florales pour maintenir la productivité de la plante."
+            },
+            "EXPERT": {
+              "en": "Proactive removal of flower stalks is key to maximizing stalk yield and plant longevity.",
+              "ur": "پھول کے تنوں کو فعال طور پر ہٹانا تنے کی پیداوار اور پودے کی لمبی عمر کو زیادہ سے زیادہ کرنے کی کلید ہے۔",
+              "ar": "الإزالة الاستباقية لسيقان الزهور هي المفتاح لزيادة محصول السيقان وطول عمر النبات.",
+              "fr": "L'élimination proactive des tiges florales est essentielle pour maximiser le rendement des tiges et la longévité de la plante."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue deep watering to support ongoing stalk production.",
+              "ur": "مسلسل تنے کی پیداوار کو سہارا دینے کے لیے گہرا پانی دینا جاری رکھیں۔",
+              "ar": "استمر في الري العميق لدعم إنتاج السيقان المستمر.",
+              "fr": "Continuez l'arrosage profond pour soutenir la production continue de tiges."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture to prevent stress and encourage vigorous regrowth.",
+              "ur": "تناؤ کو روکنے اور بھرپور دوبارہ نشوونما کی حوصلہ افزائی کے لیے مٹی کی مستقل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة المتسقة لمنع الإجهاد وتشجيع النمو القوي.",
+              "fr": "Maintenez une humidité constante du sol pour prévenir le stress et encourager une repousse vigoureuse."
+            },
+            "EXPERT": {
+              "en": "Adjust watering frequency based on environmental conditions and plant demand during peak harvest.",
+              "ur": "کٹائی کے عروج کے دوران ماحولیاتی حالات اور پودے کی مانگ کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط تكرار الري بناءً على الظروف البيئية وطلب النبات خلال ذروة الحصاد.",
+              "fr": "Ajustez la fréquence d'arrosage en fonction des conditions environnementales et de la demande de la plante pendant la période de récolte maximale."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "ESTABLISHMENT": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Compost Tea or Liquid Seaweed",
+          "ur": "کمپوسٹ چائے یا مائع سی ویڈ",
+          "ar": "شاي الكمبوست أو مستخلص الطحالب البحرية السائل",
+          "fr": "Thé de compost ou extrait d'algues liquide"
+        },
+        "preparation": {
+          "en": "Mix 1 cup of compost tea or 1 tablespoon of liquid seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کپ کمپوسٹ چائے یا ایک کھانے کا چمچ مائع سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط كوبًا من شاي الكمبوست أو ملعقة كبيرة من مستخلص الطحالب البحرية السائل في 4 لترات من الماء. حرك جيدًا.",
+          "fr": "Mélangez 1 tasse de thé de compost ou 1 cuillère à soupe d'extrait d'algues liquide dans 4 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle nutrients to encourage strong root development in young plants.",
+          "ur": "نوجوان پودوں میں مضبوط جڑوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر مغذيات لطيفة لتشجيع نمو جذور قوية في النباتات الصغيرة.",
+          "fr": "Fournit des nutriments doux pour encourager un fort développement racinaire chez les jeunes plantes."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Well-rotted Manure or Blood Meal",
+          "ur": "اچھی طرح گلی ہوئی کھاد یا بلڈ میل",
+          "ar": "سماد عضوي متحلل جيدًا أو مسحوق الدم",
+          "fr": "Fumier bien décomposé ou farine de sang"
+        },
+        "preparation": {
+          "en": "Spread a 2-inch layer of well-rotted manure around the base of the plant, or sprinkle 1/2 cup of blood meal per plant and gently scratch into the soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 انچ کی اچھی طرح گلی ہوئی کھاد کی تہہ بچھائیں، یا ہر پودے پر 1/2 کپ بلڈ میل چھڑک کر مٹی میں ہلکا سا ملائیں۔",
+          "ar": "انشر طبقة 2 بوصة من السماد العضوي المتحلل جيدًا حول قاعدة النبات، أو رش 1/2 كوب من مسحوق الدم لكل نبات واخلطه برفق في التربة.",
+          "fr": "Étalez une couche de 5 cm de fumier bien décomposé autour de la base de la plante, ou saupoudrez 1/2 tasse de farine de sang par plante et incorporez-la délicatement au sol."
+        },
+        "quantityPer10L": 1000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Rhubarb is a heavy feeder, especially of nitrogen, for robust stalk growth. Apply in early spring as growth begins.",
+          "ur": "روبرب ایک بھاری خوراک لینے والا پودا ہے، خاص طور پر نائٹروجن کا، مضبوط ڈنٹھل کی نشوونما کے لیے۔ ابتدائی موسم بہار میں نشوونما شروع ہونے پر لگائیں۔",
+          "ar": "الراوند نبات يحتاج إلى الكثير من الغذاء، خاصة النيتروجين، لنمو سيقان قوية. يطبق في أوائل الربيع عند بدء النمو.",
+          "fr": "La rhubarbe est une plante gourmande, surtout en azote, pour une croissance robuste des tiges. Appliquer au début du printemps au début de la croissance."
+        }
+      },
+      "POST_HARVEST": {
+        "apply": true,
+        "intervalDays": 0,
+        "product": {
+          "en": "Compost or Balanced Organic Fertilizer",
+          "ur": "کمپوسٹ یا متوازن نامیاتی کھاد",
+          "ar": "كمبوست أو سماد عضوي متوازن",
+          "fr": "Compost ou engrais organique équilibré"
+        },
+        "preparation": {
+          "en": "Top-dress with a 1-inch layer of compost around the plant base, or apply a balanced organic granular fertilizer according to package directions.",
+          "ur": "پودے کی جڑوں کے گرد 1 انچ کی کمپوسٹ کی تہہ بچھائیں، یا پیکیج کی ہدایات کے مطابق متوازن نامیاتی دانے دار کھاد استعمال کریں۔",
+          "ar": "ضع طبقة علوية من الكمبوست بسمك 1 بوصة حول قاعدة النبات، أو طبق سماد عضوي حبيبي متوازن وفقًا لتعليمات العبوة.",
+          "fr": "Appliquez une couche de 2,5 cm de compost autour de la base de la plante, ou un engrais organique granulaire équilibré selon les instructions."
+        },
+        "quantityPer10L": 500,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Replenishes nutrients after harvest to support the plant for the next season. Do not fertilize after mid-summer.",
+          "ur": "فصل کے بعد غذائی اجزاء کو بھرتا ہے تاکہ اگلے موسم کے لیے پودے کو سہارا ملے۔ موسم گرما کے وسط کے بعد کھاد نہ دیں۔",
+          "ar": "يعوض المغذيات بعد الحصاد لدعم النبات للموسم التالي. لا تسمد بعد منتصف الصيف.",
+          "fr": "Reconstitue les nutriments après la récolte pour soutenir la plante pour la saison prochaine. Ne pas fertiliser après la mi-été."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "ESTABLISHMENT": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10)",
+          "fr": "NPK équilibré (ex: 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 10-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 10-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 10-10-10 في 4 لترات من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 10-10-10 dans 4 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential nutrients for initial growth and root establishment.",
+          "ur": "ابتدائی نشوونما اور جڑوں کے قیام کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يوفر المغذيات الأساسية للنمو الأولي وتثبيت الجذور.",
+          "fr": "Fournit les nutriments essentiels pour la croissance initiale et l'établissement des racines."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "High Nitrogen NPK (e.g., 20-10-10)",
+          "ur": "زیادہ نائٹروجن والا این پی کے (مثلاً 20-10-10)",
+          "ar": "سماد NPK عالي النيتروجين (مثل 20-10-10)",
+          "fr": "NPK riche en azote (ex: 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 20-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 20-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 20-10-10 في 4 لترات من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 20-10-10 dans 4 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes vigorous leaf and stalk growth. Apply in early spring.",
+          "ur": "پتوں اور ڈنٹھلوں کی بھرپور نشوونما کو فروغ دیتا ہے۔ ابتدائی موسم بہار میں لگائیں۔",
+          "ar": "يعزز النمو القوي للأوراق والسيقان. يطبق في أوائل الربيع.",
+          "fr": "Favorise une croissance vigoureuse des feuilles et des tiges. Appliquer au début du printemps."
+        }
+      },
+      "POST_HARVEST": {
+        "apply": true,
+        "intervalDays": 0,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10)",
+          "fr": "NPK équilibré (ex: 10-10-10)"
+        },
+        "preparation": {
+          "en": "Apply granular 10-10-10 fertilizer around the plant base according to package directions. Water immediately after applying.",
+          "ur": "پیکیج کی ہدایات کے مطابق پودے کی جڑوں کے گرد دانے دار 10-10-10 کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "طبق سماد حبيبي 10-10-10 حول قاعدة النبات وفقًا لتعليمات العبوة. اسقِ الماء فورًا بعد التطبيق.",
+          "fr": "Appliquez un engrais granulaire 10-10-10 autour de la base de la plante selon les instructions. Arrosez immédiatement après l'application."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Helps the plant recover and store energy for the next growing season. Do not fertilize after mid-summer.",
+          "ur": "پودے کو صحت یاب ہونے اور اگلے بڑھتے ہوئے موسم کے لیے توانائی ذخیرہ کرنے میں مدد کرتا ہے۔ موسم گرما کے وسط کے بعد کھاد نہ دیں۔",
+          "ar": "يساعد النبات على التعافي وتخزين الطاقة للموسم الزراعي التالي. لا تسمد بعد منتصف الصيف.",
+          "fr": "Aide la plante à récupérer et à stocker de l'énergie pour la prochaine saison de croissance. Ne pas fertiliser après la mi-été."
+        }
+      }
+    },
+    "HYBRID": {
+      "ESTABLISHMENT": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "VEGETATIVE": {
+        "week1": "Well-rotted Manure",
+        "week2": "High Nitrogen NPK",
+        "alternating": true
+      },
+      "POST_HARVEST": {
+        "week1": "Compost",
+        "week2": "Balanced NPK",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "strawberry",
+      "benefit": {
+        "en": "Strawberries act as a living mulch, suppressing weeds and retaining soil moisture. They also share similar soil pH preferences.",
+        "ur": "اسٹرابیری ایک زندہ ملچ کے طور پر کام کرتی ہے، جو جڑی بوٹیوں کو دباتی ہے اور مٹی کی نمی کو برقرار رکھتی ہے۔ وہ مٹی کے پی ایچ کی بھی اسی طرح کی ترجیحات رکھتی ہیں۔",
+        "ar": "تعمل الفراولة كغطاء حيوي، وتكبح الأعشاب الضارة وتحتفظ برطوبة التربة. كما أنها تشترك في تفضيلات درجة حموضة التربة المماثلة.",
+        "fr": "Les fraises agissent comme un paillis vivant, supprimant les mauvaises herbes et retenant l'humidité du sol. Elles partagent également des préférences de pH du sol similaires."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "benefit": {
+        "en": "Rhubarb is believed to deter whiteflies and other pests from brassicas like cabbage, broccoli, and kale.",
+        "ur": "خیال کیا جاتا ہے کہ روبرب گوبھی، بروکولی اور کالی جیسی براسیکا سے سفید مکھیوں اور دیگر کیڑوں کو دور رکھتا ہے۔",
+        "ar": "يعتقد أن الراوند يطرد الذباب الأبيض والآفات الأخرى من الخضروات الصليبية مثل الملفوف والبروكلي واللفت.",
+        "fr": "La rhubarbe est censée éloigner les aleurodes et autres parasites des brassicacées comme le chou, le brocoli et le chou frisé."
+      }
+    },
+    {
+      "plantId": "garlic",
+      "benefit": {
+        "en": "Emits a strong scent that can deter common pests, potentially protecting rhubarb from certain insects.",
+        "ur": "ایک مضبوط خوشبو خارج کرتا ہے جو عام کیڑوں کو دور رکھ سکتا ہے، ممکنہ طور پر روبرب کو بعض کیڑوں سے بچاتا ہے۔",
+        "ar": "يصدر رائحة قوية يمكن أن تردع الآفات الشائعة، مما قد يحمي الراوند من بعض الحشرات.",
+        "fr": "Émet une forte odeur qui peut dissuader les parasites courants, protégeant potentiellement la rhubarbe de certains insectes."
+      }
+    },
+    {
+      "plantId": "comfrey",
+      "benefit": {
+        "en": "Comfrey is a dynamic accumulator, drawing up nutrients from deep in the soil. Its leaves can be chopped and used as a nutrient-rich mulch for rhubarb.",
+        "ur": "کومفری ایک متحرک جمع کرنے والا ہے، جو مٹی کی گہرائی سے غذائی اجزاء نکالتا ہے۔ اس کے پتوں کو کاٹ کر روبرب کے لیے غذائیت سے بھرپور ملچ کے طور پر استعمال کیا جا سکتا ہے۔",
+        "ar": "السنفيت هو مجمع ديناميكي، يسحب المغذيات من عمق التربة. يمكن تقطيع أوراقه واستخدامها كغطاء عضوي غني بالمغذيات للراوند.",
+        "fr": "La consoude est un accumulateur dynamique, puisant les nutriments en profondeur dans le sol. Ses feuilles peuvent être coupées et utilisées comme paillis riche en nutriments pour la rhubarbe."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "black_walnut",
+      "reason": {
+        "en": "Black walnut trees release juglone, a chemical toxic to many plants, including rhubarb, causing stunted growth and eventual death.",
+        "ur": "کالے اخروٹ کے درخت جگلون نامی کیمیکل خارج کرتے ہیں، جو روبرب سمیت کئی پودوں کے لیے زہریلا ہے، جس سے نشوونما رک جاتی ہے اور بالآخر موت واقع ہو جاتی ہے۔",
+        "ar": "تطلق أشجار الجوز الأسود مادة الجغلون، وهي مادة كيميائية سامة للعديد من النباتات، بما في ذلك الراوند، مما يسبب توقف النمو والموت في النهاية.",
+        "fr": "Les noyers noirs libèrent la juglone, un produit chimique toxique pour de nombreuses plantes, y compris la rhubarbe, provoquant un retard de croissance et la mort éventuelle."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Sunflowers are allelopathic, meaning they release substances that can inhibit the growth of nearby plants, including rhubarb. They also compete heavily for nutrients.",
+        "ur": "سورج مکھی ایلوپیتھک ہوتے ہیں، یعنی وہ ایسے مادے خارج کرتے ہیں جو قریبی پودوں کی نشوونما کو روک سکتے ہیں، بشمول روبرب۔ وہ غذائی اجزاء کے لیے بھی سخت مقابلہ کرتے ہیں۔",
+        "ar": "عباد الشمس نباتات أليلوباثية، مما يعني أنها تطلق مواد يمكن أن تمنع نمو النباتات القريبة، بما في ذلك الراوند. كما أنها تتنافس بشدة على المغذيات.",
+        "fr": "Les tournesols sont allélopathiques, ce qui signifie qu'ils libèrent des substances qui peuvent inhiber la croissance des plantes voisines, y compris la rhubarbe. Ils rivalisent également fortement pour les nutriments."
+      }
+    },
+    {
+      "plantId": "corn",
+      "reason": {
+        "en": "Corn is a heavy feeder and will compete with rhubarb for essential nutrients and water, potentially stunting rhubarb's growth.",
+        "ur": "مکئی ایک بھاری خوراک لینے والا پودا ہے اور روبرب کے ساتھ ضروری غذائی اجزاء اور پانی کے لیے مقابلہ کرے گا، ممکنہ طور پر روبرب کی نشوونما کو روک دے گا۔",
+        "ar": "الذرة نبات يستهلك الكثير من المغذيات وسوف يتنافس مع الراوند على المغذيات الأساسية والماء، مما قد يعيق نمو الراوند.",
+        "fr": "Le maïs est une plante gourmande et concurrencera la rhubarbe pour les nutriments essentiels et l'eau, ce qui pourrait freiner sa croissance."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "crown_rot",
+      "vulnerableStages": [
+        "ESTABLISHMENT",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Soft, mushy decay at the base of the stalks and crown, often accompanied by a foul odor. Caused by fungi in overly wet, poorly drained soil.",
+        "ur": "ڈنٹھلوں اور تاج کی بنیاد پر نرم، گلا ہوا سڑنا، اکثر بدبو کے ساتھ۔ زیادہ گیلی، ناقص نکاسی والی مٹی میں فنگس کی وجہ سے ہوتا ہے۔",
+        "ar": "تعفن طري ولين في قاعدة السيقان والتاج، غالبًا ما يصاحبه رائحة كريهة. تسببه الفطريات في التربة الرطبة جدًا وسيئة التصريف.",
+        "fr": "Pourriture molle et pâteuse à la base des tiges et de la couronne, souvent accompagnée d'une mauvaise odeur. Causée par des champignons dans un sol trop humide et mal drainé."
+      }
+    },
+    {
+      "pestId": "rhubarb_curculio",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Large, black snout beetles that bore holes into stalks and crowns, causing sap to ooze and stalks to wilt. Look for feeding scars and frass.",
+        "ur": "بڑے، سیاہ سونڈ والے کیڑے جو ڈنٹھلوں اور تاج میں سوراخ کرتے ہیں، جس سے رس رستا ہے اور ڈنٹھل مرجھا جاتے ہیں۔ کھانے کے نشانات اور فضلہ تلاش کریں۔",
+        "ar": "خنافس كبيرة ذات خرطوم أسود تحفر ثقوبًا في السيقان والتاج، مما يتسبب في تسرب العصارة وذبول السيقان. ابحث عن ندوب التغذية والبراز.",
+        "fr": "Grands charançons noirs qui percent des trous dans les tiges et les couronnes, provoquant l'écoulement de la sève et le flétrissement des tiges. Recherchez les cicatrices d'alimentation et les excréments."
+      }
+    },
+    {
+      "pestId": "leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, circular spots, often reddish-brown with a purple border, appear on leaves. Severe infections can lead to defoliation.",
+        "ur": "پتوں پر چھوٹے، گول دھبے، اکثر سرخ بھورے رنگ کے جامنی کنارے کے ساتھ ظاہر ہوتے ہیں۔ شدید انفیکشن پتوں کے گرنے کا باعث بن سکتا ہے۔",
+        "ar": "تظهر بقع صغيرة دائرية، غالبًا ما تكون بنية محمرة ذات حدود أرجوانية، على الأوراق. يمكن أن تؤدي العدوى الشديدة إلى تساقط الأوراق.",
+        "fr": "Petites taches circulaires, souvent brun-rougeâtre avec une bordure violette, apparaissent sur les feuilles. Les infections graves peuvent entraîner la défoliation."
+      }
+    },
+    {
+      "pestId": "rhubarb_mosaic_virus",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves show mottled yellow and green patterns, distortion, and stunted growth. No cure; remove and destroy infected plants.",
+        "ur": "پتوں پر پیلے اور سبز رنگ کے دھبے، بگاڑ، اور نشوونما میں کمی ظاہر ہوتی ہے۔ کوئی علاج نہیں؛ متاثرہ پودوں کو ہٹا کر تباہ کر دیں۔",
+        "ar": "تظهر الأوراق أنماطًا صفراء وخضراء مرقطة، وتشوهًا، وتوقفًا في النمو. لا يوجد علاج؛ قم بإزالة وتدمير النباتات المصابة.",
+        "fr": "Les feuilles présentent des motifs jaunes et verts marbrés, une distorsion et un retard de croissance. Pas de remède ; enlevez et détruisez les plantes infectées."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "ESTABLISHMENT",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Irregular holes chewed in leaves, often with silvery slime trails visible. Active in damp, cool conditions, especially at night.",
+        "ur": "پتوں میں بے قاعدہ سوراخ، اکثر چاندی کی چپچپی پگڈنڈیاں نظر آتی ہیں۔ نم، ٹھنڈے حالات میں، خاص طور پر رات کو فعال ہوتے ہیں۔",
+        "ar": "ثقوب غير منتظمة في الأوراق، غالبًا ما تكون مصحوبة بآثار مخاطية فضية مرئية. نشطة في الظروف الرطبة والباردة، خاصة في الليل.",
+        "fr": "Trous irréguliers mâchés dans les feuilles, souvent avec des traînées de bave argentées visibles. Actifs par temps humide et frais, surtout la nuit."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 365,
+    "firstHarvestDayMax": 730,
+    "continuousHarvest": true,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Stalks are 10-15 inches (25-38 cm) long",
+        "ur": "ڈنٹھل 10-15 انچ (25-38 سینٹی میٹر) لمبے ہوں",
+        "ar": "السيقان بطول 10-15 بوصة (25-38 سم)",
+        "fr": "Tiges de 25-38 cm de long"
+      },
+      {
+        "en": "Stalks are firm and vibrant in color",
+        "ur": "ڈنٹھل مضبوط اور رنگ میں چمکدار ہوں",
+        "ar": "السيقان صلبة وذات لون زاهي",
+        "fr": "Tiges fermes et de couleur vive"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Grasp the base of a stalk and pull it firmly with a twisting motion. Do not cut.",
+        "ur": "ڈنٹھل کی بنیاد کو پکڑیں اور اسے موڑتے ہوئے مضبوطی سے کھینچیں۔ کاٹیں نہیں۔",
+        "ar": "امسك قاعدة الساق واسحبها بقوة بحركة لولبية. لا تقطع.",
+        "fr": "Saisissez la base d'une tige et tirez fermement avec un mouvement de torsion. Ne coupez pas."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest only 1/3 to 1/2 of the stalks from an established plant to ensure continued vigor. Stop harvesting by mid-summer.",
+        "ur": "پودے کی مسلسل طاقت کو یقینی بنانے کے لیے ایک قائم شدہ پودے سے صرف 1/3 سے 1/2 ڈنٹھل کاٹیں۔ موسم گرما کے وسط تک کٹائی بند کر دیں۔",
+        "ar": "احصد فقط 1/3 إلى 1/2 من السيقان من نبات راسخ لضمان استمرار حيويته. توقف عن الحصاد بحلول منتصف الصيف.",
+        "fr": "Ne récoltez que 1/3 à 1/2 des tiges d'une plante établie pour assurer une vigueur continue. Arrêtez la récolte à la mi-été."
+      },
+      "EXPERT": {
+        "en": "For optimal flavor and tenderness, harvest stalks when they are young and tender, before they become too fibrous. Avoid harvesting in the first year after planting.",
+        "ur": "بہترین ذائقہ اور نرمی کے لیے، ڈنٹھلوں کو جوان اور نرم ہونے پر کاٹیں، اس سے پہلے کہ وہ بہت ریشے دار ہو جائیں۔ پودے لگانے کے پہلے سال میں کٹائی سے گریز کریں۔",
+        "ar": "للحصول على أفضل نكهة وطراوة، احصد السيقان عندما تكون صغيرة وطرية، قبل أن تصبح ليفية جدًا. تجنب الحصاد في السنة الأولى بعد الزراعة.",
+        "fr": "Pour une saveur et une tendreté optimales, récoltez les tiges lorsqu'elles sont jeunes et tendres, avant qu'elles ne deviennent trop fibreuses. Évitez de récolter la première année après la plantation."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate unwashed stalks in a plastic bag for up to 2-3 weeks, or chop and freeze for longer storage.",
+      "ur": "بغیر دھوئے ڈنٹھلوں کو پلاسٹک کے تھیلے میں 2-3 ہفتوں تک فریج میں رکھیں، یا لمبی مدت کے لیے کاٹ کر فریز کر دیں۔",
+      "ar": "احفظ السيقان غير المغسولة في كيس بلاستيكي في الثلاجة لمدة تصل إلى 2-3 أسابيع، أو قطعها وجمدها لتخزين أطول.",
+      "fr": "Réfrigérez les tiges non lavées dans un sac en plastique pendant 2-3 semaines maximum, ou coupez-les et congelez-les pour une conservation plus longue."
+    },
+    "yieldEstimateKg": {
+      "10L": 1,
+      "20L": 2,
+      "30L": 3,
+      "GROUND": 5
+    }
+  }
+}
