@@ -1,0 +1,1456 @@
+{
+  "id": "grapes",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1582218000571-06689d700997?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Grapes",
+      "alternate": [
+        "Grapevine"
+      ]
+    },
+    "ur": {
+      "common": "انگور",
+      "alternate": []
+    },
+    "ar": {
+      "common": "عنب",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Raisins",
+      "alternate": [
+        "Vigne"
+      ]
+    },
+    "botanical": "Vitis vinifera",
+    "aliases": [
+      "angoor",
+      "enab",
+      "raisin",
+      "grape"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "fruiting",
+  "germinationDays": 21,
+  "weatherRules": {
+    "highRiskFungalHumidity": 75,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "VINING"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "VINING": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Vining type. Requires significant support (trellis, arbor) and regular pruning for fruit production and plant health. Can grow indefinitely if not pruned.",
+          "ur": "بیل قسم۔ پھل کی پیداوار اور پودے کی صحت کے لیے کافی سہارے (ٹریلس، آربر) اور باقاعدہ کٹائی کی ضرورت ہوتی ہے۔ اگر کٹائی نہ کی جائے تو لامحدود بڑھ سکتا ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "fruit",
+    "vine",
+    "perennial",
+    "slow-from-seed",
+    "container-friendly",
+    "trellis-required",
+    "pruning-intensive"
+  ],
+  "temperature": {
+    "optimalMinC": 20,
+    "optimalMaxC": 30,
+    "survivalMinC": 5,
+    "survivalMaxC": 40,
+    "germinationMinC": 20,
+    "germinationOptimalC": 25,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 15
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 730,
+    "requiredGDD": 1500,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 15
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": 5,
+      "frostWarningC": 0,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 7,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "high",
+    "wateringNature": "Deep and Consistent",
+    "soilMoisturePreference": "Consistently moist, but never waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "High during fruit development",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "small berries",
+      "leaf scorch"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "root rot",
+      "stunted growth",
+      "leaf drop"
+    ],
+    "preferredWateringMethod": "Drip irrigation or deep root watering",
+    "thingsToAvoid": [
+      "overhead watering (increases fungal risk)",
+      "standing water",
+      "shallow frequent watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature",
+      "reduce soil splash (fungal risk)"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires very large pots with excellent drainage and strong support.",
+        "ur": "بہت بڑے گملے جن میں بہترین نکاسی آب اور مضبوط سہارا ہو، درکار ہیں۔",
+        "ar": "يتطلب أواني كبيرة جداً ذات تصريف ممتاز ودعم قوي.",
+        "fr": "Nécessite de très grands pots avec un excellent drainage et un support solide."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags provide good aeration but dry out faster. Requires strong support.",
+        "ur": "کپڑے کے تھیلے اچھی ہوا فراہم کرتے ہیں لیکن تیزی سے خشک ہوتے ہیں۔ مضبوط سہارے کی ضرورت ہے۔",
+        "ar": "توفر أكياس الزراعة تهوية جيدة ولكنها تجف بشكل أسرع. تتطلب دعمًا قويًا.",
+        "fr": "Les sacs de culture offrent une bonne aération mais sèchent plus vite. Nécessite un support solide."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Requires ample space, full sun, and a robust trellis or arbor system.",
+        "ur": "کافی جگہ، مکمل دھوپ، اور ایک مضبوط ٹریلس یا آربر سسٹم کی ضرورت ہے۔",
+        "ar": "يتطلب مساحة واسعة، شمس كاملة، ونظام تعريشة أو عريشة قوي.",
+        "fr": "Nécessite un grand espace, le plein soleil et un système de treillis ou de tonnelle robuste."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 50,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for drainage and soil control. Ensure deep soil for root development and strong support.",
+        "ur": "نکاسی آب اور مٹی کے کنٹرول کے لیے بہترین۔ جڑوں کی نشوونما اور مضبوط سہارے کے لیے گہری مٹی کو یقینی بنائیں۔",
+        "ar": "ممتاز للتصريف والتحكم في التربة. تأكد من وجود تربة عميقة لتطور الجذور ودعم قوي.",
+        "fr": "Excellent pour le drainage et le contrôle du sol. Assurez un sol profond pour le développement des racines et un support solide."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Planting dormant grapevines or cuttings",
+        "ur": "انگور کی سوئی ہوئی بیلیں یا قلمیں لگانا",
+        "ar": "زراعة كروم العنب الساكنة أو العقل",
+        "fr": "Plantation de vignes dormantes ou de boutures"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Choose a sunny location with good air circulation.",
+          "ur": "اچھی ہوا کی گردش والی دھوپ والی جگہ کا انتخاب کریں۔",
+          "ar": "اختر موقعًا مشمسًا جيد التهوية.",
+          "fr": "Choisissez un emplacement ensoleillé avec une bonne circulation de l'air."
+        },
+        {
+          "en": "Ensure proper drainage to prevent root rot.",
+          "ur": "جڑوں کے سڑنے سے بچنے کے لیے مناسب نکاسی کو یقینی بنائیں۔",
+          "ar": "تأكد من الصرف الجيد لمنع تعفن الجذور.",
+          "fr": "Assurez un bon drainage pour éviter la pourriture des racines."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Dig a hole 12 inches deep and wide. Mix compost into the removed soil.",
+              "ur": "12 انچ گہرا اور چوڑا گڑھا کھودیں۔ نکالی گئی مٹی میں کھاد ملائیں۔",
+              "ar": "احفر حفرة بعمق وعرض 12 بوصة. اخلط السماد مع التربة المستخرجة.",
+              "fr": "Creusez un trou de 30 cm de profondeur et de largeur. Mélangez du compost à la terre retirée."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil to achieve pH 6.0-7.0. Incorporate well-rotted compost and sand for drainage.",
+              "ur": "مٹی کو پی ایچ 6.0-7.0 تک پہنچانے کے لیے ترمیم کریں۔ اچھی طرح گلی ہوئی کھاد اور ریت کو نکاسی کے لیے شامل کریں۔",
+              "ar": "عدّل التربة لتحقيق درجة حموضة 6.0-7.0. أضف السماد المتحلل جيدًا والرمل لتحسين الصرف.",
+              "fr": "Amendez le sol pour atteindre un pH de 6,0-7,0. Incorporez du compost bien décomposé et du sable pour le drainage."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to determine nutrient deficiencies and pH. Adjust accordingly with organic amendments.",
+              "ur": "غذائی اجزاء کی کمی اور پی ایچ کا تعین کرنے کے لیے مٹی کا ٹیسٹ کریں۔ نامیاتی ترمیمات کے ساتھ اس کے مطابق ایڈجسٹ کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتحديد نقص المغذيات ودرجة الحموضة. اضبطها وفقًا لذلك باستخدام المكملات العضوية.",
+              "fr": "Effectuez une analyse de sol pour déterminer les carences en nutriments et le pH. Ajustez en conséquence avec des amendements organiques."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Place the vine in the hole, ensuring the graft union (if any) is above soil level. Backfill gently.",
+              "ur": "بیل کو گڑھے میں رکھیں، اس بات کو یقینی بنائیں کہ پیوند کا جوڑ (اگر کوئی ہے) مٹی کی سطح سے اوپر ہو۔ آہستہ سے مٹی ڈالیں۔",
+              "ar": "ضع الكرمة في الحفرة، مع التأكد من أن نقطة التطعيم (إن وجدت) فوق مستوى التربة. املأ الحفرة برفق.",
+              "fr": "Placez la vigne dans le trou, en vous assurant que le point de greffe (le cas échéant) est au-dessus du niveau du sol. Rebouchez délicatement."
+            },
+            "INTERMEDIATE": {
+              "en": "Spread roots evenly in the hole. Backfill with amended soil, tamping gently to remove air pockets.",
+              "ur": "جڑوں کو گڑھے میں یکساں طور پر پھیلائیں۔ ترمیم شدہ مٹی سے بھریں، ہوا کے بلبلوں کو ہٹانے کے لیے آہستہ سے دبائیں۔",
+              "ar": "انشر الجذور بالتساوي في الحفرة. املأ بالتربة المعدلة، واضغط برفق لإزالة جيوب الهواء.",
+              "fr": "Étalez les racines uniformément dans le trou. Rebouchez avec la terre amendée, en tassant doucement pour éliminer les poches d'air."
+            },
+            "EXPERT": {
+              "en": "Ensure proper orientation of the vine. Create a small berm around the planting area to retain water.",
+              "ur": "بیل کی مناسب سمت کو یقینی بنائیں۔ پانی کو برقرار رکھنے کے لیے پودے لگانے والے علاقے کے ارد گرد ایک چھوٹا سا کنارہ بنائیں۔",
+              "ar": "تأكد من التوجيه الصحيح للكرمة. أنشئ سدًا صغيرًا حول منطقة الزراعة للاحتفاظ بالماء.",
+              "fr": "Assurez une orientation correcte de la vigne. Créez une petite butte autour de la zone de plantation pour retenir l'eau."
+            }
+          }
+        },
+        "supportSetup": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Install a sturdy stake next to the newly planted vine for initial support.",
+              "ur": "نئی لگائی گئی بیل کے ساتھ ابتدائی سہارے کے لیے ایک مضبوط لکڑی لگائیں۔",
+              "ar": "قم بتركيب وتد قوي بجانب الكرمة المزروعة حديثًا للدعم الأولي.",
+              "fr": "Installez un tuteur solide à côté de la vigne nouvellement plantée pour un soutien initial."
+            },
+            "INTERMEDIATE": {
+              "en": "Set up a basic trellis system (e.g., T-post and wire) immediately after planting.",
+              "ur": "پودے لگانے کے فوراً بعد ایک بنیادی ٹریلس سسٹم (مثلاً، ٹی پوسٹ اور تار) قائم کریں۔",
+              "ar": "قم بإعداد نظام تعريشة أساسي (مثل عمود T وسلك) فور الزراعة.",
+              "fr": "Mettez en place un système de treillis de base (par exemple, poteau en T et fil) immédiatement après la plantation."
+            },
+            "EXPERT": {
+              "en": "Design and install a permanent trellis system suitable for your grape variety and training method.",
+              "ur": "اپنی انگور کی قسم اور تربیت کے طریقہ کار کے لیے موزوں ایک مستقل ٹریلس سسٹم ڈیزائن اور انسٹال کریں۔",
+              "ar": "صمم وقم بتركيب نظام تعريشة دائم مناسب لنوع العنب الخاص بك وطريقة التدريب.",
+              "fr": "Concevez et installez un système de treillis permanent adapté à votre variété de raisin et à votre méthode de palissage."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly immediately after planting.",
+              "ur": "پودے لگانے کے فوراً بعد اچھی طرح پانی دیں۔",
+              "ar": "اسقِ جيدًا فور الزراعة.",
+              "fr": "Arrosez abondamment immédiatement après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Deep water to settle the soil around the roots.",
+              "ur": "جڑوں کے ارد گرد مٹی کو بسانے کے لیے گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق لتثبيت التربة حول الجذور.",
+              "fr": "Arrosez profondément pour tasser le sol autour des racines."
+            },
+            "EXPERT": {
+              "en": "Apply a slow, deep watering to ensure root contact with soil and eliminate air pockets.",
+              "ur": "جڑوں کا مٹی سے رابطہ یقینی بنانے اور ہوا کے بلبلوں کو ختم کرنے کے لیے آہستہ، گہرا پانی دیں۔",
+              "ar": "طبق سقيًا بطيئًا وعميقًا لضمان تلامس الجذور مع التربة وإزالة جيوب الهواء.",
+              "fr": "Appliquez un arrosage lent et profond pour assurer le contact des racines avec le sol et éliminer les poches d'air."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Buds swell and break, roots establish",
+        "ur": "کلیاں پھولتی اور کھلتی ہیں، جڑیں مضبوط ہوتی ہیں",
+        "ar": "تتورم البراعم وتتفتح، وتتأسس الجذور",
+        "fr": "Les bourgeons gonflent et éclosent, les racines s'établissent"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Protect young shoots from late frosts.",
+          "ur": "نئی کونپلوں کو دیر سے پڑنے والی ٹھنڈ سے بچائیں۔",
+          "ar": "احمِ البراعم الصغيرة من الصقيع المتأخر.",
+          "fr": "Protégez les jeunes pousses des gelées tardives."
+        },
+        {
+          "en": "Maintain consistent soil moisture, but avoid waterlogging.",
+          "ur": "مٹی کی نمی کو مستقل رکھیں، لیکن پانی جمع ہونے سے بچیں۔",
+          "ar": "حافظ على رطوبة التربة باستمرار، ولكن تجنب التشبع بالمياه.",
+          "fr": "Maintenez une humidité constante du sol, mais évitez l'engorgement."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently around the base of the vine.",
+              "ur": "بیل کی بنیاد کے ارد گرد آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف حول قاعدة الكرمة.",
+              "fr": "Arrosez doucement autour de la base de la vigne."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil consistently moist, checking the top inch for dryness.",
+              "ur": "مٹی کو مستقل طور پر نم رکھیں، اوپر کے ایک انچ کو خشک ہونے کے لیے چیک کریں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، وتحقق من جفاف البوصة العلوية.",
+              "fr": "Maintenez le sol constamment humide, vérifiez le pouce supérieur pour la sécheresse."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels with a meter to ensure optimal conditions for root development.",
+              "ur": "جڑوں کی نشوونما کے لیے بہترین حالات کو یقینی بنانے کے لیے میٹر سے مٹی کی نمی کی سطح کی نگرانی کریں۔",
+              "ar": "راقب مستويات رطوبة التربة بمقياس لضمان الظروف المثلى لتطور الجذور.",
+              "fr": "Surveillez les niveaux d'humidité du sol avec un humidimètre pour assurer des conditions optimales pour le développement des racines."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for swelling buds or small green shoots.",
+              "ur": "پھولتی ہوئی کلیوں یا چھوٹی سبز کونپلوں کو چیک کریں۔",
+              "ar": "تحقق من البراعم المتورمة أو البراعم الخضراء الصغيرة.",
+              "fr": "Vérifiez les bourgeons gonflés ou les petites pousses vertes."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect for uniform bud break and any signs of pest damage.",
+              "ur": "یکساں کلیوں کے کھلنے اور کیڑوں کے نقصان کی کسی بھی علامت کا معائنہ کریں۔",
+              "ar": "افحص تفتح البراعم بشكل موحد وأي علامات لتلف الآفات.",
+              "fr": "Inspectez la levée uniforme des bourgeons et tout signe de dommages causés par les parasites."
+            },
+            "EXPERT": {
+              "en": "Assess vigor of emerging shoots and root establishment by gently probing the soil.",
+              "ur": "ابھرتی ہوئی کونپلوں کی طاقت اور جڑوں کے قیام کا مٹی کو آہستہ سے چھو کر اندازہ لگائیں۔",
+              "ar": "قم بتقييم قوة البراعم الناشئة وتأسيس الجذور عن طريق فحص التربة برفق.",
+              "fr": "Évaluez la vigueur des pousses émergentes et l'établissement des racines en sondant délicatement le sol."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Lack of bud break",
+              "ur": "کلیوں کا نہ کھلنا",
+              "ar": "عدم تفتح البراعم",
+              "fr": "Absence de débourrement"
+            },
+            {
+              "en": "Pest damage on new shoots",
+              "ur": "نئی کونپلوں پر کیڑوں کا نقصان",
+              "ar": "تلف الآفات على البراعم الجديدة",
+              "fr": "Dégâts de parasites sur les nouvelles pousses"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Young shoots emerge and grow",
+        "ur": "نئی کونپلیں نکلتی اور بڑھتی ہیں",
+        "ar": "تظهر البراعم الصغيرة وتنمو",
+        "fr": "Les jeunes pousses émergent et grandissent"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Select the strongest shoots to form the main trunk.",
+          "ur": "مرکزی تنے بنانے کے لیے سب سے مضبوط کونپلوں کا انتخاب کریں۔",
+          "ar": "اختر أقوى البراعم لتشكيل الجذع الرئيسي.",
+          "fr": "Sélectionnez les pousses les plus fortes pour former le tronc principal."
+        },
+        {
+          "en": "Protect young growth from wind damage.",
+          "ur": "نئی نشوونما کو ہوا کے نقصان سے بچائیں۔",
+          "ar": "احمِ النمو الجديد من أضرار الرياح.",
+          "fr": "Protégez les jeunes pousses des dommages causés par le vent."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 700,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply at the base of the vine.",
+              "ur": "بیل کی بنیاد پر گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عند قاعدة الكرمة.",
+              "fr": "Arrosez profondément à la base de la vigne."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure the root zone receives adequate moisture, avoiding overhead watering.",
+              "ur": "یقینی بنائیں کہ جڑوں کا علاقہ مناسب نمی حاصل کرے، اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تأكد من حصول منطقة الجذور على رطوبة كافية، وتجنب الري العلوي.",
+              "fr": "Assurez-vous que la zone racinaire reçoit une humidité adéquate, en évitant l'arrosage par le haut."
+            },
+            "EXPERT": {
+              "en": "Implement drip irrigation for efficient and consistent water delivery to the root zone.",
+              "ur": "جڑوں کے علاقے میں موثر اور مستقل پانی کی فراہمی کے لیے ڈرپ ایریگیشن کا نظام نافذ کریں۔",
+              "ar": "طبق نظام الري بالتنقيط لتوصيل المياه بكفاءة وثبات إلى منطقة الجذور.",
+              "fr": "Mettez en œuvre l'irrigation goutte à goutte pour une distribution d'eau efficace et constante à la zone racinaire."
+            }
+          }
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Select 1-2 of the strongest shoots and remove all others at the base.",
+              "ur": "1-2 سب سے مضبوط کونپلوں کا انتخاب کریں اور باقی سب کو بنیاد سے ہٹا دیں۔",
+              "ar": "اختر 1-2 من أقوى البراعم وأزل جميع البراعم الأخرى من القاعدة.",
+              "fr": "Sélectionnez 1-2 des pousses les plus fortes et retirez toutes les autres à la base."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully choose the most vigorous shoot to become the main trunk, removing competing growth.",
+              "ur": "مرکزی تنے بننے کے لیے سب سے مضبوط کونپل کا احتیاط سے انتخاب کریں، مقابلہ کرنے والی نشوونما کو ہٹا دیں۔",
+              "ar": "اختر بعناية أقوى برعم ليصبح الجذع الرئيسي، مع إزالة النمو المنافس.",
+              "fr": "Choisissez soigneusement la pousse la plus vigoureuse pour devenir le tronc principal, en supprimant la croissance concurrente."
+            },
+            "EXPERT": {
+              "en": "Train the selected shoot vertically towards the trellis wire, removing any lateral shoots below the first wire.",
+              "ur": "منتخب کونپل کو عمودی طور پر ٹریلس تار کی طرف تربیت دیں، پہلی تار کے نیچے کسی بھی طرف کی کونپلوں کو ہٹا دیں۔",
+              "ar": "درب البرعم المختار عموديًا نحو سلك التعريشة، مع إزالة أي براعم جانبية أسفل السلك الأول.",
+              "fr": "Palissez la pousse sélectionnée verticalement vers le fil du treillis, en supprimant toutes les pousses latérales sous le premier fil."
+            }
+          }
+        },
+        "training": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently tie the selected shoot to the stake or trellis wire as it grows.",
+              "ur": "منتخب کونپل کو بڑھنے کے ساتھ ساتھ آہستہ سے لکڑی یا ٹریلس تار سے باندھیں۔",
+              "ar": "اربط البرعم المختار برفق بالوتد أو سلك التعريشة أثناء نموه.",
+              "fr": "Attachez délicatement la pousse sélectionnée au tuteur ou au fil du treillis au fur et à mesure de sa croissance."
+            },
+            "INTERMEDIATE": {
+              "en": "Use soft ties to secure the main shoot to the support, guiding it upwards without constriction.",
+              "ur": "مرکزی کونپل کو سہارے سے محفوظ کرنے کے لیے نرم بندھن استعمال کریں، اسے بغیر کسی رکاوٹ کے اوپر کی طرف رہنمائی کریں۔",
+              "ar": "استخدم روابط ناعمة لتثبيت البرعم الرئيسي بالدعم، وتوجيهه للأعلى دون تضييق.",
+              "fr": "Utilisez des liens souples pour fixer la pousse principale au support, en la guidant vers le haut sans la serrer."
+            },
+            "EXPERT": {
+              "en": "Establish the permanent trunk by training the strongest shoot to the desired height on the trellis.",
+              "ur": "سب سے مضبوط کونپل کو ٹریلس پر مطلوبہ اونچائی تک تربیت دے کر مستقل تنے کو قائم کریں۔",
+              "ar": "أنشئ الجذع الدائم عن طريق تدريب أقوى برعم إلى الارتفاع المطلوب على التعريشة.",
+              "fr": "Établissez le tronc permanent en palissant la pousse la plus forte à la hauteur désirée sur le treillis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 50,
+      "durationDaysCool": 75,
+      "description": {
+        "en": "Vigorous growth of canes, leaves, and vine structure",
+        "ur": "بیل، پتے اور بیل کی ساخت کی تیز نشوونما",
+        "ar": "نمو قوي للقصب والأوراق وهيكل الكرمة",
+        "fr": "Croissance vigoureuse des sarments, des feuilles et de la structure de la vigne"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Ensure good air circulation within the canopy to prevent fungal diseases.",
+          "ur": "فنگل بیماریوں سے بچنے کے لیے چھتری کے اندر اچھی ہوا کی گردش کو یقینی بنائیں۔",
+          "ar": "تأكد من دوران الهواء الجيد داخل المظلة لمنع الأمراض الفطرية.",
+          "fr": "Assurez une bonne circulation de l'air dans la canopée pour prévenir les maladies fongiques."
+        },
+        {
+          "en": "Regularly check for pests and diseases, especially powdery mildew.",
+          "ur": "کیڑوں اور بیماریوں، خاص طور پر پاؤڈری پھپھوندی کے لیے باقاعدگی سے چیک کریں۔",
+          "ar": "تحقق بانتظام من الآفات والأمراض، خاصة البياض الدقيقي.",
+          "fr": "Vérifiez régulièrement les parasites et les maladies, en particulier l'oïdium."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, ensuring the soil is moist to a depth of 12-18 inches.",
+              "ur": "ہفتے میں ایک بار گہرا پانی دیں، اس بات کو یقینی بنائیں کہ مٹی 12-18 انچ کی گہرائی تک نم ہو۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، مع التأكد من أن التربة رطبة بعمق 12-18 بوصة.",
+              "fr": "Arrosez profondément une fois par semaine, en vous assurant que le sol est humide sur une profondeur de 30 à 45 cm."
+            },
+            "INTERMEDIATE": {
+              "en": "Adjust watering frequency based on weather and soil type to maintain consistent moisture.",
+              "ur": "موسم اور مٹی کی قسم کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں تاکہ مستقل نمی برقرار رہے۔",
+              "ar": "اضبط تكرار الري بناءً على الطقس ونوع التربة للحفاظ على رطوبة ثابتة.",
+              "fr": "Ajustez la fréquence d'arrosage en fonction de la météo et du type de sol pour maintenir une humidité constante."
+            },
+            "EXPERT": {
+              "en": "Utilize soil moisture sensors to precisely manage irrigation, preventing both drought stress and waterlogging.",
+              "ur": "خشک سالی کے دباؤ اور پانی جمع ہونے دونوں کو روکنے کے لیے آبپاشی کو درست طریقے سے منظم کرنے کے لیے مٹی کی نمی کے سینسر استعمال کریں۔",
+              "ar": "استخدم أجهزة استشعار رطوبة التربة لإدارة الري بدقة، ومنع كل من إجهاد الجفاف والتشبع بالمياه.",
+              "fr": "Utilisez des capteurs d'humidité du sol pour gérer précisément l'irrigation, prévenant à la fois le stress hydrique et l'engorgement."
+            }
+          }
+        },
+        "pruning": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any shoots growing from the base of the vine (suckers) and any shoots growing into the ground.",
+              "ur": "بیل کی بنیاد سے اگنے والی کسی بھی کونپل (سکرز) اور زمین میں اگنے والی کسی بھی کونپل کو ہٹا دیں۔",
+              "ar": "أزل أي براعم تنمو من قاعدة الكرمة (السرطانات) وأي براعم تنمو في الأرض.",
+              "fr": "Retirez toutes les pousses qui poussent de la base de la vigne (gourmands) et toutes les pousses qui poussent dans le sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform shoot thinning to manage canopy density, ensuring good light penetration and air circulation.",
+              "ur": "چھتری کی کثافت کو منظم کرنے کے لیے کونپلوں کو پتلا کریں، اچھی روشنی کی دخول اور ہوا کی گردش کو یقینی بنائیں۔",
+              "ar": "قم بتخفيف البراعم لإدارة كثافة المظلة، مما يضمن اختراقًا جيدًا للضوء ودوران الهواء.",
+              "fr": "Effectuez un éclaircissage des pousses pour gérer la densité de la canopée, assurant une bonne pénétration de la lumière et une bonne circulation de l'air."
+            },
+            "EXPERT": {
+              "en": "Implement a specific training system (e.g., Cane Pruning, Spur Pruning) and prune accordingly to establish cordons/canes.",
+              "ur": "ایک مخصوص تربیتی نظام (مثلاً، کین پروننگ، سپر پروننگ) نافذ کریں اور اس کے مطابق پروننگ کریں تاکہ کورڈنز/کینز قائم ہوں۔",
+              "ar": "طبق نظام تدريب محدد (مثل تقليم القصب، تقليم الدوابر) وقم بالتقليم وفقًا لذلك لإنشاء الكوردونات/القصبات.",
+              "fr": "Mettez en œuvre un système de palissage spécifique (par exemple, taille en cordon, taille en gobelet) et taillez en conséquence pour établir les cordons/sarments."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect leaves for powdery mildew (white dusty spots) and spray with a baking soda solution if seen.",
+              "ur": "پاؤڈری پھپھوندی (سفید دھول کے دھبے) کے لیے پتوں کا معائنہ کریں اور اگر نظر آئے تو بیکنگ سوڈا کے محلول سے چھڑکاؤ کریں۔",
+              "ar": "افحص الأوراق بحثًا عن البياض الدقيقي (بقع بيضاء غبارية) ورش بمحلول صودا الخبز إذا شوهد.",
+              "fr": "Inspectez les feuilles pour l'oïdium (taches blanches poudreuses) et pulvérisez avec une solution de bicarbonate de soude si vous en voyez."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic fungicides (e.g., sulfur or copper-based) preventatively, especially in humid conditions.",
+              "ur": "نامیاتی فنگس کش ادویات (مثلاً، سلفر یا تانبے پر مبنی) کو احتیاطی طور پر استعمال کریں، خاص طور پر مرطوب حالات میں۔",
+              "ar": "طبق مبيدات الفطريات العضوية (مثل الكبريت أو النحاس) وقائيًا، خاصة في الظروف الرطبة.",
+              "fr": "Appliquez des fongicides biologiques (par exemple, à base de soufre ou de cuivre) de manière préventive, surtout par temps humide."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) program, including scouting, cultural practices, and targeted biological/chemical controls.",
+              "ur": "ایک مربوط کیڑوں کے انتظام (IPM) پروگرام نافذ کریں، جس میں سکاؤٹنگ، ثقافتی طریقوں، اور ہدف شدہ حیاتیاتی/کیمیائی کنٹرول شامل ہیں۔",
+              "ar": "طبق برنامج إدارة متكاملة للآفات (IPM)، بما في ذلك الاستكشاف، والممارسات الزراعية، والمكافحة البيولوجية/الكيميائية المستهدفة.",
+              "fr": "Mettez en œuvre un programme de lutte intégrée contre les ravageurs (IPM), comprenant le dépistage, les pratiques culturales et les contrôles biologiques/chimiques ciblés."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "البياض الدقيقي",
+              "fr": "Oïdium"
+            },
+            {
+              "en": "Downy Mildew",
+              "ur": "ڈاؤنی پھپھوندی",
+              "ar": "البياض الزغبي",
+              "fr": "Mildiou"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Small flower clusters appear",
+        "ur": "پھولوں کے چھوٹے گچھے نمودار ہوتے ہیں",
+        "ar": "تظهر عناقيد الزهور الصغيرة",
+        "fr": "De petites grappes de fleurs apparaissent"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "Avoid overhead watering during flowering to prevent fungal issues.",
+          "ur": "پھول آنے کے دوران فنگل مسائل سے بچنے کے لیے اوپر سے پانی دینے سے گریز کریں۔",
+          "ar": "تجنب الري العلوي أثناء الإزهار لمنع المشاكل الفطرية.",
+          "fr": "Évitez l'arrosage par le haut pendant la floraison pour prévenir les problèmes fongiques."
+        },
+        {
+          "en": "Good air circulation is vital for successful pollination and fruit set.",
+          "ur": "اچھی ہوا کی گردش کامیاب پولینیشن اور پھل کے لگنے کے لیے ضروری ہے۔",
+          "ar": "دوران الهواء الجيد حيوي للتلقيح الناجح وعقد الثمار.",
+          "fr": "Une bonne circulation de l'air est vitale pour une pollinisation et une nouaison réussies."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 1200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent soil moisture to support flower development.",
+              "ur": "پھولوں کی نشوونما کو سہارا دینے کے لیے مٹی کی نمی کو مستقل رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار لدعم نمو الزهور.",
+              "fr": "Maintenez une humidité constante du sol pour soutenir le développement des fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply and consistently, ensuring the root zone does not dry out during this critical period.",
+              "ur": "گہرا اور مستقل پانی دیں، اس بات کو یقینی بنائیں کہ اس نازک دور میں جڑوں کا علاقہ خشک نہ ہو۔",
+              "ar": "اسقِ بعمق وباستمرار، مع التأكد من أن منطقة الجذور لا تجف خلال هذه الفترة الحرجة.",
+              "fr": "Arrosez profondément et constamment, en veillant à ce que la zone racinaire ne se dessèche pas pendant cette période critique."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation to prevent water stress, which can lead to flower abortion and poor fruit set.",
+              "ur": "پانی کے دباؤ کو روکنے کے لیے آبپاشی کو بہتر بنائیں، جو پھولوں کے گرنے اور خراب پھل کے لگنے کا سبب بن سکتا ہے۔",
+              "ar": "حسّن الري لمنع إجهاد الماء، والذي يمكن أن يؤدي إلى إجهاض الزهور وضعف عقد الثمار.",
+              "fr": "Optimisez l'irrigation pour prévenir le stress hydrique, qui peut entraîner l'avortement des fleurs et une mauvaise nouaison."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check flower clusters for any signs of mold or tiny insects. Remove affected parts.",
+              "ur": "پھولوں کے گچھوں کو کسی بھی پھپھوندی یا چھوٹے کیڑوں کی علامات کے لیے چیک کریں۔ متاثرہ حصوں کو ہٹا دیں۔",
+              "ar": "افحص عناقيد الزهور بحثًا عن أي علامات للعفن أو الحشرات الصغيرة. أزل الأجزاء المصابة.",
+              "fr": "Vérifiez les grappes de fleurs pour tout signe de moisissure ou de petits insectes. Retirez les parties affectées."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a preventative organic fungicide if humidity is high, targeting botrytis bunch rot.",
+              "ur": "اگر نمی زیادہ ہو تو بوٹریٹس گچھا سڑنے کو ہدف بناتے ہوئے ایک احتیاطی نامیاتی فنگس کش دوا استعمال کریں۔",
+              "ar": "طبق مبيد فطري عضوي وقائي إذا كانت الرطوبة عالية، مستهدفًا تعفن عنقود البوتريتس.",
+              "fr": "Appliquez un fongicide biologique préventif si l'humidité est élevée, ciblant la pourriture grise des grappes."
+            },
+            "EXPERT": {
+              "en": "Monitor disease pressure and apply targeted treatments as needed, prioritizing pollinator-friendly options.",
+              "ur": "بیماری کے دباؤ کی نگرانی کریں اور ضرورت کے مطابق ہدف شدہ علاج استعمال کریں، پولینیٹر دوست اختیارات کو ترجیح دیں۔",
+              "ar": "راقب ضغط الأمراض وطبق العلاجات المستهدفة حسب الحاجة، مع إعطاء الأولوية للخيارات الصديقة للملقحات.",
+              "fr": "Surveillez la pression des maladies et appliquez des traitements ciblés au besoin, en privilégiant les options respectueuses des pollinisateurs."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Botrytis Bunch Rot",
+              "ur": "بوٹریٹس گچھا سڑنا",
+              "ar": "تعفن عنقود البوتريتس",
+              "fr": "Pourriture grise des grappes"
+            },
+            {
+              "en": "Flower drop",
+              "ur": "پھولوں کا گرنا",
+              "ar": "تساقط الزهور",
+              "fr": "Chute des fleurs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 80,
+      "durationDaysCool": 110,
+      "description": {
+        "en": "Berries develop, change color, and ripen",
+        "ur": "بیریاں بنتی ہیں، رنگ بدلتی ہیں اور پکتی ہیں",
+        "ar": "تتطور التوت، يتغير لونه، وينضج",
+        "fr": "Les baies se développent, changent de couleur et mûrissent"
+      },
+      "emoji": "🍇",
+      "tips": [
+        {
+          "en": "Thinning grape clusters improves fruit quality and size.",
+          "ur": "انگور کے گچھوں کو پتلا کرنے سے پھل کا معیار اور سائز بہتر ہوتا ہے۔",
+          "ar": "تخفيف عناقيد العنب يحسن جودة وحجم الثمار.",
+          "fr": "L'éclaircissage des grappes de raisin améliore la qualité et la taille des fruits."
+        },
+        {
+          "en": "Protect ripening grapes from birds and other wildlife.",
+          "ur": "پکتے ہوئے انگوروں کو پرندوں اور دیگر جنگلی حیات سے بچائیں۔",
+          "ar": "احمِ العنب الناضج من الطيور والحياة البرية الأخرى.",
+          "fr": "Protégez les raisins mûrissants des oiseaux et autres animaux sauvages."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 1500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply during berry development. Reduce watering as grapes begin to change color (veraison).",
+              "ur": "بیری کی نشوونما کے دوران گہرا پانی دیں۔ جب انگور رنگ بدلنا شروع کریں (ویریسن) تو پانی کم کریں۔",
+              "ar": "اسقِ بعمق أثناء نمو التوت. قلل الري عندما يبدأ العنب في تغيير لونه (فيريزون).",
+              "fr": "Arrosez profondément pendant le développement des baies. Réduisez l'arrosage lorsque les raisins commencent à changer de couleur (véraison)."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture during fruit set and early development. Gradually reduce water during veraison to concentrate sugars.",
+              "ur": "پھل کے لگنے اور ابتدائی نشوونما کے دوران مستقل نمی برقرار رکھیں۔ ویریسن کے دوران پانی کو آہستہ آہستہ کم کریں تاکہ شکر کو مرتکز کیا جا سکے۔",
+              "ar": "حافظ على رطوبة ثابتة أثناء عقد الثمار والتطور المبكر. قلل الماء تدريجيًا خلال الفيريزون لتركيز السكريات.",
+              "fr": "Maintenez une humidité constante pendant la nouaison et le développement précoce. Réduisez progressivement l'eau pendant la véraison pour concentrer les sucres."
+            },
+            "EXPERT": {
+              "en": "Implement deficit irrigation strategies during veraison to enhance fruit quality and flavor profiles.",
+              "ur": "پھل کے معیار اور ذائقہ کے پروفائلز کو بڑھانے کے لیے ویریسن کے دوران کمی آبپاشی کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "طبق استراتيجيات الري الناقص خلال الفيريزون لتعزيز جودة الثمار وملامح النكهة.",
+              "fr": "Mettez en œuvre des stratégies d'irrigation déficitaire pendant la véraison pour améliorer la qualité des fruits et les profils de saveur."
+            }
+          }
+        },
+        "thinning": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove smaller or damaged grape clusters to allow remaining clusters to grow larger.",
+              "ur": "چھوٹے یا خراب انگور کے گچھوں کو ہٹا دیں تاکہ باقی گچھے بڑے ہو سکیں۔",
+              "ar": "أزل عناقيد العنب الأصغر أو التالفة للسماح للعناقيد المتبقية بالنمو أكبر.",
+              "fr": "Retirez les grappes de raisin plus petites ou endommagées pour permettre aux grappes restantes de grossir."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform cluster thinning to achieve optimal fruit load, typically leaving one cluster per shoot.",
+              "ur": "بہترین پھل کے بوجھ کو حاصل کرنے کے لیے گچھا پتلا کریں، عام طور پر ہر کونپل پر ایک گچھا چھوڑ دیں۔",
+              "ar": "قم بتخفيف العناقيد لتحقيق حمل الفاكهة الأمثل، وعادة ما تترك عنقودًا واحدًا لكل برعم.",
+              "fr": "Effectuez un éclaircissage des grappes pour obtenir une charge de fruits optimale, en laissant généralement une grappe par pousse."
+            },
+            "EXPERT": {
+              "en": "Adjust cluster thinning based on vine vigor, variety, and desired yield/quality targets.",
+              "ur": "بیل کی طاقت، قسم، اور مطلوبہ پیداوار/معیار کے اہداف کی بنیاد پر گچھا پتلا کرنے کو ایڈجسٹ کریں۔",
+              "ar": "اضبط تخفيف العناقيد بناءً على قوة الكرمة، والتنوع، وأهداف الغلة/الجودة المطلوبة.",
+              "fr": "Ajustez l'éclaircissage des grappes en fonction de la vigueur de la vigne, de la variété et des objectifs de rendement/qualité souhaités."
+            }
+          }
+        },
+        "canopyManagement": {
+          "required": true,
+          "dayOffset": 40,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove leaves directly around grape clusters to allow more sunlight and air circulation.",
+              "ur": "انگور کے گچھوں کے ارد گرد کے پتوں کو ہٹا دیں تاکہ زیادہ سورج کی روشنی اور ہوا کی گردش ہو سکے۔",
+              "ar": "أزل الأوراق مباشرة حول عناقيد العنب للسماح بمزيد من ضوء الشمس ودوران الهواء.",
+              "fr": "Retirez les feuilles directement autour des grappes de raisin pour permettre plus de lumière du soleil et de circulation de l'air."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform strategic leaf pulling to expose clusters to dappled sunlight, improving color and preventing disease.",
+              "ur": "گچھوں کو چھلنی ہوئی سورج کی روشنی میں بے نقاب کرنے کے لیے حکمت عملی کے ساتھ پتوں کو ہٹائیں، رنگ کو بہتر بنائیں اور بیماری کو روکیں۔",
+              "ar": "قم بسحب الأوراق بشكل استراتيجي لتعريض العناقيد لأشعة الشمس المتفرقة، مما يحسن اللون ويمنع الأمراض.",
+              "fr": "Effectuez un effeuillage stratégique pour exposer les grappes à un ensoleillement tamisé, améliorant la couleur et prévenant les maladies."
+            },
+            "EXPERT": {
+              "en": "Optimize leaf area to fruit ratio through precise canopy management, balancing photosynthesis and fruit ripening.",
+              "ur": "درست چھتری کے انتظام کے ذریعے پتے کے رقبے کو پھل کے تناسب سے بہتر بنائیں، فوٹو سنتھیسز اور پھل کے پکنے کو متوازن کریں۔",
+              "ar": "حسّن نسبة مساحة الأوراق إلى الثمار من خلال إدارة دقيقة للمظلة، موازنًا بين التمثيل الضوئي ونضج الثمار.",
+              "fr": "Optimisez le rapport surface foliaire/fruit grâce à une gestion précise de la canopée, équilibrant la photosynthèse et la maturation des fruits."
+            }
+          }
+        },
+        "netting": {
+          "required": false,
+          "dayOffset": 60,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cover grape clusters with bird netting to protect them from birds.",
+              "ur": "انگور کے گچھوں کو پرندوں سے بچانے کے لیے پرندوں کے جال سے ڈھانپیں۔",
+              "ar": "غطِ عناقيد العنب بشبكة الطيور لحمايتها من الطيور.",
+              "fr": "Couvrez les grappes de raisin avec un filet anti-oiseaux pour les protéger des oiseaux."
+            },
+            "INTERMEDIATE": {
+              "en": "Drape fine mesh netting over the entire vine or individual clusters once veraison begins.",
+              "ur": "جب ویریسن شروع ہو جائے تو پوری بیل یا انفرادی گچھوں پر باریک میش کا جال ڈالیں۔",
+              "ar": "ضع شبكة دقيقة فوق الكرمة بأكملها أو العناقيد الفردية بمجرد بدء الفيريزون.",
+              "fr": "Drapez un filet à mailles fines sur toute la vigne ou sur des grappes individuelles dès le début de la véraison."
+            },
+            "EXPERT": {
+              "en": "Install a robust bird netting system that is securely fastened to prevent access by birds and other pests.",
+              "ur": "ایک مضبوط پرندوں کے جال کا نظام نصب کریں جو پرندوں اور دیگر کیڑوں کے داخلے کو روکنے کے لیے مضبوطی سے بندھا ہو۔",
+              "ar": "قم بتركيب نظام شبكي قوي للطيور يتم تثبيته بإحكام لمنع وصول الطيور والآفات الأخرى.",
+              "fr": "Installez un système de filet anti-oiseaux robuste et solidement fixé pour empêcher l'accès des oiseaux et autres ravageurs."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Grapes are ripe and ready for picking",
+        "ur": "انگور پک گئے ہیں اور توڑنے کے لیے تیار ہیں",
+        "ar": "العنب ناضج وجاهز للقطف",
+        "fr": "Les raisins sont mûrs et prêts à être cueillis"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Taste grapes regularly to determine optimal ripeness.",
+          "ur": "بہترین پختگی کا تعین کرنے کے لیے انگوروں کو باقاعدگی سے چکھیں۔",
+          "ar": "تذوق العنب بانتظام لتحديد النضج الأمثل.",
+          "fr": "Goûtez régulièrement les raisins pour déterminer la maturité optimale."
+        },
+        {
+          "en": "Harvest on a dry day to minimize disease risk and improve storage.",
+          "ur": "بیماری کے خطرے کو کم کرنے اور ذخیرہ کو بہتر بنانے کے لیے خشک دن میں کٹائی کریں۔",
+          "ar": "احصد في يوم جاف لتقليل خطر الأمراض وتحسين التخزين.",
+          "fr": "Récoltez par temps sec pour minimiser les risques de maladies et améliorer la conservation."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut entire grape clusters from the vine using pruning shears when they taste sweet.",
+              "ur": "جب انگور میٹھے لگیں تو پروننگ کینچی کا استعمال کرتے ہوئے انگور کے پورے گچھوں کو بیل سے کاٹ لیں۔",
+              "ar": "اقطع عناقيد العنب بأكملها من الكرمة باستخدام مقص التقليم عندما يكون طعمها حلوًا.",
+              "fr": "Coupez des grappes de raisin entières de la vigne à l'aide de sécateurs lorsqu'elles sont sucrées."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest grapes when they have reached their desired sugar level and flavor profile. Use clean shears.",
+              "ur": "انگوروں کو اس وقت کاٹیں جب وہ اپنی مطلوبہ شکر کی سطح اور ذائقہ کے پروفائل تک پہنچ جائیں۔ صاف کینچی استعمال کریں۔",
+              "ar": "احصد العنب عندما يصل إلى مستوى السكر المطلوب وملف النكهة. استخدم مقصات نظيفة.",
+              "fr": "Récoltez les raisins lorsqu'ils ont atteint le niveau de sucre et le profil de saveur souhaités. Utilisez des sécateurs propres."
+            },
+            "EXPERT": {
+              "en": "Monitor Brix levels (sugar content) with a refractometer to determine optimal harvest timing for specific wine or table grape varieties.",
+              "ur": "مخصوص شراب یا ٹیبل انگور کی اقسام کے لیے بہترین کٹائی کے وقت کا تعین کرنے کے لیے ریفریکٹومیٹر کے ساتھ برکس کی سطح (شکر کی مقدار) کی نگرانی کریں۔",
+              "ar": "راقب مستويات بركس (محتوى السكر) باستخدام مقياس الانكسار لتحديد توقيت الحصاد الأمثل لأنواع النبيذ أو العنب المائدة المحددة.",
+              "fr": "Surveillez les niveaux Brix (teneur en sucre) avec un réfractomètre pour déterminer le moment de récolte optimal pour les variétés de raisin de table ou de vin spécifiques."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 0,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Stop watering 1-2 weeks before harvest to concentrate sugars.",
+              "ur": "شکر کو مرتکز کرنے کے لیے کٹائی سے 1-2 ہفتے پہلے پانی دینا بند کر دیں۔",
+              "ar": "توقف عن الري قبل الحصاد بـ 1-2 أسبوع لتركيز السكريات.",
+              "fr": "Arrêtez d'arroser 1 à 2 semaines avant la récolte pour concentrer les sucres."
+            },
+            "INTERMEDIATE": {
+              "en": "Gradually reduce irrigation during the final ripening phase to enhance flavor and prevent berry splitting.",
+              "ur": "ذائقہ کو بڑھانے اور بیری کے پھٹنے کو روکنے کے لیے آخری پکنے کے مرحلے کے دوران آبپاشی کو آہستہ آہستہ کم کریں۔",
+              "ar": "قلل الري تدريجيًا خلال مرحلة النضج النهائية لتعزيز النكهة ومنع تشقق التوت.",
+              "fr": "Réduisez progressivement l'irrigation pendant la phase de maturation finale pour améliorer la saveur et prévenir l'éclatement des baies."
+            },
+            "EXPERT": {
+              "en": "Implement a controlled dry-down period to optimize sugar accumulation and phenolic ripeness.",
+              "ur": "شکر کے جمع ہونے اور فینولک پختگی کو بہتر بنانے کے لیے ایک کنٹرول شدہ خشک ہونے کی مدت نافذ کریں۔",
+              "ar": "طبق فترة جفاف متحكم فيها لتحسين تراكم السكر ونضج الفينول.",
+              "fr": "Mettez en œuvre une période de séchage contrôlée pour optimiser l'accumulation de sucre et la maturité phénolique."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 4 لترات من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle nutrients for young vine establishment.",
+          "ur": "نوجوان بیل کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر مغذيات لطيفة لتأسيس الكرمة الصغيرة.",
+          "fr": "Fournit des nutriments doux pour l'établissement des jeunes vignes."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست أو خليط النيتروجين العضوي",
+          "fr": "Thé de compost ou mélange d'azote organique"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوباً من السماد الغني أو روث الدود في 4 لترات من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de lombricompost dans 3,7 litres d'eau pendant 24 à 48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous shoot and leaf growth for a strong vine structure.",
+          "ur": "مضبوط بیل کی ساخت کے لیے شاخوں اور پتوں کی بھرپور نشوونما میں مدد کرتا ہے۔",
+          "ar": "يدعم النمو القوي للبراعم والأوراق لهيكل كرمة قوي.",
+          "fr": "Soutient une croissance vigoureuse des pousses et des feuilles pour une structure de vigne solide."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the vine. Gently scratch into the top 1 inch of soil.",
+          "ur": "بیل کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة الكرمة. اخلطها برفق في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la vigne. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Enhances flower development and fruit set.",
+          "ur": "پھولوں کی نشوونما اور پھل لگنے کو بہتر بناتا ہے۔",
+          "ar": "يعزز نمو الأزهار وعقد الثمار.",
+          "fr": "Améliore le développement des fleurs et la nouaison."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Kelp Meal",
+          "ur": "کیلے کے چھلکے کی چائے اور کیلپ میل",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم) ووجبة عشب البحر",
+          "fr": "Thé de peau de banane (riche en potassium) et farine d'algues"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in 1 tablespoon of kelp meal. Pour around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ ایک چمچ کیلپ میل شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، انقعها في 4 لترات من الماء لمدة 48 ساعة. اخلط ملعقة كبيرة من وجبة عشب البحر. اسكب حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les tremper dans 3,7 litres d'eau pendant 48 heures. Mélangez 1 cuillère à soupe de farine d'algues. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is crucial for fruit size, sweetness, and overall quality.",
+          "ur": "پوٹاشیم پھل کے سائز، مٹھاس اور مجموعی معیار کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم ضروري لحجم الثمار وحلاوتها وجودتها الشاملة.",
+          "fr": "Le potassium est essentiel pour la taille, la douceur et la qualité globale des fruits."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-20-20 or 10-10-10)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-20-20)",
+          "ar": "سماد متوازن NPK (مثل 20-20-20)",
+          "fr": "NPK équilibré (ex: 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 4 لترات من الماء. اخلط حتى يذوب تماماً.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong vine and leaf development.",
+          "ur": "مضبوط بیل اور پتوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز نمو الكرمة والأوراق القوي.",
+          "fr": "Favorise un développement robuste de la vigne et des feuilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore/potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 5-10-10 fertilizer per vine. Water immediately after applying to activate.",
+          "ur": "ہر بیل کے گرد 2 چمچ 5-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "ضع ملعقتين كبيرتين من سماد 5-10-10 الحبيبي لكل كرمة. اسقِ الماء فوراً بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire 5-10-10 par vigne. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports bloom development and fruit set without excessive vegetative growth.",
+          "ur": "زیادہ پودوں کی نشوونما کے بغیر پھولوں کی نشوونما اور پھل لگنے میں مدد کرتا ہے۔",
+          "ar": "يدعم نمو الأزهار وعقد الثمار دون نمو خضري مفرط.",
+          "fr": "Soutient le développement des fleurs et la nouaison sans croissance végétative excessive."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-50) & Calcium Nitrate",
+          "ur": "ہائی پوٹاشیم (مثلاً 0-0-50) اور کیلشیم نائٹریٹ",
+          "ar": "خليط عالي البوتاسيوم (مثل 0-0-50) ونترات الكالسيوم",
+          "fr": "Mélange riche en potassium (ex: 0-0-50) et nitrate de calcium"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of High-K fertilizer and 1 teaspoon of Calcium Nitrate in 1 gallon of water.",
+          "ur": "ایک چمچ ہائی پوٹاشیم کھاد اور ایک چمچ کیلشیم نائٹریٹ 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من سماد عالي البوتاسيوم وملعقة صغيرة من نترات الكالسيوم في 4 لترات من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en K et 1 cuillère à café de nitrate de calcium dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium enhances fruit quality and sugar content. Calcium helps prevent fruit disorders.",
+          "ur": "پوٹاشیم پھل کے معیار اور مٹھاس کو بڑھاتا ہے۔ کیلشیم پھل کی خرابیوں کو روکنے میں مدد کرتا ہے۔",
+          "ar": "يعزز البوتاسيوم جودة الثمار ومحتواها من السكر. يساعد الكالسيوم في منع اضطرابات الثمار.",
+          "fr": "Le potassium améliore la qualité des fruits et la teneur en sucre. Le calcium aide à prévenir les troubles des fruits."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low NPK (5-10-10)",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "hyssop",
+      "benefit": {
+        "en": "Attracts beneficial pollinators and deters some pests like cabbage moths and flea beetles.",
+        "ur": "فائدہ مند پولینیٹرز کو اپنی طرف متوجہ کرتا ہے اور کچھ کیڑوں جیسے گوبھی کے پتنگوں اور فلی بیٹلز کو دور بھگاتا ہے۔",
+        "ar": "يجذب الملقحات المفيدة ويطرد بعض الآفات مثل عثة الملفوف وخنافس البراغيث.",
+        "fr": "Attire les pollinisateurs bénéfiques et repousse certains ravageurs comme les papillons de nuit du chou et les altises."
+      }
+    },
+    {
+      "plantId": "geranium",
+      "benefit": {
+        "en": "Known to repel Japanese beetles, a common pest for grapevines.",
+        "ur": "جاپانی بیٹلز کو دور بھگانے کے لیے جانا جاتا ہے، جو انگور کی بیلوں کے لیے ایک عام کیڑا ہے۔",
+        "ar": "معروف بقدرته على طرد الخنافس اليابانية، وهي آفة شائعة لكرمات العنب.",
+        "fr": "Connu pour repousser les hannetons japonais, un ravageur courant des vignes."
+      }
+    },
+    {
+      "plantId": "clover",
+      "benefit": {
+        "en": "Acts as a living mulch, suppresses weeds, fixes nitrogen in the soil, and attracts beneficial insects.",
+        "ur": "زندہ ملچ کے طور پر کام کرتا ہے، جڑی بوٹیوں کو دباتا ہے، مٹی میں نائٹروجن کو ٹھیک کرتا ہے، اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يعمل كغطاء حيوي للتربة، يثبط الأعشاب الضارة، يثبت النيتروجين في التربة، ويجذب الحشرات النافعة.",
+        "fr": "Agit comme un paillis vivant, supprime les mauvaises herbes, fixe l'azote dans le sol et attire les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "oregano",
+      "benefit": {
+        "en": "Emits a strong aroma that can deter various pests and may improve grape flavor.",
+        "ur": "ایک مضبوط خوشبو خارج کرتا ہے جو مختلف کیڑوں کو دور بھگا سکتی ہے اور انگور کے ذائقے کو بہتر بنا سکتی ہے۔",
+        "ar": "يصدر رائحة قوية يمكن أن تطرد الآفات المختلفة وقد تحسن نكهة العنب.",
+        "fr": "Émet un arôme fort qui peut dissuader divers ravageurs et améliorer la saveur du raisin."
+      }
+    },
+    {
+      "plantId": "rose",
+      "benefit": {
+        "en": "Acts as an indicator plant for fungal diseases like powdery mildew and black spot, often showing symptoms before the grapes.",
+        "ur": "پاؤڈری پھپھوندی اور بلیک سپاٹ جیسی فنگل بیماریوں کے لیے ایک اشارے کے پودے کے طور پر کام کرتا ہے، اکثر انگور سے پہلے علامات دکھاتا ہے۔",
+        "ar": "يعمل كنبات مؤشر للأمراض الفطرية مثل البياض الدقيقي والبقعة السوداء، وغالباً ما تظهر عليه الأعراض قبل العنب.",
+        "fr": "Agit comme une plante indicatrice pour les maladies fongiques comme l'oïdium et la tache noire, montrant souvent des symptômes avant les raisins."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "All members of the Brassica family (cabbage, broccoli, kale) can stunt grape growth due to competition for nutrients and potential allelopathic effects.",
+        "ur": "براسیکا خاندان کے تمام ارکان (گوبھی، بروکولی، کیلے) غذائی اجزاء کے لیے مقابلہ اور ممکنہ ایلوپیتھک اثرات کی وجہ سے انگور کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "جميع أفراد عائلة الكرنب (الملفوف، البروكلي، الكرنب الأجعد) يمكن أن تعيق نمو العنب بسبب المنافسة على المغذيات والتأثيرات الأليلوباثية المحتملة.",
+        "fr": "Tous les membres de la famille des Brassicacées (chou, brocoli, chou frisé) peuvent entraver la croissance des vignes en raison de la concurrence pour les nutriments et des effets allélopathiques potentiels."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Known to inhibit the growth of many plants, including grapes, through allelopathic chemicals released from its roots.",
+        "ur": "اپنی جڑوں سے خارج ہونے والے ایلوپیتھک کیمیکلز کے ذریعے انگور سمیت کئی پودوں کی نشوونما کو روکنے کے لیے جانا جاتا ہے۔",
+        "ar": "معروف بقدرته على تثبيط نمو العديد من النباتات، بما في ذلك العنب، من خلال المواد الكيميائية الأليلوباثية التي تطلقها جذوره.",
+        "fr": "Connu pour inhiber la croissance de nombreuses plantes, y compris les vignes, par des produits chimiques allélopathiques libérés par ses racines."
+      }
+    },
+    {
+      "plantId": "walnut",
+      "reason": {
+        "en": "Black walnut trees release juglone, a chemical toxic to many plants, which can severely harm or kill grapevines.",
+        "ur": "کالے اخروٹ کے درخت جگلون نامی کیمیکل خارج کرتے ہیں جو بہت سے پودوں کے لیے زہریلا ہوتا ہے، جو انگور کی بیلوں کو شدید نقصان پہنچا سکتا ہے یا مار سکتا ہے۔",
+        "ar": "تطلق أشجار الجوز الأسود مادة الجغلون، وهي مادة كيميائية سامة للعديد من النباتات، والتي يمكن أن تضر بشدة أو تقتل كرمات العنب.",
+        "fr": "Les noyers noirs libèrent de la juglone, un produit chimique toxique pour de nombreuses plantes, qui peut gravement nuire ou tuer les vignes."
+      }
+    },
+    {
+      "plantId": "morning_glory",
+      "reason": {
+        "en": "Highly invasive and can quickly smother young grapevines, competing heavily for light, water, and nutrients.",
+        "ur": "انتہائی حملہ آور ہے اور تیزی سے نوجوان انگور کی بیلوں کو دبا سکتا ہے، روشنی، پانی اور غذائی اجزاء کے لیے شدید مقابلہ کرتا ہے۔",
+        "ar": "نبات متسلق شديد الغزو ويمكن أن يخنق كرمات العنب الصغيرة بسرعة، ويتنافس بشدة على الضوء والماء والمغذيات.",
+        "fr": "Très envahissant, il peut rapidement étouffer les jeunes vignes, entrant en forte concurrence pour la lumière, l'eau et les nutriments."
+      }
+    },
+    {
+      "plantId": "any_vigorous_grass",
+      "reason": {
+        "en": "Strongly competes with grapevines for water and nutrients, especially in the root zone, hindering vine establishment and growth.",
+        "ur": "انگور کی بیلوں کے ساتھ پانی اور غذائی اجزاء کے لیے شدید مقابلہ کرتا ہے، خاص طور پر جڑوں کے علاقے میں، بیل کی نشوونما اور بڑھوتری میں رکاوٹ ڈالتا ہے۔",
+        "ar": "يتنافس بشدة مع كرمات العنب على الماء والمغذيات، خاصة في منطقة الجذور، مما يعيق تأسيس الكرمة ونموها.",
+        "fr": "Concurrence fortement les vignes pour l'eau et les nutriments, surtout dans la zone racinaire, entravant l'établissement et la croissance de la vigne."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-85%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "Appears as white, powdery patches on leaves, shoots, and berries. Can stunt growth, reduce yield, and crack berries.",
+        "ur": "پتوں، شاخوں اور بیر پر سفید، پاؤڈر جیسے دھبے کے طور پر ظاہر ہوتا ہے۔ نشوونما کو روک سکتا ہے، پیداوار کو کم کر سکتا ہے اور بیر کو پھاڑ سکتا ہے۔",
+        "ar": "يظهر كبقع بيضاء مسحوقية على الأوراق والبراعم والتوت. يمكن أن يعيق النمو، ويقلل الغلة، ويسبب تشقق التوت.",
+        "fr": "Apparaît sous forme de taches blanches et poudreuses sur les feuilles, les pousses et les baies. Peut retarder la croissance, réduire le rendement et faire craquer les baies."
+      }
+    },
+    {
+      "pestId": "downy_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "13-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Starts as yellow-green 'oil spots' on upper leaf surfaces, with white, fuzzy growth on the undersides. Can cause defoliation and fruit rot.",
+        "ur": "پتوں کی اوپری سطح پر پیلے سبز 'تیل کے دھبوں' کے طور پر شروع ہوتا ہے، جس کے نیچے سفید، روئیں دار نشوونما ہوتی ہے۔ پتوں کے گرنے اور پھل کے گلنے کا سبب بن سکتا ہے۔",
+        "ar": "يبدأ كـ 'بقع زيت' صفراء-خضراء على الأسطح العلوية للأوراق، مع نمو أبيض زغبي على الجوانب السفلية. يمكن أن يسبب تساقط الأوراق وتعفن الثمار.",
+        "fr": "Commence par des 'taches d'huile' jaune-vert sur la face supérieure des feuilles, avec une croissance blanche et duveteuse sur la face inférieure. Peut provoquer la défoliation et la pourriture des fruits."
+      }
+    },
+    {
+      "pestId": "black_rot",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes small, circular, reddish-brown spots on leaves, and eventually shriveled, black, mummified berries. Highly destructive.",
+        "ur": "پتوں پر چھوٹے، گول، سرخی مائل بھورے دھبے پیدا کرتا ہے، اور بالآخر سکڑے ہوئے، کالے، ممی شدہ بیر بناتا ہے۔ انتہائی تباہ کن۔",
+        "ar": "يسبب بقعاً صغيرة، دائرية، حمراء-بنية على الأوراق، وفي النهاية توت متجعد، أسود، ومحنط. شديد التدمير.",
+        "fr": "Provoque de petites taches circulaires, brun-rouge sur les feuilles, et finalement des baies ratatinées, noires et momifiées. Très destructeur."
+      }
+    },
+    {
+      "pestId": "botrytis_bunch_rot",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Also known as gray mold. Affects ripening berries, causing them to soften, turn brown, and develop a fuzzy gray fungal growth. Favored by wet conditions.",
+        "ur": "گرے مولڈ کے نام سے بھی جانا جاتا ہے۔ پکنے والے بیر کو متاثر کرتا ہے، جس سے وہ نرم ہو جاتے ہیں، بھورے ہو جاتے ہیں اور روئیں دار گرے فنگل نشوونما پیدا کرتے ہیں۔ گیلی حالتوں میں زیادہ ہوتا ہے۔",
+        "ar": "يُعرف أيضاً بالعفن الرمادي. يؤثر على التوت الناضج، مما يجعله يلين، يتحول إلى اللون البني، ويطور نمواً فطرياً رمادياً زغبياً. يفضل الظروف الرطبة.",
+        "fr": "Aussi connu sous le nom de pourriture grise. Affecte les baies mûrissantes, les faisant ramollir, brunir et développer une croissance fongique grise et duveteuse. Favorisé par les conditions humides."
+      }
+    },
+    {
+      "pestId": "japanese_beetles",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles skeletonize leaves, leaving only veins. Can severely defoliate vines, especially young ones.",
+        "ur": "بالغ بیٹلز پتوں کو کھا کر صرف رگیں چھوڑ دیتے ہیں۔ بیلوں کو شدید طور پر بے پتے کر سکتے ہیں، خاص طور پر نوجوان بیلوں کو۔",
+        "ar": "تتغذى الخنافس البالغة على الأوراق، تاركة فقط العروق. يمكن أن تسبب تساقطاً شديداً لأوراق الكرمة، خاصة الصغيرة منها.",
+        "fr": "Les coléoptères adultes squelettisent les feuilles, ne laissant que les nervures. Peuvent défolier gravement les vignes, surtout les jeunes."
+      }
+    },
+    {
+      "pestId": "phylloxera",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Root aphid that feeds on grape roots, causing galls and eventually vine decline and death, especially for Vitis vinifera on its own roots. Managed by grafting onto resistant rootstock.",
+        "ur": "جڑوں کا افڈ جو انگور کی جڑوں پر حملہ کرتا ہے، گال پیدا کرتا ہے اور بالآخر بیل کی کمزوری اور موت کا سبب بنتا ہے، خاص طور پر Vitis vinifera کے لیے جو اپنی جڑوں پر ہو۔ مزاحم روٹ اسٹاک پر گرافٹنگ کے ذریعے کنٹرول کیا جاتا ہے۔",
+        "ar": "حشرة من فصيلة المن تتغذى على جذور العنب، مسببة عقداً وفي النهاية تدهور وموت الكرمة، خاصة لأنواع Vitis vinifera المزروعة على جذورها الخاصة. يتم التحكم فيها عن طريق التطعيم على أصول مقاومة.",
+        "fr": "Puceron radicicole qui se nourrit des racines de la vigne, provoquant des galles et finalement le déclin et la mort de la vigne, surtout pour Vitis vinifera sur ses propres racines. Géré par greffage sur porte-greffe résistant."
+      }
+    },
+    {
+      "pestId": "leafhoppers",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, wedge-shaped insects that suck sap from leaves, causing stippling (tiny white spots) and yellowing. Can transmit viruses.",
+        "ur": "چھوٹے، ویج کی شکل کے کیڑے جو پتوں سے رس چوستے ہیں، جس سے سٹپلنگ (چھوٹے سفید دھبے) اور پیلا پن ہوتا ہے۔ وائرس منتقل کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة على شكل إسفين تمتص العصارة من الأوراق، مسببة تنقيطاً (بقع بيضاء صغيرة) واصفراراً. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes en forme de coin qui sucent la sève des feuilles, provoquant des piqûres (petites taches blanches) et un jaunissement. Peuvent transmettre des virus."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 90,
+    "firstHarvestDayMax": 120,
+    "continuousHarvest": true,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Full color for the variety",
+        "ur": "قسم کے لیے پورا رنگ",
+        "ar": "لون كامل للصنف",
+        "fr": "Couleur pleine pour la variété"
+      },
+      {
+        "en": "Sweet taste (sample a berry)",
+        "ur": "میٹھا ذائقہ (ایک بیر چکھیں)",
+        "ar": "طعم حلو (تذوق حبة)",
+        "fr": "Goût sucré (goûtez une baie)"
+      },
+      {
+        "en": "Berries easily detach from stem",
+        "ur": "بیر آسانی سے تنے سے الگ ہو جاتے ہیں",
+        "ar": "تنفصل الحبات بسهولة عن الساق",
+        "fr": "Les baies se détachent facilement de la tige"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Cut the entire cluster where it attaches to the vine using clean shears.",
+        "ur": "صاف قینچی کا استعمال کرتے ہوئے پورے گچھے کو وہاں سے کاٹیں جہاں وہ بیل سے جڑا ہو۔",
+        "ar": "اقطع العنقود بالكامل من حيث يتصل بالكرمة باستخدام مقص نظيف.",
+        "fr": "Coupez la grappe entière là où elle s'attache à la vigne avec des cisailles propres."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest clusters when they reach peak ripeness, indicated by color, taste, and ease of detachment. Avoid harvesting unripe grapes as they won't sweeten further off the vine.",
+        "ur": "گچھوں کو اس وقت کاٹیں جب وہ رنگ، ذائقہ اور آسانی سے الگ ہونے کی علامتوں سے مکمل پختگی پر پہنچ جائیں۔ کچے انگوروں کو کاٹنے سے گریز کریں کیونکہ وہ بیل سے الگ ہونے کے بعد مزید میٹھے نہیں ہوں گے۔",
+        "ar": "احصد العناقيد عندما تصل إلى ذروة النضج، والتي يشار إليها باللون والطعم وسهولة الانفصال. تجنب حصاد العنب غير الناضج لأنه لن يصبح أحلى بعد قطفه.",
+        "fr": "Récoltez les grappes lorsqu'elles atteignent leur maturité maximale, indiquée par la couleur, le goût et la facilité de détachement. Évitez de récolter les raisins immatures car ils ne sucreront pas davantage une fois cueillis."
+      },
+      "EXPERT": {
+        "en": "Monitor sugar levels (Brix) for optimal harvest timing, especially for wine grapes. For table grapes, focus on flavor and texture. Harvest in the morning after dew has dried.",
+        "ur": "بہترین کٹائی کے وقت کے لیے شوگر کی سطح (برکس) کی نگرانی کریں، خاص طور پر شراب کے انگوروں کے لیے۔ کھانے والے انگوروں کے لیے، ذائقہ اور ساخت پر توجہ دیں۔ صبح اوس خشک ہونے کے بعد کٹائی کریں۔",
+        "ar": "راقب مستويات السكر (بركس) لتحديد وقت الحصاد الأمثل، خاصة لعنب النبيذ. بالنسبة لعنب المائدة، ركز على النكهة والملمس. احصد في الصباح بعد جفاف الندى.",
+        "fr": "Surveillez les niveaux de sucre (Brix) pour un timing de récolte optimal, surtout pour les raisins de cuve. Pour les raisins de table, concentrez-vous sur la saveur et la texture. Récoltez le matin après que la rosée ait séché."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate (unwashed) for 1-2 weeks",
+      "ur": "1-2 ہفتوں کے لیے فریج میں رکھیں (بغیر دھوئے)",
+      "ar": "احفظها في الثلاجة (غير مغسولة) لمدة 1-2 أسبوع",
+      "fr": "Réfrigérer (non lavés) pendant 1-2 semaines"
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1.5,
+      "30L": 3,
+      "GROUND": 8
+    }
+  }
+}

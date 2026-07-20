@@ -1,0 +1,1374 @@
+{
+  "id": "pear",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1597380961803-125021235478?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Pear",
+      "alternate": [
+        "European Pear",
+        "Common Pear"
+      ]
+    },
+    "ur": {
+      "common": "ناشپاتی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "كمثرى",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Poire",
+      "alternate": []
+    },
+    "botanical": "Pyrus communis",
+    "aliases": [
+      "nashpati",
+      "kummathra",
+      "poire",
+      "pyrus"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "tree",
+  "germinationDays": 30,
+  "weatherRules": {
+    "highRiskFungalHumidity": 75,
+    "highWindSupportKmh": 40,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "STANDARD",
+    "SEMI-DWARF",
+    "DWARF"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "STANDARD": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Full-sized tree, reaching 20-40 feet. Requires regular pruning for shape, fruit production, and disease prevention.",
+          "ur": "مکمل سائز کا درخت، 20-40 فٹ تک پہنچتا ہے۔ شکل، پھل کی پیداوار اور بیماریوں سے بچاؤ کے لیے باقاعدہ کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "SEMI-DWARF": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Smaller than standard, typically 12-20 feet. Easier to manage and harvest. Regular pruning is essential.",
+          "ur": "معیاری سے چھوٹا، عام طور پر 12-20 فٹ۔ انتظام اور کٹائی آسان ہے۔ باقاعدہ کٹائی ضروری ہے۔"
+        }
+      },
+      "DWARF": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Smallest size, 8-12 feet. Ideal for small gardens or containers. Requires consistent pruning to maintain size and productivity.",
+          "ur": "سب سے چھوٹا سائز، 8-12 فٹ۔ چھوٹے باغات یا گملوں کے لیے مثالی۔ سائز اور پیداواریت کو برقرار رکھنے کے لیے مستقل کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": false,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Most pear varieties require cross-pollination from a compatible variety for good fruit set.",
+        "ur": "زیادہ تر ناشپاتی کی اقسام کو اچھے پھل کے لیے ایک ہم آہنگ قسم سے کراس پولینیشن کی ضرورت ہوتی ہے۔",
+        "ar": "تتطلب معظم أصناف الكمثرى التلقيح المتبادل من صنف متوافق لإنتاج ثمار جيد.",
+        "fr": "La plupart des variétés de poires nécessitent une pollinisation croisée d'une variété compatible pour une bonne nouaison."
+      }
+    ]
+  },
+  "tags": [
+    "fruit",
+    "tree",
+    "perennial",
+    "slow-from-seed",
+    "cold-hardy",
+    "deciduous"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 24,
+    "survivalMinC": -25,
+    "survivalMaxC": 35,
+    "germinationMinC": 4,
+    "germinationOptimalC": 10,
+    "flowerDropAboveC": 30,
+    "flowerDropBelowC": -1
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MODERATE_FLOWERS",
+    "daysToMaturity": 120,
+    "requiredGDD": 1500,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 32,
+      "coldStressCriticalC": -5,
+      "frostWarningC": 0,
+      "heavyRainMm": 30,
+      "highWindKmh": 50,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 7,
+    "intervalDaysHot": 3,
+    "intervalDaysExtreme": 2,
+    "intervalDaysCool": 10,
+    "drainageSensitivity": "high",
+    "wateringNature": "Deep and Consistent",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "Medium, especially during fruit development",
+    "rootRotRisk": "High if soil remains wet for prolonged periods",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf scorch",
+      "premature fruit drop",
+      "small fruit size"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot",
+      "leaf drop"
+    ],
+    "preferredWateringMethod": "Drip irrigation or slow deep watering",
+    "thingsToAvoid": [
+      "shallow frequent watering",
+      "standing water around trunk",
+      "waterlogging"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "regulate soil temperature",
+      "suppress weeds",
+      "improve soil health"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Use large pots with excellent drainage for dwarf varieties.",
+        "ur": "بونے اقسام کے لیے بہترین نکاسی آب والے بڑے گملے استعمال کریں۔",
+        "ar": "استخدم أواني كبيرة ذات تصريف ممتاز للأصناف القزمة.",
+        "fr": "Utilisez de grands pots avec un excellent drainage pour les variétés naines."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags promote air pruning and prevent root circling.",
+        "ur": "فیبرک بیگ ہوا کی کٹائی کو فروغ دیتے ہیں اور جڑوں کے گھومنے کو روکتے ہیں۔",
+        "ar": "الأكياس القماشية تعزز تقليم الهواء وتمنع التفاف الجذور.",
+        "fr": "Les sacs en tissu favorisent la taille aérienne et empêchent l'enroulement des racines."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 90,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Ensure well-drained soil and adequate spacing for mature trees.",
+        "ur": "پختہ درختوں کے لیے اچھی نکاسی والی مٹی اور مناسب فاصلہ یقینی بنائیں۔",
+        "ar": "تأكد من التربة جيدة التصريف والمسافة الكافية للأشجار الناضجة.",
+        "fr": "Assurez un sol bien drainé et un espacement adéquat pour les arbres matures."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Provides excellent drainage and allows for custom soil mixes.",
+        "ur": "بہترین نکاسی آب فراہم کرتا ہے اور اپنی مرضی کے مطابق مٹی کے مرکب کی اجازت دیتا ہے۔",
+        "ar": "يوفر تصريفًا ممتازًا ويسمح بخلطات التربة المخصصة.",
+        "fr": "Offre un excellent drainage et permet des mélanges de sol personnalisés."
+      }
+    }
+  },
+  "isTree": true,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "3-10 years",
+  "lifecycle": [
+    {
+      "stage": "PLANTING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 45,
+      "description": {
+        "en": "Planting bare-root or grafted pear tree",
+        "ur": "ناشپاتی کا پودا لگانا (جڑ یا قلم)",
+        "ar": "زراعة شجرة الكمثرى عارية الجذور أو المطعمة",
+        "fr": "Plantation d'un poirier à racines nues ou greffé"
+      },
+      "emoji": "🌳",
+      "tips": [
+        {
+          "en": "Choose a sunny location with well-drained soil.",
+          "ur": "اچھی نکاسی والی دھوپ والی جگہ کا انتخاب کریں",
+          "ar": "اختر مكانًا مشمسًا بتربة جيدة التصريف",
+          "fr": "Choisissez un endroit ensoleillé avec un sol bien drainé"
+        },
+        {
+          "en": "Ensure proper spacing for mature tree size.",
+          "ur": "بالغ درخت کے سائز کے لیے مناسب فاصلہ یقینی بنائیں",
+          "ar": "تأكد من التباعد المناسب لحجم الشجرة الناضجة",
+          "fr": "Assurez un espacement adéquat pour la taille de l'arbre mature"
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Dig a hole twice as wide as the root ball and just as deep. Loosen soil around the hole.",
+              "ur": "جڑ کے گملے سے دوگنا چوڑا اور اتنا ہی گہرا گڑھا کھودیں۔ گڑھے کے ارد گرد کی مٹی کو ڈھیلا کریں۔",
+              "ar": "احفر حفرة بعرض ضعف كرة الجذر وعمقها. قم بتفكيك التربة حول الحفرة.",
+              "fr": "Creusez un trou deux fois plus large que la motte et aussi profond. Ameublissez le sol autour du trou."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with compost and balanced organic fertilizer before planting.",
+              "ur": "پودے لگانے سے پہلے کھاد اور متوازن نامیاتی کھاد سے مٹی کو بہتر بنائیں۔",
+              "ar": "عدّل التربة بالسماد والأسمدة العضوية المتوازنة قبل الزراعة.",
+              "fr": "Amendez le sol avec du compost et un engrais organique équilibré avant la plantation."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to determine specific nutrient needs and pH adjustments.",
+              "ur": "مخصوص غذائی ضروریات اور پی ایچ کی ایڈجسٹمنٹ کا تعین کرنے کے لیے مٹی کا ٹیسٹ کروائیں۔",
+              "ar": "قم بإجراء اختبار للتربة لتحديد الاحتياجات الغذائية المحددة وتعديلات الحموضة.",
+              "fr": "Effectuez un test de sol pour déterminer les besoins spécifiques en nutriments et les ajustements de pH."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 45,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Place the tree in the center of the hole, ensuring the graft union is above ground. Backfill with soil and gently tamp down.",
+              "ur": "درخت کو گڑھے کے بیچ میں رکھیں، اس بات کو یقینی بنائیں کہ قلم کا جوڑ زمین سے اوپر ہو۔ مٹی سے بھریں اور آہستہ سے دبائیں۔",
+              "ar": "ضع الشجرة في منتصف الحفرة، مع التأكد من أن نقطة التطعيم فوق سطح الأرض. املأ الحفرة بالتربة واضغطها برفق.",
+              "fr": "Placez l'arbre au centre du trou, en vous assurant que le point de greffe est au-dessus du sol. Remblayez avec de la terre et tassez doucement."
+            },
+            "INTERMEDIATE": {
+              "en": "Spread roots evenly, remove any circling roots. Create a small berm around the planting area to retain water.",
+              "ur": "جڑوں کو یکساں طور پر پھیلائیں، کسی بھی گھومتی ہوئی جڑ کو ہٹا دیں۔ پانی کو برقرار رکھنے کے لیے پودے لگانے والے علاقے کے ارد گرد ایک چھوٹا سا مینڈ بنائیں۔",
+              "ar": "انشر الجذور بالتساوي، وأزل أي جذور ملتفة. أنشئ سدًا صغيرًا حول منطقة الزراعة للاحتفاظ بالماء.",
+              "fr": "Écartez les racines uniformément, retirez toutes les racines qui tournent. Créez une petite butte autour de la zone de plantation pour retenir l'eau."
+            },
+            "EXPERT": {
+              "en": "Orient the tree to maximize sun exposure and consider prevailing winds. Use root stimulator.",
+              "ur": "درخت کو سورج کی روشنی کو زیادہ سے زیادہ کرنے کے لیے اور غالب ہواؤں کو مدنظر رکھتے ہوئے رکھیں۔ جڑ محرک استعمال کریں۔",
+              "ar": "وجه الشجرة لزيادة التعرض للشمس والنظر في الرياح السائدة. استخدم محفز الجذور.",
+              "fr": "Orientez l'arbre pour maximiser l'exposition au soleil et tenez compte des vents dominants. Utilisez un stimulateur racinaire."
+            }
+          }
+        },
+        "initialPruning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prune off any broken or crossing branches. Head back the main leader by about one-third.",
+              "ur": "کسی بھی ٹوٹی ہوئی یا ایک دوسرے کو کاٹتی ہوئی شاخوں کو کاٹ دیں۔ مرکزی شاخ کو تقریباً ایک تہائی تک کاٹ دیں۔",
+              "ar": "قم بتقليم أي فروع مكسورة أو متقاطعة. قم بتقصير القائد الرئيسي بحوالي الثلث.",
+              "fr": "Élaguez les branches cassées ou croisées. Raccourcissez le leader principal d'environ un tiers."
+            },
+            "INTERMEDIATE": {
+              "en": "Establish a central leader or open vase shape by selecting primary scaffold branches.",
+              "ur": "بنیادی ڈھانچے کی شاخوں کا انتخاب کرکے مرکزی لیڈر یا کھلے گلدان کی شکل قائم کریں۔",
+              "ar": "أنشئ قائدًا مركزيًا أو شكل مزهرية مفتوحة عن طريق اختيار الفروع الرئيسية.",
+              "fr": "Établissez une forme en axe central ou en vase ouvert en sélectionnant les branches charpentières primaires."
+            },
+            "EXPERT": {
+              "en": "Perform a structural prune to encourage strong branch angles and future fruit production.",
+              "ur": "مضبوط شاخوں کے زاویوں اور مستقبل میں پھل کی پیداوار کی حوصلہ افزائی کے لیے ایک ساختی کٹائی کریں۔",
+              "ar": "قم بإجراء تقليم هيكلي لتشجيع زوايا الفروع القوية وإنتاج الفاكهة في المستقبل.",
+              "fr": "Effectuez une taille structurelle pour encourager des angles de branches solides et la production future de fruits."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 5000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly immediately after planting and keep soil consistently moist for the first few weeks.",
+              "ur": "پودے لگانے کے فوراً بعد اچھی طرح پانی دیں اور پہلے چند ہفتوں تک مٹی کو مسلسل نم رکھیں۔",
+              "ar": "اسقِ جيدًا فور الزراعة وحافظ على رطوبة التربة باستمرار خلال الأسابيع القليلة الأولى.",
+              "fr": "Arrosez abondamment immédiatement après la plantation et maintenez le sol constamment humide pendant les premières semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor soil moisture regularly; water deeply when the top 2-3 inches of soil are dry.",
+              "ur": "مٹی کی نمی کو باقاعدگی سے مانیٹر کریں؛ جب مٹی کی اوپری 2-3 انچ خشک ہو تو گہرا پانی دیں۔",
+              "ar": "راقب رطوبة التربة بانتظام؛ اسقِ بعمق عندما تكون الطبقة العلوية من التربة جافة بعمق 2-3 بوصات.",
+              "fr": "Surveillez régulièrement l'humidité du sol; arrosez profondément lorsque les 5-7 cm supérieurs du sol sont secs."
+            },
+            "EXPERT": {
+              "en": "Use a soil moisture meter to ensure adequate hydration without overwatering, which can lead to root rot.",
+              "ur": "زیادہ پانی دینے سے بچنے کے لیے مٹی کی نمی کا میٹر استعمال کریں، جو جڑوں کے گلنے کا سبب بن سکتا ہے۔",
+              "ar": "استخدم مقياس رطوبة التربة لضمان الترطيب الكافي دون الإفراط في الري، مما قد يؤدي إلى تعفن الجذور.",
+              "fr": "Utilisez un humidimètre pour assurer une hydratation adéquate sans excès d'eau, ce qui peut entraîner la pourriture des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 270,
+      "durationDaysCool": 300,
+      "description": {
+        "en": "Young tree growth and establishment (multiple years)",
+        "ur": "نوجوان درخت کی نشوونما اور قیام (کئی سال)",
+        "ar": "نمو الشجرة الصغيرة وتأسيسها (سنوات متعددة)",
+        "fr": "Croissance et établissement du jeune arbre (plusieurs années)"
+      },
+      "emoji": "🌲",
+      "tips": [
+        {
+          "en": "Protect young trees from pests and harsh weather.",
+          "ur": "نوجوان درختوں کو کیڑوں اور سخت موسم سے بچائیں۔",
+          "ar": "احمِ الأشجار الصغيرة من الآفات والطقس القاسي.",
+          "fr": "Protégez les jeunes arbres des parasites et des intempéries."
+        },
+        {
+          "en": "Mulch around the base to retain moisture and suppress weeds.",
+          "ur": "نمی برقرار رکھنے اور جڑی بوٹیوں کو دبانے کے لیے بنیاد کے ارد گرد ملچ کریں۔",
+          "ar": "ضع نشارة حول القاعدة للاحتفاظ بالرطوبة وقمع الأعشاب الضارة.",
+          "fr": "Paillez autour de la base pour retenir l'humidité et supprimer les mauvaises herbes."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 8000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week during dry periods, especially for young trees.",
+              "ur": "خشک ادوار میں ہفتے میں ایک بار گہرا پانی دیں، خاص طور پر نوجوان درختوں کے لیے۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع خلال الفترات الجافة، خاصة للأشجار الصغيرة.",
+              "fr": "Arrosez profondément une fois par semaine pendant les périodes sèches, surtout pour les jeunes arbres."
+            },
+            "INTERMEDIATE": {
+              "en": "Adjust watering frequency based on rainfall and soil type to maintain consistent moisture.",
+              "ur": "بارش اور مٹی کی قسم کی بنیاد پر پانی کی فریکوئنسی کو ایڈجسٹ کریں تاکہ مستقل نمی برقرار رہے۔",
+              "ar": "اضبط تكرار الري بناءً على هطول الأمطار ونوع التربة للحفاظ على رطوبة ثابتة.",
+              "fr": "Ajustez la fréquence d'arrosage en fonction des précipitations et du type de sol pour maintenir une humidité constante."
+            },
+            "EXPERT": {
+              "en": "Implement drip irrigation for efficient water delivery directly to the root zone.",
+              "ur": "جڑوں کے علاقے میں براہ راست پانی کی موثر فراہمی کے لیے ڈرپ ایریگیشن کا نظام نافذ کریں۔",
+              "ar": "طبق نظام الري بالتنقيط لتوصيل المياه بكفاءة مباشرة إلى منطقة الجذور.",
+              "fr": "Mettez en place un système d'irrigation goutte à goutte pour une distribution efficace de l'eau directement à la zone racinaire."
+            }
+          }
+        },
+        "fertilization": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced granular fertilizer around the drip line in early spring.",
+              "ur": "ابتدائی موسم بہار میں ڈرپ لائن کے ارد گرد متوازن دانے دار کھاد ڈالیں۔",
+              "ar": "ضع سمادًا حبيبيًا متوازنًا حول خط التنقيط في أوائل الربيع.",
+              "fr": "Appliquez un engrais granulaire équilibré autour de la ligne d'égouttement au début du printemps."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a slow-release organic fertilizer to provide nutrients throughout the growing season.",
+              "ur": "بڑھتے ہوئے موسم میں غذائی اجزاء فراہم کرنے کے لیے سست رفتار سے جاری ہونے والی نامیاتی کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا عضويًا بطيء الإطلاق لتوفير العناصر الغذائية طوال موسم النمو.",
+              "fr": "Utilisez un engrais organique à libération lente pour fournir des nutriments tout au long de la saison de croissance."
+            },
+            "EXPERT": {
+              "en": "Base fertilization on soil test results, applying specific nutrients as needed.",
+              "ur": "مٹی کے ٹیسٹ کے نتائج کی بنیاد پر کھاد ڈالیں، ضرورت کے مطابق مخصوص غذائی اجزاء استعمال کریں۔",
+              "ar": "اعتمد التسميد على نتائج اختبار التربة، مع تطبيق مغذيات محددة حسب الحاجة.",
+              "fr": "Basez la fertilisation sur les résultats des tests de sol, en appliquant les nutriments spécifiques au besoin."
+            }
+          }
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 90,
+          "estimatedMinutes": 45,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prune during dormancy (late winter) to remove dead, diseased, or crossing branches.",
+              "ur": "سردیوں کے آخر میں (دورانِ خوابیدگی) مردہ، بیمار یا ایک دوسرے کو کاٹتی ہوئی شاخوں کو کاٹ دیں۔",
+              "ar": "قم بالتقليم خلال فترة السكون (أواخر الشتاء) لإزالة الفروع الميتة أو المريضة أو المتقاطعة.",
+              "fr": "Taillez pendant la dormance (fin de l'hiver) pour enlever les branches mortes, malades ou croisées."
+            },
+            "INTERMEDIATE": {
+              "en": "Continue formative pruning to maintain desired tree shape and encourage strong scaffold branches.",
+              "ur": "درخت کی مطلوبہ شکل برقرار رکھنے اور مضبوط ڈھانچے کی شاخوں کی حوصلہ افزائی کے لیے تشکیلاتی کٹائی جاری رکھیں۔",
+              "ar": "استمر في التقليم التشكيل للحفاظ على شكل الشجرة المطلوب وتشجيع الفروع الهيكلية القوية.",
+              "fr": "Continuez la taille de formation pour maintenir la forme d'arbre souhaitée et encourager des branches charpentières solides."
+            },
+            "EXPERT": {
+              "en": "Implement advanced pruning techniques like heading back, thinning, and notching to control growth and promote fruiting wood.",
+              "ur": "نشوونما کو کنٹرول کرنے اور پھل دینے والی لکڑی کو فروغ دینے کے لیے جدید کٹائی کی تکنیکیں جیسے ہیڈنگ بیک، پتلا کرنا اور نوچنگ کا اطلاق کریں۔",
+              "ar": "طبق تقنيات التقليم المتقدمة مثل التقصير، والتخفيف، والتشذيب للتحكم في النمو وتعزيز خشب الإثمار.",
+              "fr": "Mettez en œuvre des techniques de taille avancées comme le raccourcissement, l'éclaircissage et l'entaille pour contrôler la croissance et favoriser le bois à fruits."
+            }
+          }
+        },
+        "pestDiseaseControl": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect leaves regularly for signs of pests or disease. Remove affected parts.",
+              "ur": "کیڑوں یا بیماری کی علامات کے لیے پتوں کا باقاعدگی سے معائنہ کریں۔ متاثرہ حصوں کو ہٹا دیں۔",
+              "ar": "افحص الأوراق بانتظام بحثًا عن علامات الآفات أو الأمراض. أزل الأجزاء المصابة.",
+              "fr": "Inspectez régulièrement les feuilles pour détecter les signes de parasites ou de maladies. Retirez les parties affectées."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply dormant oil spray in late winter to control overwintering pests and diseases.",
+              "ur": "سردیوں کے آخر میں سوئے ہوئے تیل کا سپرے کریں تاکہ سردیوں میں رہنے والے کیڑوں اور بیماریوں کو کنٹرول کیا جا سکے۔",
+              "ar": "رش الزيت الشتوي في أواخر الشتاء للسيطرة على الآفات والأمراض التي تقضي الشتاء.",
+              "fr": "Appliquez un traitement à l'huile de dormance à la fin de l'hiver pour contrôler les parasites et maladies hivernants."
+            },
+            "EXPERT": {
+              "en": "Develop an integrated pest management (IPM) plan, including monitoring, cultural practices, and targeted treatments.",
+              "ur": "ایک مربوط کیڑوں کے انتظام (IPM) کا منصوبہ تیار کریں، جس میں نگرانی، ثقافتی طریقوں اور ہدف شدہ علاج شامل ہوں۔",
+              "ar": "ضع خطة متكاملة لإدارة الآفات (IPM)، بما في ذلك المراقبة والممارسات الزراعية والعلاجات المستهدفة.",
+              "fr": "Développez un plan de lutte intégrée contre les ravageurs (IPM), incluant la surveillance, les pratiques culturales et les traitements ciblés."
+            }
+          }
+        },
+        "support": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Stake young trees for the first 1-2 years to provide stability against wind.",
+              "ur": "پہلے 1-2 سال تک نوجوان درختوں کو ہوا کے خلاف استحکام فراہم کرنے کے لیے سہارا دیں۔",
+              "ar": "ادعم الأشجار الصغيرة في أول 1-2 سنة لتوفير الاستقرار ضد الرياح.",
+              "fr": "Tuteurez les jeunes arbres pendant les 1-2 premières années pour assurer leur stabilité contre le vent."
+            },
+            "INTERMEDIATE": {
+              "en": "Use flexible ties that won't girdle the trunk as the tree grows.",
+              "ur": "لچکدار پٹیاں استعمال کریں جو درخت کے بڑھنے کے ساتھ تنے کو نہ گھیریں۔",
+              "ar": "استخدم روابط مرنة لا تخنق الجذع مع نمو الشجرة.",
+              "fr": "Utilisez des attaches flexibles qui n'étrangleront pas le tronc à mesure que l'arbre grandit."
+            },
+            "EXPERT": {
+              "en": "Install a sturdy, multi-stake support system in windy areas, checking ties regularly.",
+              "ur": "ہوا والے علاقوں میں ایک مضبوط، کثیر سہارا نظام نصب کریں، پٹیوں کو باقاعدگی سے چیک کریں۔",
+              "ar": "قم بتركيب نظام دعم قوي متعدد الأوتاد في المناطق العاصفة، مع فحص الروابط بانتظام.",
+              "fr": "Installez un système de support robuste à plusieurs tuteurs dans les zones venteuses, en vérifiant régulièrement les attaches."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Pear blossoms appear",
+        "ur": "ناشپاتی کے پھول کھلنا",
+        "ar": "ظهور أزهار الكمثرى",
+        "fr": "Apparition des fleurs de poirier"
+      },
+      "emoji": "🌸",
+      "tips": [
+        {
+          "en": "Protect blossoms from late frosts if possible.",
+          "ur": "اگر ممکن ہو تو پھولوں کو دیر سے پڑنے والی ٹھنڈ سے بچائیں۔",
+          "ar": "احمِ الأزهار من الصقيع المتأخر إن أمكن.",
+          "fr": "Protégez les fleurs des gelées tardives si possible."
+        },
+        {
+          "en": "Ensure good air circulation to reduce disease risk.",
+          "ur": "بیماری کے خطرے کو کم کرنے کے لیے اچھی ہوا کی گردش کو یقینی بنائیں۔",
+          "ar": "تأكد من تهوية جيدة لتقليل خطر الأمراض.",
+          "fr": "Assurez une bonne circulation de l'air pour réduire les risques de maladies."
+        }
+      ],
+      "tasks": {
+        "pestDiseaseControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Monitor for signs of fire blight (blossoms turning black/brown). Prune affected branches immediately.",
+              "ur": "فائر بلائٹ (پھولوں کا سیاہ/بھورا ہونا) کی علامات کے لیے نگرانی کریں۔ متاثرہ شاخوں کو فوراً کاٹ دیں۔",
+              "ar": "راقب علامات اللفحة النارية (تحول الأزهار إلى اللون الأسود/البني). قم بتقليم الفروع المصابة فورًا.",
+              "fr": "Surveillez les signes de feu bactérien (fleurs noircissant/brunissant). Éliminez immédiatement les branches affectées."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a preventative copper spray before bud break to control fungal diseases.",
+              "ur": "فنگل بیماریوں کو کنٹرول کرنے کے لیے کلی کھلنے سے پہلے تانبے کا حفاظتی سپرے کریں۔",
+              "ar": "رش مبيد نحاسي وقائي قبل تفتح البراعم للسيطرة على الأمراض الفطرية.",
+              "fr": "Appliquez un spray de cuivre préventif avant le débourrement pour contrôler les maladies fongiques."
+            },
+            "EXPERT": {
+              "en": "Implement a targeted spray program for fire blight and pear psylla based on local conditions and disease pressure.",
+              "ur": "مقامی حالات اور بیماری کے دباؤ کی بنیاد پر فائر بلائٹ اور ناشپاتی کے سائیلا کے لیے ایک ہدف شدہ سپرے پروگرام نافذ کریں۔",
+              "ar": "طبق برنامج رش مستهدف لللفحة النارية وذبابة الكمثرى بناءً على الظروف المحلية وضغط المرض.",
+              "fr": "Mettez en œuvre un programme de pulvérisation ciblé contre le feu bactérien et le psylle du poirier en fonction des conditions locales et de la pression des maladies."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Fire Blight",
+              "ur": "فائر بلائٹ",
+              "ar": "اللفحة النارية",
+              "fr": "Feu bactérien"
+            },
+            {
+              "en": "Pear Psylla",
+              "ur": "ناشپاتی سائیلا",
+              "ar": "بسلة الكمثرى",
+              "fr": "Psylle du poirier"
+            }
+          ]
+        },
+        "pollinationSupport": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Ensure pollinator-friendly plants are nearby or consider hand-pollination for small trees.",
+              "ur": "یقینی بنائیں کہ پولینیٹر دوست پودے قریب ہوں یا چھوٹے درختوں کے لیے ہاتھ سے پولینیشن پر غور کریں۔",
+              "ar": "تأكد من وجود نباتات صديقة للملقحات في الجوار أو فكر في التلقيح اليدوي للأشجار الصغيرة.",
+              "fr": "Assurez-vous que des plantes favorables aux pollinisateurs sont à proximité ou envisagez la pollinisation manuelle pour les petits arbres."
+            },
+            "INTERMEDIATE": {
+              "en": "Introduce mason bees or other native pollinators to enhance fruit set.",
+              "ur": "پھل کی پیداوار کو بڑھانے کے لیے میسن مکھیوں یا دیگر مقامی پولینیٹرز کو متعارف کروائیں۔",
+              "ar": "أدخل نحل البناء أو غيره من الملقحات المحلية لتعزيز عقد الثمار.",
+              "fr": "Introduisez des abeilles maçonnes ou d'autres pollinisateurs indigènes pour améliorer la nouaison."
+            },
+            "EXPERT": {
+              "en": "Plant compatible pear varieties for cross-pollination, as most pears are not self-fertile.",
+              "ur": "کراس پولینیشن کے لیے ہم آہنگ ناشپاتی کی اقسام لگائیں، کیونکہ زیادہ تر ناشپاتی خود زرخیز نہیں ہوتیں۔",
+              "ar": "ازرع أصناف كمثرى متوافقة للتلقيح المتبادل، حيث أن معظم الكمثرى ليست ذاتية التخصيب.",
+              "fr": "Plantez des variétés de poiriers compatibles pour la pollinisation croisée, car la plupart des poiriers ne sont pas autofertiles."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 6000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent soil moisture during flowering to support bloom development.",
+              "ur": "پھولوں کی نشوونما کو سہارا دینے کے لیے پھول آنے کے دوران مٹی کی نمی کو مستقل رکھیں۔",
+              "ar": "حافظ على رطوبة التربة ثابتة أثناء الإزهار لدعم نمو الأزهار.",
+              "fr": "Maintenez une humidité constante du sol pendant la floraison pour soutenir le développement des fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid overhead watering to reduce the risk of fungal diseases on blossoms.",
+              "ur": "پھولوں پر فنگل بیماریوں کے خطرے کو کم کرنے کے لیے اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تجنب الري العلوي لتقليل خطر الأمراض الفطرية على الأزهار.",
+              "fr": "Évitez l'arrosage par le haut pour réduire le risque de maladies fongiques sur les fleurs."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply to ensure roots have access to water without waterlogging.",
+              "ur": "جڑوں کو پانی کی دستیابی کو یقینی بنانے کے لیے مٹی کی نمی کو گہرائی سے مانیٹر کریں بغیر پانی کے جمع ہونے کے۔",
+              "ar": "راقب رطوبة التربة بعمق لضمان وصول الجذور إلى الماء دون تشبع بالمياه.",
+              "fr": "Surveillez l'humidité du sol en profondeur pour vous assurer que les racines ont accès à l'eau sans engorgement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 120,
+      "durationDaysWarm": 100,
+      "durationDaysCool": 140,
+      "description": {
+        "en": "Fruit development and ripening",
+        "ur": "پھل کی نشوونما اور پکنا",
+        "ar": "تطور الثمار ونضجها",
+        "fr": "Développement et maturation des fruits"
+      },
+      "emoji": "🍐",
+      "tips": [
+        {
+          "en": "Thin fruits early for larger, healthier pears.",
+          "ur": "بڑے، صحت مند ناشپاتی کے لیے پھلوں کو جلد پتلا کریں۔",
+          "ar": "خفف الثمار مبكرًا للحصول على كمثرى أكبر وأكثر صحة.",
+          "fr": "Éclaircissez les fruits tôt pour des poires plus grosses et plus saines."
+        },
+        {
+          "en": "Protect developing fruits from birds and other wildlife.",
+          "ur": "بڑھتے ہوئے پھلوں کو پرندوں اور دیگر جنگلی حیات سے بچائیں۔",
+          "ar": "احمِ الثمار النامية من الطيور والحياة البرية الأخرى.",
+          "fr": "Protégez les fruits en développement des oiseaux et autres animaux sauvages."
+        }
+      ],
+      "tasks": {
+        "fruitThinning": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once fruits are pea-sized, thin them to 4-6 inches apart to allow for better growth.",
+              "ur": "جب پھل مٹر کے سائز کے ہو جائیں تو انہیں 4-6 انچ کے فاصلے پر پتلا کریں تاکہ بہتر نشوونما ہو سکے۔",
+              "ar": "عندما تصبح الثمار بحجم حبة البازلاء، خففها لتكون على بعد 4-6 بوصات للسماح بنمو أفضل.",
+              "fr": "Une fois que les fruits ont la taille d'un petit pois, éclaircissez-les à 10-15 cm d'intervalle pour permettre une meilleure croissance."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove damaged or poorly formed fruits first, then thin to one or two fruits per cluster.",
+              "ur": "پہلے خراب یا ناقص شکل کے پھلوں کو ہٹا دیں، پھر ہر گچھے میں ایک یا دو پھل رکھیں۔",
+              "ar": "أزل الثمار التالفة أو سيئة التكوين أولاً، ثم خفف إلى ثمرة أو ثمرتين لكل عنقود.",
+              "fr": "Retirez d'abord les fruits endommagés ou mal formés, puis éclaircissez à un ou deux fruits par grappe."
+            },
+            "EXPERT": {
+              "en": "Consider the vigor of the branch and overall tree load when thinning to optimize fruit size and quality.",
+              "ur": "پھل کے سائز اور معیار کو بہتر بنانے کے لیے پتلا کرتے وقت شاخ کی طاقت اور درخت کے مجموعی بوجھ پر غور کریں۔",
+              "ar": "ضع في اعتبارك قوة الفرع والحمل الكلي للشجرة عند التخفيف لتحسين حجم الثمار وجودتها.",
+              "fr": "Tenez compte de la vigueur de la branche et de la charge globale de l'arbre lors de l'éclaircissage pour optimiser la taille et la qualité des fruits."
+            }
+          }
+        },
+        "pestDiseaseControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 25,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Watch for codling moth (worms in fruit) and pear scab (dark spots on fruit/leaves).",
+              "ur": "کوڈلنگ موتھ (پھل میں کیڑے) اور ناشپاتی کے خارش (پھل/پتوں پر گہرے دھبے) پر نظر رکھیں۔",
+              "ar": "راقب دودة ثمار التفاح (الديدان في الثمار) وجرب الكمثرى (بقع داكنة على الثمار/الأوراق).",
+              "fr": "Surveillez la tordeuse du pommier (vers dans les fruits) et la tavelure du poirier (taches sombres sur les fruits/feuilles)."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic insecticides for codling moth if traps indicate high activity. Use fungicides for scab.",
+              "ur": "اگر جال زیادہ سرگرمی کی نشاندہی کریں تو کوڈلنگ موتھ کے لیے نامیاتی کیڑے مار ادویات استعمال کریں۔ خارش کے لیے فنگس کش ادویات استعمال کریں۔",
+              "ar": "طبق مبيدات حشرية عضوية لدودة ثمار التفاح إذا أشارت المصائد إلى نشاط عالٍ. استخدم مبيدات الفطريات للجرب.",
+              "fr": "Appliquez des insecticides biologiques contre la tordeuse du pommier si les pièges indiquent une forte activité. Utilisez des fongicides contre la tavelure."
+            },
+            "EXPERT": {
+              "en": "Implement a comprehensive spray schedule based on pest life cycles and disease susceptibility for your specific pear variety.",
+              "ur": "اپنی مخصوص ناشپاتی کی قسم کے لیے کیڑوں کے زندگی کے چکر اور بیماری کے حساسیت کی بنیاد پر ایک جامع سپرے شیڈول نافذ کریں۔",
+              "ar": "طبق جدول رش شاملًا بناءً على دورات حياة الآفات وقابلية الإصابة بالأمراض لصنف الكمثرى الخاص بك.",
+              "fr": "Mettez en œuvre un calendrier de pulvérisation complet basé sur les cycles de vie des ravageurs et la susceptibilité aux maladies de votre variété de poirier spécifique."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Codling Moth",
+              "ur": "کوڈلنگ موتھ",
+              "ar": "دودة ثمار التفاح",
+              "fr": "Tordeuse du pommier"
+            },
+            {
+              "en": "Pear Scab",
+              "ur": "ناشپاتی خارش",
+              "ar": "جرب الكمثرى",
+              "fr": "Tavelure du poirier"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 10000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently during fruit development to prevent fruit drop and ensure good size.",
+              "ur": "پھل کی نشوونما کے دوران گہرا اور مسلسل پانی دیں تاکہ پھل گرنے سے بچا جا سکے اور اچھا سائز یقینی بنایا جا سکے۔",
+              "ar": "اسقِ بعمق وباستمرار أثناء تطور الثمار لمنع تساقطها وضمان حجم جيد.",
+              "fr": "Arrosez profondément et régulièrement pendant le développement des fruits pour éviter la chute des fruits et assurer une bonne taille."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid drought stress, which can lead to small, poor-quality fruit. Increase water during hot, dry spells.",
+              "ur": "خشک سالی کے دباؤ سے بچیں، جو چھوٹے، ناقص معیار کے پھل کا باعث بن سکتا ہے۔ گرم، خشک موسم میں پانی بڑھائیں۔",
+              "ar": "تجنب إجهاد الجفاف، الذي يمكن أن يؤدي إلى ثمار صغيرة وذات جودة رديئة. زد الماء خلال الفترات الحارة والجافة.",
+              "fr": "Évitez le stress hydrique, qui peut entraîner des fruits petits et de mauvaise qualité. Augmentez l'arrosage pendant les périodes chaudes et sèches."
+            },
+            "EXPERT": {
+              "en": "Utilize soil moisture sensors to precisely manage irrigation, optimizing fruit quality and minimizing water waste.",
+              "ur": "پھل کے معیار کو بہتر بنانے اور پانی کے ضیاع کو کم کرنے کے لیے آبپاشی کو درست طریقے سے منظم کرنے کے لیے مٹی کی نمی کے سینسر استعمال کریں۔",
+              "ar": "استخدم أجهزة استشعار رطوبة التربة لإدارة الري بدقة، وتحسين جودة الثمار وتقليل هدر المياه.",
+              "fr": "Utilisez des capteurs d'humidité du sol pour gérer précisément l'irrigation, optimisant la qualité des fruits et minimisant le gaspillage d'eau."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Harvesting ripe pears",
+        "ur": "پکے ہوئے ناشپاتی توڑنا",
+        "ar": "حصاد الكمثرى الناضجة",
+        "fr": "Récolte des poires mûres"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Pears often ripen best off the tree. Harvest when firm but mature.",
+          "ur": "ناشپاتی اکثر درخت سے اترنے کے بعد بہتر پکتی ہے۔ جب سخت لیکن پختہ ہو تو توڑیں۔",
+          "ar": "غالبًا ما تنضج الكمثرى بشكل أفضل بعد قطفها من الشجرة. احصدها عندما تكون صلبة ولكن ناضجة.",
+          "fr": "Les poires mûrissent souvent mieux hors de l'arbre. Récoltez-les quand elles sont fermes mais matures."
+        },
+        {
+          "en": "Store harvested pears in a cool, dark place.",
+          "ur": "توڑی ہوئی ناشپاتی کو ٹھنڈی، تاریک جگہ پر محفوظ کریں۔",
+          "ar": "خزن الكمثرى المحصودة في مكان بارد ومظلم.",
+          "fr": "Conservez les poires récoltées dans un endroit frais et sombre."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 45,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently lift and twist the pear. If the stem separates easily from the branch, it's ready.",
+              "ur": "ناشپاتی کو آہستہ سے اٹھائیں اور موڑیں۔ اگر تنا آسانی سے شاخ سے الگ ہو جائے تو یہ تیار ہے۔",
+              "ar": "ارفع الكمثرى برفق ولفها. إذا انفصل الساق بسهولة عن الفرع، فهي جاهزة.",
+              "fr": "Soulevez et tournez délicatement la poire. Si la tige se sépare facilement de la branche, elle est prête."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest pears when they reach full size and change color slightly, but are still firm. Test one for ripeness.",
+              "ur": "ناشپاتی کو اس وقت توڑیں جب وہ مکمل سائز پر پہنچ جائیں اور رنگ تھوڑا بدل جائے، لیکن پھر بھی سخت ہوں۔ ایک کو پختگی کے لیے ٹیسٹ کریں۔",
+              "ar": "احصد الكمثرى عندما تصل إلى حجمها الكامل وتتغير لونها قليلاً، ولكنها لا تزال صلبة. اختبر واحدة للنضج.",
+              "fr": "Récoltez les poires lorsqu'elles atteignent leur pleine taille et changent légèrement de couleur, mais sont encore fermes. Testez-en une pour la maturité."
+            },
+            "EXPERT": {
+              "en": "Monitor fruit maturity using a refractometer to measure sugar content for optimal flavor and storage potential.",
+              "ur": "بہترین ذائقہ اور ذخیرہ کرنے کی صلاحیت کے لیے شوگر کی مقدار کی پیمائش کے لیے ریفریکٹومیٹر کا استعمال کرتے ہوئے پھل کی پختگی کی نگرانی کریں۔",
+              "ar": "راقب نضج الثمار باستخدام مقياس الانكسار لقياس محتوى السكر للحصول على أفضل نكهة وإمكانية تخزين.",
+              "fr": "Surveillez la maturité des fruits à l'aide d'un réfractomètre pour mesurer la teneur en sucre afin d'optimiser la saveur et le potentiel de stockage."
+            }
+          }
+        },
+        "postHarvestCare": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Clean up any fallen fruit from under the tree to prevent pests and diseases.",
+              "ur": "کیڑوں اور بیماریوں سے بچنے کے لیے درخت کے نیچے سے گرے ہوئے پھل کو صاف کریں۔",
+              "ar": "نظف أي ثمار متساقطة من تحت الشجرة لمنع الآفات والأمراض.",
+              "fr": "Nettoyez tous les fruits tombés sous l'arbre pour prévenir les parasites et les maladies."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a final dormant oil spray after leaf drop to control overwintering pests and fungal spores.",
+              "ur": "پتوں کے گرنے کے بعد آخری سوئے ہوئے تیل کا سپرے کریں تاکہ سردیوں میں رہنے والے کیڑوں اور فنگل اسپورز کو کنٹرول کیا جا سکے۔",
+              "ar": "رش الزيت الشتوي الأخير بعد تساقط الأوراق للسيطرة على الآفات والجراثيم الفطرية التي تقضي الشتاء.",
+              "fr": "Appliquez un dernier traitement à l'huile de dormance après la chute des feuilles pour contrôler les parasites et les spores fongiques hivernants."
+            },
+            "EXPERT": {
+              "en": "Perform a post-harvest soil analysis and apply amendments to prepare the tree for dormancy and next season's growth.",
+              "ur": "کٹائی کے بعد مٹی کا تجزیہ کریں اور درخت کو خوابیدگی اور اگلے موسم کی نشوونما کے لیے تیار کرنے کے لیے ترمیمات کا اطلاق کریں۔",
+              "ar": "قم بإجراء تحليل للتربة بعد الحصاد وطبق التعديلات لإعداد الشجرة للسكون ونمو الموسم التالي.",
+              "fr": "Effectuez une analyse du sol après la récolte et appliquez des amendements pour préparer l'arbre à la dormance et à la croissance de la saison prochaine."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "mlPer10LContainer": 5000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering frequency after harvest as the tree prepares for dormancy.",
+              "ur": "کٹائی کے بعد پانی کی فریکوئنسی کم کریں کیونکہ درخت خوابیدگی کے لیے تیار ہو رہا ہے۔",
+              "ar": "قلل تكرار الري بعد الحصاد حيث تستعد الشجرة للسكون.",
+              "fr": "Réduisez la fréquence d'arrosage après la récolte à mesure que l'arbre se prépare à la dormance."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide a deep watering before the first hard frost to ensure adequate moisture for winter.",
+              "ur": "پہلی سخت ٹھنڈ سے پہلے گہرا پانی دیں تاکہ سردیوں کے لیے مناسب نمی یقینی بنائی جا سکے۔",
+              "ar": "اسقِ بعمق قبل أول صقيع شديد لضمان رطوبة كافية لفصل الشتاء.",
+              "fr": "Fournissez un arrosage profond avant le premier gel sévère pour assurer une humidité adéquate pour l'hiver."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture through fall and early winter, providing supplemental water if conditions are unusually dry.",
+              "ur": "خزاں اور ابتدائی سردیوں میں مٹی کی نمی کی نگرانی کریں، اگر حالات غیر معمولی طور پر خشک ہوں تو اضافی پانی فراہم کریں۔",
+              "ar": "راقب رطوبة التربة خلال الخريف وأوائل الشتاء، وقدم مياهًا إضافية إذا كانت الظروف جافة بشكل غير عادي.",
+              "fr": "Surveillez l'humidité du sol tout au long de l'automne et au début de l'hiver, en fournissant de l'eau supplémentaire si les conditions sont exceptionnellement sèches."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Apply monthly during the active growing season for young trees (1-3 years) to promote strong root and shoot development.",
+          "ur": "نوجوان درختوں (1-3 سال) کے لیے فعال بڑھوتری کے موسم میں ماہانہ استعمال کریں تاکہ جڑوں اور شاخوں کی مضبوط نشوونما ہو سکے۔"
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 365,
+        "product": {
+          "en": "Compost or Well-Rotted Manure",
+          "ur": "کمپوسٹ یا گلی ہوئی کھاد",
+          "ar": "سماد عضوي أو روث متحلل",
+          "fr": "Compost ou fumier bien décomposé"
+        },
+        "preparation": {
+          "en": "Spread a 2-4 inch layer of compost or well-rotted manure around the drip line of the tree, keeping it a few inches away from the trunk.",
+          "ur": "درخت کے گرد 2-4 انچ کی تہہ کمپوسٹ یا گلی ہوئی کھاد کی پھیلائیں، تنے سے چند انچ دور رکھیں۔",
+          "ar": "انشر طبقة 2-4 بوصة من السماد العضوي أو الروث المتحلل حول خط تنقيط الشجرة، مع إبقائها على بعد بضع بوصات من الجذع.",
+          "fr": "Étalez une couche de 5 à 10 cm de compost ou de fumier bien décomposé autour de la ligne d'égouttement de l'arbre, en le maintenant à quelques centimètres du tronc."
+        },
+        "quantityPer10L": 5000,
+        "unit": "g",
+        "timing": "early_spring",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Apply annually in early spring before bud break for established trees. Provides slow-release nutrients and improves soil structure.",
+          "ur": "مستحکم درختوں کے لیے سالانہ ابتدائی موسم بہار میں کلیوں کے پھوٹنے سے پہلے استعمال کریں۔ یہ آہستہ آہستہ غذائی اجزاء فراہم کرتا ہے اور مٹی کی ساخت کو بہتر بناتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Kelp Meal (optional)",
+          "ur": "کیلپ میل (اختیاری)",
+          "ar": "وجبة عشب البحر (اختياري)",
+          "fr": "Farine d'algues (optionnel)"
+        },
+        "preparation": {
+          "en": "Sprinkle a small amount around the drip line.",
+          "ur": "تھوڑی مقدار میں درخت کے گرد چھڑکیں۔",
+          "ar": "انثر كمية صغيرة حول خط التنقيط.",
+          "fr": "Saupoudrez une petite quantité autour de la ligne d'égouttement."
+        },
+        "quantityPer10L": 0,
+        "unit": "g",
+        "timing": "early_spring",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Generally avoid heavy fertilization during flowering. Kelp meal can be applied with compost in early spring for trace minerals.",
+          "ur": "پھول آنے کے دوران عام طور پر زیادہ کھاد سے گریز کریں۔ کیلپ میل کو ابتدائی موسم بہار میں کمپوسٹ کے ساتھ استعمال کیا جا سکتا ہے تاکہ ٹریس منرلز فراہم ہوں۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 365,
+        "product": {
+          "en": "Bone Meal, Wood Ash, or Rock Phosphate",
+          "ur": "ہڈیوں کا چورا، لکڑی کی راکھ یا راک فاسفیٹ",
+          "ar": "مسحوق العظام، رماد الخشب، أو فوسفات الصخور",
+          "fr": "Poudre d'os, cendre de bois ou phosphate rocheux"
+        },
+        "preparation": {
+          "en": "Sprinkle 1-2 cups of bone meal or rock phosphate, and 1/2 cup of wood ash around the drip line. Gently scratch into the soil.",
+          "ur": "درخت کے گرد 1-2 کپ ہڈیوں کا چورا یا راک فاسفیٹ، اور 1/2 کپ لکڑی کی راکھ چھڑکیں۔ اسے مٹی میں ہلکا سا ملائیں۔",
+          "ar": "انثر 1-2 كوب من مسحوق العظام أو فوسفات الصخور، و1/2 كوب من رماد الخشب حول خط التنقيط. اخلطها بلطف في التربة.",
+          "fr": "Saupoudrez 1 à 2 tasses de poudre d'os ou de phosphate rocheux, et 1/2 tasse de cendre de bois autour de la ligne d'égouttement. Grattez doucement dans le sol."
+        },
+        "quantityPer10L": 250,
+        "unit": "g",
+        "timing": "late_winter_or_post_harvest",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Apply annually in late winter or post-harvest to support fruit development, improve fruit quality, and enhance winter hardiness.",
+          "ur": "پھل کی نشوونما، معیار اور سردیوں کی سختی کو بڑھانے کے لیے سالانہ دیر سے سردیوں میں یا کٹائی کے بعد استعمال کریں۔"
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 365,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 15-15-15)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 10-10-10 یا 15-15-15)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10 أو 15-15-15)",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 15-15-15)"
+        },
+        "preparation": {
+          "en": "Apply granular fertilizer evenly around the drip line, following package instructions for tree size. Water thoroughly after application.",
+          "ur": "دانے دار کھاد کو درخت کے سائز کے مطابق پیکج کی ہدایات پر عمل کرتے ہوئے درخت کے گرد یکساں طور پر پھیلائیں۔ استعمال کے بعد اچھی طرح پانی دیں۔",
+          "ar": "طبق السماد الحبيبي بالتساوي حول خط التنقيط، باتباع تعليمات العبوة لحجم الشجرة. اسقِ الماء جيدًا بعد التطبيق.",
+          "fr": "Appliquez l'engrais granulaire uniformément autour de la ligne d'égouttement, en suivant les instructions de l'emballage pour la taille de l'arbre. Arrosez abondamment après l'application."
+        },
+        "quantityPer10L": 50,
+        "unit": "g",
+        "timing": "early_spring",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Apply annually in early spring before bud break. For young trees, a lighter application can be done monthly during the growing season.",
+          "ur": "سالانہ ابتدائی موسم بہار میں کلیوں کے پھوٹنے سے پہلے استعمال کریں۔ نوجوان درختوں کے لیے، بڑھوتری کے موسم میں ماہانہ ہلکی مقدار میں استعمال کیا جا سکتا ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Low N, High P/K Fertilizer (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم کھاد (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10)",
+          "fr": "Engrais faible en N, riche en P/K (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply as a foliar spray or light soil application if soil tests indicate specific deficiencies.",
+          "ur": "اگر مٹی کے ٹیسٹ میں مخصوص کمی ظاہر ہو تو پتوں پر سپرے یا ہلکی مٹی کی کھاد کے طور پر استعمال کریں۔",
+          "ar": "طبق كرش ورقي أو تطبيق خفيف للتربة إذا أشارت اختبارات التربة إلى نقص معين.",
+          "fr": "Appliquez en pulvérisation foliaire ou en légère application au sol si les analyses de sol indiquent des carences spécifiques."
+        },
+        "quantityPer10L": 0,
+        "unit": "g",
+        "timing": "early_spring",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Generally avoid heavy fertilization during flowering. Only apply if soil tests indicate a specific need for P or K at this stage.",
+          "ur": "پھول آنے کے دوران عام طور پر زیادہ کھاد سے گریز کریں۔ صرف اس صورت میں استعمال کریں جب مٹی کے ٹیسٹ میں اس مرحلے پر فاسفورس یا پوٹاشیم کی مخصوص ضرورت ظاہر ہو۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 365,
+        "product": {
+          "en": "High Potassium Fertilizer (e.g., 0-0-50) + Calcium Nitrate",
+          "ur": "زیادہ پوٹاشیم کھاد (مثلاً 0-0-50) + کیلشیم نائٹریٹ",
+          "ar": "سماد عالي البوتاسيوم (مثل 0-0-50) + نترات الكالسيوم",
+          "fr": "Engrais riche en potassium (ex: 0-0-50) + Nitrate de calcium"
+        },
+        "preparation": {
+          "en": "Dissolve 1-2 teaspoons of high-K fertilizer and 1 teaspoon of Calcium Nitrate in 1 gallon of water. Apply around the drip line.",
+          "ur": "1-2 چمچ زیادہ پوٹاشیم کھاد اور 1 چمچ کیلشیم نائٹریٹ 4 لیٹر پانی میں حل کریں۔ اسے درخت کے گرد استعمال کریں۔",
+          "ar": "أذب 1-2 ملعقة صغيرة من سماد عالي البوتاسيوم وملعقة صغيرة من نترات الكالسيوم في 4 لتر من الماء. طبق حول خط التنقيط.",
+          "fr": "Dissolvez 1 à 2 cuillères à café d'engrais riche en K et 1 cuillère à café de nitrate de calcium dans 4 litres d'eau. Appliquez autour de la ligne d'égouttement."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "after_fruit_set",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Apply annually after fruit set to improve fruit size, quality, and prevent calcium-related disorders like cork spot.",
+          "ur": "پھل لگنے کے بعد سالانہ استعمال کریں تاکہ پھل کا سائز، معیار بہتر ہو اور کیلشیم سے متعلقہ مسائل جیسے کارک سپاٹ سے بچا جا سکے۔"
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost",
+        "week2": "Balanced NPK",
+        "alternating": true,
+        "note": {
+          "en": "Apply in early spring, alternating organic and chemical applications.",
+          "ur": "ابتدائی موسم بہار میں استعمال کریں، نامیاتی اور کیمیائی کھادوں کو باری باری استعمال کریں۔"
+        }
+      },
+      "FLOWERING": {
+        "week1": "Kelp Meal (light)",
+        "week2": "None",
+        "alternating": false,
+        "note": {
+          "en": "Minimal fertilization during flowering. Kelp meal can provide trace minerals.",
+          "ur": "پھول آنے کے دوران کم سے کم کھاد۔ کیلپ میل ٹریس منرلز فراہم کر سکتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "week1": "Bone Meal/Wood Ash",
+        "week2": "High K Fertilizer",
+        "alternating": true,
+        "note": {
+          "en": "Apply after fruit set or post-harvest, alternating organic and chemical applications.",
+          "ur": "پھل لگنے کے بعد یا کٹائی کے بعد استعمال کریں، نامیاتی اور کیمیائی کھادوں کو باری باری استعمال کریں۔"
+        }
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "comfrey",
+      "benefit": {
+        "en": "Accumulates nutrients from deep in the soil, especially potassium, and can be used as a chop-and-drop mulch. Attracts beneficial insects.",
+        "ur": "مٹی کی گہرائی سے غذائی اجزاء، خاص طور پر پوٹاشیم، جمع کرتا ہے اور اسے ملچ کے طور پر استعمال کیا جا سکتا ہے۔ فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يجمع العناصر الغذائية من عمق التربة، خاصة البوتاسيوم، ويمكن استخدامه كغطاء عضوي. يجذب الحشرات المفيدة.",
+        "fr": "Accumule les nutriments en profondeur, notamment le potassium, et peut être utilisé comme paillis. Attire les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "nasturtium",
+      "benefit": {
+        "en": "Acts as a trap crop for aphids, drawing them away from pear trees. Also deters other pests.",
+        "ur": "ایفڈز کے لیے ایک جال فصل کے طور پر کام کرتا ہے، انہیں ناشپاتی کے درختوں سے دور رکھتا ہے۔ دیگر کیڑوں کو بھی بھگاتا ہے۔",
+        "ar": "يعمل كمحصول فخ للحشرات المن، ويبعدها عن أشجار الكمثرى. كما يصد آفات أخرى.",
+        "fr": "Agit comme une plante-piège pour les pucerons, les éloignant des poiriers. Repousse également d'autres parasites."
+      }
+    },
+    {
+      "plantId": "clover",
+      "benefit": {
+        "en": "Fixes nitrogen in the soil, improving soil fertility. Acts as a living mulch, suppressing weeds and retaining soil moisture.",
+        "ur": "مٹی میں نائٹروجن کو ٹھیک کرتا ہے، مٹی کی زرخیزی کو بہتر بناتا ہے۔ زندہ ملچ کے طور پر کام کرتا ہے، جڑی بوٹیوں کو دباتا ہے اور مٹی کی نمی کو برقرار رکھتا ہے۔",
+        "ar": "يثبت النيتروجين في التربة، مما يحسن خصوبة التربة. يعمل كغطاء حيوي، يمنع الأعشاب الضارة ويحافظ على رطوبة التربة.",
+        "fr": "Fixe l'azote dans le sol, améliorant la fertilité. Agit comme un paillis vivant, supprimant les mauvaises herbes et retenant l'humidité du sol."
+      }
+    },
+    {
+      "plantId": "dandelion",
+      "benefit": {
+        "en": "Deep taproots break up compacted soil, bringing up nutrients from deeper layers. Attracts pollinators.",
+        "ur": "گہری جڑیں سخت مٹی کو توڑتی ہیں، گہری تہوں سے غذائی اجزاء اوپر لاتی ہیں۔ پولینیٹرز کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "جذورها العميقة تكسر التربة المضغوطة، وتجلب العناصر الغذائية من الطبقات العميقة. تجذب الملقحات.",
+        "fr": "Les racines pivotantes profondes décompactent le sol, remontant les nutriments des couches profondes. Attire les pollinisateurs."
+      }
+    },
+    {
+      "plantId": "garlic",
+      "benefit": {
+        "en": "Emits a strong scent that can deter pear psylla, aphids, and other common pests.",
+        "ur": "ایک مضبوط خوشبو خارج کرتا ہے جو ناشپاتی کے کیڑوں، ایفڈز اور دیگر عام کیڑوں کو دور رکھ سکتا ہے۔",
+        "ar": "يصدر رائحة قوية يمكن أن تردع بسيلات الكمثرى، والمن، والآفات الشائعة الأخرى.",
+        "fr": "Émet une forte odeur qui peut dissuader la psylle du poirier, les pucerons et autres parasites courants."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "juniper",
+      "reason": {
+        "en": "Juniper is an alternate host for Cedar-Pear Rust (Gymnosporangium sabinae), a fungal disease that severely damages pear trees.",
+        "ur": "جونیپر سیڈر-پیئر رسٹ (Gymnosporangium sabinae) کے لیے ایک متبادل میزبان ہے، جو ایک فنگل بیماری ہے جو ناشپاتی کے درختوں کو شدید نقصان پہنچاتی ہے۔",
+        "ar": "العرعر هو مضيف بديل لصدأ الكمثرى (Gymnosporangium sabinae)، وهو مرض فطري يضر بشدة بأشجار الكمثرى.",
+        "fr": "Le genévrier est un hôte alternatif pour la rouille grillagée du poirier (Gymnosporangium sabinae), une maladie fongique qui endommage gravement les poiriers."
+      }
+    },
+    {
+      "plantId": "walnut",
+      "reason": {
+        "en": "Walnut trees release juglone, a chemical that is toxic to many plants, including pear trees, causing stunted growth or death.",
+        "ur": "اخروٹ کے درخت جگلون نامی کیمیکل خارج کرتے ہیں جو ناشپاتی کے درختوں سمیت کئی پودوں کے لیے زہریلا ہوتا ہے، جس سے نشوونما رک جاتی ہے یا موت واقع ہو جاتی ہے۔",
+        "ar": "تطلق أشجار الجوز مادة الجغلون، وهي مادة كيميائية سامة للعديد من النباتات، بما في ذلك أشجار الكمثرى، مما يسبب توقف النمو أو الموت.",
+        "fr": "Les noyers libèrent de la juglone, une substance chimique toxique pour de nombreuses plantes, y compris les poiriers, provoquant un retard de croissance ou la mort."
+      }
+    },
+    {
+      "plantId": "birch",
+      "reason": {
+        "en": "Birch trees are strong competitors for water and nutrients, potentially stunting the growth of nearby pear trees.",
+        "ur": "برچ کے درخت پانی اور غذائی اجزاء کے لیے مضبوط حریف ہوتے ہیں، جو قریب کے ناشپاتی کے درختوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "أشجار البتولا منافسة قوية للماء والمغذيات، مما قد يعيق نمو أشجار الكمثرى القريبة.",
+        "fr": "Les bouleaux sont de forts concurrents pour l'eau et les nutriments, ce qui peut freiner la croissance des poiriers voisins."
+      }
+    },
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Potatoes can share some diseases with pear trees, although less common, and can attract pests that might also affect young pear trees.",
+        "ur": "آلو ناشپاتی کے درختوں کے ساتھ کچھ بیماریاں بانٹ سکتے ہیں، اگرچہ کم عام ہیں، اور ایسے کیڑوں کو اپنی طرف متوجہ کر سکتے ہیں جو نوجوان ناشپاتی کے درختوں کو بھی متاثر کر سکتے ہیں۔",
+        "ar": "يمكن أن تتشارك البطاطس بعض الأمراض مع أشجار الكمثرى، على الرغم من أنها أقل شيوعًا، ويمكن أن تجذب الآفات التي قد تؤثر أيضًا على أشجار الكمثرى الصغيرة.",
+        "fr": "Les pommes de terre peuvent partager certaines maladies avec les poiriers, bien que moins courantes, et attirer des parasites qui pourraient également affecter les jeunes poiriers."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "fire_blight",
+      "vulnerableStages": [
+        "FLOWERING",
+        "VEGETATIVE",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": "18-29"
+      },
+      "plantSpecificNotes": {
+        "en": "A highly destructive bacterial disease. Causes blossoms, shoots, and branches to blacken and shrivel as if scorched by fire. Can kill entire trees.",
+        "ur": "ایک انتہائی تباہ کن بیکٹیریل بیماری۔ پھولوں، شاخوں اور ٹہنیوں کو کالا اور سکڑا ہوا بناتی ہے جیسے آگ سے جھلس گیا ہو۔ پورے درخت کو مار سکتی ہے۔",
+        "ar": "مرض بكتيري شديد التدمير. يسبب اسوداد وتجعد الأزهار والبراعم والفروع كما لو كانت محترقة بالنار. يمكن أن يقتل الأشجار بأكملها.",
+        "fr": "Maladie bactérienne très destructrice. Provoque le noircissement et le flétrissement des fleurs, pousses et branches comme si elles étaient brûlées par le feu. Peut tuer des arbres entiers."
+      }
+    },
+    {
+      "pestId": "pear_scab",
+      "vulnerableStages": [
+        "FLOWERING",
+        "VEGETATIVE",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "16-24"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing dark, olive-green spots on leaves, fruit, and twigs. Severely infected fruit can become distorted and cracked.",
+        "ur": "فنگل بیماری جو پتوں، پھلوں اور ٹہنیوں پر گہرے، زیتونی سبز دھبے پیدا کرتی ہے۔ شدید متاثرہ پھل بگڑ سکتے ہیں اور پھٹ سکتے ہیں۔",
+        "ar": "مرض فطري يسبب بقعًا داكنة، خضراء زيتونية على الأوراق والثمار والأغصان. يمكن أن تتشوه الثمار المصابة بشدة وتتشقق.",
+        "fr": "Maladie fongique provoquant des taches sombres, vert olive sur les feuilles, les fruits et les brindilles. Les fruits gravement infectés peuvent se déformer et se fissurer."
+      }
+    },
+    {
+      "pestId": "cedar_pear_rust",
+      "vulnerableStages": [
+        "FLOWERING",
+        "VEGETATIVE",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Requires juniper as an alternate host. Causes bright orange-red spots on pear leaves and fruit, often with small, horn-like projections on the underside of leaves.",
+        "ur": "جونیپر کو متبادل میزبان کی ضرورت ہوتی ہے۔ ناشپاتی کے پتوں اور پھلوں پر چمکدار نارنجی-سرخ دھبے پیدا کرتا ہے، اکثر پتوں کے نیچے چھوٹے، سینگ جیسے ابھار ہوتے ہیں۔",
+        "ar": "يتطلب العرعر كمضيف بديل. يسبب بقعًا برتقالية حمراء زاهية على أوراق الكمثرى وثمارها، غالبًا مع نتوءات صغيرة تشبه القرون على الجانب السفلي من الأوراق.",
+        "fr": "Nécessite le genévrier comme hôte alternatif. Provoque des taches orange-rouge vif sur les feuilles et les fruits du poirier, souvent avec de petites protubérances en forme de corne sur le dessous des feuilles."
+      }
+    },
+    {
+      "pestId": "codling_moth",
+      "vulnerableStages": [
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">15"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into developing fruit, causing 'wormy' pears. Frass (excrement) is often visible near the entry hole.",
+        "ur": "لاروا بڑھتے ہوئے پھلوں میں سوراخ کرتا ہے، جس سے 'کیڑے والے' ناشپاتی بنتے ہیں۔ داخلے کے سوراخ کے قریب اکثر فرس (فضلہ) نظر آتا ہے۔",
+        "ar": "تخترق اليرقات الثمار النامية، مما يسبب الكمثرى 'المسوسة'. غالبًا ما يكون الفضلات مرئيًا بالقرب من فتحة الدخول.",
+        "fr": "Les larves forent dans les fruits en développement, causant des poires 'vermeuses'. Des excréments sont souvent visibles près du trou d'entrée."
+      }
+    },
+    {
+      "pestId": "pear_psylla",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "10-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, sap-sucking insects that excrete sticky honeydew, leading to sooty mold growth on leaves and fruit. Can cause leaf distortion and reduced vigor.",
+        "ur": "چھوٹے، رس چوسنے والے کیڑے جو چپچپا شہد کی طرح کا مادہ خارج کرتے ہیں، جس سے پتوں اور پھلوں پر کالی پھپھوندی لگ جاتی ہے۔ پتوں کی خرابی اور کمزوری کا سبب بن سکتے ہیں۔",
+        "ar": "حشرات صغيرة تمتص العصارة وتفرز ندى عسلي لزج، مما يؤدي إلى نمو العفن السخامي على الأوراق والثمار. يمكن أن يسبب تشوه الأوراق وتقليل الحيوية.",
+        "fr": "Petits insectes suceurs de sève qui excrètent du miellat collant, entraînant la croissance de fumagine sur les feuilles et les fruits. Peut provoquer une déformation des feuilles et une réduction de la vigueur."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth, sucking sap and causing curled, distorted leaves. Also excrete honeydew.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئی نشوونما پر جمع ہوتے ہیں، رس چوستے ہیں اور پتوں کو مڑا ہوا اور بگڑا ہوا بناتے ہیں۔ شہد کی طرح کا مادہ بھی خارج کرتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد، وتمتص العصارة وتسبب تجعد وتشوه الأوراق. كما تفرز الندى العسلي.",
+        "fr": "Petits insectes au corps mou qui se regroupent sur les nouvelles pousses, suçant la sève et provoquant des feuilles recroquevillées et déformées. Excrètent également du miellat."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches appear on leaves, shoots, and sometimes fruit. Can cause stunted growth and reduced fruit quality.",
+        "ur": "پتوں، شاخوں اور بعض اوقات پھلوں پر سفید، پاؤڈر جیسے دھبے ظاہر ہوتے ہیں۔ یہ نشوونما کو روک سکتا ہے اور پھل کے معیار کو کم کر سکتا ہے۔",
+        "ar": "تظهر بقع بيضاء مسحوقية على الأوراق والبراعم وأحيانًا الثمار. يمكن أن يسبب توقف النمو وتقليل جودة الثمار.",
+        "fr": "Des taches blanches et poudreuses apparaissent sur les feuilles, les pousses et parfois les fruits. Peut entraîner un retard de croissance et une réduction de la qualité des fruits."
+      }
+    },
+    {
+      "pestId": "boron_deficiency",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes 'corky' spots or internal browning in fruit, distorted fruit shape, and sometimes dieback of shoot tips. More common in alkaline soils.",
+        "ur": "پھلوں میں 'کارکی' دھبے یا اندرونی بھورا پن، پھل کی بگڑی ہوئی شکل، اور بعض اوقات شاخوں کے سروں کا مر جانا۔ الکلائن مٹی میں زیادہ عام ہے۔",
+        "ar": "يسبب بقعًا 'فحمية' أو اسمرارًا داخليًا في الثمار، وتشوه شكل الثمرة، وأحيانًا موت أطراف البراعم. أكثر شيوعًا في التربة القلوية.",
+        "fr": "Provoque des taches 'liégeuses' ou un brunissement interne des fruits, une forme de fruit déformée et parfois le dépérissement des extrémités des pousses. Plus fréquent dans les sols alcalins."
+      }
+    },
+    {
+      "pestId": "zinc_deficiency",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes 'little leaf' symptoms, where leaves are abnormally small, narrow, and often clustered at the ends of shoots. Can reduce tree vigor and yield.",
+        "ur": "'چھوٹے پتے' کی علامات پیدا کرتا ہے، جہاں پتے غیر معمولی طور پر چھوٹے، تنگ اور اکثر شاخوں کے سروں پر جمع ہوتے ہیں۔ درخت کی طاقت اور پیداوار کو کم کر سکتا ہے۔",
+        "ar": "يسبب أعراض 'الأوراق الصغيرة'، حيث تكون الأوراق صغيرة بشكل غير طبيعي، وضيقة، وغالبًا ما تتجمع في أطراف البراعم. يمكن أن يقلل من حيوية الشجرة وإنتاجيتها.",
+        "fr": "Provoque des symptômes de 'petite feuille', où les feuilles sont anormalement petites, étroites et souvent regroupées aux extrémités des pousses. Peut réduire la vigueur et le rendement de l'arbre."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 120,
+    "firstHarvestDayMax": 150,
+    "continuousHarvest": false,
+    "harvestWindowDays": 20,
+    "readinessSigns": [
+      {
+        "en": "Ground color changes from green to yellowish-green",
+        "ur": "زمین کا رنگ سبز سے پیلا سبز ہو جاتا ہے",
+        "ar": "يتغير لون الخلفية من الأخضر إلى الأخضر المصفر",
+        "fr": "La couleur de fond passe du vert au vert jaunâtre"
+      },
+      {
+        "en": "Fruit separates easily from the branch with a slight upward twist",
+        "ur": "پھل شاخ سے ہلکے سے اوپر کی طرف موڑنے پر آسانی سے الگ ہو جاتا ہے",
+        "ar": "تنفصل الثمرة بسهولة عن الفرع بلفة خفيفة للأعلى",
+        "fr": "Le fruit se détache facilement de la branche avec une légère torsion vers le haut"
+      },
+      {
+        "en": "Flesh is still firm but not rock hard",
+        "ur": "گودا ابھی بھی سخت ہے لیکن پتھر کی طرح سخت نہیں",
+        "ar": "اللب لا يزال صلبًا ولكنه ليس صلبًا كالحجر",
+        "fr": "La chair est encore ferme mais pas dure comme de la pierre"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently twist the fruit upwards. If it separates easily, it's ready. Avoid pulling.",
+        "ur": "پھل کو آہستہ سے اوپر کی طرف موڑیں۔ اگر یہ آسانی سے الگ ہو جائے تو یہ تیار ہے۔ کھینچنے سے گریز کریں۔",
+        "ar": "لف الثمرة بلطف للأعلى. إذا انفصلت بسهولة، فهي جاهزة. تجنب السحب.",
+        "fr": "Tournez doucement le fruit vers le haut. S'il se détache facilement, il est prêt. Évitez de tirer."
+      },
+      "INTERMEDIATE": {
+        "en": "Use clean pruning shears or snips to cut the stem just above the fruit, leaving a short stem attached.",
+        "ur": "پھل کے اوپر تنے کو کاٹنے کے لیے صاف کینچی یا قینچی استعمال کریں، ایک چھوٹا تنا لگا رہنے دیں۔",
+        "ar": "استخدم مقص تقليم نظيف أو مقص لقطع الساق فوق الثمرة مباشرة، مع ترك ساق قصيرة متصلة.",
+        "fr": "Utilisez des sécateurs ou des ciseaux propres pour couper la tige juste au-dessus du fruit, en laissant une courte tige attachée."
+      },
+      "EXPERT": {
+        "en": "Harvest when fruit reaches optimal size and ground color, but before it softens on the tree. Pears ripen best off the tree.",
+        "ur": "پھل کو اس وقت کاٹیں جب وہ بہترین سائز اور رنگ پر پہنچ جائے، لیکن درخت پر نرم ہونے سے پہلے۔ ناشپاتی درخت سے اتارنے کے بعد بہترین پکتی ہے۔",
+        "ar": "احصد الثمار عندما تصل إلى الحجم الأمثل ولون الخلفية، ولكن قبل أن تلين على الشجرة. الكمثرى تنضج بشكل أفضل بعد قطفها من الشجرة.",
+        "fr": "Récoltez lorsque le fruit atteint sa taille et sa couleur de fond optimales, mais avant qu'il ne ramollisse sur l'arbre. Les poires mûrissent mieux hors de l'arbre."
+      }
+    },
+    "storage": {
+      "en": "Ripen at room temperature (1-2 weeks), then refrigerate for longer storage (up to several months).",
+      "ur": "کمرے کے درجہ حرارت پر پکائیں (1-2 ہفتے)، پھر طویل ذخیرہ کے لیے فریج میں رکھیں (کئی مہینوں تک)۔",
+      "ar": "تنضج في درجة حرارة الغرفة (1-2 أسبوع)، ثم تبرد للتخزين الأطول (حتى عدة أشهر).",
+      "fr": "Faire mûrir à température ambiante (1-2 semaines), puis réfrigérer pour une conservation plus longue (jusqu'à plusieurs mois)."
+    },
+    "yieldEstimateKg": {
+      "10L": 0,
+      "20L": 0,
+      "30L": 0,
+      "GROUND": 15
+    }
+  }
+}

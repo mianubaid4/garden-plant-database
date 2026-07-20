@@ -1,0 +1,1633 @@
+{
+  "id": "blueberry",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1596706869401-443722237976?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Blueberry",
+      "alternate": []
+    },
+    "ur": {
+      "common": "بلیو بیری",
+      "alternate": []
+    },
+    "ar": {
+      "common": "توت أزرق",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Myrtille",
+      "alternate": []
+    },
+    "botanical": "Vaccinium corymbosum",
+    "aliases": [
+      "bilberry",
+      "huckleberry",
+      "blue berry"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "berry",
+  "germinationDays": 28,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 7,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "HIGHBUSH",
+    "LOWBUSH",
+    "RABBITEYE"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "HIGHBUSH": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Most common type, grows 6-12 feet tall. Requires annual pruning for best fruit production.",
+          "ur": "سب سے عام قسم، 6-12 فٹ اونچا ہوتا ہے۔ بہترین پھل کے لیے سالانہ کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "LOWBUSH": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Wild, low-growing type, typically 6-24 inches tall. Spreads by rhizomes. Requires periodic pruning/mowing.",
+          "ur": "جنگلی، کم بڑھنے والی قسم، عام طور پر 6-24 انچ اونچی ہوتی ہے۔ rhizomes کے ذریعے پھیلتی ہے۔ وقتاً فوقتاً کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "RABBITEYE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Heat tolerant, grows 6-15 feet tall. Requires cross-pollination for best yields and annual pruning.",
+          "ur": "گرمی برداشت کرنے والی، 6-15 فٹ اونچی ہوتی ہے۔ بہترین پیداوار اور سالانہ کٹائی کے لیے کراس پولینیشن کی ضرورت ہوتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "fruit",
+    "berry",
+    "acid-loving",
+    "perennial",
+    "bush",
+    "cold-hardy",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 27,
+    "survivalMinC": -25,
+    "survivalMaxC": 35,
+    "germinationMinC": 18,
+    "germinationOptimalC": 24,
+    "flowerDropAboveC": 30,
+    "flowerDropBelowC": -2
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 730,
+    "requiredGDD": 1500,
+    "baseTempC": 7,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 32,
+      "coldStressCriticalC": -5,
+      "frostWarningC": 0,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Consistently moist, never soggy",
+    "overwateringSensitivity": "very high",
+    "underwateringSensitivity": "High, especially during fruiting",
+    "rootRotRisk": "Very High if soil is not well-drained",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf scorch",
+      "small fruit",
+      "fruit drop"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot",
+      "leaf drop"
+    ],
+    "preferredWateringMethod": "Drip irrigation or slow, deep watering",
+    "thingsToAvoid": [
+      "overhead watering (can promote disease)",
+      "standing water",
+      "alkaline water"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "very high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature",
+      "acidify soil (pine bark/needles)"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires large pots with excellent drainage and acidic soil mix.",
+        "ur": "بہترین نکاسی آب اور تیزابی مٹی کے ساتھ بڑے گملوں کی ضرورت ہے۔",
+        "ar": "يتطلب أواني كبيرة ذات تصريف ممتاز ومزيج تربة حمضي.",
+        "fr": "Nécessite de grands pots avec un excellent drainage et un mélange de terre acide."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags provide good aeration and drainage, but dry out faster.",
+        "ur": "کپڑے کے تھیلے اچھی ہوا اور نکاسی فراہم کرتے ہیں، لیکن تیزی سے خشک ہوتے ہیں۔",
+        "ar": "توفر أكياس القماش تهوية وتصريفًا جيدين، لكنها تجف بشكل أسرع.",
+        "fr": "Les sacs en tissu offrent une bonne aération et un bon drainage, mais sèchent plus rapidement."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 50,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Requires highly acidic, well-drained soil. Amend heavily if necessary.",
+        "ur": "انتہائی تیزابی، اچھی نکاسی والی مٹی کی ضرورت ہے۔ ضرورت پڑنے پر مٹی کو اچھی طرح تیار کریں۔",
+        "ar": "يتطلب تربة حمضية للغاية وجيدة التصريف. قم بتعديلها بكثافة إذا لزم الأمر.",
+        "fr": "Nécessite un sol très acide et bien drainé. Amendez-le fortement si nécessaire."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Ideal for controlling soil pH and drainage. Use an acidic soil mix.",
+        "ur": "مٹی کے پی ایچ اور نکاسی کو کنٹرول کرنے کے لیے مثالی ہے۔ تیزابی مٹی کا مرکب استعمال کریں۔",
+        "ar": "مثالي للتحكم في حموضة التربة وتصريفها. استخدم مزيج تربة حمضي.",
+        "fr": "Idéal pour contrôler le pH du sol et le drainage. Utilisez un mélange de terre acide."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "3-5 years",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Planting blueberry bushes",
+        "ur": "بلیو بیری کے پودے لگانا",
+        "ar": "زراعة شجيرات التوت الأزرق",
+        "fr": "Plantation des myrtilliers"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix peat moss or sulfur into soil to lower pH.",
+              "ur": "پی ایچ کم کرنے کے لیے مٹی میں پیٹ ماس یا سلفر ملائیں۔",
+              "ar": "اخلط الخث أو الكبريت في التربة لخفض درجة الحموضة.",
+              "fr": "Mélangez de la tourbe ou du soufre au sol pour abaisser le pH."
+            },
+            "INTERMEDIATE": {
+              "en": "Test soil pH. Amend with elemental sulfur or peat moss to reach 4.5-5.5.",
+              "ur": "مٹی کا پی ایچ ٹیسٹ کریں۔ 4.5-5.5 تک پہنچنے کے لیے عنصری سلفر یا پیٹ ماس شامل کریں۔",
+              "ar": "اختبر درجة حموضة التربة. عدّل بالكبريت الأولي أو الخث للوصول إلى 4.5-5.5.",
+              "fr": "Testez le pH du sol. Amendez avec du soufre élémentaire ou de la tourbe pour atteindre 4.5-5.5."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test. Incorporate elemental sulfur or acidifying organic matter to achieve target pH 4.5-5.5, considering soil type and buffering capacity.",
+              "ur": "مٹی کا ٹیسٹ کریں۔ مٹی کی قسم اور بفرنگ کی صلاحیت کو مدنظر رکھتے ہوئے، 4.5-5.5 کے ہدف پی ایچ کو حاصل کرنے کے لیے عنصری سلفر یا تیزابی نامیاتی مواد شامل کریں۔",
+              "ar": "قم بإجراء اختبار للتربة. أضف الكبريت الأولي أو المواد العضوية المحمضة لتحقيق درجة حموضة مستهدفة من 4.5-5.5، مع مراعاة نوع التربة وقدرتها التخزينية.",
+              "fr": "Effectuez une analyse du sol. Incorporez du soufre élémentaire ou de la matière organique acidifiante pour atteindre un pH cible de 4.5-5.5, en tenant compte du type de sol et de sa capacité tampon."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Dig a wide, shallow hole. Place plant, backfill with amended soil.",
+              "ur": "ایک چوڑا، اتھلا گڑھا کھودیں۔ پودا رکھیں، ترمیم شدہ مٹی سے بھر دیں۔",
+              "ar": "احفر حفرة واسعة وضحلة. ضع النبات، ثم املأها بالتربة المعدلة.",
+              "fr": "Creusez un trou large et peu profond. Placez la plante, rebouchez avec le sol amendé."
+            },
+            "INTERMEDIATE": {
+              "en": "Dig a hole twice as wide as the root ball, same depth. Gently spread roots, backfill with acidic soil mix.",
+              "ur": "جڑ کے گملے سے دو گنا چوڑا، اسی گہرائی کا گڑھا کھودیں۔ جڑوں کو آہستہ سے پھیلائیں، تیزابی مٹی کے مکسچر سے بھر دیں۔",
+              "ar": "احفر حفرة بعرض ضعف كرة الجذر، وبنفس العمق. انشر الجذور برفق، ثم املأها بمزيج التربة الحمضية.",
+              "fr": "Creusez un trou deux fois plus large que la motte, à la même profondeur. Étalez délicatement les racines, rebouchez avec un mélange de terre acide."
+            },
+            "EXPERT": {
+              "en": "Prepare a raised bed with highly acidic soil mix (peat, pine bark, sand). Plant shallowly, ensuring crown is at soil level.",
+              "ur": "انتہائی تیزابی مٹی کے مکسچر (پیٹ، پائن کی چھال، ریت) کے ساتھ ایک اونچا بستر تیار کریں۔ پودے کو اتھلی گہرائی میں لگائیں، اس بات کو یقینی بنائیں کہ تاج مٹی کی سطح پر ہو۔",
+              "ar": "جهز سريرًا مرتفعًا بمزيج تربة شديد الحموضة (خث، لحاء صنوبر، رمل). ازرع بعمق ضحل، مع التأكد من أن التاج على مستوى التربة.",
+              "fr": "Préparez une plate-bande surélevée avec un mélange de terre très acide (tourbe, écorce de pin, sable). Plantez peu profondément, en veillant à ce que le collet soit au niveau du sol."
+            }
+          }
+        },
+        "initialWatering": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly after planting.",
+              "ur": "پودے لگانے کے بعد اچھی طرح پانی دیں۔",
+              "ar": "اسقِ جيدًا بعد الزراعة.",
+              "fr": "Arrosez abondamment après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply immediately after planting to settle soil around roots.",
+              "ur": "جڑوں کے گرد مٹی کو بٹھانے کے لیے پودے لگانے کے فوراً بعد گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق فورًا بعد الزراعة لتثبيت التربة حول الجذور.",
+              "fr": "Arrosez profondément immédiatement après la plantation pour tasser le sol autour des racines."
+            },
+            "EXPERT": {
+              "en": "Ensure thorough saturation post-planting, checking for air pockets and root-to-soil contact.",
+              "ur": "پودے لگانے کے بعد مکمل سیرابی کو یقینی بنائیں، ہوا کے بلبلوں اور جڑ سے مٹی کے رابطے کی جانچ کریں۔",
+              "ar": "تأكد من التشبع الكامل بعد الزراعة، وتحقق من وجود جيوب هوائية وتلامس الجذور بالتربة.",
+              "fr": "Assurez une saturation complète après la plantation, en vérifiant les poches d'air et le contact racine-sol."
+            }
+          }
+        },
+        "mulching": {
+          "required": true,
+          "dayOffset": 1,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a layer of pine bark or wood chips around the plant.",
+              "ur": "پودے کے گرد پائن کی چھال یا لکڑی کے چپس کی ایک تہہ لگائیں۔",
+              "ar": "ضع طبقة من لحاء الصنوبر أو رقائق الخشب حول النبات.",
+              "fr": "Appliquez une couche d'écorce de pin ou de copeaux de bois autour de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Spread 2-4 inches of acidic mulch (pine needles, pine bark, sawdust) to retain moisture and suppress weeds.",
+              "ur": "نمی برقرار رکھنے اور جڑی بوٹیوں کو دبانے کے لیے 2-4 انچ تیزابی ملچ (پائن کی سوئیاں، پائن کی چھال، لکڑی کا برادہ) پھیلائیں۔",
+              "ar": "انشر 2-4 بوصات من المهاد الحمضي (إبر الصنوبر، لحاء الصنوبر، نشارة الخشب) للاحتفاظ بالرطوبة وقمع الأعشاب الضارة.",
+              "fr": "Étalez 5 à 10 cm de paillis acide (aiguilles de pin, écorce de pin, sciure) pour retenir l'humidité et supprimer les mauvaises herbes."
+            },
+            "EXPERT": {
+              "en": "Maintain a consistent 3-4 inch layer of organic, acidifying mulch, ensuring it doesn't touch the main stem.",
+              "ur": "نامیاتی، تیزابی ملچ کی 3-4 انچ کی مستقل تہہ برقرار رکھیں، اس بات کو یقینی بناتے ہوئے کہ یہ مرکزی تنے کو نہ چھوئے۔",
+              "ar": "حافظ على طبقة متسقة من 3-4 بوصات من المهاد العضوي المحمض، مع التأكد من عدم ملامستها للساق الرئيسي.",
+              "fr": "Maintenez une couche constante de 7 à 10 cm de paillis organique acidifiant, en veillant à ce qu'il ne touche pas la tige principale."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 21,
+      "durationDaysCool": 45,
+      "description": {
+        "en": "New growth appears, plant establishes",
+        "ur": "نئی نشوونما ظاہر ہوتی ہے، پودا قائم ہوتا ہے",
+        "ar": "يظهر نمو جديد، وتستقر النبتة",
+        "fr": "Nouvelle croissance apparaît, la plante s'établit"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, not soggy.",
+              "ur": "مٹی کو مسلسل نم رکھیں، گیلی نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، لا مشبعة بالماء.",
+              "fr": "Gardez le sol constamment humide, pas détrempé."
+            },
+            "INTERMEDIATE": {
+              "en": "Water regularly to maintain even soil moisture, crucial for root establishment.",
+              "ur": "جڑوں کے قیام کے لیے اہم، مٹی کی یکساں نمی برقرار رکھنے کے لیے باقاعدگی سے پانی دیں۔",
+              "ar": "اسقِ بانتظام للحفاظ على رطوبة التربة متساوية، وهو أمر بالغ الأهمية لتثبيت الجذور.",
+              "fr": "Arrosez régulièrement pour maintenir une humidité uniforme du sol, essentielle à l'établissement des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture daily, aiming for consistent dampness without waterlogging to encourage root development.",
+              "ur": "جڑوں کی نشوونما کی حوصلہ افزائی کے لیے روزانہ مٹی کی نمی کی نگرانی کریں، پانی جمع کیے بغیر مسلسل نم رکھنے کا ہدف بنائیں۔",
+              "ar": "راقب رطوبة التربة يوميًا، بهدف الحصول على رطوبة ثابتة دون تشبع بالماء لتشجيع نمو الجذور.",
+              "fr": "Surveillez l'humidité du sol quotidiennement, en visant une humidité constante sans engorgement pour encourager le développement des racines."
+            }
+          }
+        },
+        "monitoring": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for new leaves or shoots.",
+              "ur": "نئے پتے یا کونپلیں چیک کریں۔",
+              "ar": "تحقق من الأوراق أو البراعم الجديدة.",
+              "fr": "Vérifiez l'apparition de nouvelles feuilles ou pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Observe for signs of new growth and overall plant vigor. Look for any wilting or discoloration.",
+              "ur": "نئی نشوونما اور پودے کی مجموعی طاقت کے آثار کا مشاہدہ کریں۔ کسی بھی مرجھانے یا رنگت کی تبدیلی کو دیکھیں۔",
+              "ar": "راقب علامات النمو الجديد وحيوية النبات بشكل عام. ابحث عن أي ذبول أو تغير في اللون.",
+              "fr": "Observez les signes de nouvelle croissance et la vigueur générale de la plante. Recherchez tout flétrissement ou décoloration."
+            },
+            "EXPERT": {
+              "en": "Assess bud break, shoot elongation, and leaf expansion. Inspect for early signs of transplant shock or nutrient deficiencies.",
+              "ur": "کلیوں کے پھوٹنے، شاخوں کی لمبائی اور پتوں کے پھیلنے کا جائزہ لیں۔ ٹرانسپلانٹ کے جھٹکے یا غذائی اجزاء کی کمی کی ابتدائی علامات کا معائنہ کریں۔",
+              "ar": "قيم تفتح البراعم، استطالة البراعم، وتوسع الأوراق. افحص علامات مبكرة لصدمة الزرع أو نقص المغذيات.",
+              "fr": "Évaluez le débourrement, l'allongement des pousses et l'expansion des feuilles. Inspectez les premiers signes de choc de transplantation ou de carences nutritionnelles."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 70,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Young plant develops, grows foliage",
+        "ur": "نوجوان پودا نشوونما پاتا ہے، پتے اگاتا ہے",
+        "ar": "تنمو النبتة الصغيرة وتطور أوراقها",
+        "fr": "Jeune plante se développe, pousse le feuillage"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 700,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly, especially during dry spells.",
+              "ur": "باقاعدگی سے پانی دیں، خاص طور پر خشک موسم میں۔",
+              "ar": "اسقِ بانتظام، خاصة خلال فترات الجفاف.",
+              "fr": "Arrosez régulièrement, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide consistent moisture, ensuring the top 2-3 inches of soil remain damp.",
+              "ur": "مسلسل نمی فراہم کریں، اس بات کو یقینی بنائیں کہ مٹی کی اوپری 2-3 انچ نم رہے۔",
+              "ar": "وفر رطوبة ثابتة، مع التأكد من بقاء أعلى 2-3 بوصات من التربة رطبة.",
+              "fr": "Fournissez une humidité constante, en veillant à ce que les 5 à 7 cm supérieurs du sol restent humides."
+            },
+            "EXPERT": {
+              "en": "Implement a precise irrigation schedule, considering evapotranspiration rates to maintain optimal root zone moisture.",
+              "ur": "جڑوں کے علاقے کی بہترین نمی برقرار رکھنے کے لیے بخارات کے اخراج کی شرح کو مدنظر رکھتے ہوئے ایک درست آبپاشی کا شیڈول نافذ کریں۔",
+              "ar": "طبق جدول ري دقيق، مع الأخذ في الاعتبار معدلات التبخر للحفاظ على رطوبة منطقة الجذور المثلى.",
+              "fr": "Mettez en œuvre un programme d'irrigation précis, en tenant compte des taux d'évapotranspiration pour maintenir une humidité optimale de la zone racinaire."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use a fertilizer for acid-loving plants.",
+              "ur": "تیزابی پودوں کے لیے کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا للنباتات المحبة للحموضة.",
+              "fr": "Utilisez un engrais pour plantes acidophiles."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a balanced, acid-forming fertilizer (e.g., rhododendron/azalea food) at half strength.",
+              "ur": "متوازن، تیزابی کھاد (مثلاً روڈوڈینڈرون/ایزیلیا فوڈ) آدھی طاقت پر استعمال کریں۔",
+              "ar": "طبق سمادًا متوازنًا ومكونًا للحموضة (مثل غذاء الرودودندرون/الأزاليا) بنصف القوة.",
+              "fr": "Appliquez un engrais équilibré et acidifiant (par exemple, pour rhododendrons/azalées) à demi-dose."
+            },
+            "EXPERT": {
+              "en": "Conduct foliar analysis if growth is suboptimal. Apply a slow-release, acid-forming granular fertilizer or liquid feed tailored to specific nutrient needs.",
+              "ur": "اگر نشوونما غیر معیاری ہو تو پتوں کا تجزیہ کریں۔ مخصوص غذائی ضروریات کے مطابق سست رفتار، تیزابی دانے دار کھاد یا مائع خوراک استعمال کریں۔",
+              "ar": "قم بإجراء تحليل ورقي إذا كان النمو دون المستوى الأمثل. طبق سمادًا حبيبيًا بطيء الإطلاق ومكونًا للحموضة أو سائلًا مغذيًا مصممًا لتلبية الاحتياجات الغذائية المحددة.",
+              "fr": "Effectuez une analyse foliaire si la croissance est sous-optimale. Appliquez un engrais granulaire à libération lente et acidifiant ou un engrais liquide adapté aux besoins nutritionnels spécifiques."
+            }
+          }
+        },
+        "weedControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pull weeds by hand carefully.",
+              "ur": "جڑی بوٹیاں احتیاط سے ہاتھ سے نکالیں۔",
+              "ar": "اسحب الأعشاب الضارة يدويًا بعناية.",
+              "fr": "Arrachez les mauvaises herbes à la main avec précaution."
+            },
+            "INTERMEDIATE": {
+              "en": "Hand-weed regularly to prevent competition, being careful not to disturb shallow blueberry roots.",
+              "ur": "مقابلے کو روکنے کے لیے باقاعدگی سے ہاتھ سے جڑی بوٹیاں نکالیں، بلیو بیری کی اتھلی جڑوں کو پریشان نہ کرنے کا خیال رکھیں۔",
+              "ar": "قم بإزالة الأعشاب الضارة يدويًا بانتظام لمنع المنافسة، مع الحرص على عدم إزعاج جذور التوت الأزرق الضحلة.",
+              "fr": "Désherbez manuellement régulièrement pour éviter la concurrence, en faisant attention à ne pas perturber les racines superficielles des myrtilliers."
+            },
+            "EXPERT": {
+              "en": "Employ integrated weed management, prioritizing manual removal and maintaining a thick mulch layer to minimize herbicide use.",
+              "ur": "متکامل جڑی بوٹیوں کے انتظام کو اپنائیں، دستی ہٹانے کو ترجیح دیں اور جڑی بوٹی مار ادویات کے استعمال کو کم کرنے کے لیے ملچ کی ایک موٹی تہہ برقرار رکھیں۔",
+              "ar": "استخدم إدارة متكاملة للأعشاب الضارة، مع إعطاء الأولوية للإزالة اليدوية والحفاظ على طبقة سميكة من المهاد لتقليل استخدام مبيدات الأعشاب.",
+              "fr": "Mettez en œuvre une gestion intégrée des mauvaises herbes, en privilégiant l'élimination manuelle et en maintenant une épaisse couche de paillis pour minimiser l'utilisation d'herbicides."
+            }
+          }
+        },
+        "pHCheck": {
+          "isRecurring": true,
+          "intervalDays": 60,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Test soil pH with a simple kit.",
+              "ur": "ایک سادہ کٹ سے مٹی کا پی ایچ ٹیسٹ کریں۔",
+              "ar": "اختبر درجة حموضة التربة باستخدام مجموعة بسيطة.",
+              "fr": "Testez le pH du sol avec un kit simple."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a reliable pH meter to check soil acidity. Adjust if pH drifts above 5.5.",
+              "ur": "مٹی کی تیزابیت چیک کرنے کے لیے ایک قابل اعتماد پی ایچ میٹر استعمال کریں۔ اگر پی ایچ 5.5 سے اوپر جائے تو ایڈجسٹ کریں۔",
+              "ar": "استخدم مقياس pH موثوقًا به للتحقق من حموضة التربة. اضبط إذا تجاوزت درجة الحموضة 5.5.",
+              "fr": "Utilisez un pH-mètre fiable pour vérifier l'acidité du sol. Ajustez si le pH dépasse 5.5."
+            },
+            "EXPERT": {
+              "en": "Perform regular soil pH tests using a calibrated meter. Adjust with sulfur or ferrous sulfate as needed, monitoring plant response.",
+              "ur": "کیلیبریٹڈ میٹر کا استعمال کرتے ہوئے باقاعدگی سے مٹی کا پی ایچ ٹیسٹ کریں۔ ضرورت کے مطابق سلفر یا فیرس سلفیٹ سے ایڈجسٹ کریں، پودے کے ردعمل کی نگرانی کریں۔",
+              "ar": "قم بإجراء اختبارات منتظمة لدرجة حموضة التربة باستخدام مقياس معاير. اضبط بالكبريت أو كبريتات الحديدوز حسب الحاجة، مع مراقبة استجابة النبات.",
+              "fr": "Effectuez des tests réguliers du pH du sol à l'aide d'un pH-mètre calibré. Ajustez avec du soufre ou du sulfate ferreux si nécessaire, en surveillant la réponse de la plante."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 300,
+      "durationDaysCool": 400,
+      "description": {
+        "en": "Bush grows larger, develops strong branches",
+        "ur": "جھاڑی بڑی ہوتی ہے، مضبوط شاخیں بناتی ہے",
+        "ar": "تنمو الشجيرة وتطور فروعًا قوية",
+        "fr": "Le buisson grandit, développe des branches solides"
+      },
+      "emoji": "🌳",
+      "tips": [],
+      "tasks": {
+        "pruning": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove dead or weak branches in late winter.",
+              "ur": "موسم سرما کے آخر میں مردہ یا کمزور شاخیں ہٹا دیں۔",
+              "ar": "أزل الفروع الميتة أو الضعيفة في أواخر الشتاء.",
+              "fr": "Supprimez les branches mortes ou faibles à la fin de l'hiver."
+            },
+            "INTERMEDIATE": {
+              "en": "In late winter, prune out dead, diseased, or crossing branches. Remove some older, less productive canes at the base.",
+              "ur": "موسم سرما کے آخر میں، مردہ، بیمار یا ایک دوسرے کو کاٹنے والی شاخوں کو کاٹ دیں۔ کچھ پرانے، کم پیداواری تنوں کو جڑ سے ہٹا دیں۔",
+              "ar": "في أواخر الشتاء، قم بتقليم الفروع الميتة أو المريضة أو المتقاطعة. أزل بعض القصبات القديمة الأقل إنتاجية من القاعدة.",
+              "fr": "À la fin de l'hiver, taillez les branches mortes, malades ou qui se croisent. Supprimez quelques vieilles cannes moins productives à la base."
+            },
+            "EXPERT": {
+              "en": "Implement a renewal pruning strategy in late winter, removing 1-3 of the oldest, least productive canes annually to encourage new growth and maintain vigor.",
+              "ur": "موسم سرما کے آخر میں تجدید کی کٹائی کی حکمت عملی نافذ کریں، سالانہ 1-3 سب سے پرانے، کم پیداواری تنوں کو ہٹا کر نئی نشوونما کی حوصلہ افزائی کریں اور طاقت برقرار رکھیں۔",
+              "ar": "طبق استراتيجية تقليم التجديد في أواخر الشتاء، بإزالة 1-3 من أقدم القصبات الأقل إنتاجية سنويًا لتشجيع النمو الجديد والحفاظ على الحيوية.",
+              "fr": "Mettez en œuvre une stratégie de taille de renouvellement à la fin de l'hiver, en supprimant 1 à 3 des cannes les plus anciennes et les moins productives chaque année pour encourager la nouvelle croissance et maintenir la vigueur."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 60,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Fertilize in spring with an acid-loving plant food.",
+              "ur": "بہار میں تیزابی پودوں کی خوراک سے کھاد دیں۔",
+              "ar": "سمد في الربيع بسماد للنباتات المحبة للحموضة.",
+              "fr": "Fertilisez au printemps avec un engrais pour plantes acidophiles."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply an acid-forming fertilizer in early spring and again after harvest, following package directions.",
+              "ur": "ابتدائی بہار میں اور کٹائی کے بعد دوبارہ تیزابی کھاد استعمال کریں، پیکیج کی ہدایات پر عمل کریں۔",
+              "ar": "طبق سمادًا مكونًا للحموضة في أوائل الربيع ومرة أخرى بعد الحصاد، باتباع تعليمات العبوة.",
+              "fr": "Appliquez un engrais acidifiant au début du printemps et de nouveau après la récolte, en suivant les instructions de l'emballage."
+            },
+            "EXPERT": {
+              "en": "Base fertilization on soil test results and plant vigor. Use ammonium sulfate or a specialized blueberry fertilizer in split applications during active growth.",
+              "ur": "کھاد کا استعمال مٹی کے ٹیسٹ کے نتائج اور پودے کی طاقت پر مبنی کریں۔ فعال نشوونما کے دوران امونیم سلفیٹ یا ایک مخصوص بلیو بیری کھاد کو تقسیم شدہ استعمال میں استعمال کریں۔",
+              "ar": "اعتمد التسميد على نتائج اختبار التربة وحيوية النبات. استخدم كبريتات الأمونيوم أو سمادًا متخصصًا للتوت الأزرق في تطبيقات مقسمة أثناء النمو النشط.",
+              "fr": "Basez la fertilisation sur les résultats des analyses de sol et la vigueur de la plante. Utilisez du sulfate d'ammonium ou un engrais spécialisé pour myrtilliers en applications fractionnées pendant la croissance active."
+            }
+          }
+        },
+        "mulchRefresh": {
+          "isRecurring": true,
+          "intervalDays": 90,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Add more pine bark or wood chips.",
+              "ur": "مزید پائن کی چھال یا لکڑی کے چپس شامل کریں۔",
+              "ar": "أضف المزيد من لحاء الصنوبر أو رقائق الخشب.",
+              "fr": "Ajoutez plus d'écorce de pin ou de copeaux de bois."
+            },
+            "INTERMEDIATE": {
+              "en": "Top up acidic mulch (pine needles, pine bark) to maintain a 3-4 inch layer, replenishing every 3-6 months.",
+              "ur": "تیزابی ملچ (پائن کی سوئیاں، پائن کی چھال) کو 3-4 انچ کی تہہ برقرار رکھنے کے لیے اوپر سے ڈالیں، ہر 3-6 ماہ بعد دوبارہ بھریں۔",
+              "ar": "أضف المهاد الحمضي (إبر الصنوبر، لحاء الصنوبر) للحفاظ على طبقة بسمك 3-4 بوصات، مع التجديد كل 3-6 أشهر.",
+              "fr": "Complétez le paillis acide (aiguilles de pin, écorce de pin) pour maintenir une couche de 7 à 10 cm, en le renouvelant tous les 3 à 6 mois."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for bugs and spray with water if seen.",
+              "ur": "کیڑے چیک کریں اور اگر نظر آئیں تو پانی سے چھڑکاؤ کریں۔",
+              "ar": "تحقق من وجود الحشرات ورشها بالماء إذا رأيتها.",
+              "fr": "Vérifiez la présence d'insectes et pulvérisez de l'eau si vous en voyez."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly inspect leaves and stems for common pests like aphids or scale. Use organic insecticidal soap if necessary.",
+              "ur": "پتوں اور تنوں کو باقاعدگی سے عام کیڑوں جیسے ایفڈز یا سکیل کے لیے چیک کریں۔ ضرورت پڑنے پر نامیاتی کیڑے مار صابن استعمال کریں۔",
+              "ar": "افحص الأوراق والسيقان بانتظام بحثًا عن الآفات الشائعة مثل المن أو الحشرات القشرية. استخدم صابونًا مبيدًا للحشرات عضويًا إذا لزم الأمر.",
+              "fr": "Inspectez régulièrement les feuilles et les tiges pour les ravageurs courants comme les pucerons ou les cochenilles. Utilisez du savon insecticide biologique si nécessaire."
+            },
+            "EXPERT": {
+              "en": "Implement an IPM program, scouting for specific blueberry pests (e.g., spotted wing drosophila, cranberry fruitworm). Use targeted biological or organic controls.",
+              "ur": "ایک IPM پروگرام نافذ کریں، مخصوص بلیو بیری کیڑوں (مثلاً، سپاٹڈ ونگ ڈروسوفیلا، کرین بیری فروٹ ورم) کی تلاش کریں۔ ہدف شدہ حیاتیاتی یا نامیاتی کنٹرول استعمال کریں۔",
+              "ar": "طبق برنامج إدارة متكاملة للآفات (IPM)، واستكشف آفات التوت الأزرق المحددة (مثل ذبابة الفاكهة ذات الأجنحة المرقطة، دودة فاكهة التوت البري). استخدم مكافحة بيولوجية أو عضوية مستهدفة.",
+              "fr": "Mettez en œuvre un programme de lutte intégrée, en recherchant les ravageurs spécifiques des myrtilliers (par exemple, la drosophile à ailes tachetées, la tordeuse de la canneberge). Utilisez des contrôles biologiques ou organiques ciblés."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Scale",
+              "ur": "سکیل",
+              "ar": "الحشرات القشرية",
+              "fr": "Cochenilles"
+            },
+            {
+              "en": "Leaf spots",
+              "ur": "پتوں پر دھبے",
+              "ar": "بقع الأوراق",
+              "fr": "Taches foliaires"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply when the topsoil feels dry.",
+              "ur": "جب اوپری مٹی خشک محسوس ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque la terre de surface semble sèche."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep, consistent watering, especially during dry periods, as blueberries have shallow roots.",
+              "ur": "خاص طور پر خشک ادوار میں گہرا، مستقل پانی یقینی بنائیں، کیونکہ بلیو بیری کی جڑیں اتھلی ہوتی ہیں۔",
+              "ar": "تأكد من الري العميق والمستمر، خاصة خلال الفترات الجافة، حيث أن التوت الأزرق له جذور سطحية.",
+              "fr": "Assurez un arrosage profond et constant, surtout pendant les périodes sèches, car les myrtilliers ont des racines superficielles."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation to deliver consistent moisture to the root zone, monitoring soil moisture levels with a tensiometer.",
+              "ur": "جڑوں کے علاقے میں مستقل نمی فراہم کرنے کے لیے ڈرپ آبپاشی کا استعمال کریں، ٹینسیومیٹر سے مٹی کی نمی کی سطح کی نگرانی کریں۔",
+              "ar": "استخدم الري بالتنقيط لتوفير رطوبة ثابتة لمنطقة الجذور، مع مراقبة مستويات رطوبة التربة باستخدام مقياس التوتر.",
+              "fr": "Utilisez l'irrigation au goutte-à-goutte pour fournir une humidité constante à la zone racinaire, en surveillant les niveaux d'humidité du sol avec un tensiomètre."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Flowers bloom, attracting pollinators",
+        "ur": "پھول کھلتے ہیں، پولینیٹرز کو اپنی طرف متوجہ کرتے ہیں",
+        "ar": "تتفتح الأزهار، وتجذب الملقحات",
+        "fr": "Les fleurs éclosent, attirant les pollinisateurs"
+      },
+      "emoji": "🌸",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil moist while flowers are present.",
+              "ur": "جب پھول موجود ہوں تو مٹی کو نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة أثناء وجود الأزهار.",
+              "fr": "Gardez le sol humide pendant la floraison."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture during flowering to support fruit set and prevent flower drop.",
+              "ur": "پھول آنے کے دوران مٹی کی مستقل نمی برقرار رکھیں تاکہ پھل لگنے میں مدد ملے اور پھول گرنے سے بچا جا سکے۔",
+              "ar": "حافظ على رطوبة التربة باستمرار أثناء الإزهار لدعم عقد الثمار ومنع تساقط الأزهار.",
+              "fr": "Maintenez une humidité constante du sol pendant la floraison pour soutenir la nouaison et prévenir la chute des fleurs."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation during anthesis to prevent water stress, which can negatively impact pollen viability and fruit set.",
+              "ur": "پانی کے دباؤ کو روکنے کے لیے پھول آنے کے دوران آبپاشی کو بہتر بنائیں، جو پولن کی بقا اور پھل لگنے پر منفی اثر ڈال سکتا ہے۔",
+              "ar": "حسن الري أثناء الإزهار لمنع إجهاد الماء، والذي يمكن أن يؤثر سلبًا على حيوية حبوب اللقاح وعقد الثمار.",
+              "fr": "Optimisez l'irrigation pendant l'anthèse pour prévenir le stress hydrique, qui peut avoir un impact négatif sur la viabilité du pollen et la nouaison."
+            }
+          }
+        },
+        "pollinationSupport": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant flowers nearby to attract bees.",
+              "ur": "شہد کی مکھیوں کو اپنی طرف متوجہ کرنے کے لیے قریب پھول لگائیں۔",
+              "ar": "ازرع الزهور بالقرب لجذب النحل.",
+              "fr": "Plantez des fleurs à proximité pour attirer les abeilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure good pollinator activity. Consider planting multiple varieties for cross-pollination if recommended for your cultivar.",
+              "ur": "اچھی پولینیٹر سرگرمی کو یقینی بنائیں۔ اگر آپ کی قسم کے لیے تجویز کیا گیا ہو تو کراس پولینیشن کے لیے متعدد اقسام لگانے پر غور کریں۔",
+              "ar": "تأكد من نشاط الملقحات الجيد. فكر في زراعة أصناف متعددة للتلقيح المتبادل إذا كان موصى به لصنفك.",
+              "fr": "Assurez une bonne activité des pollinisateurs. Envisagez de planter plusieurs variétés pour la pollinisation croisée si recommandé pour votre cultivar."
+            },
+            "EXPERT": {
+              "en": "Assess pollinator presence and activity. If necessary, consider introducing managed bee hives or using hand pollination for optimal fruit set.",
+              "ur": "پولینیٹر کی موجودگی اور سرگرمی کا جائزہ لیں۔ اگر ضروری ہو تو، بہترین پھل لگنے کے لیے منظم شہد کی مکھیوں کے چھتے متعارف کرانے یا ہاتھ سے پولینیشن استعمال کرنے پر غور کریں۔",
+              "ar": "قيم وجود ونشاط الملقحات. إذا لزم الأمر، فكر في إدخال خلايا نحل مدارة أو استخدام التلقيح اليدوي لعقد الثمار الأمثل.",
+              "fr": "Évaluez la présence et l'activité des pollinisateurs. Si nécessaire, envisagez d'introduire des ruches gérées ou d'utiliser la pollinisation manuelle pour une nouaison optimale."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check flowers for tiny bugs.",
+              "ur": "پھولوں میں چھوٹے کیڑے چیک کریں۔",
+              "ar": "تحقق من وجود حشرات صغيرة في الأزهار.",
+              "fr": "Vérifiez les fleurs pour de petits insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for pests that target flowers, such as thrips or flower weevils. Use targeted organic sprays if infestations are severe.",
+              "ur": "پھولوں کو نشانہ بنانے والے کیڑوں، جیسے تھرپس یا پھولوں کے سوس کی نگرانی کریں۔ اگر انفیکشن شدید ہوں تو ہدف شدہ نامیاتی سپرے استعمال کریں۔",
+              "ar": "راقب الآفات التي تستهدف الأزهار، مثل التربس أو سوس الأزهار. استخدم بخاخات عضوية مستهدفة إذا كانت الإصابات شديدة.",
+              "fr": "Surveillez les ravageurs qui ciblent les fleurs, tels que les thrips ou les charançons des fleurs. Utilisez des pulvérisations organiques ciblées si les infestations sont sévères."
+            },
+            "EXPERT": {
+              "en": "Scout for bloom-feeding insects and diseases like Botrytis blight. Apply preventative biological controls or approved organic fungicides if conditions warrant.",
+              "ur": "پھول کھانے والے کیڑوں اور بوٹریٹس بلائٹ جیسی بیماریوں کی تلاش کریں۔ اگر حالات اجازت دیں تو حفاظتی حیاتیاتی کنٹرول یا منظور شدہ نامیاتی فنگس کش ادویات استعمال کریں۔",
+              "ar": "استكشف الحشرات التي تتغذى على الأزهار والأمراض مثل لفحة البوتريتس. طبق مكافحة بيولوجية وقائية أو مبيدات فطرية عضوية معتمدة إذا استدعت الظروف ذلك.",
+              "fr": "Recherchez les insectes se nourrissant des fleurs et les maladies comme la pourriture grise (Botrytis). Appliquez des contrôles biologiques préventifs ou des fongicides organiques approuvés si les conditions le justifient."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Thrips",
+              "ur": "تھرپس",
+              "ar": "التربس",
+              "fr": "Thrips"
+            },
+            {
+              "en": "Flower weevils",
+              "ur": "پھولوں کے سوس",
+              "ar": "سوس الأزهار",
+              "fr": "Charançons des fleurs"
+            },
+            {
+              "en": "Botrytis blight",
+              "ur": "بوٹریٹس بلائٹ",
+              "ar": "لفحة البوتريتس",
+              "fr": "Pourriture grise"
+            }
+          ]
+        },
+        "pHCheck": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Quickly check soil pH again.",
+              "ur": "مٹی کا پی ایچ دوبارہ جلدی سے چیک کریں۔",
+              "ar": "تحقق بسرعة من درجة حموضة التربة مرة أخرى.",
+              "fr": "Vérifiez rapidement le pH du sol à nouveau."
+            },
+            "INTERMEDIATE": {
+              "en": "Verify soil pH is within the optimal range (4.5-5.5) to ensure proper nutrient uptake during this critical phase.",
+              "ur": "اس اہم مرحلے کے دوران مناسب غذائی اجزاء کے جذب کو یقینی بنانے کے لیے مٹی کا پی ایچ بہترین حد (4.5-5.5) میں ہونے کی تصدیق کریں۔",
+              "ar": "تحقق من أن درجة حموضة التربة ضمن النطاق الأمثل (4.5-5.5) لضمان امتصاص المغذيات بشكل صحيح خلال هذه المرحلة الحرجة.",
+              "fr": "Vérifiez que le pH du sol est dans la plage optimale (4.5-5.5) pour assurer une absorption adéquate des nutriments pendant cette phase critique."
+            },
+            "EXPERT": {
+              "en": "Conduct a rapid pH test. Adjust with liquid acidifiers if pH is trending high, as nutrient availability directly impacts fruit development.",
+              "ur": "ایک تیز پی ایچ ٹیسٹ کریں۔ اگر پی ایچ زیادہ ہو رہا ہو تو مائع تیزابی مادوں سے ایڈجسٹ کریں، کیونکہ غذائی اجزاء کی دستیابی پھل کی نشوونما پر براہ راست اثر ڈالتی ہے۔",
+              "ar": "قم بإجراء اختبار سريع لدرجة الحموضة. اضبط باستخدام محفزات الحموضة السائلة إذا كانت درجة الحموضة تتجه نحو الارتفاع، حيث يؤثر توفر المغذيات بشكل مباشر على نمو الثمار.",
+              "fr": "Effectuez un test de pH rapide. Ajustez avec des acidifiants liquides si le pH est élevé, car la disponibilité des nutriments a un impact direct sur le développement des fruits."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 55,
+      "description": {
+        "en": "Berries develop and ripen",
+        "ur": "بیریاں نشوونما پاتی ہیں اور پکتی ہیں",
+        "ar": "تتطور الثمار وتنضج",
+        "fr": "Les baies se développent et mûrissent"
+      },
+      "emoji": "🫐",
+      "tips": [],
+      "tasks": {
+        "birdProtection": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cover bushes with netting to keep birds away.",
+              "ur": "پرندوں کو دور رکھنے کے لیے جھاڑیوں کو جال سے ڈھانپیں۔",
+              "ar": "غطِ الشجيرات بالشبك لإبعاد الطيور.",
+              "fr": "Couvrez les buissons avec un filet pour éloigner les oiseaux."
+            },
+            "INTERMEDIATE": {
+              "en": "Install bird netting over bushes as berries begin to color to protect the crop from avian predation.",
+              "ur": "جب بیریاں رنگ پکڑنا شروع کریں تو پرندوں کے حملے سے فصل کو بچانے کے لیے جھاڑیوں پر پرندوں کا جال لگائیں۔",
+              "ar": "ركب شبكًا واقيًا للطيور فوق الشجيرات عندما تبدأ الثمار في التلون لحماية المحصول من افتراس الطيور.",
+              "fr": "Installez un filet anti-oiseaux sur les buissons dès que les baies commencent à prendre couleur pour protéger la récolte de la prédation aviaire."
+            },
+            "EXPERT": {
+              "en": "Deploy fine mesh bird netting securely over the entire planting area, ensuring no gaps for entry, to maximize yield protection.",
+              "ur": "پیداوار کے تحفظ کو زیادہ سے زیادہ کرنے کے لیے، پورے پودے لگانے والے علاقے پر باریک میش پرندوں کا جال مضبوطی سے لگائیں، اس بات کو یقینی بناتے ہوئے کہ داخلے کے لیے کوئی خلا نہ ہو۔",
+              "ar": "انشر شبكًا دقيقًا للطيور بإحكام فوق منطقة الزراعة بأكملها، مع التأكد من عدم وجود فجوات للدخول، لزيادة حماية المحصول إلى أقصى حد.",
+              "fr": "Déployez un filet anti-oiseaux à mailles fines de manière sécurisée sur toute la zone de plantation, en veillant à l'absence de brèches pour maximiser la protection du rendement."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water daily during fruiting, especially when hot.",
+              "ur": "پھل لگنے کے دوران روزانہ پانی دیں، خاص طور پر جب گرمی ہو۔",
+              "ar": "اسقِ يوميًا أثناء الإثمار، خاصة عندما يكون الجو حارًا.",
+              "fr": "Arrosez quotidiennement pendant la fructification, surtout par temps chaud."
+            },
+            "INTERMEDIATE": {
+              "en": "Consistent and ample watering is critical during fruit development to ensure large, juicy berries and prevent splitting.",
+              "ur": "پھل کی نشوونما کے دوران مستقل اور کافی پانی دینا بہت ضروری ہے تاکہ بڑی، رسیلی بیریاں یقینی بنائی جا سکیں اور پھٹنے سے بچا جا سکے۔",
+              "ar": "الري المستمر والوفير أمر بالغ الأهمية أثناء نمو الثمار لضمان الحصول على توت كبير وعصير ومنع التشقق.",
+              "fr": "Un arrosage constant et abondant est essentiel pendant le développement des fruits pour assurer des baies grosses et juteuses et prévenir le fendillement."
+            },
+            "EXPERT": {
+              "en": "Maintain precise soil moisture levels, avoiding fluctuations that can lead to fruit cracking or reduced berry size. Drip irrigation is highly recommended.",
+              "ur": "مٹی کی نمی کی درست سطح برقرار رکھیں، ایسے اتار چڑھاؤ سے گریز کریں جو پھل کے پھٹنے یا بیری کے سائز میں کمی کا باعث بن سکتے ہیں۔ ڈرپ آبپاشی کی سختی سے سفارش کی جاتی ہے۔",
+              "ar": "حافظ على مستويات رطوبة التربة بدقة، وتجنب التقلبات التي يمكن أن تؤدي إلى تشقق الثمار أو تقليل حجم التوت. يوصى بشدة بالري بالتنقيط.",
+              "fr": "Maintenez des niveaux d'humidité du sol précis, en évitant les fluctuations qui peuvent entraîner la fissuration des fruits ou une réduction de la taille des baies. L'irrigation au goutte-à-goutte est fortement recommandée."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for worms in berries or mold.",
+              "ur": "بیریوں میں کیڑے یا پھپھوندی تلاش کریں۔",
+              "ar": "ابحث عن الديدان في التوت أو العفن.",
+              "fr": "Recherchez des vers dans les baies ou de la moisissure."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect ripening fruit for signs of spotted wing drosophila (SWD) or fungal diseases like anthracnose. Use traps or organic treatments.",
+              "ur": "پکنے والے پھلوں کا سپاٹڈ ونگ ڈروسوفیلا (SWD) یا اینتھراکنوز جیسی فنگل بیماریوں کے آثار کے لیے معائنہ کریں۔ جال یا نامیاتی علاج استعمال کریں۔",
+              "ar": "افحص الثمار الناضجة بحثًا عن علامات ذبابة الفاكهة ذات الأجنحة المرقطة (SWD) أو الأمراض الفطرية مثل الأنثراكنوز. استخدم الفخاخ أو العلاجات العضوية.",
+              "fr": "Inspectez les fruits mûrissants pour détecter les signes de drosophile à ailes tachetées (SWD) ou de maladies fongiques comme l'anthracnose. Utilisez des pièges ou des traitements biologiques."
+            },
+            "EXPERT": {
+              "en": "Implement a rigorous scouting program for SWD and other fruit pests. Utilize mass trapping, exclusion netting, and approved organic insecticides as part of an IPM strategy.",
+              "ur": "SWD اور دیگر پھلوں کے کیڑوں کے لیے ایک سخت سکاؤٹنگ پروگرام نافذ کریں۔ IPM حکمت عملی کے حصے کے طور پر بڑے پیمانے پر جال، اخراج جال، اور منظور شدہ نامیاتی کیڑے مار ادویات استعمال کریں۔",
+              "ar": "طبق برنامج استكشاف صارم لذبابة الفاكهة ذات الأجنحة المرقطة وغيرها من آفات الفاكهة. استخدم المصائد الجماعية، وشبكات الاستبعاد، والمبيدات الحشرية العضوية المعتمدة كجزء من استراتيجية IPM.",
+              "fr": "Mettez en œuvre un programme de dépistage rigoureux pour la SWD et d'autres ravageurs des fruits. Utilisez le piégeage de masse, les filets d'exclusion et les insecticides biologiques approuvés dans le cadre d'une stratégie de lutte intégrée."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Spotted Wing Drosophila",
+              "ur": "سپاٹڈ ونگ ڈروسوفیلا",
+              "ar": "ذبابة الفاكهة ذات الأجنحة المرقطة",
+              "fr": "Drosophile à ailes tachetées"
+            },
+            {
+              "en": "Anthracnose",
+              "ur": "اینتھراکنوز",
+              "ar": "الأنثراكنوز",
+              "fr": "Anthracnose"
+            },
+            {
+              "en": "Mummy Berry",
+              "ur": "ممی بیری",
+              "ar": "توت المومياء",
+              "fr": "Moniliose du myrtillier"
+            }
+          ]
+        },
+        "fertilizing": {
+          "required": false,
+          "dayOffset": 20,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Optional: Give a little extra food for berries.",
+              "ur": "اختیاری: بیریوں کے لیے تھوڑا اضافی کھانا دیں۔",
+              "ar": "اختياري: أعطِ القليل من الغذاء الإضافي للثمار.",
+              "fr": "Facultatif : Donnez un peu de nourriture supplémentaire pour les baies."
+            },
+            "INTERMEDIATE": {
+              "en": "Consider a light application of a high-potassium, acid-forming fertilizer to enhance fruit quality and flavor.",
+              "ur": "پھل کے معیار اور ذائقے کو بڑھانے کے لیے زیادہ پوٹاشیم والی، تیزابی کھاد کا ہلکا استعمال کریں۔",
+              "ar": "فكر في تطبيق خفيف لسماد عالي البوتاسيوم ومكون للحموضة لتعزيز جودة ونكهة الثمار.",
+              "fr": "Envisagez une légère application d'un engrais riche en potassium et acidifiant pour améliorer la qualité et la saveur des fruits."
+            },
+            "EXPERT": {
+              "en": "Based on leaf analysis, apply targeted nutrients (e.g., potassium, magnesium) to optimize fruit sugar content, firmness, and shelf life.",
+              "ur": "پتوں کے تجزیے کی بنیاد پر، پھل میں چینی کی مقدار، سختی، اور شیلف لائف کو بہتر بنانے کے لیے ہدف شدہ غذائی اجزاء (مثلاً، پوٹاشیم، میگنیشیم) استعمال کریں۔",
+              "ar": "بناءً على تحليل الأوراق، طبق مغذيات مستهدفة (مثل البوتاسيوم والمغنيسيوم) لتحسين محتوى السكر في الثمار، وصلابتها، وعمرها الافتراضي.",
+              "fr": "Basé sur l'analyse foliaire, appliquez des nutriments ciblés (par exemple, potassium, magnésium) pour optimiser la teneur en sucre des fruits, leur fermeté et leur durée de conservation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Ripe berries are picked",
+        "ur": "پکی ہوئی بیریاں توڑی جاتی ہیں",
+        "ar": "يتم قطف الثمار الناضجة",
+        "fr": "Les baies mûres sont cueillies"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pick blue berries when they are fully blue and easily come off.",
+              "ur": "بلیو بیریاں اس وقت توڑیں جب وہ مکمل طور پر نیلی ہوں اور آسانی سے اتر جائیں۔",
+              "ar": "اقطف التوت الأزرق عندما يكون أزرق بالكامل وينفصل بسهولة.",
+              "fr": "Cueillez les myrtilles lorsqu'elles sont entièrement bleues et se détachent facilement."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest berries when they are uniformly blue and detach easily from the stem. Pick every few days as they ripen.",
+              "ur": "بیریوں کو اس وقت توڑیں جب وہ یکساں طور پر نیلی ہوں اور تنے سے آسانی سے الگ ہو جائیں۔ جیسے جیسے وہ پکتی جائیں، ہر چند دن بعد توڑیں۔",
+              "ar": "احصد التوت عندما يكون أزرق بشكل موحد وينفصل بسهولة عن الساق. اقطف كل بضعة أيام مع نضوجها.",
+              "fr": "Récoltez les baies lorsqu'elles sont uniformément bleues et se détachent facilement de la tige. Cueillez tous les quelques jours à mesure qu'elles mûrissent."
+            },
+            "EXPERT": {
+              "en": "Selectively harvest fully ripe berries, which will have a dull, powdery bloom and detach with minimal effort, ensuring peak flavor and quality.",
+              "ur": "مکمل طور پر پکی ہوئی بیریوں کو منتخب طور پر توڑیں، جن پر ہلکی، پاؤڈری چمک ہوگی اور وہ کم سے کم کوشش سے الگ ہو جائیں گی، جس سے بہترین ذائقہ اور معیار یقینی ہوگا۔",
+              "ar": "اقطف التوت الناضج تمامًا بشكل انتقائي، والذي سيكون له غشاء باهت ومسحوق وينفصل بأقل جهد، مما يضمن ذروة النكهة والجودة.",
+              "fr": "Récoltez sélectivement les baies entièrement mûres, qui auront une pruine terne et poudreuse et se détacheront avec un effort minimal, garantissant une saveur et une qualité optimales."
+            }
+          }
+        },
+        "postHarvestCare": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water the bush well after you finish picking.",
+              "ur": "چنائی مکمل کرنے کے بعد جھاڑی کو اچھی طرح پانی دیں۔",
+              "ar": "اسقِ الشجيرة جيدًا بعد الانتهاء من القطف.",
+              "fr": "Arrosez bien le buisson après avoir terminé la cueillette."
+            },
+            "INTERMEDIATE": {
+              "en": "After the final harvest, ensure the plant is well-watered and consider a light application of fertilizer to support next year's growth.",
+              "ur": "آخری کٹائی کے بعد، یقینی بنائیں کہ پودے کو اچھی طرح پانی دیا گیا ہے اور اگلے سال کی نشوونما کو سہارا دینے کے لیے ہلکی کھاد ڈالنے پر غور کریں۔",
+              "ar": "بعد الحصاد الأخير، تأكد من ري النبات جيدًا وفكر في تطبيق خفيف من السماد لدعم نمو العام المقبل.",
+              "fr": "Après la dernière récolte, assurez-vous que la plante est bien arrosée et envisagez une légère application d'engrais pour soutenir la croissance de l'année prochaine."
+            },
+            "EXPERT": {
+              "en": "Provide adequate irrigation post-harvest to support carbohydrate storage for dormancy. Conduct a soil test to plan next season's nutrient program.",
+              "ur": "خوابیدگی کے لیے کاربوہائیڈریٹ کے ذخیرے کو سہارا دینے کے لیے کٹائی کے بعد مناسب آبپاشی فراہم کریں۔ اگلے سیزن کے غذائی پروگرام کی منصوبہ بندی کے لیے مٹی کا ٹیسٹ کریں۔",
+              "ar": "وفر ريًا كافيًا بعد الحصاد لدعم تخزين الكربوهيدرات للسبات. قم بإجراء اختبار للتربة لتخطيط برنامج المغذيات للموسم القادم.",
+              "fr": "Assurez une irrigation adéquate après la récolte pour soutenir le stockage des glucides en vue de la dormance. Effectuez une analyse du sol pour planifier le programme nutritionnel de la saison prochaine."
+            }
+          }
+        },
+        "pruning": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Optional: Trim any very old or weak branches.",
+              "ur": "اختیاری: کسی بھی بہت پرانی یا کمزور شاخوں کو کاٹ دیں۔",
+              "ar": "اختياري: قم بتقليم أي فروع قديمة جدًا أو ضعيفة.",
+              "fr": "Facultatif : Taillez les branches très anciennes ou faibles."
+            },
+            "INTERMEDIATE": {
+              "en": "Optional: For some varieties, a light summer pruning after harvest can improve air circulation and encourage new fruiting wood.",
+              "ur": "اختیاری: کچھ اقسام کے لیے، کٹائی کے بعد ہلکی گرمیوں کی کٹائی ہوا کی گردش کو بہتر بنا سکتی ہے اور نئی پھل دینے والی لکڑی کی حوصلہ افزائی کر سکتی ہے۔",
+              "ar": "اختياري: بالنسبة لبعض الأصناف، يمكن أن يؤدي التقليم الصيفي الخفيف بعد الحصاد إلى تحسين دوران الهواء وتشجيع نمو الخشب المثمر الجديد.",
+              "fr": "Facultatif : Pour certaines variétés, une taille légère en été après la récolte peut améliorer la circulation de l'air et encourager de nouveaux bois fructifères."
+            },
+            "EXPERT": {
+              "en": "Evaluate cane vigor and productivity. Perform summer pruning to remove weak, unproductive, or crossing canes, opening the canopy for better light penetration.",
+              "ur": "تنے کی طاقت اور پیداواری صلاحیت کا جائزہ لیں۔ کمزور، غیر پیداواری، یا ایک دوسرے کو کاٹنے والے تنوں کو ہٹانے کے لیے گرمیوں کی کٹائی کریں، تاکہ بہتر روشنی کی رسائی کے لیے چھتری کھولی جا سکے۔",
+              "ar": "قيم حيوية وإنتاجية القصبات. قم بالتقليم الصيفي لإزالة القصبات الضعيفة أو غير المنتجة أو المتقاطعة، مما يفتح المظلة لتحسين اختراق الضوء.",
+              "fr": "Évaluez la vigueur et la productivité des cannes. Effectuez une taille estivale pour supprimer les cannes faibles, improductives ou qui se croisent, ouvrant la canopée pour une meilleure pénétration de la lumière."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water less often as the weather cools.",
+              "ur": "موسم ٹھنڈا ہونے پر کم پانی دیں۔",
+              "ar": "قلل من تكرار الري مع برودة الطقس.",
+              "fr": "Arrosez moins souvent à mesure que le temps se rafraîchit."
+            },
+            "INTERMEDIATE": {
+              "en": "Gradually reduce watering frequency as the plant enters dormancy, but ensure soil doesn't completely dry out.",
+              "ur": "جیسے جیسے پودا خوابیدگی میں داخل ہو، پانی دینے کی فریکوئنسی کو بتدریج کم کریں، لیکن یقینی بنائیں کہ مٹی مکمل طور پر خشک نہ ہو۔",
+              "ar": "قلل تدريجيًا من تكرار الري مع دخول النبات في السبات، ولكن تأكد من أن التربة لا تجف تمامًا.",
+              "fr": "Réduisez progressivement la fréquence d'arrosage à mesure que la plante entre en dormance, mais assurez-vous que le sol ne sèche pas complètement."
+            },
+            "EXPERT": {
+              "en": "Adjust irrigation to match reduced plant needs during dormancy, preventing both drought stress and waterlogging, which can lead to root rot.",
+              "ur": "خوابیدگی کے دوران پودے کی کم ضروریات کے مطابق آبپاشی کو ایڈجسٹ کریں، خشک سالی کے دباؤ اور پانی کے جمع ہونے دونوں کو روکیں، جو جڑوں کے سڑنے کا باعث بن سکتے ہیں۔",
+              "ar": "اضبط الري ليتناسب مع احتياجات النبات المنخفضة أثناء السبات، مما يمنع كل من إجهاد الجفاف وتشبع الماء، والذي يمكن أن يؤدي إلى تعفن الجذور.",
+              "fr": "Ajustez l'irrigation pour correspondre aux besoins réduits de la plante pendant la dormance, prévenant à la fois le stress hydrique et l'engorgement, qui peuvent entraîner la pourriture des racines."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed Extract (Acid-Forming)",
+          "ur": "مائع سی ویڈ کا عرق (تیزابی)",
+          "ar": "مستخلص الطحالب البحرية السائل (حمضي)",
+          "fr": "Extrait d'algues liquides (acidifiant)"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of liquid seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مائع سی ویڈ کا عرق 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستخلص الطحالب البحرية السائل في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'extrait d'algues liquides dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle micronutrients and supports root development in acidic conditions.",
+          "ur": "یہ نازک جڑوں کو ضروری غذائیت فراہم کرتا ہے اور تیزابی حالات میں جڑوں کی نشوونما میں مدد کرتا ہے۔",
+          "ar": "يوفر مغذيات دقيقة لطيفة ويدعم نمو الجذور في الظروف الحمضية.",
+          "fr": "Fournit des micronutriments doux et soutient le développement des racines en conditions acides."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Cottonseed Meal or Acid-loving Compost Tea",
+          "ur": "کپاس کے بیج کا آٹا یا تیزابی کمپوسٹ چائے",
+          "ar": "مسحوق بذور القطن أو شاي الكمبوست الحمضي",
+          "fr": "Farine de graines de coton ou thé de compost acidophile"
+        },
+        "preparation": {
+          "en": "For cottonseed meal: Sprinkle 1/2 cup around the base of the plant and gently scratch into the soil. For compost tea: Steep 1 cup of acid-loving compost in 1 gallon of water for 24-48 hours.",
+          "ur": "کپاس کے بیج کے آٹے کے لیے: پودے کی جڑوں کے گرد 1/2 کپ چھڑکیں اور مٹی میں ہلکا سا دبا دیں۔ کمپوسٹ چائے کے لیے: 1 کپ تیزابی کمپوسٹ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔",
+          "ar": "لمسحوق بذور القطن: انثر 1/2 كوب حول قاعدة النبات واخدشه برفق في التربة. لشاي الكمبوست: انقع كوبًا واحدًا من الكمبوست الحمضي في 3.7 لتر من الماء لمدة 24-48 ساعة.",
+          "fr": "Pour la farine de graines de coton : Saupoudrez 1/2 tasse autour de la base de la plante et incorporez-la délicatement au sol. Pour le thé de compost : Faites infuser 1 tasse de compost acidophile dans 3,7 litres d'eau pendant 24 à 48 heures."
+        },
+        "quantityPer10L": 100,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides slow-release nitrogen and helps maintain the required soil acidity for blueberries.",
+          "ur": "یہ آہستہ آہستہ نائٹروجن فراہم کرتا ہے اور بلوبیری کے لیے ضروری مٹی کی تیزابیت کو برقرار رکھنے میں مدد کرتا ہے۔",
+          "ar": "يوفر النيتروجين بطيء الإطلاق ويساعد في الحفاظ على حموضة التربة المطلوبة للتوت الأزرق.",
+          "fr": "Fournit de l'azote à libération lente et aide à maintenir l'acidité du sol requise pour les myrtilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Rock Phosphate & Kelp Meal",
+          "ur": "پتھروں کا فاسفیٹ اور کیلپ میل",
+          "ar": "فوسفات الصخور ووجبة الكيلب",
+          "fr": "Phosphate de roche et farine d'algues"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of rock phosphate and 1 tablespoon of kelp meal around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ پتھروں کا فاسفیٹ اور 1 چمچ کیلپ میل چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من فوسفات الصخور وملعقة كبيرة من وجبة الكيلب حول قاعدة النبات. اخدشها برفق في الطبقة العلوية من التربة.",
+          "fr": "Saupoudrez 2 cuillères à soupe de phosphate de roche et 1 cuillère à soupe de farine d'algues autour de la base de la plante. Incorporez délicatement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 30,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Provides phosphorus and potassium essential for flower and fruit development without raising soil pH.",
+          "ur": "یہ پھولوں اور پھلوں کی نشوونما کے لیے ضروری فاسفورس اور پوٹاشیم فراہم کرتا ہے، بغیر مٹی کی تیزابیت بڑھائے۔",
+          "ar": "يوفر الفوسفور والبوتاسيوم الضروريين لتطور الزهور والثمار دون رفع حموضة التربة.",
+          "fr": "Fournit le phosphore et le potassium essentiels au développement des fleurs et des fruits sans augmenter le pH du sol."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal & Alfalfa Meal",
+          "ur": "کیلپ میل اور الفافا میل",
+          "ar": "وجبة الكيلب ووجبة البرسيم",
+          "fr": "Farine d'algues et farine de luzerne"
+        },
+        "preparation": {
+          "en": "Sprinkle 1 tablespoon of kelp meal and 1 tablespoon of alfalfa meal around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 1 چمچ کیلپ میل اور 1 چمچ الفافا میل چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقة كبيرة من وجبة الكيلب وملعقة كبيرة من وجبة البرسيم حول قاعدة النبات. اخدشها برفق في الطبقة العلوية من التربة.",
+          "fr": "Saupoudrez 1 cuillère à soupe de farine d'algues et 1 cuillère à soupe de farine de luzerne autour de la base de la plante. Incorporez délicatement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides potassium and trace minerals to enhance fruit quality and sweetness.",
+          "ur": "یہ پھل کے معیار اور مٹھاس کو بڑھانے کے لیے پوٹاشیم اور ٹریس منرلز فراہم کرتا ہے۔",
+          "ar": "يوفر البوتاسيوم والمعادن النادرة لتعزيز جودة الثمار وحلاوتها.",
+          "fr": "Fournit du potassium et des oligo-éléments pour améliorer la qualité et la douceur des fruits."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Ammonium Sulfate (21-0-0) or Acid-loving Plant Fertilizer",
+          "ur": "امونیم سلفیٹ (21-0-0) یا تیزابی پودوں کی کھاد",
+          "ar": "كبريتات الأمونيوم (21-0-0) أو سماد للنباتات المحبة للحموضة",
+          "fr": "Sulfate d'ammonium (21-0-0) ou engrais pour plantes acidophiles"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of Ammonium Sulfate in 1 gallon of water. Mix until fully dissolved. Avoid fertilizers containing nitrates.",
+          "ur": "ایک چمچ امونیم سلفیٹ 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔ نائٹریٹ والی کھادوں سے پرہیز کریں۔",
+          "ar": "أذب ملعقة كبيرة من كبريتات الأمونيوم في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا. تجنب الأسمدة التي تحتوي على النترات.",
+          "fr": "Dissolvez 1 cuillère à soupe de sulfate d'ammonium dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète. Évitez les engrais contenant des nitrates."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides nitrogen for vigorous growth and helps lower soil pH, which is crucial for blueberries.",
+          "ur": "یہ بھرپور نشوونما کے لیے نائٹروجن فراہم کرتا ہے اور مٹی کی تیزابیت کو کم کرنے میں مدد کرتا ہے، جو بلوبیری کے لیے بہت اہم ہے۔",
+          "ar": "يوفر النيتروجين لنمو قوي ويساعد على خفض حموضة التربة، وهو أمر حيوي للتوت الأزرق.",
+          "fr": "Fournit de l'azote pour une croissance vigoureuse et aide à abaisser le pH du sol, ce qui est crucial pour les myrtilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Acid-loving Plant Fertilizer (e.g., 4-8-8 or 5-10-10)",
+          "ur": "تیزابی پودوں کی کھاد (مثلاً 4-8-8 یا 5-10-10)",
+          "ar": "سماد للنباتات المحبة للحموضة (مثل 4-8-8 أو 5-10-10)",
+          "fr": "Engrais pour plantes acidophiles (ex: 4-8-8 ou 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of acid-loving plant fertilizer in 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ تیزابی پودوں کی کھاد 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من سماد النباتات المحبة للحموضة في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais pour plantes acidophiles dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Low nitrogen, higher phosphorus and potassium formula supports strong flower and fruit development.",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم کا فارمولا پھولوں اور پھلوں کی مضبوط نشوونما میں مدد کرتا ہے۔",
+          "ar": "تركيبة منخفضة النيتروجين وعالية الفوسفور والبوتاسيوم تدعم نمو الزهور والثمار القوي.",
+          "fr": "Formule à faible teneur en azote, plus riche en phosphore et potassium, favorise un fort développement des fleurs et des fruits."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Acid-loving Plant Fertilizer (e.g., 4-8-8 or 5-10-10)",
+          "ur": "تیزابی پودوں کی کھاد (مثلاً 4-8-8 یا 5-10-10)",
+          "ar": "سماد للنباتات المحبة للحموضة (مثل 4-8-8 أو 5-10-10)",
+          "fr": "Engrais pour plantes acidophiles (ex: 4-8-8 ou 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of acid-loving plant fertilizer in 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ تیزابی پودوں کی کھاد 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من سماد النباتات المحبة للحموضة في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais pour plantes acidophiles dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Continues to provide balanced nutrients for fruit maturation and overall plant health.",
+          "ur": "یہ پھل کے پکنے اور پودے کی مجموعی صحت کے لیے متوازن غذائی اجزاء فراہم کرتا رہتا ہے۔",
+          "ar": "يستمر في توفير العناصر الغذائية المتوازنة لنضج الثمار وصحة النبات بشكل عام.",
+          "fr": "Continue de fournir des nutriments équilibrés pour la maturation des fruits et la santé globale de la plante."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Cottonseed Meal",
+        "week2": "Ammonium Sulfate",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Rock Phosphate",
+        "week2": "Acid-loving Plant Fertilizer (P/K focus)",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "Acid-loving Plant Fertilizer (P/K focus)",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "rhododendron_azalea",
+      "benefit": {
+        "en": "These plants thrive in similar acidic soil conditions, making them good companions for blueberries.",
+        "ur": "یہ پودے تیزابی مٹی میں اچھی طرح بڑھتے ہیں، جو انہیں بلوبیری کے لیے اچھے ساتھی بناتے ہیں۔",
+        "ar": "تزدهر هذه النباتات في ظروف التربة الحمضية المماثلة، مما يجعلها رفقاء جيدين للتوت الأزرق.",
+        "fr": "Ces plantes prospèrent dans des conditions de sol acide similaires, ce qui en fait de bons compagnons pour les myrtilles."
+      }
+    },
+    {
+      "plantId": "pine_trees",
+      "benefit": {
+        "en": "Pine needles naturally acidify the soil as they decompose and provide a beneficial mulch layer.",
+        "ur": "پائن کی سوئیاں قدرتی طور پر مٹی کو تیزابی بناتی ہیں جب وہ گل جاتی ہیں اور ایک فائدہ مند ملچ کی تہہ فراہم کرتی ہیں۔",
+        "ar": "إبر الصنوبر تحمض التربة بشكل طبيعي عند تحللها وتوفر طبقة نشارة مفيدة.",
+        "fr": "Les aiguilles de pin acidifient naturellement le sol en se décomposant et fournissent une couche de paillis bénéfique."
+      }
+    },
+    {
+      "plantId": "strawberries",
+      "benefit": {
+        "en": "Strawberries act as a living ground cover, helping to retain soil moisture and suppress weeds, and they also prefer acidic soil.",
+        "ur": "اسٹرابیری ایک زندہ زمینی ڈھانچے کے طور پر کام کرتی ہے، جو مٹی کی نمی کو برقرار رکھنے اور جڑی بوٹیوں کو دبانے میں مدد کرتی ہے، اور انہیں بھی تیزابی مٹی پسند ہے۔",
+        "ar": "تعمل الفراولة كغطاء أرضي حي، مما يساعد على الاحتفاظ برطوبة التربة وقمع الأعشاب الضارة، كما أنها تفضل التربة الحمضية.",
+        "fr": "Les fraises agissent comme un couvre-sol vivant, aidant à retenir l'humidité du sol et à supprimer les mauvaises herbes, et elles préfèrent également les sols acides."
+      }
+    },
+    {
+      "plantId": "thyme",
+      "benefit": {
+        "en": "Thyme can help deter some common blueberry pests and acts as a low-growing ground cover.",
+        "ur": "تھائم کچھ عام بلوبیری کیڑوں کو دور رکھنے میں مدد کر سکتا ہے اور ایک کم بڑھنے والے زمینی ڈھانچے کے طور پر کام کرتا ہے۔",
+        "ar": "يمكن أن يساعد الزعتر في ردع بعض آفات التوت الأزرق الشائعة ويعمل كغطاء أرضي منخفض النمو.",
+        "fr": "Le thym peut aider à repousser certains ravageurs courants des myrtilles et agit comme un couvre-sol à croissance basse."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Marigolds are known to deter nematodes in the soil, which can be beneficial for blueberry root health.",
+        "ur": "میریگولڈز مٹی میں نیماٹوڈز کو دور رکھنے کے لیے جانے جاتے ہیں، جو بلوبیری کی جڑوں کی صحت کے لیے فائدہ مند ہو سکتا ہے۔",
+        "ar": "من المعروف أن زهور الماريجولد تردع الديدان الخيطية في التربة، مما يمكن أن يكون مفيدًا لصحة جذور التوت الأزرق.",
+        "fr": "Les œillets d'Inde sont connus pour repousser les nématodes dans le sol, ce qui peut être bénéfique pour la santé des racines des myrtilles."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Potatoes and blueberries have very different soil pH requirements and can compete for nutrients.",
+        "ur": "آلو اور بلوبیری کی مٹی کی تیزابیت کی ضروریات بہت مختلف ہوتی ہیں اور وہ غذائی اجزاء کے لیے مقابلہ کر سکتے ہیں۔",
+        "ar": "تختلف متطلبات حموضة التربة للبطاطس والتوت الأزرق بشكل كبير ويمكن أن تتنافس على العناصر الغذائية.",
+        "fr": "Les pommes de terre et les myrtilles ont des exigences de pH du sol très différentes et peuvent se faire concurrence pour les nutriments."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Tomatoes prefer a less acidic soil than blueberries and can be susceptible to similar diseases, increasing risk.",
+        "ur": "ٹماٹر بلوبیری کے مقابلے میں کم تیزابی مٹی کو ترجیح دیتے ہیں اور اسی طرح کی بیماریوں کا شکار ہو سکتے ہیں، جس سے خطرہ بڑھ جاتا ہے۔",
+        "ar": "تفضل الطماطم تربة أقل حمضية من التوت الأزرق ويمكن أن تكون عرضة لأمراض مماثلة، مما يزيد من المخاطر.",
+        "fr": "Les tomates préfèrent un sol moins acide que les myrtilles et peuvent être sensibles aux mêmes maladies, augmentant les risques."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "Brassicas like cabbage prefer neutral to alkaline soil, which is detrimental to acid-loving blueberries.",
+        "ur": "گوبھی جیسی براسیکا غیر جانبدار سے الکلائن مٹی کو ترجیح دیتی ہے، جو تیزابی بلوبیری کے لیے نقصان دہ ہے۔",
+        "ar": "تفضل الكرنب والبروكلي التربة المحايدة إلى القلوية، وهو أمر ضار للتوت الأزرق المحب للحموضة.",
+        "fr": "Les brassicacées comme le chou préfèrent un sol neutre à alcalin, ce qui est préjudiciable aux myrtilles acidophiles."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Fennel is known to inhibit the growth of many plants, including blueberries, due to chemicals released from its roots.",
+        "ur": "فینل اپنی جڑوں سے خارج ہونے والے کیمیکلز کی وجہ سے بلوبیری سمیت کئی پودوں کی نشوونما کو روکنے کے لیے جانا جاتا ہے۔",
+        "ar": "من المعروف أن الشمر يثبط نمو العديد من النباتات، بما في ذلك التوت الأزرق، بسبب المواد الكيميائية التي تطلقها جذوره.",
+        "fr": "Le fenouil est connu pour inhiber la croissance de nombreuses plantes, y compris les myrtilles, en raison des produits chimiques libérés par ses racines."
+      }
+    },
+    {
+      "plantId": "alfalfa",
+      "reason": {
+        "en": "Alfalfa can raise soil pH and compete for nutrients, making it unsuitable for blueberries.",
+        "ur": "الفافا مٹی کی تیزابیت کو بڑھا سکتا ہے اور غذائی اجزاء کے لیے مقابلہ کر سکتا ہے، جو اسے بلوبیری کے لیے نامناسب بناتا ہے۔",
+        "ar": "يمكن أن يرفع البرسيم حموضة التربة ويتنافس على العناصر الغذائية، مما يجعله غير مناسب للتوت الأزرق.",
+        "fr": "La luzerne peut augmenter le pH du sol et concurrencer les nutriments, ce qui la rend inadaptée aux myrtilles."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "mummy_berry",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing flowers and young leaves to wilt and turn brown. Berries shrivel, turn gray, and become hard 'mummies' that fall to the ground.",
+        "ur": "فنگل بیماری جو پھولوں اور نئے پتوں کو مرجھا کر بھورا کر دیتی ہے۔ بیریاں سکڑ کر بھوری ہو جاتی ہیں اور سخت 'ممی' بن کر زمین پر گر جاتی ہیں۔",
+        "ar": "مرض فطري يسبب ذبول وتحول الزهور والأوراق الصغيرة إلى اللون البني. تتقلص الثمار وتتحول إلى اللون الرمادي وتصبح 'مومياوات' صلبة تسقط على الأرض.",
+        "fr": "Maladie fongique provoquant le flétrissement et le brunissement des fleurs et des jeunes feuilles. Les baies se ratatinent, deviennent grises et dures, tombant au sol."
+      }
+    },
+    {
+      "pestId": "anthracnose",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes sunken, dark spots on ripe fruit, leading to rot. Can also cause twig dieback and leaf spots.",
+        "ur": "پکے پھلوں پر دھنسے ہوئے، گہرے دھبے پیدا کرتا ہے، جس سے وہ گل جاتے ہیں۔ یہ ٹہنیوں کے مرنے اور پتوں پر دھبوں کا بھی سبب بن سکتا ہے۔",
+        "ar": "يسبب بقعًا غائرة وداكنة على الثمار الناضجة، مما يؤدي إلى تعفنها. يمكن أن يسبب أيضًا موت الأغصان وبقع الأوراق.",
+        "fr": "Provoque des taches sombres et enfoncées sur les fruits mûrs, entraînant la pourriture. Peut également causer le dépérissement des rameaux et des taches foliaires."
+      }
+    },
+    {
+      "pestId": "phytophthora_root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-28",
+        "soilMoisture": "saturated"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves turn yellow, growth is stunted, and plants wilt, especially in wet, poorly drained soils. Roots appear dark and mushy.",
+        "ur": "پتے پیلے ہو جاتے ہیں، نشوونما رک جاتی ہے، اور پودے مرجھا جاتے ہیں، خاص طور پر گیلی، ناقص نکاسی والی مٹی میں۔ جڑیں گہری اور نرم نظر آتی ہیں۔",
+        "ar": "تتحول الأوراق إلى اللون الأصفر، ويتوقف النمو، وتذبل النباتات، خاصة في التربة الرطبة سيئة التصريف. تبدو الجذور داكنة ولزجة.",
+        "fr": "Les feuilles jaunissent, la croissance est ralentie et les plantes flétrissent, surtout dans les sols humides et mal drainés. Les racines apparaissent sombres et molles."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches appear on leaves, especially new growth, causing distortion and reduced photosynthesis.",
+        "ur": "پتوں پر، خاص طور پر نئی نشوونما پر، سفید، پاؤڈر جیسے دھبے ظاہر ہوتے ہیں، جس سے پتے بگڑ جاتے ہیں اور ضیائی تالیف کم ہو جاتی ہے۔",
+        "ar": "تظهر بقع بيضاء مسحوقية على الأوراق، خاصة النمو الجديد، مما يسبب تشوهًا وتقليلًا في عملية التمثيل الضوئي.",
+        "fr": "Des taches blanches et poudreuses apparaissent sur les feuilles, surtout les nouvelles pousses, provoquant une distorsion et une réduction de la photosynthèse."
+      }
+    },
+    {
+      "pestId": "blueberry_maggot",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small white maggots infest ripening fruit, causing them to soften, become mushy, and drop prematurely. Look for small punctures on fruit.",
+        "ur": "چھوٹے سفید کیڑے پکے ہوئے پھلوں کو متاثر کرتے ہیں، جس سے وہ نرم، گدلے ہو جاتے ہیں اور وقت سے پہلے گر جاتے ہیں۔ پھلوں پر چھوٹے سوراخ تلاش کریں۔",
+        "ar": "تغزو اليرقات البيضاء الصغيرة الثمار الناضجة، مما يجعلها تلين وتصبح طرية وتسقط قبل الأوان. ابحث عن ثقوب صغيرة على الثمار.",
+        "fr": "De petites larves blanches infestent les fruits mûrissants, les rendant mous, pâteux et les faisant tomber prématurément. Cherchez de petites perforations sur les fruits."
+      }
+    },
+    {
+      "pestId": "spotted_wing_drosophila",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny flies lay eggs in ripening fruit, leading to larvae feeding inside, causing soft spots and premature decay. Can devastate a crop.",
+        "ur": "چھوٹی مکھیاں پکے ہوئے پھلوں میں انڈے دیتی ہیں، جس سے اندر لاروا پیدا ہوتا ہے جو پھل کو نرم اور وقت سے پہلے گلنے کا سبب بنتا ہے۔ یہ فصل کو تباہ کر سکتا ہے۔",
+        "ar": "تضع الذبابات الصغيرة بيضها في الثمار الناضجة، مما يؤدي إلى تغذي اليرقات في الداخل، مسببة بقعًا ناعمة وتعفنًا مبكرًا. يمكن أن تدمر المحصول.",
+        "fr": "De minuscules mouches pondent leurs œufs dans les fruits mûrissants, entraînant des larves qui se nourrissent à l'intérieur, provoquant des taches molles et une pourriture prématurée. Peut dévaster une récolte."
+      }
+    },
+    {
+      "pestId": "birds",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Birds are highly attracted to ripe blueberries and can consume a significant portion of the crop if not protected by netting.",
+        "ur": "پرندے پکی ہوئی بلوبیری کی طرف بہت زیادہ متوجہ ہوتے ہیں اور اگر انہیں جال سے محفوظ نہ کیا جائے تو وہ فصل کا ایک بڑا حصہ کھا سکتے ہیں۔",
+        "ar": "تنجذب الطيور بشدة إلى التوت الأزرق الناضج ويمكن أن تستهلك جزءًا كبيرًا من المحصول إذا لم يتم حمايته بالشباك.",
+        "fr": "Les oiseaux sont fortement attirés par les myrtilles mûres et peuvent consommer une partie importante de la récolte si elles ne sont pas protégées par un filet."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and causing distorted leaves and sticky honeydew.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں اور پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور پتوں کو بگاڑ دیتے ہیں اور چپچپا شہد جیسا مادہ خارج کرتے ہیں۔",
+        "ar": "حشرات صغيرة ذات جسم ناعم تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه الأوراق وندى عسلي لزج.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant des feuilles déformées et du miellat collant."
+      }
+    },
+    {
+      "pestId": "chlorosis_iron_deficiency",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any",
+        "soilpH": ">5.5"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves turn yellow, but the veins remain green. This indicates iron deficiency, often caused by high soil pH preventing nutrient uptake.",
+        "ur": "پتے پیلے ہو جاتے ہیں، لیکن رگیں سبز رہتی ہیں۔ یہ آئرن کی کمی کی نشاندہی کرتا ہے، جو اکثر مٹی کی زیادہ تیزابیت کی وجہ سے غذائی اجزاء کے جذب کو روکتا ہے۔",
+        "ar": "تتحول الأوراق إلى اللون الأصفر، لكن العروق تبقى خضراء. يشير هذا إلى نقص الحديد، والذي غالبًا ما يكون سببه ارتفاع حموضة التربة الذي يمنع امتصاص المغذيات.",
+        "fr": "Les feuilles jaunissent, mais les nervures restent vertes. Cela indique une carence en fer, souvent causée par un pH du sol élevé empêchant l'absorption des nutriments."
+      }
+    },
+    {
+      "pestId": "winter_injury",
+      "vulnerableStages": [
+        "DORMANT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "<-15"
+      },
+      "plantSpecificNotes": {
+        "en": "Dieback of branches, bud damage, and reduced vigor or plant death due to extreme cold or sudden temperature fluctuations.",
+        "ur": "شدید سردی یا درجہ حرارت میں اچانک تبدیلیوں کی وجہ سے شاخوں کا مرجھانا، کلیوں کو نقصان، اور پودے کی کمزوری یا موت۔",
+        "ar": "موت الفروع، وتلف البراعم، وضعف النمو أو موت النبات بسبب البرد الشديد أو التقلبات المفاجئة في درجات الحرارة.",
+        "fr": "Dépérissement des branches, dommages aux bourgeons et vigueur réduite ou mort de la plante en raison du froid extrême ou des fluctuations soudaines de température."
+      }
+    },
+    {
+      "pestId": "botrytis_blight_gray_mold",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Gray, fuzzy mold appears on flowers, leaves, and fruit, causing them to rot. Prevalent in cool, wet, and humid conditions.",
+        "ur": "پھولوں، پتوں اور پھلوں پر سرمئی، روئیں دار پھپھوندی ظاہر ہوتی ہے، جس سے وہ گل جاتے ہیں۔ یہ ٹھنڈے، گیلے اور مرطوب حالات میں عام ہے۔",
+        "ar": "يظهر عفن رمادي زغبي على الزهور والأوراق والثمار، مما يسبب تعفنها. ينتشر في الظروف الباردة والرطبة والمشبعة بالرطوبة.",
+        "fr": "Une moisissure grise et duveteuse apparaît sur les fleurs, les feuilles et les fruits, les faisant pourrir. Prévalente dans des conditions fraîches, humides et moites."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 45,
+    "readinessSigns": [
+      {
+        "en": "Fully deep blue/purple color",
+        "ur": "مکمل گہرا نیلا/جامنی رنگ",
+        "ar": "لون أزرق/بنفسجي غامق بالكامل",
+        "fr": "Couleur bleu/violet foncé intense"
+      },
+      {
+        "en": "Soft to the touch",
+        "ur": "چھونے میں نرم",
+        "ar": "ناعمة الملمس",
+        "fr": "Douce au toucher"
+      },
+      {
+        "en": "Easily detaches from the stem",
+        "ur": "تنے سے آسانی سے الگ ہو جاتی ہے",
+        "ar": "تنفصل بسهولة عن الساق",
+        "fr": "Se détache facilement de la tige"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently roll ripe berries off the cluster with your thumb into your palm. Avoid pulling, which can damage the plant.",
+        "ur": "پکی ہوئی بیریوں کو انگلی سے آہستہ سے گچھے سے الگ کر کے اپنی ہتھیلی میں رکھیں۔ کھینچنے سے گریز کریں، جو پودے کو نقصان پہنچا سکتا ہے۔",
+        "ar": "دحرج التوت الناضج برفق من العنقود بإبهامك إلى راحة يدك. تجنب السحب، فقد يؤدي ذلك إلى إتلاف النبات.",
+        "fr": "Faites rouler délicatement les baies mûres du bouquet avec votre pouce dans votre paume. Évitez de tirer, ce qui pourrait endommager la plante."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest multiple times over several weeks, picking only fully ripe berries for the best flavor. Check for firmness and uniform color.",
+        "ur": "کئی ہفتوں تک کئی بار کٹائی کریں، بہترین ذائقے کے لیے صرف مکمل پکی ہوئی بیریاں چنیں۔ مضبوطی اور یکساں رنگ کی جانچ کریں۔",
+        "ar": "احصد عدة مرات على مدار عدة أسابيع، واقطف فقط الثمار الناضجة تمامًا للحصول على أفضل نكهة. تحقق من الصلابة واللون الموحد.",
+        "fr": "Récoltez plusieurs fois sur plusieurs semaines, en ne cueillant que les baies entièrement mûres pour une saveur optimale. Vérifiez la fermeté et la couleur uniforme."
+      },
+      "EXPERT": {
+        "en": "For optimal sweetness, wait a few days after berries turn blue before harvesting. They will continue to sweeten on the bush.",
+        "ur": "بہترین مٹھاس کے لیے، بیریاں نیلی ہونے کے چند دن بعد تک انتظار کریں پھر کٹائی کریں۔ وہ جھاڑی پر مزید میٹھی ہوتی رہیں گی۔",
+        "ar": "للحصول على أفضل حلاوة، انتظر بضعة أيام بعد أن يتحول لون التوت إلى الأزرق قبل الحصاد. ستستمر في التحلية على الشجيرة.",
+        "fr": "Pour une douceur optimale, attendez quelques jours après que les baies soient devenues bleues avant de les récolter. Elles continueront à s'adoucir sur le buisson."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate unwashed for 1-2 weeks, or freeze for longer storage.",
+      "ur": "بغیر دھوئے 1-2 ہفتے کے لیے فریج میں رکھیں، یا زیادہ دیر تک ذخیرہ کرنے کے لیے منجمد کریں۔",
+      "ar": "احفظها في الثلاجة غير مغسولة لمدة 1-2 أسبوع، أو جمدها لتخزين أطول.",
+      "fr": "Réfrigérez non lavées pendant 1 à 2 semaines, ou congelez pour une conservation plus longue."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1.5,
+      "30L": 2.5,
+      "GROUND": 4
+    }
+  }
+}

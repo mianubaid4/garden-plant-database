@@ -1,0 +1,1351 @@
+{
+  "id": "raspberry",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1587393856407-339234199580?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Raspberry",
+      "alternate": []
+    },
+    "ur": {
+      "common": "رس بھری",
+      "alternate": []
+    },
+    "ar": {
+      "common": "توت العليق",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Framboise",
+      "alternate": []
+    },
+    "botanical": "Rubus idaeus",
+    "aliases": [
+      "rasberry",
+      "framboise",
+      "tut al-aliq",
+      "rasbhari"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "berry",
+  "germinationDays": 21,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "FLORICANE",
+    "PRIMOCANE"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "FLORICANE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Produce fruit on second-year canes (floricanes). Requires pruning of spent canes after fruiting.",
+          "ur": "دوسرے سال کی شاخوں (فلوریکینز) پر پھل دیتے ہیں۔ پھل دینے کے بعد پرانی شاخوں کی کٹائی ضروری ہے۔",
+          "ar": "تنتج الفاكهة على قصبات السنة الثانية (فلوريكينز). تتطلب تقليم القصبات المستهلكة بعد الإثمار.",
+          "fr": "Produit des fruits sur les cannes de deuxième année (floricanes). Nécessite la taille des cannes épuisées après la fructification."
+        }
+      },
+      "PRIMOCANE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Produce fruit on first-year canes (primocanes) in late summer/fall. Can be pruned to the ground in late winter for a single fall crop.",
+          "ur": "پہلے سال کی شاخوں (پرائموکینز) پر موسم گرما کے آخر/خزاں میں پھل دیتے ہیں۔ ایک ہی خزاں کی فصل کے لیے موسم سرما کے آخر میں زمین تک کاٹا جا سکتا ہے۔",
+          "ar": "تنتج الفاكهة على قصبات السنة الأولى (بريموكينز) في أواخر الصيف/الخريف. يمكن تقليمها إلى الأرض في أواخر الشتاء للحصول على محصول خريفي واحد.",
+          "fr": "Produit des fruits sur les cannes de première année (primocanes) à la fin de l'été/automne. Peut être taillé au sol à la fin de l'hiver pour une seule récolte d'automne."
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "berry",
+    "perennial",
+    "fruiting",
+    "cold-hardy",
+    "container-friendly",
+    "cane-fruit",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 25,
+    "survivalMinC": -25,
+    "survivalMaxC": 30,
+    "germinationMinC": 15,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": -5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "LOW",
+    "daysToMaturity": 365,
+    "requiredGDD": 1500,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 30,
+      "coldStressCriticalC": -10,
+      "frostWarningC": -2,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "medium",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "small fruits",
+      "reduced yield"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "root rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Drip irrigation or soaker hose",
+    "thingsToAvoid": [
+      "overhead watering (can promote fungal diseases)",
+      "standing water",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow to medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature",
+      "add organic matter"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires large pots with good drainage. May need support.",
+        "ur": "اچھے نکاسی والے بڑے گملے درکار ہیں۔ سہارے کی ضرورت پڑ سکتی ہے۔",
+        "ar": "يتطلب أواني كبيرة ذات تصريف جيد. قد يحتاج إلى دعم.",
+        "fr": "Nécessite de grands pots avec un bon drainage. Peut nécessiter un support."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Excellent for air pruning roots and drainage.",
+        "ur": "جڑوں کی ہوا سے کٹائی اور نکاسی کے لیے بہترین۔",
+        "ar": "ممتاز لتهوية الجذور والتصريف.",
+        "fr": "Excellent pour l'élagage aérien des racines et le drainage."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 45,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Requires good soil preparation and support system (trellis).",
+        "ur": "اچھی مٹی کی تیاری اور سہارے کے نظام (ٹریلس) کی ضرورت ہے۔",
+        "ar": "يتطلب إعدادًا جيدًا للتربة ونظام دعم (تعريشة).",
+        "fr": "Nécessite une bonne préparation du sol et un système de support (treillis)."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Ideal for controlling soil conditions and drainage.",
+        "ur": "مٹی کی حالت اور نکاسی کو کنٹرول کرنے کے لیے مثالی۔",
+        "ar": "مثالي للتحكم في ظروف التربة والصرف.",
+        "fr": "Idéal pour contrôler les conditions du sol et le drainage."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "2-3 years",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Planting bare-root canes or young plants",
+        "ur": "ننگے جڑوں والے پودے یا جوان پودے لگانا",
+        "ar": "زراعة الشتلات عارية الجذور أو النباتات الصغيرة",
+        "fr": "Plantation de cannes à racines nues ou de jeunes plants"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare a well-draining, fertile soil bed. Amend with compost.",
+              "ur": "اچھی نکاسی والی، زرخیز مٹی تیار کریں۔ کھاد شامل کریں۔",
+              "ar": "جهز تربة جيدة التصريف وخصبة. أضف السماد العضوي.",
+              "fr": "Préparez un sol bien drainé et fertile. Amendez avec du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil pH is between 5.5-6.5. Incorporate aged manure.",
+              "ur": "یقینی بنائیں کہ مٹی کا پی ایچ 5.5-6.5 کے درمیان ہو۔ پرانی کھاد شامل کریں۔",
+              "ar": "تأكد من أن درجة حموضة التربة بين 5.5-6.5. أضف السماد القديم.",
+              "fr": "Assurez un pH du sol entre 5.5-6.5. Incorporez du fumier vieilli."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test. Adjust nutrients and pH for optimal raspberry growth.",
+              "ur": "مٹی کا ٹیسٹ کروائیں۔ راسبیری کی بہترین نشوونما کے لیے غذائی اجزاء اور پی ایچ کو ایڈجسٹ کریں۔",
+              "ar": "قم بإجراء اختبار للتربة. اضبط المغذيات ودرجة الحموضة لنمو التوت الأمثل.",
+              "fr": "Effectuez un test de sol. Ajustez les nutriments et le pH pour une croissance optimale des framboises."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Dig a hole wide enough for roots. Plant canes 2-3 inches deep, 2-3 feet apart.",
+              "ur": "جڑوں کے لیے کافی چوڑا گڑھا کھودیں۔ پودوں کو 2-3 انچ گہرا، 2-3 فٹ کے فاصلے پر لگائیں۔",
+              "ar": "احفر حفرة واسعة بما يكفي للجذور. ازرع الشتلات بعمق 2-3 بوصات، وبفارق 2-3 أقدام.",
+              "fr": "Creusez un trou assez large pour les racines. Plantez les cannes à 2-3 pouces de profondeur, espacées de 2-3 pieds."
+            },
+            "INTERMEDIATE": {
+              "en": "Spread roots evenly. Backfill with soil, ensuring crown is at soil level.",
+              "ur": "جڑوں کو یکساں طور پر پھیلائیں۔ مٹی سے بھریں، یقینی بنائیں کہ تاج مٹی کی سطح پر ہو۔",
+              "ar": "انشر الجذور بالتساوي. املأ بالتربة، مع التأكد من أن التاج على مستوى التربة.",
+              "fr": "Étalez les racines uniformément. Remplissez de terre, en vous assurant que la couronne est au niveau du sol."
+            },
+            "EXPERT": {
+              "en": "Create a mound in the planting hole for bare roots. Fan roots over the mound.",
+              "ur": "ننگے جڑوں کے لیے گڑھے میں ایک ٹیلہ بنائیں۔ جڑوں کو ٹیلے پر پھیلائیں۔",
+              "ar": "أنشئ كومة في حفرة الزراعة للجذور العارية. انشر الجذور فوق الكومة.",
+              "fr": "Créez un monticule dans le trou de plantation pour les racines nues. Étalez les racines sur le monticule."
+            }
+          }
+        },
+        "initialWatering": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly after planting to settle the soil.",
+              "ur": "لگانے کے بعد مٹی کو اچھی طرح پانی دیں تاکہ وہ بیٹھ جائے۔",
+              "ar": "اسقِ جيدًا بعد الزراعة لتثبيت التربة.",
+              "fr": "Arrosez abondamment après la plantation pour tasser le sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply until soil is saturated around the root zone.",
+              "ur": "جڑوں کے علاقے کے ارد گرد مٹی سیراب ہونے تک گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق حتى تتشبع التربة حول منطقة الجذور.",
+              "fr": "Arrosez profondément jusqu'à ce que le sol soit saturé autour de la zone racinaire."
+            },
+            "EXPERT": {
+              "en": "Apply a slow, deep watering to encourage root establishment.",
+              "ur": "جڑوں کے قیام کی حوصلہ افزائی کے لیے آہستہ، گہرا پانی دیں۔",
+              "ar": "طبق سقيًا بطيئًا وعميقًا لتشجيع ترسيخ الجذور.",
+              "fr": "Appliquez un arrosage lent et profond pour encourager l'établissement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "New shoots emerge and roots establish",
+        "ur": "نئی کونپلیں نکلنا اور جڑیں مضبوط ہونا",
+        "ar": "ظهور براعم جديدة وتثبيت الجذور",
+        "fr": "Émergence de nouvelles pousses et établissement des racines"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں، لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن لا تغمرها بالماء.",
+              "fr": "Gardez le sol constamment humide, mais pas gorgé d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Check soil moisture daily. Water when the top inch feels dry.",
+              "ur": "روزانہ مٹی کی نمی چیک کریں۔ جب اوپر کی ایک انچ خشک محسوس ہو تو پانی دیں۔",
+              "ar": "تحقق من رطوبة التربة يوميًا. اسقِ عندما تشعر أن البوصة العلوية جافة.",
+              "fr": "Vérifiez l'humidité du sol quotidiennement. Arrosez lorsque le premier pouce est sec."
+            }
+          }
+        },
+        "monitoring": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for new green shoots emerging from the ground.",
+              "ur": "زمین سے نکلنے والی نئی سبز کونپلیں تلاش کریں۔",
+              "ar": "ابحث عن براعم خضراء جديدة تظهر من الأرض.",
+              "fr": "Recherchez de nouvelles pousses vertes émergeant du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect for any signs of stress or pest activity on new growth.",
+              "ur": "نئی نشوونما پر تناؤ یا کیڑوں کی سرگرمی کی کوئی بھی علامت چیک کریں۔",
+              "ar": "افحص أي علامات إجهاد أو نشاط آفات على النمو الجديد.",
+              "fr": "Inspectez tout signe de stress ou d'activité parasitaire sur les nouvelles pousses."
+            },
+            "EXPERT": {
+              "en": "Assess vigor of emerging canes. Ensure proper spacing and light exposure.",
+              "ur": "نکلنے والے پودوں کی طاقت کا اندازہ لگائیں۔ مناسب فاصلہ اور روشنی کی نمائش یقینی بنائیں۔",
+              "ar": "قيم قوة الشتلات الناشئة. تأكد من التباعد المناسب والتعرض للضوء.",
+              "fr": "Évaluez la vigueur des cannes émergentes. Assurez un espacement et une exposition à la lumière appropriés."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Canes grow taller and develop leaves",
+        "ur": "پودے لمبے ہوتے ہیں اور پتے نکلتے ہیں",
+        "ar": "تنمو السيقان أطول وتتطور الأوراق",
+        "fr": "Les cannes poussent et développent des feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply when the top inch of soil is dry.",
+              "ur": "جب مٹی کی اوپر کی ایک انچ خشک ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تكون البوصة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque le premier pouce de terre est sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture to support rapid cane growth.",
+              "ur": "تیز پودوں کی نشوونما کو سہارا دینے کے لیے مسلسل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة ثابتة لدعم النمو السريع للسيقان.",
+              "fr": "Maintenez une humidité constante pour soutenir la croissance rapide des cannes."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture profile to ensure deep root hydration.",
+              "ur": "گہری جڑوں کی ہائیڈریشن کو یقینی بنانے کے لیے مٹی کی نمی کی پروفائل کی نگرانی کریں۔",
+              "ar": "راقب ملف رطوبة التربة لضمان ترطيب عميق للجذور.",
+              "fr": "Surveillez le profil d'humidité du sol pour assurer une hydratation profonde des racines."
+            }
+          }
+        },
+        "support": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Install a simple trellis or stakes for canes to lean on.",
+              "ur": "پودوں کو سہارا دینے کے لیے ایک سادہ ٹریلس یا ڈنڈے لگائیں۔",
+              "ar": "قم بتركيب تعريشة بسيطة أو أوتاد لتستند عليها السيقان.",
+              "fr": "Installez un simple treillis ou des tuteurs pour soutenir les cannes."
+            },
+            "INTERMEDIATE": {
+              "en": "Begin training canes to the trellis as they grow, using soft ties.",
+              "ur": "پودوں کو بڑھنے کے ساتھ ہی نرم پٹیوں کا استعمال کرتے ہوئے ٹریلس پر تربیت دینا شروع کریں۔",
+              "ar": "ابدأ في تدريب السيقان على التعريشة أثناء نموها، باستخدام روابط ناعمة.",
+              "fr": "Commencez à palisser les cannes sur le treillis au fur et à mesure de leur croissance, en utilisant des liens souples."
+            },
+            "EXPERT": {
+              "en": "Establish a permanent trellising system (e.g., T-trellis, V-trellis) for optimal support.",
+              "ur": "بہترین سہارے کے لیے ایک مستقل ٹریلسنگ سسٹم (جیسے T-ٹریلس، V-ٹریلس) قائم کریں۔",
+              "ar": "أنشئ نظام تعريشة دائم (مثل تعريشة T، تعريشة V) للحصول على دعم مثالي.",
+              "fr": "Établissez un système de palissage permanent (par exemple, treillis en T, treillis en V) pour un soutien optimal."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 75,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Strong cane growth and structural development",
+        "ur": "مضبوط پودوں کی نشوونما اور ڈھانچہ جاتی ترقی",
+        "ar": "نمو قوي للسيقان وتطور هيكلي",
+        "fr": "Forte croissance des cannes et développement structurel"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "pruning": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any weak, damaged, or diseased canes at ground level.",
+              "ur": "کسی بھی کمزور، خراب یا بیمار پودوں کو زمین کی سطح سے ہٹا دیں۔",
+              "ar": "أزل أي سيقان ضعيفة أو تالفة أو مريضة من مستوى الأرض.",
+              "fr": "Retirez toutes les cannes faibles, endommagées ou malades au niveau du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Thin out primocanes to 6-8 strongest per linear foot for optimal air circulation.",
+              "ur": "بہترین ہوا کی گردش کے لیے ہر فٹ میں 6-8 مضبوط ترین پرائموکینز کو پتلا کریں۔",
+              "ar": "خفف السيقان الأولية إلى 6-8 أقوى سيقان لكل قدم طولي لتهوية مثالية.",
+              "fr": "Éclaircissez les primocanes à 6-8 des plus fortes par pied linéaire pour une circulation d'air optimale."
+            },
+            "EXPERT": {
+              "en": "Distinguish between primocanes and floricanes. Prune according to raspberry type (everbearing vs. summer-bearing).",
+              "ur": "پرائموکینز اور فلوریکینز میں فرق کریں۔ راسبیری کی قسم (ایوربیئرنگ بمقابلہ سمر بیئرنگ) کے مطابق چھانٹیں۔",
+              "ar": "ميز بين السيقان الأولية والسيقان المزهرة. قم بالتقليم وفقًا لنوع التوت (مثمر دائم مقابل مثمر صيفي).",
+              "fr": "Distinguez les primocanes des floricanes. Taillez selon le type de framboisier (remontant vs non-remontant)."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for common pests like aphids or Japanese beetles. Hand-pick or spray with insecticidal soap.",
+              "ur": "ایفڈز یا جاپانی بیٹلز جیسے عام کیڑوں کو چیک کریں۔ ہاتھ سے چنیں یا کیڑے مار صابن سے سپرے کریں۔",
+              "ar": "ابحث عن الآفات الشائعة مثل المن أو خنافس اليابان. قم بإزالتها يدويًا أو رشها بالصابون المبيد للحشرات.",
+              "fr": "Vérifiez la présence de ravageurs courants comme les pucerons ou les hannetons japonais. Ramassez-les à la main ou pulvérisez avec du savon insecticide."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray preventatively, focusing on undersides of leaves.",
+              "ur": "پتوں کے نچلے حصوں پر توجہ مرکوز کرتے ہوئے، نامیاتی کیڑے مار دوا کا احتیاطی طور پر استعمال کریں۔",
+              "ar": "طبق رشًا عضويًا للآفات بشكل وقائي، مع التركيز على الجانب السفلي من الأوراق.",
+              "fr": "Appliquez un spray antiparasitaire biologique de manière préventive, en vous concentrant sur le dessous des feuilles."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy. Introduce beneficial insects if needed.",
+              "ur": "ایک مربوط کیڑے مار انتظام (IPM) حکمت عملی نافذ کریں۔ ضرورت پڑنے پر فائدہ مند کیڑے متعارف کروائیں۔",
+              "ar": "نفذ استراتيجية متكاملة لإدارة الآفات (IPM). أدخل الحشرات النافعة إذا لزم الأمر.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM). Introduisez des insectes bénéfiques si nécessaire."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once or twice a week, depending on rainfall.",
+              "ur": "بارش کے لحاظ سے ہفتے میں ایک یا دو بار گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق مرة أو مرتين في الأسبوع، حسب هطول الأمطار.",
+              "fr": "Arrosez profondément une ou deux fois par semaine, selon les précipitations."
+            },
+            "INTERMEDIATE": {
+              "en": "Aim for 1-2 inches of water per week, ensuring deep penetration.",
+              "ur": "ہر ہفتے 1-2 انچ پانی کا ہدف رکھیں، گہری دخول کو یقینی بنائیں۔",
+              "ar": "استهدف 1-2 بوصة من الماء أسبوعيًا، مع ضمان اختراق عميق.",
+              "fr": "Visez 1 à 2 pouces d'eau par semaine, en assurant une pénétration profonde."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation to provide consistent moisture directly to the root zone.",
+              "ur": "جڑوں کے علاقے میں براہ راست مسلسل نمی فراہم کرنے کے لیے ڈرپ ایریگیشن کا استعمال کریں۔",
+              "ar": "استخدم الري بالتنقيط لتوفير رطوبة ثابتة مباشرة لمنطقة الجذور.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour fournir une humidité constante directement à la zone racinaire."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Flowers bloom, attracting pollinators",
+        "ur": "پھول کھلتے ہیں، پولینیٹرز کو اپنی طرف متوجہ کرتے ہیں",
+        "ar": "تتفتح الأزهار، وتجذب الملقحات",
+        "fr": "Les fleurs s'épanouissent, attirant les pollinisateurs"
+      },
+      "emoji": "🌼",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent moisture during flowering to support fruit set.",
+              "ur": "پھول آنے کے دوران مسلسل نمی برقرار رکھیں تاکہ پھل لگنے میں مدد ملے۔",
+              "ar": "حافظ على رطوبة ثابتة أثناء الإزهار لدعم عقد الثمار.",
+              "fr": "Maintenez une humidité constante pendant la floraison pour favoriser la nouaison."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid overhead watering to prevent fungal diseases on flowers.",
+              "ur": "پھولوں پر فنگل بیماریوں سے بچنے کے لیے اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تجنب الري العلوي لمنع الأمراض الفطرية على الأزهار.",
+              "fr": "Évitez l'arrosage par le haut pour prévenir les maladies fongiques sur les fleurs."
+            },
+            "EXPERT": {
+              "en": "Ensure adequate water supply to prevent blossom drop and promote strong fruit development.",
+              "ur": "پھولوں کے گرنے سے بچنے اور مضبوط پھلوں کی نشوونما کو فروغ دینے کے لیے پانی کی مناسب فراہمی یقینی بنائیں۔",
+              "ar": "تأكد من توفر إمدادات كافية من الماء لمنع تساقط الأزهار وتعزيز نمو الثمار القوي.",
+              "fr": "Assurez un approvisionnement en eau adéquat pour prévenir la chute des fleurs et favoriser un fort développement des fruits."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Monitor for pests, especially Japanese beetles, which can damage flowers.",
+              "ur": "کیڑوں کی نگرانی کریں، خاص طور پر جاپانی بیٹلز، جو پھولوں کو نقصان پہنچا سکتے ہیں۔",
+              "ar": "راقب الآفات، خاصة خنافس اليابان، التي يمكن أن تلحق الضرر بالأزهار.",
+              "fr": "Surveillez les ravageurs, en particulier les hannetons japonais, qui peuvent endommager les fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Use organic pest control methods that are safe for pollinators, such as neem oil.",
+              "ur": "پولینیٹرز کے لیے محفوظ نامیاتی کیڑے مار کنٹرول کے طریقے استعمال کریں، جیسے نیم کا تیل۔",
+              "ar": "استخدم طرق مكافحة الآفات العضوية الآمنة للملقحات، مثل زيت النيم.",
+              "fr": "Utilisez des méthodes de lutte antiparasitaire biologiques sans danger pour les pollinisateurs, comme l'huile de neem."
+            },
+            "EXPERT": {
+              "en": "Implement targeted pest management to protect pollinators. Consider biological controls.",
+              "ur": "پولینیٹرز کی حفاظت کے لیے ہدف شدہ کیڑے مار انتظام نافذ کریں۔ حیاتیاتی کنٹرول پر غور کریں۔",
+              "ar": "نفذ إدارة الآفات المستهدفة لحماية الملقحات. فكر في المكافحة البيولوجية.",
+              "fr": "Mettez en œuvre une gestion ciblée des ravageurs pour protéger les pollinisateurs. Envisagez les contrôles biologiques."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 35,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 45,
+      "description": {
+        "en": "Berries develop and mature",
+        "ur": "بیریاں بنتی ہیں اور پکتی ہیں",
+        "ar": "تتطور الثمار وتنضج",
+        "fr": "Les baies se développent et mûrissent"
+      },
+      "emoji": "🍓",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide ample water to ensure plump, juicy berries.",
+              "ur": "موٹی، رسیلی بیریوں کو یقینی بنانے کے لیے کافی پانی فراہم کریں۔",
+              "ar": "وفر كمية كافية من الماء لضمان الحصول على توت سمين وعصيري.",
+              "fr": "Fournissez beaucoup d'eau pour assurer des baies charnues et juteuses."
+            },
+            "INTERMEDIATE": {
+              "en": "Consistent watering is crucial to prevent small, dry berries.",
+              "ur": "چھوٹی، خشک بیریوں سے بچنے کے لیے مسلسل پانی دینا بہت ضروری ہے۔",
+              "ar": "الري المستمر أمر بالغ الأهمية لمنع الثمار الصغيرة والجافة.",
+              "fr": "Un arrosage constant est crucial pour éviter les petites baies sèches."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture closely. Fluctuations can lead to uneven ripening or fruit quality issues.",
+              "ur": "مٹی کی نمی کی قریب سے نگرانی کریں۔ اتار چڑھاؤ ناہموار پکنے یا پھلوں کے معیار کے مسائل کا باعث بن سکتا ہے۔",
+              "ar": "راقب رطوبة التربة عن كثب. يمكن أن تؤدي التقلبات إلى نضج غير متساوٍ أو مشاكل في جودة الثمار.",
+              "fr": "Surveillez attentivement l'humidité du sol. Les fluctuations peuvent entraîner une maturation inégale ou des problèmes de qualité des fruits."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for fruit worms or birds. Cover plants with netting if needed.",
+              "ur": "پھلوں کے کیڑوں یا پرندوں کو چیک کریں۔ ضرورت پڑنے پر پودوں کو جال سے ڈھانپیں۔",
+              "ar": "ابحث عن ديدان الفاكهة أو الطيور. غطِ النباتات بالشبك إذا لزم الأمر.",
+              "fr": "Vérifiez la présence de vers des fruits ou d'oiseaux. Couvrez les plantes avec un filet si nécessaire."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect berries for signs of disease or insect damage. Remove affected fruit promptly.",
+              "ur": "بیریوں کو بیماری یا کیڑوں کے نقصان کی علامات کے لیے چیک کریں۔ متاثرہ پھل کو فوری طور پر ہٹا دیں۔",
+              "ar": "افحص الثمار بحثًا عن علامات المرض أو تلف الحشرات. أزل الثمار المصابة على الفور.",
+              "fr": "Inspectez les baies pour détecter les signes de maladie ou de dommages causés par les insectes. Retirez rapidement les fruits affectés."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Spotted Wing Drosophila",
+              "ur": "دھبے دار پروں والی ڈروسوفلا",
+              "ar": "ذبابة الفاكهة ذات الأجنحة المرقطة",
+              "fr": "Drosophile à ailes tachetées"
+            },
+            {
+              "en": "Birds",
+              "ur": "پرندے",
+              "ar": "الطيور",
+              "fr": "Oiseaux"
+            },
+            {
+              "en": "Botrytis Fruit Rot",
+              "ur": "بوٹریٹس فروٹ روٹ",
+              "ar": "عفن الثمار البوتريتسي",
+              "fr": "Pourriture grise"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 75,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 75,
+      "description": {
+        "en": "Ripe berries are ready for picking",
+        "ur": "پکی ہوئی بیریاں چننے کے لیے تیار ہیں",
+        "ar": "الثمار الناضجة جاهزة للقطف",
+        "fr": "Les baies mûres sont prêtes à être cueillies"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently pull ripe raspberries from the plant. They should detach easily.",
+              "ur": "پکے ہوئے رسبیریوں کو پودے سے آہستہ سے کھینچیں۔ انہیں آسانی سے الگ ہو جانا چاہیے۔",
+              "ar": "اسحب التوت الناضج برفق من النبات. يجب أن ينفصل بسهولة.",
+              "fr": "Tirez doucement les framboises mûres de la plante. Elles devraient se détacher facilement."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest in the morning when berries are cool and firm. Avoid over-handling.",
+              "ur": "صبح کے وقت کٹائی کریں جب بیریاں ٹھنڈی اور مضبوط ہوں۔ زیادہ چھونے سے گریز کریں۔",
+              "ar": "احصد في الصباح عندما تكون الثمار باردة وصلبة. تجنب الإفراط في التعامل معها.",
+              "fr": "Récoltez le matin lorsque les baies sont fraîches et fermes. Évitez de trop les manipuler."
+            },
+            "EXPERT": {
+              "en": "Pick berries when fully colored but still firm. Check for ripeness by taste and ease of detachment.",
+              "ur": "بیریاں مکمل رنگت اختیار کر لیں لیکن پھر بھی مضبوط ہوں۔ ذائقہ اور آسانی سے الگ ہونے سے پکنے کی جانچ کریں۔",
+              "ar": "اقطف الثمار عندما تكون ملونة بالكامل ولكن لا تزال صلبة. تحقق من النضج عن طريق التذوق وسهولة الانفصال.",
+              "fr": "Cueillez les baies lorsqu'elles sont entièrement colorées mais encore fermes. Vérifiez la maturité par le goût et la facilité de détachement."
+            }
+          }
+        },
+        "postHarvestPruning": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "After harvest, cut back canes that produced fruit to the ground.",
+              "ur": "کٹائی کے بعد، پھل دینے والے پودوں کو زمین تک کاٹ دیں۔",
+              "ar": "بعد الحصاد، اقطع السيقان التي أنتجت الثمار إلى مستوى الأرض.",
+              "fr": "Après la récolte, coupez les cannes qui ont produit des fruits au niveau du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "For summer-bearing raspberries, remove all floricanes (2nd year canes) that have fruited.",
+              "ur": "سمر بیئرنگ رسبیریوں کے لیے، تمام فلوریکینز (دوسرے سال کے پودے) جو پھل دے چکے ہیں، ہٹا دیں۔",
+              "ar": "بالنسبة للتوت الصيفي، أزل جميع السيقان المزهرة (سيقان السنة الثانية) التي أثمرت.",
+              "fr": "Pour les framboisiers non-remontants, retirez toutes les floricanes (cannes de 2ème année) qui ont fructifié."
+            },
+            "EXPERT": {
+              "en": "For everbearing raspberries, decide between a single fall crop (cut all canes) or two crops (cut only fruited tips).",
+              "ur": "ایوربیئرنگ رسبیریوں کے لیے، ایک ہی خزاں کی فصل (تمام پودوں کو کاٹ دیں) یا دو فصلوں (صرف پھل دار سروں کو کاٹ دیں) کے درمیان فیصلہ کریں۔",
+              "ar": "بالنسبة للتوت المثمر الدائم، اختر بين محصول خريفي واحد (اقطع جميع السيقان) أو محصولين (اقطع الأطراف المثمرة فقط).",
+              "fr": "Pour les framboisiers remontants, décidez entre une seule récolte d'automne (coupez toutes les cannes) ou deux récoltes (coupez uniquement les pointes fructifiées)."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost for root development and initial cane growth.",
+          "ur": "جڑوں کی نشوونما اور ابتدائی شاخوں کی بڑھوتری کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يعطي دفعة غذائية لطيفة لتطوير الجذور ونمو القصب الأولي.",
+          "fr": "Apporte un léger coup de pouce nutritif pour le développement des racines et la croissance initiale des cannes."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست أو خليط النيتروجين العضوي",
+          "fr": "Thé de compost ou mélange d'azote organique"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو مخلفات الديدان في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de lombricompost dans 3,7 litres d'eau pendant 24 à 48 heures. Remuez occasionnellement."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous cane growth and leaf development.",
+          "ur": "مضبوط شاخوں کی نشوونما اور پتوں کی بڑھوتری میں مدد کرتا ہے۔",
+          "ar": "يدعم النمو القوي للقصب وتطور الأوراق.",
+          "fr": "Soutient une croissance vigoureuse des cannes et le développement des feuilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. اخلطها بلطف في الطبقة العلوية من التربة.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement la surface du sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts flower production and fruit set for better yields.",
+          "ur": "بہتر پیداوار کے لیے پھولوں کی پیداوار اور پھل لگنے کو بڑھاتا ہے۔",
+          "ar": "يعزز إنتاج الزهور وعقد الثمار لتحقيق عوائد أفضل.",
+          "fr": "Stimule la production de fleurs et la nouaison pour de meilleurs rendements."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Compost",
+          "ur": "کیلے کے چھلکے کی چائے اور کمپوسٹ",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم) والكمبوست",
+          "fr": "Thé de peau de banane (riche en potassium) et compost"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in some compost. Pour the nutrient water around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر پانی میں 48 گھنٹے بھگو دیں۔ کچھ کمپوسٹ شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اخلط بعض الكمبوست. اسكب الماء المغذي حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les tremper dans 3,7 litres d'eau pendant 48 heures. Mélangez un peu de compost. Versez l'eau nutritive autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium enhances fruit size, flavor, and overall yield.",
+          "ur": "پوٹاشیم پھل کے سائز، ذائقے اور مجموعی پیداوار کو بہتر بناتا ہے۔",
+          "ar": "البوتاسيوم يعزز حجم الثمار ونكهتها والإنتاج الكلي.",
+          "fr": "Le potassium améliore la taille des fruits, leur saveur et le rendement global."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 20-20-20)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 10-10-10 یا 20-20-20)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10 أو 20-20-20)",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 3.7 لتر من الماء. اخلط حتى يذوب تماماً.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous cane and leaf growth.",
+          "ur": "مضبوط شاخوں اور پتوں کی نشوونما میں مدد کرتا ہے۔",
+          "ar": "يدعم النمو القوي للقصب وتطور الأوراق.",
+          "fr": "Soutient une croissance vigoureuse des cannes et des feuilles."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore/potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 5-10-10 fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ 5-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "طبق ملعقتين كبيرتين من سماد 5-10-10 الحبيبي لكل نبات. اسقِ الماء فوراً بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire 5-10-10 par plante. Arrosez immédiatement après l'application pour l'activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Encourages abundant flowering and fruit development.",
+          "ur": "بہت زیادہ پھولوں اور پھلوں کی نشوونما کی حوصلہ افزائی کرتا ہے۔",
+          "ar": "يشجع على الإزهار الوفير وتطور الثمار.",
+          "fr": "Encourage une floraison abondante et le développement des fruits."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-50)",
+          "ur": "ہائی پوٹاشیم بلینڈ (مثلاً 0-0-50)",
+          "ar": "خليط عالي البوتاسيوم (مثل 0-0-50)",
+          "fr": "Mélange riche en potassium (ex: 0-0-50)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of High-K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ ہائی پوٹاشیم کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من سماد عالي البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en K dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Improves fruit quality, sweetness, and shelf life.",
+          "ur": "پھل کے معیار، مٹھاس اور شیلف لائف کو بہتر بناتا ہے۔",
+          "ar": "يحسن جودة الثمار وحلاوتها وعمرها الافتراضي.",
+          "fr": "Améliore la qualité des fruits, leur douceur et leur durée de conservation."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low NPK (High P/K)",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "garlic",
+      "benefit": {
+        "en": "Repels pests like Japanese beetles and aphids, which can damage raspberry canes and fruit.",
+        "ur": "جاپانی بیٹل اور افڈس جیسے کیڑوں کو دور بھگاتا ہے جو رسبری کی شاخوں اور پھلوں کو نقصان پہنچا سکتے ہیں۔",
+        "ar": "يطرد الآفات مثل خنافس اليابان والمن التي يمكن أن تلحق الضرر بقصب التوت والفاكهة.",
+        "fr": "Repousse les parasites comme les hannetons japonais et les pucerons, qui peuvent endommager les cannes et les fruits des framboisiers."
+      }
+    },
+    {
+      "plantId": "onion",
+      "benefit": {
+        "en": "Deters common raspberry pests and may help improve overall plant health.",
+        "ur": "عام رسبری کیڑوں کو دور رکھتا ہے اور پودے کی مجموعی صحت کو بہتر بنانے میں مدد کر سکتا ہے۔",
+        "ar": "يردع آفات التوت الشائعة وقد يساعد في تحسين صحة النبات بشكل عام.",
+        "fr": "Repousse les parasites courants du framboisier et peut aider à améliorer la santé générale de la plante."
+      }
+    },
+    {
+      "plantId": "tansy",
+      "benefit": {
+        "en": "Known to repel Japanese beetles and other nuisance insects from raspberry plants.",
+        "ur": "جاپانی بیٹل اور دیگر پریشان کن کیڑوں کو رسبری کے پودوں سے دور بھگانے کے لیے جانا جاتا ہے۔",
+        "ar": "معروف بقدرته على طرد خنافس اليابان والحشرات المزعجة الأخرى من نباتات التوت.",
+        "fr": "Connu pour repousser les hannetons japonais et autres insectes nuisibles des framboisiers."
+      }
+    },
+    {
+      "plantId": "yarrow",
+      "benefit": {
+        "en": "Attracts beneficial insects like ladybugs and predatory wasps, which prey on raspberry pests.",
+        "ur": "لیڈی بگ اور شکاری بھڑ جیسے فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، جو رسبری کے کیڑوں کو کھاتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل الدعسوقة والدبابير المفترسة، التي تتغذى على آفات التوت.",
+        "fr": "Attire les insectes bénéfiques comme les coccinelles et les guêpes prédatrices, qui se nourrissent des parasites du framboisier."
+      }
+    },
+    {
+      "plantId": "bush_bean",
+      "benefit": {
+        "en": "Legumes fix nitrogen in the soil, providing a natural nutrient boost for heavy-feeding raspberries.",
+        "ur": "پھلیاں مٹی میں نائٹروجن کو ٹھیک کرتی ہیں، جو رسبری جیسے زیادہ غذائیت طلب پودوں کے لیے قدرتی غذائی فروغ فراہم کرتی ہیں۔",
+        "ar": "البقوليات تثبت النيتروجين في التربة، مما يوفر دفعة غذائية طبيعية للتوت الذي يتطلب الكثير من المغذيات.",
+        "fr": "Les légumineuses fixent l'azote dans le sol, offrant un apport nutritif naturel aux framboisiers gourmands."
+      }
+    },
+    {
+      "plantId": "chamomile",
+      "benefit": {
+        "en": "Believed to improve the growth and flavor of nearby raspberry plants.",
+        "ur": "قریب کے رسبری کے پودوں کی نشوونما اور ذائقے کو بہتر بنانے کے لیے مانا جاتا ہے۔",
+        "ar": "يعتقد أنه يحسن نمو ونكهة نباتات التوت القريبة.",
+        "fr": "On pense qu'elle améliore la croissance et la saveur des framboisiers voisins."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other soil-borne pests that can harm raspberry roots.",
+        "ur": "نیماٹوڈس اور دیگر مٹی سے پیدا ہونے والے کیڑوں کو دور بھگاتا ہے جو رسبری کی جڑوں کو نقصان پہنچا سکتے ہیں۔",
+        "ar": "يطرد الديدان الخيطية والآفات الأخرى التي تنتقل عن طريق التربة والتي يمكن أن تضر جذور التوت.",
+        "fr": "Repousse les nématodes et autres parasites du sol qui peuvent endommager les racines des framboisiers."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Shares susceptibility to Verticillium wilt, a soil-borne fungal disease that can devastate raspberries.",
+        "ur": "ورٹیسیلیم ولٹ کے لیے حساسیت کا اشتراک کرتا ہے، ایک مٹی سے پیدا ہونے والی فنگل بیماری جو رسبری کو تباہ کر سکتی ہے۔",
+        "ar": "يتشارك الحساسية تجاه ذبول الفرتيسيليوم، وهو مرض فطري ينتقل عن طريق التربة ويمكن أن يدمر التوت.",
+        "fr": "Partage la sensibilité au flétrissement verticillien, une maladie fongique transmise par le sol qui peut dévaster les framboisiers."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Like potatoes, tomatoes are susceptible to Verticillium wilt, which can spread to raspberries.",
+        "ur": "آلو کی طرح، ٹماٹر بھی ورٹیسیلیم ولٹ کے لیے حساس ہوتے ہیں، جو رسبری میں پھیل سکتا ہے۔",
+        "ar": "مثل البطاطس، الطماطم حساسة لذبول الفرتيسيليوم، والذي يمكن أن ينتشر إلى التوت.",
+        "fr": "Comme les pommes de terre, les tomates sont sensibles au flétrissement verticillien, qui peut se propager aux framboisiers."
+      }
+    },
+    {
+      "plantId": "eggplant",
+      "reason": {
+        "en": "Another nightshade family member susceptible to Verticillium wilt, posing a risk to raspberries.",
+        "ur": "نائٹ شیڈ خاندان کا ایک اور رکن جو ورٹیسیلیم ولٹ کے لیے حساس ہے، رسبری کے لیے خطرہ پیدا کرتا ہے۔",
+        "ar": "عضو آخر من عائلة الباذنجانيات حساس لذبول الفرتيسيليوم، مما يشكل خطراً على التوت.",
+        "fr": "Un autre membre de la famille des solanacées sensible au flétrissement verticillien, présentant un risque pour les framboisiers."
+      }
+    },
+    {
+      "plantId": "blackberry",
+      "reason": {
+        "en": "Can cross-pollinate with some raspberry varieties, leading to less desirable fruit. Also shares common pests and diseases.",
+        "ur": "کچھ رسبری کی اقسام کے ساتھ کراس پولینیٹ کر سکتا ہے، جس سے کم مطلوبہ پھل پیدا ہوتے ہیں۔ عام کیڑوں اور بیماریوں کا بھی اشتراک کرتا ہے۔",
+        "ar": "يمكن أن يتلقح مع بعض أصناف التوت، مما يؤدي إلى ثمار أقل رغبة. كما يتشارك الآفات والأمراض الشائعة.",
+        "fr": "Peut s'hybrider avec certaines variétés de framboisiers, entraînant des fruits moins désirables. Partage également des parasites et maladies communs."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances that inhibit the growth of many plants, including raspberries, leading to stunted development.",
+        "ur": "ایسے مادے پیدا کرتا ہے جو رسبری سمیت بہت سے پودوں کی نشوونما کو روکتے ہیں، جس سے نشوونما رک جاتی ہے۔",
+        "ar": "ينتج مواد تمنع نمو العديد من النباتات، بما في ذلك التوت، مما يؤدي إلى توقف النمو.",
+        "fr": "Produit des substances qui inhibent la croissance de nombreuses plantes, y compris les framboisiers, entraînant un développement ralenti."
+      }
+    },
+    {
+      "plantId": "strawberry",
+      "reason": {
+        "en": "Competes for nutrients and water, and can attract similar pests like sap beetles, potentially affecting raspberry health.",
+        "ur": "غذائی اجزاء اور پانی کے لیے مقابلہ کرتا ہے، اور سیپ بیٹل جیسے کیڑوں کو اپنی طرف متوجہ کر سکتا ہے، جو ممکنہ طور پر رسبری کی صحت کو متاثر کرتا ہے۔",
+        "ar": "يتنافس على العناصر الغذائية والماء، ويمكن أن يجذب آفات مماثلة مثل خنافس النسغ، مما قد يؤثر على صحة التوت.",
+        "fr": "Rivalise pour les nutriments et l'eau, et peut attirer des parasites similaires comme les coléoptères de la sève, affectant potentiellement la santé des framboisiers."
+      }
+    },
+    {
+      "plantId": "walnut",
+      "reason": {
+        "en": "Releases juglone, a chemical highly toxic to many plants, including raspberries, causing wilting and death.",
+        "ur": "جگلون نامی کیمیکل خارج کرتا ہے، جو رسبری سمیت بہت سے پودوں کے لیے انتہائی زہریلا ہے، جس سے پودا مرجھا جاتا ہے اور مر جاتا ہے۔",
+        "ar": "يطلق مادة الجغلون، وهي مادة كيميائية شديدة السمية للعديد من النباتات، بما في ذلك التوت، مما يسبب الذبول والموت.",
+        "fr": "Libère la juglone, un produit chimique très toxique pour de nombreuses plantes, y compris les framboisiers, provoquant le flétrissement et la mort."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "cane_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing dark lesions and cankers on canes, leading to wilting and dieback, often starting at pruning wounds.",
+        "ur": "فنگل بیماری جو شاخوں پر گہرے زخم اور کینکر کا سبب بنتی ہے، جس سے پودا مرجھا جاتا ہے اور سوکھ جاتا ہے، اکثر کٹائی کے زخموں سے شروع ہوتا ہے۔",
+        "ar": "مرض فطري يسبب آفات داكنة وتقرحات على القصب، مما يؤدي إلى الذبول والموت الرجعي، وغالباً ما يبدأ من جروح التقليم.",
+        "fr": "Maladie fongique causant des lésions sombres et des chancres sur les cannes, entraînant le flétrissement et le dépérissement, souvent à partir des plaies de taille."
+      }
+    },
+    {
+      "pestId": "anthracnose",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "20-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes small, purple spots on young canes, leaves, and fruit. Spots enlarge, turn gray with purple borders, and can cause cane cracking.",
+        "ur": "نئی شاخوں، پتوں اور پھلوں پر چھوٹے، جامنی دھبے پیدا کرتا ہے۔ دھبے بڑے ہو جاتے ہیں، جامنی کناروں کے ساتھ سرمئی ہو جاتے ہیں، اور شاخوں میں دراڑیں پیدا کر سکتے ہیں۔",
+        "ar": "يسبب بقعًا أرجوانية صغيرة على القصب والأوراق والثمار الصغيرة. تتسع البقع وتتحول إلى اللون الرمادي مع حواف أرجوانية، ويمكن أن تسبب تشقق القصب.",
+        "fr": "Provoque de petites taches violettes sur les jeunes cannes, les feuilles et les fruits. Les taches s'agrandissent, deviennent grises avec des bords violets et peuvent provoquer des fissures dans les cannes."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal growth on leaves, especially undersides. Distorts leaves, reduces photosynthesis, and can affect fruit quality.",
+        "ur": "پتوں پر، خاص طور پر نچلی سطح پر، سفید، پاؤڈر جیسی فنگل نشوونما۔ پتوں کو بگاڑتا ہے، فوٹو سنتھیسس کو کم کرتا ہے، اور پھل کے معیار کو متاثر کر سکتا ہے۔",
+        "ar": "نمو فطري أبيض مسحوقي على الأوراق، خاصة الجانب السفلي. يشوه الأوراق، ويقلل من التمثيل الضوئي، ويمكن أن يؤثر على جودة الثمار.",
+        "fr": "Croissance fongique blanche et poudreuse sur les feuilles, surtout le dessous. Déforme les feuilles, réduit la photosynthèse et peut affecter la qualité des fruits."
+      }
+    },
+    {
+      "pestId": "botrytis_fruit_rot",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Also known as Gray Mold. Causes fuzzy gray mold on ripening fruit, spreading rapidly in dense plantings or after rain.",
+        "ur": "گرے مولڈ کے نام سے بھی جانا جاتا ہے۔ پکنے والے پھلوں پر روئیں دار سرمئی مولڈ کا سبب بنتا ہے، جو گھنے پودوں میں یا بارش کے بعد تیزی سے پھیلتا ہے۔",
+        "ar": "يُعرف أيضاً بالعفن الرمادي. يسبب عفناً رمادياً زغبيًا على الثمار الناضجة، وينتشر بسرعة في الزراعات الكثيفة أو بعد المطر.",
+        "fr": "Aussi connu sous le nom de moisissure grise. Provoque une moisissure grise duveteuse sur les fruits mûrs, se propageant rapidement dans les plantations denses ou après la pluie."
+      }
+    },
+    {
+      "pestId": "raspberry_beetle",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">18"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles feed on leaves and flowers, while larvae infest and feed inside ripening fruit, causing significant damage.",
+        "ur": "بالغ بیٹل پتوں اور پھولوں کو کھاتے ہیں، جبکہ لاروا پکنے والے پھلوں کے اندر گھس کر انہیں کھاتے ہیں، جس سے کافی نقصان ہوتا ہے۔",
+        "ar": "تتغذى الخنافس البالغة على الأوراق والزهور، بينما تتغذى اليرقات داخل الثمار الناضجة وتصيبها، مما يسبب أضراراً كبيرة.",
+        "fr": "Les coléoptères adultes se nourrissent des feuilles et des fleurs, tandis que les larves infestent et se nourrissent à l'intérieur des fruits mûrs, causant des dommages importants."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and transmitting viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور وائرس پھیلاتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et transmettant des virus."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests causing stippling (tiny dots) on leaves, which turn bronze and can lead to defoliation. Fine webbing may be visible.",
+        "ur": "چھوٹے کیڑے جو پتوں پر چھوٹے نقطے (stippling) کا سبب بنتے ہیں، جو کانسی کے رنگ کے ہو جاتے ہیں اور پتوں کے گرنے کا باعث بن سکتے ہیں۔ باریک جالا نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تسبب تنقيطًا (نقاط صغيرة) على الأوراق، والتي تتحول إلى اللون البرونزي ويمكن أن تؤدي إلى تساقط الأوراق. قد تكون خيوط العنكبوت الدقيقة مرئية.",
+        "fr": "Minuscules parasites causant des piqûres (petits points) sur les feuilles, qui deviennent bronzées et peuvent entraîner la défoliation. Une fine toile peut être visible."
+      }
+    },
+    {
+      "pestId": "japanese_beetle",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles with metallic green and copper bodies feed on leaves, skeletonizing them and reducing plant vigor.",
+        "ur": "دھاتی سبز اور تانبے کے جسم والے بالغ بیٹل پتوں کو کھاتے ہیں، انہیں ڈھانچے میں تبدیل کرتے ہیں اور پودے کی طاقت کو کم کرتے ہیں۔",
+        "ar": "تتغذى الخنافس البالغة ذات الأجسام الخضراء المعدنية والنحاسية على الأوراق، مما يؤدي إلى تعرية الأوراق وتقليل حيوية النبات.",
+        "fr": "Les coléoptères adultes au corps vert métallique et cuivré se nourrissent des feuilles, les squelettisant et réduisant la vigueur de la plante."
+      }
+    },
+    {
+      "pestId": "verticillium_wilt",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Soil-borne fungal disease causing wilting and yellowing of leaves, often on one side of the plant or cane. Can lead to cane dieback.",
+        "ur": "مٹی سے پیدا ہونے والی فنگل بیماری جو پتوں کے مرجھانے اور پیلے ہونے کا سبب بنتی ہے، اکثر پودے یا شاخ کے ایک طرف۔ شاخوں کے سوکھنے کا باعث بن سکتی ہے۔",
+        "ar": "مرض فطري ينتقل عن طريق التربة يسبب ذبول واصفرار الأوراق، وغالباً ما يكون على جانب واحد من النبات أو القصب. يمكن أن يؤدي إلى موت القصب.",
+        "fr": "Maladie fongique transmise par le sol causant le flétrissement et le jaunissement des feuilles, souvent d'un seul côté de la plante ou de la canne. Peut entraîner le dépérissement des cannes."
+      }
+    },
+    {
+      "pestId": "crown_gall",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Bacterial disease causing rough, tumor-like growths (galls) on roots and crown, restricting water and nutrient flow.",
+        "ur": "بیکٹیریل بیماری جو جڑوں اور تاج پر کھردری، رسولی جیسی نشوونما (گال) کا سبب بنتی ہے، پانی اور غذائی اجزاء کے بہاؤ کو محدود کرتی ہے۔",
+        "ar": "مرض بكتيري يسبب نموًا خشنًا يشبه الأورام (العقد) على الجذور والتاج، مما يقيد تدفق الماء والمغذيات.",
+        "fr": "Maladie bactérienne causant des excroissances rugueuses, semblables à des tumeurs (galles) sur les racines et le collet, restreignant le flux d'eau et de nutriments."
+      }
+    },
+    {
+      "pestId": "raspberry_bushy_dwarf_virus",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Viral disease causing crumbly, dry fruit, reduced vigor, and sometimes yellowing leaves. Spread by pollen and infected planting material.",
+        "ur": "وائرل بیماری جو بھربھرے، خشک پھل، کمزور نشوونما، اور بعض اوقات پتوں کے پیلے ہونے کا سبب بنتی ہے۔ پولن اور متاثرہ پودے لگانے والے مواد سے پھیلتی ہے۔",
+        "ar": "مرض فيروسي يسبب ثمارًا متفتتة وجافة، وضعفًا في النمو، وأحيانًا اصفرار الأوراق. ينتشر عن طريق حبوب اللقاح ومواد الزراعة المصابة.",
+        "fr": "Maladie virale causant des fruits friables et secs, une vigueur réduite et parfois des feuilles jaunies. Propagé par le pollen et le matériel de plantation infecté."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 45,
+    "readinessSigns": [
+      {
+        "en": "Full, rich color (red, black, or yellow depending on variety)",
+        "ur": "پورا، گہرا رنگ (قسم کے لحاظ سے سرخ، کالا یا پیلا)",
+        "ar": "لون كامل وغني (أحمر، أسود، أو أصفر حسب الصنف)",
+        "fr": "Couleur pleine et riche (rouge, noir ou jaune selon la variété)"
+      },
+      {
+        "en": "Easily detaches from the core with a gentle tug",
+        "ur": "آسانی سے کور سے الگ ہو جاتا ہے ہلکے کھینچنے پر",
+        "ar": "ينفصل بسهولة عن اللب بسحب لطيف",
+        "fr": "Se détache facilement du réceptacle avec une légère traction"
+      },
+      {
+        "en": "Soft but firm to the touch",
+        "ur": "چھونے میں نرم لیکن مضبوط",
+        "ar": "ناعم ولكن ثابت عند اللمس",
+        "fr": "Doux mais ferme au toucher"
+      },
+      {
+        "en": "Sweet aroma",
+        "ur": "میٹھی خوشبو",
+        "ar": "رائحة حلوة",
+        "fr": "Arôme sucré"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently pull the berry from the core. If it doesn't come off easily, it's not ready.",
+        "ur": "بیری کو کور سے آہستہ سے کھینچیں۔ اگر یہ آسانی سے نہ اترے تو یہ تیار نہیں ہے۔",
+        "ar": "اسحب التوت بلطف من اللب. إذا لم ينفصل بسهولة، فهو ليس جاهزًا.",
+        "fr": "Tirez doucement la baie de son réceptacle. Si elle ne se détache pas facilement, elle n'est pas prête."
+      },
+      "INTERMEDIATE": {
+        "en": "Gently cup the berry and pull upwards. Avoid squeezing to prevent bruising.",
+        "ur": "بیری کو آہستہ سے پکڑیں اور اوپر کی طرف کھینچیں۔ چوٹ لگنے سے بچنے کے لیے نچوڑنے سے گریز کریں۔",
+        "ar": "امسك التوت بلطف واسحبه للأعلى. تجنب العصر لمنع الكدمات.",
+        "fr": "Enveloppez délicatement la baie et tirez vers le haut. Évitez de presser pour éviter les meurtrissures."
+      },
+      "EXPERT": {
+        "en": "Harvest in the morning after the dew has dried, when berries are cool and firm, for best flavor and shelf life.",
+        "ur": "بہترین ذائقے اور شیلف لائف کے لیے صبح اوس خشک ہونے کے بعد، جب بیر ٹھنڈے اور مضبوط ہوں، کاٹیں۔",
+        "ar": "احصد في الصباح بعد أن يجف الندى، عندما تكون الثمار باردة وثابتة، للحصول على أفضل نكهة وعمر افتراضي.",
+        "fr": "Récoltez le matin après que la rosée ait séché, lorsque les baies sont fraîches et fermes, pour une meilleure saveur et durée de conservation."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate immediately, unwashed, in a single layer to prevent crushing and mold.",
+      "ur": "فوری طور پر فریج میں رکھیں، بغیر دھوئے، ایک تہہ میں تاکہ کچلنے اور پھپھوندی سے بچا جا سکے۔",
+      "ar": "ضعها في الثلاجة فوراً، غير مغسولة، في طبقة واحدة لمنع السحق والعفن.",
+      "fr": "Réfrigérez immédiatement, non lavées, en une seule couche pour éviter l'écrasement et la moisissure."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 3
+    }
+  }
+}
