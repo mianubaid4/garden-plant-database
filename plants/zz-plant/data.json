@@ -1,0 +1,971 @@
+{
+  "id": "zz-plant",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1614704707178-3a1371191e46?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "ZZ Plant",
+      "alternate": [
+        "Zanzibar Gem",
+        "Eternity Plant",
+        "Emerald Palm",
+        "Aroid Palm"
+      ]
+    },
+    "ur": {
+      "common": "زی زی پلانٹ",
+      "alternate": [
+        "زنجبار جیم",
+        "ابدی پودا",
+        "زمرد پام",
+        "ایرائڈ پام"
+      ]
+    },
+    "ar": {
+      "common": "نبات الزاز",
+      "alternate": [
+        "جوهرة زنجبار",
+        "نبات الخلود",
+        "نخيل الزمرد",
+        "نخيل الأرويد"
+      ]
+    },
+    "fr": {
+      "common": "Plante ZZ",
+      "alternate": [
+        "Gemme de Zanzibar",
+        "Plante de l'éternité",
+        "Palmier émeraude",
+        "Palmier arum"
+      ]
+    },
+    "botanical": "Zamioculcas zamiifolia",
+    "aliases": [
+      "zzplant",
+      "zanzibargem",
+      "eternityplant",
+      "emeraldpalm"
+    ]
+  },
+  "category": "houseplant",
+  "subcategory": "foliage",
+  "germinationDays": 0,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 0,
+    "slowGrowthBelowC": 18,
+    "rainSkipWateringMm": 0
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 60,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "FOLIAGE_PLANT",
+    "RHIZOMATOUS"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "FOLIAGE_PLANT": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Grows upright with thick, waxy, dark green leaves from rhizomes. Minimal pruning is needed, mainly for aesthetics or to remove yellowing leaves.",
+          "ur": "موٹے، چمکدار، گہرے سبز پتوں کے ساتھ سیدھا بڑھتا ہے۔ بنیادی طور پر خوبصورتی یا پیلے پتوں کو ہٹانے کے لیے کم کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "RHIZOMATOUS": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Stores water in thick, potato-like rhizomes underground, making it extremely drought-tolerant and forgiving of neglect.",
+          "ur": "زیر زمین موٹے، آلو جیسے ریزوم میں پانی ذخیرہ کرتا ہے، جو اسے انتہائی خشک سالی برداشت کرنے والا اور نظر انداز کرنے کے قابل بناتا ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "drought-tolerant",
+    "low-light",
+    "easy-care",
+    "houseplant",
+    "ornamental",
+    "succulent-like",
+    "slow-growing",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 26,
+    "survivalMinC": 10,
+    "survivalMaxC": 35,
+    "germinationMinC": 20,
+    "germinationOptimalC": 25,
+    "flowerDropAboveC": 30,
+    "flowerDropBelowC": 15
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 0,
+    "requiredGDD": 0,
+    "baseTempC": 18,
+    "plantingConditions": {
+      "soilTempMinC": 20,
+      "airTempMinC": 18
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": 10,
+      "frostWarningC": 2,
+      "heavyRainMm": 0,
+      "highWindKmh": 0,
+      "consecutiveRainyDays": 0
+    }
+  },
+  "light": {
+    "sunHoursMin": 2,
+    "sunHoursOptimal": 4,
+    "sunHoursMax": 6
+  },
+  "water": {
+    "baseMlPer10L": 200,
+    "intervalDaysBase": 21,
+    "intervalDaysHot": 14,
+    "intervalDaysExtreme": 10,
+    "intervalDaysCool": 30,
+    "drainageSensitivity": "EXTREMELY_HIGH",
+    "wateringNature": "Infrequent and Thorough",
+    "soilMoisturePreference": "Allow soil to dry out completely between waterings",
+    "overwateringSensitivity": "EXTREMELY_HIGH",
+    "underwateringSensitivity": "LOW",
+    "rootRotRisk": "EXTREMELY_HIGH",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 10,
+      "max": 30
+    },
+    "drynessThreshold": {
+      "warning": 15,
+      "critical": 5
+    },
+    "waterStressSymptoms": [
+      "wrinkled leaves/stems",
+      "yellowing lower leaves",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "mushy stems",
+      "root rot",
+      "black spots on leaves",
+      "foul smell from soil"
+    ],
+    "preferredWateringMethod": "Bottom watering or top watering until drainage, then discard excess",
+    "thingsToAvoid": [
+      "frequent watering",
+      "standing water",
+      "heavy, poorly draining soil",
+      "water on leaves (can cause spots)"
+    ],
+    "bestWateringTime": "Any time, when soil is completely dry"
+  },
+  "rootBehavior": {
+    "depth": "shallow",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "EXTREMELY_HIGH"
+  },
+  "mulching": {
+    "recommended": false,
+    "benefits": []
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Ensure excellent drainage to prevent root rot. Terracotta pots are often preferred.",
+        "ur": "جڑوں کے گلنے سے بچنے کے لیے بہترین نکاسی کو یقینی بنائیں۔ مٹی کے گملے اکثر ترجیح دیے جاتے ہیں۔",
+        "ar": "تأكد من الصرف الممتاز لمنع تعفن الجذور. غالبًا ما تُفضل الأواني الفخارية.",
+        "fr": "Assurez un excellent drainage pour prévenir la pourriture des racines. Les pots en terre cuite sont souvent préférés."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 7,
+      "minDepthCm": 20,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Good aeration helps prevent overwatering, but may dry out faster.",
+        "ur": "اچھی ہوا کی گردش زیادہ پانی دینے سے بچنے میں مدد کرتی ہے، لیکن تیزی سے خشک ہو سکتی ہے۔",
+        "ar": "التهوية الجيدة تساعد على منع الإفراط في الري، ولكن قد تجف التربة بشكل أسرع.",
+        "fr": "Une bonne aération aide à prévenir l'excès d'eau, mais le sol peut sécher plus rapidement."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 25,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Only suitable for tropical climates with consistently warm temperatures and well-draining soil.",
+        "ur": "صرف اشنکٹبندیی آب و ہوا کے لیے موزوں ہے جہاں مستقل گرم درجہ حرارت اور اچھی نکاسی والی مٹی ہو۔",
+        "ar": "مناسب فقط للمناخات الاستوائية ذات درجات الحرارة الدافئة باستمرار والتربة جيدة التصريف.",
+        "fr": "Convient uniquement aux climats tropicaux avec des températures constamment chaudes et un sol bien drainé."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 20,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Provides good drainage and control over soil mix, ideal for outdoor ZZ in suitable climates.",
+        "ur": "اچھی نکاسی اور مٹی کے مرکب پر کنٹرول فراہم کرتا ہے، مناسب آب و ہوا میں بیرونی زی زی کے لیے مثالی ہے۔",
+        "ar": "يوفر تصريفًا جيدًا وتحكمًا في خليط التربة، وهو مثالي لنبات الزاز الخارجي في المناخات المناسبة.",
+        "fr": "Offre un bon drainage et un contrôle sur le mélange de terre, idéal pour les ZZ d'extérieur dans les climats appropriés."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "Years (rarely grown from seed)",
+  "lifecycle": [
+    {
+      "stage": "PROPAGATION",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Propagating ZZ Plant from cuttings or division",
+        "ur": "زیڈ زیڈ پلانٹ کو کٹنگ یا تقسیم سے بڑھانا",
+        "ar": "تكاثر نبات ZZ من العقل أو التقسيم",
+        "fr": "Propagation du ZZ Plant par boutures ou division"
+      },
+      "emoji": "✂️",
+      "tips": [
+        {
+          "en": "Allow cuttings to callus for a few days before planting to prevent rot.",
+          "ur": "کٹنگز کو لگانے سے پہلے چند دن کے لیے خشک ہونے دیں تاکہ گلنے سے بچا جا سکے۔",
+          "ar": "اترك العقل تتصلب لبضعة أيام قبل الزراعة لمنع التعفن.",
+          "fr": "Laissez les boutures cicatriser quelques jours avant de planter pour éviter la pourriture."
+        },
+        {
+          "en": "Propagation can be slow; be patient.",
+          "ur": "پودے کی افزائش سست ہو سکتی ہے؛ صبر کریں۔",
+          "ar": "التكاثر قد يكون بطيئًا؛ كن صبورًا.",
+          "fr": "La propagation peut être lente; soyez patient."
+        }
+      ],
+      "tasks": {
+        "cuttingPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut a leaf or stem, let it dry for 2-3 days.",
+              "ur": "ایک پتا یا تنا کاٹیں، اسے 2-3 دن خشک ہونے دیں۔",
+              "ar": "اقطع ورقة أو ساق، واتركها تجف لمدة 2-3 أيام.",
+              "fr": "Coupez une feuille ou une tige, laissez-la sécher 2-3 jours."
+            },
+            "INTERMEDIATE": {
+              "en": "Take stem or leaf cuttings, ensure a node is present on stem cuttings. Allow to callus for 3-5 days.",
+              "ur": "تنے یا پتے کی کٹنگز لیں، تنے کی کٹنگز پر ایک نوڈ موجود ہو۔ 3-5 دن تک خشک ہونے دیں۔",
+              "ar": "خذ عقل الساق أو الأوراق، وتأكد من وجود عقدة على عقل الساق. اتركها تتصلب لمدة 3-5 أيام.",
+              "fr": "Prenez des boutures de tige ou de feuille, assurez-vous qu'un nœud est présent sur les boutures de tige. Laissez cicatriser 3-5 jours."
+            },
+            "EXPERT": {
+              "en": "Select healthy, mature leaves or stem sections. Make clean cuts and allow for adequate callusing (5-7 days) in a dry, airy spot.",
+              "ur": "صحت مند، پختہ پتے یا تنے کے حصے منتخب کریں۔ صاف کٹ لگائیں اور خشک، ہوادار جگہ پر مناسب کالوسنگ (5-7 دن) ہونے دیں۔",
+              "ar": "اختر أوراقًا أو أجزاء ساق صحية وناضجة. قم بعمل قطع نظيفة واتركها تتصلب بشكل كافٍ (5-7 أيام) في مكان جاف وجيد التهوية.",
+              "fr": "Sélectionnez des feuilles ou sections de tige saines et matures. Faites des coupes nettes et laissez cicatriser adéquatement (5-7 jours) dans un endroit sec et aéré."
+            }
+          }
+        },
+        "plantingCuttings": {
+          "required": true,
+          "dayOffset": 5,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant callused cuttings in well-draining soil.",
+              "ur": "خشک شدہ کٹنگز کو اچھی نکاسی والی مٹی میں لگائیں۔",
+              "ar": "ازرع العقل المتصلبة في تربة جيدة التصريف.",
+              "fr": "Plantez les boutures cicatrisées dans un sol bien drainé."
+            },
+            "INTERMEDIATE": {
+              "en": "Insert callused cuttings 1-2 inches deep into a gritty, well-draining potting mix. Keep soil barely moist.",
+              "ur": "خشک شدہ کٹنگز کو 1-2 انچ گہرائی میں ریتلی، اچھی نکاسی والی مٹی میں لگائیں۔ مٹی کو بمشکل نم رکھیں۔",
+              "ar": "أدخل العقل المتصلبة بعمق 1-2 بوصة في خليط تأصيص خشن وجيد التصريف. حافظ على التربة رطبة بالكاد.",
+              "fr": "Insérez les boutures cicatrisées à 1-2 pouces de profondeur dans un mélange de terreau granuleux et bien drainé. Gardez le sol à peine humide."
+            },
+            "EXPERT": {
+              "en": "Use a sterile, fast-draining mix (e.g., perlite/cactus mix). Ensure good contact between cutting base and soil. Consider rooting hormone for faster results.",
+              "ur": "ایک جراثیم سے پاک، تیزی سے نکاسی کرنے والا مکس (مثلاً پرلائٹ/کیکٹس مکس) استعمال کریں۔ کٹنگ کی بنیاد اور مٹی کے درمیان اچھے رابطے کو یقینی بنائیں۔ تیز نتائج کے لیے روٹنگ ہارمون پر غور کریں۔",
+              "ar": "استخدم خليطًا معقمًا وسريع التصريف (مثل البيرلايت/خليط الصبار). تأكد من التلامس الجيد بين قاعدة العقلة والتربة. فكر في هرمون التجذير لنتائج أسرع.",
+              "fr": "Utilisez un mélange stérile et à drainage rapide (ex: perlite/mélange cactus). Assurez un bon contact entre la base de la bouture et le sol. Envisagez l'hormone de bouturage pour des résultats plus rapides."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "mlPer10LContainer": 50,
+          "method": "light",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water very sparingly, only when soil is completely dry.",
+              "ur": "بہت کم پانی دیں، صرف جب مٹی مکمل طور پر خشک ہو۔",
+              "ar": "اسقِ باعتدال شديد، فقط عندما تكون التربة جافة تمامًا.",
+              "fr": "Arrosez très parcimonieusement, seulement quand le sol est complètement sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow soil to dry out completely between waterings to prevent rot. Err on the side of underwatering.",
+              "ur": "پانی دینے کے درمیان مٹی کو مکمل طور پر خشک ہونے دیں تاکہ گلنے سے بچا جا سکے۔ کم پانی دینے کی طرف مائل ہوں۔",
+              "ar": "اترك التربة تجف تمامًا بين الريات لمنع التعفن. الأفضل هو التقليل من الري.",
+              "fr": "Laissez le sol sécher complètement entre les arrosages pour éviter la pourriture. Préférez le sous-arrosage."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a probe. Water only when the top 2-3 inches are bone dry. Ensure excellent drainage.",
+              "ur": "مٹی کی نمی کو پروب سے مانیٹر کریں۔ صرف اس وقت پانی دیں جب اوپر کے 2-3 انچ مکمل طور پر خشک ہوں۔ بہترین نکاسی کو یقینی بنائیں۔",
+              "ar": "راقب رطوبة التربة بمسبار. اسقِ فقط عندما تكون الطبقة العلوية 2-3 بوصات جافة تمامًا. تأكد من تصريف ممتاز.",
+              "fr": "Surveillez l'humidité du sol avec une sonde. Arrosez seulement quand les 2-3 premiers pouces sont secs. Assurez un excellent drainage."
+            }
+          }
+        },
+        "rootingCheck": {
+          "dayOffsetFromStageStart": 60,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently tug on the cutting to check for resistance, indicating root growth.",
+              "ur": "جڑ کی نشوونما کی نشاندہی کے لیے کٹنگ کو آہستہ سے کھینچ کر مزاحمت چیک کریں۔",
+              "ar": "اسحب العقلة برفق للتحقق من المقاومة، مما يشير إلى نمو الجذور.",
+              "fr": "Tirez doucement sur la bouture pour vérifier la résistance, indiquant la croissance des racines."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for new growth or gently unpot to inspect for root development.",
+              "ur": "نئی نشوونما تلاش کریں یا جڑوں کی نشوونما کا معائنہ کرنے کے لیے آہستہ سے گملے سے نکالیں۔",
+              "ar": "ابحث عن نمو جديد أو أخرجها برفق من الوعاء لفحص تطور الجذور.",
+              "fr": "Recherchez de nouvelles pousses ou déterrez délicatement pour inspecter le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Assess root system development by carefully unpotting. Aim for a healthy network of white roots before considering transplant.",
+              "ur": "احتیاط سے گملے سے نکال کر جڑوں کے نظام کی نشوونما کا اندازہ لگائیں۔ ٹرانسپلانٹ پر غور کرنے سے پہلے سفید جڑوں کے صحت مند نیٹ ورک کا ہدف رکھیں۔",
+              "ar": "قم بتقييم تطور نظام الجذر عن طريق إخراجها من الوعاء بعناية. استهدف شبكة صحية من الجذور البيضاء قبل التفكير في الزرع.",
+              "fr": "Évaluez le développement du système racinaire en dépotant soigneusement. Visez un réseau sain de racines blanches avant d'envisager le rempotage."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 365,
+      "durationDaysCool": 365,
+      "description": {
+        "en": "Active growth and maintenance of ZZ Plant",
+        "ur": "زیڈ زیڈ پلانٹ کی فعال نشوونما اور دیکھ بھال",
+        "ar": "النمو النشط وصيانة نبات ZZ",
+        "fr": "Croissance active et entretien du ZZ Plant"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "ZZ Plants thrive on neglect; less is often more with watering and fertilizing.",
+          "ur": "زیڈ زیڈ پلانٹ نظرانداز کرنے پر پروان چڑھتے ہیں؛ پانی اور کھاد کے ساتھ کم ہی بہتر ہوتا ہے۔",
+          "ar": "نباتات ZZ تزدهر بالإهمال؛ القليل غالبًا ما يكون أفضل في الري والتسميد.",
+          "fr": "Les ZZ Plants prospèrent avec la négligence; moins c'est souvent mieux pour l'arrosage et la fertilisation."
+        },
+        {
+          "en": "Rotate your plant periodically to ensure even growth.",
+          "ur": "پودے کو وقتاً فوقتاً گھمائیں تاکہ یکساں نشوونما یقینی بنائی جا سکے۔",
+          "ar": "قم بتدوير نباتك بشكل دوري لضمان نمو متساوٍ.",
+          "fr": "Faites pivoter votre plante périodiquement pour assurer une croissance uniforme."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "mlPer10LContainer": 200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water only when the soil is completely dry, usually every 2-4 weeks.",
+              "ur": "صرف اس وقت پانی دیں جب مٹی مکمل طور پر خشک ہو، عام طور پر ہر 2-4 ہفتوں میں۔",
+              "ar": "اسقِ فقط عندما تكون التربة جافة تمامًا، عادة كل 2-4 أسابيع.",
+              "fr": "Arrosez seulement quand le sol est complètement sec, généralement toutes les 2-4 semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Check soil moisture deeply. Water thoroughly until it drains from the bottom, then allow to dry out completely.",
+              "ur": "مٹی کی نمی کو گہرائی سے چیک کریں۔ اچھی طرح پانی دیں جب تک کہ نیچے سے نکل نہ جائے، پھر اسے مکمل طور پر خشک ہونے دیں۔",
+              "ar": "تحقق من رطوبة التربة بعمق. اسقِ جيدًا حتى يتصرف الماء من الأسفل، ثم اتركه يجف تمامًا.",
+              "fr": "Vérifiez l'humidité du sol en profondeur. Arrosez abondamment jusqu'à ce que l'eau s'écoule par le bas, puis laissez sécher complètement."
+            },
+            "EXPERT": {
+              "en": "Implement a 'soak and dry' method. Ensure no standing water in the saucer to prevent rhizome rot.",
+              "ur": "'سوکھا اور گیلا' طریقہ استعمال کریں۔ ریزوم کے گلنے سے بچنے کے لیے ساسر میں پانی کھڑا نہ ہونے دیں۔",
+              "ar": "طبق طريقة 'الري والتجفيف'. تأكد من عدم وجود ماء راكد في الصحن لمنع تعفن الجذور.",
+              "fr": "Appliquez la méthode 'tremper et sécher'. Assurez-vous qu'il n'y a pas d'eau stagnante dans la soucoupe pour éviter la pourriture des rhizomes."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 90,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Feed with a diluted all-purpose liquid fertilizer once every 3-4 months during growing season.",
+              "ur": "بڑھنے کے موسم میں ہر 3-4 ماہ بعد ایک بار پتلی ہوئی تمام مقصدی مائع کھاد دیں۔",
+              "ar": "اسمد بسماد سائل متعدد الأغراض مخفف مرة كل 3-4 أشهر خلال موسم النمو.",
+              "fr": "Fertilisez avec un engrais liquide tout usage dilué une fois tous les 3-4 mois pendant la saison de croissance."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a balanced liquid fertilizer (e.g., 10-10-10) at half strength, once per growing season (spring/summer).",
+              "ur": "بڑھنے کے موسم (بہار/گرمی) میں ایک بار آدھی طاقت کا متوازن مائع کھاد (مثلاً 10-10-10) استعمال کریں۔",
+              "ar": "استخدم سمادًا سائلًا متوازنًا (مثل 10-10-10) بنصف القوة، مرة واحدة في موسم النمو (الربيع/الصيف).",
+              "fr": "Utilisez un engrais liquide équilibré (ex: 10-10-10) à demi-dose, une fois par saison de croissance (printemps/été)."
+            },
+            "EXPERT": {
+              "en": "Apply a slow-release granular fertilizer at the beginning of the growing season or a very dilute liquid feed (1/4 strength) monthly during active growth.",
+              "ur": "بڑھنے کے موسم کے آغاز میں سست رفتار دانے دار کھاد یا فعال نشوونما کے دوران ماہانہ بہت پتلی مائع کھاد (1/4 طاقت) استعمال کریں۔",
+              "ar": "طبق سمادًا حبيبيًا بطيء الإطلاق في بداية موسم النمو أو سمادًا سائلًا مخففًا جدًا (ربع القوة) شهريًا أثناء النمو النشط.",
+              "fr": "Appliquez un engrais granulaire à libération lente au début de la saison de croissance ou un engrais liquide très dilué (1/4 de la force) mensuellement pendant la croissance active."
+            }
+          }
+        },
+        "cleaningLeaves": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Wipe leaves with a damp cloth to remove dust.",
+              "ur": "پتوں کو نم کپڑے سے صاف کریں تاکہ دھول ہٹائی جا سکے۔",
+              "ar": "امسح الأوراق بقطعة قماش مبللة لإزالة الغبار.",
+              "fr": "Essuyez les feuilles avec un chiffon humide pour enlever la poussière."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly clean leaves to ensure efficient photosynthesis and prevent pest buildup.",
+              "ur": "پتوں کو باقاعدگی سے صاف کریں تاکہ موثر فوٹو سنتھیسس یقینی ہو اور کیڑوں کے جمع ہونے سے بچا جا سکے۔",
+              "ar": "نظف الأوراق بانتظام لضمان التمثيل الضوئي الفعال ومنع تراكم الآفات.",
+              "fr": "Nettoyez régulièrement les feuilles pour assurer une photosynthèse efficace et prévenir l'accumulation de parasites."
+            },
+            "EXPERT": {
+              "en": "Use a mild soap solution for a deeper clean if leaves are sticky or heavily soiled, then rinse.",
+              "ur": "اگر پتے چپچپے یا بہت گندے ہوں تو گہری صفائی کے لیے ہلکے صابن کا محلول استعمال کریں، پھر دھو لیں۔",
+              "ar": "استخدم محلول صابون خفيف لتنظيف أعمق إذا كانت الأوراق لزجة أو شديدة الاتساخ، ثم اشطفها.",
+              "fr": "Utilisez une solution savonneuse douce pour un nettoyage plus profond si les feuilles sont collantes ou très sales, puis rincez."
+            }
+          }
+        },
+        "pestInspection": {
+          "isRecurring": true,
+          "intervalDays": 60,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for any unusual spots or tiny bugs.",
+              "ur": "پتوں پر کسی بھی غیر معمولی دھبے یا چھوٹے کیڑوں کی جانچ کریں۔",
+              "ar": "افحص الأوراق بحثًا عن أي بقع غير عادية أو حشرات صغيرة.",
+              "fr": "Vérifiez les feuilles pour toute tache inhabituelle ou petits insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect both sides of leaves and stems for common pests like spider mites or mealybugs.",
+              "ur": "پتوں اور تنوں کے دونوں اطراف کو مکڑی کے کیڑوں یا میلی بگس جیسے عام کیڑوں کے لیے معائنہ کریں۔",
+              "ar": "افحص كلا جانبي الأوراق والسيقان بحثًا عن الآفات الشائعة مثل سوس العنكبوت أو البق الدقيقي.",
+              "fr": "Inspectez les deux côtés des feuilles et des tiges pour les parasites courants comme les tétranyques ou les cochenilles farineuses."
+            },
+            "EXPERT": {
+              "en": "Perform a thorough inspection, including rhizomes, for early signs of pests or diseases. Isolate affected plants immediately.",
+              "ur": "کیڑوں یا بیماریوں کی ابتدائی علامات کے لیے ریزوم سمیت مکمل معائنہ کریں۔ متاثرہ پودوں کو فوری طور پر الگ کریں۔",
+              "ar": "قم بإجراء فحص شامل، بما في ذلك الجذور، بحثًا عن علامات مبكرة للآفات أو الأمراض. اعزل النباتات المصابة فورًا.",
+              "fr": "Effectuez une inspection approfondie, y compris les rhizomes, pour les premiers signes de parasites ou de maladies. Isolez immédiatement les plantes affectées."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Mealybugs",
+              "ur": "میلی بگس",
+              "ar": "البق الدقيقي",
+              "fr": "Cochenilles farineuses"
+            },
+            {
+              "en": "Spider Mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس العنكبوت",
+              "fr": "Acariens"
+            },
+            {
+              "en": "Scale Insects",
+              "ur": "اسکیل کیڑے",
+              "ar": "الحشرات القشرية",
+              "fr": "Cochenilles à bouclier"
+            }
+          ]
+        },
+        "repotting": {
+          "required": false,
+          "dayOffset": 730,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Repot every 2-3 years into a slightly larger pot with fresh, well-draining soil.",
+              "ur": "ہر 2-3 سال بعد تھوڑے بڑے گملے میں تازہ، اچھی نکاسی والی مٹی کے ساتھ دوبارہ لگائیں۔",
+              "ar": "أعد الزراعة كل 2-3 سنوات في وعاء أكبر قليلاً بتربة جديدة وجيدة التصريف.",
+              "fr": "Rempotez tous les 2-3 ans dans un pot légèrement plus grand avec un terreau frais et bien drainé."
+            },
+            "INTERMEDIATE": {
+              "en": "Repot when roots are circling the pot or rhizomes are pushing up. Use a pot only one size larger.",
+              "ur": "جب جڑیں گملے کے گرد گھوم رہی ہوں یا ریزوم اوپر کی طرف دھکیل رہے ہوں تو دوبارہ لگائیں۔ صرف ایک سائز بڑا گملہ استعمال کریں۔",
+              "ar": "أعد الزراعة عندما تكون الجذور تدور حول الوعاء أو الجذور تدفع للأعلى. استخدم وعاء أكبر بحجم واحد فقط.",
+              "fr": "Rempotez lorsque les racines encerclent le pot ou que les rhizomes poussent. Utilisez un pot d'une seule taille supérieure."
+            },
+            "EXPERT": {
+              "en": "Inspect rhizomes during repotting for any signs of rot or damage. Trim as necessary and use a very gritty, fast-draining mix.",
+              "ur": "دوبارہ لگاتے وقت ریزوم کا معائنہ کریں تاکہ گلنے یا نقصان کی کوئی علامت نہ ہو۔ ضرورت کے مطابق تراشیں اور بہت ریتلی، تیزی سے نکاسی کرنے والی مکس استعمال کریں۔",
+              "ar": "افحص الجذور أثناء إعادة الزراعة بحثًا عن أي علامات تعفن أو تلف. قم بالتقليم حسب الضرورة واستخدم خليطًا خشنًا جدًا وسريع التصريف.",
+              "fr": "Inspectez les rhizomes lors du rempotage pour tout signe de pourriture ou de dommage. Taillez si nécessaire et utilisez un mélange très granuleux et à drainage rapide."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Rare indoor flowering of ZZ Plant",
+        "ur": "زیڈ زیڈ پلانٹ کا گھر کے اندر نایاب پھول آنا",
+        "ar": "تزهير نادر لنبات ZZ في الأماكن المغلقة",
+        "fr": "Floraison rare du ZZ Plant en intérieur"
+      },
+      "emoji": "🌸",
+      "tips": [
+        {
+          "en": "ZZ Plant flowers are inconspicuous and typically form at the base of the plant.",
+          "ur": "زیڈ زیڈ پلانٹ کے پھول غیر نمایاں ہوتے ہیں اور عام طور پر پودے کی بنیاد پر بنتے ہیں۔",
+          "ar": "زهور نبات ZZ غير واضحة وتتكون عادة عند قاعدة النبات.",
+          "fr": "Les fleurs du ZZ Plant sont discrètes et se forment généralement à la base de la plante."
+        },
+        {
+          "en": "Flowering is a sign of a very mature and happy plant, but not a common occurrence indoors.",
+          "ur": "پھول آنا ایک بہت پختہ اور خوش پودے کی نشانی ہے، لیکن گھر کے اندر یہ عام نہیں ہے۔",
+          "ar": "التزهير علامة على نبات ناضج وسعيد جدًا، ولكنه ليس حدثًا شائعًا في الأماكن المغلقة.",
+          "fr": "La floraison est un signe d'une plante très mature et heureuse, mais ce n'est pas un événement courant en intérieur."
+        }
+      ],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Observe the base of the plant for small, spathe-like flowers.",
+              "ur": "پودے کی بنیاد پر چھوٹے، اسپاتھ جیسے پھولوں کا مشاہدہ کریں۔",
+              "ar": "راقب قاعدة النبات بحثًا عن زهور صغيرة تشبه السباتة.",
+              "fr": "Observez la base de la plante pour de petites fleurs en forme de spathe."
+            },
+            "INTERMEDIATE": {
+              "en": "Confirm flowering and ensure no signs of stress or pest issues are present.",
+              "ur": "پھول آنے کی تصدیق کریں اور یقینی بنائیں کہ تناؤ یا کیڑوں کے مسائل کی کوئی علامت موجود نہیں ہے۔",
+              "ar": "تأكد من التزهير وتأكد من عدم وجود علامات إجهاد أو مشاكل آفات.",
+              "fr": "Confirmez la floraison et assurez-vous qu'il n'y a pas de signes de stress ou de problèmes de parasites."
+            },
+            "EXPERT": {
+              "en": "Document the flowering event, noting conditions, as it's a rare occurrence for indoor ZZ Plants.",
+              "ur": "پھول آنے کے واقعے کو دستاویزی شکل دیں، حالات کو نوٹ کرتے ہوئے، کیونکہ یہ گھر کے اندر زیڈ زیڈ پلانٹس کے لیے ایک نایاب واقعہ ہے۔",
+              "ar": "وثق حدث التزهير، مع ملاحظة الظروف، لأنه حدث نادر لنباتات ZZ الداخلية.",
+              "fr": "Documentez l'événement de floraison, en notant les conditions, car c'est une occurrence rare pour les ZZ Plants d'intérieur."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "mlPer10LContainer": 200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain regular watering schedule; do not overwater.",
+              "ur": "پانی دینے کا باقاعدہ شیڈول برقرار رکھیں؛ زیادہ پانی نہ دیں۔",
+              "ar": "حافظ على جدول الري المنتظم؛ لا تفرط في الري.",
+              "fr": "Maintenez un calendrier d'arrosage régulier; n'arrosez pas trop."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent 'soak and dry' cycle. Avoid any changes that could stress the plant.",
+              "ur": "مسلسل 'سوکھا اور گیلا' سائیکل یقینی بنائیں۔ ایسے کسی بھی تبدیلی سے گریز کریں جو پودے کو تناؤ دے سکتی ہے۔",
+              "ar": "تأكد من دورة 'الري والتجفيف' المتسقة. تجنب أي تغييرات قد تسبب إجهادًا للنبات.",
+              "fr": "Assurez un cycle 'tremper et sécher' cohérent. Évitez tout changement qui pourrait stresser la plante."
+            },
+            "EXPERT": {
+              "en": "Monitor plant's overall health. Flowering requires energy, so ensure optimal conditions without over-fertilizing.",
+              "ur": "پودے کی مجموعی صحت کی نگرانی کریں۔ پھول آنے کے لیے توانائی کی ضرورت ہوتی ہے، لہذا زیادہ کھاد ڈالے بغیر بہترین حالات کو یقینی بنائیں۔",
+              "ar": "راقب الصحة العامة للنبات. يتطلب التزهير طاقة، لذا تأكد من الظروف المثلى دون الإفراط في التسميد.",
+              "fr": "Surveillez la santé générale de la plante. La floraison demande de l'énergie, assurez donc des conditions optimales sans sur-fertilisation."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "GROWING_SEASON": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Diluted Liquid Organic Fertilizer (e.g., Worm Casting Tea, Fish Emulsion)",
+          "ur": "پتلا نامیاتی مائع کھاد (مثلاً ورم کاسٹنگ چائے، مچھلی کا عرق)",
+          "ar": "سماد عضوي سائل مخفف (مثل شاي سماد الدود، مستخلص السمك)",
+          "fr": "Engrais organique liquide dilué (ex: thé de lombricompost, émulsion de poisson)"
+        },
+        "preparation": {
+          "en": "Dilute to half or quarter strength as per product instructions. ZZ plants are light feeders.",
+          "ur": "مصنوعات کی ہدایات کے مطابق آدھی یا چوتھائی طاقت تک پتلا کریں۔ زی زی پودے کم کھاد لیتے ہیں۔",
+          "ar": "خفف إلى نصف أو ربع القوة حسب تعليمات المنتج. نباتات الزيزي تحتاج إلى تغذية خفيفة.",
+          "fr": "Diluez à moitié ou au quart de la force selon les instructions du produit. Les plantes ZZ sont peu gourmandes."
+        },
+        "quantityPer10L": 25,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Fertilize sparingly, only during the active growing season (spring/summer). Over-fertilizing can harm the plant.",
+          "ur": "بہت کم کھاد دیں، صرف فعال بڑھنے کے موسم (بہار/گرمی) میں۔ زیادہ کھاد پودے کو نقصان پہنچا سکتی ہے۔",
+          "ar": "سمد باعتدال، فقط خلال موسم النمو النشط (الربيع/الصيف). الإفراط في التسميد يمكن أن يضر بالنبات.",
+          "fr": "Fertilisez avec parcimonie, uniquement pendant la saison de croissance active (printemps/été). Un excès d'engrais peut nuire à la plante."
+        }
+      },
+      "DORMANT_SEASON": {
+        "apply": false,
+        "note": {
+          "en": "Do not fertilize during the dormant season (autumn/winter).",
+          "ur": "سردیوں کے موسم میں کھاد نہ دیں۔",
+          "ar": "لا تسمد خلال فترة السكون (الخريف/الشتاء).",
+          "fr": "Ne pas fertiliser pendant la saison de dormance (automne/hiver)."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "GROWING_SEASON": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Balanced Liquid Houseplant Fertilizer (e.g., 10-10-10 or 20-20-20)",
+          "ur": "متوازن مائع گھریلو پودوں کی کھاد (مثلاً 10-10-10 یا 20-20-20)",
+          "ar": "سماد سائل متوازن للنباتات المنزلية (مثل 10-10-10 أو 20-20-20)",
+          "fr": "Engrais liquide équilibré pour plantes d'intérieur (ex: 10-10-10 ou 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dilute to half or quarter strength. ZZ plants are very sensitive to over-fertilization.",
+          "ur": "آدھی یا چوتھائی طاقت تک پتلا کریں۔ زی زی پودے زیادہ کھاد کے لیے بہت حساس ہوتے ہیں۔",
+          "ar": "خفف إلى نصف أو ربع القوة. نباتات الزيزي حساسة جداً للإفراط في التسميد.",
+          "fr": "Diluez à moitié ou au quart de la force. Les plantes ZZ sont très sensibles à la surfertilisation."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Apply very sparingly, once every 3-4 months during the growing season. Always err on the side of less.",
+          "ur": "بہت کم مقدار میں، بڑھنے کے موسم میں ہر 3-4 ماہ بعد ایک بار استعمال کریں۔ ہمیشہ کم مقدار میں استعمال کریں۔",
+          "ar": "استخدم كمية قليلة جداً، مرة كل 3-4 أشهر خلال موسم النمو. دائماً استخدم كمية أقل.",
+          "fr": "Appliquez très parcimonieusement, une fois tous les 3-4 mois pendant la saison de croissance. Mieux vaut en mettre moins."
+        }
+      },
+      "DORMANT_SEASON": {
+        "apply": false,
+        "note": {
+          "en": "Do not fertilize during the dormant season (autumn/winter).",
+          "ur": "سردیوں کے موسم میں کھاد نہ دیں۔",
+          "ar": "لا تسمد خلال فترة السكون (الخريف/الشتاء).",
+          "fr": "Ne pas fertiliser pendant la saison de dormance (automne/hiver)."
+        }
+      }
+    },
+    "HYBRID": {
+      "GROWING_SEASON": {
+        "week1": "Diluted Organic Fertilizer",
+        "week2": "Diluted Chemical Fertilizer",
+        "alternating": false,
+        "note": {
+          "en": "For ZZ plants, it's generally best to stick to one type of fertilizer (organic or chemical) and apply very infrequently. Alternating is not recommended due to their low nutrient needs.",
+          "ur": "زی زی پودوں کے لیے، عام طور پر ایک قسم کی کھاد (نامیاتی یا کیمیائی) استعمال کرنا بہتر ہے اور بہت کم استعمال کرنا چاہیے۔ ان کی کم غذائی ضروریات کی وجہ سے متبادل استعمال کی سفارش نہیں کی جاتی ہے۔",
+          "ar": "بالنسبة لنباتات الزيزي، من الأفضل عموماً الالتزام بنوع واحد من الأسمدة (عضوية أو كيميائية) وتطبيقها بشكل غير متكرر. لا يوصى بالتبديل بسبب احتياجاتها المنخفضة من المغذيات.",
+          "fr": "Pour les plantes ZZ, il est généralement préférable de s'en tenir à un seul type d'engrais (organique ou chimique) et de l'appliquer très rarement. L'alternance n'est pas recommandée en raison de leurs faibles besoins en nutriments."
+        }
+      },
+      "DORMANT_SEASON": {
+        "apply": false,
+        "note": {
+          "en": "No fertilization during dormant season.",
+          "ur": "سردیوں کے موسم میں کھاد نہ دیں۔",
+          "ar": "لا تسميد خلال فترة السكون.",
+          "fr": "Pas de fertilisation pendant la saison de dormance."
+        }
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "snake_plant",
+      "benefit": {
+        "en": "Thrives in similar low-light and low-water conditions, making them excellent companions for a cohesive indoor plant display.",
+        "ur": "کم روشنی اور کم پانی کی حالتوں میں اچھی طرح بڑھتے ہیں، جو انہیں ایک ساتھ رکھنے کے لیے بہترین بناتا ہے۔",
+        "ar": "تزدهر في ظروف الإضاءة المنخفضة والري القليل، مما يجعلها رفيقة ممتازة لعرض نباتات داخلية متناسقة.",
+        "fr": "Prospère dans des conditions de faible luminosité et de faible arrosage similaires, ce qui en fait d'excellents compagnons pour une présentation cohérente de plantes d'intérieur."
+      }
+    },
+    {
+      "plantId": "pothos",
+      "benefit": {
+        "en": "Adaptable to various light levels and tolerant of infrequent watering, complementing the ZZ plant's care routine.",
+        "ur": "مختلف روشنی کی سطحوں کے مطابق ڈھلنے والا اور کم پانی دینے کو برداشت کرنے والا، زی زی پودے کی دیکھ بھال کے معمولات کو پورا کرتا ہے۔",
+        "ar": "يتكيف مع مستويات الإضاءة المختلفة ويتحمل الري غير المنتظم، مما يكمل روتين العناية بنبات الزيزي.",
+        "fr": "S'adapte à divers niveaux de lumière et tolère un arrosage peu fréquent, complétant la routine d'entretien de la plante ZZ."
+      }
+    },
+    {
+      "plantId": "peace_lily",
+      "benefit": {
+        "en": "Prefers indirect light and can tolerate periods of dryness, making it a good aesthetic and care companion.",
+        "ur": "بالواسطہ روشنی کو ترجیح دیتا ہے اور خشک ادوار کو برداشت کر سکتا ہے، جو اسے ایک اچھا جمالیاتی اور دیکھ بھال کا ساتھی بناتا ہے۔",
+        "ar": "يفضل الإضاءة غير المباشرة ويمكنه تحمل فترات الجفاف، مما يجعله رفيقًا جيدًا من الناحية الجمالية والرعاية.",
+        "fr": "Préfère la lumière indirecte et peut tolérer des périodes de sécheresse, ce qui en fait un bon compagnon esthétique et d'entretien."
+      }
+    },
+    {
+      "plantId": "cast_iron_plant",
+      "benefit": {
+        "en": "Extremely hardy and tolerant of neglect, similar to the ZZ plant, thriving in low light and infrequent watering.",
+        "ur": "انتہائی سخت جان اور نظراندازی کو برداشت کرنے والا، زی زی پودے کی طرح، کم روشنی اور کم پانی میں اچھی طرح بڑھتا ہے۔",
+        "ar": "شديد التحمل ويتسامح مع الإهمال، على غرار نبات الزيزي، ويزدهر في الإضاءة المنخفضة والري غير المنتظم.",
+        "fr": "Extrêmement robuste et tolérant à la négligence, similaire à la plante ZZ, prospérant dans des conditions de faible luminosité et d'arrosage peu fréquent."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "ferns",
+      "reason": {
+        "en": "Ferns require high humidity and consistently moist soil, which would lead to overwatering and root rot for the ZZ plant if kept in the same environment.",
+        "ur": "فرن کو زیادہ نمی اور مسلسل نم مٹی کی ضرورت ہوتی ہے، جو ایک ہی ماحول میں رکھنے پر زی زی پودے کے لیے زیادہ پانی اور جڑ سڑنے کا باعث بنے گی۔",
+        "ar": "تحتاج السرخس إلى رطوبة عالية وتربة رطبة باستمرار، مما يؤدي إلى الإفراط في الري وتعفن الجذور لنبات الزيزي إذا تم الاحتفاظ بهما في نفس البيئة.",
+        "fr": "Les fougères nécessitent une humidité élevée et un sol constamment humide, ce qui entraînerait un arrosage excessif et la pourriture des racines pour la plante ZZ si elles sont maintenues dans le même environnement."
+      }
+    },
+    {
+      "plantId": "orchids",
+      "reason": {
+        "en": "Orchids have very specific watering and humidity needs that are vastly different from the ZZ plant, making them incompatible companions.",
+        "ur": "آرکڈز کی پانی اور نمی کی ضروریات بہت مخصوص ہوتی ہیں جو زی زی پودے سے بہت مختلف ہیں، جس کی وجہ سے وہ غیر ہم آہنگ ساتھی ہیں۔",
+        "ar": "تتطلب الأوركيد احتياجات ري ورطوبة محددة جداً تختلف بشكل كبير عن نبات الزيزي، مما يجعلها رفقاء غير متوافقين.",
+        "fr": "Les orchidées ont des besoins en eau et en humidité très spécifiques qui sont très différents de ceux de la plante ZZ, ce qui en fait des compagnons incompatibles."
+      }
+    },
+    {
+      "plantId": "calathea",
+      "reason": {
+        "en": "Calatheas require high humidity and consistently moist soil, which is detrimental to the ZZ plant's preference for dry conditions between waterings.",
+        "ur": "کلاٹیا کو زیادہ نمی اور مسلسل نم مٹی کی ضرورت ہوتی ہے، جو زی زی پودے کی پانی کے درمیان خشک حالتوں کی ترجیح کے لیے نقصان دہ ہے۔",
+        "ar": "تتطلب الكالاتيا رطوبة عالية وتربة رطبة باستمرار، وهو أمر ضار لتفضيل نبات الزيزي للظروف الجافة بين الريات.",
+        "fr": "Les Calatheas nécessitent une humidité élevée et un sol constamment humide, ce qui est préjudiciable à la préférence de la plante ZZ pour des conditions sèches entre les arrosages."
+      }
+    },
+    {
+      "plantId": "maidenhair_fern",
+      "reason": {
+        "en": "Extremely high humidity and constant moisture requirements of Maidenhair ferns are completely opposite to the ZZ plant's needs, leading to certain demise for the ZZ.",
+        "ur": "میڈن ہیئر فرن کی انتہائی زیادہ نمی اور مسلسل نمی کی ضروریات زی زی پودے کی ضروریات کے بالکل برعکس ہیں، جس سے زی زی پودے کی یقینی موت ہو سکتی ہے۔",
+        "ar": "تتطلب سرخس شعر العذراء رطوبة عالية جداً ورطوبة مستمرة، وهي متطلبات معاكسة تماماً لاحتياجات نبات الزيزي، مما يؤدي إلى هلاك الزيزي حتماً.",
+        "fr": "Les exigences extrêmement élevées en humidité et en humidité constante des fougères Adiantum sont complètement opposées aux besoins de la plante ZZ, entraînant la mort certaine de cette dernière."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "root_rot_overwatering",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "The most common issue for ZZ plants. Caused by excessive watering, leading to mushy stems, yellowing leaves, and eventually plant collapse. Ensure soil dries out completely between waterings.",
+        "ur": "زی زی پودوں کا سب سے عام مسئلہ۔ زیادہ پانی دینے کی وجہ سے ہوتا ہے، جس سے تنے نرم ہو جاتے ہیں، پتے پیلے پڑ جاتے ہیں، اور بالآخر پودا مر جاتا ہے۔ یقینی بنائیں کہ پانی دینے کے درمیان مٹی مکمل طور پر خشک ہو جائے۔",
+        "ar": "المشكلة الأكثر شيوعًا لنباتات الزيزي. تحدث بسبب الري المفرط، مما يؤدي إلى سيقان طرية، واصفرار الأوراق، وفي النهاية انهيار النبات. تأكد من جفاف التربة تمامًا بين الريات.",
+        "fr": "Le problème le plus courant pour les plantes ZZ. Causé par un arrosage excessif, entraînant des tiges molles, des feuilles jaunissantes et finalement l'effondrement de la plante. Assurez-vous que le sol sèche complètement entre les arrosages."
+      }
+    },
+    {
+      "pestId": "yellowing_leaves",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Often a symptom of overwatering, but can also indicate underwatering (less common), nutrient deficiency (rare for ZZ), or cold stress. Check soil moisture first.",
+        "ur": "اکثر زیادہ پانی دینے کی علامت ہوتی ہے، لیکن کم پانی (کم عام)، غذائی اجزاء کی کمی (زی زی کے لیے نایاب)، یا سردی کے دباؤ کی بھی نشاندہی کر سکتی ہے۔ پہلے مٹی کی نمی چیک کریں۔",
+        "ar": "غالبًا ما تكون علامة على الإفراط في الري، ولكن يمكن أن تشير أيضًا إلى نقص الري (أقل شيوعًا)، نقص المغذيات (نادر بالنسبة للزيزي)، أو إجهاد البرد. تحقق من رطوبة التربة أولاً.",
+        "fr": "Souvent un symptôme d'arrosage excessif, mais peut aussi indiquer un sous-arrosage (moins courant), une carence nutritive (rare pour le ZZ) ou un stress dû au froid. Vérifiez d'abord l'humidité du sol."
+      }
+    },
+    {
+      "pestId": "mealybugs",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, white, cottony pests that cluster in leaf axils and undersides of leaves, sucking sap. Treat with rubbing alcohol on a cotton swab.",
+        "ur": "چھوٹے، سفید، روئی جیسے کیڑے جو پتوں کے بغلوں اور پتوں کے نیچے جمع ہو کر رس چوستے ہیں۔ روئی کے پھاہے پر رگڑنے والے الکحل سے علاج کریں۔",
+        "ar": "حشرات صغيرة بيضاء قطنية تتجمع في محاور الأوراق وتحت الأوراق، تمتص العصارة. عالجها بمسح الكحول على قطعة قطن.",
+        "fr": "Petits parasites blancs cotonneux qui se regroupent à l'aisselle des feuilles et sous les feuilles, suçant la sève. Traitez avec de l'alcool à friction sur un coton-tige."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause stippling on leaves and fine webbing. Thrive in dry, warm conditions. Increase humidity and wipe leaves with a damp cloth or insecticidal soap.",
+        "ur": "چھوٹے کیڑے جو پتوں پر دھبے اور باریک جالا بناتے ہیں۔ خشک، گرم حالات میں پھلتے پھولتے ہیں۔ نمی بڑھائیں اور پتوں کو نم کپڑے یا کیڑے مار صابن سے صاف کریں۔",
+        "ar": "آفات صغيرة تسبب تنقيطًا على الأوراق وشبكة دقيقة. تزدهر في الظروف الجافة والدافئة. قم بزيادة الرطوبة وامسح الأوراق بقطعة قماش مبللة أو صابون مبيد حشري.",
+        "fr": "Minuscules parasites qui provoquent des piqûres sur les feuilles et de fines toiles. Prospèrent dans des conditions sèches et chaudes. Augmentez l'humidité et essuyez les feuilles avec un chiffon humide ou du savon insecticide."
+      }
+    },
+    {
+      "pestId": "scale_insects",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, brown, oval-shaped pests that attach to stems and leaves, sucking sap. Scrape off manually or treat with horticultural oil.",
+        "ur": "چھوٹے، بھورے، بیضوی شکل کے کیڑے جو تنوں اور پتوں سے چپک جاتے ہیں، رس چوستے ہیں۔ انہیں دستی طور پر کھرچ کر ہٹا دیں یا باغبانی کے تیل سے علاج کریں۔",
+        "ar": "حشرات صغيرة بنية بيضاوية الشكل تلتصق بالسيقان والأوراق، وتمتص العصارة. اكشطها يدويًا أو عالجها بالزيت البستاني.",
+        "fr": "Petits parasites bruns de forme ovale qui s'attachent aux tiges et aux feuilles, suçant la sève. Grattez-les manuellement ou traitez avec de l'huile horticole."
+      }
+    },
+    {
+      "pestId": "cold_damage",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "<10"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves may turn black, mushy, or shrivel if exposed to temperatures below 10°C (50°F). Move to a warmer location.",
+        "ur": "اگر پودا 10°C (50°F) سے کم درجہ حرارت پر رکھا جائے تو پتے کالے، نرم یا سکڑ سکتے ہیں۔ اسے گرم جگہ پر منتقل کریں۔",
+        "ar": "قد تتحول الأوراق إلى اللون الأسود، أو تصبح طرية، أو تذبل إذا تعرضت لدرجات حرارة أقل من 10 درجات مئوية (50 درجة فهرنهايت). انقلها إلى مكان أكثر دفئًا.",
+        "fr": "Les feuilles peuvent devenir noires, molles ou se flétrir si elles sont exposées à des températures inférieures à 10°C (50°F). Déplacez la plante dans un endroit plus chaud."
+      }
+    },
+    {
+      "pestId": "sunburn",
+      "vulnerableStages": [
+        "GROWING_SEASON",
+        "DORMANT_SEASON"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Direct, intense sunlight can scorch the leaves, causing brown or yellow patches. Move to a location with indirect or filtered light.",
+        "ur": "براہ راست، تیز دھوپ پتوں کو جلا سکتی ہے، جس سے بھورے یا پیلے دھبے پڑ جاتے ہیں۔ اسے بالواسطہ یا فلٹر شدہ روشنی والی جگہ پر منتقل کریں۔",
+        "ar": "أشعة الشمس المباشرة والقوية يمكن أن تحرق الأوراق، مسببة بقعًا بنية أو صفراء. انقلها إلى مكان به إضاءة غير مباشرة أو مصفاة.",
+        "fr": "La lumière directe et intense du soleil peut brûler les feuilles, provoquant des taches brunes ou jaunes. Déplacez la plante dans un endroit avec une lumière indirecte ou filtrée."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": null,
+    "firstHarvestDayMax": null,
+    "continuousHarvest": false,
+    "harvestWindowDays": null,
+    "readinessSigns": [
+      {
+        "en": "Mature, healthy stems or leaves for propagation",
+        "ur": "پختہ، صحت مند تنے یا پتے کٹنگ کے لیے",
+        "ar": "سيقان أو أوراق ناضجة وصحية للتكاثر",
+        "fr": "Tiges ou feuilles matures et saines pour la propagation"
+      },
+      {
+        "en": "Overgrown plant needing pruning",
+        "ur": "زیادہ بڑھا ہوا پودا جسے تراشنے کی ضرورت ہے",
+        "ar": "نبات متضخم يحتاج إلى تقليم",
+        "fr": "Plante trop grande nécessitant une taille"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "For propagation, cut a healthy leaf or stem at the base. Allow the cut end to callus for a few days before placing in water or soil.",
+        "ur": "کٹنگ کے لیے، ایک صحت مند پتے یا تنے کو بنیاد سے کاٹیں۔ کٹے ہوئے سرے کو چند دن کے لیے خشک ہونے دیں پھر پانی یا مٹی میں رکھیں۔",
+        "ar": "للتكاثر، اقطع ورقة أو ساقًا صحية من القاعدة. اترك الطرف المقطوع يتصلب لبضعة أيام قبل وضعه في الماء أو التربة.",
+        "fr": "Pour la propagation, coupez une feuille ou une tige saine à la base. Laissez l'extrémité coupée cicatriser quelques jours avant de la placer dans l'eau ou le sol."
+      },
+      "INTERMEDIATE": {
+        "en": "Use clean, sharp shears to take stem cuttings with at least two leaf nodes. For pruning, remove yellowed or damaged leaves at the base.",
+        "ur": "صاف، تیز قینچی کا استعمال کرتے ہوئے کم از کم دو پتے والے نوڈز کے ساتھ تنے کی کٹنگ لیں۔ تراشنے کے لیے، پیلے یا خراب پتوں کو بنیاد سے ہٹا دیں۔",
+        "ar": "استخدم مقصًا نظيفًا وحادًا لأخذ قصاصات الساق مع عقدتين ورقية على الأقل. للتقليم، أزل الأوراق الصفراء أو التالفة من القاعدة.",
+        "fr": "Utilisez des ciseaux propres et aiguisés pour prendre des boutures de tige avec au moins deux nœuds foliaires. Pour la taille, retirez les feuilles jaunies ou endommagées à la base."
+      },
+      "EXPERT": {
+        "en": "When propagating, consider using rooting hormone for faster and more reliable root development. Ensure proper drainage for new cuttings.",
+        "ur": "کٹنگ کرتے وقت، تیز اور قابل اعتماد جڑوں کی نشوونما کے لیے روٹنگ ہارمون استعمال کرنے پر غور کریں۔ نئی کٹنگوں کے لیے مناسب نکاسی کو یقینی بنائیں۔",
+        "ar": "عند التكاثر، فكر في استخدام هرمون التجذير لتطوير جذور أسرع وأكثر موثوقية. تأكد من الصرف الصحيح للقصاصات الجديدة.",
+        "fr": "Lors de la propagation, envisagez d'utiliser une hormone de bouturage pour un développement racinaire plus rapide et plus fiable. Assurez un drainage adéquat pour les nouvelles boutures."
+      }
+    },
+    "storage": {
+      "en": "Not applicable (for propagation, cuttings are planted immediately or callused then planted)",
+      "ur": "قابل اطلاق نہیں (کٹنگ کے لیے، کٹنگز کو فوراً لگایا جاتا ہے یا خشک کر کے پھر لگایا جاتا ہے)",
+      "ar": "غير قابل للتطبيق (للتكاثر، يتم زرع القصاصات فورًا أو بعد التجفيف ثم زرعها)",
+      "fr": "Non applicable (pour la propagation, les boutures sont plantées immédiatement ou après cicatrisation)"
+    },
+    "yieldEstimateKg": {
+      "10L": null,
+      "20L": null,
+      "30L": null,
+      "GROUND": null
+    }
+  }
+}

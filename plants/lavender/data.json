@@ -1,0 +1,1383 @@
+{
+  "id": "lavender",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1579613832107-54ad26871a24?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Lavender",
+      "alternate": [
+        "English Lavender",
+        "True Lavender",
+        "Common Lavender"
+      ]
+    },
+    "ur": {
+      "common": "لیونڈر",
+      "alternate": [
+        "لاونڈر"
+      ]
+    },
+    "ar": {
+      "common": "لافندر",
+      "alternate": [
+        "خزامى"
+      ]
+    },
+    "fr": {
+      "common": "Lavande",
+      "alternate": [
+        "Lavande vraie"
+      ]
+    },
+    "botanical": "Lavandula angustifolia",
+    "aliases": [
+      "lavandar",
+      "khuzama",
+      "lavande"
+    ]
+  },
+  "category": "herb",
+  "subcategory": "aromatic",
+  "germinationDays": 21,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 60,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false
+  },
+  "tags": [
+    "perennial",
+    "herb",
+    "aromatic",
+    "drought-tolerant",
+    "full-sun",
+    "pollinator-friendly",
+    "container-friendly"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 28,
+    "survivalMinC": -15,
+    "survivalMaxC": 35,
+    "germinationMinC": 18,
+    "germinationOptimalC": 21,
+    "flowerDropAboveC": 32,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "LOW",
+    "daysToMaturity": 120,
+    "requiredGDD": 1000,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 15,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": -5,
+      "frostWarningC": -2,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 14
+  },
+  "water": {
+    "baseMlPer10L": 500,
+    "intervalDaysBase": 5,
+    "intervalDaysHot": 3,
+    "intervalDaysExtreme": 2,
+    "intervalDaysCool": 7,
+    "drainageSensitivity": "very high",
+    "wateringNature": "Deep and Infrequent",
+    "soilMoisturePreference": "Allow soil to dry out between waterings",
+    "overwateringSensitivity": "very high",
+    "underwateringSensitivity": "low",
+    "rootRotRisk": "Very high if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 30,
+      "max": 50
+    },
+    "drynessThreshold": {
+      "warning": 25,
+      "critical": 15
+    },
+    "waterStressSymptoms": [
+      "wilting",
+      "greyer foliage",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "root rot",
+      "stunted growth",
+      "plant collapse"
+    ],
+    "preferredWateringMethod": "Drip irrigation or base watering",
+    "thingsToAvoid": [
+      "overhead watering",
+      "standing water",
+      "soggy soil",
+      "frequent shallow watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "very high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "weed suppression",
+      "soil temperature regulation",
+      "moisture retention (use sparingly near stem)"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Ensure excellent drainage",
+        "ur": "بہترین نکاسی کو یقینی بنائیں",
+        "ar": "تأكد من الصرف الممتاز",
+        "fr": "Assurer un excellent drainage"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.6,
+      "notes": {
+        "en": "Fabric bags provide good aeration",
+        "ur": "فیبرک بیگ اچھی ہوا کی گردش فراہم کرتے ہیں",
+        "ar": "أكياس القماش توفر تهوية جيدة",
+        "fr": "Les sacs en tissu offrent une bonne aération"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Prefers well-drained soil",
+        "ur": "اچھی نکاسی والی مٹی کو ترجیح دیتا ہے",
+        "ar": "يفضل التربة جيدة التصريف",
+        "fr": "Préfère un sol bien drainé"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Excellent for drainage control",
+        "ur": "نکاسی کو کنٹرول کرنے کے لیے بہترین",
+        "ar": "ممتاز للتحكم في الصرف",
+        "fr": "Excellent pour le contrôle du drainage"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "90-150 days (first bloom)",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Lavender seeds often benefit from cold stratification (4-6 weeks in a refrigerator) before sowing to improve germination rates.",
+          "ur": "لیونڈر کے بیجوں کو بونے سے پہلے ٹھنڈی تہہ بندی (4-6 ہفتے ریفریجریٹر میں) سے فائدہ ہوتا ہے تاکہ انکرن کی شرح بہتر ہو۔",
+          "ar": "تستفيد بذور اللافندر غالبًا من التقسيم البارد (4-6 أسابيع في الثلاجة) قبل البذر لتحسين معدلات الإنبات.",
+          "fr": "Les graines de lavande bénéficient souvent d'une stratification à froid (4-6 semaines au réfrigérateur) avant le semis pour améliorer les taux de germination."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand for good drainage.",
+              "ur": "اچھی نکاسی کے لیے 50% مٹی، 30% کھاد، 20% ریت ملائیں۔",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل لتصريف جيد.",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable pour un bon drainage."
+            },
+            "INTERMEDIATE": {
+              "en": "Add perlite and a small amount of lime to improve drainage and slightly raise pH.",
+              "ur": "نکاسی کو بہتر بنانے اور پی ایچ کو تھوڑا بڑھانے کے لیے پرلائٹ اور تھوڑی مقدار میں چونے کا اضافہ کریں۔",
+              "ar": "أضف البيرلايت وكمية صغيرة من الجير لتحسين الصرف ورفع درجة الحموضة قليلاً.",
+              "fr": "Ajoutez de la perlite et un peu de chaux pour améliorer le drainage et augmenter légèrement le pH."
+            },
+            "EXPERT": {
+              "en": "Amend soil with grit or fine gravel, check pH (6.7-7.3), and ensure excellent drainage.",
+              "ur": "مٹی کو بجری یا باریک کنکر سے بہتر بنائیں، پی ایچ (6.7-7.3) چیک کریں، اور بہترین نکاسی کو یقینی بنائیں۔",
+              "ar": "عدّل التربة بالحصى أو الرمل الناعم، تحقق من درجة الحموضة (6.7-7.3)، وتأكد من الصرف الممتاز.",
+              "fr": "Amendez le sol avec du gravier fin, vérifiez le pH (6.7-7.3) et assurez un excellent drainage."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds on the soil surface, lightly sprinkle with fine soil.",
+              "ur": "بیجوں کو مٹی کی سطح پر بوئیں، ہلکے سے باریک مٹی چھڑکیں۔",
+              "ar": "ابذر البذور على سطح التربة، ورشها برفق بالتربة الناعمة.",
+              "fr": "Semez les graines à la surface du sol, saupoudrez légèrement de terre fine."
+            },
+            "INTERMEDIATE": {
+              "en": "Sow thinly on the surface, press gently, and do not bury deep as they need light to germinate.",
+              "ur": "سطح پر پتلے طریقے سے بوئیں، آہستہ سے دبائیں، اور گہرائی میں نہ دبائیں کیونکہ انہیں انکرن کے لیے روشنی کی ضرورت ہوتی ہے۔",
+              "ar": "ابذر البذور بشكل رقيق على السطح، اضغط برفق، ولا تدفنها عميقًا لأنها تحتاج إلى الضوء لتنبت.",
+              "fr": "Semez finement à la surface, pressez doucement et n'enterrez pas profondément car elles ont besoin de lumière pour germer."
+            },
+            "EXPERT": {
+              "en": "Distribute pre-stratified seeds evenly on a sterile seed-starting mix, ensuring good seed-to-soil contact.",
+              "ur": "پہلے سے تہہ بندی شدہ بیجوں کو جراثیم سے پاک بیج شروع کرنے والے مکس پر یکساں طور پر تقسیم کریں، بیج اور مٹی کے درمیان اچھے رابطے کو یقینی بنائیں۔",
+              "ar": "وزع البذور المطبقة مسبقًا بالتساوي على خليط بدء البذور المعقم، مع ضمان تلامس جيد بين البذور والتربة.",
+              "fr": "Répartissez uniformément les graines pré-stratifiées sur un mélange de démarrage stérile, en assurant un bon contact graine-sol."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 10,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny sprouts, which can take several weeks.",
+              "ur": "چھوٹی کونپلیں چیک کریں، جس میں کئی ہفتے لگ سکتے ہیں۔",
+              "ar": "تحقق من البراعم الصغيرة، والتي قد تستغرق عدة أسابيع.",
+              "fr": "Vérifiez les petites pousses, cela peut prendre plusieurs semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor moisture levels and look for initial signs of germination.",
+              "ur": "نمی کی سطح کی نگرانی کریں اور انکرن کی ابتدائی علامات تلاش کریں۔",
+              "ar": "راقب مستويات الرطوبة وابحث عن العلامات الأولية للإنبات.",
+              "fr": "Surveillez les niveaux d'humidité et recherchez les premiers signes de germination."
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination and address any damping-off issues promptly.",
+              "ur": "یکساں انکرن کا معائنہ کریں اور کسی بھی ڈیمپنگ آف کے مسائل کو فوری طور پر حل کریں۔",
+              "ar": "افحص الإنبات الموحد وعالج أي مشاكل ذبول الشتلات على الفور.",
+              "fr": "Inspectez la germination uniforme et traitez rapidement tout problème de fonte des semis."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 50,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface daily to keep it consistently moist.",
+              "ur": "مٹی کی سطح کو روزانہ چھڑکیں تاکہ یہ مسلسل نم رہے۔",
+              "ar": "رش سطح التربة يوميًا للحفاظ عليها رطبة باستمرار.",
+              "fr": "Vaporisez la surface du sol quotidiennement pour la maintenir constamment humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent, light moisture without waterlogging.",
+              "ur": "پانی جمع کیے بغیر مسلسل، ہلکی نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة خفيفة ومتسقة دون إغراق التربة بالماء.",
+              "fr": "Maintenez une humidité légère et constante sans engorger."
+            },
+            "EXPERT": {
+              "en": "Use a fine mist sprayer to prevent disturbing tiny seeds and maintain surface humidity.",
+              "ur": "چھوٹے بیجوں کو پریشان کیے بغیر اور سطح کی نمی کو برقرار رکھنے کے لیے ایک باریک مسٹ سپرےر استعمال کریں۔",
+              "ar": "استخدم بخاخ رذاذ ناعم لمنع إزعاج البذور الصغيرة والحفاظ على رطوبة السطح.",
+              "fr": "Utilisez un pulvérisateur à brouillard fin pour éviter de déranger les petites graines et maintenir l'humidité de surface."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 28,
+      "durationDaysWarm": 21,
+      "durationDaysCool": 42,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to keep the soil moist, avoiding overwatering.",
+              "ur": "مٹی کو نم رکھنے کے لیے آہستہ سے پانی دیں، زیادہ پانی دینے سے گریز کریں۔",
+              "ar": "اسقِ بلطف للحفاظ على رطوبة التربة، مع تجنب الإفراط في الري.",
+              "fr": "Arrosez doucement pour maintenir le sol humide, en évitant l'excès d'eau."
+            }
+          }
+        },
+        "light": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide bright light, ideally near a sunny window.",
+              "ur": "روشن روشنی فراہم کریں، مثالی طور پر دھوپ والی کھڑکی کے قریب۔",
+              "ar": "وفر إضاءة ساطعة، ويفضل بالقرب من نافذة مشمسة.",
+              "fr": "Fournissez une lumière vive, idéalement près d'une fenêtre ensoleillée."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure seedlings receive 12-16 hours of bright light daily.",
+              "ur": "یقینی بنائیں کہ پودوں کو روزانہ 12-16 گھنٹے روشن روشنی ملے۔",
+              "ar": "تأكد من حصول الشتلات على 12-16 ساعة من الضوء الساطع يوميًا.",
+              "fr": "Assurez-vous que les semis reçoivent 12 à 16 heures de lumière vive par jour."
+            },
+            "EXPERT": {
+              "en": "Use supplemental grow lights to prevent legginess and promote strong growth.",
+              "ur": "لمبے ہونے سے بچنے اور مضبوط نشوونما کو فروغ دینے کے لیے اضافی گرو لائٹس استعمال کریں۔",
+              "ar": "استخدم أضواء النمو التكميلية لمنع الاستطالة وتعزيز النمو القوي.",
+              "fr": "Utilisez des lampes de croissance supplémentaires pour éviter l'étiolement et favoriser une croissance robuste."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "True leaves form",
+        "ur": "نئے پتے آنا",
+        "ar": "تكون الأوراق",
+        "fr": "Apparition des feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to the strongest ones, leaving about 2 inches between them.",
+              "ur": "سب سے مضبوط پودوں کو پتلا کریں، ان کے درمیان تقریباً 2 انچ کا فاصلہ چھوڑ دیں۔",
+              "ar": "خفف الشتلات إلى الأقوى، مع ترك حوالي 2 بوصة بينها.",
+              "fr": "Éclaircissez les semis pour ne garder que les plus forts, en laissant environ 2 pouces entre eux."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully remove weaker seedlings to ensure adequate spacing and air circulation.",
+              "ur": "مناسب فاصلہ اور ہوا کی گردش کو یقینی بنانے کے لیے کمزور پودوں کو احتیاط سے ہٹا دیں۔",
+              "ar": "أزل الشتلات الأضعف بعناية لضمان تباعد كافٍ ودوران الهواء.",
+              "fr": "Retirez délicatement les semis les plus faibles pour assurer un espacement et une circulation d'air adéquats."
+            },
+            "EXPERT": {
+              "en": "Prune weaker seedlings at the soil line to minimize root disturbance to remaining plants.",
+              "ur": "باقی پودوں کی جڑوں کو کم سے کم پریشان کرنے کے لیے کمزور پودوں کو مٹی کی سطح پر کاٹ دیں۔",
+              "ar": "قم بتقليم الشتلات الأضعف عند خط التربة لتقليل اضطراب الجذور للنباتات المتبقية.",
+              "fr": "Taillez les semis les plus faibles au niveau du sol pour minimiser la perturbation des racines des plantes restantes."
+            }
+          }
+        },
+        "hardeningOff": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gradually expose seedlings to outdoor conditions for increasing periods over a week.",
+              "ur": "ایک ہفتے کے دوران پودوں کو آہستہ آہستہ بیرونی حالات میں زیادہ وقت کے لیے بے نقاب کریں۔",
+              "ar": "عرّض الشتلات تدريجيًا للظروف الخارجية لفترات متزايدة على مدار أسبوع.",
+              "fr": "Exposez progressivement les semis aux conditions extérieures pendant des périodes croissantes sur une semaine."
+            },
+            "INTERMEDIATE": {
+              "en": "Increase outdoor exposure over 7-10 days, starting with shade and moving to partial sun.",
+              "ur": "7-10 دنوں میں بیرونی نمائش میں اضافہ کریں، سایہ سے شروع ہو کر جزوی دھوپ کی طرف بڑھیں۔",
+              "ar": "زد من التعرض الخارجي على مدار 7-10 أيام، بدءًا من الظل والانتقال إلى الشمس الجزئية.",
+              "fr": "Augmentez l'exposition extérieure sur 7 à 10 jours, en commençant par l'ombre et en passant au soleil partiel."
+            },
+            "EXPERT": {
+              "en": "Monitor temperature, wind, and sun exposure closely during hardening off to prevent shock.",
+              "ur": "صدمے سے بچنے کے لیے سخت کرنے کے دوران درجہ حرارت، ہوا اور سورج کی روشنی کی نمائش کی قریب سے نگرانی کریں۔",
+              "ar": "راقب درجة الحرارة والرياح والتعرض للشمس عن كثب أثناء التقسية لمنع الصدمة.",
+              "fr": "Surveillez attentivement la température, le vent et l'exposition au soleil pendant l'endurcissement pour éviter le choc."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو پانی دیں۔",
+              "ar": "اسقِ عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez lorsque le premier pouce de terre est sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow soil to dry slightly between waterings to prevent root rot.",
+              "ur": "جڑوں کے گلنے سے بچنے کے لیے پانی دینے کے درمیان مٹی کو تھوڑا خشک ہونے دیں۔",
+              "ar": "اسمح للتربة بالجفاف قليلاً بين الريات لمنع تعفن الجذور.",
+              "fr": "Laissez le sol sécher légèrement entre les arrosages pour éviter la pourriture des racines."
+            },
+            "EXPERT": {
+              "en": "Deep water less frequently, encouraging root development.",
+              "ur": "کم کثرت سے گہرا پانی دیں، جڑوں کی نشوونما کو فروغ دیں۔",
+              "ar": "اسقِ بعمق وبشكل أقل تكرارًا، مما يشجع على نمو الجذور.",
+              "fr": "Arrosez profondément moins fréquemment, encourageant le développement des racines."
+            }
+          }
+        },
+        "fertilizing": {
+          "required": false,
+          "dayOffset": 20,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Feed with a diluted liquid fertilizer if growth seems slow.",
+              "ur": "اگر نشوونما سست لگے تو پتلی مائع کھاد سے کھلائیں۔",
+              "ar": "غذِ بسماد سائل مخفف إذا بدا النمو بطيئًا.",
+              "fr": "Fertilisez avec un engrais liquide dilué si la croissance semble lente."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a balanced, half-strength liquid feed every 2-3 weeks.",
+              "ur": "ہر 2-3 ہفتوں میں ایک متوازن، آدھی طاقت کی مائع کھاد استعمال کریں۔",
+              "ar": "طبق سمادًا سائلًا متوازنًا بنصف القوة كل 2-3 أسابيع.",
+              "fr": "Appliquez un engrais liquide équilibré à demi-dose toutes les 2-3 semaines."
+            },
+            "EXPERT": {
+              "en": "Use a low-nitrogen organic fertilizer to promote root and foliage development without excessive top growth.",
+              "ur": "جڑوں اور پتوں کی نشوونما کو فروغ دینے کے لیے کم نائٹروجن والی نامیاتی کھاد استعمال کریں بغیر زیادہ اوپر کی نشوونما کے۔",
+              "ar": "استخدم سمادًا عضويًا منخفض النيتروجين لتعزيز نمو الجذور والأوراق دون نمو علوي مفرط.",
+              "fr": "Utilisez un engrais organique à faible teneur en azote pour favoriser le développement des racines et du feuillage sans croissance excessive."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Bushy growth",
+        "ur": "جھاڑی دار نشوونما",
+        "ar": "نمو كثيف",
+        "fr": "Croissance buissonnante"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant in a sunny spot with well-draining soil, spacing plants 1-2 feet apart.",
+              "ur": "دھوپ والی جگہ پر اچھی نکاسی والی مٹی میں لگائیں، پودوں کو 1-2 فٹ کے فاصلے پر رکھیں۔",
+              "ar": "ازرع في مكان مشمس بتربة جيدة التصريف، مع تباعد النباتات 1-2 قدم.",
+              "fr": "Plantez dans un endroit ensoleillé avec un sol bien drainé, en espaçant les plantes de 30-60 cm."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure full sun exposure (6+ hours daily) and adequate air circulation between plants.",
+              "ur": "یقینی بنائیں کہ مکمل دھوپ (روزانہ 6+ گھنٹے) اور پودوں کے درمیان مناسب ہوا کی گردش ہو۔",
+              "ar": "تأكد من التعرض الكامل للشمس (6+ ساعات يوميًا) ودوران الهواء الكافي بين النباتات.",
+              "fr": "Assurez une exposition plein soleil (6+ heures par jour) et une bonne circulation de l'air entre les plantes."
+            },
+            "EXPERT": {
+              "en": "Prepare raised beds or mounds for optimal drainage, especially in heavy clay soils.",
+              "ur": "خاص طور پر بھاری مٹی میں بہترین نکاسی کے لیے اونچے بستر یا ٹیلے تیار کریں۔",
+              "ar": "جهز أحواضًا مرتفعة أو أكوامًا لتصريف مثالي، خاصة في التربة الطينية الثقيلة.",
+              "fr": "Préparez des plates-bandes surélevées ou des buttes pour un drainage optimal, surtout dans les sols argileux lourds."
+            }
+          }
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch back the tips of new growth to encourage a bushier plant.",
+              "ur": "نئی نشوونما کے سروں کو چٹکی سے کاٹ دیں تاکہ جھاڑی دار پودا بنے۔",
+              "ar": "اقطع أطراف النمو الجديد لتشجيع نبات أكثر كثافة.",
+              "fr": "Pincez les extrémités des nouvelles pousses pour encourager une plante plus touffue."
+            },
+            "INTERMEDIATE": {
+              "en": "Trim about 1/3 of the new growth to promote branching and a compact shape.",
+              "ur": "نئی نشوونما کا تقریباً 1/3 حصہ کاٹ دیں تاکہ شاخیں نکلیں اور ایک کمپیکٹ شکل بنے۔",
+              "ar": "قص حوالي ثلث النمو الجديد لتعزيز التفرع وشكل مضغوط.",
+              "fr": "Taillez environ 1/3 de la nouvelle croissance pour favoriser la ramification et une forme compacte."
+            },
+            "EXPERT": {
+              "en": "Shape the plant for optimal airflow and dense growth, avoiding cutting into old woody stems.",
+              "ur": "بہترین ہوا کی گردش اور گھنی نشوونما کے لیے پودے کو شکل دیں، پرانے لکڑی والے تنوں کو کاٹنے سے گریز کریں۔",
+              "ar": "شكل النبات لتدفق الهواء الأمثل والنمو الكثيف، مع تجنب القطع في السيقان الخشبية القديمة.",
+              "fr": "Formez la plante pour une circulation d'air optimale et une croissance dense, en évitant de couper dans les vieilles tiges ligneuses."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, allowing the soil to dry out between waterings.",
+              "ur": "ہفتے میں ایک بار گہرا پانی دیں، پانی دینے کے درمیان مٹی کو خشک ہونے دیں۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، مع السماح للتربة بالجفاف بين الريات.",
+              "fr": "Arrosez profondément une fois par semaine, en laissant le sol sécher entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Lavender is drought-tolerant once established; water only during prolonged dry spells.",
+              "ur": "لیونڈر ایک بار قائم ہونے کے بعد خشک سالی کو برداشت کرتا ہے؛ صرف طویل خشک ادوار میں پانی دیں۔",
+              "ar": "اللافندر يتحمل الجفاف بمجرد أن يترسخ؛ اسقِ فقط خلال فترات الجفاف الطويلة.",
+              "fr": "La lavande est tolérante à la sécheresse une fois établie; arrosez uniquement pendant les périodes de sécheresse prolongée."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply and adjust watering to prevent both overwatering and extreme drought stress.",
+              "ur": "مٹی کی نمی کی گہرائی سے نگرانی کریں اور زیادہ پانی دینے اور شدید خشک سالی کے دباؤ دونوں کو روکنے کے لیے پانی کو ایڈجسٹ کریں۔",
+              "ar": "راقب رطوبة التربة بعمق واضبط الري لمنع كل من الإفراط في الري والإجهاد الشديد للجفاف.",
+              "fr": "Surveillez l'humidité du sol en profondeur et ajustez l'arrosage pour prévenir à la fois l'excès d'eau et le stress hydrique extrême."
+            }
+          }
+        },
+        "weedControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Regularly remove weeds around the base of the plants.",
+              "ur": "پودوں کی بنیاد کے ارد گرد سے جڑی بوٹیاں باقاعدگی سے ہٹائیں۔",
+              "ar": "أزل الأعشاب الضارة بانتظام حول قاعدة النباتات.",
+              "fr": "Enlevez régulièrement les mauvaises herbes autour de la base des plantes."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply a layer of gravel or light mulch to suppress weeds and improve drainage.",
+              "ur": "جڑی بوٹیوں کو دبانے اور نکاسی کو بہتر بنانے کے لیے بجری یا ہلکی ملچ کی تہہ لگائیں۔",
+              "ar": "ضع طبقة من الحصى أو النشارة الخفيفة لقمع الأعشاب الضارة وتحسين الصرف.",
+              "fr": "Appliquez une couche de gravier ou de paillis léger pour supprimer les mauvaises herbes et améliorer le drainage."
+            },
+            "EXPERT": {
+              "en": "Implement organic weed control strategies, ensuring good air circulation around the plant base.",
+              "ur": "پودے کی بنیاد کے ارد گرد اچھی ہوا کی گردش کو یقینی بناتے ہوئے نامیاتی جڑی بوٹیوں پر قابو پانے کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "نفذ استراتيجيات مكافحة الأعشاب الضارة العضوية، مع ضمان دوران جيد للهواء حول قاعدة النبات.",
+              "fr": "Mettez en œuvre des stratégies de désherbage biologique, en assurant une bonne circulation de l'air autour de la base de la plante."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Lavender is generally pest-resistant, but check for aphids or spittlebugs.",
+              "ur": "لیونڈر عام طور پر کیڑوں سے مزاحم ہوتا ہے، لیکن ایفڈز یا سپٹل بگس کو چیک کریں۔",
+              "ar": "اللافندر مقاوم للآفات بشكل عام، ولكن تحقق من وجود المن أو حشرات الرغوة.",
+              "fr": "La lavande est généralement résistante aux parasites, mais vérifiez la présence de pucerons ou de cicadelles."
+            },
+            "INTERMEDIATE": {
+              "en": "If pests are found, spray with insecticidal soap or neem oil.",
+              "ur": "اگر کیڑے پائے جائیں تو کیڑے مار صابن یا نیم کے تیل سے سپرے کریں۔",
+              "ar": "إذا وجدت آفات، رش بالصابون المبيد للحشرات أو زيت النيم.",
+              "fr": "Si des parasites sont trouvés, pulvérisez avec du savon insecticide ou de l'huile de neem."
+            },
+            "EXPERT": {
+              "en": "Monitor for specific regional pests and apply targeted organic treatments if necessary.",
+              "ur": "مخصوص علاقائی کیڑوں کی نگرانی کریں اور ضرورت پڑنے پر ہدف شدہ نامیاتی علاج استعمال کریں۔",
+              "ar": "راقب الآفات الإقليمية المحددة وطبق علاجات عضوية مستهدفة إذا لزم الأمر.",
+              "fr": "Surveillez les parasites régionaux spécifiques et appliquez des traitements biologiques ciblés si nécessaire."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for any discoloration or signs of stress.",
+              "ur": "پتوں پر کسی بھی رنگت یا دباؤ کی علامات کو چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن أي تغير في اللون أو علامات إجهاد.",
+              "fr": "Vérifiez les feuilles pour toute décoloration ou signe de stress."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for yellowing leaves, which can indicate overwatering or poor drainage.",
+              "ur": "پیلے پتوں کو دیکھیں، جو زیادہ پانی دینے یا خراب نکاسی کی نشاندہی کر سکتے ہیں۔",
+              "ar": "ابحث عن الأوراق الصفراء، والتي قد تشير إلى الإفراط في الري أو سوء الصرف.",
+              "fr": "Recherchez les feuilles jaunissantes, ce qui peut indiquer un excès d'eau ou un mauvais drainage."
+            },
+            "EXPERT": {
+              "en": "Inspect for early signs of fungal diseases, especially in humid conditions.",
+              "ur": "خاص طور پر مرطوب حالات میں فنگل بیماریوں کی ابتدائی علامات کا معائنہ کریں۔",
+              "ar": "افحص بحثًا عن علامات مبكرة للأمراض الفطرية، خاصة في الظروف الرطبة.",
+              "fr": "Inspectez les premiers signes de maladies fongiques, surtout dans des conditions humides."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            },
+            {
+              "en": "Wilting",
+              "ur": "مرجھانا",
+              "ar": "ذبول",
+              "fr": "Flétrissement"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 50,
+      "durationDaysCool": 70,
+      "description": {
+        "en": "Flowers bloom",
+        "ur": "پھول کھلنا",
+        "ar": "إزهار",
+        "fr": "Floraison"
+      },
+      "emoji": "🌸",
+      "tips": [],
+      "tasks": {
+        "deadheading": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove spent flower stalks to encourage more blooms.",
+              "ur": "زیادہ پھولوں کی حوصلہ افزائی کے لیے مرجھائے ہوئے پھولوں کے ڈنٹھل ہٹا دیں۔",
+              "ar": "أزل سيقان الزهور الذابلة لتشجيع المزيد من الإزهار.",
+              "fr": "Retirez les tiges de fleurs fanées pour encourager plus de floraison."
+            },
+            "INTERMEDIATE": {
+              "en": "Snip off faded blooms just above a set of leaves to prolong the flowering period.",
+              "ur": "پھولوں کی مدت کو طول دینے کے لیے پتوں کے ایک سیٹ کے اوپر سے مرجھائے ہوئے پھولوں کو کاٹ دیں۔",
+              "ar": "اقطع الأزهار الباهتة فوق مجموعة من الأوراق مباشرة لإطالة فترة الإزهار.",
+              "fr": "Coupez les fleurs fanées juste au-dessus d'un ensemble de feuilles pour prolonger la période de floraison."
+            },
+            "EXPERT": {
+              "en": "Deadhead regularly to maintain plant vigor, appearance, and potentially encourage a second flush of blooms.",
+              "ur": "پودے کی طاقت، ظاہری شکل کو برقرار رکھنے اور ممکنہ طور پر پھولوں کی دوسری لہر کو فروغ دینے کے لیے باقاعدگی سے مردہ پھولوں کو ہٹا دیں۔",
+              "ar": "قم بإزالة الأزهار الذابلة بانتظام للحفاظ على حيوية النبات ومظهره، وربما تشجيع دفعة ثانية من الأزهار.",
+              "fr": "Éliminez régulièrement les fleurs fanées pour maintenir la vigueur de la plante, son apparence et potentiellement encourager une deuxième floraison."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water sparingly, allowing the soil to dry out completely between waterings.",
+              "ur": "کم پانی دیں، پانی دینے کے درمیان مٹی کو مکمل طور پر خشک ہونے دیں۔",
+              "ar": "اسقِ باعتدال، مع السماح للتربة بالجفاف تمامًا بين الريات.",
+              "fr": "Arrosez avec parcimonie, en laissant le sol sécher complètement entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Reduce watering frequency as lavender prefers drier conditions, especially during flowering.",
+              "ur": "پانی دینے کی فریکوئنسی کم کریں کیونکہ لیونڈر خشک حالات کو ترجیح دیتا ہے، خاص طور پر پھول آنے کے دوران۔",
+              "ar": "قلل من تكرار الري حيث يفضل اللافندر الظروف الجافة، خاصة أثناء الإزهار.",
+              "fr": "Réduisez la fréquence d'arrosage car la lavande préfère les conditions plus sèches, surtout pendant la floraison."
+            },
+            "EXPERT": {
+              "en": "Ensure excellent drainage and avoid overhead watering to prevent fungal issues.",
+              "ur": "فنگل مسائل سے بچنے کے لیے بہترین نکاسی کو یقینی بنائیں اور اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تأكد من الصرف الممتاز وتجنب الري العلوي لمنع المشاكل الفطرية.",
+              "fr": "Assurez un excellent drainage et évitez l'arrosage par le haut pour prévenir les problèmes fongiques."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for any signs of pests, though lavender is generally resistant.",
+              "ur": "کیڑوں کی کسی بھی علامت کو چیک کریں، اگرچہ لیونڈر عام طور پر مزاحم ہے۔",
+              "ar": "تحقق من أي علامات للآفات، على الرغم من أن اللافندر مقاوم بشكل عام.",
+              "fr": "Vérifiez tout signe de parasites, bien que la lavande soit généralement résistante."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check flowers for any discoloration or signs of disease.",
+              "ur": "پھولوں میں کسی بھی رنگت یا بیماری کی علامات کو چیک کریں۔",
+              "ar": "تحقق من الأزهار بحثًا عن أي تغير في اللون أو علامات مرض.",
+              "fr": "Vérifiez les fleurs pour toute décoloration ou signe de maladie."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for powdery mildew or other fungal issues, especially in humid weather.",
+              "ur": "خاص طور پر مرطوب موسم میں پاؤڈری پھپھوندی یا دیگر فنگل مسائل کو دیکھیں۔",
+              "ar": "ابحث عن البياض الدقيقي أو غيره من المشاكل الفطرية، خاصة في الطقس الرطب.",
+              "fr": "Recherchez l'oïdium ou d'autres problèmes fongiques, surtout par temps humide."
+            },
+            "EXPERT": {
+              "en": "Inspect for early signs of botrytis or other moisture-related diseases.",
+              "ur": "بوٹریٹس یا دیگر نمی سے متعلق بیماریوں کی ابتدائی علامات کا معائنہ کریں۔",
+              "ar": "افحص بحثًا عن علامات مبكرة للبوتريتس أو غيرها من الأمراض المرتبطة بالرطوبة.",
+              "fr": "Inspectez les premiers signes de botrytis ou d'autres maladies liées à l'humidité."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            },
+            {
+              "en": "Botrytis",
+              "ur": "بوٹریٹس",
+              "ar": "بوتريتس",
+              "fr": "Botrytis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Harvest ready",
+        "ur": "پھول تیار ہیں",
+        "ar": "جاهز للحصاد",
+        "fr": "Prêt pour la récolte"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut flower stalks when the buds are showing color but haven't fully opened.",
+              "ur": "پھولوں کے ڈنٹھل کاٹ دیں جب کلیاں رنگ دکھا رہی ہوں لیکن پوری طرح کھلی نہ ہوں۔",
+              "ar": "اقطع سيقان الزهور عندما تظهر البراعم اللون ولكن لم تتفتح بالكامل.",
+              "fr": "Coupez les tiges florales lorsque les bourgeons montrent de la couleur mais ne sont pas encore complètement ouverts."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest in the early morning after dew has dried, when about half to three-quarters of the flowers are open.",
+              "ur": "صبح سویرے اوس خشک ہونے کے بعد کٹائی کریں، جب تقریباً آدھے سے تین چوتھائی پھول کھلے ہوں۔",
+              "ar": "احصد في الصباح الباكر بعد جفاف الندى، عندما تكون حوالي نصف إلى ثلاثة أرباع الأزهار مفتوحة.",
+              "fr": "Récoltez tôt le matin après que la rosée a séché, lorsque environ la moitié à les trois quarts des fleurs sont ouvertes."
+            },
+            "EXPERT": {
+              "en": "Cut long stems, leaving at least two sets of leaves on the plant for future growth, using sharp shears.",
+              "ur": "تیز قینچی کا استعمال کرتے ہوئے لمبے ڈنٹھل کاٹیں، پودے پر مستقبل کی نشوونما کے لیے کم از کم دو پتوں کے سیٹ چھوڑ دیں۔",
+              "ar": "اقطع السيقان الطويلة، مع ترك مجموعتين على الأقل من الأوراق على النبات للنمو المستقبلي، باستخدام مقصات حادة.",
+              "fr": "Coupez de longues tiges, en laissant au moins deux paires de feuilles sur la plante pour la croissance future, à l'aide de cisailles aiguisées."
+            }
+          }
+        },
+        "drying": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gather harvested stems into small bundles and hang them upside down in a cool, dark, well-ventilated area.",
+              "ur": "کٹے ہوئے ڈنٹھلوں کو چھوٹے گچھوں میں جمع کریں اور انہیں ٹھنڈی، تاریک، اچھی ہوادار جگہ پر الٹا لٹکا دیں۔",
+              "ar": "اجمع السيقان المحصودة في حزم صغيرة وعلقها رأسًا على عقب في منطقة باردة ومظلمة وجيدة التهوية.",
+              "fr": "Rassemblez les tiges récoltées en petits bouquets et suspendez-les tête en bas dans un endroit frais, sombre et bien ventilé."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure good air circulation around the bundles to prevent mold, and avoid direct sunlight.",
+              "ur": "سانچے سے بچنے کے لیے گچھوں کے ارد گرد اچھی ہوا کی گردش کو یقینی بنائیں، اور براہ راست سورج کی روشنی سے بچیں۔",
+              "ar": "تأكد من دوران الهواء الجيد حول الحزم لمنع العفن، وتجنب أشعة الشمس المباشرة.",
+              "fr": "Assurez une bonne circulation de l'air autour des bouquets pour éviter la moisissure, et évitez la lumière directe du soleil."
+            },
+            "EXPERT": {
+              "en": "Dry quickly to preserve optimal color and fragrance, ideally at 70-80°F (21-27°C) with low humidity.",
+              "ur": "بہترین رنگ اور خوشبو کو محفوظ رکھنے کے لیے تیزی سے خشک کریں، مثالی طور پر 70-80°F (21-27°C) پر کم نمی کے ساتھ۔",
+              "ar": "جفف بسرعة للحفاظ على اللون والرائحة الأمثل، ويفضل عند 70-80 درجة فهرنهايت (21-27 درجة مئوية) مع رطوبة منخفضة.",
+              "fr": "Séchez rapidement pour préserver une couleur et un parfum optimaux, idéalement à 21-27°C (70-80°F) avec une faible humidité."
+            }
+          }
+        },
+        "postHarvestPruning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Trim the plant back after flowering to maintain its shape and encourage new growth.",
+              "ur": "پھول آنے کے بعد پودے کو کاٹ دیں تاکہ اس کی شکل برقرار رہے اور نئی نشوونما کی حوصلہ افزائی ہو۔",
+              "ar": "قم بتقليم النبات بعد الإزهار للحفاظ على شكله وتشجيع النمو الجديد.",
+              "fr": "Taillez la plante après la floraison pour maintenir sa forme et encourager de nouvelles pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Cut back by about one-third of its size, avoiding cutting into old woody stems which may not regrow.",
+              "ur": "اس کے سائز کا تقریباً ایک تہائی حصہ کاٹ دیں، پرانے لکڑی والے تنوں کو کاٹنے سے گریز کریں جو دوبارہ نہیں اگ سکتے۔",
+              "ar": "قص حوالي ثلث حجمه، مع تجنب القطع في السيقان الخشبية القديمة التي قد لا تنمو مرة أخرى.",
+              "fr": "Taillez d'environ un tiers de sa taille, en évitant de couper dans les vieilles tiges ligneuses qui pourraient ne pas repousser."
+            },
+            "EXPERT": {
+              "en": "Perform a structural prune, removing dead wood and shaping the plant for optimal health and future blooms.",
+              "ur": "ساختی کٹائی کریں، مردہ لکڑی کو ہٹا دیں اور بہترین صحت اور مستقبل کے پھولوں کے لیے پودے کو شکل دیں۔",
+              "ar": "قم بتقليم هيكلي، وإزالة الخشب الميت وتشكيل النبات للصحة المثلى والأزهار المستقبلية.",
+              "fr": "Effectuez une taille structurelle, en enlevant le bois mort et en façonnant la plante pour une santé optimale et de futures floraisons."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering significantly after harvest, especially if the plant is entering dormancy.",
+              "ur": "کٹائی کے بعد پانی کو نمایاں طور پر کم کریں، خاص طور پر اگر پودا غیر فعال حالت میں داخل ہو رہا ہو۔",
+              "ar": "قلل الري بشكل كبير بعد الحصاد، خاصة إذا كان النبات يدخل في فترة سكون.",
+              "fr": "Réduisez considérablement l'arrosage après la récolte, surtout si la plante entre en dormance."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide minimal water during cooler months, ensuring the soil remains dry to prevent root rot.",
+              "ur": "ٹھنڈے مہینوں میں کم سے کم پانی فراہم کریں، اس بات کو یقینی بناتے ہوئے کہ جڑوں کے گلنے سے بچنے کے لیے مٹی خشک رہے۔",
+              "ar": "وفر الحد الأدنى من الماء خلال الأشهر الباردة، مع ضمان بقاء التربة جافة لمنع تعفن الجذور.",
+              "fr": "Fournissez un minimum d'eau pendant les mois plus frais, en veillant à ce que le sol reste sec pour éviter la pourriture des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor winter moisture levels closely, providing supplemental water only during extended dry periods.",
+              "ur": "سردیوں میں نمی کی سطح کی قریب سے نگرانی کریں، صرف طویل خشک ادوار میں اضافی پانی فراہم کریں۔",
+              "ar": "راقب مستويات الرطوبة الشتوية عن كثب، مع توفير مياه إضافية فقط خلال فترات الجفاف الطويلة.",
+              "fr": "Surveillez attentivement les niveaux d'humidité hivernale, en fournissant de l'eau supplémentaire uniquement pendant les périodes de sécheresse prolongées."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Very Diluted Liquid Seaweed or Fish Emulsion",
+          "ur": "بہت پتلا مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك المخفف جداً",
+          "fr": "Extrait d'algues ou émulsion de poisson très diluée"
+        },
+        "preparation": {
+          "en": "Mix 1 teaspoon of liquid seaweed or fish emulsion in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک چائے کا چمچ مائع سی ویڈ یا مچھلی کا عرق 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة صغيرة من مستخلص الطحالب البحرية أو مستحلب السمك في 4 لترات من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à café d'extrait d'algues ou d'émulsion de poisson dans 4 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 15,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Lavender prefers lean soil; only fertilize seedlings very lightly to encourage root development.",
+          "ur": "لیونڈر کو کم غذائیت والی مٹی پسند ہے۔ جڑوں کی نشوونما کے لیے پودوں کو بہت ہلکی کھاد دیں۔",
+          "ar": "اللافندر يفضل التربة الفقيرة؛ قم بتسميد الشتلات بخفة شديدة فقط لتشجيع نمو الجذور.",
+          "fr": "La lavande préfère les sols pauvres ; ne fertilisez les semis que très légèrement pour encourager le développement racinaire."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Compost Tea (Low Nitrogen)",
+          "ur": "کمپوسٹ چائے (کم نائٹروجن)",
+          "ar": "شاي الكمبوست (قليل النيتروجين)",
+          "fr": "Thé de compost (faible en azote)"
+        },
+        "preparation": {
+          "en": "Steep 1/2 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "آدھا کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع نصف كوب من الكمبوست الغني أو روث الدود في 4 لترات من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترشه.",
+          "fr": "Faites tremper 1/2 tasse de compost riche ou de lombricompost dans 4 litres d'eau pendant 24-48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 250,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Avoid high nitrogen, which promotes leafy growth at the expense of flowers. Apply sparingly.",
+          "ur": "زیادہ نائٹروجن سے پرہیز کریں، کیونکہ یہ پھولوں کی بجائے پتوں کی نشوونما کو فروغ دیتا ہے۔ بہت کم مقدار میں استعمال کریں۔",
+          "ar": "تجنب النيتروجين العالي، الذي يعزز النمو الورقي على حساب الزهور. استخدمه باعتدال.",
+          "fr": "Évitez l'azote élevé, qui favorise la croissance des feuilles au détriment des fleurs. Appliquez avec parcimonie."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os & cendre de bois (Phosphore & Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 1 tablespoon of bone meal and 1/2 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 1 چمچ بون میل اور آدھا چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقة كبيرة من مسحوق العظام ونصف ملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها برفق في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 1 cuillère à soupe de poudre d'os et 1/2 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "A very light boost to support flower production, especially if soil is poor. Not always necessary.",
+          "ur": "پھولوں کی پیداوار کو سہارا دینے کے لیے بہت ہلکی کھاد، خاص طور پر اگر مٹی کمزور ہو۔ ہمیشہ ضروری نہیں۔",
+          "ar": "دفعة خفيفة جداً لدعم إنتاج الزهور، خاصة إذا كانت التربة فقيرة. ليست ضرورية دائماً.",
+          "fr": "Un très léger coup de pouce pour soutenir la production de fleurs, surtout si le sol est pauvre. Pas toujours nécessaire."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Lavender is grown for its flowers, not fruit. No specific fertilization is needed at this stage.",
+          "ur": "لیونڈر پھولوں کے لیے اگایا جاتا ہے، پھل کے لیے نہیں۔ اس مرحلے پر کسی خاص کھاد کی ضرورت نہیں ہے۔",
+          "ar": "يزرع اللافندر لزهوره وليس لثماره. لا يلزم تسميد محدد في هذه المرحلة.",
+          "fr": "La lavande est cultivée pour ses fleurs, pas ses fruits. Aucune fertilisation spécifique n'est nécessaire à ce stade."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Low Nitrogen NPK (e.g., 5-10-5)",
+          "ur": "کم نائٹروجن این پی کے (مثلاً 5-10-5)",
+          "ar": "سماد NPK قليل النيتروجين (مثلاً 5-10-5)",
+          "fr": "NPK faible en azote (ex: 5-10-5)"
+        },
+        "preparation": {
+          "en": "Dissolve 1/2 tablespoon of low nitrogen NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "آدھا چمچ کم نائٹروجن این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب نصف ملعقة كبيرة من مسحوق NPK قليل النيتروجين في 4 لترات من الماء. اخلط حتى يذوب تماماً.",
+          "fr": "Dissolvez 1/2 cuillère à soupe de poudre NPK faible en azote dans 4 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Use very sparingly. Too much nitrogen will result in leggy growth and fewer flowers.",
+          "ur": "بہت کم مقدار میں استعمال کریں۔ زیادہ نائٹروجن سے پودا لمبا ہو جائے گا اور پھول کم آئیں گے۔",
+          "ar": "استخدمه باعتدال شديد. الكثير من النيتروجين سيؤدي إلى نمو ضعيف وزهور أقل.",
+          "fr": "Utilisez très parcimonieusement. Trop d'azote entraînera une croissance étiolée et moins de fleurs."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium Fertilizer (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم کھاد (مثلاً 5-10-10)",
+          "ar": "سماد قليل النيتروجين، عالي الفوسفور/البوتاسيوم (مثلاً 5-10-10)",
+          "fr": "Engrais faible en azote, riche en phosphore/potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1/2 tablespoon of granular 5-10-10 fertilizer in 1 gallon of water. Water immediately after applying to activate.",
+          "ur": "آدھا چمچ دانے دار 5-10-10 کھاد 4 لیٹر پانی میں حل کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "أذب نصف ملعقة كبيرة من سماد 5-10-10 الحبيبي في 4 لترات من الماء. اسقِ الماء فوراً بعد التطبيق لتنشيطه.",
+          "fr": "Dissolvez 1/2 cuillère à soupe d'engrais granulaire 5-10-10 dans 4 litres d'eau. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Only if soil is very poor. Lavender generally thrives in lean conditions.",
+          "ur": "صرف اس صورت میں جب مٹی بہت کمزور ہو۔ لیونڈر عام طور پر کم غذائیت والی حالتوں میں اچھی طرح بڑھتا ہے۔",
+          "ar": "فقط إذا كانت التربة فقيرة جداً. اللافندر يزدهر عموماً في الظروف الفقيرة.",
+          "fr": "Seulement si le sol est très pauvre. La lavande prospère généralement dans des conditions maigres."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Lavender is grown for its flowers, not fruit. No specific fertilization is needed at this stage.",
+          "ur": "لیونڈر پھولوں کے لیے اگایا جاتا ہے، پھل کے لیے نہیں۔ اس مرحلے پر کسی خاص کھاد کی ضرورت نہیں ہے۔",
+          "ar": "يزرع اللافندر لزهوره وليس لثماره. لا يلزم تسميد محدد في هذه المرحلة.",
+          "fr": "La lavande est cultivée pour ses fleurs, pas ses fruits. Aucune fertilisation spécifique n'est nécessaire à ce stade."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea (Low Nitrogen)",
+        "week2": "Low Nitrogen NPK (e.g., 5-10-5)",
+        "alternating": true,
+        "note": {
+          "en": "Apply very sparingly, only if soil tests indicate nutrient deficiency.",
+          "ur": "بہت کم مقدار میں استعمال کریں، صرف اس صورت میں جب مٹی کے ٹیسٹ میں غذائی اجزاء کی کمی ظاہر ہو۔",
+          "ar": "استخدمه باعتدال شديد، فقط إذا أظهرت اختبارات التربة نقصاً في المغذيات.",
+          "fr": "Appliquez très parcimonieusement, seulement si les analyses de sol indiquent une carence en nutriments."
+        }
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal & Wood Ash",
+        "week2": "Low Nitrogen, High P/K Fertilizer",
+        "alternating": true,
+        "note": {
+          "en": "Only if soil is poor, otherwise lavender thrives without much intervention.",
+          "ur": "صرف اس صورت میں جب مٹی کمزور ہو، ورنہ لیونڈر زیادہ مداخلت کے بغیر اچھی طرح بڑھتا ہے۔",
+          "ar": "فقط إذا كانت التربة فقيرة، وإلا فإن اللافندر يزدهر بدون الكثير من التدخل.",
+          "fr": "Seulement si le sol est pauvre, sinon la lavande prospère sans beaucoup d'intervention."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Not applicable for lavender.",
+          "ur": "لیونڈر کے لیے لاگو نہیں ہے۔",
+          "ar": "لا ينطبق على اللافندر.",
+          "fr": "Non applicable pour la lavande."
+        }
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "roses",
+      "benefit": {
+        "en": "Lavender's strong scent deters aphids and deer, protecting roses. Both enjoy similar growing conditions (full sun, good drainage).",
+        "ur": "لیونڈر کی تیز خوشبو افڈس اور ہرن کو دور رکھتی ہے، گلابوں کی حفاظت کرتی ہے۔ دونوں کو ایک جیسی بڑھنے کی شرائط (پوری دھوپ، اچھی نکاسی) پسند ہیں۔",
+        "ar": "رائحة اللافندر القوية تطرد حشرات المن والغزلان، مما يحمي الورود. كلاهما يتمتع بظروف نمو متشابهة (شمس كاملة، تصريف جيد).",
+        "fr": "Le parfum puissant de la lavande repousse les pucerons et les cerfs, protégeant les roses. Les deux apprécient des conditions de croissance similaires (plein soleil, bon drainage)."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "benefit": {
+        "en": "Deters cabbage worms, slugs, and other pests that target brassicas.",
+        "ur": "گوبھی کے کیڑوں، سلگس اور دیگر کیڑوں کو دور رکھتا ہے جو براسیکا کو نشانہ بناتے ہیں۔",
+        "ar": "يطرد ديدان الملفوف، الرخويات، والآفات الأخرى التي تستهدف الكرنب.",
+        "fr": "Repousse les vers du chou, les limaces et autres parasites qui ciblent les brassicacées."
+      }
+    },
+    {
+      "plantId": "echinacea",
+      "benefit": {
+        "en": "Attracts beneficial pollinators like bees and butterflies, and shares similar drought-tolerant, full-sun requirements.",
+        "ur": "شہد کی مکھیوں اور تتلیوں جیسے فائدہ مند پولینیٹرز کو اپنی طرف متوجہ کرتا ہے، اور خشک سالی برداشت کرنے والی، پوری دھوپ کی ضروریات کو پورا کرتا ہے۔",
+        "ar": "يجذب الملقحات المفيدة مثل النحل والفراشات، ويشترك في متطلبات مماثلة لتحمل الجفاف والشمس الكاملة.",
+        "fr": "Attire les pollinisateurs bénéfiques comme les abeilles et les papillons, et partage des exigences similaires de tolérance à la sécheresse et de plein soleil."
+      }
+    },
+    {
+      "plantId": "rosemary",
+      "benefit": {
+        "en": "Both are Mediterranean herbs with similar needs for full sun, well-drained soil, and low water. Their combined scents can confuse pests.",
+        "ur": "دونوں بحیرہ روم کی جڑی بوٹیاں ہیں جنہیں پوری دھوپ، اچھی نکاسی والی مٹی اور کم پانی کی ضرورت ہوتی ہے۔ ان کی مشترکہ خوشبو کیڑوں کو الجھا سکتی ہے۔",
+        "ar": "كلاهما أعشاب متوسطية ذات احتياجات مماثلة للشمس الكاملة، التربة جيدة التصريف، والماء القليل. روائحهما المشتركة يمكن أن تربك الآفات.",
+        "fr": "Ce sont toutes deux des herbes méditerranéennes ayant des besoins similaires en plein soleil, sol bien drainé et peu d'eau. Leurs parfums combinés peuvent dérouter les parasites."
+      }
+    },
+    {
+      "plantId": "fruit_trees",
+      "benefit": {
+        "en": "Attracts a wide range of pollinators, increasing fruit set on nearby trees.",
+        "ur": "مختلف قسم کے پولینیٹرز کو اپنی طرف متوجہ کرتا ہے، جس سے قریبی درختوں پر پھلوں کی پیداوار بڑھ جاتی ہے۔",
+        "ar": "يجذب مجموعة واسعة من الملقحات، مما يزيد من عقد الثمار على الأشجار القريبة.",
+        "fr": "Attire un large éventail de pollinisateurs, augmentant la nouaison des fruits sur les arbres voisins."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "mint",
+      "reason": {
+        "en": "Mint is an aggressive spreader and prefers moist, rich soil, which is the opposite of what lavender needs. It will outcompete lavender.",
+        "ur": "پودینہ تیزی سے پھیلتا ہے اور نم، زرخیز مٹی کو ترجیح دیتا ہے، جو لیونڈر کی ضروریات کے بالکل برعکس ہے۔ یہ لیونڈر کو پیچھے چھوڑ دے گا۔",
+        "ar": "النعناع ينتشر بقوة ويفضل التربة الرطبة الغنية، وهو عكس ما يحتاجه اللافندر. سيتفوق على اللافندر.",
+        "fr": "La menthe est une plante envahissante qui préfère les sols humides et riches, ce qui est l'opposé des besoins de la lavande. Elle concurrencera la lavande."
+      }
+    },
+    {
+      "plantId": "hosta",
+      "reason": {
+        "en": "Hostas prefer shade and consistently moist, rich soil, which would lead to root rot and decline for lavender.",
+        "ur": "ہوسٹا کو سایہ اور مسلسل نم، زرخیز مٹی پسند ہے، جو لیونڈر کے لیے جڑوں کے گلنے اور کمزور ہونے کا باعث بنے گی۔",
+        "ar": "الهوستا تفضل الظل والتربة الرطبة الغنية باستمرار، مما سيؤدي إلى تعفن الجذور وتدهور اللافندر.",
+        "fr": "Les hostas préfèrent l'ombre et un sol constamment humide et riche, ce qui entraînerait la pourriture des racines et le déclin de la lavande."
+      }
+    },
+    {
+      "plantId": "impatiens",
+      "reason": {
+        "en": "Impatiens require shade and very moist soil, conditions that are detrimental to lavender's health.",
+        "ur": "امپیشنز کو سایہ اور بہت نم مٹی کی ضرورت ہوتی ہے، یہ حالات لیونڈر کی صحت کے لیے نقصان دہ ہیں۔",
+        "ar": "الإمباتينس تتطلب الظل والتربة الرطبة جداً، وهي ظروف ضارة بصحة اللافندر.",
+        "fr": "Les impatiens nécessitent de l'ombre et un sol très humide, des conditions qui sont préjudiciables à la santé de la lavande."
+      }
+    },
+    {
+      "plantId": "rhododendron",
+      "reason": {
+        "en": "Rhododendrons thrive in acidic, moist soil, while lavender needs alkaline to neutral, well-drained soil. Their needs are incompatible.",
+        "ur": "روڈوڈینڈرون تیزابی، نم مٹی میں اچھی طرح بڑھتے ہیں، جبکہ لیونڈر کو الکلائن سے غیر جانبدار، اچھی نکاسی والی مٹی کی ضرورت ہوتی ہے۔ ان کی ضروریات مطابقت نہیں رکھتیں۔",
+        "ar": "الرودودندرون تزدهر في التربة الحمضية والرطبة، بينما يحتاج اللافندر إلى تربة قلوية إلى متعادلة وجيدة التصريف. احتياجاتهما غير متوافقة.",
+        "fr": "Les rhododendrons prospèrent dans un sol acide et humide, tandis que la lavande a besoin d'un sol alcalin à neutre et bien drainé. Leurs besoins sont incompatibles."
+      }
+    },
+    {
+      "plantId": "ferns",
+      "reason": {
+        "en": "Most ferns prefer shady, consistently moist, and often acidic conditions, which are the opposite of what lavender requires.",
+        "ur": "زیادہ تر فرنز سایہ دار، مسلسل نم اور اکثر تیزابی حالات کو ترجیح دیتے ہیں، جو لیونڈر کی ضروریات کے بالکل برعکس ہیں۔",
+        "ar": "معظم السرخس تفضل الظروف الظليلة، الرطبة باستمرار، وغالباً الحمضية، وهي عكس ما يتطلبه اللافندر.",
+        "fr": "La plupart des fougères préfèrent les conditions ombragées, constamment humides et souvent acides, ce qui est l'opposé de ce que la lavande exige."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "The most common issue for lavender, caused by overwatering or poorly draining soil. Leaves yellow, wilt, and the plant eventually dies. Ensure excellent drainage.",
+        "ur": "لیونڈر کے لیے سب سے عام مسئلہ، جو زیادہ پانی دینے یا خراب نکاسی والی مٹی کی وجہ سے ہوتا ہے۔ پتے پیلے ہو جاتے ہیں، مرجھا جاتے ہیں، اور پودا بالآخر مر جاتا ہے۔ بہترین نکاسی کو یقینی بنائیں۔",
+        "ar": "المشكلة الأكثر شيوعاً لللافندر، وتحدث بسبب الإفراط في الري أو التربة سيئة التصريف. تصفر الأوراق وتذبل، ويموت النبات في النهاية. تأكد من التصريف الممتاز.",
+        "fr": "Le problème le plus courant pour la lavande, causé par un arrosage excessif ou un sol mal drainé. Les feuilles jaunissent, flétrissent et la plante finit par mourir. Assurez un excellent drainage."
+      }
+    },
+    {
+      "pestId": "septoria_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, circular spots with dark borders and light centers appear on leaves. Can lead to defoliation in severe cases. Improve air circulation.",
+        "ur": "پتوں پر چھوٹے، گول دھبے ظاہر ہوتے ہیں جن کے کنارے گہرے اور مرکز ہلکے ہوتے ہیں۔ شدید صورتوں میں پتے گر سکتے ہیں۔ ہوا کی گردش کو بہتر بنائیں۔",
+        "ar": "تظهر بقع دائرية صغيرة ذات حواف داكنة ومراكز فاتحة على الأوراق. يمكن أن يؤدي إلى تساقط الأوراق في الحالات الشديدة. حسن تهوية النبات.",
+        "fr": "De petites taches circulaires avec des bords sombres et des centres clairs apparaissent sur les feuilles. Peut entraîner une défoliation dans les cas graves. Améliorez la circulation de l'air."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches on leaves and stems, especially in humid conditions with poor air circulation. Can weaken the plant.",
+        "ur": "پتوں اور تنوں پر سفید، پاؤڈر جیسے دھبے، خاص طور پر نم حالات میں جہاں ہوا کی گردش خراب ہو۔ پودے کو کمزور کر سکتا ہے۔",
+        "ar": "بقع بيضاء مسحوقية على الأوراق والسيقان، خاصة في الظروف الرطبة مع ضعف تهوية الهواء. يمكن أن يضعف النبات.",
+        "fr": "Des taches blanches et poudreuses sur les feuilles et les tiges, surtout dans des conditions humides avec une mauvaise circulation de l'air. Peut affaiblir la plante."
+      }
+    },
+    {
+      "pestId": "shab_phoma_lavandulae",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">75%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "A serious fungal disease causing stems to blacken and die back, often starting from the base. Prune affected parts and ensure good air flow.",
+        "ur": "ایک سنگین فنگل بیماری جو تنوں کو کالا کر کے خشک کر دیتی ہے، اکثر بنیاد سے شروع ہوتی ہے۔ متاثرہ حصوں کو کاٹ دیں اور اچھی ہوا کی گردش کو یقینی بنائیں۔",
+        "ar": "مرض فطري خطير يسبب اسوداد السيقان وموتها، وغالباً ما يبدأ من القاعدة. قم بتقليم الأجزاء المصابة وتأكد من تدفق الهواء الجيد.",
+        "fr": "Une maladie fongique grave qui provoque le noircissement et le dépérissement des tiges, souvent à partir de la base. Taillez les parties affectées et assurez une bonne circulation de l'air."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth, sucking sap. Lavender is generally resistant, but young plants can be affected.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں پر جمع ہو کر رس چوستے ہیں۔ لیونڈر عام طور پر مزاحم ہوتا ہے، لیکن چھوٹے پودے متاثر ہو سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد، وتمتص العصارة. اللافندر مقاوم بشكل عام، ولكن النباتات الصغيرة يمكن أن تتأثر.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses, suçant la sève. La lavande est généralement résistante, mais les jeunes plantes peuvent être affectées."
+      }
+    },
+    {
+      "pestId": "spittlebugs",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small insects that create frothy, white 'spittle' on stems and leaves to protect themselves. Generally harmless but can be unsightly.",
+        "ur": "چھوٹے کیڑے جو اپنے آپ کو بچانے کے لیے تنوں اور پتوں پر جھاگ دار، سفید 'تھوک' بناتے ہیں۔ عام طور پر بے ضرر لیکن بدصورت ہو سکتے ہیں۔",
+        "ar": "حشرات صغيرة تخلق 'بصاق' أبيض رغوي على السيقان والأوراق لحماية نفسها. عادة ما تكون غير ضارة ولكنها قد تكون غير جذابة.",
+        "fr": "Petits insectes qui créent une 'écume' blanche et mousseuse sur les tiges et les feuilles pour se protéger. Généralement inoffensifs mais peuvent être inesthétiques."
+      }
+    },
+    {
+      "pestId": "lavender_gall_midge",
+      "vulnerableStages": [
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny flies whose larvae cause galls (swollen, distorted tissue) on flower buds, preventing them from opening. Prune and destroy affected buds.",
+        "ur": "چھوٹی مکھیاں جن کے لاروا پھولوں کی کلیوں پر گال (سوجے ہوئے، بگڑے ہوئے ٹشو) بناتے ہیں، جس سے وہ کھل نہیں پاتے۔ متاثرہ کلیوں کو کاٹ کر تباہ کر دیں۔",
+        "ar": "ذباب صغير تسبب يرقاته أوراماً (أنسجة متورمة ومشوهة) على براعم الزهور، مما يمنعها من التفتح. قم بتقليم وتدمير البراعم المصابة.",
+        "fr": "Petites mouches dont les larves provoquent des galles (tissus gonflés et déformés) sur les boutons floraux, les empêchant de s'ouvrir. Taillez et détruisez les boutons affectés."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Flower buds are showing color, but only a few bottom flowers have opened.",
+        "ur": "پھولوں کی کلیاں رنگ دکھا رہی ہیں، لیکن صرف چند نچلے پھول کھلے ہیں۔",
+        "ar": "براعم الزهور تظهر اللون، ولكن عدد قليل فقط من الزهور السفلية قد تفتحت.",
+        "fr": "Les boutons floraux montrent de la couleur, mais seules quelques fleurs du bas sont ouvertes."
+      },
+      {
+        "en": "Strong fragrance when gently rubbed.",
+        "ur": "ہلکے سے رگڑنے پر تیز خوشبو۔",
+        "ar": "رائحة قوية عند فركها بلطف.",
+        "fr": "Parfum fort lorsqu'on frotte doucement."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Cut stems just above the first set of leaves on the stem, using clean scissors. Harvest in the morning after dew has dried.",
+        "ur": "صاف قینچی کا استعمال کرتے ہوئے، تنے پر پتوں کے پہلے سیٹ کے بالکل اوپر سے کاٹیں۔ صبح کے وقت شبنم خشک ہونے کے بعد کٹائی کریں۔",
+        "ar": "اقطع السيقان فوق أول مجموعة من الأوراق على الساق، باستخدام مقص نظيف. احصد في الصباح بعد جفاف الندى.",
+        "fr": "Coupez les tiges juste au-dessus de la première série de feuilles sur la tige, avec des ciseaux propres. Récoltez le matin après que la rosée ait séché."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest when about half of the flower buds have opened for optimal essential oil content. Make clean cuts to promote new growth.",
+        "ur": "بہترین ضروری تیل کے مواد کے لیے جب تقریباً آدھی پھولوں کی کلیاں کھل جائیں تو کٹائی کریں۔ نئی نشوونما کو فروغ دینے کے لیے صاف کٹ لگائیں۔",
+        "ar": "احصد عندما تتفتح حوالي نصف براعم الزهور للحصول على أفضل محتوى من الزيوت العطرية. قم بإجراء قطع نظيفة لتعزيز النمو الجديد.",
+        "fr": "Récoltez lorsque environ la moitié des boutons floraux sont ouverts pour un contenu optimal en huile essentielle. Faites des coupes nettes pour favoriser la nouvelle croissance."
+      },
+      "EXPERT": {
+        "en": "For drying, harvest just as the first flowers open. For fresh use, harvest when flowers are fully open. Prune back about one-third of the plant after flowering to maintain shape and encourage a second flush.",
+        "ur": "خشک کرنے کے لیے، جیسے ہی پہلے پھول کھلیں کٹائی کریں۔ تازہ استعمال کے لیے، جب پھول پوری طرح کھل جائیں تو کٹائی کریں۔ پھول آنے کے بعد پودے کا تقریباً ایک تہائی حصہ کاٹ دیں تاکہ شکل برقرار رہے اور دوسری بار پھول آئیں۔",
+        "ar": "للتجفيف، احصد بمجرد تفتح الزهور الأولى. للاستخدام الطازج، احصد عندما تكون الزهور مفتوحة بالكامل. قم بتقليم حوالي ثلث النبات بعد الإزهار للحفاظ على الشكل وتشجيع دفعة ثانية من الزهور.",
+        "fr": "Pour le séchage, récoltez dès l'ouverture des premières fleurs. Pour une utilisation fraîche, récoltez lorsque les fleurs sont entièrement ouvertes. Taillez environ un tiers de la plante après la floraison pour maintenir la forme et encourager une deuxième floraison."
+      }
+    },
+    "storage": {
+      "en": "Hang upside down in a cool, dark, well-ventilated area for drying. Store dried flowers in airtight containers.",
+      "ur": "خشک کرنے کے لیے ٹھنڈی، تاریک، اچھی ہوادار جگہ پر الٹا لٹکا دیں۔ خشک پھولوں کو ہوا بند ڈبوں میں محفوظ کریں۔",
+      "ar": "علقها رأساً على عقب في منطقة باردة، مظلمة، وجيدة التهوية للتجفيف. خزن الزهور المجففة في أوعية محكمة الإغلاق.",
+      "fr": "Suspendez-les tête en bas dans un endroit frais, sombre et bien ventilé pour le séchage. Conservez les fleurs séchées dans des récipients hermétiques."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.1,
+      "20L": 0.2,
+      "30L": 0.3,
+      "GROUND": 0.5
+    }
+  }
+}

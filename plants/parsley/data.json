@@ -1,0 +1,1253 @@
+{
+  "id": "parsley",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1628191010103-31627885b290?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Parsley",
+      "alternate": [
+        "Garden Parsley"
+      ]
+    },
+    "ur": {
+      "common": "پارسلے",
+      "alternate": [
+        "دھنیا"
+      ]
+    },
+    "ar": {
+      "common": "بقدونس",
+      "alternate": [
+        "معدنوس"
+      ]
+    },
+    "fr": {
+      "common": "Persil",
+      "alternate": [
+        "Persil commun"
+      ]
+    },
+    "botanical": "Petroselinum crispum",
+    "aliases": [
+      "ajwain",
+      "pasli",
+      "petersilie",
+      "persil plat",
+      "persil frisé",
+      "petroselinum"
+    ]
+  },
+  "category": "herb",
+  "subcategory": "leafy",
+  "germinationDays": 18,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "FLAT_LEAF",
+    "CURLY_LEAF",
+    "ROOT_PARSLEY"
+  ],
+  "metadata": {},
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "herb",
+    "leafy",
+    "container-friendly",
+    "biennial",
+    "culinary",
+    "cool-season"
+  ],
+  "temperature": {
+    "optimalMinC": 15,
+    "optimalMaxC": 24,
+    "survivalMinC": -5,
+    "survivalMaxC": 30,
+    "germinationMinC": 10,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 80,
+    "requiredGDD": 800,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 15
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 4,
+    "sunHoursOptimal": 6,
+    "sunHoursMax": 8
+  },
+  "water": {
+    "baseMlPer10L": 600,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent Moisture",
+    "soilMoisturePreference": "Keep consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "high",
+    "rootRotRisk": "Medium if soil remains soggy",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "yellowing leaves",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellow lower leaves",
+      "soft stem",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Bottom watering or at soil level",
+    "thingsToAvoid": [
+      "water on leaves (can promote fungal diseases)",
+      "standing water",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.1,
+      "notes": {
+        "en": "Ensure good drainage",
+        "ur": "اچھی نکاسی کو یقینی بنائیں",
+        "ar": "تأكد من الصرف الجيد",
+        "fr": "Assurer un bon drainage"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Good for aeration",
+        "ur": "ہوا کی نکاسی کے لیے اچھا ہے",
+        "ar": "جيد للتهوية",
+        "fr": "Bon pour l'aération"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 20,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Space plants 15-20cm apart",
+        "ur": "پودوں کو 15-20 سینٹی میٹر کے فاصلے پر لگائیں",
+        "ar": "افصل النباتات 15-20 سم",
+        "fr": "Espacez les plantes de 15-20 cm"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Provides excellent drainage",
+        "ur": "بہترین نکاسی فراہم کرتا ہے",
+        "ar": "يوفر تصريفًا ممتازًا",
+        "fr": "Offre un excellent drainage"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "70-90 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Soak parsley seeds in warm water overnight before sowing to help break dormancy and speed up germination.",
+          "ur": "بونے سے پہلے اجمودا کے بیجوں کو رات بھر گرم پانی میں بھگو دیں تاکہ انکرن تیز ہو سکے۔",
+          "ar": "انقع بذور البقدونس في الماء الدافئ طوال الليل قبل الزراعة للمساعدة في كسر السكون وتسريع الإنبات.",
+          "fr": "Faites tremper les graines de persil dans de l'eau tiède toute une nuit avant de semer pour faciliter la germination."
+        },
+        {
+          "en": "Parsley seeds are slow to germinate; be patient and keep the soil consistently moist.",
+          "ur": "اجمودا کے بیج آہستہ اگتے ہیں؛ صبر رکھیں اور مٹی کو مسلسل نم رکھیں۔",
+          "ar": "بذور البقدونس بطيئة في الإنبات؛ كن صبوراً وحافظ على رطوبة التربة باستمرار.",
+          "fr": "Les graines de persil germent lentement ; soyez patient et maintenez le sol constamment humide."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand for good drainage.",
+              "ur": "اچھی نکاسی کے لیے 50% مٹی، 30% کھاد، 20% ریت ملائیں۔",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل لتصريف جيد.",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable pour un bon drainage."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is well-draining and rich in organic matter. Add perlite if needed.",
+              "ur": "یقینی بنائیں کہ مٹی اچھی طرح سے نکاسی والی اور نامیاتی مادے سے بھرپور ہو۔ ضرورت پڑنے پر پرلائٹ شامل کریں۔",
+              "ar": "تأكد من أن التربة جيدة التصريف وغنية بالمواد العضوية. أضف البيرلايت إذا لزم الأمر.",
+              "fr": "Assurez-vous que le sol est bien drainé et riche en matière organique. Ajoutez de la perlite si nécessaire."
+            },
+            "EXPERT": {
+              "en": "Prepare a loamy soil with a pH between 6.0-7.0, incorporating aged compost and a slow-release organic fertilizer.",
+              "ur": "6.0-7.0 کے درمیان پی ایچ والی لومی مٹی تیار کریں، جس میں پرانی کھاد اور سست ریلیز نامیاتی کھاد شامل کریں۔",
+              "ar": "جهز تربة طفالية بدرجة حموضة تتراوح بين 6.0-7.0، مع دمج السماد العضوي القديم وسماد عضوي بطيء الإطلاق.",
+              "fr": "Préparez un sol limoneux avec un pH entre 6.0-7.0, en incorporant du compost vieilli et un engrais organique à libération lente."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep, lightly covering with soil.",
+              "ur": "بیج 1/4 انچ گہرائی میں بوئیں، ہلکی سی مٹی سے ڈھانپ دیں۔",
+              "ar": "ابذر البذور بعمق 1/4 بوصة، وغطها برفق بالتربة.",
+              "fr": "Semez les graines à 1/4 de pouce de profondeur, en recouvrant légèrement de terre."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant seeds 1/4 inch deep, 1 inch apart, in rows 6 inches apart.",
+              "ur": "بیج 1/4 انچ گہرائی میں، 1 انچ کے فاصلے پر، 6 انچ کے فاصلے پر قطاروں میں بوئیں۔",
+              "ar": "ازرع البذور بعمق 1/4 بوصة، بمسافة 1 بوصة بين البذور، وفي صفوف بمسافة 6 بوصات بين الصفوف.",
+              "fr": "Plantez les graines à 1/4 de pouce de profondeur, à 1 pouce d'intervalle, en rangs espacés de 6 pouces."
+            },
+            "EXPERT": {
+              "en": "Broadcast seeds thinly over prepared soil, then lightly rake to cover 1/4 inch deep.",
+              "ur": "تیار شدہ مٹی پر بیجوں کو پتلا بکھیر دیں، پھر ہلکے سے ریک کریں تاکہ 1/4 انچ گہرائی تک ڈھک جائیں۔",
+              "ar": "انثر البذور بشكل رقيق فوق التربة المجهزة، ثم قم بتسوية خفيفة لتغطيتها بعمق 1/4 بوصة.",
+              "fr": "Semez les graines finement sur le sol préparé, puis ratissez légèrement pour couvrir à 1/4 de pouce de profondeur."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 10,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny green sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی سبز کونپلیں چیک کریں۔",
+              "ar": "تحقق من ظهور البراعم الخضراء الصغيرة من التربة.",
+              "fr": "Vérifiez l'apparition de petites pousses vertes."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for the first signs of cotyledons (seed leaves) breaking the soil surface.",
+              "ur": "مٹی کی سطح سے نکلنے والے پہلے پتوں (کوٹیلیڈنز) کی علامات تلاش کریں۔",
+              "ar": "ابحث عن أولى علامات الفلقات (أوراق البذور) التي تخترق سطح التربة.",
+              "fr": "Recherchez les premiers signes de cotylédons (feuilles séminales) brisant la surface du sol."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture and temperature to optimize germination conditions.",
+              "ur": "انکرن کی بہترین حالتوں کے لیے مٹی کی نمی اور درجہ حرارت کی نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة ودرجة حرارتها لتحسين ظروف الإنبات.",
+              "fr": "Surveillez l'humidité et la température du sol pour optimiser les conditions de germination."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface daily to keep it moist.",
+              "ur": "مٹی کی سطح کو روزانہ چھڑکاؤ کریں تاکہ وہ نم رہے۔",
+              "ar": "رش سطح التربة يومياً للحفاظ على رطوبتها.",
+              "fr": "Vaporisez la surface du sol quotidiennement pour la maintenir humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture without waterlogging, using a fine mist sprayer.",
+              "ur": "پانی جمع کیے بغیر مسلسل نمی برقرار رکھیں، ایک باریک چھڑکاؤ والے سپرےر کا استعمال کرتے ہوئے۔",
+              "ar": "حافظ على رطوبة ثابتة دون إغراق بالماء، باستخدام بخاخ رذاذ ناعم.",
+              "fr": "Maintenez une humidité constante sans engorgement, en utilisant un pulvérisateur à brouillard fin."
+            },
+            "EXPERT": {
+              "en": "Ensure even moisture penetration to the seed depth, avoiding displacement of seeds.",
+              "ur": "بیج کی گہرائی تک یکساں نمی کی رسائی کو یقینی بنائیں، بیجوں کی نقل مکانی سے گریز کریں۔",
+              "ar": "تأكد من تغلغل الرطوبة بالتساوي إلى عمق البذور، مع تجنب إزاحة البذور.",
+              "fr": "Assurez une pénétration uniforme de l'humidité jusqu'à la profondeur des graines, en évitant le déplacement des graines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "First sprouts emerge",
+        "ur": "پہلی کونپلیں نکلنا",
+        "ar": "ظهور البراعم الأولى",
+        "fr": "Premières pousses"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Provide adequate light once sprouts appear to prevent them from becoming leggy.",
+          "ur": "کونپلیں نکلنے کے بعد مناسب روشنی فراہم کریں تاکہ وہ لمبی نہ ہوں۔",
+          "ar": "وفر إضاءة كافية بمجرد ظهور البراعم لمنعها من أن تصبح ضعيفة.",
+          "fr": "Fournissez une lumière adéquate dès l'apparition des pousses pour éviter qu'elles ne s'étirent."
+        },
+        {
+          "en": "Maintain consistent soil moisture, but avoid overwatering which can lead to damping-off.",
+          "ur": "مٹی کی نمی کو مسلسل برقرار رکھیں، لیکن زیادہ پانی دینے سے گریز کریں جو پودوں کو گلا سکتا ہے۔",
+          "ar": "حافظ على رطوبة التربة باستمرار، ولكن تجنب الإفراط في الري الذي يمكن أن يؤدي إلى ذبول الشتلات.",
+          "fr": "Maintenez une humidité constante du sol, mais évitez l'excès d'eau qui peut provoquer la fonte des semis."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently with a fine spray to avoid disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر ہلکے سپرے سے پانی دیں۔",
+              "ar": "اسقِ بلطف برذاذ ناعم لتجنب إزعاج البراعم الرقيقة.",
+              "fr": "Arrosez doucement avec un pulvérisateur fin pour ne pas perturber les jeunes pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil consistently moist, but not waterlogged, to support root development.",
+              "ur": "جڑوں کی نشوونما کے لیے مٹی کو مسلسل نم رکھیں، لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن ليس مشبعة بالماء، لدعم نمو الجذور.",
+              "fr": "Maintenez le sol constamment humide, mais pas détrempé, pour soutenir le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels closely and adjust watering frequency based on environmental conditions.",
+              "ur": "مٹی کی نمی کی سطح کو قریب سے مانیٹر کریں اور ماحولیاتی حالات کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں۔",
+              "ar": "راقب مستويات رطوبة التربة عن كثب واضبط تكرار الري بناءً على الظروف البيئية.",
+              "fr": "Surveillez attentivement les niveaux d'humidité du sol et ajustez la fréquence d'arrosage en fonction des conditions environnementales."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 16,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "True leaves develop, ready for thinning or transplant",
+        "ur": "نئے پتے نکلنا، پتلا کرنے یا منتقل کرنے کے لیے تیار",
+        "ar": "تتكون الأوراق الحقيقية، جاهزة للتخفيف أو النقل",
+        "fr": "Développement des vraies feuilles, prêt pour l'éclaircissage ou le repiquage"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Thin seedlings to 6-8 inches apart to allow for proper air circulation and growth.",
+          "ur": "مناسب ہوا کی گردش اور نشوونما کے لیے پودوں کو 6-8 انچ کے فاصلے پر پتلا کریں۔",
+          "ar": "خفف الشتلات بمسافة 6-8 بوصات للسماح بتدوير الهواء والنمو المناسبين.",
+          "fr": "Éclaircissez les semis à 6-8 pouces d'intervalle pour permettre une bonne circulation de l'air et une croissance optimale."
+        },
+        {
+          "en": "If transplanting, harden off plants gradually over a week before moving them outdoors.",
+          "ur": "اگر منتقل کر رہے ہیں، تو پودوں کو باہر منتقل کرنے سے پہلے ایک ہفتے تک آہستہ آہستہ سخت کریں۔",
+          "ar": "إذا كنت تقوم بالزرع، قم بتقوية النباتات تدريجياً على مدار أسبوع قبل نقلها إلى الخارج.",
+          "fr": "Si vous repiquez, acclimatez progressivement les plantes pendant une semaine avant de les déplacer à l'extérieur."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once seedlings have a few true leaves, thin them to 6 inches apart.",
+              "ur": "جب پودوں میں چند اصلی پتے آ جائیں، تو انہیں 6 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "بمجرد أن تحتوي الشتلات على بضع أوراق حقيقية، خففها لتصبح بمسافة 6 بوصات.",
+              "fr": "Une fois que les semis ont quelques vraies feuilles, éclaircissez-les à 6 pouces d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Select the strongest seedlings and gently snip off weaker ones at the soil line to avoid disturbing roots.",
+              "ur": "مضبوط ترین پودوں کا انتخاب کریں اور جڑوں کو پریشان کیے بغیر کمزور پودوں کو مٹی کی سطح پر کاٹ دیں۔",
+              "ar": "اختر أقوى الشتلات واقطع الشتلات الأضعف بلطف عند خط التربة لتجنب إزعاج الجذور.",
+              "fr": "Sélectionnez les semis les plus forts et coupez délicatement les plus faibles au niveau du sol pour éviter de perturber les racines."
+            },
+            "EXPERT": {
+              "en": "Thin to achieve optimal spacing (6-8 inches) for mature plant size, ensuring good air circulation.",
+              "ur": "بالغ پودے کے سائز کے لیے بہترین فاصلہ (6-8 انچ) حاصل کرنے کے لیے پتلا کریں، اچھی ہوا کی گردش کو یقینی بنائیں۔",
+              "ar": "خفف لتحقيق التباعد الأمثل (6-8 بوصات) لحجم النبات الناضج، مما يضمن تهوية جيدة.",
+              "fr": "Éclaircissez pour obtenir un espacement optimal (6-8 pouces) pour la taille de la plante mature, assurant une bonne circulation de l'air."
+            }
+          }
+        },
+        "transplant": {
+          "required": false,
+          "dayOffset": 14,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully move seedlings to their final outdoor location or larger pots.",
+              "ur": "پودوں کو احتیاط سے ان کی آخری بیرونی جگہ یا بڑے گملوں میں منتقل کریں۔",
+              "ar": "انقل الشتلات بعناية إلى موقعها الخارجي النهائي أو إلى أوعية أكبر.",
+              "fr": "Déplacez délicatement les semis vers leur emplacement extérieur final ou des pots plus grands."
+            },
+            "INTERMEDIATE": {
+              "en": "Dig a hole slightly larger than the root ball, place the seedling, and backfill gently.",
+              "ur": "جڑ کی گیند سے تھوڑا بڑا گڑھا کھودیں، پودا رکھیں، اور آہستہ سے مٹی بھریں۔",
+              "ar": "احفر حفرة أكبر قليلاً من كرة الجذور، ضع الشتلة، ثم املأ التربة بلطف.",
+              "fr": "Creusez un trou légèrement plus grand que la motte, placez le semis et rebouchez délicatement."
+            },
+            "EXPERT": {
+              "en": "Minimize root disturbance during transplanting. Water immediately after to settle the soil.",
+              "ur": "منتقلی کے دوران جڑوں کی پریشانی کو کم سے کم کریں۔ مٹی کو ٹھیک کرنے کے لیے فوراً پانی دیں۔",
+              "ar": "قلل من اضطراب الجذور أثناء الزرع. اسقِ الماء فوراً بعد ذلك لتسوية التربة.",
+              "fr": "Minimisez la perturbation des racines lors du repiquage. Arrosez immédiatement après pour tasser le sol."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 250,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant, keeping the soil consistently moist.",
+              "ur": "پودے کی جڑ میں پانی دیں، مٹی کو مسلسل نم رکھیں۔",
+              "ar": "اسقِ قاعدة النبات، وحافظ على رطوبة التربة باستمرار.",
+              "fr": "Arrosez à la base de la plante, en maintenant le sol constamment humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to encourage strong root development, allowing the top inch of soil to dry slightly between waterings.",
+              "ur": "مضبوط جڑوں کی نشوونما کے لیے گہرا پانی دینا یقینی بنائیں، پانی دینے کے درمیان مٹی کی اوپری انچ کو تھوڑا خشک ہونے دیں۔",
+              "ar": "تأكد من الري العميق لتشجيع نمو الجذور القوية، مما يسمح للجزء العلوي من التربة بالجفاف قليلاً بين الريات.",
+              "fr": "Assurez un arrosage profond pour encourager un fort développement racinaire, en laissant le pouce supérieur du sol sécher légèrement entre les arrosages."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a finger test; water when the top 1-2 inches feel dry.",
+              "ur": "انگلی کے ٹیسٹ سے مٹی کی نمی کی نگرانی کریں؛ جب اوپر کے 1-2 انچ خشک محسوس ہوں تو پانی دیں۔",
+              "ar": "راقب رطوبة التربة باختبار الإصبع؛ اسقِ عندما تشعر أن الطبقة العلوية 1-2 بوصة جافة.",
+              "fr": "Surveillez l'humidité du sol avec un test au doigt ; arrosez lorsque les 1-2 premiers pouces sont secs."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 45,
+      "durationDaysCool": 75,
+      "description": {
+        "en": "Lush leaf growth, continuous harvest begins",
+        "ur": "گھنے پتوں کی نشوونما، مسلسل کٹائی شروع",
+        "ar": "نمو أوراق كثيف، يبدأ الحصاد المستمر",
+        "fr": "Croissance luxuriante des feuilles, début de la récolte continue"
+      },
+      "emoji": "🥬",
+      "tips": [
+        {
+          "en": "Regular harvesting encourages the plant to produce more leaves and delays bolting.",
+          "ur": "باقاعدہ کٹائی پودے کو مزید پتے پیدا کرنے کی ترغیب دیتی ہے اور پھول آنے میں تاخیر کرتی ہے۔",
+          "ar": "الحصاد المنتظم يشجع النبات على إنتاج المزيد من الأوراق ويؤخر الإزهار.",
+          "fr": "La récolte régulière encourage la plante à produire plus de feuilles et retarde la montée en graine."
+        },
+        {
+          "en": "Harvest outer stems first, cutting them at the base of the plant.",
+          "ur": "پہلے بیرونی تنوں کو کاٹیں، انہیں پودے کی جڑ سے کاٹیں۔",
+          "ar": "احصد السيقان الخارجية أولاً، بقطعها من قاعدة النبات.",
+          "fr": "Récoltez les tiges extérieures en premier, en les coupant à la base de la plante."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly to keep the soil consistently moist, especially during dry spells.",
+              "ur": "مٹی کو مسلسل نم رکھنے کے لیے باقاعدگی سے پانی دیں، خاص طور پر خشک موسم میں۔",
+              "ar": "اسقِ بانتظام للحفاظ على رطوبة التربة باستمرار، خاصة خلال فترات الجفاف.",
+              "fr": "Arrosez régulièrement pour maintenir le sol constamment humide, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide deep watering when the top inch of soil feels dry, ensuring good drainage.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو گہرا پانی دیں، اچھی نکاسی کو یقینی بنائیں۔",
+              "ar": "وفر رياً عميقاً عندما تشعر أن الطبقة العلوية من التربة جافة، مع ضمان تصريف جيد.",
+              "fr": "Arrosez profondément lorsque le pouce supérieur du sol est sec, en assurant un bon drainage."
+            },
+            "EXPERT": {
+              "en": "Implement a consistent watering schedule, adjusting for rainfall and humidity to prevent both drought stress and waterlogging.",
+              "ur": "پانی دینے کا ایک مستقل شیڈول نافذ کریں، بارش اور نمی کے لیے ایڈجسٹ کریں تاکہ خشک سالی اور پانی جمع ہونے دونوں سے بچا جا سکے۔",
+              "ar": "نفذ جدول ري ثابت، مع التعديل حسب هطول الأمطار والرطوبة لمنع كل من إجهاد الجفاف وتشبع التربة بالماء.",
+              "fr": "Mettez en œuvre un programme d'arrosage cohérent, en l'ajustant en fonction des précipitations et de l'humidité pour prévenir le stress hydrique et l'engorgement."
+            }
+          }
+        },
+        "fertilizing": {
+          "required": false,
+          "isRecurring": true,
+          "intervalDays": 28,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a light dose of balanced liquid fertilizer every 3-4 weeks.",
+              "ur": "ہر 3-4 ہفتوں میں متوازن مائع کھاد کی ہلکی خوراک دیں۔",
+              "ar": "ضع جرعة خفيفة من السماد السائل المتوازن كل 3-4 أسابيع.",
+              "fr": "Appliquez une légère dose d'engrais liquide équilibré toutes les 3-4 semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Use an organic, all-purpose liquid feed at half strength to promote lush foliage.",
+              "ur": "گھنے پتوں کی نشوونما کو فروغ دینے کے لیے آدھی طاقت کا نامیاتی، ہمہ مقصدی مائع کھاد استعمال کریں۔",
+              "ar": "استخدم سماداً سائلاً عضوياً متعدد الأغراض بنصف القوة لتعزيز الأوراق الخضراء الكثيفة.",
+              "fr": "Utilisez un engrais liquide organique tout usage à demi-dose pour favoriser un feuillage luxuriant."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to determine nutrient deficiencies and apply a tailored organic fertilizer blend.",
+              "ur": "غذائی اجزاء کی کمی کا تعین کرنے کے لیے مٹی کا ٹیسٹ کریں اور ایک مخصوص نامیاتی کھاد کا مرکب استعمال کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتحديد نقص المغذيات وتطبيق مزيج سماد عضوي مخصص.",
+              "fr": "Effectuez un test de sol pour déterminer les carences en nutriments et appliquez un mélange d'engrais organique sur mesure."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If you see small bugs, spray with a gentle stream of water or insecticidal soap.",
+              "ur": "اگر آپ کو چھوٹے کیڑے نظر آئیں تو پانی کی ہلکی دھار یا کیڑے مار صابن سے چھڑکاؤ کریں۔",
+              "ar": "إذا رأيت حشرات صغيرة، رشها برذاذ ماء لطيف أو صابون مبيد للحشرات.",
+              "fr": "Si vous voyez de petits insectes, pulvérisez avec un jet d'eau doux ou du savon insecticide."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly inspect for common pests like aphids and spider mites; treat with neem oil if found.",
+              "ur": "ایفڈز اور مکڑی کے کیڑوں جیسے عام کیڑوں کے لیے باقاعدگی سے معائنہ کریں؛ اگر پائے جائیں تو نیم کے تیل سے علاج کریں۔",
+              "ar": "افحص بانتظام للبحث عن الآفات الشائعة مثل المن والعناكب الحمراء؛ عالج بزيت النيم إذا وجدت.",
+              "fr": "Inspectez régulièrement les parasites courants comme les pucerons et les tétranyques ; traitez avec de l'huile de neem si nécessaire."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, including beneficial insects and organic sprays.",
+              "ur": "مفید کیڑوں اور نامیاتی سپرے سمیت ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں۔",
+              "ar": "نفذ استراتيجية متكاملة لإدارة الآفات (IPM)، بما في ذلك الحشرات النافعة والبخاخات العضوية.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM), incluant les insectes auxiliaires et les pulvérisations biologiques."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for any discoloration or signs of pests.",
+              "ur": "پتوں پر کسی بھی رنگت کی تبدیلی یا کیڑوں کی علامات کی جانچ کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن أي تغير في اللون أو علامات الآفات.",
+              "fr": "Vérifiez les feuilles pour toute décoloration ou signe de parasites."
+            },
+            "INTERMEDIATE": {
+              "en": "Look under leaves and in crevices for early signs of aphids, spider mites, or fungal issues.",
+              "ur": "ایفڈز، مکڑی کے کیڑوں، یا فنگل مسائل کی ابتدائی علامات کے لیے پتوں کے نیچے اور دراڑوں میں دیکھیں۔",
+              "ar": "ابحث تحت الأوراق وفي الشقوق عن علامات مبكرة للمن، العناكب الحمراء، أو المشاكل الفطرية.",
+              "fr": "Recherchez sous les feuilles et dans les crevasses les premiers signes de pucerons, tétranyques ou problèmes fongiques."
+            },
+            "EXPERT": {
+              "en": "Perform a thorough weekly inspection for subtle changes in plant health, indicative of nutrient deficiencies or disease onset.",
+              "ur": "پودے کی صحت میں معمولی تبدیلیوں کے لیے ہفتہ وار مکمل معائنہ کریں، جو غذائی اجزاء کی کمی یا بیماری کے آغاز کی نشاندہی کرتا ہے۔",
+              "ar": "قم بإجراء فحص أسبوعي شامل للتغيرات الدقيقة في صحة النبات، والتي تشير إلى نقص المغذيات أو بداية المرض.",
+              "fr": "Effectuez une inspection hebdomadaire approfondie pour détecter les changements subtils dans la santé de la plante, indiquant des carences nutritionnelles ou l'apparition de maladies."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            },
+            {
+              "en": "Spider mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس العنكبوت",
+              "fr": "Tétranyques"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Flower stalks emerge, leaves may become bitter",
+        "ur": "پھولوں کے تنے نکلنا، پتے کڑوے ہو سکتے ہیں",
+        "ar": "تظهر سيقان الزهور، وقد تصبح الأوراق مرة",
+        "fr": "Apparition des tiges florales, les feuilles peuvent devenir amères"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "Once parsley 'bolts' (sends up a flower stalk), the leaves often become bitter and less flavorful.",
+          "ur": "جب اجمودا 'بولٹ' ہو جاتا ہے (پھول کا تنا نکالتا ہے)، تو پتے اکثر کڑوے اور کم ذائقہ دار ہو جاتے ہیں۔",
+          "ar": "بمجرد أن يزهر البقدونس (يرسل ساق زهرة)، غالباً ما تصبح الأوراق مرة وأقل نكهة.",
+          "fr": "Une fois que le persil 'monte en graine' (produit une tige florale), les feuilles deviennent souvent amères et moins savoureuses."
+        },
+        {
+          "en": "You can allow the plant to flower to attract beneficial insects or to collect seeds for future planting.",
+          "ur": "آپ پودے کو پھول آنے دے سکتے ہیں تاکہ مفید کیڑوں کو اپنی طرف متوجہ کیا جا سکے یا مستقبل کی کاشت کے لیے بیج جمع کیے جا سکیں۔",
+          "ar": "يمكنك السماح للنبات بالزهور لجذب الحشرات النافعة أو لجمع البذور للزراعة المستقبلية.",
+          "fr": "Vous pouvez laisser la plante fleurir pour attirer les insectes bénéfiques ou pour récolter les graines pour de futures plantations."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue regular watering, but the focus shifts from leaf production.",
+              "ur": "باقاعدہ پانی دینا جاری رکھیں، لیکن توجہ پتوں کی پیداوار سے ہٹ جاتی ہے۔",
+              "ar": "استمر في الري المنتظم، لكن التركيز يتحول من إنتاج الأوراق.",
+              "fr": "Continuez l'arrosage régulier, mais l'accent n'est plus mis sur la production de feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture to support flower and seed development.",
+              "ur": "پھول اور بیج کی نشوونما کو سہارا دینے کے لیے مٹی کی نمی کو مسلسل برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار لدعم نمو الزهور والبذور.",
+              "fr": "Maintenez une humidité constante du sol pour soutenir le développement des fleurs et des graines."
+            },
+            "EXPERT": {
+              "en": "Adjust watering to prevent stress, which can accelerate seed set and further reduce leaf quality.",
+              "ur": "تناؤ کو روکنے کے لیے پانی کو ایڈجسٹ کریں، جو بیج کے سیٹ کو تیز کر سکتا ہے اور پتوں کے معیار کو مزید کم کر سکتا ہے۔",
+              "ar": "اضبط الري لمنع الإجهاد، والذي يمكن أن يسرع من تكوين البذور ويقلل من جودة الأوراق.",
+              "fr": "Ajustez l'arrosage pour prévenir le stress, ce qui peut accélérer la formation des graines et réduire davantage la qualité des feuilles."
+            }
+          }
+        },
+        "deadheading": {
+          "required": false,
+          "dayOffset": 10,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off flower stalks as they appear to try and prolong leaf production.",
+              "ur": "پھولوں کے تنوں کو جیسے ہی وہ ظاہر ہوں، چٹکی سے توڑ دیں تاکہ پتوں کی پیداوار کو طول دیا جا سکے۔",
+              "ar": "اقطع سيقان الزهور فور ظهورها لمحاولة إطالة إنتاج الأوراق.",
+              "fr": "Pincez les tiges florales dès leur apparition pour tenter de prolonger la production de feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove flower stalks promptly to redirect plant energy back into foliage, though this is often a temporary measure.",
+              "ur": "پھولوں کے تنوں کو فوری طور پر ہٹا دیں تاکہ پودے کی توانائی کو دوبارہ پتوں کی طرف موڑا جا سکے، حالانکہ یہ اکثر ایک عارضی اقدام ہوتا ہے۔",
+              "ar": "أزل سيقان الزهور فوراً لإعادة توجيه طاقة النبات إلى الأوراق، على الرغم من أن هذا غالباً ما يكون إجراءً مؤقتاً.",
+              "fr": "Retirez rapidement les tiges florales pour rediriger l'énergie de la plante vers le feuillage, bien que ce soit souvent une mesure temporaire."
+            },
+            "EXPERT": {
+              "en": "Strategically remove flower buds to encourage a final flush of vegetative growth before the plant fully commits to seed production.",
+              "ur": "پودے کے مکمل طور پر بیج کی پیداوار کے لیے پرعزم ہونے سے پہلے، پودوں کی نشوونما کی آخری لہر کو فروغ دینے کے لیے پھولوں کی کلیوں کو حکمت عملی سے ہٹا دیں۔",
+              "ar": "أزل براعم الزهور بشكل استراتيجي لتشجيع دفعة أخيرة من النمو الخضري قبل أن يلتزم النبات بالكامل بإنتاج البذور.",
+              "fr": "Retirez stratégiquement les boutons floraux pour encourager une dernière poussée de croissance végétative avant que la plante ne s'engage pleinement dans la production de graines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 55,
+      "description": {
+        "en": "Seeds mature on flower stalks",
+        "ur": "پھولوں کے تنوں پر بیج پکنا",
+        "ar": "تنضج البذور على سيقان الزهور",
+        "fr": "Maturation des graines sur les tiges florales"
+      },
+      "emoji": "🌾",
+      "tips": [
+        {
+          "en": "Allow seeds to fully mature and dry on the plant before collecting them.",
+          "ur": "بیجوں کو جمع کرنے سے پہلے پودے پر مکمل طور پر پکنے اور خشک ہونے دیں۔",
+          "ar": "اترك البذور تنضج وتجف تماماً على النبات قبل جمعها.",
+          "fr": "Laissez les graines mûrir et sécher complètement sur la plante avant de les récolter."
+        },
+        {
+          "en": "Collect seeds on a dry, calm day to prevent them from scattering.",
+          "ur": "بیجوں کو بکھرنے سے روکنے کے لیے خشک، پرسکون دن میں جمع کریں۔",
+          "ar": "اجمع البذور في يوم جاف وهادئ لمنعها من التناثر.",
+          "fr": "Récoltez les graines par temps sec et calme pour éviter qu'elles ne se dispersent."
+        }
+      ],
+      "tasks": {
+        "seedCollection": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "When seed heads turn brown, cut the stalks and place them in a paper bag to dry.",
+              "ur": "جب بیج کے سر بھورے ہو جائیں، تنوں کو کاٹ کر خشک کرنے کے لیے کاغذ کے تھیلے میں رکھیں۔",
+              "ar": "عندما تتحول رؤوس البذور إلى اللون البني، اقطع السيقان وضعها في كيس ورقي لتجف.",
+              "fr": "Lorsque les têtes de graines deviennent brunes, coupez les tiges et placez-les dans un sac en papier pour les faire sécher."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor seed heads for full maturity (dark brown color) and cut entire stalks, hanging them upside down in a cool, dry place.",
+              "ur": "بیج کے سروں کی مکمل پختگی (گہرا بھورا رنگ) کی نگرانی کریں اور پورے تنوں کو کاٹ کر ٹھنڈی، خشک جگہ پر الٹا لٹکا دیں۔",
+              "ar": "راقب رؤوس البذور للتأكد من نضجها الكامل (لون بني داكن) واقطع السيقان بأكملها، وعلقها رأساً على عقب في مكان بارد وجاف.",
+              "fr": "Surveillez les têtes de graines pour une maturité complète (couleur brun foncé) et coupez les tiges entières, en les suspendant à l'envers dans un endroit frais et sec."
+            },
+            "EXPERT": {
+              "en": "Harvest seed heads just as they begin to shatter, placing them over a cloth to catch falling seeds. Store in airtight containers.",
+              "ur": "بیج کے سروں کو جیسے ہی وہ بکھرنا شروع کریں، کاٹ لیں، انہیں کپڑے پر رکھ کر گرنے والے بیجوں کو جمع کریں۔ ہوا بند کنٹینرز میں ذخیرہ کریں۔",
+              "ar": "احصد رؤوس البذور فور بدئها في التفتت، وضعها فوق قطعة قماش لجمع البذور المتساقطة. خزنها في حاويات محكمة الإغلاق.",
+              "fr": "Récoltez les têtes de graines juste au moment où elles commencent à se briser, en les plaçant sur un tissu pour recueillir les graines qui tombent. Conservez-les dans des récipients hermétiques."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering as the plant focuses on seed production.",
+              "ur": "جیسے جیسے پودا بیج کی پیداوار پر توجہ دے، پانی کم کریں۔",
+              "ar": "قلل الري مع تركيز النبات على إنتاج البذور.",
+              "fr": "Réduisez l'arrosage à mesure que la plante se concentre sur la production de graines."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow the soil to dry out more between waterings to encourage seed maturation.",
+              "ur": "بیجوں کی پختگی کو فروغ دینے کے لیے پانی دینے کے درمیان مٹی کو زیادہ خشک ہونے دیں۔",
+              "ar": "دع التربة تجف أكثر بين الريات لتشجيع نضج البذور.",
+              "fr": "Laissez le sol sécher davantage entre les arrosages pour encourager la maturation des graines."
+            },
+            "EXPERT": {
+              "en": "Gradually decrease water supply to mimic natural senescence, optimizing seed viability and preventing fungal issues.",
+              "ur": "قدرتی سنسینس کو نقل کرنے کے لیے پانی کی فراہمی کو آہستہ آہستہ کم کریں، بیج کی قابل عملیت کو بہتر بنائیں اور فنگل مسائل کو روکیں۔",
+              "ar": "قلل تدريجياً من إمدادات المياه لمحاكاة الشيخوخة الطبيعية، وتحسين حيوية البذور ومنع المشاكل الفطرية.",
+              "fr": "Diminuez progressivement l'apport en eau pour imiter la sénescence naturelle, optimisant la viabilité des graines et prévenant les problèmes fongiques."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Continuous harvest of fresh parsley leaves",
+        "ur": "تازہ اجمودا کے پتوں کی مسلسل کٹائی",
+        "ar": "حصاد مستمر لأوراق البقدونس الطازجة",
+        "fr": "Récolte continue de feuilles de persil frais"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest parsley by cutting the outer stems at the base of the plant, leaving the inner ones to grow.",
+          "ur": "اجمودا کی کٹائی پودے کی جڑ سے بیرونی تنوں کو کاٹ کر کریں، اندرونی تنوں کو بڑھنے دیں۔",
+          "ar": "احصد البقدونس بقطع السيقان الخارجية من قاعدة النبات، مع ترك السيقان الداخلية لتنمو.",
+          "fr": "Récoltez le persil en coupant les tiges extérieures à la base de la plante, en laissant les intérieures pousser."
+        },
+        {
+          "en": "Avoid removing more than one-third of the plant at a time to ensure continuous production.",
+          "ur": "مسلسل پیداوار کو یقینی بنانے کے لیے ایک وقت میں پودے کا ایک تہائی سے زیادہ حصہ نہ ہٹائیں۔",
+          "ar": "تجنب إزالة أكثر من ثلث النبات في المرة الواحدة لضمان الإنتاج المستمر.",
+          "fr": "Évitez de retirer plus d'un tiers de la plante à la fois pour assurer une production continue."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Snip off outer stems close to the ground using clean scissors.",
+              "ur": "صاف قینچی کا استعمال کرتے ہوئے بیرونی تنوں کو زمین کے قریب سے کاٹ دیں۔",
+              "ar": "اقطع السيقان الخارجية بالقرب من الأرض باستخدام مقص نظيف.",
+              "fr": "Coupez les tiges extérieures près du sol avec des ciseaux propres."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest mature outer leaves and stems, leaving the central growth point intact for continuous production.",
+              "ur": "پختہ بیرونی پتے اور تنے کاٹ لیں، مرکزی نشوونما کے نقطہ کو مسلسل پیداوار کے لیے برقرار رکھیں۔",
+              "ar": "احصد الأوراق والسيقان الخارجية الناضجة، مع ترك نقطة النمو المركزية سليمة للإنتاج المستمر.",
+              "fr": "Récoltez les feuilles et les tiges extérieures matures, en laissant le point de croissance central intact pour une production continue."
+            },
+            "EXPERT": {
+              "en": "Perform selective harvesting to maintain plant vigor and shape, promoting air circulation and preventing disease.",
+              "ur": "پودے کی طاقت اور شکل کو برقرار رکھنے کے لیے انتخابی کٹائی کریں، ہوا کی گردش کو فروغ دیں اور بیماری کو روکیں۔",
+              "ar": "قم بحصاد انتقائي للحفاظ على حيوية النبات وشكله، وتعزيز دوران الهواء ومنع الأمراض.",
+              "fr": "Effectuez une récolte sélective pour maintenir la vigueur et la forme de la plante, favorisant la circulation de l'air et prévenant les maladies."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent soil moisture to support new leaf growth after harvesting.",
+              "ur": "کٹائی کے بعد نئے پتوں کی نشوونما کو سہارا دینے کے لیے مٹی کی نمی کو مسلسل برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار لدعم نمو الأوراق الجديدة بعد الحصاد.",
+              "fr": "Maintenez une humidité constante du sol pour soutenir la croissance de nouvelles feuilles après la récolte."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply to encourage robust root development, which is crucial for continuous leaf production.",
+              "ur": "مسلسل پتوں کی پیداوار کے لیے اہم، مضبوط جڑوں کی نشوونما کو فروغ دینے کے لیے گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق لتشجيع نمو الجذور القوي، وهو أمر بالغ الأهمية لإنتاج الأوراق المستمر.",
+              "fr": "Arrosez profondément pour encourager un développement racinaire robuste, essentiel pour une production continue de feuilles."
+            },
+            "EXPERT": {
+              "en": "Optimize watering frequency based on plant response and environmental factors to maximize yield and prevent bolting.",
+              "ur": "پیداوار کو زیادہ سے زیادہ کرنے اور بولٹنگ کو روکنے کے لیے پودے کے ردعمل اور ماحولیاتی عوامل کی بنیاد پر پانی دینے کی فریکوئنسی کو بہتر بنائیں۔",
+              "ar": "حسن تكرار الري بناءً على استجابة النبات والعوامل البيئية لزيادة الغلة ومنع الإزهار المبكر.",
+              "fr": "Optimisez la fréquence d'arrosage en fonction de la réponse de la plante et des facteurs environnementaux pour maximiser le rendement et prévenir la montée en graine."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong root development and initial leaf growth without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر مضبوط جڑوں اور ابتدائی پتوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز نمو الجذور القوية ونمو الأوراق الأولية دون حرق الجذور الصغيرة الحساسة.",
+          "fr": "Favorise un fort développement racinaire et la croissance initiale des feuilles sans brûler les jeunes racines délicates."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست",
+          "fr": "Thé de compost"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "اخلط",
+          "fr": "Mélangez"
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Rich in Nitrogen, encourages lush, green foliage for continuous harvesting.",
+          "ur": "یہ نائٹروجن سے بھرپور ہے، جو مسلسل کٹائی کے لیے سرسبز پتوں کی نشوونما کرتا ہے۔",
+          "ar": "غني بالنيتروجين، يشجع على نمو أوراق خضراء مورقة للحصاد المستمر.",
+          "fr": "Riche en azote, favorise un feuillage luxuriant et vert pour une récolte continue."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-20-20 or 24-8-16)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-20-20)",
+          "ar": "سماد متوازن",
+          "fr": "NPK équilibré"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High nitrogen concentration drives robust leaf production and overall plant health.",
+          "ur": "نائٹروجن پتوں کی بھرپور پیداوار اور پودے کی مجموعی صحت میں مدد کرتا ہے۔",
+          "ar": "تركيز النيتروجين العالي يدفع إنتاج الأوراق القوي والصحة العامة للنبات.",
+          "fr": "Une forte concentration en azote favorise une production foliaire robuste et la santé globale de la plante."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "roses",
+      "benefit": {
+        "en": "Improves the health and fragrance of roses, and can deter rose beetles.",
+        "ur": "گلاب کی صحت اور خوشبو کو بہتر بناتا ہے، اور گلاب کے کیڑوں کو دور رکھ سکتا ہے۔",
+        "ar": "يحسن صحة ورائحة الورود، ويمكن أن يطرد خنافس الورد.",
+        "fr": "Améliore la santé et le parfum des roses, et peut repousser les coléoptères des roses."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "benefit": {
+        "en": "Attracts beneficial insects like hoverflies and predatory wasps, which prey on common garden pests.",
+        "ur": "فائدہ مند کیڑوں جیسے ہوور فلائیز اور شکاری بھڑوں کو اپنی طرف متوجہ کرتا ہے، جو عام باغیچے کے کیڑوں کا شکار کرتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل الذباب الحوام والزنابير المفترسة، التي تتغذى على آفات الحدائق الشائعة.",
+        "fr": "Attire les insectes bénéfiques comme les syrphes et les guêpes prédatrices, qui se nourrissent des parasites courants du jardin."
+      }
+    },
+    {
+      "plantId": "asparagus",
+      "benefit": {
+        "en": "Enhances the vigor of both plants and attracts beneficial insects.",
+        "ur": "دونوں پودوں کی طاقت کو بڑھاتا ہے اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يعزز حيوية كلا النباتين ويجذب الحشرات النافعة.",
+        "fr": "Améliore la vigueur des deux plantes et attire les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Attracts beneficial insects and can improve soil health.",
+        "ur": "فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے اور مٹی کی صحت کو بہتر بنا سکتا ہے۔",
+        "ar": "يجذب الحشرات النافعة ويمكن أن يحسن صحة التربة.",
+        "fr": "Attire les insectes bénéfiques et peut améliorer la santé du sol."
+      }
+    },
+    {
+      "plantId": "chives",
+      "benefit": {
+        "en": "Deters aphids and other common pests with its strong scent.",
+        "ur": "اپنی تیز خوشبو سے افڈس اور دیگر عام کیڑوں کو دور رکھتا ہے۔",
+        "ar": "يطرد حشرات المن والآفات الشائعة الأخرى برائحته القوية.",
+        "fr": "Repousse les pucerons et autres parasites courants grâce à son odeur forte."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "lettuce",
+      "reason": {
+        "en": "Competes for soil nutrients and light, potentially stunting parsley growth.",
+        "ur": "مٹی کے غذائی اجزاء اور روشنی کے لیے مقابلہ کرتا ہے، جس سے اجمودا کی نشوونما رک سکتی ہے۔",
+        "ar": "يتنافس على مغذيات التربة والضوء، مما قد يعيق نمو البقدونس.",
+        "fr": "Rivalise pour les nutriments du sol et la lumière, ce qui peut freiner la croissance du persil."
+      }
+    },
+    {
+      "plantId": "mint",
+      "reason": {
+        "en": "Highly invasive and can quickly outcompete parsley for resources, taking over the growing space.",
+        "ur": "بہت زیادہ حملہ آور ہے اور تیزی سے اجمودا کے وسائل پر قابو پا سکتا ہے، جس سے بڑھنے کی جگہ چھین لیتا ہے۔",
+        "ar": "نبات غازي للغاية ويمكن أن يتفوق بسرعة على البقدونس في الموارد، ويستولي على مساحة النمو.",
+        "fr": "Très envahissante et peut rapidement concurrencer le persil pour les ressources, envahissant l'espace de culture."
+      }
+    },
+    {
+      "plantId": "rue",
+      "reason": {
+        "en": "Can inhibit the growth of parsley and other herbs if planted too close.",
+        "ur": "اگر بہت قریب لگایا جائے تو اجمودا اور دیگر جڑی بوٹیوں کی نشوونما کو روک سکتا ہے۔",
+        "ar": "يمكن أن يثبط نمو البقدونس والأعشاب الأخرى إذا زرع قريبًا جدًا.",
+        "fr": "Peut inhiber la croissance du persil et d'autres herbes si planté trop près."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and causing distorted growth. May secrete sticky honeydew.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور پودے کی نشوونما کو خراب کرتے ہیں۔ چپچپا شہد بھی خارج کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه النمو. قد تفرز ندى عسلي لزج.",
+        "fr": "Petits insectes au corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant une croissance déformée. Peuvent sécréter du miellat collant."
+      }
+    },
+    {
+      "pestId": "carrot_rust_fly",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "moderate to high",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae tunnel into the roots, causing damage and making roots inedible. Parsley is a host plant, especially if grown near carrots.",
+        "ur": "لاروا جڑوں میں سرنگیں بناتا ہے، جس سے نقصان ہوتا ہے اور جڑیں ناقابل استعمال ہو جاتی ہیں۔ اجمودا ایک میزبان پودا ہے، خاص طور پر اگر گاجروں کے قریب اگایا جائے۔",
+        "ar": "تحفر اليرقات أنفاقًا في الجذور، مما يسبب تلفًا ويجعل الجذور غير صالحة للأكل. البقدونس نبات مضيف، خاصة إذا زرع بالقرب من الجزر.",
+        "fr": "Les larves creusent des galeries dans les racines, causant des dommages et rendant les racines immangeables. Le persil est une plante hôte, surtout s'il est cultivé près des carottes."
+      }
+    },
+    {
+      "pestId": "parsleyworm",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "warm, sunny"
+      },
+      "plantSpecificNotes": {
+        "en": "Large, green caterpillars with black and yellow stripes. They feed on parsley leaves, often defoliating plants quickly. Can be hand-picked.",
+        "ur": "بڑے، سبز کیڑے جن پر سیاہ اور پیلی دھاریاں ہوتی ہیں۔ یہ اجمودا کے پتوں کو کھاتے ہیں، اکثر پودوں کو تیزی سے پتے سے محروم کر دیتے ہیں۔ ہاتھ سے چنا جا سکتا ہے۔",
+        "ar": "يرقات خضراء كبيرة ذات خطوط سوداء وصفراء. تتغذى على أوراق البقدونس، وغالبًا ما تجرد النباتات من أوراقها بسرعة. يمكن التقاطها يدويًا.",
+        "fr": "Grosses chenilles vertes avec des rayures noires et jaunes. Elles se nourrissent des feuilles de persil, défoliant souvent rapidement les plantes. Peuvent être ramassées à la main."
+      }
+    },
+    {
+      "pestId": "septoria_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "18-24"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, circular spots with dark borders and light centers appear on leaves, often leading to yellowing and defoliation. Spreads in wet conditions.",
+        "ur": "پتوں پر چھوٹے، گول دھبے جن کے کنارے گہرے اور مرکز ہلکے ہوتے ہیں، ظاہر ہوتے ہیں، جو اکثر پتوں کے پیلے ہونے اور گرنے کا باعث بنتے ہیں۔ گیلی حالت میں پھیلتا ہے۔",
+        "ar": "تظهر بقع دائرية صغيرة ذات حدود داكنة ومراكز فاتحة على الأوراق، مما يؤدي غالبًا إلى اصفرار الأوراق وتساقطها. ينتشر في الظروف الرطبة.",
+        "fr": "De petites taches circulaires avec des bords sombres et des centres clairs apparaissent sur les feuilles, entraînant souvent un jaunissement et une défoliation. Se propage par temps humide."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "high",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches on leaves and stems, hindering photosynthesis and weakening the plant. Often due to poor air circulation.",
+        "ur": "پتوں اور تنوں پر سفید، پاؤڈر جیسے دھبے، جو فوٹو سنتھیسز کو روکتے ہیں اور پودے کو کمزور کرتے ہیں۔ اکثر ہوا کی خراب گردش کی وجہ سے ہوتا ہے۔",
+        "ar": "بقع بيضاء مسحوقية على الأوراق والسيقان، تعيق عملية التمثيل الضوئي وتضعف النبات. غالبًا ما تكون بسبب سوء التهوية.",
+        "fr": "Taches blanches et poudreuses sur les feuilles et les tiges, entravant la photosynthèse et affaiblissant la plante. Souvent dû à une mauvaise circulation de l'air."
+      }
+    },
+    {
+      "pestId": "damping_off",
+      "vulnerableStages": [
+        "SEEDLING"
+      ],
+      "weatherTriggers": {
+        "humidity": "high",
+        "temp": "cool, wet soil"
+      },
+      "plantSpecificNotes": {
+        "en": "Seedlings suddenly wilt and collapse at the soil line, often due to fungal pathogens in overly wet soil. Prevent with good drainage and sterile soil.",
+        "ur": "نئے پودے اچانک مرجھا جاتے ہیں اور مٹی کی سطح پر گر جاتے ہیں، اکثر زیادہ گیلی مٹی میں فنگل پیتھوجینز کی وجہ سے ہوتا ہے۔ اچھے نکاسی آب اور جراثیم سے پاک مٹی سے روکیں۔",
+        "ar": "تذبل الشتلات وتنهار فجأة عند خط التربة، غالبًا بسبب مسببات الأمراض الفطرية في التربة الرطبة جدًا. يمكن الوقاية منه بالصرف الجيد والتربة المعقمة.",
+        "fr": "Les semis se flétrissent et s'effondrent soudainement au niveau du sol, souvent à cause de pathogènes fongiques dans un sol trop humide. Prévenir avec un bon drainage et un sol stérile."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Roots become soft and mushy, leading to wilting and yellowing of foliage. Caused by excessive soil moisture and poor drainage.",
+        "ur": "جڑیں نرم اور گلی ہوئی ہو جاتی ہیں، جس سے پتے مرجھا جاتے ہیں اور پیلے پڑ جاتے ہیں۔ یہ زیادہ مٹی کی نمی اور خراب نکاسی آب کی وجہ سے ہوتا ہے۔",
+        "ar": "تصبح الجذور ناعمة ومتعفنة، مما يؤدي إلى ذبول واصفرار الأوراق. يحدث بسبب الرطوبة الزائدة في التربة وسوء الصرف.",
+        "fr": "Les racines deviennent molles et pâteuses, entraînant le flétrissement et le jaunissement du feuillage. Causé par un excès d'humidité du sol et un mauvais drainage."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">27 or long days"
+      },
+      "plantSpecificNotes": {
+        "en": "Plant prematurely sends up a flower stalk, causing leaves to become bitter and tough. Often triggered by heat stress, inconsistent watering, or long daylight hours.",
+        "ur": "پودا وقت سے پہلے پھولوں کا تنا نکال دیتا ہے، جس سے پتے کڑوے اور سخت ہو جاتے ہیں۔ اکثر گرمی کے دباؤ، بے قاعدہ پانی یا لمبے دن کی روشنی کی وجہ سے ہوتا ہے۔",
+        "ar": "يرسل النبات ساقًا زهرية مبكرًا، مما يجعل الأوراق مرة وقاسية. غالبًا ما يحدث بسبب الإجهاد الحراري، الري غير المنتظم، أو ساعات النهار الطويلة.",
+        "fr": "La plante monte prématurément en graine, ce qui rend les feuilles amères et dures. Souvent déclenché par le stress thermique, un arrosage irrégulier ou de longues heures de lumière du jour."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 70,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 120,
+    "readinessSigns": [
+      {
+        "en": "Outer leaves are at least 6 inches (15 cm) long",
+        "ur": "بیرونی پتے کم از کم 6 انچ (15 سینٹی میٹر) لمبے ہوں",
+        "ar": "الأوراق الخارجية بطول 15 سم على الأقل",
+        "fr": "Les feuilles extérieures mesurent au moins 15 cm de long"
+      },
+      {
+        "en": "Vibrant green color",
+        "ur": "گہرا سبز رنگ",
+        "ar": "لون أخضر زاهي",
+        "fr": "Couleur vert vif"
+      },
+      {
+        "en": "Plant has established a good clump of foliage",
+        "ur": "پودے نے پتوں کا ایک اچھا گچھا بنا لیا ہو",
+        "ar": "النبات قد أسس كتلة جيدة من الأوراق",
+        "fr": "La plante a formé une bonne touffe de feuillage"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Snip outer stems at the base, leaving inner growth to continue producing.",
+        "ur": "بیرونی تنوں کو نیچے سے کاٹ دیں، اندرونی نشوونما کو جاری رہنے دیں۔",
+        "ar": "اقطع السيقان الخارجية من القاعدة، مع ترك النمو الداخلي للاستمرار في الإنتاج.",
+        "fr": "Coupez les tiges extérieures à la base, en laissant la croissance intérieure continuer à produire."
+      },
+      "INTERMEDIATE": {
+        "en": "Cut the oldest, outermost stems close to the ground, ensuring not to remove more than 1/3 of the plant at once to promote continuous growth.",
+        "ur": "سب سے پرانے، بیرونی تنوں کو زمین کے قریب سے کاٹ دیں، اس بات کو یقینی بنائیں کہ ایک وقت میں پودے کا 1/3 سے زیادہ حصہ نہ ہٹائیں تاکہ مسلسل نشوونما کو فروغ ملے۔",
+        "ar": "اقطع السيقان الخارجية الأقدم بالقرب من الأرض، مع التأكد من عدم إزالة أكثر من ثلث النبات في المرة الواحدة لتعزيز النمو المستمر.",
+        "fr": "Coupez les tiges les plus anciennes et les plus extérieures près du sol, en veillant à ne pas retirer plus d'un tiers de la plante à la fois pour favoriser une croissance continue."
+      },
+      "EXPERT": {
+        "en": "Harvest continuously by cutting outer stems to encourage new growth from the center, preventing bolting for longer production. Harvest before flowering for best flavor.",
+        "ur": "مسلسل کٹائی کریں بیرونی تنوں کو کاٹ کر تاکہ مرکز سے نئی نشوونما کی حوصلہ افزائی ہو، پھول آنے سے روکیں تاکہ زیادہ دیر تک پیداوار ہو۔ بہترین ذائقے کے لیے پھول آنے سے پہلے کٹائی کریں۔",
+        "ar": "احصد باستمرار عن طريق قطع السيقان الخارجية لتشجيع النمو الجديد من المركز، ومنع الإزهار لإنتاج أطول. احصد قبل الإزهار للحصول على أفضل نكهة.",
+        "fr": "Récoltez continuellement en coupant les tiges extérieures pour encourager la nouvelle croissance du centre, évitant la montée en graine pour une production plus longue. Récoltez avant la floraison pour une meilleure saveur."
+      }
+    },
+    "storage": {
+      "en": "Place stems in a glass of water in the refrigerator, covered loosely with a plastic bag. Can also be dried or frozen.",
+      "ur": "تنوں کو پانی کے گلاس میں فریج میں رکھیں، پلاسٹک بیگ سے ڈھانپ دیں۔ خشک یا منجمد بھی کیا جا سکتا ہے۔",
+      "ar": "ضع السيقان في كوب ماء في الثلاجة، مغطاة بشكل فضفاض بكيس بلاستيكي. يمكن أيضًا تجفيفها أو تجميدها.",
+      "fr": "Placez les tiges dans un verre d'eau au réfrigérateur, couvertes lâchement d'un sac plastique. Peut aussi être séché ou congelé."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.2,
+      "20L": 0.4,
+      "30L": 0.6,
+      "GROUND": 1
+    }
+  }
+}
