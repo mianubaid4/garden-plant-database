@@ -1,0 +1,1260 @@
+{
+  "id": "taro",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627993072044-672124502f0b?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Taro",
+      "alternate": [
+        "Dasheen",
+        "Eddo",
+        "Kalo"
+      ]
+    },
+    "ur": {
+      "common": "اروی",
+      "alternate": [
+        "کچالو"
+      ]
+    },
+    "ar": {
+      "common": "قلقاس",
+      "alternate": [
+        "أروي"
+      ]
+    },
+    "fr": {
+      "common": "Taro",
+      "alternate": [
+        "Colocase"
+      ]
+    },
+    "botanical": "Colocasia esculenta",
+    "aliases": [
+      "dasheen",
+      "eddo",
+      "kalo",
+      "arvi",
+      "colocasia"
+    ]
+  },
+  "category": "root_vegetable",
+  "subcategory": "starchy",
+  "germinationDays": 14,
+  "weatherRules": {
+    "highRiskFungalHumidity": 85,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 20,
+    "rainSkipWateringMm": 15
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "STANDARD"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "STANDARD": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Grows as a large herbaceous plant, producing a central corm and smaller cormels. Pruning is generally not required, except for removing old leaves.",
+          "ur": "ایک بڑا جڑی بوٹی والا پودا ہے، جو ایک مرکزی کٹ اور چھوٹے کٹ پیدا کرتا ہے۔ عام طور پر کٹائی کی ضرورت نہیں ہوتی، سوائے پرانے پتوں کو ہٹانے کے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "tropical",
+    "root-crop",
+    "starchy",
+    "wet-tolerant",
+    "shade-tolerant",
+    "edible-leaves"
+  ],
+  "temperature": {
+    "optimalMinC": 22,
+    "optimalMaxC": 30,
+    "survivalMinC": 10,
+    "survivalMaxC": 40,
+    "germinationMinC": 20,
+    "germinationOptimalC": 28,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 18
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 240,
+    "requiredGDD": 1680,
+    "baseTempC": 18,
+    "plantingConditions": {
+      "soilTempMinC": 20,
+      "airTempMinC": 20
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 38,
+      "coldStressCriticalC": 15,
+      "frostWarningC": 5,
+      "heavyRainMm": 30,
+      "highWindKmh": 35,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 4,
+    "sunHoursOptimal": 6,
+    "sunHoursMax": 8
+  },
+  "water": {
+    "baseMlPer10L": 1200,
+    "intervalDaysBase": 1,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 2,
+    "drainageSensitivity": "low",
+    "wateringNature": "Consistent and Abundant",
+    "soilMoisturePreference": "Keep soil consistently moist to wet, can tolerate soggy conditions",
+    "overwateringSensitivity": "low",
+    "underwateringSensitivity": "High",
+    "rootRotRisk": "Low if water is moving, higher in stagnant conditions",
+    "standingWaterTolerance": true,
+    "preferredMoistureRange": {
+      "min": 70,
+      "max": 90
+    },
+    "drynessThreshold": {
+      "warning": 50,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "yellowing leaves"
+    ],
+    "overwateringSymptoms": [
+      "stagnant water smell",
+      "some leaf yellowing (less common than underwatering)"
+    ],
+    "preferredWateringMethod": "Consistent irrigation",
+    "thingsToAvoid": [
+      "drying out completely"
+    ],
+    "bestWateringTime": "Any time, but consistent is key"
+  },
+  "rootBehavior": {
+    "depth": "shallow to medium",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "low"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 25,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Ensure large pots for corm development and consistent moisture.",
+        "ur": "کٹ کی نشوونما اور مستقل نمی کے لیے بڑے گملے یقینی بنائیں۔",
+        "ar": "تأكد من استخدام أواني كبيرة لتطور الدرنات والرطوبة المستمرة.",
+        "fr": "Utilisez de grands pots pour le développement des cormes et une humidité constante."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 25,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric bags promote good aeration while allowing for consistent moisture.",
+        "ur": "کپڑے کے تھیلے اچھی ہوا کی گردش کو فروغ دیتے ہیں جبکہ مستقل نمی کی اجازت دیتے ہیں۔",
+        "ar": "الأكياس القماشية تعزز التهوية الجيدة مع السماح بالرطوبة المستمرة.",
+        "fr": "Les sacs en tissu favorisent une bonne aération tout en permettant une humidité constante."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 45,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Ideal for taro, especially in consistently moist or wet areas.",
+        "ur": "اروی کے لیے مثالی، خاص طور پر مستقل نم یا گیلے علاقوں میں۔",
+        "ar": "مثالي للقلقاس، خاصة في المناطق الرطبة أو المبللة باستمرار.",
+        "fr": "Idéal pour le taro, surtout dans les zones constamment humides ou mouillées."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 40,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.1,
+      "notes": {
+        "en": "Can work well if consistent moisture is maintained; good for controlling soil conditions.",
+        "ur": "اگر مستقل نمی برقرار رکھی جائے تو اچھی طرح کام کر سکتا ہے؛ مٹی کی حالتوں کو کنٹرول کرنے کے لیے اچھا ہے۔",
+        "ar": "يمكن أن يعمل بشكل جيد إذا تم الحفاظ على الرطوبة المستمرة؛ جيد للتحكم في ظروف التربة.",
+        "fr": "Peut bien fonctionner si une humidité constante est maintenue; bon pour contrôler les conditions du sol."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "6-10 months (from corm)",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Planting taro corms or cormels",
+        "ur": "تارو کے گٹھے یا چھوٹے گٹھے لگانا",
+        "ar": "زراعة درنات القلقاس أو الدرنات الصغيرة",
+        "fr": "Plantation des cormes ou cormels de taro"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Choose healthy, disease-free corms or cormels for planting.",
+          "ur": "صحت مند، بیماری سے پاک گٹھے یا چھوٹے گٹھے منتخب کریں",
+          "ar": "اختر درنات أو درنات صغيرة صحية وخالية من الأمراض للزراعة",
+          "fr": "Choisissez des cormes ou cormels sains et sans maladie pour la plantation"
+        },
+        {
+          "en": "If using large corms, cut them into pieces, ensuring each piece has at least one 'eye' or growing point.",
+          "ur": "اگر بڑے گٹھے استعمال کر رہے ہیں، تو انہیں ٹکڑوں میں کاٹ لیں، اس بات کو یقینی بنائیں کہ ہر ٹکڑے میں کم از کم ایک 'آنکھ' یا بڑھنے کا نقطہ ہو",
+          "ar": "إذا كنت تستخدم درنات كبيرة، قم بتقطيعها إلى قطع، مع التأكد من أن كل قطعة تحتوي على 'عين' واحدة على الأقل أو نقطة نمو",
+          "fr": "Si vous utilisez de gros cormes, coupez-les en morceaux, en vous assurant que chaque morceau a au moins un 'œil' ou point de croissance"
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare rich, moist soil. Taro prefers slightly acidic to neutral pH.",
+              "ur": "زرخیز، نم مٹی تیار کریں۔ تارو ہلکی تیزابی سے غیر جانبدار پی ایچ کو ترجیح دیتا ہے",
+              "ar": "جهز تربة غنية ورطبة. يفضل القلقاس درجة حموضة تتراوح من حمضية قليلاً إلى متعادلة",
+              "fr": "Préparez un sol riche et humide. Le taro préfère un pH légèrement acide à neutre"
+            },
+            "INTERMEDIATE": {
+              "en": "Incorporate plenty of organic matter like compost or well-rotted manure.",
+              "ur": "نامیاتی مادے جیسے کھاد یا اچھی طرح گلی ہوئی گوبر کی کھاد شامل کریں",
+              "ar": "أضف الكثير من المواد العضوية مثل السماد العضوي أو السماد المتحلل جيدًا",
+              "fr": "Incorporez beaucoup de matière organique comme du compost ou du fumier bien décomposé"
+            },
+            "EXPERT": {
+              "en": "Ensure good drainage while maintaining high moisture retention. Consider raised beds for heavy clay soils.",
+              "ur": "زیادہ نمی برقرار رکھتے ہوئے اچھی نکاسی کو یقینی بنائیں۔ بھاری چکنی مٹی کے لیے اونچی کیاریاں بنائیں۔",
+              "ar": "تأكد من الصرف الجيد مع الحفاظ على احتفاظ عالٍ بالرطوبة. فكر في الأسرة المرتفعة للتربة الطينية الثقيلة",
+              "fr": "Assurez un bon drainage tout en maintenant une forte rétention d'humidité. Envisagez des plates-bandes surélevées pour les sols argileux lourds"
+            }
+          }
+        },
+        "plantingCorms": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant corms 2-4 inches deep, 1-3 feet apart.",
+              "ur": "گٹھے 2-4 انچ گہرے، 1-3 فٹ کے فاصلے پر لگائیں",
+              "ar": "ازرع الدرنات بعمق 2-4 بوصات، وبفارق 1-3 أقدام",
+              "fr": "Plantez les cormes à 2-4 pouces de profondeur, espacés de 1-3 pieds"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure the 'eye' or growing point faces upwards. Cover with soil and water thoroughly.",
+              "ur": "یقینی بنائیں کہ 'آنکھ' یا بڑھنے کا نقطہ اوپر کی طرف ہو۔ مٹی سے ڈھانپ کر اچھی طرح پانی دیں",
+              "ar": "تأكد من أن 'العين' أو نقطة النمو تتجه للأعلى. غطِ بالتربة واسقِ جيدًا",
+              "fr": "Assurez-vous que l'«œil» ou le point de croissance est orienté vers le haut. Couvrez de terre et arrosez abondamment"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, especially after planting.",
+              "ur": "مٹی کو مسلسل نم رکھیں، خاص طور پر لگانے کے بعد",
+              "ar": "حافظ على رطوبة التربة باستمرار، خاصة بعد الزراعة",
+              "fr": "Maintenez le sol constamment humide, surtout après la plantation"
+            },
+            "INTERMEDIATE": {
+              "en": "Do not let the soil dry out. Taro thrives in wet conditions.",
+              "ur": "مٹی کو خشک نہ ہونے دیں۔ تارو نم حالات میں اچھی طرح بڑھتا ہے",
+              "ar": "لا تدع التربة تجف. يزدهر القلقاس في الظروف الرطبة",
+              "fr": "Ne laissez pas le sol sécher. Le taro prospère dans des conditions humides"
+            },
+            "EXPERT": {
+              "en": "Maintain saturated soil conditions if growing wetland varieties. For upland, ensure consistent, deep watering.",
+              "ur": "اگر گیلی زمین کی اقسام اگا رہے ہیں تو مٹی کو سیر شدہ حالت میں رکھیں۔ خشک زمین کے لیے، مسلسل، گہرا پانی دینا یقینی بنائیں",
+              "ar": "حافظ على ظروف التربة المشبعة إذا كنت تزرع أصناف الأراضي الرطبة. بالنسبة للأراضي المرتفعة، تأكد من الري العميق والمستمر",
+              "fr": "Maintenez des conditions de sol saturées si vous cultivez des variétés de zones humides. Pour les zones sèches, assurez un arrosage profond et constant"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Corms sprout and first leaves emerge",
+        "ur": "گٹھے پھوٹتے ہیں اور پہلے پتے نکلتے ہیں",
+        "ar": "تتبرعم الدرنات وتظهر الأوراق الأولى",
+        "fr": "Les cormes germent et les premières feuilles émergent"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Ensure consistent warmth and moisture for optimal sprouting.",
+          "ur": "بہترین پھوٹنے کے لیے مسلسل گرمی اور نمی کو یقینی بنائیں",
+          "ar": "تأكد من الدفء والرطوبة المستمرين لإنبات مثالي",
+          "fr": "Assurez une chaleur et une humidité constantes pour une germination optimale"
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 600,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep the soil consistently moist.",
+              "ur": "مٹی کو مسلسل نم رکھیں",
+              "ar": "حافظ على رطوبة التربة باستمرار",
+              "fr": "Maintenez le sol constamment humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid letting the soil dry out between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کو خشک نہ ہونے دیں",
+              "ar": "تجنب جفاف التربة بين الريات",
+              "fr": "Évitez de laisser le sol sécher entre les arrosages"
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture daily, aiming for saturated conditions for wetland varieties.",
+              "ur": "روزانہ مٹی کی نمی کی نگرانی کریں، گیلی زمین کی اقسام کے لیے سیر شدہ حالات کا ہدف رکھیں",
+              "ar": "راقب رطوبة التربة يوميًا، مستهدفًا ظروف التربة المشبعة لأصناف الأراضي الرطبة",
+              "fr": "Surveillez l'humidité du sol quotidiennement, en visant des conditions saturées pour les variétés de zones humides"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Young plants establish and develop more leaves",
+        "ur": "نئے پودے قائم ہوتے ہیں اور مزید پتے بناتے ہیں",
+        "ar": "تستقر النباتات الصغيرة وتنمو المزيد من الأوراق",
+        "fr": "Les jeunes plants s'établissent et développent plus de feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Ensure adequate light exposure for strong leaf development.",
+          "ur": "پتوں کی مضبوط نشوونما کے لیے مناسب روشنی کو یقینی بنائیں",
+          "ar": "تأكد من التعرض الكافي للضوء لتنمية أوراق قوية",
+          "fr": "Assurez une exposition adéquate à la lumière pour un développement foliaire robuste"
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply to keep the soil consistently wet.",
+              "ur": "مٹی کو مسلسل گیلا رکھنے کے لیے گہرا پانی دیں",
+              "ar": "اسقِ بعمق للحفاظ على رطوبة التربة باستمرار",
+              "fr": "Arrosez profondément pour maintenir le sol constamment humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain high soil moisture, especially as plants grow larger.",
+              "ur": "مٹی کی نمی کو زیادہ رکھیں، خاص طور پر جب پودے بڑے ہو جائیں",
+              "ar": "حافظ على رطوبة التربة عالية، خاصة مع نمو النباتات",
+              "fr": "Maintenez une humidité élevée du sol, surtout à mesure que les plantes grandissent"
+            },
+            "EXPERT": {
+              "en": "Consider drip irrigation or a flooded system for wetland taro to ensure constant water availability.",
+              "ur": "گیلی زمین کے تارو کے لیے ڈرپ اریگیشن یا سیلاب کا نظام استعمال کریں تاکہ پانی کی مسلسل دستیابی یقینی ہو",
+              "ar": "فكر في الري بالتنقيط أو نظام الغمر للقلقاس المائي لضمان توفر الماء باستمرار",
+              "fr": "Envisagez l'irrigation goutte à goutte ou un système inondé pour le taro de zone humide afin d'assurer une disponibilité constante de l'eau"
+            }
+          }
+        },
+        "fertilizing": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer every 2-3 weeks.",
+              "ur": "ہر 2-3 ہفتوں میں متوازن مائع کھاد استعمال کریں",
+              "ar": "استخدم سمادًا سائلًا متوازنًا كل 2-3 أسابيع",
+              "fr": "Appliquez un engrais liquide équilibré toutes les 2-3 semaines"
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fertilizer high in nitrogen to promote lush leaf growth.",
+              "ur": "پتوں کی بھرپور نشوونما کے لیے نائٹروجن سے بھرپور کھاد استعمال کریں",
+              "ar": "استخدم سمادًا غنيًا بالنيتروجين لتعزيز نمو الأوراق الكثيف",
+              "fr": "Utilisez un engrais riche en azote pour favoriser une croissance foliaire luxuriante"
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to determine specific nutrient deficiencies and apply amendments accordingly.",
+              "ur": "مٹی کی جانچ کریں تاکہ مخصوص غذائی اجزاء کی کمی کا تعین کیا جا سکے اور اس کے مطابق ترمیم کریں",
+              "ar": "قم بإجراء اختبار للتربة لتحديد نقص المغذيات المحددة وتطبيق التعديلات وفقًا لذلك",
+              "fr": "Effectuez une analyse de sol pour déterminer les carences spécifiques en nutriments et appliquez les amendements en conséquence"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 110,
+      "description": {
+        "en": "Rapid growth of leaves and development of corms",
+        "ur": "پتوں کی تیزی سے نشوونما اور گٹھوں کی تشکیل",
+        "ar": "نمو سريع للأوراق وتطور الدرنات",
+        "fr": "Croissance rapide des feuilles et développement des cormes"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Taro is a heavy feeder; consistent fertilization is key for large corms.",
+          "ur": "تارو کو زیادہ خوراک کی ضرورت ہوتی ہے؛ بڑے گٹھوں کے لیے مسلسل کھاد دینا ضروری ہے",
+          "ar": "القلقاس نبات يستهلك الكثير من المغذيات؛ التسميد المستمر هو المفتاح للحصول على درنات كبيرة",
+          "fr": "Le taro est un gros consommateur de nutriments ; une fertilisation constante est essentielle pour de gros cormes"
+        },
+        {
+          "en": "Maintain high humidity around the plants if possible.",
+          "ur": "اگر ممکن ہو تو پودوں کے ارد گرد زیادہ نمی برقرار رکھیں",
+          "ar": "حافظ على رطوبة عالية حول النباتات إن أمكن",
+          "fr": "Maintenez une humidité élevée autour des plantes si possible"
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Ensure the soil remains constantly wet, almost waterlogged for wetland varieties.",
+              "ur": "یقینی بنائیں کہ مٹی مسلسل گیلی رہے، گیلی زمین کی اقسام کے لیے تقریباً پانی سے بھری ہوئی ہو",
+              "ar": "تأكد من بقاء التربة رطبة باستمرار، وشبه مشبعة بالماء لأصناف الأراضي الرطبة",
+              "fr": "Assurez-vous que le sol reste constamment humide, presque gorgé d'eau pour les variétés de zones humides"
+            },
+            "INTERMEDIATE": {
+              "en": "Deep water frequently, especially during dry spells, to support vigorous growth.",
+              "ur": "خشک موسم میں خاص طور پر، زوردار نشوونما کو سہارا دینے کے لیے کثرت سے گہرا پانی دیں",
+              "ar": "اسقِ بعمق وبشكل متكرر، خاصة خلال فترات الجفاف، لدعم النمو القوي",
+              "fr": "Arrosez profondément et fréquemment, surtout pendant les périodes sèches, pour soutenir une croissance vigoureuse"
+            },
+            "EXPERT": {
+              "en": "Implement a consistent irrigation schedule to prevent stress, which can reduce corm yield.",
+              "ur": "تناؤ کو روکنے کے لیے ایک مستقل آبپاشی کا شیڈول نافذ کریں، جو گٹھوں کی پیداوار کو کم کر سکتا ہے",
+              "ar": "طبق جدول ري ثابت لمنع الإجهاد، الذي يمكن أن يقلل من محصول الدرنات",
+              "fr": "Mettez en œuvre un programme d'irrigation cohérent pour prévenir le stress, qui peut réduire le rendement des cormes"
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced granular fertilizer around the base of the plants.",
+              "ur": "پودوں کی بنیاد کے ارد گرد متوازن دانے دار کھاد استعمال کریں",
+              "ar": "ضع سمادًا حبيبيًا متوازنًا حول قاعدة النباتات",
+              "fr": "Appliquez un engrais granulaire équilibré autour de la base des plantes"
+            },
+            "INTERMEDIATE": {
+              "en": "Switch to a fertilizer higher in potassium and phosphorus to encourage corm development.",
+              "ur": "گٹھوں کی نشوونما کو فروغ دینے کے لیے پوٹاشیم اور فاسفورس سے بھرپور کھاد استعمال کریں",
+              "ar": "انتقل إلى سماد أعلى في البوتاسيوم والفوسفور لتشجيع نمو الدرنات",
+              "fr": "Passez à un engrais plus riche en potassium et en phosphore pour encourager le développement des cormes"
+            },
+            "EXPERT": {
+              "en": "Foliar feed with micronutrients if signs of deficiency appear, alongside regular soil amendments.",
+              "ur": "اگر کمی کی علامات ظاہر ہوں تو مائیکرو نیوٹرینٹس کے ساتھ پتوں پر کھاد دیں، باقاعدہ مٹی کی ترمیم کے ساتھ",
+              "ar": "قم بالتغذية الورقية بالمغذيات الدقيقة إذا ظهرت علامات نقص، بالإضافة إلى التعديلات المنتظمة للتربة",
+              "fr": "Effectuez une fertilisation foliaire avec des micronutriments si des signes de carence apparaissent, en plus des amendements réguliers du sol"
+            }
+          }
+        },
+        "hilling": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mound soil around the base of the plants as they grow.",
+              "ur": "پودوں کے بڑھنے کے ساتھ ان کی بنیاد کے ارد گرد مٹی کا ڈھیر لگائیں",
+              "ar": "كوم التربة حول قاعدة النباتات مع نموها",
+              "fr": "Buttez la terre autour de la base des plantes à mesure qu'elles grandissent"
+            },
+            "INTERMEDIATE": {
+              "en": "Hill soil up to the base of the leaves to encourage larger corm development and protect cormels.",
+              "ur": "پتوں کی بنیاد تک مٹی کا ڈھیر لگائیں تاکہ بڑے گٹھوں کی نشوونما کو فروغ ملے اور چھوٹے گٹھوں کی حفاظت ہو",
+              "ar": "كوم التربة حتى قاعدة الأوراق لتشجيع نمو درنات أكبر وحماية الدرنات الصغيرة",
+              "fr": "Buttez la terre jusqu'à la base des feuilles pour encourager le développement de cormes plus gros et protéger les cormels"
+            },
+            "EXPERT": {
+              "en": "Repeat hilling every 4-6 weeks during the vegetative stage to maximize corm and cormel production.",
+              "ur": "گٹھوں اور چھوٹے گٹھوں کی پیداوار کو زیادہ سے زیادہ کرنے کے لیے سبزیوں کے مرحلے کے دوران ہر 4-6 ہفتوں میں ہِلنگ دہرائیں",
+              "ar": "كرر عملية التكويم كل 4-6 أسابيع خلال المرحلة الخضرية لزيادة إنتاج الدرنات والدرنات الصغيرة",
+              "fr": "Répétez le buttage toutes les 4 à 6 semaines pendant la phase végétative pour maximiser la production de cormes et de cormels"
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect leaves for common pests like aphids or spider mites. Spray with insecticidal soap if found.",
+              "ur": "پتوں کو عام کیڑوں جیسے ایفڈز یا مکڑی کے کیڑوں کے لیے چیک کریں۔ اگر پائے جائیں تو کیڑے مار صابن سے سپرے کریں",
+              "ar": "افحص الأوراق بحثًا عن الآفات الشائعة مثل المن أو سوس العنكبوت. رش بالصابون المبيد للحشرات إذا وجدت",
+              "fr": "Inspectez les feuilles pour les ravageurs courants comme les pucerons ou les tétranyques. Pulvérisez avec du savon insecticide si trouvé"
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly check for signs of taro leaf blight and other fungal diseases, ensuring good air circulation.",
+              "ur": "تارو کے پتوں کی جھلساؤ اور دیگر فنگل بیماریوں کی علامات کے لیے باقاعدگی سے چیک کریں، اچھی ہوا کی گردش کو یقینی بنائیں",
+              "ar": "تحقق بانتظام من علامات لفحة أوراق القلقاس والأمراض الفطرية الأخرى، مع ضمان تهوية جيدة",
+              "fr": "Vérifiez régulièrement les signes de la brûlure des feuilles de taro et d'autres maladies fongiques, en assurant une bonne circulation de l'air"
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, including cultural practices and biological controls.",
+              "ur": "ثقافتی طریقوں اور حیاتیاتی کنٹرول سمیت ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں",
+              "ar": "طبق استراتيجية متكاملة لإدارة الآفات (IPM)، بما في ذلك الممارسات الثقافية والمكافحة البيولوجية",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM), y compris les pratiques culturales et les contrôles biologiques"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 20,
+      "durationDaysWarm": 15,
+      "durationDaysCool": 25,
+      "description": {
+        "en": "Taro may produce spathe and spadix flowers, but this is not the primary focus for corm production.",
+        "ur": "تارو سپیتھ اور سپاڈکس پھول پیدا کر سکتا ہے، لیکن یہ گٹھوں کی پیداوار کا بنیادی مقصد نہیں ہے",
+        "ar": "قد ينتج القلقاس أزهارًا من نوع السباتة والسبادكس، ولكن هذا ليس التركيز الأساسي لإنتاج الدرنات",
+        "fr": "Le taro peut produire des fleurs en spathe et spadice, mais ce n'est pas l'objectif principal pour la production de cormes"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "Flowering indicates plant maturity but does not directly impact corm quality.",
+          "ur": "پھول آنا پودے کی پختگی کی نشاندہی کرتا ہے لیکن گٹھوں کے معیار پر براہ راست اثر نہیں ڈالتا",
+          "ar": "يشير الإزهار إلى نضج النبات ولكنه لا يؤثر بشكل مباشر على جودة الدرنات",
+          "fr": "La floraison indique la maturité de la plante mais n'a pas d'impact direct sur la qualité des cormes"
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent high moisture levels.",
+              "ur": "مسلسل اعلیٰ نمی کی سطح برقرار رکھیں",
+              "ar": "حافظ على مستويات رطوبة عالية وثابتة",
+              "fr": "Maintenez des niveaux d'humidité élevés et constants"
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid any water stress, which can negatively impact corm development.",
+              "ur": "پانی کے کسی بھی دباؤ سے بچیں، جو گٹھوں کی نشوونما پر منفی اثر ڈال سکتا ہے",
+              "ar": "تجنب أي إجهاد مائي، والذي يمكن أن يؤثر سلبًا على نمو الدرنات",
+              "fr": "Évitez tout stress hydrique, qui peut avoir un impact négatif sur le développement des cormes"
+            },
+            "EXPERT": {
+              "en": "Ensure continuous water supply, especially critical for wetland taro.",
+              "ur": "پانی کی مسلسل فراہمی کو یقینی بنائیں، خاص طور پر گیلی زمین کے تارو کے لیے اہم ہے",
+              "ar": "تأكد من توفير الماء المستمر، وهو أمر بالغ الأهمية للقلقاس المائي",
+              "fr": "Assurez un approvisionnement continu en eau, particulièrement critique pour le taro de zone humide"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 50,
+      "durationDaysCool": 70,
+      "description": {
+        "en": "Corms continue to swell and mature underground",
+        "ur": "گٹھے زمین کے اندر پھولتے اور پکتے رہتے ہیں",
+        "ar": "تستمر الدرنات في الانتفاخ والنضوج تحت الأرض",
+        "fr": "Les cormes continuent de gonfler et de mûrir sous terre"
+      },
+      "emoji": "🥔",
+      "tips": [
+        {
+          "en": "The leaves may start to yellow and die back as the corms mature.",
+          "ur": "گٹھے پکنے کے ساتھ پتے پیلے ہو کر مرنا شروع ہو سکتے ہیں",
+          "ar": "قد تبدأ الأوراق في الاصفرار والموت مع نضوج الدرنات",
+          "fr": "Les feuilles peuvent commencer à jaunir et à mourir à mesure que les cormes mûrissent"
+        },
+        {
+          "en": "Reduce nitrogen fertilization during this stage and focus on potassium.",
+          "ur": "اس مرحلے میں نائٹروجن کھاد کم کریں اور پوٹاشیم پر توجہ دیں",
+          "ar": "قلل من تسميد النيتروجين خلال هذه المرحلة وركز على البوتاسيوم",
+          "fr": "Réduisez la fertilisation azotée pendant cette étape et concentrez-vous sur le potassium"
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent moisture, but avoid waterlogging just before harvest.",
+              "ur": "مسلسل نمی برقرار رکھیں، لیکن کٹائی سے پہلے پانی جمع ہونے سے بچیں",
+              "ar": "حافظ على رطوبة ثابتة، ولكن تجنب تشبع التربة بالماء قبل الحصاد مباشرة",
+              "fr": "Maintenez une humidité constante, mais évitez l'engorgement juste avant la récolte"
+            },
+            "INTERMEDIATE": {
+              "en": "Slightly reduce watering frequency in the last few weeks before harvest to encourage corm hardening.",
+              "ur": "کٹائی سے پہلے آخری چند ہفتوں میں پانی دینے کی فریکوئنسی کو تھوڑا کم کریں تاکہ گٹھوں کو سخت ہونے میں مدد ملے",
+              "ar": "قلل قليلاً من تكرار الري في الأسابيع القليلة الأخيرة قبل الحصاد لتشجيع تصلب الدرنات",
+              "fr": "Réduisez légèrement la fréquence d'arrosage au cours des dernières semaines avant la récolte pour favoriser le durcissement des cormes"
+            },
+            "EXPERT": {
+              "en": "Carefully manage soil moisture to prevent cracking of corms, especially in upland varieties.",
+              "ur": "گٹھوں کے پھٹنے سے بچنے کے لیے مٹی کی نمی کو احتیاط سے منظم کریں، خاص طور پر خشک زمین کی اقسام میں",
+              "ar": "إدارة رطوبة التربة بعناية لمنع تشقق الدرنات، خاصة في أصناف الأراضي المرتفعة",
+              "fr": "Gérez attentivement l'humidité du sol pour éviter la fissuration des cormes, en particulier chez les variétés de terres hautes"
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a fertilizer with higher potassium to support corm development.",
+              "ur": "گٹھوں کی نشوونما کو سہارا دینے کے لیے زیادہ پوٹاشیم والی کھاد استعمال کریں",
+              "ar": "استخدم سمادًا يحتوي على نسبة أعلى من البوتاسيوم لدعم نمو الدرنات",
+              "fr": "Appliquez un engrais plus riche en potassium pour soutenir le développement des cormes"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure adequate potassium and phosphorus for optimal corm size and quality.",
+              "ur": "گٹھوں کے بہترین سائز اور معیار کے لیے مناسب پوٹاشیم اور فاسفورس کو یقینی بنائیں",
+              "ar": "تأكد من توفر البوتاسيوم والفوسفور الكافيين للحصول على حجم وجودة درنات مثالية",
+              "fr": "Assurez un apport suffisant en potassium et en phosphore pour une taille et une qualité optimales des cormes"
+            },
+            "EXPERT": {
+              "en": "Monitor nutrient levels and adjust feeding to prevent over-fertilization, which can lead to excessive leaf growth at the expense of corms.",
+              "ur": "غذائی اجزاء کی سطح کی نگرانی کریں اور زیادہ کھاد ڈالنے سے بچنے کے لیے خوراک کو ایڈجسٹ کریں، جو گٹھوں کی قیمت پر پتوں کی ضرورت سے زیادہ نشوونما کا باعث بن سکتا ہے",
+              "ar": "راقب مستويات المغذيات واضبط التسميد لمنع الإفراط في التسميد، والذي يمكن أن يؤدي إلى نمو أوراق مفرط على حساب الدرنات",
+              "fr": "Surveillez les niveaux de nutriments et ajustez l'alimentation pour éviter la surfertilisation, qui peut entraîner une croissance foliaire excessive au détriment des cormes"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Corms are ready for harvest when leaves start to yellow and die back.",
+        "ur": "جب پتے پیلے ہو کر مرنا شروع ہو جائیں تو گٹھے کٹائی کے لیے تیار ہوتے ہیں",
+        "ar": "تكون الدرنات جاهزة للحصاد عندما تبدأ الأوراق في الاصفرار والموت",
+        "fr": "Les cormes sont prêts à être récoltés lorsque les feuilles commencent à jaunir et à mourir"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest before the first frost in cooler climates.",
+          "ur": "سرد آب و ہوا میں پہلی ٹھنڈ سے پہلے کٹائی کریں",
+          "ar": "احصد قبل الصقيع الأول في المناخات الباردة",
+          "fr": "Récoltez avant le premier gel dans les climats plus frais"
+        },
+        {
+          "en": "Taro can be left in the ground for extended periods in warm climates, harvesting as needed.",
+          "ur": "گرم آب و ہوا میں تارو کو ضرورت کے مطابق کٹائی کرتے ہوئے طویل عرصے تک زمین میں چھوڑا جا سکتا ہے",
+          "ar": "يمكن ترك القلقاس في الأرض لفترات طويلة في المناخات الدافئة، وحصاده حسب الحاجة",
+          "fr": "Le taro peut être laissé en terre pendant de longues périodes dans les climats chauds, récolté au besoin"
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully dig around the base of the plant with a spade or fork to loosen the soil, then gently lift the corms.",
+              "ur": "پودے کی بنیاد کے ارد گرد بیلچے یا کانٹے سے احتیاط سے کھودیں تاکہ مٹی ڈھیلی ہو جائے، پھر آہستہ سے گٹھوں کو اٹھائیں",
+              "ar": "احفر بعناية حول قاعدة النبات باستخدام مجرفة أو شوكة لتفكيك التربة، ثم ارفع الدرنات برفق",
+              "fr": "Creusez délicatement autour de la base de la plante avec une bêche ou une fourche pour ameublir le sol, puis soulevez délicatement les cormes"
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid damaging the corms during harvest, as cuts can lead to rot during storage.",
+              "ur": "کٹائی کے دوران گٹھوں کو نقصان پہنچانے سے گریز کریں، کیونکہ کٹاؤ ذخیرہ کے دوران سڑنے کا باعث بن سکتا ہے",
+              "ar": "تجنب إتلاف الدرنات أثناء الحصاد، حيث يمكن أن تؤدي الجروح إلى التعفن أثناء التخزين",
+              "fr": "Évitez d'endommager les cormes pendant la récolte, car les coupures peuvent entraîner la pourriture pendant le stockage"
+            },
+            "EXPERT": {
+              "en": "Separate the main corm from the cormels. The cormels can be replanted for the next season.",
+              "ur": "بڑے گٹھے کو چھوٹے گٹھوں سے الگ کریں۔ چھوٹے گٹھوں کو اگلے موسم کے لیے دوبارہ لگایا جا سکتا ہے",
+              "ar": "افصل الدرنة الرئيسية عن الدرنات الصغيرة. يمكن إعادة زراعة الدرنات الصغيرة للموسم التالي",
+              "fr": "Séparez le corme principal des cormels. Les cormels peuvent être replantés pour la saison suivante"
+            }
+          }
+        },
+        "curing": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Brush off excess soil and allow corms to air dry in a shaded, well-ventilated area for a few days.",
+              "ur": "اضافی مٹی صاف کریں اور گٹھوں کو چند دنوں کے لیے سایہ دار، اچھی ہوادار جگہ پر خشک ہونے دیں",
+              "ar": "نظف التربة الزائدة واترك الدرنات تجف في الهواء في منطقة مظللة وجيدة التهوية لبضعة أيام",
+              "fr": "Brossez l'excès de terre et laissez les cormes sécher à l'air libre dans un endroit ombragé et bien ventilé pendant quelques jours"
+            },
+            "INTERMEDIATE": {
+              "en": "Cure corms for 1-2 weeks at 75-85°F (24-29°C) with high humidity to heal any wounds and improve storage life.",
+              "ur": "گٹھوں کو 1-2 ہفتوں تک 75-85°F (24-29°C) پر زیادہ نمی کے ساتھ علاج کریں تاکہ زخم بھر جائیں اور ذخیرہ کی مدت بہتر ہو",
+              "ar": "عالج الدرنات لمدة 1-2 أسبوع عند 75-85 درجة فهرنهايت (24-29 درجة مئوية) مع رطوبة عالية لشفاء أي جروح وتحسين مدة التخزين",
+              "fr": "Faites sécher les cormes pendant 1 à 2 semaines à 24-29°C (75-85°F) avec une humidité élevée pour cicatriser les blessures et améliorer la durée de conservation"
+            },
+            "EXPERT": {
+              "en": "After curing, store corms in a cool, dark, well-ventilated place at 50-60°F (10-15°C) and 85-90% humidity.",
+              "ur": "علاج کے بعد، گٹھوں کو ٹھنڈی، تاریک، اچھی ہوادار جگہ پر 50-60°F (10-15°C) اور 85-90% نمی پر ذخیرہ کریں",
+              "ar": "بعد المعالجة، قم بتخزين الدرنات في مكان بارد ومظلم وجيد التهوية عند 50-60 درجة فهرنهايت (10-15 درجة مئوية) ورطوبة 85-90%",
+              "fr": "Après le séchage, stockez les cormes dans un endroit frais, sombre et bien ventilé à 10-15°C (50-60°F) et 85-90% d'humidité"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young taro plants, promoting healthy root development.",
+          "ur": "نئے تارو پودوں کے لیے ہلکی غذائیت فراہم کرتا ہے، صحت مند جڑوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة لنباتات القلقاس الصغيرة، مما يعزز نمو الجذور الصحي.",
+          "fr": "Fournit un apport nutritif doux aux jeunes plants de taro, favorisant un développement racinaire sain."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or High-Nitrogen Organic Mix",
+          "ur": "کمپوسٹ چائے یا زیادہ نائٹروجن والا نامیاتی مکس",
+          "ar": "شاي الكمبوست أو خليط عضوي عالي النيتروجين",
+          "fr": "Thé de compost ou mélange organique riche en azote"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو سماد الدود في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites infuser 1 tasse de compost riche ou de lombricompost dans 3,7 litres d'eau pendant 24-48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Taro is a heavy nitrogen feeder, this supports vigorous leaf and stem growth.",
+          "ur": "تارو کو نائٹروجن کی زیادہ ضرورت ہوتی ہے، یہ پتوں اور تنوں کی مضبوط نشوونما میں مدد کرتا ہے۔",
+          "ar": "القلقاس يحتاج إلى الكثير من النيتروجين، وهذا يدعم النمو القوي للأوراق والسيقان.",
+          "fr": "Le taro est un gros consommateur d'azote, cela favorise une croissance vigoureuse des feuilles et des tiges."
+        }
+      },
+      "TUBER_FORMATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash or Kelp Meal (Phosphorus & Potassium)",
+          "ur": "ہڈیوں کا چورا اور لکڑی کی راکھ یا کیلپ میل (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب أو وجبة عشب البحر (فوسفور وبوتاسيوم)",
+          "fr": "Farine d'os et cendre de bois ou farine d'algues (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ ہڈیوں کا چورا اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Phosphorus and potassium are crucial for healthy corm (tuber) development.",
+          "ur": "فاسفورس اور پوٹاشیم صحت مند گٹھی (کندی) کی نشوونما کے لیے بہت اہم ہیں۔",
+          "ar": "الفوسفور والبوتاسيوم ضروريان لنمو الدرنات (القلقاس) الصحي.",
+          "fr": "Le phosphore et le potassium sont essentiels au développement sain des cormes (tubercules)."
+        }
+      },
+      "MATURATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Kelp Meal",
+          "ur": "کیلے کے چھلکے کی چائے (زیادہ پوٹاشیم) اور کیلپ میل",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم) ووجبة عشب البحر",
+          "fr": "Thé de peau de banane (riche en potassium) et farine d'algues"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in 1 tablespoon of kelp meal. Pour around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ ایک چمچ کیلپ میل شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اخلط ملعقة كبيرة من وجبة عشب البحر. اسكب حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les infuser dans 3,7 litres d'eau pendant 48 heures. Mélangez 1 cuillère à soupe de farine d'algues. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium helps corms swell, mature properly, and improves starch content.",
+          "ur": "پوٹاشیم گٹھیوں کو پھولنے، صحیح طریقے سے پکنے اور نشاستے کے مواد کو بہتر بنانے میں مدد کرتا ہے۔",
+          "ar": "يساعد البوتاسيوم الدرنات على الانتفاخ والنضج بشكل صحيح، ويحسن محتوى النشا.",
+          "fr": "Le potassium aide les cormes à gonfler, à mûrir correctement et améliore la teneur en amidon."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-10-10 or 10-5-5)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-10-10)",
+          "ar": "سماد متوازن (مثل 20-10-10)",
+          "fr": "NPK équilibré (ex: 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High nitrogen concentration drives robust leaf production, essential for taro's initial growth.",
+          "ur": "نائٹروجن کی زیادہ مقدار پتوں کی بھرپور پیداوار کو فروغ دیتی ہے، جو تارو کی ابتدائی نشوونما کے لیے ضروری ہے۔",
+          "ar": "تركيز النيتروجين العالي يدفع إنتاج الأوراق القوي، وهو ضروري لنمو القلقاس الأولي.",
+          "fr": "Une forte concentration d'azote stimule une production robuste de feuilles, essentielle pour la croissance initiale du taro."
+        }
+      },
+      "TUBER_FORMATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus & Potassium (e.g., 5-10-10 or 5-10-15)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "نيتروجين منخفض، فوسفور وبوتاسيوم عالي (مثل 5-10-10)",
+          "fr": "Faible azote, phosphore et potassium élevés (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "ضع ملعقتين كبيرتين من السماد الحبيبي لكل نبات. اسقِ الماء فورًا بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire par plante. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports the development and enlargement of the underground corms.",
+          "ur": "زیر زمین گٹھیوں کی نشوونما اور بڑھوتری میں مدد کرتا ہے۔",
+          "ar": "يدعم نمو وتضخم الدرنات تحت الأرض.",
+          "fr": "Soutient le développement et l'agrandissement des cormes souterrains."
+        }
+      },
+      "MATURATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-50 or 0-10-20)",
+          "ur": "زیادہ پوٹاشیم والا مکس (مثلاً 0-0-50)",
+          "ar": "خليط عالي البوتاسيوم (مثل 0-0-50)",
+          "fr": "Mélange riche en potassium (ex: 0-0-50)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high-K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ زیادہ پوٹاشیم والی کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من سماد عالي البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en K dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for maximizing corm size, density, and starch content.",
+          "ur": "پوٹاشیم گٹھی کے سائز، کثافت اور نشاستے کے مواد کو زیادہ سے زیادہ کرنے کے لیے اہم ہے۔",
+          "ar": "البوتاسيوم حيوي لزيادة حجم الدرنات وكثافتها ومحتواها من النشا.",
+          "fr": "Le potassium est vital pour maximiser la taille, la densité et la teneur en amidon des cormes."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "TUBER_FORMATION": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P&K Fertilizer",
+        "alternating": true
+      },
+      "MATURATION": {
+        "week1": "Banana Peel Tea",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, a common pest for taro.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، جو تارو کے لیے ایک عام کیڑا ہے۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية العقدية، وهي آفة شائعة للقلقاس.",
+        "fr": "Les racines produisent une substance chimique qui tue les nématodes à galles, un ravageur courant du taro."
+      }
+    },
+    {
+      "plantId": "beans",
+      "benefit": {
+        "en": "Legumes fix nitrogen in the soil, benefiting taro which is a heavy nitrogen feeder.",
+        "ur": "پھلیاں مٹی میں نائٹروجن کو ٹھیک کرتی ہیں، جس سے تارو کو فائدہ ہوتا ہے جو نائٹروجن کا زیادہ استعمال کرتا ہے۔",
+        "ar": "البقوليات تثبت النيتروجين في التربة، مما يفيد القلقاس الذي يستهلك الكثير من النيتروجين.",
+        "fr": "Les légumineuses fixent l'azote dans le sol, bénéficiant au taro qui est un gros consommateur d'azote."
+      }
+    },
+    {
+      "plantId": "sweet_potato",
+      "benefit": {
+        "en": "Can act as a living mulch, suppressing weeds and helping retain soil moisture, which taro loves.",
+        "ur": "زندہ ملچ کے طور پر کام کر سکتا ہے، جڑی بوٹیوں کو دباتا ہے اور مٹی کی نمی کو برقرار رکھنے میں مدد کرتا ہے، جو تارو کو پسند ہے۔",
+        "ar": "يمكن أن يعمل كغطاء حيوي، يثبط الأعشاب الضارة ويساعد على الاحتفاظ برطوبة التربة، وهو ما يحبه القلقاس.",
+        "fr": "Peut servir de paillis vivant, supprimant les mauvaises herbes et aidant à retenir l'humidité du sol, ce que le taro apprécie."
+      }
+    },
+    {
+      "plantId": "mint",
+      "benefit": {
+        "en": "Deters some common garden pests and thrives in moist conditions similar to taro (plant in containers to prevent invasiveness).",
+        "ur": "کچھ عام باغی کیڑوں کو دور رکھتا ہے اور تارو جیسی نم حالتوں میں پروان چڑھتا ہے (جار میں لگائیں تاکہ پھیلنے سے بچا جا سکے)۔",
+        "ar": "يطرد بعض آفات الحديقة الشائعة ويزدهر في الظروف الرطبة المشابهة للقلقاس (ازرعه في أوعية لمنع الانتشار).",
+        "fr": "Repousse certains ravageurs courants du jardin et prospère dans des conditions humides similaires à celles du taro (plantez en pots pour éviter l'envahissement)."
+      }
+    },
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Benefits from the partial shade provided by larger taro leaves, helping to prevent bolting in hot weather.",
+        "ur": "بڑے تارو کے پتوں سے ملنے والے جزوی سائے سے فائدہ اٹھاتا ہے، گرم موسم میں بولٹنگ کو روکنے میں مدد کرتا ہے۔",
+        "ar": "يستفيد من الظل الجزئي الذي توفره أوراق القلقاس الكبيرة، مما يساعد على منع التزهير المبكر في الطقس الحار.",
+        "fr": "Bénéficie de l'ombre partielle fournie par les grandes feuilles de taro, aidant à prévenir la montée en graine par temps chaud."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Shares susceptibility to some blights and diseases, and competes heavily for nutrients and water.",
+        "ur": "کچھ بیماریوں کے لیے حساسیت کا اشتراک کرتا ہے، اور غذائی اجزاء اور پانی کے لیے سخت مقابلہ کرتا ہے۔",
+        "ar": "يتشارك في القابلية للإصابة ببعض اللفحات والأمراض، ويتنافس بشدة على العناصر الغذائية والماء.",
+        "fr": "Partage la susceptibilité à certaines maladies et rivalise fortement pour les nutriments et l'eau."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Extremely heavy feeders that will outcompete taro for essential nutrients and water, stunting its growth.",
+        "ur": "انتہائی زیادہ غذائیت استعمال کرنے والے پودے جو تارو کے ضروری غذائی اجزاء اور پانی کے لیے مقابلہ کریں گے، اس کی نشوونما کو روکیں گے۔",
+        "ar": "نباتات تستهلك الكثير من العناصر الغذائية وتنافس القلقاس بشدة على العناصر الغذائية الأساسية والماء، مما يعيق نموه.",
+        "fr": "Plantes extrêmement gourmandes qui concurrenceront le taro pour les nutriments essentiels et l'eau, entravant sa croissance."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "Members of the brassica family can inhibit the growth of many other plants, including taro.",
+        "ur": "براسیکا خاندان کے پودے تارو سمیت کئی دوسرے پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "يمكن لأفراد عائلة الكرنب أن تمنع نمو العديد من النباتات الأخرى، بما في ذلك القلقاس.",
+        "fr": "Les membres de la famille des brassicacées peuvent inhiber la croissance de nombreuses autres plantes, y compris le taro."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Known to release substances from its roots that can inhibit the growth of nearby plants.",
+        "ur": "اس کی جڑوں سے ایسے مادے نکلتے ہیں جو قریبی پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "معروف بإطلاق مواد من جذوره يمكن أن تمنع نمو النباتات القريبة.",
+        "fr": "Connu pour libérer des substances de ses racines qui peuvent inhiber la croissance des plantes voisines."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Has different soil and moisture requirements, and can attract pests that might also affect taro.",
+        "ur": "اس کی مٹی اور نمی کی ضروریات مختلف ہیں، اور یہ ایسے کیڑوں کو اپنی طرف متوجہ کر سکتا ہے جو تارو کو بھی متاثر کر سکتے ہیں۔",
+        "ar": "لديه متطلبات مختلفة للتربة والرطوبة، ويمكن أن يجذب الآفات التي قد تؤثر أيضًا على القلقاس.",
+        "fr": "A des exigences différentes en matière de sol et d'humidité, et peut attirer des ravageurs qui pourraient également affecter le taro."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "taro_leaf_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by Phytophthora colocasiae, this is the most destructive disease. Starts as small, dark, water-soaked spots that rapidly enlarge, leading to defoliation and corm rot.",
+        "ur": "فائٹوفیتھورا کولوکاسیا کی وجہ سے ہوتا ہے، یہ سب سے تباہ کن بیماری ہے۔ چھوٹے، گہرے، پانی سے بھرے دھبوں کے طور پر شروع ہوتا ہے جو تیزی سے بڑھتے ہیں، جس سے پتے گر جاتے ہیں اور گٹھی گل جاتی ہے۔",
+        "ar": "تسببه Phytophthora colocasiae، وهو المرض الأكثر تدميراً. يبدأ كبقع صغيرة داكنة مشبعة بالماء تتسع بسرعة، مما يؤدي إلى تساقط الأوراق وتعفن الدرنات.",
+        "fr": "Causée par Phytophthora colocasiae, c'est la maladie la plus destructrice. Commence par de petites taches sombres gorgées d'eau qui s'agrandissent rapidement, entraînant la défoliation et la pourriture des cormes."
+      }
+    },
+    {
+      "pestId": "dasheen_mosaic_virus",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes mosaic patterns, streaking, and distortion on leaves. Spread by aphids and through infected planting material. No cure, focus on prevention.",
+        "ur": "پتوں پر موزیک پیٹرن، دھاریاں اور بگاڑ پیدا کرتا ہے۔ افڈس اور متاثرہ پودے لگانے والے مواد کے ذریعے پھیلتا ہے۔ کوئی علاج نہیں، روک تھام پر توجہ دیں۔",
+        "ar": "يسبب أنماطًا فسيفسائية، وتخطيطًا، وتشوهًا على الأوراق. ينتشر عن طريق حشرات المن ومن خلال مواد الزراعة المصابة. لا يوجد علاج، ركز على الوقاية.",
+        "fr": "Provoque des motifs en mosaïque, des stries et des déformations sur les feuilles. Propagé par les pucerons et par le matériel de plantation infecté. Pas de remède, se concentrer sur la prévention."
+      }
+    },
+    {
+      "pestId": "root_knot_nematodes",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "TUBER_FORMATION",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Microscopic worms that cause galls (swellings) on roots, leading to stunted growth, yellowing leaves, and reduced corm yield. Improve soil health and use resistant varieties.",
+        "ur": "خوردبینی کیڑے جو جڑوں پر گانٹھیں (سوجن) پیدا کرتے ہیں، جس سے نشوونما رک جاتی ہے، پتے پیلے پڑ جاتے ہیں، اور گٹھی کی پیداوار کم ہو جاتی ہے۔ مٹی کی صحت بہتر بنائیں اور مزاحم اقسام استعمال کریں۔",
+        "ar": "ديدان مجهرية تسبب عقيدات (انتفاخات) على الجذور، مما يؤدي إلى توقف النمو، واصفرار الأوراق، وانخفاض محصول الدرنات. حسن صحة التربة واستخدم أصناف مقاومة.",
+        "fr": "Vers microscopiques qui provoquent des galles (gonflements) sur les racines, entraînant un retard de croissance, un jaunissement des feuilles et une réduction du rendement des cormes. Améliorez la santé du sol et utilisez des variétés résistantes."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and secreting sticky honeydew. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "TUBER_FORMATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause stippling (tiny dots) on leaves, leading to yellowing and bronzing. Fine webbing may be visible on undersides of leaves in severe infestations.",
+        "ur": "بہت چھوٹے کیڑے جو پتوں پر چھوٹے نقطے (اسٹپلنگ) پیدا کرتے ہیں، جس سے پتے پیلے اور کانسی کے رنگ کے ہو جاتے ہیں۔ شدید حملے میں پتوں کے نیچے باریک جالا نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تسبب تنقيطًا (نقاط صغيرة) على الأوراق، مما يؤدي إلى اصفرارها وتلونها بالبرونز. قد تكون شبكة عنكبوتية دقيقة مرئية على الجوانب السفلية للأوراق في الإصابات الشديدة.",
+        "fr": "Minuscules ravageurs qui provoquent des piqûres (petits points) sur les feuilles, entraînant un jaunissement et un bronzage. Une fine toile peut être visible sur le dessous des feuilles en cas d'infestations graves."
+      }
+    },
+    {
+      "pestId": "corm_rot",
+      "vulnerableStages": [
+        "TUBER_FORMATION",
+        "MATURATION",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "25-35"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by various fungi and bacteria, leading to softening, discoloration, and decay of the corms, often with a foul smell. Poor drainage and waterlogging are major contributors.",
+        "ur": "مختلف فنگس اور بیکٹیریا کی وجہ سے ہوتا ہے، جس سے گٹھی نرم ہو جاتی ہے، رنگت بدل جاتی ہے اور گل جاتی ہے، اکثر بدبو کے ساتھ۔ ناقص نکاسی آب اور پانی کا جمع ہونا اہم عوامل ہیں۔",
+        "ar": "تسببه فطريات وبكتيريا مختلفة، مما يؤدي إلى تليين وتغير لون وتعفن الدرنات، غالبًا مع رائحة كريهة. سوء الصرف وتشبع التربة بالماء من العوامل الرئيسية.",
+        "fr": "Causée par divers champignons et bactéries, entraînant un ramollissement, une décoloration et une pourriture des cormes, souvent avec une odeur nauséabonde. Un mauvais drainage et l'engorgement sont des facteurs majeurs."
+      }
+    },
+    {
+      "pestId": "snails_and_slugs",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-25"
+      },
+      "plantSpecificNotes": {
+        "en": "These mollusks thrive in moist environments and chew irregular holes in leaves, especially on young plants. Look for slime trails.",
+        "ur": "یہ مولسکس نم ماحول میں پروان چڑھتے ہیں اور پتوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر چھوٹے پودوں پر۔ چپچپی پگڈنڈیوں کو تلاش کریں۔",
+        "ar": "تزدهر هذه الرخويات في البيئات الرطبة وتحدث ثقوبًا غير منتظمة في الأوراق، خاصة على النباتات الصغيرة. ابحث عن آثار المخاط.",
+        "fr": "Ces mollusques prospèrent dans les environnements humides et mâchent des trous irréguliers dans les feuilles, en particulier sur les jeunes plants. Recherchez des traces de bave."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 240,
+    "firstHarvestDayMax": 365,
+    "continuousHarvest": false,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Older leaves yellow and die back",
+        "ur": "پرانے پتے پیلے ہو کر مر جاتے ہیں",
+        "ar": "الأوراق القديمة تصفر وتموت",
+        "fr": "Les feuilles âgées jaunissent et meurent"
+      },
+      {
+        "en": "Corms feel firm when gently probed",
+        "ur": "گٹھی کو ہلکے سے چھونے پر مضبوط محسوس ہوتی ہے",
+        "ar": "الدرنات تبدو صلبة عند فحصها بلطف",
+        "fr": "Les cormes sont fermes au toucher"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently loosen the soil around the plant with a trowel and carefully lift the main corm and any cormels.",
+        "ur": "ایک کھرپی سے پودے کے گرد مٹی کو آہستہ سے ڈھیلا کریں اور احتیاط سے مرکزی گٹھی اور کسی بھی چھوٹی گٹھی کو اٹھا لیں۔",
+        "ar": "قم بفك التربة حول النبات بلطف باستخدام مجرفة وارفع الدرنة الرئيسية وأي درنات صغيرة بعناية.",
+        "fr": "Desserrez délicatement le sol autour de la plante avec une truelle et soulevez soigneusement le corme principal et les cormels."
+      },
+      "INTERMEDIATE": {
+        "en": "Use a digging fork to carefully lift the entire plant, being mindful not to damage the corms. Separate the main corm from the cormels.",
+        "ur": "پوری پودے کو احتیاط سے اٹھانے کے لیے کھودنے والا کانٹا استعمال کریں، اس بات کا خیال رکھیں کہ گٹھیوں کو نقصان نہ پہنچے۔ مرکزی گٹھی کو چھوٹی گٹھیوں سے الگ کریں۔",
+        "ar": "استخدم شوكة حفر لرفع النبات بأكمله بعناية، مع الانتباه لعدم إتلاف الدرنات. افصل الدرنة الرئيسية عن الدرنات الصغيرة.",
+        "fr": "Utilisez une fourche de jardin pour soulever délicatement la plante entière, en veillant à ne pas endommager les cormes. Séparez le corme principal des cormels."
+      },
+      "EXPERT": {
+        "en": "Harvest the main corm and larger cormels, leaving smaller cormels in the ground to grow for a subsequent harvest, or harvest all for processing.",
+        "ur": "مرکزی گٹھی اور بڑی چھوٹی گٹھیوں کو کاٹ لیں، چھوٹی گٹھیوں کو زمین میں اگنے کے لیے چھوڑ دیں تاکہ بعد میں کٹائی ہو سکے، یا پروسیسنگ کے لیے سب کو کاٹ لیں۔",
+        "ar": "احصد الدرنة الرئيسية والدرنات الصغيرة الأكبر حجمًا، مع ترك الدرنات الأصغر في الأرض لتنمو لحصاد لاحق، أو احصدها كلها للمعالجة.",
+        "fr": "Récoltez le corme principal et les cormels plus grands, en laissant les cormels plus petits dans le sol pour une récolte ultérieure, ou récoltez tout pour la transformation."
+      }
+    },
+    "storage": {
+      "en": "Store corms in a cool, dry, well-ventilated place (e.g., mesh bags) for several weeks to months. Do not refrigerate.",
+      "ur": "گٹھیوں کو ٹھنڈی، خشک، اچھی ہوادار جگہ (مثلاً میش بیگ) میں کئی ہفتوں سے مہینوں تک ذخیرہ کریں۔ فریج میں نہ رکھیں۔",
+      "ar": "خزن الدرنات في مكان بارد وجاف وجيد التهوية (مثل أكياس شبكية) لعدة أسابيع إلى أشهر. لا تضعها في الثلاجة.",
+      "fr": "Conservez les cormes dans un endroit frais, sec et bien ventilé (par exemple, des sacs en filet) pendant plusieurs semaines à plusieurs mois. Ne pas réfrigérer."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1.5,
+      "30L": 2.5,
+      "GROUND": 4
+    }
+  }
+}

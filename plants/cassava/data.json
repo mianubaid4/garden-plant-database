@@ -1,0 +1,1325 @@
+{
+  "id": "cassava",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627993072230-019d3119114d?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Cassava",
+      "alternate": [
+        "Manioc",
+        "Yuca",
+        "Tapioca plant"
+      ]
+    },
+    "ur": {
+      "common": "کاساوا",
+      "alternate": [
+        "مانیوک",
+        "یوکا"
+      ]
+    },
+    "ar": {
+      "common": "كاسافا",
+      "alternate": [
+        "منيهوت",
+        "يوقا"
+      ]
+    },
+    "fr": {
+      "common": "Manioc",
+      "alternate": [
+        "Cassave",
+        "Yuca"
+      ]
+    },
+    "botanical": "Manihot esculenta",
+    "aliases": [
+      "manioc",
+      "yuca",
+      "tapioca",
+      "mandioca",
+      "cassave"
+    ]
+  },
+  "category": "root-crop",
+  "subcategory": "starchy",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 85,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 18,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "BUSH_TYPE",
+    "TALL_TYPE"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "BUSH_TYPE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Compact, multi-stemmed growth. Often pruned to encourage branching and root development.",
+          "ur": "چھوٹی، کئی تنوں والی نشوونما۔ شاخوں اور جڑوں کی نشوونما کو فروغ دینے کے لیے اکثر کٹائی کی جاتی ہے۔"
+        }
+      },
+      "TALL_TYPE": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Upright, less branched growth. Can grow quite tall. Less pruning required, but may need support.",
+          "ur": "سیدھی، کم شاخوں والی نشوونما۔ کافی اونچا ہو سکتا ہے۔ کم کٹائی کی ضرورت ہوتی ہے، لیکن سہارے کی ضرورت پڑ سکتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "tropical",
+    "root-crop",
+    "staple",
+    "drought-tolerant",
+    "edible-leaves",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 25,
+    "optimalMaxC": 30,
+    "survivalMinC": 10,
+    "survivalMaxC": 40,
+    "germinationMinC": 20,
+    "germinationOptimalC": 28,
+    "flowerDropAboveC": 38,
+    "flowerDropBelowC": 18
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 300,
+    "requiredGDD": 3000,
+    "baseTempC": 18,
+    "plantingConditions": {
+      "soilTempMinC": 20,
+      "airTempMinC": 22
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 38,
+      "coldStressCriticalC": 15,
+      "frostWarningC": 5,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Keep soil consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "Medium (can tolerate some drought once established, but yield reduces)",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf yellowing",
+      "stunted growth",
+      "reduced root development"
+    ],
+    "overwateringSymptoms": [
+      "yellow lower leaves",
+      "stem rot",
+      "stunted growth",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or furrow irrigation",
+    "thingsToAvoid": [
+      "waterlogging",
+      "prolonged dry spells during establishment"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium-deep",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "weed suppression",
+      "moisture retention",
+      "soil temperature regulation"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires very large pots with excellent drainage.",
+        "ur": "بہت بڑے گملے اور بہترین نکاسی آب کی ضرورت ہے۔",
+        "ar": "يتطلب أواني كبيرة جدًا مع تصريف ممتاز.",
+        "fr": "Nécessite de très grands pots avec un excellent drainage."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags can help with aeration but need frequent watering.",
+        "ur": "کپڑے کے تھیلے ہوا کی گردش میں مدد کرتے ہیں لیکن بار بار پانی دینے کی ضرورت ہوتی ہے۔",
+        "ar": "يمكن أن تساعد الأكياس القماشية في التهوية ولكنها تحتاج إلى سقي متكرر.",
+        "fr": "Les sacs en tissu peuvent aider à l'aération mais nécessitent un arrosage fréquent."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Requires well-drained, deep soil for optimal root development.",
+        "ur": "جڑوں کی بہترین نشوونما کے لیے اچھی نکاسی والی گہری مٹی کی ضرورت ہے۔",
+        "ar": "يتطلب تربة عميقة وجيدة التصريف لتطور الجذور الأمثل.",
+        "fr": "Nécessite un sol profond et bien drainé pour un développement optimal des racines."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 50,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for providing deep, loose soil and good drainage.",
+        "ur": "گہری، ڈھیلی مٹی اور اچھی نکاسی آب فراہم کرنے کے لیے بہترین ہے۔",
+        "ar": "ممتاز لتوفير تربة عميقة وفضفاضة وتصريف جيد.",
+        "fr": "Excellent pour fournir un sol profond et meuble et un bon drainage."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "12-18 months",
+  "lifecycle": [
+    {
+      "stage": "PLANTING_CUTTINGS",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Planting stem cuttings",
+        "ur": "کٹنگ لگانا",
+        "ar": "زراعة العقل الساقية",
+        "fr": "Plantation des boutures de tige"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Choose healthy, mature stem cuttings from the middle section of a previous harvest.",
+          "ur": "پچھلی فصل کے درمیانی حصے سے صحت مند، پختہ تنے کی کٹنگز کا انتخاب کریں۔",
+          "ar": "اختر عقلًا ساقية صحية وناضجة من الجزء الأوسط من حصاد سابق.",
+          "fr": "Choisissez des boutures de tige saines et matures de la section médiane d'une récolte précédente."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare loose, well-drained soil. Mix with compost.",
+              "ur": "ڈھیلی، اچھی نکاسی والی مٹی تیار کریں۔ کھاد کے ساتھ ملائیں۔",
+              "ar": "جهز تربة رخوة وجيدة التصريف. اخلطها بالسماد العضوي.",
+              "fr": "Préparez un sol meuble et bien drainé. Mélangez avec du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil pH is between 5.5-6.5. Add organic matter.",
+              "ur": "یقینی بنائیں کہ مٹی کا پی ایچ 5.5-6.5 کے درمیان ہو۔ نامیاتی مادہ شامل کریں۔",
+              "ar": "تأكد من أن درجة حموضة التربة تتراوح بين 5.5-6.5. أضف المواد العضوية.",
+              "fr": "Assurez-vous que le pH du sol est entre 5,5 et 6,5. Ajoutez de la matière organique."
+            },
+            "EXPERT": {
+              "en": "Deep till soil, incorporate aged manure and check micronutrients.",
+              "ur": "مٹی کو گہرا ہل چلائیں، پرانی کھاد شامل کریں اور مائیکرو نیوٹرینٹس چیک کریں۔",
+              "ar": "احرث التربة بعمق، أدمج السماد القديم وتحقق من المغذيات الدقيقة.",
+              "fr": "Labourez profondément le sol, incorporez du fumier vieilli et vérifiez les micronutriments."
+            }
+          }
+        },
+        "cuttingPreparation": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut stems into 6-10 inch pieces, ensuring 3-5 nodes per cutting.",
+              "ur": "تنوں کو 6-10 انچ کے ٹکڑوں میں کاٹیں، ہر کٹنگ میں 3-5 نوڈز کو یقینی بنائیں۔",
+              "ar": "قطع السيقان إلى قطع بطول 6-10 بوصات، مع التأكد من وجود 3-5 عقد لكل عقلة.",
+              "fr": "Coupez les tiges en morceaux de 6 à 10 pouces, en assurant 3 à 5 nœuds par bouture."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a sharp, sterile knife. Dip ends in rooting hormone for faster establishment.",
+              "ur": "تیز، جراثیم سے پاک چاقو استعمال کریں۔ تیزی سے جڑ پکڑنے کے لیے سروں کو روٹنگ ہارمون میں ڈبوئیں۔",
+              "ar": "استخدم سكينًا حادًا ومعقمًا. اغمس الأطراف في هرمون التجذير لتسريع التأسيس.",
+              "fr": "Utilisez un couteau aiguisé et stérile. Trempez les extrémités dans de l'hormone de bouturage pour un établissement plus rapide."
+            },
+            "EXPERT": {
+              "en": "Select disease-free cuttings, treat with fungicide if necessary, and store properly before planting.",
+              "ur": "بیماری سے پاک کٹنگز کا انتخاب کریں، اگر ضروری ہو تو فنگس کش دوا سے علاج کریں، اور لگانے سے پہلے صحیح طریقے سے ذخیرہ کریں۔",
+              "ar": "اختر عقلًا خالية من الأمراض، عالجها بمبيد الفطريات إذا لزم الأمر، وخزنها بشكل صحيح قبل الزراعة.",
+              "fr": "Sélectionnez des boutures exemptes de maladies, traitez-les avec un fongicide si nécessaire, et stockez-les correctement avant la plantation."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant cuttings vertically, burying 2/3 of the cutting, with buds facing up.",
+              "ur": "کٹنگز کو عمودی طور پر لگائیں، کٹنگ کا 2/3 حصہ دفن کریں، کلیوں کا رخ اوپر کی طرف ہو۔",
+              "ar": "ازرع العقل عموديًا، ادفن ثلثي العقلة، مع توجيه البراعم للأعلى.",
+              "fr": "Plantez les boutures verticalement, en enterrant les 2/3 de la bouture, avec les bourgeons vers le haut."
+            },
+            "INTERMEDIATE": {
+              "en": "Space cuttings 3-4 feet apart. Ensure good soil contact around the cutting.",
+              "ur": "کٹنگز کو 3-4 فٹ کے فاصلے پر لگائیں۔ کٹنگ کے ارد گرد مٹی کا اچھا رابطہ یقینی بنائیں۔",
+              "ar": "افصل العقل بمسافة 3-4 أقدام. تأكد من ملامسة التربة الجيدة حول العقلة.",
+              "fr": "Espacez les boutures de 3 à 4 pieds. Assurez un bon contact du sol autour de la bouture."
+            },
+            "EXPERT": {
+              "en": "Consider planting at a 45-degree angle or horizontally for specific root development patterns.",
+              "ur": "مخصوص جڑ کی نشوونما کے نمونوں کے لیے 45 ڈگری کے زاویے پر یا افقی طور پر لگانے پر غور کریں۔",
+              "ar": "فكر في الزراعة بزاوية 45 درجة أو أفقيًا لأنماط تطور الجذور المحددة.",
+              "fr": "Envisagez de planter à un angle de 45 degrés ou horizontalement pour des modèles de développement racinaire spécifiques."
+            }
+          }
+        },
+        "initialWatering": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly immediately after planting.",
+              "ur": "لگانے کے فوراً بعد اچھی طرح پانی دیں۔",
+              "ar": "اسقِ جيدًا فور الزراعة.",
+              "fr": "Arrosez abondamment immédiatement après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is moist but not waterlogged to prevent rot.",
+              "ur": "یقینی بنائیں کہ مٹی نم ہو لیکن پانی سے بھری نہ ہو تاکہ سڑنے سے بچا جا سکے۔",
+              "ar": "تأكد من أن التربة رطبة ولكن ليست مشبعة بالماء لمنع التعفن.",
+              "fr": "Assurez-vous que le sol est humide mais non gorgé d'eau pour éviter la pourriture."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture carefully, especially in the first few days, to aid rooting.",
+              "ur": "خاص طور پر پہلے چند دنوں میں مٹی کی نمی کو احتیاط سے مانیٹر کریں تاکہ جڑ پکڑنے میں مدد ملے۔",
+              "ar": "راقب رطوبة التربة بعناية، خاصة في الأيام القليلة الأولى، للمساعدة في التجذير.",
+              "fr": "Surveillez attentivement l'humidité du sol, surtout les premiers jours, pour favoriser l'enracinement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SPROUTING_AND_ESTABLISHMENT",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Cuttings sprout and establish roots",
+        "ur": "کٹنگز کونپلیں پھوٹتی ہیں اور جڑیں پکڑتی ہیں",
+        "ar": "تبرعم العقل وتأسيس الجذور",
+        "fr": "Les boutures germent et s'enracinent"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Protect young sprouts from strong winds and direct harsh sun initially.",
+          "ur": "ابتدائی طور پر نوجوان کونپلوں کو تیز ہواؤں اور براہ راست سخت دھوپ سے بچائیں۔",
+          "ar": "احمِ البراعم الصغيرة من الرياح القوية وأشعة الشمس المباشرة القاسية في البداية.",
+          "fr": "Protégez les jeunes pousses des vents forts et du soleil direct intense au début."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں لیکن پانی سے بھری نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار ولكن لا تغمرها بالماء.",
+              "fr": "Gardez le sol constamment humide mais non gorgé d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque le premier pouce de sol est sec."
+            },
+            "EXPERT": {
+              "en": "Use a moisture meter to ensure optimal soil moisture levels for root development.",
+              "ur": "جڑوں کی نشوونما کے لیے مٹی کی نمی کی بہترین سطح کو یقینی بنانے کے لیے نمی میٹر استعمال کریں۔",
+              "ar": "استخدم مقياس الرطوبة لضمان مستويات رطوبة التربة المثلى لتطور الجذور.",
+              "fr": "Utilisez un humidimètre pour assurer des niveaux d'humidité du sol optimaux pour le développement des racines."
+            }
+          }
+        },
+        "thinningShoots": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once multiple shoots appear, select 1-2 strongest ones and gently remove the others.",
+              "ur": "جب متعدد کونپلیں نمودار ہوں، تو 1-2 مضبوط ترین کا انتخاب کریں اور باقی کو آہستہ سے ہٹا دیں۔",
+              "ar": "بمجرد ظهور براعم متعددة، اختر 1-2 الأقوى وقم بإزالة البقية بلطف.",
+              "fr": "Une fois que plusieurs pousses apparaissent, sélectionnez les 1-2 plus fortes et retirez délicatement les autres."
+            },
+            "INTERMEDIATE": {
+              "en": "Thin to 1-2 vigorous shoots per cutting to promote better root development.",
+              "ur": "بہتر جڑ کی نشوونما کو فروغ دینے کے لیے ہر کٹنگ میں 1-2 مضبوط کونپلوں کو پتلا کریں۔",
+              "ar": "خفف إلى 1-2 براعم قوية لكل عقلة لتعزيز تطور الجذور بشكل أفضل.",
+              "fr": "Éclaircissez à 1-2 pousses vigoureuses par bouture pour favoriser un meilleur développement racinaire."
+            },
+            "EXPERT": {
+              "en": "Observe shoot vigor and plant spacing to determine optimal shoot retention for yield.",
+              "ur": "پیداوار کے لیے کونپلوں کی بہترین برقرار رکھنے کا تعین کرنے کے لیے کونپلوں کی طاقت اور پودوں کے فاصلے کا مشاہدہ کریں۔",
+              "ar": "راقب قوة البراعم وتباعد النباتات لتحديد الاحتفاظ الأمثل بالبراعم لتحقيق العائد.",
+              "fr": "Observez la vigueur des pousses et l'espacement des plantes pour déterminer la rétention optimale des pousses pour le rendement."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any weeds growing around the young cassava plants by hand.",
+              "ur": "نوجوان کاساوا کے پودوں کے ارد گرد اگنے والی کسی بھی جڑی بوٹی کو ہاتھ سے ہٹا دیں۔",
+              "ar": "أزل أي أعشاب تنمو حول نباتات الكسافا الصغيرة يدويًا.",
+              "fr": "Enlevez à la main toutes les mauvaises herbes poussant autour des jeunes plants de manioc."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain a weed-free zone around the plants to reduce competition for nutrients.",
+              "ur": "پودوں کے ارد گرد ایک جڑی بوٹیوں سے پاک علاقہ برقرار رکھیں تاکہ غذائی اجزاء کے لیے مقابلہ کم ہو سکے۔",
+              "ar": "حافظ على منطقة خالية من الأعشاب حول النباتات لتقليل المنافسة على المغذيات.",
+              "fr": "Maintenez une zone sans mauvaises herbes autour des plantes pour réduire la concurrence pour les nutriments."
+            },
+            "EXPERT": {
+              "en": "Implement mulching or intercropping strategies to suppress weeds effectively.",
+              "ur": "جڑی بوٹیوں کو مؤثر طریقے سے دبانے کے لیے ملچنگ یا بین الفصلی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "نفذ استراتيجيات التغطية أو الزراعة البينية لقمع الأعشاب بفعالية.",
+              "fr": "Mettez en œuvre des stratégies de paillage ou de culture intercalaire pour supprimer efficacement les mauvaises herbes."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE_GROWTH",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 70,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Rapid leaf and stem growth, tuber initiation",
+        "ur": "تیز پتوں اور تنوں کی نشوونما، جڑوں کا آغاز",
+        "ar": "نمو الأوراق والسيقان السريع، وبدء تكوين الدرنات",
+        "fr": "Croissance rapide des feuilles et des tiges, initiation des tubercules"
+      },
+      "emoji": "🌳",
+      "tips": [
+        {
+          "en": "Ensure good air circulation to prevent fungal diseases during this rapid growth phase.",
+          "ur": "تیز نشوونما کے اس مرحلے کے دوران فنگل بیماریوں سے بچنے کے لیے اچھی ہوا کی گردش کو یقینی بنائیں۔",
+          "ar": "تأكد من تهوية جيدة لمنع الأمراض الفطرية خلال مرحلة النمو السريع هذه.",
+          "fr": "Assurez une bonne circulation de l'air pour prévenir les maladies fongiques pendant cette phase de croissance rapide."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 600,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once or twice a week, depending on rainfall.",
+              "ur": "بارش کے لحاظ سے ہفتے میں ایک یا دو بار گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق مرة أو مرتين في الأسبوع، حسب هطول الأمطار.",
+              "fr": "Arrosez profondément une ou deux fois par semaine, selon les précipitations."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide consistent moisture to support vigorous leaf and stem development.",
+              "ur": "مضبوط پتوں اور تنوں کی نشوونما کو سہارا دینے کے لیے مسلسل نمی فراہم کریں۔",
+              "ar": "وفر رطوبة ثابتة لدعم نمو الأوراق والسيقان القوي.",
+              "fr": "Fournissez une humidité constante pour soutenir le développement vigoureux des feuilles et des tiges."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture profile to ensure water penetrates to the root zone, avoiding surface runoff.",
+              "ur": "مٹی کی نمی کے پروفائل کی نگرانی کریں تاکہ یہ یقینی بنایا جا سکے کہ پانی جڑوں کے علاقے تک پہنچتا ہے، سطح کے بہاؤ سے بچتے ہوئے۔",
+              "ar": "راقب ملف رطوبة التربة لضمان وصول الماء إلى منطقة الجذور، مع تجنب الجريان السطحي.",
+              "fr": "Surveillez le profil d'humidité du sol pour vous assurer que l'eau pénètre jusqu'à la zone racinaire, en évitant le ruissellement de surface."
+            }
+          }
+        },
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced NPK fertilizer (e.g., 10-10-10) around the base of the plants.",
+              "ur": "پودوں کی بنیاد کے ارد گرد ایک متوازن NPK کھاد (مثلاً 10-10-10) لگائیں۔",
+              "ar": "ضع سماد NPK متوازن (مثل 10-10-10) حول قاعدة النباتات.",
+              "fr": "Appliquez un engrais NPK équilibré (par exemple, 10-10-10) autour de la base des plantes."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with a nitrogen-rich fertilizer to promote lush vegetative growth.",
+              "ur": "سبز نشوونما کو فروغ دینے کے لیے نائٹروجن سے بھرپور کھاد کے ساتھ سائیڈ ڈریس کریں۔",
+              "ar": "قم بالتسميد الجانبي بسماد غني بالنيتروجين لتعزيز النمو الخضري الوفير.",
+              "fr": "Appliquez un engrais riche en azote en surfaçage pour favoriser une croissance végétative luxuriante."
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests to tailor fertilizer application based on specific nutrient deficiencies.",
+              "ur": "مخصوص غذائی اجزاء کی کمی کی بنیاد پر کھاد کے استعمال کو ایڈجسٹ کرنے کے لیے مٹی کے ٹیسٹ کریں۔",
+              "ar": "قم بإجراء اختبارات التربة لتخصيص تطبيق الأسمدة بناءً على نقص المغذيات المحدد.",
+              "fr": "Effectuez des analyses de sol pour adapter l'application d'engrais en fonction des carences spécifiques en nutriments."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Regularly remove weeds to prevent competition with cassava for water and nutrients.",
+              "ur": "پانی اور غذائی اجزاء کے لیے کاساوا کے ساتھ مقابلہ سے بچنے کے لیے باقاعدگی سے جڑی بوٹیاں ہٹائیں۔",
+              "ar": "أزل الأعشاب الضارة بانتظام لمنع منافستها مع الكسافا على الماء والمغذيات.",
+              "fr": "Désherbez régulièrement pour éviter la concurrence avec le manioc pour l'eau et les nutriments."
+            },
+            "INTERMEDIATE": {
+              "en": "Consider light cultivation or mulching to suppress weed growth.",
+              "ur": "جڑی بوٹیوں کی نشوونما کو دبانے کے لیے ہلکی کاشت یا ملچنگ پر غور کریں۔",
+              "ar": "فكر في الزراعة الخفيفة أو التغطية لقمع نمو الأعشاب الضارة.",
+              "fr": "Envisagez une légère culture ou un paillage pour supprimer la croissance des mauvaises herbes."
+            },
+            "EXPERT": {
+              "en": "Implement integrated weed management strategies, including cover crops or biological controls.",
+              "ur": "کور فصلوں یا حیاتیاتی کنٹرول سمیت مربوط جڑی بوٹیوں کے انتظام کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "نفذ استراتيجيات متكاملة لإدارة الأعشاب الضارة، بما في ذلك المحاصيل الغطائية أو المكافحة البيولوجية.",
+              "fr": "Mettez en œuvre des stratégies de gestion intégrée des mauvaises herbes, y compris les cultures de couverture ou les contrôles biologiques."
+            }
+          }
+        },
+        "hilling": {
+          "required": true,
+          "dayOffset": 60,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Start mounding soil around the base of the plants to encourage tuber formation.",
+              "ur": "جڑوں کی تشکیل کو فروغ دینے کے لیے پودوں کی بنیاد کے ارد گرد مٹی کا ڈھیر لگانا شروع کریں۔",
+              "ar": "ابدأ بتكويم التربة حول قاعدة النباتات لتشجيع تكوين الدرنات.",
+              "fr": "Commencez à buter le sol autour de la base des plantes pour encourager la formation des tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Gradually increase the height of the soil mounds as the plants grow.",
+              "ur": "پودوں کے بڑھنے کے ساتھ مٹی کے ڈھیروں کی اونچائی کو بتدریج بڑھائیں۔",
+              "ar": "زد تدريجياً من ارتفاع أكوام التربة مع نمو النباتات.",
+              "fr": "Augmentez progressivement la hauteur des buttes de terre à mesure que les plantes grandissent."
+            },
+            "EXPERT": {
+              "en": "Optimize hilling technique to maximize tuber yield and prevent greening of exposed tubers.",
+              "ur": "جڑوں کی پیداوار کو زیادہ سے زیادہ کرنے اور بے نقاب جڑوں کے سبز ہونے سے بچنے کے لیے ہِلنگ تکنیک کو بہتر بنائیں۔",
+              "ar": "حسّن تقنية التكويم لزيادة غلة الدرنات ومنع اخضرار الدرنات المكشوفة.",
+              "fr": "Optimisez la technique de buttage pour maximiser le rendement en tubercules et prévenir le verdissement des tubercules exposés."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect leaves for common pests like mites or whiteflies. Spray with soapy water if found.",
+              "ur": "پتوں پر عام کیڑوں جیسے مائٹس یا سفید مکھیوں کا معائنہ کریں۔ اگر پائے جائیں تو صابن والے پانی سے چھڑکیں۔",
+              "ar": "افحص الأوراق بحثًا عن الآفات الشائعة مثل العث أو الذباب الأبيض. رش بالماء والصابون إذا وجدت.",
+              "fr": "Inspectez les feuilles pour les ravageurs courants comme les acariens ou les aleurodes. Vaporisez avec de l'eau savonneuse si vous en trouvez."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic neem oil spray preventatively, especially during dry periods.",
+              "ur": "خاص طور پر خشک ادوار کے دوران نامیاتی نیم کے تیل کا سپرے احتیاطی طور پر لگائیں۔",
+              "ar": "ضع رذاذ زيت النيم العضوي وقائيًا، خاصة خلال الفترات الجافة.",
+              "fr": "Appliquez un spray d'huile de neem biologique préventivement, surtout pendant les périodes sèches."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) program, including biological controls and resistant varieties.",
+              "ur": "حیاتیاتی کنٹرول اور مزاحم اقسام سمیت ایک مربوط کیڑوں کے انتظام (IPM) پروگرام کو نافذ کریں۔",
+              "ar": "نفذ برنامجًا متكاملًا لإدارة الآفات (IPM)، بما في ذلك المكافحة البيولوجية والأصناف المقاومة.",
+              "fr": "Mettez en œuvre un programme de lutte intégrée contre les ravageurs (IPM), y compris les contrôles biologiques et les variétés résistantes."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "TUBER_BULKING",
+      "durationDaysBase": 150,
+      "durationDaysWarm": 120,
+      "durationDaysCool": 180,
+      "description": {
+        "en": "Cassava tubers enlarge significantly",
+        "ur": "کاساوا کی جڑیں نمایاں طور پر بڑھتی ہیں",
+        "ar": "تتضخم درنات الكسافا بشكل كبير",
+        "fr": "Les tubercules de manioc grossissent considérablement"
+      },
+      "emoji": "🥔",
+      "tips": [
+        {
+          "en": "Consistent moisture is key during this phase for optimal tuber development. Avoid extremes.",
+          "ur": "جڑوں کی بہترین نشوونما کے لیے اس مرحلے کے دوران مسلسل نمی کلیدی ہے۔ انتہا پسندی سے بچیں۔",
+          "ar": "الرطوبة المستمرة هي المفتاح خلال هذه المرحلة لتطور الدرنات الأمثل. تجنب التطرف.",
+          "fr": "Une humidité constante est essentielle pendant cette phase pour un développement optimal des tubercules. Évitez les extrêmes."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and regularly, especially during dry spells.",
+              "ur": "خاص طور پر خشک موسم میں گہرا اور باقاعدگی سے پانی دیں۔",
+              "ar": "اسقِ بعمق وبانتظام، خاصة خلال فترات الجفاف.",
+              "fr": "Arrosez profondément et régulièrement, surtout pendant les périodes de sécheresse."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent soil moisture to prevent tuber cracking and promote uniform growth.",
+              "ur": "جڑوں کے پھٹنے سے بچنے اور یکساں نشوونما کو فروغ دینے کے لیے مٹی کی مسلسل نمی کو یقینی بنائیں۔",
+              "ar": "تأكد من رطوبة التربة المستمرة لمنع تشقق الدرنات وتعزيز النمو الموحد.",
+              "fr": "Assurez une humidité constante du sol pour prévenir la fissuration des tubercules et favoriser une croissance uniforme."
+            },
+            "EXPERT": {
+              "en": "Implement drip irrigation for precise water delivery and efficiency, minimizing water stress.",
+              "ur": "پانی کے تناؤ کو کم کرتے ہوئے، پانی کی درست ترسیل اور کارکردگی کے لیے ڈرپ ایریگیشن کو نافذ کریں۔",
+              "ar": "نفذ الري بالتنقيط لتوصيل المياه بدقة وكفاءة، مما يقلل من إجهاد الماء.",
+              "fr": "Mettez en œuvre l'irrigation goutte à goutte pour une distribution d'eau précise et efficace, minimisant le stress hydrique."
+            }
+          }
+        },
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 45,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a potassium-rich fertilizer to support tuber enlargement.",
+              "ur": "جڑوں کی توسیع کو سہارا دینے کے لیے پوٹاشیم سے بھرپور کھاد لگائیں۔",
+              "ar": "ضع سمادًا غنيًا بالبوتاسيوم لدعم تضخم الدرنات.",
+              "fr": "Appliquez un engrais riche en potassium pour soutenir l'élargissement des tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with a fertilizer high in potassium and phosphorus, avoiding excessive nitrogen.",
+              "ur": "پوٹاشیم اور فاسفورس سے بھرپور کھاد کے ساتھ سائیڈ ڈریس کریں، زیادہ نائٹروجن سے گریز کریں۔",
+              "ar": "قم بالتسميد الجانبي بسماد غني بالبوتاسيوم والفوسفور، مع تجنب النيتروجين الزائد.",
+              "fr": "Appliquez un engrais riche en potassium et en phosphore en surfaçage, en évitant l'excès d'azote."
+            },
+            "EXPERT": {
+              "en": "Based on soil analysis, apply specific macro and micronutrients to optimize tuber quality and yield.",
+              "ur": "مٹی کے تجزیے کی بنیاد پر، جڑوں کے معیار اور پیداوار کو بہتر بنانے کے لیے مخصوص میکرو اور مائیکرو نیوٹرینٹس لگائیں۔",
+              "ar": "بناءً على تحليل التربة، طبق المغذيات الكبرى والصغرى المحددة لتحسين جودة الدرنات وعائدها.",
+              "fr": "Sur la base de l'analyse du sol, appliquez des macro et micronutriments spécifiques pour optimiser la qualité et le rendement des tubercules."
+            }
+          }
+        },
+        "hillingMaintenance": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Ensure soil mounds are maintained around the base of the plants.",
+              "ur": "یقینی بنائیں کہ پودوں کی بنیاد کے ارد گرد مٹی کے ڈھیر برقرار ہیں۔",
+              "ar": "تأكد من الحفاظ على أكوام التربة حول قاعدة النباتات.",
+              "fr": "Assurez-vous que les buttes de terre sont maintenues autour de la base des plantes."
+            },
+            "INTERMEDIATE": {
+              "en": "Add more soil to the mounds if tubers become exposed to prevent greening and bitterness.",
+              "ur": "اگر جڑیں بے نقاب ہو جائیں تو سبز ہونے اور کڑواہٹ سے بچنے کے لیے ڈھیروں میں مزید مٹی شامل کریں۔",
+              "ar": "أضف المزيد من التربة إلى الأكوام إذا تعرضت الدرنات لمنع اخضرارها ومرارتها.",
+              "fr": "Ajoutez plus de terre aux buttes si les tubercules deviennent exposés pour éviter le verdissement et l'amertume."
+            },
+            "EXPERT": {
+              "en": "Regularly inspect for exposed tubers and adjust hilling as needed to protect developing roots.",
+              "ur": "بے نقاب جڑوں کا باقاعدگی سے معائنہ کریں اور ترقی پذیر جڑوں کی حفاظت کے لیے ضرورت کے مطابق ہِلنگ کو ایڈجسٹ کریں۔",
+              "ar": "افحص بانتظام الدرنات المكشوفة واضبط التكويم حسب الحاجة لحماية الجذور النامية.",
+              "fr": "Inspectez régulièrement les tubercules exposés et ajustez le buttage au besoin pour protéger les racines en développement."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue monitoring for pests and diseases. Remove affected leaves.",
+              "ur": "کیڑوں اور بیماریوں کی نگرانی جاری رکھیں۔ متاثرہ پتے ہٹا دیں۔",
+              "ar": "استمر في مراقبة الآفات والأمراض. أزل الأوراق المصابة.",
+              "fr": "Continuez à surveiller les ravageurs et les maladies. Retirez les feuilles affectées."
+            },
+            "INTERMEDIATE": {
+              "en": "Be vigilant for cassava mosaic disease symptoms (yellowing, distortion) and remove infected plants.",
+              "ur": "کاساوا موزیک بیماری کی علامات (پیلے پڑنا، بگاڑ) کے لیے چوکس رہیں اور متاثرہ پودوں کو ہٹا دیں۔",
+              "ar": "كن يقظًا لأعراض مرض فسيفساء الكسافا (الاصفرار، التشوه) وأزل النباتات المصابة.",
+              "fr": "Soyez vigilant aux symptômes de la maladie de la mosaïque du manioc (jaunissement, déformation) et retirez les plantes infectées."
+            },
+            "EXPERT": {
+              "en": "Implement crop rotation and use certified disease-free planting material to minimize disease incidence.",
+              "ur": "بیماری کے واقعات کو کم کرنے کے لیے فصل کی گردش کو نافذ کریں اور تصدیق شدہ بیماری سے پاک پودے لگانے کا مواد استعمال کریں۔",
+              "ar": "نفذ تناوب المحاصيل واستخدم مواد زراعة معتمدة خالية من الأمراض لتقليل حدوث الأمراض.",
+              "fr": "Mettez en œuvre la rotation des cultures et utilisez du matériel de plantation certifié exempt de maladies pour minimiser l'incidence des maladies."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Cassava Mosaic Disease",
+              "ur": "کاساوا موزیک بیماری",
+              "ar": "مرض فسيفساء الكسافا",
+              "fr": "Maladie de la mosaïque du manioc"
+            },
+            {
+              "en": "Cassava Bacterial Blight",
+              "ur": "کاساوا بیکٹیریل بلائٹ",
+              "ar": "لفحة الكسافا البكتيرية",
+              "fr": "Flétrissement bactérien du manioc"
+            },
+            {
+              "en": "Mites",
+              "ur": "مائٹس",
+              "ar": "العث",
+              "fr": "Acariens"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "MATURATION_AND_HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Tubers mature and are ready for harvest",
+        "ur": "جڑیں پختہ ہو جاتی ہیں اور کٹائی کے لیے تیار ہوتی ہیں",
+        "ar": "تنضج الدرنات وتكون جاهزة للحصاد",
+        "fr": "Les tubercules mûrissent et sont prêts à être récoltés"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvesting too early results in smaller tubers, while too late can lead to woody or fibrous roots.",
+          "ur": "بہت جلد کٹائی کرنے سے چھوٹی جڑیں حاصل ہوتی ہیں، جبکہ بہت دیر سے کٹائی کرنے سے لکڑی والی یا ریشے دار جڑیں ہو سکتی ہیں۔",
+          "ar": "الحصاد المبكر جدًا يؤدي إلى درنات أصغر، بينما الحصاد المتأخر جدًا يمكن أن يؤدي إلى جذور خشبية أو ليفية.",
+          "fr": "Récolter trop tôt donne des tubercules plus petits, tandis que trop tard peut entraîner des racines ligneuses ou fibreuses."
+        }
+      ],
+      "tasks": {
+        "reducedWatering": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering slightly in the last few weeks before harvest.",
+              "ur": "کٹائی سے پہلے آخری چند ہفتوں میں پانی کی مقدار کو تھوڑا کم کریں۔",
+              "ar": "قلل الري قليلاً في الأسابيع القليلة الأخيرة قبل الحصاد.",
+              "fr": "Réduisez légèrement l'arrosage au cours des dernières semaines avant la récolte."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow the soil to dry out a bit between waterings to concentrate starch in tubers.",
+              "ur": "جڑوں میں نشاستہ کو مرتکز کرنے کے لیے پانی دینے کے درمیان مٹی کو تھوڑا خشک ہونے دیں۔",
+              "ar": "دع التربة تجف قليلاً بين الريات لتركيز النشا في الدرنات.",
+              "fr": "Laissez le sol sécher un peu entre les arrosages pour concentrer l'amidon dans les tubercules."
+            },
+            "EXPERT": {
+              "en": "Carefully manage soil moisture to optimize starch content and dry matter accumulation.",
+              "ur": "نشاستہ کے مواد اور خشک مادے کے جمع ہونے کو بہتر بنانے کے لیے مٹی کی نمی کو احتیاط سے منظم کریں۔",
+              "ar": "أدر رطوبة التربة بعناية لتحسين محتوى النشا وتراكم المادة الجافة.",
+              "fr": "Gérez attentivement l'humidité du sol pour optimiser la teneur en amidon et l'accumulation de matière sèche."
+            }
+          }
+        },
+        "harvesting": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harvest when leaves start to yellow and drop, typically 8-12 months after planting.",
+              "ur": "جب پتے پیلے پڑنے لگیں اور گرنے لگیں، عام طور پر لگانے کے 8-12 ماہ بعد کٹائی کریں۔",
+              "ar": "احصد عندما تبدأ الأوراق في الاصفرار والتساقط، عادة بعد 8-12 شهرًا من الزراعة.",
+              "fr": "Récoltez lorsque les feuilles commencent à jaunir et à tomber, généralement 8 à 12 mois après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Loosen the soil around the plant with a fork or spade, then carefully pull up the stem to extract tubers.",
+              "ur": "پودے کے ارد گرد کی مٹی کو کانٹے یا بیلچے سے ڈھیلا کریں، پھر جڑوں کو نکالنے کے لیے تنے کو احتیاط سے کھینچیں۔",
+              "ar": "فك التربة حول النبات باستخدام شوكة أو مجرفة، ثم اسحب الساق بعناية لاستخراج الدرنات.",
+              "fr": "Desserrez le sol autour de la plante avec une fourche ou une bêche, puis tirez délicatement sur la tige pour extraire les tubercules."
+            },
+            "EXPERT": {
+              "en": "Harvest selectively if needed, leaving some tubers to continue growing or for staggered harvest.",
+              "ur": "اگر ضرورت ہو تو منتخب طور پر کٹائی کریں، کچھ جڑوں کو بڑھنے کے لیے چھوڑ دیں یا مرحلہ وار کٹائی کے لیے۔",
+              "ar": "احصد بشكل انتقائي إذا لزم الأمر، مع ترك بعض الدرنات لتستمر في النمو أو للحصاد المتدرج.",
+              "fr": "Récoltez sélectivement si nécessaire, en laissant certains tubercules continuer à pousser ou pour une récolte échelonnée."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for initial leaf and root development.",
+          "ur": "ابتدائی پتوں اور جڑوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة لتطوير الأوراق والجذور الأولية.",
+          "fr": "Fournit un léger coup de pouce nutritif pour le développement initial des feuilles et des racines."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست أو خليط النيتروجين العضوي",
+          "fr": "Thé de compost ou mélange d'azote organique"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو روث الديدان في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de vermicompost dans 3,7 litres d'eau pendant 24 à 48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous leaf and stem growth, essential for energy production for tuberization.",
+          "ur": "پتوں اور تنوں کی بھرپور نشوونما میں مدد کرتا ہے، جو جڑوں کی نشوونما کے لیے توانائی کی پیداوار کے لیے ضروری ہے۔",
+          "ar": "يدعم النمو القوي للأوراق والسيقان، وهو ضروري لإنتاج الطاقة لتكوين الدرنات.",
+          "fr": "Soutient une croissance vigoureuse des feuilles et des tiges, essentielle pour la production d'énergie pour la tubérisation."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها برفق في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Provides essential phosphorus and potassium for strong tuber development.",
+          "ur": "جڑوں کی مضبوط نشوونما کے لیے ضروری فاسفورس اور پوٹاشیم فراہم کرتا ہے۔",
+          "ar": "يوفر الفوسفور والبوتاسيوم الأساسيين لتطوير الدرنات القوية.",
+          "fr": "Fournit le phosphore et le potassium essentiels pour un fort développement des tubercules."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium)",
+          "ur": "کیلے کے چھلکے کی چائے (زیادہ پوٹاشیم)",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم)",
+          "fr": "Thé de peau de banane (riche en potassium)"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Pour the nutrient water around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر پانی میں 48 گھنٹے بھگو دیں۔ جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اسكب الماء المغذي حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les tremper dans 3,7 litres d'eau pendant 48 heures. Versez l'eau nutritive autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is crucial for tuber bulking and starch accumulation.",
+          "ur": "پوٹاشیم جڑوں کے سائز اور نشاستے کے جمع ہونے کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم ضروري لتضخم الدرنات وتراكم النشا.",
+          "fr": "Le potassium est crucial pour le grossissement des tubercules et l'accumulation d'amidon."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Nitrogen NPK (e.g., 20-10-10)",
+          "ur": "زیادہ نائٹروجن این پی کے (مثلاً 20-10-10)",
+          "ar": "سماد NPK عالي النيتروجين (مثلاً 20-10-10)",
+          "fr": "NPK riche en azote (ex: 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of high-nitrogen NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ زیادہ نائٹروجن والا این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK عالي النيتروجين في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK riche en azote dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes rapid leaf and stem development, vital for photosynthesis.",
+          "ur": "تیزی سے پتوں اور تنوں کی نشوونما کو فروغ دیتا ہے، جو ضیائی تالیف کے لیے اہم ہے۔",
+          "ar": "يعزز النمو السريع للأوراق والسيقان، وهو حيوي لعملية التمثيل الضوئي.",
+          "fr": "Favorise le développement rapide des feuilles et des tiges, vital pour la photosynthèse."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Potassium NPK (e.g., 10-10-20)",
+          "ur": "زیادہ پوٹاشیم این پی کے (مثلاً 10-10-20)",
+          "ar": "سماد NPK عالي البوتاسيوم (مثلاً 10-10-20)",
+          "fr": "NPK riche en potassium (ex: 10-10-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of high-potassium NPK fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ زیادہ پوٹاشیم والی این پی کے کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة كبيرة من سماد NPK عالي البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais NPK riche en potassium dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports the initiation and early development of tubers.",
+          "ur": "جڑوں کی ابتدائی نشوونما میں مدد کرتا ہے۔",
+          "ar": "يدعم بدء وتطور الدرنات المبكر.",
+          "fr": "Soutient l'initiation et le développement précoce des tubercules."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Potassium Sulfate (0-0-50)",
+          "ur": "پوٹاشیم سلفیٹ (0-0-50)",
+          "ar": "كبريتات البوتاسيوم (0-0-50)",
+          "fr": "Sulfate de potassium (0-0-50)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of Potassium Sulfate in 1 gallon of water.",
+          "ur": "ایک چمچ پوٹاشیم سلفیٹ 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من كبريتات البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à café de sulfate de potassium dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Maximizes tuber bulking, starch content, and overall yield.",
+          "ur": "جڑوں کے سائز، نشاستے کی مقدار اور مجموعی پیداوار کو زیادہ سے زیادہ کرتا ہے۔",
+          "ar": "يزيد من تضخم الدرنات ومحتوى النشا والإنتاج الكلي.",
+          "fr": "Maximise le grossissement des tubercules, la teneur en amidon et le rendement global."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "High Nitrogen NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal & Wood Ash",
+        "week2": "High Potassium NPK",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "Potassium Sulfate",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "cowpea",
+      "benefit": {
+        "en": "Fixes nitrogen in the soil, improving fertility for cassava, and acts as a living mulch to suppress weeds and reduce soil erosion.",
+        "ur": "مٹی میں نائٹروجن کو ٹھیک کرتا ہے، کسوا کے لیے زرخیزی کو بہتر بناتا ہے، اور جڑی بوٹیوں کو دبانے اور مٹی کے کٹاؤ کو کم کرنے کے لیے ایک زندہ ملچ کے طور پر کام کرتا ہے۔",
+        "ar": "يثبت النيتروجين في التربة، مما يحسن خصوبتها للكاسافا، ويعمل كغطاء حيوي لقمع الأعشاب الضارة وتقليل تآكل التربة.",
+        "fr": "Fixe l'azote dans le sol, améliorant la fertilité pour le manioc, et agit comme un paillis vivant pour supprimer les mauvaises herbes et réduire l'érosion du sol."
+      }
+    },
+    {
+      "plantId": "groundnut",
+      "benefit": {
+        "en": "Nitrogen-fixing legume that enriches the soil and provides ground cover, reducing weed competition and soil moisture loss.",
+        "ur": "نائٹروجن کو ٹھیک کرنے والی پھلی جو مٹی کو زرخیز بناتی ہے اور زمین کو ڈھانپتی ہے، جڑی بوٹیوں کے مقابلے اور مٹی کی نمی کے نقصان کو کم کرتی ہے۔",
+        "ar": "نبات بقولي مثبت للنيتروجين يثري التربة ويوفر غطاءً أرضيًا، مما يقلل من منافسة الأعشاب الضارة وفقدان رطوبة التربة.",
+        "fr": "Légumineuse fixatrice d'azote qui enrichit le sol et fournit une couverture végétale, réduisant la concurrence des mauvaises herbes et la perte d'humidité du sol."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, a common pest of cassava, and flowers can deter other harmful insects.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، جو کسوا کا ایک عام کیڑا ہے، اور پھول دوسرے نقصان دہ کیڑوں کو بھگاتے ہیں۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية العقدية، وهي آفة شائعة للكاسافا، ويمكن للزهور أن تطرد الحشرات الضارة الأخرى.",
+        "fr": "Les racines produisent une substance chimique qui tue les nématodes à galles, un ravageur courant du manioc, et les fleurs peuvent repousser d'autres insectes nuisibles."
+      }
+    },
+    {
+      "plantId": "sweet_potato",
+      "benefit": {
+        "en": "Provides excellent ground cover, suppressing weeds and conserving soil moisture, which benefits cassava.",
+        "ur": "بہترین زمینی ڈھانچہ فراہم کرتا ہے، جڑی بوٹیوں کو دباتا ہے اور مٹی کی نمی کو محفوظ رکھتا ہے، جو کسوا کے لیے فائدہ مند ہے۔",
+        "ar": "يوفر غطاءً أرضيًا ممتازًا، يقمع الأعشاب الضارة ويحافظ على رطوبة التربة، مما يفيد الكاسافا.",
+        "fr": "Fournit une excellente couverture végétale, supprimant les mauvaises herbes et conservant l'humidité du sol, ce qui profite au manioc."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "sugarcane",
+      "reason": {
+        "en": "Both cassava and sugarcane are heavy feeders and will compete intensely for nutrients and water, leading to reduced yields for both.",
+        "ur": "کسوا اور گنا دونوں ہی زیادہ غذائیت استعمال کرنے والے پودے ہیں اور غذائی اجزاء اور پانی کے لیے شدید مقابلہ کریں گے، جس سے دونوں کی پیداوار کم ہو جائے گی۔",
+        "ar": "الكاسافا وقصب السكر كلاهما يستهلكان الكثير من المغذيات وسيتنافسان بشدة على المغذيات والماء، مما يؤدي إلى انخفاض الغلة لكلاهما.",
+        "fr": "Le manioc et la canne à sucre sont tous deux de gros consommateurs de nutriments et se feront une concurrence intense pour les nutriments et l'eau, entraînant une réduction des rendements pour les deux."
+      }
+    },
+    {
+      "plantId": "banana",
+      "reason": {
+        "en": "Bananas are also heavy feeders and have extensive root systems that can outcompete cassava for water and nutrients, especially in limited spaces.",
+        "ur": "کیلے بھی زیادہ غذائیت استعمال کرنے والے پودے ہیں اور ان کی جڑوں کا نظام وسیع ہوتا ہے جو کسوا کو پانی اور غذائی اجزاء کے لیے پیچھے چھوڑ سکتا ہے، خاص طور پر محدود جگہوں پر۔",
+        "ar": "الموز أيضًا يستهلك الكثير من المغذيات ولديه أنظمة جذرية واسعة يمكن أن تتفوق على الكاسافا في الحصول على الماء والمغذيات، خاصة في المساحات المحدودة.",
+        "fr": "Les bananes sont également de gros consommateurs de nutriments et ont des systèmes racinaires étendus qui peuvent concurrencer le manioc pour l'eau et les nutriments, surtout dans des espaces limités."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "cassava_mosaic_disease",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "A viral disease transmitted by whiteflies. Causes characteristic mosaic patterns, yellowing, and distortion of leaves, leading to stunted growth and significant yield loss.",
+        "ur": "ایک وائرل بیماری جو سفید مکھیوں سے پھیلتی ہے۔ پتوں پر مخصوص موزیک پیٹرن، پیلا پن اور بگاڑ کا سبب بنتی ہے، جس سے نشوونما رک جاتی ہے اور پیداوار میں نمایاں کمی آتی ہے۔",
+        "ar": "مرض فيروسي ينتقل عن طريق الذباب الأبيض. يسبب أنماطًا فسيفسائية مميزة، واصفرارًا، وتشوهًا للأوراق، مما يؤدي إلى توقف النمو وفقدان كبير في المحصول.",
+        "fr": "Maladie virale transmise par les aleurodes. Provoque des motifs en mosaïque caractéristiques, un jaunissement et une déformation des feuilles, entraînant un retard de croissance et une perte de rendement significative."
+      }
+    },
+    {
+      "pestId": "cassava_bacterial_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "25-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Bacterial disease causing angular, water-soaked spots on leaves, wilting, blight, defoliation, and stem cankers. Favored by warm, humid conditions.",
+        "ur": "بیکٹیریل بیماری جو پتوں پر کونیی، پانی سے بھرے دھبے، مرجھانا، جھلسنا، پتے گرنا اور تنے پر زخم کا سبب بنتی ہے۔ گرم، مرطوب حالات میں زیادہ ہوتی ہے۔",
+        "ar": "مرض بكتيري يسبب بقعًا زاوية مشبعة بالماء على الأوراق، وذبولًا، ولفحة، وتساقط الأوراق، وتقرحات الساق. يفضل الظروف الدافئة والرطبة.",
+        "fr": "Maladie bactérienne provoquant des taches angulaires gorgées d'eau sur les feuilles, le flétrissement, la brûlure, la défoliation et des chancres sur les tiges. Favorisée par des conditions chaudes et humides."
+      }
+    },
+    {
+      "pestId": "cassava_brown_streak_disease",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Another viral disease transmitted by whiteflies. Causes yellowing along leaf veins, brown streaks on stems, and necrotic lesions in tubers, making them inedible.",
+        "ur": "ایک اور وائرل بیماری جو سفید مکھیوں سے پھیلتی ہے۔ پتوں کی رگوں کے ساتھ پیلا پن، تنوں پر بھوری دھاریاں اور جڑوں میں نیکروٹک زخم کا سبب بنتی ہے، جس سے وہ کھانے کے قابل نہیں رہتیں۔",
+        "ar": "مرض فيروسي آخر ينتقل عن طريق الذباب الأبيض. يسبب اصفرارًا على طول عروق الأوراق، وخطوطًا بنية على السيقان، وآفات نخرية في الدرنات، مما يجعلها غير صالحة للأكل.",
+        "fr": "Une autre maladie virale transmise par les aleurodes. Provoque un jaunissement le long des nervures des feuilles, des stries brunes sur les tiges et des lésions nécrotiques dans les tubercules, les rendant immangeables."
+      }
+    },
+    {
+      "pestId": "anthracnose",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "20-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing dark, sunken lesions on leaves, petioles, and stems, often leading to dieback of young shoots and reduced plant vigor.",
+        "ur": "فنگل بیماری جو پتوں، پتوں کے ڈنٹھل اور تنوں پر گہرے، دھنسے ہوئے زخموں کا سبب بنتی ہے، اکثر نوجوان شاخوں کے مرنے اور پودے کی طاقت میں کمی کا باعث بنتی ہے۔",
+        "ar": "مرض فطري يسبب آفات داكنة وغائرة على الأوراق، والأعناق، والسيقان، مما يؤدي غالبًا إلى موت البراعم الصغيرة وتقليل حيوية النبات.",
+        "fr": "Maladie fongique provoquant des lésions sombres et enfoncées sur les feuilles, les pétioles et les tiges, entraînant souvent le dépérissement des jeunes pousses et une vigueur réduite de la plante."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by various fungi in waterlogged or poorly drained soils. Symptoms include yellowing, wilting, stunted growth, and soft, rotten tubers.",
+        "ur": "پانی سے بھری یا ناقص نکاسی والی مٹی میں مختلف فنگس کی وجہ سے ہوتا ہے۔ علامات میں پیلا پن، مرجھانا، نشوونما کا رک جانا اور نرم، گلی ہوئی جڑیں شامل ہیں۔",
+        "ar": "تسببه فطريات مختلفة في التربة المشبعة بالمياه أو سيئة التصريف. تشمل الأعراض الاصفرار، والذبول، وتوقف النمو، والدرنات اللينة المتعفنة.",
+        "fr": "Causé par divers champignons dans les sols gorgés d'eau ou mal drainés. Les symptômes incluent le jaunissement, le flétrissement, le retard de croissance et des tubercules mous et pourris."
+      }
+    },
+    {
+      "pestId": "cassava_mealybug",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, white, waxy insects that suck sap from young shoots and leaves, causing stunted growth, leaf distortion, and a 'bunchy top' appearance. Can lead to severe yield loss.",
+        "ur": "چھوٹے، سفید، مومی کیڑے جو نوجوان شاخوں اور پتوں سے رس چوستے ہیں، جس سے نشوونما رک جاتی ہے، پتوں میں بگاڑ اور 'گچھے دار اوپر' کی شکل پیدا ہوتی ہے۔ شدید پیداوار میں کمی کا باعث بن سکتا ہے۔",
+        "ar": "حشرات صغيرة بيضاء شمعية تمتص العصارة من البراعم والأوراق الصغيرة، مما يسبب توقف النمو، وتشوه الأوراق، ومظهر 'القمة المتكتلة'. يمكن أن يؤدي إلى خسارة كبيرة في المحصول.",
+        "fr": "Petits insectes blancs et cireux qui sucent la sève des jeunes pousses et des feuilles, provoquant un retard de croissance, une déformation des feuilles et un aspect 'en touffe'. Peut entraîner de graves pertes de rendement."
+      }
+    },
+    {
+      "pestId": "cassava_green_mite",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">28"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny mites that feed on the underside of young leaves, causing chlorosis (yellowing), leaf distortion, and reduced leaf size, severely impacting photosynthesis and tuber yield.",
+        "ur": "چھوٹے کیڑے جو نوجوان پتوں کے نیچے سے کھاتے ہیں، جس سے کلوروسس (پیلا پن)، پتوں میں بگاڑ اور پتوں کا سائز کم ہو جاتا ہے، جو ضیائی تالیف اور جڑوں کی پیداوار کو شدید متاثر کرتا ہے۔",
+        "ar": "عث صغير يتغذى على الجانب السفلي من الأوراق الصغيرة، مما يسبب الاصفرار، وتشوه الأوراق، وتقليل حجم الأوراق، مما يؤثر بشدة على التمثيل الضوئي وإنتاج الدرنات.",
+        "fr": "Minuscules acariens qui se nourrissent du dessous des jeunes feuilles, provoquant la chlorose (jaunissement), la déformation des feuilles et une réduction de leur taille, affectant gravement la photosynthèse et le rendement en tubercules."
+      }
+    },
+    {
+      "pestId": "whiteflies",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, white, winged insects that suck sap and are primary vectors for Cassava Mosaic Disease and Cassava Brown Streak Disease. Can also cause sooty mold.",
+        "ur": "چھوٹے، سفید، پروں والے کیڑے جو رس چوستے ہیں اور کسوا موزیک بیماری اور کسوا براؤن اسٹریک بیماری کے بنیادی ویکٹر ہیں۔ یہ کالی پھپھوندی کا بھی سبب بن سکتے ہیں۔",
+        "ar": "حشرات صغيرة بيضاء مجنحة تمتص العصارة وهي النواقل الرئيسية لمرض فسيفساء الكاسافا ومرض تبرقش الكاسافا البني. يمكن أن تسبب أيضًا العفن السخامي.",
+        "fr": "Minuscules insectes blancs ailés qui sucent la sève et sont les principaux vecteurs de la maladie de la mosaïque du manioc et de la maladie de la striure brune du manioc. Peuvent également provoquer la fumagine."
+      }
+    },
+    {
+      "pestId": "termites",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Can cause significant damage by boring into the stems and tubers, leading to plant death or rendering tubers unmarketable. More prevalent in dry conditions.",
+        "ur": "تنوں اور جڑوں میں سوراخ کر کے نمایاں نقصان پہنچا سکتے ہیں، جس سے پودا مر جاتا ہے یا جڑیں ناقابل فروخت ہو جاتی ہیں۔ خشک حالات میں زیادہ عام ہیں۔",
+        "ar": "يمكن أن تسبب أضرارًا كبيرة عن طريق حفر الأنفاق في السيقان والدرنات، مما يؤدي إلى موت النبات أو جعل الدرنات غير قابلة للتسويق. أكثر انتشارًا في الظروف الجافة.",
+        "fr": "Peuvent causer des dommages importants en forant dans les tiges et les tubercules, entraînant la mort de la plante ou rendant les tubercules invendables. Plus répandus dans les conditions sèches."
+      }
+    },
+    {
+      "pestId": "grasshoppers_locusts",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Chewing insects that can defoliate young cassava plants, especially during outbreaks, severely impacting growth and future tuber development.",
+        "ur": "چبانے والے کیڑے جو نوجوان کسوا کے پودوں کے پتے کھا سکتے ہیں، خاص طور پر وبائی امراض کے دوران، نشوونما اور مستقبل کی جڑوں کی نشوونما کو شدید متاثر کرتے ہیں۔",
+        "ar": "حشرات قارضة يمكن أن تتسبب في تساقط أوراق نباتات الكاسافا الصغيرة، خاصة أثناء التفشيات، مما يؤثر بشدة على النمو وتطور الدرنات في المستقبل.",
+        "fr": "Insectes broyeurs qui peuvent défolier les jeunes plants de manioc, surtout lors des épidémies, affectant gravement la croissance et le développement futur des tubercules."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 240,
+    "firstHarvestDayMax": 365,
+    "continuousHarvest": true,
+    "harvestWindowDays": 180,
+    "readinessSigns": [
+      {
+        "en": "Tubers are firm and well-sized (check a test plant)",
+        "ur": "جڑیں مضبوط اور مناسب سائز کی ہوں (ایک ٹیسٹ پودے کی جانچ کریں)",
+        "ar": "الدرنات صلبة وذات حجم جيد (افحص نباتًا تجريبيًا)",
+        "fr": "Les tubercules sont fermes et de bonne taille (vérifier une plante test)"
+      },
+      {
+        "en": "Lower leaves may start to yellow and drop",
+        "ur": "نیچے کے پتے پیلے ہو کر گرنا شروع ہو سکتے ہیں",
+        "ar": "قد تبدأ الأوراق السفلية بالاصفرار والتساقط",
+        "fr": "Les feuilles inférieures peuvent commencer à jaunir et à tomber"
+      },
+      {
+        "en": "Plant has reached desired maturity (8-12 months for most varieties)",
+        "ur": "پودا مطلوبہ پختگی کو پہنچ گیا ہو (زیادہ تر اقسام کے لیے 8-12 ماہ)",
+        "ar": "وصل النبات إلى النضج المطلوب (8-12 شهرًا لمعظم الأصناف)",
+        "fr": "La plante a atteint la maturité souhaitée (8-12 mois pour la plupart des variétés)"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Loosen soil around the base and gently pull the stem to lift tubers. Be careful not to damage them.",
+        "ur": "جڑوں کے گرد مٹی کو ڈھیلا کریں اور جڑوں کو اٹھانے کے لیے تنے کو آہستہ سے کھینچیں۔ انہیں نقصان نہ پہنچانے کا خیال رکھیں۔",
+        "ar": "فك التربة حول القاعدة واسحب الساق برفق لرفع الدرنات. كن حذرًا لعدم إتلافها.",
+        "fr": "Desserrez le sol autour de la base et tirez doucement sur la tige pour soulever les tubercules. Faites attention à ne pas les endommager."
+      },
+      "INTERMEDIATE": {
+        "en": "Use a digging fork or spade to carefully loosen the soil around the plant, then lift the entire root ball to expose tubers.",
+        "ur": "پودے کے گرد مٹی کو احتیاط سے ڈھیلا کرنے کے لیے کھدائی کا کانٹا یا بیلچہ استعمال کریں، پھر جڑوں کو ظاہر کرنے کے لیے پوری جڑ کی گیند کو اٹھائیں۔",
+        "ar": "استخدم شوكة حفر أو مجرفة لتفكيك التربة حول النبات بعناية، ثم ارفع كرة الجذر بأكملها لكشف الدرنات.",
+        "fr": "Utilisez une fourche à bêcher ou une bêche pour ameublir soigneusement le sol autour de la plante, puis soulevez toute la motte pour exposer les tubercules."
+      },
+      "EXPERT": {
+        "en": "Harvest selectively by digging up individual tubers as needed, leaving the rest of the plant to continue growing for later harvest.",
+        "ur": "ضرورت کے مطابق انفرادی جڑوں کو کھود کر منتخب طور پر کٹائی کریں، باقی پودے کو بعد میں کٹائی کے لیے بڑھنے دیں۔",
+        "ar": "احصد بشكل انتقائي عن طريق حفر الدرنات الفردية حسب الحاجة، مع ترك بقية النبات لينمو للاستفادة منه لاحقًا.",
+        "fr": "Récoltez sélectivement en déterrant les tubercules individuels au besoin, laissant le reste de la plante continuer à pousser pour une récolte ultérieure."
+      }
+    },
+    "storage": {
+      "en": "Fresh cassava has a short shelf life (2-3 days) at room temperature. For longer storage, peel, cut, and freeze, or process into flour.",
+      "ur": "تازہ کسوا کی کمرے کے درجہ حرارت پر شیلف لائف کم ہوتی ہے (2-3 دن)۔ طویل ذخیرہ کے لیے، چھیل کر، کاٹ کر منجمد کریں، یا آٹے میں پروسیس کریں۔",
+      "ar": "الكاسافا الطازجة لها مدة صلاحية قصيرة (2-3 أيام) في درجة حرارة الغرفة. للتخزين الأطول، قشرها، قطعها، جمدها، أو حولها إلى دقيق.",
+      "fr": "Le manioc frais a une courte durée de conservation (2-3 jours) à température ambiante. Pour un stockage plus long, épluchez, coupez et congelez, ou transformez en farine."
+    },
+    "yieldEstimateKg": {
+      "10L": 1,
+      "20L": 2,
+      "30L": 3,
+      "GROUND": 5
+    }
+  }
+}

@@ -1,0 +1,1249 @@
+{
+  "id": "celeriac",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1619566580983-04918e24482e?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Celeriac",
+      "alternate": [
+        "Celery Root",
+        "Turnip-rooted Celery",
+        "Knob Celery"
+      ]
+    },
+    "ur": {
+      "common": "سیلیریک",
+      "alternate": [
+        "اجوائن کی جڑ"
+      ]
+    },
+    "ar": {
+      "common": "كرفس لفتي",
+      "alternate": [
+        "جذر الكرفس"
+      ]
+    },
+    "fr": {
+      "common": "Céleri-rave",
+      "alternate": [
+        "Céleri-navet"
+      ]
+    },
+    "botanical": "Apium graveolens var. rapaceum",
+    "aliases": [
+      "celery root",
+      "turnip-rooted celery",
+      "knob celery",
+      "céleri-rave",
+      "kervas lafti",
+      "ajwain ki jar"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "root",
+  "germinationDays": 14,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [],
+  "metadata": {
+    "growthHabits": {}
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "root-vegetable",
+    "long-season",
+    "container-friendly"
+  ],
+  "temperature": {
+    "optimalMinC": 13,
+    "optimalMaxC": 21,
+    "survivalMinC": -4,
+    "survivalMaxC": 27,
+    "germinationMinC": 10,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 25,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 100,
+    "requiredGDD": 1000,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 13
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 27,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent and Moderate",
+    "soilMoisturePreference": "Consistently moist, but not soggy",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "high",
+    "rootRotRisk": "Medium if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "stunted growth",
+      "tough roots",
+      "splitting roots"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or consistent soil watering",
+    "thingsToAvoid": [
+      "letting soil dry out completely",
+      "standing water",
+      "overhead watering in high humidity"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow to medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Requires consistent moisture and good drainage.",
+        "ur": "مسلسل نمی اور اچھی نکاسی آب کی ضرورت ہے۔",
+        "ar": "يتطلب رطوبة مستمرة وصرفًا جيدًا.",
+        "fr": "Nécessite une humidité constante et un bon drainage."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric bags help with aeration but dry out faster.",
+        "ur": "کپڑے کے تھیلے ہوا کی گردش میں مدد کرتے ہیں لیکن تیزی سے خشک ہوتے ہیں۔",
+        "ar": "الأكياس القماشية تساعد في التهوية ولكنها تجف أسرع.",
+        "fr": "Les sacs en tissu favorisent l'aération mais sèchent plus vite."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Ensure rich, well-drained soil.",
+        "ur": "یقینی بنائیں کہ مٹی زرخیز اور اچھی نکاسی والی ہو۔",
+        "ar": "تأكد من تربة غنية جيدة التصريف.",
+        "fr": "Assurez-vous d'un sol riche et bien drainé."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Ideal for controlling soil conditions and drainage.",
+        "ur": "مٹی کی حالت اور نکاسی آب کو کنٹرول کرنے کے لیے مثالی۔",
+        "ar": "مثالي للتحكم في ظروف التربة والصرف.",
+        "fr": "Idéal pour contrôler les conditions du sol et le drainage."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "90-120 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 21,
+      "description": {
+        "en": "Start celeriac seeds indoors",
+        "ur": "سیلرییک کے بیج گھر کے اندر بوئیں",
+        "ar": "ابدأ بذور الكرفس اللفتي في الداخل",
+        "fr": "Semer les graines de céleri-rave à l'intérieur"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Celeriac seeds are tiny and require light to germinate. Do not bury them too deep.",
+          "ur": "سیلرییک کے بیج بہت چھوٹے ہوتے ہیں اور انکرن کے لیے روشنی کی ضرورت ہوتی ہے۔ انہیں زیادہ گہرا نہ دفن کریں۔",
+          "ar": "بذور الكرفس اللفتي صغيرة جدًا وتتطلب الضوء للإنبات. لا تدفنها عميقًا جدًا.",
+          "fr": "Les graines de céleri-rave sont minuscules et nécessitent de la lumière pour germer. Ne les enterrez pas trop profondément."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use a fine seed-starting mix in trays.",
+              "ur": "ٹریوں میں باریک بیج بونے والا مکس استعمال کریں",
+              "ar": "استخدم خليط بذور ناعم في الصواني",
+              "fr": "Utilisez un terreau fin pour semis dans des barquettes"
+            },
+            "INTERMEDIATE": {
+              "en": "Sterilize seed-starting mix to prevent damping-off.",
+              "ur": "بیج بونے والے مکس کو جراثیم سے پاک کریں",
+              "ar": "عقم خليط البذور لمنع الذبول",
+              "fr": "Stérilisez le terreau pour semis"
+            },
+            "EXPERT": {
+              "en": "Prepare a custom mix with vermiculite for drainage.",
+              "ur": "نکاسی کے لیے ورمیکولائٹ کے ساتھ ایک کسٹم مکس تیار کریں",
+              "ar": "جهز خليطًا مخصصًا مع الفيرميكوليت للتصريف",
+              "fr": "Préparez un mélange personnalisé avec de la vermiculite"
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Scatter tiny seeds thinly on the surface of the soil.",
+              "ur": "چھوٹے بیجوں کو مٹی کی سطح پر پتلا بکھیر دیں",
+              "ar": "انثر البذور الصغيرة برفق على سطح التربة",
+              "fr": "Dispersez finement les petites graines à la surface du sol"
+            },
+            "INTERMEDIATE": {
+              "en": "Lightly press seeds into the surface, do not cover.",
+              "ur": "بیجوں کو سطح پر ہلکا سا دبائیں، ڈھانپیں نہیں",
+              "ar": "اضغط البذور برفق على السطح، لا تغطها",
+              "fr": "Appuyez légèrement les graines à la surface, ne couvrez pas"
+            },
+            "EXPERT": {
+              "en": "Ensure even distribution and good seed-to-soil contact.",
+              "ur": "یکساں تقسیم اور بیج سے مٹی کے اچھے رابطے کو یقینی بنائیں",
+              "ar": "تأكد من التوزيع المتساوي والتلامس الجيد بين البذور والتربة",
+              "fr": "Assurez une distribution uniforme et un bon contact graine-sol"
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny sprouts emerging.",
+              "ur": "چھوٹی کونپلیں نکلنے کی جانچ کریں",
+              "ar": "تحقق من ظهور البراعم الصغيرة",
+              "fr": "Vérifiez l'apparition de minuscules pousses"
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for consistent moisture and signs of germination.",
+              "ur": "مستقل نمی اور انکرن کی علامات کی نگرانی کریں",
+              "ar": "راقب الرطوبة المستمرة وعلامات الإنبات",
+              "fr": "Surveillez l'humidité constante et les signes de germination"
+            },
+            "EXPERT": {
+              "en": "Assess germination rate and uniformity across trays.",
+              "ur": "ٹریوں میں انکرن کی شرح اور یکسانیت کا اندازہ لگائیں",
+              "ar": "قيم معدل الإنبات والتوحيد عبر الصواني",
+              "fr": "Évaluez le taux et l'uniformité de la germination"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 50,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface daily to keep it moist.",
+              "ur": "مٹی کی سطح کو روزانہ نم رکھنے کے لیے چھڑکاؤ کریں",
+              "ar": "رش سطح التربة يوميًا للحفاظ عليها رطبة",
+              "fr": "Vaporisez la surface du sol quotidiennement pour la maintenir humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fine mist sprayer to avoid disturbing seeds.",
+              "ur": "بیجوں کو پریشان کیے بغیر باریک چھڑکاؤ والا سپرے استعمال کریں",
+              "ar": "استخدم بخاخ رذاذ ناعم لتجنب إزعاج البذور",
+              "fr": "Utilisez un pulvérisateur à brouillard fin pour ne pas déranger les graines"
+            },
+            "EXPERT": {
+              "en": "Maintain consistent humidity with a dome or cover.",
+              "ur": "ڈوم یا کور کے ساتھ مستقل نمی برقرار رکھیں",
+              "ar": "حافظ على رطوبة ثابتة بغطاء أو قبة",
+              "fr": "Maintenez une humidité constante avec un dôme ou un couvercle"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 18,
+      "description": {
+        "en": "Tiny celeriac sprouts emerge",
+        "ur": "سیلرییک کی چھوٹی کونپلیں نکلتی ہیں",
+        "ar": "تظهر براعم الكرفس اللفتي الصغيرة",
+        "fr": "De minuscules pousses de céleri-rave émergent"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Provide adequate light immediately after germination to prevent leggy seedlings.",
+          "ur": "کونپلیں نکلنے کے فوراً بعد مناسب روشنی فراہم کریں تاکہ پودے لمبے نہ ہوں",
+          "ar": "وفر إضاءة كافية فور الإنبات لمنع الشتلات من أن تصبح ضعيفة وطويلة.",
+          "fr": "Fournissez une lumière adéquate immédiatement après la germination pour éviter les semis étiolés."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to keep the soil consistently moist.",
+              "ur": "مٹی کو مسلسل نم رکھنے کے لیے آہستہ سے پانی دیں",
+              "ar": "اسقِ بلطف للحفاظ على التربة رطبة باستمرار",
+              "fr": "Arrosez doucement pour maintenir le sol constamment humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Use bottom watering to avoid disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر نیچے سے پانی دیں",
+              "ar": "استخدم الري من الأسفل لتجنب إزعاج البراعم الرقيقة",
+              "fr": "Utilisez l'arrosage par le bas pour ne pas déranger les jeunes pousses délicates"
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels closely to prevent drying out or waterlogging.",
+              "ur": "مٹی کی نمی کی سطح کو قریب سے مانیٹر کریں تاکہ خشک ہونے یا پانی بھرنے سے بچا جا سکے",
+              "ar": "راقب مستويات رطوبة التربة عن كثب لمنع الجفاف أو التشبع بالمياه",
+              "fr": "Surveillez attentivement les niveaux d'humidité du sol pour éviter le dessèchement ou l'engorgement"
+            }
+          }
+        },
+        "lightProvision": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Place trays under grow lights or in a very bright window.",
+              "ur": "ٹریوں کو گرو لائٹس کے نیچے یا بہت روشن کھڑکی میں رکھیں",
+              "ar": "ضع الصواني تحت أضواء النمو أو في نافذة مشرقة جدًا",
+              "fr": "Placez les barquettes sous des lampes de croissance ou près d'une fenêtre très lumineuse"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure 14-16 hours of light per day for strong growth.",
+              "ur": "مضبوط نشوونما کے لیے روزانہ 14-16 گھنٹے روشنی یقینی بنائیں",
+              "ar": "تأكد من 14-16 ساعة من الضوء يوميًا لنمو قوي",
+              "fr": "Assurez 14 à 16 heures de lumière par jour pour une croissance vigoureuse"
+            },
+            "EXPERT": {
+              "en": "Adjust light intensity and distance to prevent stretching.",
+              "ur": "کھینچنے سے بچنے کے لیے روشنی کی شدت اور فاصلے کو ایڈجسٹ کریں",
+              "ar": "اضبط شدة الضوء والمسافة لمنع التمدد",
+              "fr": "Ajustez l'intensité et la distance de la lumière pour éviter l'étiolement"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "True leaves develop, prepare for transplant",
+        "ur": "حقیقی پتے بنتے ہیں، پودے لگانے کی تیاری کریں",
+        "ar": "تتطور الأوراق الحقيقية، استعد للزرع",
+        "fr": "Les vraies feuilles se développent, préparez-vous à la transplantation"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Celeriac seedlings are delicate. Handle them carefully during thinning and transplanting.",
+          "ur": "سیلرییک کے پودے نازک ہوتے ہیں۔ انہیں پتلا کرتے اور لگاتے وقت احتیاط سے سنبھالیں۔",
+          "ar": "شتلات الكرفس اللفتي حساسة. تعامل معها بحذر أثناء التخفيف والزرع.",
+          "fr": "Les jeunes plants de céleri-rave sont délicats. Manipulez-les avec soin lors de l'éclaircissage et de la transplantation."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 1 inch apart once they have true leaves.",
+              "ur": "جب پودوں پر حقیقی پتے آ جائیں تو انہیں 1 انچ کے فاصلے پر پتلا کریں",
+              "ar": "خفف الشتلات لتصبح بمسافة 1 بوصة بمجرد ظهور الأوراق الحقيقية",
+              "fr": "Éclaircissez les semis à 2,5 cm d'intervalle une fois qu'ils ont de vraies feuilles"
+            },
+            "INTERMEDIATE": {
+              "en": "Snip weaker seedlings at the soil line to avoid disturbing roots.",
+              "ur": "جڑوں کو پریشان کیے بغیر کمزور پودوں کو مٹی کی سطح پر کاٹ دیں",
+              "ar": "اقطع الشتلات الأضعف عند خط التربة لتجنب إزعاج الجذور",
+              "fr": "Coupez les semis les plus faibles au niveau du sol pour éviter de perturber les racines"
+            },
+            "EXPERT": {
+              "en": "Select the strongest, most vigorous seedlings for optimal growth.",
+              "ur": "بہترین نشوونما کے لیے سب سے مضبوط، توانا پودوں کا انتخاب کریں",
+              "ar": "اختر أقوى الشتلات وأكثرها حيوية للنمو الأمثل",
+              "fr": "Sélectionnez les semis les plus forts et les plus vigoureux pour une croissance optimale"
+            }
+          }
+        },
+        "transplant": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully move seedlings to individual cells or small pots.",
+              "ur": "پودوں کو احتیاط سے انفرادی خلیوں یا چھوٹے گملوں میں منتقل کریں",
+              "ar": "انقل الشتلات بعناية إلى خلايا فردية أو أواني صغيرة",
+              "fr": "Déplacez délicatement les semis dans des alvéoles individuelles ou de petits pots"
+            },
+            "INTERMEDIATE": {
+              "en": "Handle seedlings by their leaves, not stems, to prevent damage.",
+              "ur": "نقصان سے بچنے کے لیے پودوں کو پتوں سے پکڑیں، تنوں سے نہیں",
+              "ar": "امسك الشتلات من أوراقها، وليس سيقانها، لمنع التلف",
+              "fr": "Manipulez les semis par leurs feuilles, pas par leurs tiges, pour éviter les dommages"
+            },
+            "EXPERT": {
+              "en": "Ensure minimal root disturbance during pricking out and potting up.",
+              "ur": "پودے لگاتے وقت جڑوں کو کم سے کم پریشان کریں",
+              "ar": "تأكد من الحد الأدنى من اضطراب الجذور أثناء النقل والزرع",
+              "fr": "Assurez une perturbation minimale des racines lors du repiquage et du rempotage"
+            }
+          }
+        },
+        "hardeningOff": {
+          "required": true,
+          "dayOffset": 35,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gradually expose seedlings to outdoor conditions for a week before planting.",
+              "ur": "پودے لگانے سے پہلے ایک ہفتے تک پودوں کو آہستہ آہستہ بیرونی حالات میں رکھیں",
+              "ar": "عرض الشتلات تدريجياً للظروف الخارجية لمدة أسبوع قبل الزراعة",
+              "fr": "Exposez progressivement les semis aux conditions extérieures pendant une semaine avant de planter"
+            },
+            "INTERMEDIATE": {
+              "en": "Increase exposure time daily, bringing them in at night.",
+              "ur": "روزانہ بیرونی وقت بڑھائیں، رات کو اندر لے آئیں",
+              "ar": "زد من وقت التعرض يوميًا، وأدخلها في الليل",
+              "fr": "Augmentez le temps d'exposition quotidiennement, en les rentrant la nuit"
+            },
+            "EXPERT": {
+              "en": "Monitor for stress signs like wilting; adjust exposure as needed.",
+              "ur": "مرجھانے جیسے تناؤ کی علامات کی نگرانی کریں؛ ضرورت کے مطابق نمائش کو ایڈجسٹ کریں",
+              "ar": "راقب علامات الإجهاد مثل الذبول؛ اضبط التعرض حسب الحاجة",
+              "fr": "Surveillez les signes de stress comme le flétrissement ; ajustez l'exposition si nécessaire"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the seedlings, keeping soil moist.",
+              "ur": "پودوں کی جڑوں میں پانی دیں، مٹی کو نم رکھیں",
+              "ar": "اسقِ قاعدة الشتلات، مع الحفاظ على رطوبة التربة",
+              "fr": "Arrosez à la base des semis, en gardant le sol humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Allow the top inch of soil to dry slightly between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کی اوپری انچ کو تھوڑا خشک ہونے دیں",
+              "ar": "دع البوصة العلوية من التربة تجف قليلاً بين الريات",
+              "fr": "Laissez le pouce supérieur du sol sécher légèrement entre les arrosages"
+            },
+            "EXPERT": {
+              "en": "Ensure good drainage to prevent root rot in pots.",
+              "ur": "گملوں میں جڑوں کے گلنے سے بچنے کے لیے اچھی نکاسی کو یقینی بنائیں",
+              "ar": "تأكد من التصريف الجيد لمنع تعفن الجذور في الأواني",
+              "fr": "Assurez un bon drainage pour éviter la pourriture des racines dans les pots"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 70,
+      "durationDaysCool": 110,
+      "description": {
+        "en": "Corm development and rapid leaf growth",
+        "ur": "کرم کی نشوونما اور پتوں کی تیزی سے بڑھوتری",
+        "ar": "تطور الكورم ونمو الأوراق السريع",
+        "fr": "Développement du bulbe et croissance rapide des feuilles"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Consistent moisture is critical for celeriac to develop large, tender corms. Avoid fluctuations.",
+          "ur": "بڑے، نرم کرم کی نشوونما کے لیے سیلرییک کے لیے مستقل نمی بہت ضروری ہے۔ اتار چڑھاؤ سے بچیں۔",
+          "ar": "الرطوبة المستمرة ضرورية للكرفس اللفتي لتطوير كورمات كبيرة وطرية. تجنب التقلبات.",
+          "fr": "Une humidité constante est essentielle pour que le céleri-rave développe de gros bulbes tendres. Évitez les fluctuations."
+        },
+        {
+          "en": "Remove outer leaves or 'hill up' soil around the base to encourage corm swelling and prevent greening.",
+          "ur": "باہر کے پتے ہٹا دیں یا کرم کے پھولنے اور سبز ہونے سے بچنے کے لیے جڑ کے گرد مٹی چڑھائیں",
+          "ar": "أزل الأوراق الخارجية أو 'كوم' التربة حول القاعدة لتشجيع انتفاخ الكورم ومنع الاخضرار.",
+          "fr": "Retirez les feuilles extérieures ou 'buttez' la terre autour de la base pour favoriser le gonflement du bulbe et éviter le verdissement."
+        }
+      ],
+      "tasks": {
+        "transplantOutdoors": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 25,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant hardened-off seedlings 10-12 inches apart in rich soil.",
+              "ur": "سخت کیے ہوئے پودوں کو 10-12 انچ کے فاصلے پر زرخیز مٹی میں لگائیں",
+              "ar": "ازرع الشتلات المقساة على بعد 10-12 بوصة في تربة غنية",
+              "fr": "Plantez les semis endurcis à 25-30 cm d'intervalle dans un sol riche"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure the crown of the plant is at soil level, not buried.",
+              "ur": "یقینی بنائیں کہ پودے کا تاج مٹی کی سطح پر ہو، دفن نہ ہو",
+              "ar": "تأكد من أن تاج النبات على مستوى التربة، وليس مدفونًا",
+              "fr": "Assurez-vous que le collet de la plante est au niveau du sol, non enterré"
+            },
+            "EXPERT": {
+              "en": "Prepare beds with ample organic matter and good drainage.",
+              "ur": "کافی نامیاتی مادے اور اچھی نکاسی کے ساتھ بستر تیار کریں",
+              "ar": "جهز الأسرة بكمية وافرة من المواد العضوية والتصريف الجيد",
+              "fr": "Préparez les plates-bandes avec beaucoup de matière organique et un bon drainage"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently, especially during dry spells.",
+              "ur": "خاص طور پر خشک موسم میں گہرا اور مسلسل پانی دیں",
+              "ar": "اسقِ بعمق وباستمرار، خاصة خلال فترات الجفاف",
+              "fr": "Arrosez profondément et régulièrement, surtout pendant les périodes sèches"
+            },
+            "INTERMEDIATE": {
+              "en": "Aim for 1-1.5 inches of water per week, including rainfall.",
+              "ur": "بارش سمیت فی ہفتہ 1-1.5 انچ پانی کا ہدف رکھیں",
+              "ar": "استهدف 1-1.5 بوصة من الماء أسبوعيًا، بما في ذلك الأمطار",
+              "fr": "Visez 2,5 à 4 cm d'eau par semaine, y compris les précipitations"
+            },
+            "EXPERT": {
+              "en": "Use drip irrigation for efficient, consistent moisture delivery.",
+              "ur": "موثر، مستقل نمی کی فراہمی کے لیے ڈرپ ایریگیشن استعمال کریں",
+              "ar": "استخدم الري بالتنقيط لتوصيل رطوبة فعال ومتسق",
+              "fr": "Utilisez l'irrigation goutte à goutte pour un apport d'humidité efficace et constant"
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer every 3 weeks.",
+              "ur": "ہر 3 ہفتوں میں متوازن مائع کھاد استعمال کریں",
+              "ar": "ضع سمادًا سائلًا متوازنًا كل 3 أسابيع",
+              "fr": "Appliquez un engrais liquide équilibré toutes les 3 semaines"
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fertilizer rich in potassium for root development.",
+              "ur": "جڑوں کی نشوونما کے لیے پوٹاشیم سے بھرپور کھاد استعمال کریں",
+              "ar": "استخدم سمادًا غنيًا بالبوتاسيوم لتنمية الجذور",
+              "fr": "Utilisez un engrais riche en potassium pour le développement des racines"
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests to tailor nutrient application precisely.",
+              "ur": "غذائی اجزاء کی درست استعمال کے لیے مٹی کے ٹیسٹ کریں",
+              "ar": "قم بإجراء اختبارات التربة لتخصيص تطبيق المغذيات بدقة",
+              "fr": "Effectuez des analyses de sol pour adapter précisément l'apport de nutriments"
+            }
+          }
+        },
+        "cormCare": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently remove any small side shoots or outer leaves that touch the soil.",
+              "ur": "کسی بھی چھوٹی شاخوں یا بیرونی پتوں کو جو مٹی کو چھو رہے ہوں، آہستہ سے ہٹا دیں",
+              "ar": "أزل برفق أي براعم جانبية صغيرة أو أوراق خارجية تلامس التربة",
+              "fr": "Retirez délicatement les petites pousses latérales ou les feuilles extérieures qui touchent le sol"
+            },
+            "INTERMEDIATE": {
+              "en": "Trim lower leaves to expose the developing corm to light.",
+              "ur": "بڑھتے ہوئے کرم کو روشنی میں لانے کے لیے نچلے پتوں کو کاٹ دیں",
+              "ar": "قص الأوراق السفلية لتعريض الكورم النامي للضوء",
+              "fr": "Taillez les feuilles inférieures pour exposer le bulbe en développement à la lumière"
+            },
+            "EXPERT": {
+              "en": "Practice 'earthing up' or 'hilling' to protect the corm from greening and pests.",
+              "ur": "کرم کو سبز ہونے اور کیڑوں سے بچانے کے لیے 'مٹی چڑھانے' کا عمل کریں",
+              "ar": "مارس 'التغطية بالتراب' أو 'التكويم' لحماية الكورم من الاخضرار والآفات",
+              "fr": "Pratiquez le 'buttage' pour protéger le bulbe du verdissement et des parasites"
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids and slugs; remove manually or use organic spray.",
+              "ur": "ایفڈز اور سلگس کی جانچ کریں؛ دستی طور پر ہٹائیں یا نامیاتی سپرے استعمال کریں",
+              "ar": "تحقق من وجود المن والرخويات؛ أزلها يدويًا أو استخدم رذاذًا عضويًا",
+              "fr": "Vérifiez la présence de pucerons et de limaces ; retirez-les manuellement ou utilisez un spray bio"
+            },
+            "INTERMEDIATE": {
+              "en": "Apply diatomaceous earth around plants to deter slugs.",
+              "ur": "سلگس کو روکنے کے لیے پودوں کے گرد ڈائیٹومیشس ارتھ لگائیں",
+              "ar": "ضع تراب الدياتومي حول النباتات لردع الرخويات",
+              "fr": "Appliquez de la terre de diatomées autour des plantes pour repousser les limaces"
+            },
+            "EXPERT": {
+              "en": "Implement integrated pest management (IPM) strategies.",
+              "ur": "مربوط کیڑوں کے انتظام (IPM) کی حکمت عملیوں کو نافذ کریں",
+              "ar": "نفذ استراتيجيات الإدارة المتكاملة للآفات (IPM)",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée contre les ravageurs (IPM)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Celeriac corms are mature and ready for harvest",
+        "ur": "سیلرییک کے کرم پختہ اور کٹائی کے لیے تیار ہیں",
+        "ar": "كورمات الكرفس اللفتي ناضجة وجاهزة للحصاد",
+        "fr": "Les bulbes de céleri-rave sont matures et prêts à être récoltés"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Celeriac can tolerate light frost, which can even improve its flavor. Harvest before a hard freeze.",
+          "ur": "سیلرییک ہلکی ٹھنڈ کو برداشت کر سکتا ہے، جو اس کے ذائقے کو بھی بہتر بنا سکتی ہے۔ سخت ٹھنڈ سے پہلے کٹائی کریں۔",
+          "ar": "يمكن للكرفس اللفتي تحمل الصقيع الخفيف، مما قد يحسن نكهته. احصد قبل الصقيع الشديد.",
+          "fr": "Le céleri-rave peut tolérer un léger gel, ce qui peut même améliorer sa saveur. Récoltez avant un gel intense."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Dig up celeriac when the corms are 3-5 inches in diameter.",
+              "ur": "جب کرم 3-5 انچ قطر کے ہو جائیں تو سیلرییک کو کھود لیں",
+              "ar": "احفر الكرفس اللفتي عندما تكون الكورمات بقطر 3-5 بوصات",
+              "fr": "Déterrez le céleri-rave lorsque les bulbes mesurent 7-12 cm de diamètre"
+            },
+            "INTERMEDIATE": {
+              "en": "Use a garden fork to carefully loosen the soil around the corm.",
+              "ur": "کرم کے گرد مٹی کو احتیاط سے ڈھیلا کرنے کے لیے باغیچے کا کانٹا استعمال کریں",
+              "ar": "استخدم شوكة الحديقة لتفكيك التربة حول الكورم بعناية",
+              "fr": "Utilisez une fourche de jardin pour ameublir délicatement le sol autour du bulbe"
+            },
+            "EXPERT": {
+              "en": "Harvest before the first hard frost for best quality and storage.",
+              "ur": "بہترین معیار اور ذخیرہ کے لیے پہلی سخت ٹھنڈ سے پہلے کٹائی کریں",
+              "ar": "احصد قبل أول صقيع شديد للحصول على أفضل جودة وتخزين",
+              "fr": "Récoltez avant le premier gel intense pour une meilleure qualité et conservation"
+            }
+          }
+        },
+        "storagePrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Trim off leaves and roots, leaving about an inch of stem.",
+              "ur": "پتوں اور جڑوں کو کاٹ دیں، تقریباً ایک انچ تنا چھوڑ دیں",
+              "ar": "قص الأوراق والجذور، مع ترك حوالي بوصة من الساق",
+              "fr": "Coupez les feuilles et les racines, en laissant environ 2,5 cm de tige"
+            },
+            "INTERMEDIATE": {
+              "en": "Brush off excess soil; do not wash before storage.",
+              "ur": "اضافی مٹی کو صاف کریں؛ ذخیرہ کرنے سے پہلے نہ دھوئیں",
+              "ar": "نظف التربة الزائدة؛ لا تغسل قبل التخزين",
+              "fr": "Brossez l'excès de terre ; ne lavez pas avant le stockage"
+            },
+            "EXPERT": {
+              "en": "Store in a cool, dark, humid place like a root cellar or refrigerator.",
+              "ur": "ٹھنڈی، تاریک، نم جگہ جیسے روٹ سیلر یا ریفریجریٹر میں ذخیرہ کریں",
+              "ar": "خزن في مكان بارد، مظلم، رطب مثل قبو الجذور أو الثلاجة",
+              "fr": "Conservez dans un endroit frais, sombre et humide comme une cave à légumes ou un réfrigérateur"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3.7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة دون حرق الجذور الشابة الحساسة.",
+          "fr": "Donne un coup de pouce nutritif doux sans brûler les jeunes racines délicates."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست أو خليط النيتروجين العضوي",
+          "fr": "Thé de compost ou mélange d'azote organique"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو روث الدود في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de turricules de vers dans 3.7 litres d'eau pendant 24-48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Rich in Nitrogen, supports vigorous leaf and stem growth, essential for healthy root development.",
+          "ur": "یہ نائٹروجن سے بھرپور ہے، جو پودے کے پتوں اور تنے کی بہترین نشوونما کرتا ہے، جو جڑوں کی صحت مند نشوونما کے لیے ضروری ہے۔",
+          "ar": "غني بالنيتروجين، يدعم نمو الأوراق والسيقان القوي، وهو ضروري لتطور الجذور الصحية.",
+          "fr": "Riche en azote, soutient une croissance vigoureuse des feuilles et des tiges, essentielle pour un développement sain des racines."
+        }
+      },
+      "ROOT_DEVELOPMENT": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Farine d'os et cendres de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os et 1 cuillère à soupe de cendres de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts healthy root bulb formation and provides crucial nutrients for storage quality.",
+          "ur": "صحت مند جڑ کی تشکیل کو فروغ دیتا ہے اور ذخیرہ کرنے کے معیار کے لیے اہم غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يعزز تكوين جذور صحية ويوفر مغذيات حاسمة لجودة التخزين.",
+          "fr": "Stimule la formation d'un bulbe racinaire sain et fournit des nutriments essentiels pour la qualité de conservation."
+        }
+      },
+      "MATURATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal or Balanced Organic Root Fertilizer",
+          "ur": "کیلپ میل یا متوازن نامیاتی جڑ کی کھاد",
+          "ar": "وجبة عشب البحر أو سماد عضوي متوازن للجذور",
+          "fr": "Farine de varech ou engrais organique équilibré pour racines"
+        },
+        "preparation": {
+          "en": "Sprinkle 1 tablespoon of kelp meal around the base of the plant. Water immediately after applying.",
+          "ur": "پودے کی جڑوں کے گرد 1 چمچ کیلپ میل چھڑکیں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "انثر ملعقة كبيرة من وجبة عشب البحر حول قاعدة النبات. اسقِ الماء فورًا بعد التطبيق.",
+          "fr": "Saupoudrez 1 cuillère à soupe de farine de varech autour de la base de la plante. Arrosez immédiatement après l'application."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides trace minerals and potassium for robust root growth and improved flavor.",
+          "ur": "مضبوط جڑوں کی نشوونما اور بہتر ذائقے کے لیے ٹریس منرلز اور پوٹاشیم فراہم کرتا ہے۔",
+          "ar": "يوفر المعادن النادرة والبوتاسيوم لنمو جذور قوي ونكهة محسنة.",
+          "fr": "Fournit des oligo-éléments et du potassium pour une croissance racinaire robuste et une saveur améliorée."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-20-20 or 10-10-10)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-20-20 یا 10-10-10)",
+          "ar": "سماد NPK متوازن (مثل 20-20-20 أو 10-10-10)",
+          "fr": "NPK équilibré (ex: 20-20-20 ou 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 3.7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes vigorous foliage growth, which is crucial for developing a large celeriac root.",
+          "ur": "پتوں کی بھرپور نشوونما کو فروغ دیتا ہے، جو ایک بڑی سیلیریک جڑ کی نشوونما کے لیے اہم ہے۔",
+          "ar": "يعزز نمو الأوراق القوي، وهو أمر بالغ الأهمية لتطوير جذر الكرفس اللفتي الكبير.",
+          "fr": "Favorise une croissance vigoureuse du feuillage, essentielle pour développer une grosse racine de céleri-rave."
+        }
+      },
+      "ROOT_DEVELOPMENT": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium (e.g., 5-10-10 or 5-10-15)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم (مثلاً 5-10-10 یا 5-10-15)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10 أو 5-10-15)",
+          "fr": "Faible en azote, riche en phosphore/potassium (ex: 5-10-10 ou 5-10-15)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of granular fertilizer in 1 gallon of water. Mix well.",
+          "ur": "ایک چمچ دانے دار کھاد 4 لیٹر پانی میں حل کریں۔ اچھی طرح مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من السماد الحبيبي في 3.7 لتر من الماء. اخلط جيداً.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais granulaire dans 3.7 litres d'eau. Mélangez bien."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Shifts plant energy towards root development and bulb enlargement.",
+          "ur": "پودے کی توانائی کو جڑوں کی نشوونما اور بلب کے بڑے ہونے کی طرف منتقل کرتا ہے۔",
+          "ar": "يحول طاقة النبات نحو نمو الجذور وتضخم الدرنة.",
+          "fr": "Oriente l'énergie de la plante vers le développement des racines et l'élargissement du bulbe."
+        }
+      },
+      "MATURATION": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Potassium Sulfate (0-0-50) or similar high K",
+          "ur": "پوٹاشیم سلفیٹ (0-0-50) یا اسی طرح کا ہائی K",
+          "ar": "كبريتات البوتاسيوم (0-0-50) أو ما شابهها من الأسمدة عالية البوتاسيوم",
+          "fr": "Sulfate de potassium (0-0-50) ou similaire riche en K"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of Potassium Sulfate in 1 gallon of water. Mix well.",
+          "ur": "ایک چمچ پوٹاشیم سلفیٹ 4 لیٹر پانی میں حل کریں۔ اچھی طرح مکس کریں۔",
+          "ar": "أذب ملعقة صغيرة من كبريتات البوتاسيوم في 3.7 لتر من الماء. اخلط جيداً.",
+          "fr": "Dissolvez 1 cuillère à café de sulfate de potassium dans 3.7 litres d'eau. Mélangez bien."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Enhances root size, density, and improves storage quality and flavor.",
+          "ur": "جڑوں کے سائز، کثافت کو بڑھاتا ہے اور ذخیرہ کرنے کے معیار اور ذائقے کو بہتر بناتا ہے۔",
+          "ar": "يعزز حجم الجذور وكثافتها ويحسن جودة التخزين والنكهة.",
+          "fr": "Améliore la taille et la densité des racines, ainsi que la qualité de conservation et la saveur."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "ROOT_DEVELOPMENT": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P/K Fertilizer",
+        "alternating": true
+      },
+      "MATURATION": {
+        "week1": "Kelp Meal",
+        "week2": "Potassium Sulfate",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "bush_beans",
+      "benefit": {
+        "en": "Fix nitrogen in the soil, benefiting celeriac's growth, and can deter some pests.",
+        "ur": "مٹی میں نائٹروجن کو ٹھیک کرتے ہیں، سیلیریک کی نشوونما کو فائدہ پہنچاتے ہیں، اور کچھ کیڑوں کو دور رکھ سکتے ہیں۔",
+        "ar": "تثبت النيتروجين في التربة، مما يفيد نمو الكرفس اللفتي، ويمكن أن تردع بعض الآفات.",
+        "fr": "Fixent l'azote dans le sol, bénéficiant à la croissance du céleri-rave, et peuvent repousser certains parasites."
+      }
+    },
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Acts as a living mulch, keeping the soil cool and moist, and suppressing weeds around celeriac.",
+        "ur": "زندہ ملچ کے طور پر کام کرتا ہے، مٹی کو ٹھنڈا اور نم رکھتا ہے، اور سیلیریک کے ارد گرد جڑی بوٹیوں کو دباتا ہے۔",
+        "ar": "يعمل كغطاء حيوي، يحافظ على برودة ورطوبة التربة، ويقمع الأعشاب الضارة حول الكرفس اللفتي.",
+        "fr": "Agit comme un paillis vivant, gardant le sol frais et humide, et supprimant les mauvaises herbes autour du céleri-rave."
+      }
+    },
+    {
+      "plantId": "radish",
+      "benefit": {
+        "en": "Breaks up heavy soil, improving drainage and aeration for celeriac roots.",
+        "ur": "بھاری مٹی کو توڑتا ہے، سیلیریک کی جڑوں کے لیے نکاسی اور ہوا کو بہتر بناتا ہے۔",
+        "ar": "يفتت التربة الثقيلة، مما يحسن الصرف والتهوية لجذور الكرفس اللفتي.",
+        "fr": "Aère les sols lourds, améliorant le drainage et l'aération pour les racines du céleri-rave."
+      }
+    },
+    {
+      "plantId": "mint",
+      "benefit": {
+        "en": "Deters slugs, snails, and some other pests. (Plant in containers to prevent invasiveness).",
+        "ur": "سلگس، گھونگوں اور کچھ دوسرے کیڑوں کو دور رکھتا ہے۔ (جار میں لگائیں تاکہ پھیلنے سے بچا جا سکے)۔",
+        "ar": "يردع الرخويات والقواقع وبعض الآفات الأخرى. (ازرع في أوعية لمنع الانتشار).",
+        "fr": "Repousse les limaces, les escargots et certains autres ravageurs. (Plantez en pots pour éviter l'invasion)."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots release chemicals that deter root-knot nematodes, protecting celeriac roots.",
+        "ur": "جڑیں ایسے کیمیکل خارج کرتی ہیں جو روٹ ناٹ نیماٹوڈس کو دور رکھتے ہیں، سیلیریک کی جڑوں کی حفاظت کرتے ہیں۔",
+        "ar": "تطلق الجذور مواد كيميائية تردع الديدان الخيطية العقدية، مما يحمي جذور الكرفس اللفتي.",
+        "fr": "Les racines libèrent des substances chimiques qui repoussent les nématodes à galles, protégeant les racines du céleri-rave."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "carrot",
+      "reason": {
+        "en": "Competes for similar nutrients and space, and attracts the same pests like carrot rust fly.",
+        "ur": "اسی طرح کے غذائی اجزاء اور جگہ کے لیے مقابلہ کرتا ہے، اور گاجر کے زنگ کی مکھی جیسے کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يتنافس على نفس العناصر الغذائية والمساحة، ويجذب نفس الآفات مثل ذبابة صدأ الجزر.",
+        "fr": "Rivalise pour les mêmes nutriments et l'espace, et attire les mêmes ravageurs comme la mouche de la carotte."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances that inhibit the growth of many plants, including celeriac.",
+        "ur": "ایسے مادے پیدا کرتا ہے جو سیلیریک سمیت کئی پودوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "ينتج مواد تثبط نمو العديد من النباتات، بما في ذلك الكرفس اللفتي.",
+        "fr": "Produit des substances qui inhibent la croissance de nombreuses plantes, y compris le céleri-rave."
+      }
+    },
+    {
+      "plantId": "parsley",
+      "reason": {
+        "en": "Can stunt the growth of celeriac and other root vegetables.",
+        "ur": "سیلیریک اور دیگر جڑ والی سبزیوں کی نشوونما کو روک سکتا ہے۔",
+        "ar": "يمكن أن يعيق نمو الكرفس اللفتي والخضروات الجذرية الأخرى.",
+        "fr": "Peut freiner la croissance du céleri-rave et d'autres légumes-racines."
+      }
+    },
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Competes heavily for nutrients and water, and can share similar diseases.",
+        "ur": "غذائی اجزاء اور پانی کے لیے شدید مقابلہ کرتا ہے، اور اسی طرح کی بیماریاں بانٹ سکتا ہے۔",
+        "ar": "يتنافس بشدة على العناصر الغذائية والماء، ويمكن أن يتشارك في أمراض مماثلة.",
+        "fr": "Rivalise fortement pour les nutriments et l'eau, et peut partager des maladies similaires."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "celery_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, yellow spots appear on older leaves, enlarging and turning brown with black dots (pycnidia). Can lead to severe defoliation.",
+        "ur": "پرانے پتوں پر چھوٹے، پیلے دھبے نمودار ہوتے ہیں، جو بڑے ہو کر بھورے ہو جاتے ہیں اور ان پر سیاہ نقطے (پکنڈیا) ہوتے ہیں۔ یہ شدید پتوں کے گرنے کا سبب بن سکتا ہے۔",
+        "ar": "تظهر بقع صفراء صغيرة على الأوراق القديمة، تتسع وتتحول إلى اللون البني مع نقاط سوداء (بكنيديا). يمكن أن يؤدي إلى تساقط الأوراق الشديد.",
+        "fr": "De petites taches jaunes apparaissent sur les feuilles plus âgées, s'agrandissant et devenant brunes avec des points noirs (pycnides). Peut entraîner une défoliation sévère."
+      }
+    },
+    {
+      "pestId": "celery_heart_rot",
+      "vulnerableStages": [
+        "ROOT_DEVELOPMENT",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "high",
+        "temp": "warm",
+        "soil_drainage": "poor"
+      },
+      "plantSpecificNotes": {
+        "en": "A soft, watery decay develops in the center of the celeriac bulb, often starting from the crown. Caused by bacterial infection.",
+        "ur": "سیلیریک کے بلب کے مرکز میں ایک نرم، پانی والا سڑنا پیدا ہوتا ہے، جو اکثر تاج سے شروع ہوتا ہے۔ یہ بیکٹیریل انفیکشن کی وجہ سے ہوتا ہے۔",
+        "ar": "يتطور تعفن ناعم ومائي في مركز درنة الكرفس اللفتي، وغالبًا ما يبدأ من التاج. تسببه عدوى بكتيرية.",
+        "fr": "Une pourriture molle et aqueuse se développe au centre du bulbe de céleri-rave, souvent à partir de la couronne. Causée par une infection bactérienne."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects cluster on new growth and undersides of leaves, sucking sap and causing distorted growth. May transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے نئے پتوں اور پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور نشوونما کو بگاڑتے ہیں۔ وائرس منتقل کر سکتے ہیں۔",
+        "ar": "تتجمع الحشرات الصغيرة ذات الجسم الرخو على النمو الجديد وتحت الأوراق، وتمتص العصارة وتسبب تشوه النمو. قد تنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant une croissance déformée. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "high",
+        "temp": "cool, wet"
+      },
+      "plantSpecificNotes": {
+        "en": "Chew irregular holes in leaves and can damage the developing celeriac root, especially in moist conditions.",
+        "ur": "پتوں میں بے قاعدہ سوراخ کرتے ہیں اور سیلیریک کی بڑھتی ہوئی جڑ کو نقصان پہنچا سکتے ہیں، خاص طور پر نم حالات میں۔",
+        "ar": "تحدث ثقوبًا غير منتظمة في الأوراق ويمكن أن تلحق الضرر بجذر الكرفس اللفتي النامي، خاصة في الظروف الرطبة.",
+        "fr": "Mâchent des trous irréguliers dans les feuilles et peuvent endommager la racine de céleri-rave en développement, surtout par temps humide."
+      }
+    },
+    {
+      "pestId": "carrot_rust_fly",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "moist",
+        "temp": "cool"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae tunnel into the celeriac root, creating rust-colored channels and making the root unmarketable. Strong carrot scent attracts them.",
+        "ur": "لاروا سیلیریک کی جڑ میں سرنگیں بناتے ہیں، زنگ آلود رنگ کے راستے بناتے ہیں اور جڑ کو ناقابل فروخت بنا دیتے ہیں۔ گاجر کی تیز خوشبو انہیں اپنی طرف متوجہ کرتی ہے۔",
+        "ar": "تحفر اليرقات أنفاقًا في جذر الكرفس اللفتي، مما يخلق قنوات بلون الصدأ ويجعل الجذر غير صالح للبيع. رائحة الجزر القوية تجذبها.",
+        "fr": "Les larves creusent des galeries dans la racine de céleri-rave, créant des canaux de couleur rouille et rendant la racine invendable. L'odeur forte de carotte les attire."
+      }
+    },
+    {
+      "pestId": "leaf_miners",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "warm, dry"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae create winding tunnels (mines) within the leaves, reducing photosynthesis and weakening the plant.",
+        "ur": "لاروا پتوں کے اندر گھومنے والی سرنگیں (مائنز) بناتے ہیں، جس سے فوٹو سنتھیسز کم ہو جاتی ہے اور پودا کمزور ہو جاتا ہے۔",
+        "ar": "تخلق اليرقات أنفاقًا متعرجة (مناجم) داخل الأوراق، مما يقلل من عملية التمثيل الضوئي ويضعف النبات.",
+        "fr": "Les larves créent des galeries sinueuses (mines) à l'intérieur des feuilles, réduisant la photosynthèse et affaiblissant la plante."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_DEVELOPMENT"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "sudden fluctuations (cold then hot), prolonged cold"
+      },
+      "plantSpecificNotes": {
+        "en": "Premature development of a flower stalk, diverting energy from root growth. Makes the celeriac root woody and inedible.",
+        "ur": "پھول کے تنے کی قبل از وقت نشوونما، جو جڑوں کی نشوونما سے توانائی کو ہٹا دیتی ہے۔ سیلیریک کی جڑ کو لکڑی جیسا اور ناقابل استعمال بنا دیتی ہے۔",
+        "ar": "تطور مبكر لساق الزهرة، مما يحول الطاقة عن نمو الجذور. يجعل جذر الكرفس اللفتي خشبيًا وغير صالح للأكل.",
+        "fr": "Développement prématuré d'une tige florale, détournant l'énergie de la croissance des racines. Rend la racine de céleri-rave ligneuse et immangeable."
+      }
+    },
+    {
+      "pestId": "cracked_roots_stems",
+      "vulnerableStages": [
+        "ROOT_DEVELOPMENT",
+        "MATURATION"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any",
+        "watering": "uneven",
+        "soil_nutrient": "boron deficiency"
+      },
+      "plantSpecificNotes": {
+        "en": "Stems and roots develop cracks, often accompanied by browning of the heart. Caused by inconsistent watering or boron deficiency.",
+        "ur": "تنے اور جڑوں میں دراڑیں پڑ جاتی ہیں، اکثر دل کے بھورے ہونے کے ساتھ۔ یہ بے قاعدہ پانی دینے یا بوران کی کمی کی وجہ سے ہوتا ہے۔",
+        "ar": "تتطور تشققات في السيقان والجذور، وغالبًا ما تكون مصحوبة باسمرار القلب. تسببه الري غير المنتظم أو نقص البورون.",
+        "fr": "Les tiges et les racines développent des fissures, souvent accompagnées d'un brunissement du cœur. Causé par un arrosage irrégulier ou une carence en bore."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 90,
+    "firstHarvestDayMax": 120,
+    "continuousHarvest": false,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Root (corm) is 3-5 inches (7-12 cm) in diameter and firm.",
+        "ur": "جڑ (کرم) 3-5 انچ (7-12 سینٹی میٹر) قطر میں ہو اور سخت ہو۔",
+        "ar": "الجذر (الكورم) بقطر 3-5 بوصات (7-12 سم) وصلب.",
+        "fr": "La racine (corme) mesure 7-12 cm de diamètre et est ferme."
+      },
+      {
+        "en": "Leaves may start to yellow slightly.",
+        "ur": "پتے ہلکے پیلے ہونا شروع ہو سکتے ہیں۔",
+        "ar": "قد تبدأ الأوراق في الاصفرار قليلاً.",
+        "fr": "Les feuilles peuvent commencer à jaunir légèrement."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Loosen soil around the root with a garden fork, then gently pull the plant from the soil.",
+        "ur": "کانٹے سے جڑ کے ارد گرد کی مٹی ڈھیلی کریں، پھر آہستہ سے پودے کو مٹی سے کھینچیں۔",
+        "ar": "قم بتفكيك التربة حول الجذر باستخدام شوكة الحديقة، ثم اسحب النبات بلطف من التربة.",
+        "fr": "Desserrez la terre autour de la racine avec une fourche de jardin, puis tirez doucement la plante du sol."
+      },
+      "INTERMEDIATE": {
+        "en": "Use a garden fork to carefully lift the entire plant, ensuring not to damage the celeriac bulb. Trim off outer leaves.",
+        "ur": "باغ کے کانٹے کا استعمال کرتے ہوئے پودے کو احتیاط سے اٹھائیں، اس بات کو یقینی بنائیں کہ سیلیریک بلب کو نقصان نہ پہنچے۔ بیرونی پتے کاٹ دیں۔",
+        "ar": "استخدم شوكة الحديقة لرفع النبات بالكامل بعناية، مع التأكد من عدم إتلاف درنة الكرفس اللفتي. قم بتقليم الأوراق الخارجية.",
+        "fr": "Utilisez une fourche de jardin pour soulever délicatement la plante entière, en veillant à ne pas endommager le bulbe de céleri-rave. Coupez les feuilles extérieures."
+      },
+      "EXPERT": {
+        "en": "Harvest before hard frost. Trim leaves and rootlets, leaving a small amount of stem attached to the corm for better storage.",
+        "ur": "سخت ٹھنڈ سے پہلے کٹائی کریں۔ پتے اور چھوٹی جڑیں کاٹ دیں، بہتر ذخیرہ کے لیے کرم سے تھوڑا سا تنا لگا رہنے دیں۔",
+        "ar": "احصد قبل الصقيع الشديد. قم بتقليم الأوراق والجذور الصغيرة، مع ترك كمية صغيرة من الساق متصلة بالدرنة لتخزين أفضل.",
+        "fr": "Récoltez avant les fortes gelées. Coupez les feuilles et les radicelles, en laissant une petite quantité de tige attachée au corme pour une meilleure conservation."
+      }
+    },
+    "storage": {
+      "en": "Store in a cool, moist place (e.g., root cellar, refrigerator crisper) for several months. Can also be blanched and frozen.",
+      "ur": "کئی مہینوں تک ٹھنڈی، نم جگہ (جیسے روٹ سیلر، ریفریجریٹر کرسپر) میں ذخیرہ کریں۔ اسے بلانچ کر کے منجمد بھی کیا جا سکتا ہے۔",
+      "ar": "يُخزن في مكان بارد ورطب (مثل قبو الجذور أو درج الثلاجة) لعدة أشهر. يمكن أيضًا سلقه وتجميده.",
+      "fr": "Conserver dans un endroit frais et humide (cave, bac à légumes du réfrigérateur) pendant plusieurs mois. Peut également être blanchi et congelé."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2
+    }
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "id": "yam",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627932629731-017616641870?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Yam",
+      "alternate": [
+        "True Yam"
+      ]
+    },
+    "ur": {
+      "common": "یام",
+      "alternate": []
+    },
+    "ar": {
+      "common": "يام",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Igname",
+      "alternate": []
+    },
+    "botanical": "Dioscorea spp.",
+    "aliases": [
+      "dioscorea",
+      "tropical yam",
+      "african yam"
+    ]
+  },
+  "category": "root_tuber",
+  "subcategory": "starchy",
+  "germinationDays": 25,
+  "weatherRules": {
+    "highRiskFungalHumidity": 85,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 20,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "VINING",
+    "TUBER_FORMING"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "VINING": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Vining type. Requires staking or trellising for support. Pruning may be needed to manage growth and direct energy to tubers.",
+          "ur": "بیل قسم۔ سہارے کے لیے سٹیکنگ یا ٹریلسنگ کی ضرورت ہوتی ہے۔ نشوونما کو منظم کرنے اور توانائی کو گٹھلیوں کی طرف موڑنے کے لیے کٹائی کی ضرورت پڑ سکتی ہے۔"
+        }
+      },
+      "TUBER_FORMING": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Focuses energy on developing large underground tubers. Minimal pruning directly for tuber formation.",
+          "ur": "بڑی زیر زمین گٹھلیاں تیار کرنے پر توانائی مرکوز کرتا ہے۔ گٹھلی کی تشکیل کے لیے براہ راست کم سے کم کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": false,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "tropical",
+    "tuber",
+    "vining",
+    "staple",
+    "long-season",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 25,
+    "optimalMaxC": 30,
+    "survivalMinC": 15,
+    "survivalMaxC": 35,
+    "germinationMinC": 20,
+    "germinationOptimalC": 28,
+    "flowerDropAboveC": 32,
+    "flowerDropBelowC": 20
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 270,
+    "requiredGDD": 3000,
+    "baseTempC": 20,
+    "plantingConditions": {
+      "soilTempMinC": 22,
+      "airTempMinC": 25
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": 18,
+      "frostWarningC": 5,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent and Deep",
+    "soilMoisturePreference": "Keep soil consistently moist, but well-drained",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "High during tuber development",
+    "rootRotRisk": "Medium if soil is poorly drained",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 50,
+      "critical": 35
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "small tubers"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stem rot",
+      "tuber rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or deep watering at base",
+    "thingsToAvoid": [
+      "waterlogging",
+      "dry spells during tuberization"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires large, deep pots for tuber development. Ensure good drainage.",
+        "ur": "گٹھلیوں کی نشوونما کے لیے بڑے، گہرے گملوں کی ضرورت ہوتی ہے۔ اچھے نکاسی کو یقینی بنائیں۔",
+        "ar": "يتطلب أواني كبيرة وعميقة لتطور الدرنات. تأكد من التصريف الجيد.",
+        "fr": "Nécessite de grands pots profonds pour le développement des tubercules. Assurer un bon drainage."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric grow bags can promote air pruning and better drainage, but may dry out faster.",
+        "ur": "فیبرک گرو بیگ ہوا کی کٹائی اور بہتر نکاسی کو فروغ دے سکتے ہیں، لیکن تیزی سے خشک ہو سکتے ہیں۔",
+        "ar": "يمكن لأكياس الزراعة القماشية أن تعزز تقليم الهواء وتصريفًا أفضل، ولكنها قد تجف بشكل أسرع.",
+        "fr": "Les sacs de culture en tissu peuvent favoriser la taille aérienne et un meilleur drainage, mais peuvent sécher plus rapidement."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 80,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Requires deep, loose soil for optimal tuber growth. Space plants adequately.",
+        "ur": "گٹھلیوں کی بہترین نشوونما کے لیے گہری، ڈھیلی مٹی کی ضرورت ہوتی ہے۔ پودوں کو مناسب فاصلے پر لگائیں۔",
+        "ar": "يتطلب تربة عميقة وفضفاضة لنمو الدرنات الأمثل. باعد بين النباتات بشكل كافٍ.",
+        "fr": "Nécessite un sol profond et meuble pour une croissance optimale des tubercules. Espacez les plantes adéquatement."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 80,
+      "minDepthCm": 70,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for providing deep, well-drained soil. Fill with a rich, loose growing medium.",
+        "ur": "گہری، اچھی نکاسی والی مٹی فراہم کرنے کے لیے بہترین ہے۔ اسے بھرپور، ڈھیلے بڑھنے والے میڈیم سے بھریں۔",
+        "ar": "ممتاز لتوفير تربة عميقة وجيدة التصريف. املأها بوسط نمو غني وفضفاض.",
+        "fr": "Excellent pour fournir un sol profond et bien drainé. Remplissez avec un substrat de culture riche et meuble."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "2-3 years (from true seed)",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Planting yam setts (tuber pieces)",
+        "ur": "یام کے ٹکڑے (سیٹس) بونا",
+        "ar": "زراعة قطع اليام (الدرنات)",
+        "fr": "Plantation des éclats d'igname"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare deep, loose soil. Form mounds or ridges.",
+              "ur": "گہری، ڈھیلی مٹی تیار کریں۔ ٹیلے یا پٹیاں بنائیں۔",
+              "ar": "جهز تربة عميقة وفضفاضة. شكل أكوامًا أو تلالًا.",
+              "fr": "Préparez un sol profond et meuble. Formez des buttes ou des billons."
+            },
+            "INTERMEDIATE": {
+              "en": "Incorporate compost and well-rotted manure into mounds.",
+              "ur": "ٹیلوں میں کھاد اور گلی ہوئی گوبر شامل کریں۔",
+              "ar": "أضف السماد العضوي والسماد المتحلل جيدًا إلى الأكوام.",
+              "fr": "Incorporez du compost et du fumier bien décomposé dans les buttes."
+            },
+            "EXPERT": {
+              "en": "Ensure excellent drainage and amend with organic matter for optimal tuber development.",
+              "ur": "بہترین نکاسی کو یقینی بنائیں اور نامیاتی مادے سے ترمیم کریں تاکہ بہترین ٹیوبر کی نشوونما ہو۔",
+              "ar": "تأكد من الصرف الممتاز وقم بتعديل التربة بالمواد العضوية لتنمية الدرنات المثلى.",
+              "fr": "Assurez un excellent drainage et amendez avec de la matière organique pour un développement optimal des tubercules."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant yam setts 4-6 inches deep, cut side down.",
+              "ur": "یام کے ٹکڑے 4-6 انچ گہرائی میں، کٹی ہوئی طرف نیچے رکھ کر بوئیں۔",
+              "ar": "ازرع قطع اليام بعمق 4-6 بوصات، الجانب المقطوع للأسفل.",
+              "fr": "Plantez les éclats d'igname à 4-6 pouces de profondeur, côté coupé vers le bas."
+            },
+            "INTERMEDIATE": {
+              "en": "Space setts 12-18 inches apart in rows or mounds.",
+              "ur": "قطاروں یا ٹیلوں میں ٹکڑوں کو 12-18 انچ کے فاصلے پر رکھیں۔",
+              "ar": "باعد بين القطع 12-18 بوصة في صفوف أو أكوام.",
+              "fr": "Espacez les éclats de 12 à 18 pouces dans les rangées ou les buttes."
+            },
+            "EXPERT": {
+              "en": "Optimize spacing based on yam variety and expected tuber size for maximum yield.",
+              "ur": "یام کی قسم اور متوقع ٹیوبر کے سائز کی بنیاد پر زیادہ سے زیادہ پیداوار کے لیے فاصلہ کو بہتر بنائیں۔",
+              "ar": "حسّن التباعد بناءً على نوع اليام وحجم الدرنات المتوقع لتحقيق أقصى إنتاجية.",
+              "fr": "Optimisez l'espacement en fonction de la variété d'igname et de la taille attendue des tubercules pour un rendement maximal."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water thoroughly after planting.",
+              "ur": "بونے کے بعد اچھی طرح پانی دیں۔",
+              "ar": "اسقِ جيدًا بعد الزراعة.",
+              "fr": "Arrosez abondamment après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture, avoid waterlogging.",
+              "ur": "مستقل نمی برقرار رکھیں، پانی جمع ہونے سے بچیں۔",
+              "ar": "حافظ على رطوبة ثابتة، وتجنب التشبع بالمياه.",
+              "fr": "Maintenez une humidité constante, évitez l'engorgement."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply to encourage root establishment.",
+              "ur": "جڑوں کے قیام کی حوصلہ افزائی کے لیے مٹی کی نمی کو گہرائی سے مانیٹر کریں۔",
+              "ar": "راقب رطوبة التربة بعمق لتشجيع ترسيخ الجذور.",
+              "fr": "Surveillez l'humidité du sol en profondeur pour favoriser l'établissement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Yam sprouts emerge from planted setts",
+        "ur": "بوئے گئے یام کے ٹکڑوں سے کونپلیں نکلنا",
+        "ar": "تظهر براعم اليام من القطع المزروعة",
+        "fr": "Les pousses d'igname émergent des éclats plantés"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 10,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for first sprouts appearing from the soil.",
+              "ur": "مٹی سے نکلنے والی پہلی کونپلوں کو چیک کریں۔",
+              "ar": "تحقق من ظهور البراعم الأولى من التربة.",
+              "fr": "Vérifiez l'apparition des premières pousses du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for uniform emergence and healthy sprout development.",
+              "ur": "یکساں ابھرنے اور صحت مند کونپلوں کی نشوونما کی نگرانی کریں۔",
+              "ar": "راقب الظهور الموحد وتطور البراعم الصحية.",
+              "fr": "Surveillez l'émergence uniforme et le développement sain des pousses."
+            },
+            "EXPERT": {
+              "en": "Assess germination rates and identify any issues with sett viability or soil conditions.",
+              "ur": "انکرن کی شرح کا اندازہ لگائیں اور سیٹ کی قابل عمل یا مٹی کے حالات سے متعلق کسی بھی مسئلے کی نشاندہی کریں۔",
+              "ar": "قم بتقييم معدلات الإنبات وتحديد أي مشاكل تتعلق بجدوى القطع أو ظروف التربة.",
+              "fr": "Évaluez les taux de germination et identifiez tout problème de viabilité des éclats ou de conditions du sol."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 400,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist but not waterlogged.",
+              "ur": "مٹی کو مستقل طور پر نم رکھیں لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار ولكن لا تغمرها بالماء.",
+              "fr": "Maintenez le sol constamment humide mais non gorgé d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep moisture penetration without disturbing emerging sprouts.",
+              "ur": "ابھرتی ہوئی کونپلوں کو پریشان کیے بغیر گہری نمی کی رسائی کو یقینی بنائیں۔",
+              "ar": "تأكد من تغلغل الرطوبة بعمق دون إزعاج البراعم الناشئة.",
+              "fr": "Assurez une pénétration profonde de l'humidité sans perturber les pousses émergentes."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation to maintain optimal soil moisture levels for early growth.",
+              "ur": "ابتدائی نشوونما کے لیے مٹی کی نمی کی بہترین سطح کو برقرار رکھنے کے لیے ڈرپ ایریگیشن کا استعمال کریں۔",
+              "ar": "استخدم الري بالتنقيط للحفاظ على مستويات رطوبة التربة المثلى للنمو المبكر.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour maintenir des niveaux d'humidité du sol optimaux pour la croissance précoce."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Yam vines begin to establish and grow",
+        "ur": "یام کی بیلیں قائم ہونا اور بڑھنا شروع ہو جاتی ہیں",
+        "ar": "تبدأ كروم اليام في التأسيس والنمو",
+        "fr": "Les vignes d'igname commencent à s'établir et à pousser"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "support": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Install sturdy stakes or a trellis system for vines to climb.",
+              "ur": "بیلیں چڑھنے کے لیے مضبوط ڈنڈے یا ٹریلس سسٹم لگائیں۔",
+              "ar": "قم بتركيب أوتاد قوية أو نظام تعريشة لتسلق الكروم.",
+              "fr": "Installez des tuteurs solides ou un système de treillis pour que les vignes puissent grimper."
+            },
+            "INTERMEDIATE": {
+              "en": "Gently guide young vines onto the support structure as they grow.",
+              "ur": "بڑھتی ہوئی جوان بیلوں کو آہستہ سے سہارے کی ساخت پر رہنمائی کریں۔",
+              "ar": "وجه الكروم الصغيرة بلطف إلى هيكل الدعم أثناء نموها.",
+              "fr": "Guidez délicatement les jeunes vignes sur la structure de support au fur et à mesure de leur croissance."
+            },
+            "EXPERT": {
+              "en": "Implement a robust trellising system to maximize light exposure and air circulation.",
+              "ur": "روشنی کی نمائش اور ہوا کی گردش کو زیادہ سے زیادہ کرنے کے لیے ایک مضبوط ٹریلسنگ سسٹم نافذ کریں۔",
+              "ar": "نفذ نظام تعريشة قويًا لزيادة التعرض للضوء ودوران الهواء.",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée contre les ravageurs (IPM) pour maintenir la santé des plantes."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly, ensuring soil is moist but not soggy.",
+              "ur": "باقاعدگی سے پانی دیں، یقینی بنائیں کہ مٹی نم ہو لیکن گیلی نہ ہو۔",
+              "ar": "اسقِ بانتظام، مع التأكد من أن التربة رطبة ولكن ليست مشبعة بالماء.",
+              "fr": "Arrosez régulièrement, en veillant à ce que le sol soit humide mais non détrempé."
+            },
+            "INTERMEDIATE": {
+              "en": "Increase watering frequency during dry spells to support vine growth.",
+              "ur": "خشک موسم میں بیلوں کی نشوونما کو سہارا دینے کے لیے پانی دینے کی فریکوئنسی میں اضافہ کریں۔",
+              "ar": "زد من وتيرة الري خلال فترات الجفاف لدعم نمو الكروم.",
+              "fr": "Augmentez la fréquence d'arrosage pendant les périodes sèches pour soutenir la croissance des vignes."
+            },
+            "EXPERT": {
+              "en": "Monitor plant turgor and soil moisture profile to optimize irrigation for vigorous vine development.",
+              "ur": "پودے کی ٹرگر اور مٹی کی نمی کی پروفائل کی نگرانی کریں تاکہ زوردار بیلوں کی نشوونما کے لیے آبپاشی کو بہتر بنایا جا سکے۔",
+              "ar": "راقب امتلاء النبات وملف رطوبة التربة لتحسين الري لتنمية الكروم القوية.",
+              "fr": "Surveillez la turgescence des plantes et le profil d'humidité du sol pour optimiser l'irrigation pour un développement vigoureux des vignes."
+            }
+          }
+        },
+        "fertilization": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer to support early vine growth.",
+              "ur": "ابتدائی بیلوں کی نشوونما کو سہارا دینے کے لیے متوازن مائع کھاد کا استعمال کریں۔",
+              "ar": "ضع سمادًا سائلًا متوازنًا لدعم نمو الكروم المبكر.",
+              "fr": "Appliquez un engrais liquide équilibré pour soutenir la croissance précoce des vignes."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a slow-release granular fertilizer with a balanced NPK ratio.",
+              "ur": "متوازن NPK تناسب کے ساتھ سست ریلیز دانے دار کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا حبيبيًا بطيء الإطلاق بنسبة NPK متوازنة.",
+              "fr": "Utilisez un engrais granulaire à libération lente avec un rapport NPK équilibré."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to tailor nutrient application for optimal vine and future tuber development.",
+              "ur": "بہترین بیلوں اور مستقبل کے ٹیوبر کی نشوونما کے لیے غذائی اجزاء کے استعمال کو بہتر بنانے کے لیے مٹی کا ٹیسٹ کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتخصيص تطبيق المغذيات لتنمية الكروم والدرنات المستقبلية المثلى.",
+              "fr": "Effectuez une analyse du sol pour adapter l'application des nutriments pour un développement optimal des vignes et des futurs tubercules."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 120,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 150,
+      "description": {
+        "en": "Vigorous vine growth and tuber formation begins",
+        "ur": "زوردار بیلوں کی نشوونما اور ٹیوبر کی تشکیل شروع ہوتی ہے",
+        "ar": "يبدأ النمو القوي للكروم وتكوين الدرنات",
+        "fr": "Croissance vigoureuse des vignes et début de la formation des tubercules"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "support": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue to train vines onto stakes or trellis as they grow taller.",
+              "ur": "بیلیں لمبی ہونے پر انہیں ڈنڈوں یا ٹریلس پر چڑھانا جاری رکھیں۔",
+              "ar": "استمر في توجيه الكروم على الأوتاد أو التعريشة مع نموها.",
+              "fr": "Continuez à guider les vignes sur les tuteurs ou le treillis à mesure qu'elles grandissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure all main vines are well-supported to prevent breakage and maximize light exposure.",
+              "ur": "یقینی بنائیں کہ تمام اہم بیلیں اچھی طرح سے سہارا دی گئی ہیں تاکہ ٹوٹ پھوٹ کو روکا جا سکے اور روشنی کی نمائش کو زیادہ سے زیادہ کیا جا سکے۔",
+              "ar": "تأكد من دعم جميع الكروم الرئيسية جيدًا لمنع الكسر وزيادة التعرض للضوء.",
+              "fr": "Assurez-vous que toutes les vignes principales sont bien soutenues pour éviter la rupture et maximiser l'exposition à la lumière."
+            },
+            "EXPERT": {
+              "en": "Prune excessive lateral growth to direct energy towards tuber development and main vine vigor.",
+              "ur": "ٹیوبر کی نشوونما اور مرکزی بیل کی طاقت کی طرف توانائی کو ہدایت کرنے کے لیے ضرورت سے زیادہ پس منظر کی نشوونما کو کاٹ دیں۔",
+              "ar": "قم بتقليم النمو الجانبي الزائد لتوجيه الطاقة نحو تطوير الدرنات وقوة الكرمة الرئيسية.",
+              "fr": "Taillez la croissance latérale excessive pour diriger l'énergie vers le développement des tubercules et la vigueur de la vigne principale."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently, especially during dry periods.",
+              "ur": "خاص طور پر خشک ادوار میں گہرا اور مستقل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار، خاصة خلال الفترات الجافة.",
+              "fr": "Arrosez profondément et constamment, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even soil moisture to support continuous tuber enlargement.",
+              "ur": "ٹیوبر کی مسلسل توسیع کو سہارا دینے کے لیے مٹی کی نمی کو یکساں رکھیں۔",
+              "ar": "حافظ على رطوبة التربة متساوية لدعم تضخم الدرنات المستمر.",
+              "fr": "Maintenez une humidité du sol uniforme pour soutenir l'élargissement continu des tubercules."
+            },
+            "EXPERT": {
+              "en": "Implement soil moisture sensors to precisely manage irrigation and prevent stress.",
+              "ur": "آبپاشی کو درست طریقے سے منظم کرنے اور تناؤ کو روکنے کے لیے مٹی کی نمی کے سینسر لگائیں۔",
+              "ar": "طبق أجهزة استشعار رطوبة التربة لإدارة الري بدقة ومنع الإجهاد.",
+              "fr": "Mettez en œuvre des capteurs d'humidité du sol pour gérer précisément l'irrigation et prévenir le stress."
+            }
+          }
+        },
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a fertilizer high in potassium to encourage tuber growth.",
+              "ur": "ٹیوبر کی نشوونما کی حوصلہ افزائی کے لیے پوٹاشیم سے بھرپور کھاد کا استعمال کریں۔",
+              "ar": "ضع سمادًا غنيًا بالبوتاسيوم لتشجيع نمو الدرنات.",
+              "fr": "Appliquez un engrais riche en potassium pour favoriser la croissance des tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Side-dress with a high-potassium, low-nitrogen fertilizer.",
+              "ur": "پوٹاشیم سے بھرپور، کم نائٹروجن والی کھاد سے سائیڈ ڈریسنگ کریں۔",
+              "ar": "قم بالتسميد الجانبي بسماد عالي البوتاسيوم ومنخفض النيتروجين.",
+              "fr": "Appliquez un engrais riche en potassium et faible en azote en surfaçage."
+            },
+            "EXPERT": {
+              "en": "Perform foliar feeding with micronutrients based on leaf analysis for optimal tuber bulking.",
+              "ur": "پتوں کے تجزیے کی بنیاد پر بہترین ٹیوبر بلکنگ کے لیے مائیکرو نیوٹرینٹس کے ساتھ فولیر فیڈنگ کریں۔",
+              "ar": "قم بالتغذية الورقية بالمغذيات الدقيقة بناءً على تحليل الأوراق لتحقيق أقصى قدر من تضخم الدرنات.",
+              "fr": "Effectuez une fertilisation foliaire avec des micronutriments basée sur l'analyse des feuilles pour un grossissement optimal des tubercules."
+            }
+          }
+        },
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep the planting area free of weeds to reduce competition.",
+              "ur": "مقابلے کو کم کرنے کے لیے پودے لگانے والے علاقے کو گھاس پھوس سے پاک رکھیں۔",
+              "ar": "حافظ على منطقة الزراعة خالية من الأعشاب الضارة لتقليل المنافسة.",
+              "fr": "Gardez la zone de plantation exempte de mauvaises herbes pour réduire la concurrence."
+            },
+            "INTERMEDIATE": {
+              "en": "Hand-weed carefully around the base of the plants to avoid disturbing developing tubers.",
+              "ur": "بڑھتے ہوئے ٹیوبرز کو پریشان کیے بغیر پودوں کی بنیاد کے ارد گرد احتیاط سے ہاتھ سے گھاس نکالیں۔",
+              "ar": "قم بإزالة الأعشاب الضارة يدويًا بعناية حول قاعدة النباتات لتجنب إزعاج الدرنات النامية.",
+              "fr": "Désherbez à la main avec précaution autour de la base des plantes pour éviter de perturber les tubercules en développement."
+            },
+            "EXPERT": {
+              "en": "Utilize mulching to suppress weeds, conserve moisture, and regulate soil temperature.",
+              "ur": "گھاس پھوس کو دبانے، نمی کو محفوظ رکھنے اور مٹی کے درجہ حرارت کو منظم کرنے کے لیے ملچنگ کا استعمال کریں۔",
+              "ar": "استخدم التغطية لقمع الأعشاب الضارة، والحفاظ على الرطوبة، وتنظيم درجة حرارة التربة.",
+              "fr": "Utilisez le paillage pour supprimer les mauvaises herbes, conserver l'humidité et réguler la température du sol."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Yam flowers may appear (less critical for tuber production)",
+        "ur": "یام کے پھول نمودار ہو سکتے ہیں (ٹیوبر کی پیداوار کے لیے کم اہم)",
+        "ar": "قد تظهر أزهار اليام (أقل أهمية لإنتاج الدرنات)",
+        "fr": "Les fleurs d'igname peuvent apparaître (moins critique pour la production de tubercules)"
+      },
+      "emoji": "🌼",
+      "tips": [],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check vines for any signs of pests or diseases.",
+              "ur": "بیلیں پر کیڑوں یا بیماریوں کی کوئی علامت چیک کریں۔",
+              "ar": "تحقق من الكروم بحثًا عن أي علامات للآفات أو الأمراض.",
+              "fr": "Vérifiez les vignes pour tout signe de parasites ou de maladies."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect undersides of leaves for spider mites or fungal spots.",
+              "ur": "مکڑی کے کیڑوں یا فنگل دھبوں کے لیے پتوں کے نچلے حصے کا معائنہ کریں۔",
+              "ar": "افحص الجانب السفلي من الأوراق بحثًا عن سوس العنكبوت أو البقع الفطرية.",
+              "fr": "Inspectez le dessous des feuilles pour les acariens ou les taches fongiques."
+            },
+            "EXPERT": {
+              "en": "Implement integrated pest management (IPM) strategies to maintain plant health.",
+              "ur": "پودوں کی صحت کو برقرار رکھنے کے لیے مربوط کیڑوں کے انتظام (IPM) کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "طبق استراتيجيات الإدارة المتكاملة للآفات (IPM) للحفاظ على صحة النبات.",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée contre les ravageurs (IPM) pour maintenir la santé des plantes."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Leaf spots",
+              "ur": "پتوں پر دھبے",
+              "ar": "بقع الأوراق",
+              "fr": "Taches foliaires"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 900,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent watering to support overall plant health.",
+              "ur": "پودے کی مجموعی صحت کو سہارا دینے کے لیے مستقل پانی دیں۔",
+              "ar": "حافظ على الري المستمر لدعم صحة النبات بشكل عام.",
+              "fr": "Maintenez un arrosage constant pour soutenir la santé globale de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to reach the developing tubers.",
+              "ur": "بڑھتے ہوئے ٹیوبرز تک پہنچنے کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق للوصول إلى الدرنات النامية.",
+              "fr": "Assurez un arrosage profond pour atteindre les tubercules en développement."
+            },
+            "EXPERT": {
+              "en": "Adjust irrigation based on rainfall and soil moisture to prevent water stress.",
+              "ur": "بارش اور مٹی کی نمی کی بنیاد پر آبپاشی کو ایڈجسٹ کریں تاکہ پانی کے تناؤ کو روکا جا سکے۔",
+              "ar": "اضبط الري بناءً على هطول الأمطار ورطوبة التربة لمنع إجهاد الماء.",
+              "fr": "Ajustez l'irrigation en fonction des précipitations et de l'humidité du sol pour prévenir le stress hydrique."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 75,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Yam tubers mature and enlarge underground",
+        "ur": "یام کے ٹیوبرز زیر زمین پختہ اور بڑے ہوتے ہیں",
+        "ar": "تنضج درنات اليام وتتضخم تحت الأرض",
+        "fr": "Les tubercules d'igname mûrissent et grossissent sous terre"
+      },
+      "emoji": "🥔",
+      "tips": [
+        {
+          "en": "Reduce watering as vines yellow to prevent rot and improve storage.",
+          "ur": "بیلیں پیلی ہونے پر پانی کم کریں تاکہ سڑنے سے بچا جا سکے اور ذخیرہ بہتر ہو۔",
+          "ar": "قلل الري عندما تصفر الكروم لمنع التعفن وتحسين التخزين.",
+          "fr": "Réduisez l'arrosage lorsque les vignes jaunissent pour prévenir la pourriture et améliorer la conservation."
+        }
+      ],
+      "tasks": {
+        "monitoring": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Observe vines for yellowing and dieback, indicating tuber maturity.",
+              "ur": "بیلیں پیلی ہونے اور مرجھانے کا مشاہدہ کریں، جو ٹیوبر کی پختگی کی نشاندہی کرتا ہے۔",
+              "ar": "راقب الكروم بحثًا عن الاصفرار والموت، مما يشير إلى نضج الدرنات.",
+              "fr": "Observez les vignes pour le jaunissement et le dépérissement, indiquant la maturité des tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Note the extent of vine senescence; most leaves should be yellow or dry.",
+              "ur": "بیل کی عمر رسیدہ ہونے کی حد کو نوٹ کریں؛ زیادہ تر پتے پیلے یا خشک ہونے چاہئیں۔",
+              "ar": "لاحظ مدى شيخوخة الكرمة؛ يجب أن تكون معظم الأوراق صفراء أو جافة.",
+              "fr": "Notez l'étendue de la sénescence de la vigne ; la plupart des feuilles devraient être jaunes ou sèches."
+            },
+            "EXPERT": {
+              "en": "Consider digging a test tuber to assess size and skin set before full harvest.",
+              "ur": "مکمل کٹائی سے پہلے سائز اور جلد کی ترتیب کا اندازہ لگانے کے لیے ایک ٹیسٹ ٹیوبر کھودنے پر غور کریں۔",
+              "ar": "فكر في حفر درنة اختبار لتقييم الحجم وتماسك القشرة قبل الحصاد الكامل.",
+              "fr": "Envisagez de déterrer un tubercule test pour évaluer la taille et la fixation de la peau avant la récolte complète."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Vine yellowing",
+              "ur": "بیل کا پیلا ہونا",
+              "ar": "اصفرار الكروم",
+              "fr": "Jaunissement des vignes"
+            },
+            {
+              "en": "Tuber rot",
+              "ur": "ٹیوبر کا سڑنا",
+              "ar": "تعفن الدرنات",
+              "fr": "Pourriture des tubercules"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gradually reduce watering as vines begin to yellow.",
+              "ur": "بیلیں پیلی ہونا شروع ہونے پر آہستہ آہستہ پانی کم کریں۔",
+              "ar": "قلل الري تدريجيًا عندما تبدأ الكروم في الاصفرار.",
+              "fr": "Réduisez progressivement l'arrosage lorsque les vignes commencent à jaunir."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow soil to dry out slightly between waterings to encourage tuber skin set.",
+              "ur": "ٹیوبر کی جلد کو مضبوط کرنے کے لیے پانی دینے کے درمیان مٹی کو تھوڑا خشک ہونے دیں۔",
+              "ar": "دع التربة تجف قليلًا بين الريات لتشجيع تماسك قشرة الدرنات.",
+              "fr": "Laissez le sol sécher légèrement entre les arrosages pour favoriser la formation de la peau des tubercules."
+            },
+            "EXPERT": {
+              "en": "Cease watering completely 2-3 weeks before anticipated harvest to aid curing and storage quality.",
+              "ur": "متوقع کٹائی سے 2-3 ہفتے پہلے پانی دینا مکمل طور پر بند کر دیں تاکہ علاج اور ذخیرہ کرنے کے معیار میں مدد ملے۔",
+              "ar": "توقف عن الري تمامًا قبل 2-3 أسابيع من الحصاد المتوقع للمساعدة في المعالجة وجودة التخزين.",
+              "fr": "Arrêtez complètement l'arrosage 2-3 semaines avant la récolte prévue pour faciliter le séchage et la qualité de conservation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Yam tubers are ready for harvest",
+        "ur": "یام کے ٹیوبرز کٹائی کے لیے تیار ہیں",
+        "ar": "درنات اليام جاهزة للحصاد",
+        "fr": "Les tubercules d'igname sont prêts à être récoltés"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest carefully to avoid damaging tubers, which can lead to rot.",
+          "ur": "ٹیوبرز کو نقصان پہنچانے سے بچنے کے لیے احتیاط سے کٹائی کریں، جس سے سڑن ہو سکتی ہے۔",
+          "ar": "احصد بعناية لتجنب إتلاف الدرنات، مما قد يؤدي إلى التعفن.",
+          "fr": "Récoltez avec soin pour éviter d'endommager les tubercules, ce qui peut entraîner la pourriture."
+        },
+        {
+          "en": "Cure yams for 1-2 weeks in a warm, humid place for better storage.",
+          "ur": "بہتر ذخیرہ کے لیے یام کو 1-2 ہفتے گرم، نم جگہ پر خشک کریں۔",
+          "ar": "عالج اليام لمدة 1-2 أسبوع في مكان دافئ ورطب لتخزين أفضل.",
+          "fr": "Faites sécher les ignames pendant 1 à 2 semaines dans un endroit chaud et humide pour une meilleure conservation."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully dig around the base of the plant to locate and lift tubers.",
+              "ur": "ٹیوبرز کو تلاش کرنے اور اٹھانے کے لیے پودے کی بنیاد کے ارد گرد احتیاط سے کھودیں۔",
+              "ar": "احفر بعناية حول قاعدة النبات لتحديد موقع الدرنات ورفعها.",
+              "fr": "Creusez soigneusement autour de la base de la plante pour localiser et soulever les tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a digging fork, starting a foot away from the main stem to avoid piercing tubers.",
+              "ur": "ٹیوبرز کو چھیدنے سے بچنے کے لیے مرکزی تنے سے ایک فٹ دور سے کھدائی کا کانٹا استعمال کریں۔",
+              "ar": "استخدم شوكة حفر، بدءًا من قدم بعيدًا عن الساق الرئيسية لتجنب ثقب الدرنات.",
+              "fr": "Utilisez une fourche à bêcher, en commençant à un pied de la tige principale pour éviter de percer les tubercules."
+            },
+            "EXPERT": {
+              "en": "Employ traditional yam harvesting techniques to minimize damage and maximize tuber integrity.",
+              "ur": "نقصان کو کم کرنے اور ٹیوبر کی سالمیت کو زیادہ سے زیادہ کرنے کے لیے یام کی کٹائی کی روایتی تکنیک استعمال کریں۔",
+              "ar": "استخدم تقنيات حصاد اليام التقليدية لتقليل الضرر وزيادة سلامة الدرنات.",
+              "fr": "Utilisez des techniques traditionnelles de récolte d'igname pour minimiser les dommages et maximiser l'intégrité des tubercules."
+            }
+          }
+        },
+        "curing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "After harvesting, allow tubers to air dry in a shaded, well-ventilated area for a few hours.",
+              "ur": "کٹائی کے بعد، ٹیوبرز کو چند گھنٹوں کے لیے سایہ دار، اچھی ہوادار جگہ پر خشک ہونے دیں۔",
+              "ar": "بعد الحصاد، اترك الدرنات تجف في الهواء في منطقة مظللة وجيدة التهوية لبضع ساعات.",
+              "fr": "Après la récolte, laissez les tubercules sécher à l'air dans un endroit ombragé et bien ventilé pendant quelques heures."
+            },
+            "INTERMEDIATE": {
+              "en": "Cure yams for 1-2 weeks at 85-95°F (29-35°C) with high humidity (85-90%) to heal wounds.",
+              "ur": "زخموں کو بھرنے کے لیے یام کو 1-2 ہفتے 85-95°F (29-35°C) پر زیادہ نمی (85-90%) کے ساتھ خشک کریں۔",
+              "ar": "عالج اليام لمدة 1-2 أسبوع عند 85-95 درجة فهرنهايت (29-35 درجة مئوية) مع رطوبة عالية (85-90%) لشفاء الجروح.",
+              "fr": "Faites sécher les ignames pendant 1 à 2 semaines à 29-35°C (85-95°F) avec une humidité élevée (85-90%) pour cicatriser les blessures."
+            },
+            "EXPERT": {
+              "en": "Optimize curing conditions to promote suberization and periderm formation for extended storage life.",
+              "ur": "ذخیرہ کی مدت کو بڑھانے کے لیے سوبیرائزیشن اور پیریڈرم کی تشکیل کو فروغ دینے کے لیے خشک کرنے کے حالات کو بہتر بنائیں۔",
+              "ar": "حسّن ظروف المعالجة لتعزيز التفلين وتكوين البشرة الثانوية لإطالة مدة التخزين.",
+              "fr": "Optimisez les conditions de séchage pour favoriser la subérisation et la formation du périderme pour une durée de conservation prolongée."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle nutrients for strong root development and initial vine growth.",
+          "ur": "مضبوط جڑوں کی نشوونما اور ابتدائی بیل کی بڑھوتری کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر مغذيات لطيفة لتطوير جذور قوية ونمو الكرمة الأولي.",
+          "fr": "Fournit des nutriments doux pour un développement racinaire fort et une croissance initiale de la vigne."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست أو خليط النيتروجين العضوي",
+          "fr": "Thé de compost ou mélange d'azote organique"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من السماد الغني أو روث الدود في 3.7 لتر من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de turricules de vers dans 3,7 litres d'eau pendant 24-48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous vine and leaf growth, essential before tuber formation begins.",
+          "ur": "بیل اور پتوں کی بھرپور نشوونما میں مدد کرتا ہے، جو گٹھلی بننے سے پہلے ضروری ہے۔",
+          "ar": "يدعم النمو القوي للكرمة والأوراق، وهو ضروري قبل بدء تكوين الدرنات.",
+          "fr": "Soutient une croissance vigoureuse de la vigne et des feuilles, essentielle avant le début de la formation des tubercules."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. اخلطها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Provides essential phosphorus and potassium to encourage early tuber initiation and development.",
+          "ur": "ابتدائی گٹھلی کی تشکیل اور نشوونما کی حوصلہ افزائی کے لیے ضروری فاسفورس اور پوٹاشیم فراہم کرتا ہے۔",
+          "ar": "يوفر الفوسفور والبوتاسيوم الأساسيين لتشجيع بدء وتطوير الدرنات المبكر.",
+          "fr": "Fournit le phosphore et le potassium essentiels pour encourager l'initiation et le développement précoce des tubercules."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Kelp Meal",
+          "ur": "کیلے کے چھلکے کی چائے (زیادہ پوٹاشیم) اور کیلپ میل",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم) ووجبة عشب البحر",
+          "fr": "Thé de peau de banane (riche en potassium) et farine d'algues"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in 1 tablespoon of kelp meal. Pour around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ ایک چمچ کیلپ میل شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، انقعها في 3.7 لتر من الماء لمدة 48 ساعة. اخلط ملعقة كبيرة من وجبة عشب البحر. اسكب حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les tremper dans 3,7 litres d'eau pendant 48 heures. Mélangez 1 cuillère à soupe de farine d'algues. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High potassium is crucial for tuber bulking, size, and quality.",
+          "ur": "زیادہ پوٹاشیم گٹھلی کے سائز اور معیار کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم العالي ضروري لتضخم الدرنات وحجمها وجودتها.",
+          "fr": "Le potassium élevé est crucial pour le grossissement, la taille et la qualité des tubercules."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-20-20)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-20-20)",
+          "ar": "سماد متوازن NPK (مثل 20-20-20)",
+          "fr": "NPK équilibré (ex: 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 20-20-20 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 20-20-20 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 20-20-20 في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 20-20-20 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong vegetative growth and healthy vines.",
+          "ur": "مضبوط پودوں کی نشوونما اور صحت مند بیلوں کو فروغ دیتا ہے۔",
+          "ar": "يعزز النمو الخضري القوي والكرمات الصحية.",
+          "fr": "Favorise une croissance végétative forte et des vignes saines."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus & Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "نيتروجين منخفض، فوسفور وبوتاسيوم عالي (مثل 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore et potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 5-10-10 fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ 5-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "طبق ملعقتين كبيرتين من سماد 5-10-10 الحبيبي لكل نبات. اسقِ الماء فورًا بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire 5-10-10 par plante. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes nutrient availability for tuber initiation and early development.",
+          "ur": "گٹھلی کی تشکیل اور ابتدائی نشوونما کے لیے غذائی اجزاء کی دستیابی کو بہتر بناتا ہے۔",
+          "ar": "يحسن توافر المغذيات لبدء الدرنات وتطورها المبكر.",
+          "fr": "Optimise la disponibilité des nutriments pour l'initiation et le développement précoce des tubercules."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium blend (e.g., 0-0-50 or Sulfate of Potash)",
+          "ur": "ہائی پوٹاشیم (مثلاً 0-0-50 یا پوٹاش کا سلفیٹ)",
+          "ar": "خليط عالي البوتاسيوم (مثل 0-0-50 أو سلفات البوتاس)",
+          "fr": "Mélange riche en potassium (ex: 0-0-50 ou Sulfate de Potasse)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of 0-0-50 fertilizer in 1 gallon of water. Apply around the base of the plant.",
+          "ur": "ایک چمچ 0-0-50 کھاد 4 لیٹر پانی میں حل کریں۔ پودے کی جڑوں کے گرد ڈالیں۔",
+          "ar": "أذب ملعقة صغيرة من سماد 0-0-50 في 3.7 لتر من الماء. طبق حول قاعدة النبات.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais 0-0-50 dans 3,7 litres d'eau. Appliquez autour de la base de la plante."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for maximizing tuber size, starch content, and overall yield.",
+          "ur": "پوٹاشیم گٹھلی کے سائز، نشاستے کے مواد اور مجموعی پیداوار کو زیادہ سے زیادہ کرنے کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم حيوي لزيادة حجم الدرنات ومحتوى النشا والعائد الإجمالي.",
+          "fr": "Le potassium est vital pour maximiser la taille des tubercules, la teneur en amidon et le rendement global."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P & K Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "corn",
+      "benefit": {
+        "en": "Provides natural trellises for yam vines to climb, offering support and maximizing vertical space.",
+        "ur": "یام کی بیلوں کو چڑھنے کے لیے قدرتی سہارا فراہم کرتا ہے، عمودی جگہ کو زیادہ سے زیادہ استعمال کرتا ہے۔",
+        "ar": "يوفر دعامات طبيعية لكرمات اليام لتتسلق عليها، مما يوفر الدعم ويزيد من المساحة الرأسية.",
+        "fr": "Fournit des tuteurs naturels pour que les vignes d'igname grimpent, offrant un soutien et maximisant l'espace vertical."
+      }
+    },
+    {
+      "plantId": "beans",
+      "benefit": {
+        "en": "Legumes like beans fix nitrogen in the soil, enriching it for the heavy-feeding yams.",
+        "ur": "پھلیاں جیسے پودے مٹی میں نائٹروجن کو ٹھیک کرتے ہیں، جو یام کے لیے اسے زرخیز بناتے ہیں۔",
+        "ar": "البقوليات مثل الفول تثبت النيتروجين في التربة، مما يثريها لليام التي تتطلب الكثير من المغذيات.",
+        "fr": "Les légumineuses comme les haricots fixent l'azote dans le sol, l'enrichissant pour les ignames gourmandes."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other soil-borne pests that can damage yam tubers.",
+        "ur": "نیماٹوڈس اور دیگر مٹی سے پیدا ہونے والے کیڑوں کو دور بھگاتا ہے جو یام کی گٹھلیوں کو نقصان پہنچا سکتے ہیں۔",
+        "ar": "يطرد النيماتودا والآفات الأخرى التي تنتقل عن طريق التربة والتي يمكن أن تلحق الضرر بدرنات اليام.",
+        "fr": "Repousse les nématodes et autres parasites du sol qui peuvent endommager les tubercules d'igname."
+      }
+    },
+    {
+      "plantId": "spinach",
+      "benefit": {
+        "en": "Acts as a living mulch, suppressing weeds, conserving soil moisture, and keeping the soil cool for yam roots.",
+        "ur": "زندہ ملچ کے طور پر کام کرتا ہے، جڑی بوٹیوں کو دباتا ہے، مٹی کی نمی کو برقرار رکھتا ہے، اور یام کی جڑوں کے لیے مٹی کو ٹھنڈا رکھتا ہے۔",
+        "ar": "يعمل كغطاء حيوي، يثبط الأعشاب الضارة، يحافظ على رطوبة التربة، ويحافظ على برودة التربة لجذور اليام.",
+        "fr": "Agit comme un paillis vivant, supprimant les mauvaises herbes, conservant l'humidité du sol et gardant le sol frais pour les racines d'igname."
+      }
+    },
+    {
+      "plantId": "okra",
+      "benefit": {
+        "en": "Can provide some shade for young yam plants and attract beneficial insects.",
+        "ur": "نوجوان یام کے پودوں کو کچھ سایہ فراہم کر سکتا ہے اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کر سکتا ہے۔",
+        "ar": "يمكن أن يوفر بعض الظل لنباتات اليام الصغيرة ويجذب الحشرات المفيدة.",
+        "fr": "Peut fournir de l'ombre aux jeunes plants d'igname et attirer les insectes bénéfiques."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Competes heavily for nutrients and water, and can share common diseases like blight.",
+        "ur": "غذائی اجزاء اور پانی کے لیے شدید مقابلہ کرتا ہے، اور بلائٹ جیسی عام بیماریاں بانٹ سکتا ہے۔",
+        "ar": "يتنافس بشدة على المغذيات والماء، ويمكن أن يتشارك أمراضًا شائعة مثل اللفحة.",
+        "fr": "Rivalise fortement pour les nutriments et l'eau, et peut partager des maladies communes comme le mildiou."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Both are heavy feeders and can compete for resources. Also, some shared pest and disease susceptibilities.",
+        "ur": "دونوں بھاری خوراک والے ہیں اور وسائل کے لیے مقابلہ کر سکتے ہیں۔ کچھ مشترکہ کیڑوں اور بیماریوں کا بھی شکار ہو سکتے ہیں۔",
+        "ar": "كلاهما يتطلب الكثير من المغذيات ويمكن أن يتنافسا على الموارد. كما أن هناك بعض القابلية المشتركة للآفات والأمراض.",
+        "fr": "Les deux sont gourmands en nutriments et peuvent rivaliser pour les ressources. Partagent également certaines sensibilités aux parasites et maladies."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Known to release allelopathic chemicals that can inhibit the growth of nearby plants, including yams.",
+        "ur": "ایسے کیمیکل خارج کرنے کے لیے جانا جاتا ہے جو قریبی پودوں، بشمول یام کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "معروف بإطلاق مواد كيميائية مثبطة للنمو (allelopathic) يمكن أن تمنع نمو النباتات المجاورة، بما في ذلك اليام.",
+        "fr": "Connu pour libérer des produits chimiques allélopathiques qui peuvent inhiber la croissance des plantes voisines, y compris les ignames."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "Members of the Brassica family can stunt the growth of many other plants, including yams.",
+        "ur": "براسیکا خاندان کے پودے یام سمیت کئی دوسرے پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "يمكن لأفراد عائلة الكرنب أن تعيق نمو العديد من النباتات الأخرى، بما في ذلك اليام.",
+        "fr": "Les membres de la famille des Brassicacées peuvent retarder la croissance de nombreuses autres plantes, y compris les ignames."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "yam_mosaic_virus",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes mosaic patterns, leaf distortion, and stunted growth. Transmitted by aphids and infected planting material.",
+        "ur": "پتوں پر موزیک پیٹرن، پتوں کی خرابی، اور نشوونما میں رکاوٹ کا سبب بنتا ہے۔ افڈس اور متاثرہ پودے لگانے والے مواد سے منتقل ہوتا ہے۔",
+        "ar": "يسبب أنماطًا فسيفسائية، تشوه الأوراق، وتوقف النمو. ينتقل عن طريق حشرات المن ومواد الزراعة المصابة.",
+        "fr": "Provoque des motifs en mosaïque, une distorsion des feuilles et un retard de croissance. Transmis par les pucerons et le matériel de plantation infecté."
+      }
+    },
+    {
+      "pestId": "anthracnose",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Appears as dark, sunken lesions on leaves, stems, and sometimes tubers. Leads to dieback and reduced yield. Favored by wet conditions.",
+        "ur": "پتوں، تنوں اور بعض اوقات گٹھلیوں پر گہرے، دھنسے ہوئے زخموں کے طور پر ظاہر ہوتا ہے۔ پودے کے مرنے اور پیداوار میں کمی کا باعث بنتا ہے۔ گیلی حالتوں میں زیادہ ہوتا ہے۔",
+        "ar": "يظهر على شكل آفات داكنة وغائرة على الأوراق والسيقان، وأحيانًا الدرنات. يؤدي إلى موت الأجزاء وانخفاض المحصول. يفضل الظروف الرطبة.",
+        "fr": "Apparaît sous forme de lésions sombres et enfoncées sur les feuilles, les tiges et parfois les tubercules. Entraîne le dépérissement et une réduction du rendement. Favorisé par les conditions humides."
+      }
+    },
+    {
+      "pestId": "yam_tuber_rot",
+      "vulnerableStages": [
+        "FRUITING",
+        "HARVEST"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "25-35"
+      },
+      "plantSpecificNotes": {
+        "en": "Various fungi and bacteria cause soft or dry rot in tubers, both in the field and during storage. Often enters through wounds.",
+        "ur": "مختلف فنگس اور بیکٹیریا گٹھلیوں میں نرم یا خشک سڑن کا سبب بنتے ہیں، کھیت میں اور ذخیرہ کے دوران۔ اکثر زخموں کے ذریعے داخل ہوتا ہے۔",
+        "ar": "تسبب الفطريات والبكتيريا المختلفة تعفنًا طريًا أو جافًا في الدرنات، سواء في الحقل أو أثناء التخزين. غالبًا ما يدخل من خلال الجروح.",
+        "fr": "Divers champignons et bactéries provoquent la pourriture molle ou sèche des tubercules, aussi bien au champ que pendant le stockage. Pénètre souvent par les blessures."
+      }
+    },
+    {
+      "pestId": "root_knot_nematodes",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Microscopic worms that cause galls or swellings on roots and tubers, leading to stunted growth, yellowing, and reduced yield.",
+        "ur": "خوردبینی کیڑے جو جڑوں اور گٹھلیوں پر گانٹھیں یا سوجن کا سبب بنتے ہیں، جس سے نشوونما میں رکاوٹ، پیلا پن اور پیداوار میں کمی آتی ہے۔",
+        "ar": "ديدان مجهرية تسبب عقيدات أو تورمات على الجذور والدرنات، مما يؤدي إلى توقف النمو، اصفرار، وانخفاض المحصول.",
+        "fr": "Vers microscopiques qui provoquent des galles ou des gonflements sur les racines et les tubercules, entraînant un retard de croissance, un jaunissement et une réduction du rendement."
+      }
+    },
+    {
+      "pestId": "yam_beetle",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-35"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles feed on young shoots, leaves, and developing tubers, causing holes and damage. Larvae can also damage tubers.",
+        "ur": "بالغ کیڑے جوان شاخوں، پتوں اور بڑھتی ہوئی گٹھلیوں کو کھاتے ہیں، جس سے سوراخ اور نقصان ہوتا ہے۔ لاروا بھی گٹھلیوں کو نقصان پہنچا سکتا ہے۔",
+        "ar": "تتغذى الخنافس البالغة على البراعم الصغيرة والأوراق والدرنات النامية، مما يسبب ثقوبًا وتلفًا. يمكن أن تتلف اليرقات الدرنات أيضًا.",
+        "fr": "Les coléoptères adultes se nourrissent des jeunes pousses, des feuilles et des tubercules en développement, causant des trous et des dommages. Les larves peuvent également endommager les tubercules."
+      }
+    },
+    {
+      "pestId": "mealybugs",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, white, cottony insects that suck sap from stems and leaves, leading to stunted growth and sticky honeydew.",
+        "ur": "چھوٹے، سفید، روئی جیسے کیڑے جو تنوں اور پتوں سے رس چوستے ہیں، جس سے نشوونما میں رکاوٹ اور چپچپا شہد کا رس نکلتا ہے۔",
+        "ar": "حشرات صغيرة بيضاء قطنية تمتص العصارة من السيقان والأوراق، مما يؤدي إلى توقف النمو وندوة عسلية لزجة.",
+        "fr": "Petits insectes blancs cotonneux qui sucent la sève des tiges et des feuilles, entraînant un retard de croissance et un miellat collant."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Cluster on new growth, sucking sap and transmitting viruses like Yam Mosaic Virus. Can cause leaf curling and distortion.",
+        "ur": "نئی نشوونما پر جمع ہوتے ہیں، رس چوستے ہیں اور یام موزیک وائرس جیسے وائرس منتقل کرتے ہیں۔ پتوں کے مڑنے اور بگڑنے کا سبب بن سکتے ہیں۔",
+        "ar": "تتجمع على النمو الجديد، تمتص العصارة وتنقل الفيروسات مثل فيروس موزاييك اليام. يمكن أن تسبب تجعد وتشوه الأوراق.",
+        "fr": "Se regroupent sur les nouvelles pousses, suçant la sève et transmettant des virus comme le virus de la mosaïque de l'igname. Peut provoquer l'enroulement et la distorsion des feuilles."
+      }
+    },
+    {
+      "pestId": "whiteflies",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, white, winged insects that fly up when disturbed. They suck sap, weaken the plant, and can transmit viruses.",
+        "ur": "چھوٹے، سفید، پروں والے کیڑے جو پریشان ہونے پر اڑ جاتے ہیں۔ یہ رس چوستے ہیں، پودے کو کمزور کرتے ہیں، اور وائرس منتقل کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة بيضاء مجنحة تطير عند إزعاجها. تمتص العصارة، تضعف النبات، ويمكن أن تنقل الفيروسات.",
+        "fr": "De minuscules insectes blancs ailés qui s'envolent lorsque la plante est dérangée. Ils sucent la sève, affaiblissent la plante et peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "leaf_spot_diseases",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Various fungal diseases causing small, dark spots on leaves, which can enlarge and merge, leading to defoliation.",
+        "ur": "مختلف فنگل بیماریاں جو پتوں پر چھوٹے، گہرے دھبوں کا سبب بنتی ہیں، جو بڑھ کر مل سکتے ہیں، جس سے پتے گر جاتے ہیں۔",
+        "ar": "أمراض فطرية مختلفة تسبب بقعًا صغيرة داكنة على الأوراق، والتي يمكن أن تتسع وتندمج، مما يؤدي إلى تساقط الأوراق.",
+        "fr": "Diverses maladies fongiques provoquant de petites taches sombres sur les feuilles, qui peuvent s'agrandir et fusionner, entraînant la défoliation."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 240,
+    "firstHarvestDayMax": 330,
+    "continuousHarvest": false,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Vines yellowing and dying back",
+        "ur": "بیلیں پیلی پڑ رہی ہیں اور مر رہی ہیں",
+        "ar": "اصفرار وموت الكرمات",
+        "fr": "Vignes jaunissantes et mourantes"
+      },
+      {
+        "en": "Tubers reaching desired size",
+        "ur": "گٹھلیاں مطلوبہ سائز تک پہنچ رہی ہیں",
+        "ar": "وصول الدرنات إلى الحجم المطلوب",
+        "fr": "Tubercules atteignant la taille désirée"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Carefully loosen soil around the plant with a fork and gently pull up the tubers, avoiding damage.",
+        "ur": "پودے کے گرد مٹی کو کانٹے سے احتیاط سے ڈھیلا کریں اور گٹھلیوں کو آہستہ سے کھینچیں، نقصان سے بچیں۔",
+        "ar": "فك التربة حول النبات بعناية باستخدام شوكة واسحب الدرنات بلطف، مع تجنب التلف.",
+        "fr": "Desserrez délicatement le sol autour de la plante avec une fourche et tirez doucement les tubercules, en évitant de les endommager."
+      },
+      "INTERMEDIATE": {
+        "en": "Dig a wide circle around the plant, at least 1 foot away from the main stem, to avoid cutting into tubers. Lift the entire root ball.",
+        "ur": "پودے کے گرد ایک وسیع دائرہ کھودیں، مرکزی تنے سے کم از کم 1 فٹ دور، تاکہ گٹھلیوں کو کاٹنے سے بچا جا سکے۔ پوری جڑ کی گیند کو اٹھا لیں۔",
+        "ar": "احفر دائرة واسعة حول النبات، على بعد قدم واحد على الأقل من الساق الرئيسية، لتجنب قطع الدرنات. ارفع كرة الجذر بأكملها.",
+        "fr": "Creusez un large cercle autour de la plante, à au moins 30 cm de la tige principale, pour éviter de couper les tubercules. Soulevez toute la motte."
+      },
+      "EXPERT": {
+        "en": "Harvest before the first hard frost. Cure tubers in a warm, humid place for 1-2 weeks to heal wounds and improve storage life.",
+        "ur": "پہلی سخت ٹھنڈ سے پہلے کٹائی کریں۔ گٹھلیوں کو زخموں کو بھرنے اور ذخیرہ کی زندگی کو بہتر بنانے کے لیے 1-2 ہفتوں تک گرم، مرطوب جگہ پر ٹھیک کریں۔",
+        "ar": "احصد قبل أول صقيع شديد. عالج الدرنات في مكان دافئ ورطب لمدة 1-2 أسبوع لشفاء الجروح وتحسين مدة التخزين.",
+        "fr": "Récoltez avant le premier gel rigoureux. Faites sécher les tubercules dans un endroit chaud et humide pendant 1 à 2 semaines pour guérir les blessures et améliorer la durée de conservation."
+      }
+    },
+    "storage": {
+      "en": "Cool, dry, well-ventilated, dark place (13-16°C / 55-60°F)",
+      "ur": "ٹھنڈی، خشک، اچھی ہوادار، تاریک جگہ (13-16°C / 55-60°F)",
+      "ar": "مكان بارد، جاف، جيد التهوية، ومظلم (13-16 درجة مئوية / 55-60 درجة فهرنهايت)",
+      "fr": "Endroit frais, sec, bien ventilé et sombre (13-16°C / 55-60°F)"
+    },
+    "yieldEstimateKg": {
+      "10L": 1.5,
+      "20L": 4,
+      "30L": 7,
+      "GROUND": 15
+    }
+  }
+}
