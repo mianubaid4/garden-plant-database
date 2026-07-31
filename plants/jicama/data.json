@@ -1,0 +1,1363 @@
+{
+  "id": "jicama",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627991969037-975971488107?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Jicama",
+      "alternate": [
+        "Mexican Turnip",
+        "Mexican Yam Bean",
+        "Mexican Potato"
+      ]
+    },
+    "ur": {
+      "common": "جیکاما",
+      "alternate": []
+    },
+    "ar": {
+      "common": "جيكاما",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Jicama",
+      "alternate": []
+    },
+    "botanical": "Pachyrhizus erosus",
+    "aliases": [
+      "hikama",
+      "xicama",
+      "yam bean"
+    ]
+  },
+  "category": "root_vegetable",
+  "subcategory": "tuberous_root",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 18,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "VINING",
+    "ROOT_CROP"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "VINING": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Jicama is a vining plant that requires support (trellis) to grow vertically. Pruning flowers is often recommended to encourage root development.",
+          "ur": "جیکاما ایک بیل دار پودا ہے جسے عمودی بڑھوتری کے لیے سہارے (ٹریلس) کی ضرورت ہوتی ہے۔ جڑوں کی نشوونما کو فروغ دینے کے لیے پھولوں کی کٹائی کی سفارش کی جاتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "tropical",
+    "root-crop",
+    "vining",
+    "warm-season",
+    "edible-root",
+    "trellis-required"
+  ],
+  "temperature": {
+    "optimalMinC": 20,
+    "optimalMaxC": 30,
+    "survivalMinC": 10,
+    "survivalMaxC": 35,
+    "germinationMinC": 20,
+    "germinationOptimalC": 25,
+    "flowerDropAboveC": 32,
+    "flowerDropBelowC": 18
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 150,
+    "requiredGDD": 1800,
+    "baseTempC": 15,
+    "plantingConditions": {
+      "soilTempMinC": 20,
+      "airTempMinC": 20
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 32,
+      "coldStressCriticalC": 15,
+      "frostWarningC": 2,
+      "heavyRainMm": 25,
+      "highWindKmh": 35,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent and Deep",
+    "soilMoisturePreference": "Consistently moist, but never waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "Medium, can stunt root growth",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted root development",
+      "tougher roots"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "soft stem",
+      "root rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Deep watering at the base",
+    "thingsToAvoid": [
+      "waterlogging",
+      "letting soil dry out completely",
+      "overhead watering in humid conditions"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Requires a very large pot with excellent drainage for good root development.",
+        "ur": "جڑوں کی اچھی نشوونما کے لیے بہترین نکاسی آب کے ساتھ ایک بہت بڑے گملے کی ضرورت ہے۔",
+        "ar": "يتطلب وعاء كبير جدًا مع تصريف ممتاز لتطوير جيد للجذور.",
+        "fr": "Nécessite un très grand pot avec un excellent drainage pour un bon développement des racines."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 60,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric bags promote air pruning and good drainage, ideal for large root crops.",
+        "ur": "فیبرک بیگ ہوا کی کٹائی اور اچھی نکاسی آب کو فروغ دیتے ہیں، جو بڑی جڑوں والی فصلوں کے لیے مثالی ہیں۔",
+        "ar": "أكياس القماش تعزز تقليم الهواء والتصريف الجيد، وهي مثالية لمحاصيل الجذور الكبيرة.",
+        "fr": "Les sacs en tissu favorisent l'élagage aérien et un bon drainage, idéal pour les grandes cultures racinaires."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Needs ample space and deep, loose soil for optimal root growth. Provide a strong trellis.",
+        "ur": "جڑوں کی بہترین نشوونما کے لیے کافی جگہ اور گہری، ڈھیلی مٹی کی ضرورت ہے۔ ایک مضبوط ٹریلس فراہم کریں۔",
+        "ar": "يحتاج إلى مساحة واسعة وتربة عميقة وفضفاضة لنمو الجذور الأمثل. توفير تعريشة قوية.",
+        "fr": "Nécessite un espace suffisant et un sol profond et meuble pour une croissance racinaire optimale. Fournir un treillis solide."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 80,
+      "minDepthCm": 50,
+      "wateringMultiplier": 1.1,
+      "notes": {
+        "en": "Excellent for providing deep, well-drained soil. Ensure bed is at least 50cm deep.",
+        "ur": "گہری، اچھی نکاسی والی مٹی فراہم کرنے کے لیے بہترین ہے۔ یقینی بنائیں کہ بستر کم از کم 50 سینٹی میٹر گہرا ہو۔",
+        "ar": "ممتاز لتوفير تربة عميقة وجيدة التصريف. تأكد من أن السرير لا يقل عمقه عن 50 سم.",
+        "fr": "Excellent pour fournir un sol profond et bien drainé. Assurez-vous que le lit mesure au moins 50 cm de profondeur."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "120-150 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Seed sowing for jicama, either direct or indoors.",
+        "ur": "جیکاما کے بیج بونا، براہ راست یا گھر کے اندر۔",
+        "ar": "بذر بذور الجيكاما، إما مباشرة أو داخليًا.",
+        "fr": "Semis des graines de jicama, directement ou en intérieur."
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Jicama needs a long, warm growing season. Start indoors in cooler climates.",
+          "ur": "جیکاما کو لمبے، گرم بڑھتے ہوئے موسم کی ضرورت ہوتی ہے۔ ٹھنڈے علاقوں میں گھر کے اندر شروع کریں۔",
+          "ar": "يحتاج الجيكاما إلى موسم نمو طويل ودافئ. ابدأ الزراعة داخليًا في المناخات الباردة.",
+          "fr": "Le jicama a besoin d'une longue saison chaude. Commencez en intérieur dans les climats plus frais."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare well-draining soil with compost.",
+              "ur": "کمپوسٹ کے ساتھ اچھی نکاسی والی مٹی تیار کریں۔",
+              "ar": "جهز تربة جيدة التصريف بالسماد العضوي.",
+              "fr": "Préparez un sol bien drainé avec du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is loose and rich in organic matter for root development.",
+              "ur": "یقینی بنائیں کہ مٹی جڑوں کی نشوونما کے لیے ڈھیلی اور نامیاتی مادے سے بھرپور ہو۔",
+              "ar": "تأكد من أن التربة فضفاضة وغنية بالمواد العضوية لتنمية الجذور.",
+              "fr": "Assurez-vous que le sol est meuble et riche en matière organique pour le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Amend soil with balanced organic fertilizer, focusing on phosphorus.",
+              "ur": "فاسفورس پر توجہ مرکوز کرتے ہوئے متوازن نامیاتی کھاد سے مٹی کو بہتر بنائیں۔",
+              "ar": "عدّل التربة بسماد عضوي متوازن، مع التركيز على الفوسفور.",
+              "fr": "Amendez le sol avec un engrais organique équilibré, en se concentrant sur le phosphore."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1 inch deep and 6-8 inches apart.",
+              "ur": "بیجوں کو 1 انچ گہرا اور 6-8 انچ کے فاصلے پر بوئیں۔",
+              "ar": "ازرع البذور بعمق 1 بوصة وعلى بعد 6-8 بوصات.",
+              "fr": "Semez les graines à 1 pouce de profondeur et à 6-8 pouces d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2 seeds per hole, 1 inch deep, thinning to the strongest later.",
+              "ur": "ہر سوراخ میں 2 بیج 1 انچ گہرے بوئیں، بعد میں مضبوط ترین کو پتلا کریں۔",
+              "ar": "ازرع بذرتين في كل حفرة بعمق 1 بوصة، ثم خفف إلى الأقوى لاحقًا.",
+              "fr": "Plantez 2 graines par trou à 1 pouce de profondeur, en éclaircissant le plus fort plus tard."
+            },
+            "EXPERT": {
+              "en": "Pre-soak seeds for 24 hours to improve germination rates, then sow 1 inch deep.",
+              "ur": "انکرن کی شرح کو بہتر بنانے کے لیے بیجوں کو 24 گھنٹے تک بھگو دیں، پھر 1 انچ گہرا بوئیں۔",
+              "ar": "انقع البذور لمدة 24 ساعة لتحسين معدلات الإنبات، ثم ازرعها بعمق 1 بوصة.",
+              "fr": "Faites tremper les graines pendant 24 heures pour améliorer les taux de germination, puis semez à 1 pouce de profondeur."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist.",
+              "ur": "مٹی کو مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار.",
+              "fr": "Gardez le sol constamment humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure even moisture without waterlogging.",
+              "ur": "پانی جمع کیے بغیر یکساں نمی کو یقینی بنائیں۔",
+              "ar": "تأكد من رطوبة متساوية دون تشبع بالمياه.",
+              "fr": "Assurez une humidité uniforme sans engorgement."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a meter to maintain optimal conditions.",
+              "ur": "بہترین حالات کو برقرار رکھنے کے لیے نمی میٹر سے مٹی کی نمی کی نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة بمقياس للحفاظ على الظروف المثلى.",
+              "fr": "Surveillez l'humidité du sol avec un humidimètre pour maintenir des conditions optimales."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Jicama sprouts emerge from the soil.",
+        "ur": "جیکاما کے پودے مٹی سے نکلنا شروع ہو جاتے ہیں۔",
+        "ar": "تظهر براعم الجيكاما من التربة.",
+        "fr": "Les pousses de jicama émergent du sol."
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Warm soil is crucial for good germination. Use a heat mat if starting indoors.",
+          "ur": "اچھی انکرن کے لیے گرم مٹی بہت ضروری ہے۔ اگر گھر کے اندر شروع کر رہے ہیں تو ہیٹ میٹ استعمال کریں۔",
+          "ar": "التربة الدافئة ضرورية للإنبات الجيد. استخدم حصيرة حرارية إذا بدأت الزراعة داخليًا.",
+          "fr": "Un sol chaud est crucial pour une bonne germination. Utilisez un tapis chauffant si vous commencez en intérieur."
+        }
+      ],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check daily for emerging sprouts.",
+              "ur": "روزانہ ابھرتے ہوئے پودوں کو چیک کریں۔",
+              "ar": "تحقق يوميًا من البراعم الناشئة.",
+              "fr": "Vérifiez quotidiennement l'apparition des pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for the first signs of cotyledons breaking the soil surface.",
+              "ur": "مٹی کی سطح سے کوٹیلیڈنز کے نکلنے کی پہلی علامات تلاش کریں۔",
+              "ar": "ابحث عن العلامات الأولى لظهور الفلقات على سطح التربة.",
+              "fr": "Recherchez les premiers signes de cotylédons brisant la surface du sol."
+            },
+            "EXPERT": {
+              "en": "Assess germination uniformity and density for future thinning needs.",
+              "ur": "مستقبل میں پتلا کرنے کی ضروریات کے لیے انکرن کی یکسانیت اور کثافت کا اندازہ لگائیں۔",
+              "ar": "قم بتقييم انتظام وكثافة الإنبات لاحتياجات التخفيف المستقبلية.",
+              "fr": "Évaluez l'uniformité et la densité de la germination pour les besoins futurs d'éclaircissage."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing young sprouts.",
+              "ur": "نوجوان پودوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البراعم الصغيرة.",
+              "fr": "Arrosez doucement pour éviter de perturber les jeunes pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture, avoiding overhead watering.",
+              "ur": "اوپر سے پانی دینے سے گریز کرتے ہوئے مسلسل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة ثابتة، وتجنب الري العلوي.",
+              "fr": "Maintenez une humidité constante, en évitant l'arrosage par le haut."
+            },
+            "EXPERT": {
+              "en": "Use bottom watering or a fine mist to prevent damping-off disease.",
+              "ur": "ڈیمپنگ آف بیماری سے بچنے کے لیے نیچے سے پانی دیں یا باریک چھڑکاؤ کریں۔",
+              "ar": "استخدم الري السفلي أو الرذاذ الناعم لمنع مرض الذبول الفطري.",
+              "fr": "Utilisez l'arrosage par le bas ou une fine brume pour prévenir la fonte des semis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Jicama seedlings develop true leaves and strengthen.",
+        "ur": "جیکاما کے پودے اصلی پتے تیار کرتے ہیں اور مضبوط ہوتے ہیں۔",
+        "ar": "تنمو شتلات الجيكاما أوراقًا حقيقية وتتقوى.",
+        "fr": "Les jeunes plants de jicama développent de vraies feuilles et se renforcent."
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Provide plenty of light to prevent leggy growth. Harden off before transplanting outdoors.",
+          "ur": "لمبی نشوونما کو روکنے کے لیے کافی روشنی فراہم کریں۔ باہر منتقل کرنے سے پہلے سخت کریں۔",
+          "ar": "وفر الكثير من الضوء لمنع النمو الطويل. قم بتقوية الشتلات قبل زرعها في الخارج.",
+          "fr": "Fournissez beaucoup de lumière pour éviter une croissance étiolée. Endurcissez avant de transplanter à l'extérieur."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to one strong plant every 8-12 inches.",
+              "ur": "پودوں کو ہر 8-12 انچ پر ایک مضبوط پودے تک پتلا کریں۔",
+              "ar": "خفف الشتلات إلى نبات واحد قوي كل 8-12 بوصة.",
+              "fr": "Éclaircissez les semis pour ne laisser qu'une plante forte tous les 8-12 pouces."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully snip weaker seedlings at the soil line to avoid disturbing roots of the keepers.",
+              "ur": "کمزور پودوں کو مٹی کی سطح پر احتیاط سے کاٹ دیں تاکہ باقی پودوں کی جڑوں کو پریشان نہ کریں۔",
+              "ar": "اقطع الشتلات الأضعف بعناية عند خط التربة لتجنب إزعاج جذور النباتات المتبقية.",
+              "fr": "Coupez délicatement les semis les plus faibles au niveau du sol pour éviter de perturber les racines des plants conservés."
+            },
+            "EXPERT": {
+              "en": "Select for vigor and disease resistance during thinning, ensuring optimal spacing.",
+              "ur": "پتلا کرتے وقت طاقت اور بیماری کے خلاف مزاحمت کا انتخاب کریں، بہترین فاصلہ یقینی بنائیں۔",
+              "ar": "اختر الشتلات القوية والمقاومة للأمراض أثناء التخفيف، مع ضمان التباعد الأمثل.",
+              "fr": "Sélectionnez la vigueur et la résistance aux maladies lors de l'éclaircissage, en assurant un espacement optimal."
+            }
+          }
+        },
+        "transplant": {
+          "required": false,
+          "dayOffset": 20,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If started indoors, transplant seedlings outdoors after all danger of frost has passed.",
+              "ur": "اگر گھر کے اندر شروع کیا ہے تو، ٹھنڈ کے تمام خطرے کے بعد پودوں کو باہر منتقل کریں۔",
+              "ar": "إذا بدأت الزراعة داخليًا، انقل الشتلات إلى الخارج بعد زوال خطر الصقيع تمامًا.",
+              "fr": "Si vous avez commencé en intérieur, transplantez les semis à l'extérieur après tout risque de gel."
+            },
+            "INTERMEDIATE": {
+              "en": "Harden off seedlings for 7-10 days before transplanting to minimize shock.",
+              "ur": "صدمے کو کم کرنے کے لیے منتقل کرنے سے پہلے پودوں کو 7-10 دن تک سخت کریں۔",
+              "ar": "قم بتقوية الشتلات لمدة 7-10 أيام قبل الزرع لتقليل الصدمة.",
+              "fr": "Endurcissez les semis pendant 7-10 jours avant de transplanter pour minimiser le choc."
+            },
+            "EXPERT": {
+              "en": "Transplant on a cloudy day or in the evening, ensuring minimal root disturbance.",
+              "ur": "بادل والے دن یا شام کو منتقل کریں، جڑوں کی کم سے کم پریشانی کو یقینی بنائیں۔",
+              "ar": "انقل الشتلات في يوم غائم أو في المساء، مع ضمان الحد الأدنى من اضطراب الجذور.",
+              "fr": "Transplantez par temps nuageux ou le soir, en assurant une perturbation minimale des racines."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant.",
+              "ur": "پودے کی بنیاد پر پانی دیں۔",
+              "ar": "اسقِ قاعدة النبات.",
+              "fr": "Arrosez à la base de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کی حوصلہ افزائی کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لتشجيع نمو الجذور القوية.",
+              "fr": "Assurez un arrosage profond pour encourager un fort développement racinaire."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture and adjust watering frequency based on plant vigor and weather.",
+              "ur": "مٹی کی نمی کی نگرانی کریں اور پودے کی طاقت اور موسم کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں۔",
+              "ar": "راقب رطوبة التربة واضبط تكرار الري بناءً على حيوية النبات والطقس.",
+              "fr": "Surveillez l'humidité du sol et ajustez la fréquence d'arrosage en fonction de la vigueur de la plante et de la météo."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 75,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Jicama vines grow rapidly, developing foliage and beginning root formation.",
+        "ur": "جیکاما کی بیلیں تیزی سے بڑھتی ہیں، پتے تیار کرتی ہیں اور جڑوں کی تشکیل شروع کرتی ہیں۔",
+        "ar": "تنمو كروم الجيكاما بسرعة، وتطور الأوراق وتبدأ في تكوين الجذور.",
+        "fr": "Les vignes de jicama poussent rapidement, développant leur feuillage et commençant la formation des racines."
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Jicama is a vigorous climber. Provide strong support early to prevent sprawling.",
+          "ur": "جیکاما ایک مضبوط چڑھنے والا پودا ہے۔ پھیلنے سے روکنے کے لیے جلد ہی مضبوط سہارا فراہم کریں۔",
+          "ar": "الجيكاما نبات متسلق قوي. وفر دعمًا قويًا مبكرًا لمنع الانتشار.",
+          "fr": "Le jicama est une plante grimpante vigoureuse. Fournissez un support solide tôt pour éviter qu'elle ne s'étale."
+        },
+        {
+          "en": "Regularly remove any flowers that appear to direct energy to root development.",
+          "ur": "جڑوں کی نشوونما کی طرف توانائی کو منتقل کرنے کے لیے باقاعدگی سے کسی بھی پھول کو ہٹا دیں۔",
+          "ar": "قم بإزالة أي أزهار تظهر بانتظام لتوجيه الطاقة نحو نمو الجذور.",
+          "fr": "Retirez régulièrement toutes les fleurs qui apparaissent pour diriger l'énergie vers le développement des racines."
+        }
+      ],
+      "tasks": {
+        "support": {
+          "required": true,
+          "dayOffset": 15,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Install a sturdy trellis or stakes for the vines to climb.",
+              "ur": "بیلیں چڑھنے کے لیے ایک مضبوط ٹریلس یا ڈنڈے لگائیں۔",
+              "ar": "قم بتركيب تعريشة قوية أو أوتاد لتتسلق عليها الكروم.",
+              "fr": "Installez un treillis robuste ou des tuteurs pour que les vignes puissent grimper."
+            },
+            "INTERMEDIATE": {
+              "en": "Guide the growing vines onto the support structure as they develop.",
+              "ur": "بڑھتی ہوئی بیلوں کو ترقی کے ساتھ سہارا ڈھانچے پر رہنمائی کریں۔",
+              "ar": "وجه الكروم النامية إلى هيكل الدعم أثناء نموها.",
+              "fr": "Guide les vignes en croissance sur la structure de support au fur et à mesure de leur développement."
+            },
+            "EXPERT": {
+              "en": "Establish a robust vertical trellis system capable of supporting heavy root production.",
+              "ur": "بھاری جڑوں کی پیداوار کو سہارا دینے کے قابل ایک مضبوط عمودی ٹریلس نظام قائم کریں۔",
+              "ar": "أنشئ نظام تعريشة عمودي قوي قادر على دعم إنتاج الجذور الثقيلة.",
+              "fr": "Établissez un système de treillis vertical robuste capable de supporter une production racinaire importante."
+            }
+          }
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off any small flower buds as soon as they appear.",
+              "ur": "جیسے ہی کوئی چھوٹی پھول کی کلی نظر آئے اسے چٹکی سے توڑ دیں۔",
+              "ar": "اقطع أي براعم زهور صغيرة بمجرد ظهورها.",
+              "fr": "Pincez tous les petits boutons floraux dès qu'ils apparaissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly inspect and remove all flowers and developing seed pods to maximize root growth.",
+              "ur": "جڑوں کی نشوونما کو زیادہ سے زیادہ کرنے کے لیے تمام پھولوں اور تیار ہوتے بیجوں کی پھلیوں کا باقاعدگی سے معائنہ کریں اور انہیں ہٹا دیں۔",
+              "ar": "افحص وأزل جميع الأزهار وقرون البذور النامية بانتظام لزيادة نمو الجذور إلى أقصى حد.",
+              "fr": "Inspectez et retirez régulièrement toutes les fleurs et les gousses de graines en développement pour maximiser la croissance des racines."
+            },
+            "EXPERT": {
+              "en": "Implement a consistent flower and pod removal strategy, understanding the plant's energy allocation.",
+              "ur": "پودے کی توانائی کی تقسیم کو سمجھتے ہوئے پھول اور پھلی ہٹانے کی ایک مستقل حکمت عملی نافذ کریں۔",
+              "ar": "نفذ استراتيجية متسقة لإزالة الأزهار والقرون، مع فهم تخصيص طاقة النبات.",
+              "fr": "Mettez en œuvre une stratégie cohérente d'élimination des fleurs et des gousses, en comprenant l'allocation d'énergie de la plante."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently.",
+              "ur": "گہرا اور مسلسل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار.",
+              "fr": "Arrosez profondément et régulièrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is moist but not waterlogged, crucial for root development.",
+              "ur": "یقینی بنائیں کہ مٹی نم ہو لیکن پانی جمع نہ ہو، جو جڑوں کی نشوونما کے لیے اہم ہے۔",
+              "ar": "تأكد من أن التربة رطبة ولكن ليست مشبعة بالماء، وهو أمر بالغ الأهمية لتنمية الجذور.",
+              "fr": "Assurez-vous que le sol est humide mais non gorgé d'eau, crucial pour le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on rainfall and soil type to prevent root rot.",
+              "ur": "جڑوں کے سڑنے سے بچنے کے لیے بارش اور مٹی کی قسم کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على هطول الأمطار ونوع التربة لمنع تعفن الجذور.",
+              "fr": "Ajustez l'arrosage en fonction des précipitations et du type de sol pour prévenir la pourriture des racines."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced organic fertilizer.",
+              "ur": "متوازن نامیاتی کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا عضويًا متوازنًا.",
+              "fr": "Appliquez un engrais organique équilibré."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fertilizer higher in phosphorus and potassium to promote root growth.",
+              "ur": "جڑوں کی نشوونما کو فروغ دینے کے لیے فاسفورس اور پوٹاشیم میں زیادہ کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا غنيًا بالفوسفور والبوتاسيوم لتعزيز نمو الجذور.",
+              "fr": "Utilisez un engrais plus riche en phosphore et en potassium pour favoriser la croissance des racines."
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests to tailor nutrient application for optimal tuber development.",
+              "ur": "بہترین ٹیوبر کی نشوونما کے لیے غذائی اجزاء کے استعمال کو ایڈجسٹ کرنے کے لیے مٹی کے ٹیسٹ کریں۔",
+              "ar": "قم بإجراء اختبارات التربة لتخصيص تطبيق المغذيات لتنمية الدرنات المثلى.",
+              "fr": "Effectuez des tests de sol pour adapter l'application des nutriments pour un développement optimal des tubercules."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Jicama plants attempt to flower; these must be removed.",
+        "ur": "جیکاما کے پودے پھولنے کی کوشش کرتے ہیں؛ انہیں ہٹانا ضروری ہے۔",
+        "ar": "تحاول نباتات الجيكاما الإزهار؛ يجب إزالة هذه الأزهار.",
+        "fr": "Les plants de jicama tentent de fleurir ; ceux-ci doivent être retirés."
+      },
+      "emoji": "✂️",
+      "tips": [
+        {
+          "en": "Removing flowers is critical for large, edible roots. Flowers and pods are toxic.",
+          "ur": "بڑے، کھانے کے قابل جڑوں کے لیے پھولوں کو ہٹانا بہت ضروری ہے۔ پھول اور پھلیاں زہریلے ہوتے ہیں۔",
+          "ar": "إزالة الأزهار أمر بالغ الأهمية للحصول على جذور كبيرة وصالحة للأكل. الأزهار والقرون سامة.",
+          "fr": "L'élimination des fleurs est essentielle pour obtenir de grosses racines comestibles. Les fleurs et les gousses sont toxiques."
+        }
+      ],
+      "tasks": {
+        "flowerRemoval": {
+          "required": true,
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off all flower buds as soon as you see them.",
+              "ur": "جیسے ہی آپ انہیں دیکھیں تمام پھولوں کی کلیوں کو چٹکی سے توڑ دیں۔",
+              "ar": "اقطع جميع براعم الزهور بمجرد رؤيتها.",
+              "fr": "Pincez tous les boutons floraux dès que vous les voyez."
+            },
+            "INTERMEDIATE": {
+              "en": "Systematically check the entire plant every few days for new flower development.",
+              "ur": "ہر چند دنوں میں نئے پھولوں کی نشوونما کے لیے پورے پودے کا منظم طریقے سے معائنہ کریں۔",
+              "ar": "افحص النبات بأكمله بشكل منهجي كل بضعة أيام لتتبع نمو الأزهار الجديدة.",
+              "fr": "Vérifiez systématiquement toute la plante tous les quelques jours pour le développement de nouvelles fleurs."
+            },
+            "EXPERT": {
+              "en": "Understand that flower removal redirects energy to tuber growth; be diligent.",
+              "ur": "سمجھیں کہ پھولوں کو ہٹانا توانائی کو ٹیوبر کی نشوونما کی طرف موڑ دیتا ہے؛ محتاط رہیں۔",
+              "ar": "افهم أن إزالة الأزهار تعيد توجيه الطاقة إلى نمو الدرنات؛ كن دقيقًا.",
+              "fr": "Comprenez que l'élimination des fleurs redirige l'énergie vers la croissance des tubercules ; soyez diligent."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent watering.",
+              "ur": "مسلسل پانی دینا جاری رکھیں۔",
+              "ar": "حافظ على الري المستمر.",
+              "fr": "Maintenez un arrosage constant."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to support root bulking.",
+              "ur": "جڑوں کی نشوونما کو سہارا دینے کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لدعم تضخم الجذور.",
+              "fr": "Assurez un arrosage profond pour soutenir le grossissement des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture to prevent stress, which can trigger premature flowering.",
+              "ur": "تناؤ کو روکنے کے لیے مٹی کی نمی کی نگرانی کریں، جو قبل از وقت پھولنے کا سبب بن سکتا ہے۔",
+              "ar": "راقب رطوبة التربة لمنع الإجهاد، الذي يمكن أن يؤدي إلى الإزهار المبكر.",
+              "fr": "Surveillez l'humidité du sol pour prévenir le stress, qui peut déclencher une floraison prématurée."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "ROOT_BULKING",
+      "durationDaysBase": 105,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "The jicama roots (tubers) rapidly expand and mature.",
+        "ur": "جیکاما کی جڑیں (ٹیوبرز) تیزی سے پھیلتی اور پختہ ہوتی ہیں۔",
+        "ar": "تتوسع جذور الجيكاما (الدرنات) وتنمو بسرعة.",
+        "fr": "Les racines de jicama (tubercules) se développent et mûrissent rapidement."
+      },
+      "emoji": "🥔",
+      "tips": [
+        {
+          "en": "Consistent moisture and nutrient supply are key for large, healthy tubers.",
+          "ur": "بڑے، صحت مند ٹیوبرز کے لیے مسلسل نمی اور غذائی اجزاء کی فراہمی اہم ہے۔",
+          "ar": "الرطوبة المستمرة وإمدادات المغذيات ضرورية للحصول على درنات كبيرة وصحية.",
+          "fr": "Une humidité et un apport nutritif constants sont essentiels pour des tubercules gros et sains."
+        },
+        {
+          "en": "Continue to remove any new flowers or pods immediately.",
+          "ur": "کسی بھی نئے پھول یا پھلی کو فوری طور پر ہٹانا جاری رکھیں۔",
+          "ar": "استمر في إزالة أي أزهار أو قرون جديدة على الفور.",
+          "fr": "Continuez à retirer immédiatement toutes les nouvelles fleurs ou gousses."
+        }
+      ],
+      "tasks": {
+        "flowerRemoval": {
+          "required": true,
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep removing any flowers or pods.",
+              "ur": "کسی بھی پھول یا پھلی کو ہٹاتے رہیں۔",
+              "ar": "استمر في إزالة أي أزهار أو قرون.",
+              "fr": "Continuez à retirer toutes les fleurs ou gousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Vigilantly check for and remove all reproductive structures.",
+              "ur": "تمام تولیدی ڈھانچے کو احتیاط سے چیک کریں اور ہٹا دیں۔",
+              "ar": "تحقق بيقظة من جميع الهياكل التناسلية وأزلها.",
+              "fr": "Vérifiez et retirez avec vigilance toutes les structures reproductives."
+            },
+            "EXPERT": {
+              "en": "Ensure no energy is diverted from tuber development by any flowering.",
+              "ur": "یقینی بنائیں کہ پھولنے سے ٹیوبر کی نشوونما سے کوئی توانائی نہیں ہٹائی جاتی ہے۔",
+              "ar": "تأكد من عدم تحويل أي طاقة من نمو الدرنات بسبب أي إزهار.",
+              "fr": "Assurez-vous qu'aucune énergie n'est détournée du développement des tubercules par la floraison."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water heavily and consistently.",
+              "ur": "بھاری اور مسلسل پانی دیں۔",
+              "ar": "اسقِ بكثرة وباستمرار.",
+              "fr": "Arrosez abondamment et régulièrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even soil moisture to prevent cracking of developing tubers.",
+              "ur": "تیار ہوتے ٹیوبرز کے پھٹنے سے بچنے کے لیے مٹی کی یکساں نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة المتساوية لمنع تشقق الدرنات النامية.",
+              "fr": "Maintenez une humidité uniforme du sol pour éviter la fissuration des tubercules en développement."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation schedules to support rapid tuber expansion without waterlogging.",
+              "ur": "پانی جمع کیے بغیر تیزی سے ٹیوبر کی توسیع کو سہارا دینے کے لیے آبپاشی کے شیڈول کو بہتر بنائیں۔",
+              "ar": "حسن جداول الري لدعم التوسع السريع للدرنات دون تشبع بالمياه.",
+              "fr": "Optimisez les programmes d'irrigation pour soutenir l'expansion rapide des tubercules sans engorgement."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a fertilizer rich in phosphorus and potassium.",
+              "ur": "فاسفورس اور پوٹاشیم سے بھرپور کھاد کا استعمال کریں۔",
+              "ar": "استخدم سمادًا غنيًا بالفوسفور والبوتاسيوم.",
+              "fr": "Appliquez un engrais riche en phosphore et en potassium."
+            },
+            "INTERMEDIATE": {
+              "en": "Supplement with bone meal or rock phosphate for enhanced tuber development.",
+              "ur": "بہتر ٹیوبر کی نشوونما کے لیے ہڈیوں کے کھانے یا راک فاسفیٹ کے ساتھ ضمیمہ کریں۔",
+              "ar": "استكمل بوجبة العظام أو فوسفات الصخور لتعزيز نمو الدرنات.",
+              "fr": "Complétez avec de la farine d'os ou du phosphate de roche pour un développement amélioré des tubercules."
+            },
+            "EXPERT": {
+              "en": "Monitor nutrient levels via leaf analysis and adjust feeding for maximum yield.",
+              "ur": "پتوں کے تجزیہ کے ذریعے غذائی اجزاء کی سطح کی نگرانی کریں اور زیادہ سے زیادہ پیداوار کے لیے خوراک کو ایڈجسٹ کریں۔",
+              "ar": "راقب مستويات المغذيات عبر تحليل الأوراق واضبط التغذية لتحقيق أقصى إنتاجية.",
+              "fr": "Surveillez les niveaux de nutriments par analyse foliaire et ajustez l'alimentation pour un rendement maximal."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Jicama roots are mature and ready for harvest.",
+        "ur": "جیکاما کی جڑیں پختہ اور کٹائی کے لیے تیار ہیں۔",
+        "ar": "جذور الجيكاما ناضجة وجاهزة للحصاد.",
+        "fr": "Les racines de jicama sont matures et prêtes à être récoltées."
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest before the first frost, as cold temperatures can damage the tubers.",
+          "ur": "پہلی ٹھنڈ سے پہلے کٹائی کریں، کیونکہ سرد درجہ حرارت ٹیوبرز کو نقصان پہنچا سکتا ہے۔",
+          "ar": "احصد قبل الصقيع الأول، حيث يمكن أن تتلف درجات الحرارة الباردة الدرنات.",
+          "fr": "Récoltez avant le premier gel, car les températures froides peuvent endommager les tubercules."
+        },
+        {
+          "en": "The leaves may start to yellow and die back, indicating maturity.",
+          "ur": "پتے پیلے پڑنا شروع ہو سکتے ہیں اور مرجھا سکتے ہیں، جو پختگی کی نشاندہی کرتا ہے۔",
+          "ar": "قد تبدأ الأوراق في الاصفرار والذبول، مما يشير إلى النضج.",
+          "fr": "Les feuilles peuvent commencer à jaunir et à mourir, indiquant la maturité."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully dig up the jicama roots when they are about 4-6 inches in diameter.",
+              "ur": "جیکاما کی جڑوں کو احتیاط سے کھودیں جب وہ تقریباً 4-6 انچ قطر میں ہوں۔",
+              "ar": "احفر جذور الجيكاما بعناية عندما يبلغ قطرها حوالي 4-6 بوصات.",
+              "fr": "Déterrez délicatement les racines de jicama lorsqu'elles mesurent environ 4-6 pouces de diamètre."
+            },
+            "INTERMEDIATE": {
+              "en": "Loosen the soil around the plant with a fork before gently lifting the tubers.",
+              "ur": "ٹیوبرز کو آہستہ سے اٹھانے سے پہلے کانٹے سے پودے کے ارد گرد کی مٹی کو ڈھیلا کریں۔",
+              "ar": "فك التربة حول النبات بشوكة قبل رفع الدرنات بلطف.",
+              "fr": "Ameublissez le sol autour de la plante avec une fourche avant de soulever délicatement les tubercules."
+            },
+            "EXPERT": {
+              "en": "Harvest when vines begin to yellow, ensuring tubers are firm and unblemished.",
+              "ur": "جب بیلیں پیلی پڑنا شروع ہوں تو کٹائی کریں، اس بات کو یقینی بناتے ہوئے کہ ٹیوبرز مضبوط اور بے داغ ہوں۔",
+              "ar": "احصد عندما تبدأ الكروم في الاصفرار، مع التأكد من أن الدرنات صلبة وخالية من العيوب.",
+              "fr": "Récoltez lorsque les vignes commencent à jaunir, en vous assurant que les tubercules sont fermes et sans défaut."
+            }
+          }
+        },
+        "postHarvestCare": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Brush off excess soil and store jicama in a cool, dry place.",
+              "ur": "اضافی مٹی صاف کریں اور جیکاما کو ٹھنڈی، خشک جگہ پر ذخیرہ کریں۔",
+              "ar": "نظف التربة الزائدة وخزن الجيكاما في مكان بارد وجاف.",
+              "fr": "Brossez l'excès de terre et stockez le jicama dans un endroit frais et sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Do not wash jicama before storing, as moisture can lead to rot.",
+              "ur": "ذخیرہ کرنے سے پہلے جیکاما کو نہ دھوئیں، کیونکہ نمی سڑنے کا سبب بن سکتی ہے۔",
+              "ar": "لا تغسل الجيكاما قبل التخزين، حيث يمكن أن تؤدي الرطوبة إلى التعفن.",
+              "fr": "Ne lavez pas le jicama avant de le stocker, car l'humidité peut entraîner la pourriture."
+            },
+            "EXPERT": {
+              "en": "Cure jicama for a few days in a well-ventilated area to improve storage life.",
+              "ur": "ذخیرہ کی مدت کو بہتر بنانے کے لیے جیکاما کو چند دنوں کے لیے اچھی ہوادار جگہ پر خشک کریں۔",
+              "ar": "عالج الجيكاما لبضعة أيام في منطقة جيدة التهوية لتحسين مدة التخزين.",
+              "fr": "Faites sécher le jicama pendant quelques jours dans un endroit bien ventilé pour améliorer sa durée de conservation."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر ماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost for initial growth and root establishment.",
+          "ur": "ابتدائی نشوونما اور جڑوں کے قیام کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة للنمو الأولي وتثبيت الجذور.",
+          "fr": "Donne un coup de pouce nutritif doux pour la croissance initiale et l'établissement des racines."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Balanced Organic Granular (low N, higher P/K)",
+          "ur": "کمپوسٹ چائے یا متوازن نامیاتی دانے دار (کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم)",
+          "ar": "شاي الكمبوست أو سماد عضوي متوازن (منخفض النيتروجين، عالي الفوسفور/البوتاسيوم)",
+          "fr": "Thé de compost ou engrais organique granulaire équilibré (faible N, plus P/K)"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "انقع كوبًا من الكمبوست الغني أو روث الدود في 3.7 لتر ماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش.",
+          "fr": "Faites tremper 1 tasse de compost riche ou de lombricompost dans 3,7 litres d'eau pendant 24 à 48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Encourages healthy vine development and prepares for tuber formation without excessive nitrogen.",
+          "ur": "بیل کی صحت مند نشوونما کو فروغ دیتا ہے اور زیادہ نائٹروجن کے بغیر گٹھلی کی تشکیل کے لیے تیار کرتا ہے۔",
+          "ar": "يشجع على نمو الكرمة الصحي ويجهز لتكوين الدرنات دون نيتروجين مفرط.",
+          "fr": "Favorise un développement sain de la vigne et prépare la formation des tubercules sans excès d'azote."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": null,
+        "product": null,
+        "preparation": null,
+        "quantityPer10L": null,
+        "unit": null,
+        "timing": null,
+        "applyAfterWatering": null,
+        "note": {
+          "en": "Jicama flowers are typically removed to encourage larger root development. If allowed to flower for seed production, a phosphorus and potassium rich fertilizer would be beneficial.",
+          "ur": "جیکاما کے پھول عام طور پر جڑوں کی بڑی نشوونما کو فروغ دینے کے لیے ہٹا دیے جاتے ہیں۔ اگر بیج کی پیداوار کے لیے پھولوں کو رہنے دیا جائے تو فاسفورس اور پوٹاشیم سے بھرپور کھاد فائدہ مند ہوگی۔",
+          "ar": "تتم إزالة أزهار الجيكاما عادة لتشجيع نمو درنات أكبر. إذا سمح لها بالإزهار لإنتاج البذور، فسيكون السماد الغني بالفوسفور والبوتاسيوم مفيدًا.",
+          "fr": "Les fleurs de jicama sont généralement retirées pour favoriser un plus grand développement des racines. Si elles sont laissées pour la production de graines, un engrais riche en phosphore et en potassium serait bénéfique."
+        }
+      },
+      "ROOT_BULKING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash / Rock Phosphate",
+          "ur": "ہڈیوں کا چورا اور لکڑی کی راکھ / راک فاسفیٹ",
+          "ar": "مسحوق العظام ورماد الخشب / فوسفات الصخور",
+          "fr": "Farine d'os et cendres de bois / Phosphate de roche"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash (or rock phosphate) around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ ہڈیوں کا چورا اور 1 چمچ لکڑی کی راکھ (یا راک فاسفیٹ) چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب (أو فوسفات الصخور) حول قاعدة النبات. ادمجها برفق في الطبقة العلوية من التربة بعمق 1 بوصة.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os et 1 cuillère à soupe de cendres de bois (ou de phosphate de roche) autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Essential for robust tuber growth and development.",
+          "ur": "مضبوط گٹھلی کی نشوونما اور ترقی کے لیے ضروری ہے۔",
+          "ar": "ضروري لنمو وتطور الدرنات القوية.",
+          "fr": "Essentiel pour une croissance et un développement robustes des tubercules."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen NPK (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن این پی کے (مثلاً 5-10-10)",
+          "ar": "سماد NPK منخفض النيتروجين (مثل 5-10-10)",
+          "fr": "NPK faible en azote (par exemple, 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 5-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 5-10-10 في 3.7 لتر ماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 5-10-10 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes balanced growth, focusing on root development over excessive foliage.",
+          "ur": "متوازن نشوونما کو فروغ دیتا ہے، زیادہ پتوں کے بجائے جڑوں کی نشوونما پر توجہ دیتا ہے۔",
+          "ar": "يعزز النمو المتوازن، مع التركيز على نمو الجذور بدلاً من الأوراق المفرطة.",
+          "fr": "Favorise une croissance équilibrée, en se concentrant sur le développement des racines plutôt que sur un feuillage excessif."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": null,
+        "product": null,
+        "preparation": null,
+        "quantityPer10L": null,
+        "unit": null,
+        "timing": null,
+        "applyAfterWatering": null,
+        "note": {
+          "en": "Jicama flowers are typically removed to encourage larger root development. If allowed to flower for seed production, a phosphorus and potassium rich fertilizer would be beneficial.",
+          "ur": "جیکاما کے پھول عام طور پر جڑوں کی بڑی نشوونما کو فروغ دینے کے لیے ہٹا دیے جاتے ہیں۔ اگر بیج کی پیداوار کے لیے پھولوں کو رہنے دیا جائے تو فاسفورس اور پوٹاشیم سے بھرپور کھاد فائدہ مند ہوگی۔",
+          "ar": "تتم إزالة أزهار الجيكاما عادة لتشجيع نمو درنات أكبر. إذا سمح لها بالإزهار لإنتاج البذور، فسيكون السماد الغني بالفوسفور والبوتاسيوم مفيدًا.",
+          "fr": "Les fleurs de jicama sont généralement retirées pour favoriser un plus grand développement des racines. Si elles sont laissées pour la production de graines, un engrais riche en phosphore et en potassium serait bénéfique."
+        }
+      },
+      "ROOT_BULKING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Phosphorus and Potassium NPK (e.g., 0-10-10 or 5-15-15)",
+          "ur": "زیادہ فاسفورس اور پوٹاشیم این پی کے (مثلاً 0-10-10 یا 5-15-15)",
+          "ar": "سماد NPK عالي الفوسفور والبوتاسيوم (مثل 0-10-10 أو 5-15-15)",
+          "fr": "NPK riche en phosphore et potassium (par exemple, 0-10-10 ou 5-15-15)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high P/K fertilizer in 1 gallon of water. Apply around the base of the plant.",
+          "ur": "ایک چمچ زیادہ فاسفورس اور پوٹاشیم والی کھاد 4 لیٹر پانی میں حل کریں۔ پودے کی جڑوں کے گرد ڈالیں۔",
+          "ar": "أذب ملعقة صغيرة من سماد عالي الفوسفور/البوتاسيوم في 3.7 لتر ماء. طبق حول قاعدة النبات.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en P/K dans 3,7 litres d'eau. Appliquez autour de la base de la plante."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Maximizes tuber size and quality.",
+          "ur": "گٹھلی کے سائز اور معیار کو زیادہ سے زیادہ کرتا ہے۔",
+          "ar": "يزيد من حجم وجودة الدرنات.",
+          "fr": "Maximise la taille et la qualité des tubercules."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Low Nitrogen NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": null,
+        "week2": null,
+        "alternating": false,
+        "note": {
+          "en": "Flowers are typically removed for root development.",
+          "ur": "پھول عام طور پر جڑوں کی نشوونما کے لیے ہٹا دیے جاتے ہیں۔",
+          "ar": "تتم إزالة الأزهار عادة لتطوير الجذور.",
+          "fr": "Les fleurs sont généralement retirées pour le développement des racines."
+        }
+      },
+      "ROOT_BULKING": {
+        "week1": "Bone Meal",
+        "week2": "High P/K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "corn",
+      "benefit": {
+        "en": "Provides a natural trellis for the jicama vines to climb, offering support and maximizing vertical space.",
+        "ur": "جیکاما کی بیلوں کو چڑھنے کے لیے قدرتی سہارا فراہم کرتا ہے، عمودی جگہ کو زیادہ سے زیادہ استعمال کرتا ہے۔",
+        "ar": "يوفر تعريشة طبيعية لكرمة الجيكاما لتتسلق عليها، مما يوفر الدعم ويزيد من المساحة العمودية.",
+        "fr": "Fournit un treillis naturel pour que les vignes de jicama puissent grimper, offrant un soutien et maximisant l'espace vertical."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "benefit": {
+        "en": "Similar to corn, sunflowers offer sturdy stalks for jicama vines to climb, and their shade can help keep the soil cool.",
+        "ur": "مکئی کی طرح، سورج مکھی جیکاما کی بیلوں کو چڑھنے کے لیے مضبوط تنے فراہم کرتے ہیں، اور ان کا سایہ مٹی کو ٹھنڈا رکھنے میں مدد کر سکتا ہے۔",
+        "ar": "مثل الذرة، توفر عباد الشمس سيقانًا قوية لكرمة الجيكاما لتتسلق عليها، ويمكن أن يساعد ظلها في الحفاظ على برودة التربة.",
+        "fr": "Similaire au maïs, les tournesols offrent des tiges robustes pour que les vignes de jicama puissent grimper, et leur ombre peut aider à garder le sol frais."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots produce a chemical that kills root-knot nematodes, protecting jicama tubers from damage.",
+        "ur": "اس کی جڑیں ایسے کیمیکل بناتی ہیں جو نیماٹوڈس کو مارتے ہیں، جیکاما کی گٹھلیوں کو نقصان سے بچاتے ہیں۔",
+        "ar": "تنتج الجذور مادة كيميائية تقتل الديدان الخيطية العقدية، مما يحمي درنات الجيكاما من التلف.",
+        "fr": "Les racines produisent une substance chimique qui tue les nématodes à galles, protégeant les tubercules de jicama des dommages."
+      }
+    },
+    {
+      "plantId": "radish",
+      "benefit": {
+        "en": "Breaks up compacted soil, improving aeration and drainage, which benefits the developing jicama tubers.",
+        "ur": "سخت مٹی کو نرم کرتا ہے، ہوا کی گردش اور نکاسی کو بہتر بناتا ہے، جو جیکاما کی بڑھتی ہوئی گٹھلیوں کے لیے فائدہ مند ہے۔",
+        "ar": "يفتت التربة المضغوطة، مما يحسن التهوية والصرف، وهو ما يفيد درنات الجيكاما النامية.",
+        "fr": "Défait le sol compacté, améliorant l'aération et le drainage, ce qui profite aux tubercules de jicama en développement."
+      }
+    },
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Acts as a living mulch, shading the soil, suppressing weeds, and helping to retain soil moisture around jicama plants.",
+        "ur": "زندہ ملچ کے طور پر کام کرتا ہے، مٹی کو سایہ دیتا ہے، جڑی بوٹیوں کو دباتا ہے، اور جیکاما کے پودوں کے گرد مٹی کی نمی کو برقرار رکھنے میں مدد کرتا ہے۔",
+        "ar": "يعمل كغطاء حيوي، يظلل التربة، يقمع الأعشاب الضارة، ويساعد على الاحتفاظ برطوبة التربة حول نباتات الجيكاما.",
+        "fr": "Agit comme un paillis vivant, ombrageant le sol, supprimant les mauvaises herbes et aidant à retenir l'humidité du sol autour des plantes de jicama."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Competes heavily for underground space and nutrients, and can share similar soil-borne diseases.",
+        "ur": "زیر زمین جگہ اور غذائی اجزاء کے لیے شدید مقابلہ کرتا ہے، اور مٹی سے پیدا ہونے والی اسی طرح کی بیماریاں بانٹ سکتا ہے۔",
+        "ar": "يتنافس بشدة على المساحة تحت الأرض والعناصر الغذائية، ويمكن أن يتشارك في أمراض التربة المماثلة.",
+        "fr": "Rivalise fortement pour l'espace souterrain et les nutriments, et peut partager des maladies transmises par le sol similaires."
+      }
+    },
+    {
+      "plantId": "onion",
+      "reason": {
+        "en": "Can inhibit the growth of jicama and other legumes, potentially stunting tuber development.",
+        "ur": "جیکاما اور دیگر پھلیوں کی نشوونما کو روک سکتا ہے، ممکنہ طور پر گٹھلی کی نشوونما کو روکتا ہے۔",
+        "ar": "يمكن أن يثبط نمو الجيكاما والبقوليات الأخرى، مما قد يعيق تطور الدرنات.",
+        "fr": "Peut inhiber la croissance du jicama et d'autres légumineuses, potentiellement en retardant le développement des tubercules."
+      }
+    },
+    {
+      "plantId": "garlic",
+      "reason": {
+        "en": "Similar to onions, garlic can release compounds that may hinder the growth of jicama plants.",
+        "ur": "پیاز کی طرح، لہسن ایسے مرکبات جاری کر سکتا ہے جو جیکاما کے پودوں کی نشوونما میں رکاوٹ بن سکتے ہیں۔",
+        "ar": "مثل البصل، يمكن للثوم أن يطلق مركبات قد تعيق نمو نباتات الجيكاما.",
+        "fr": "Similaire aux oignons, l'ail peut libérer des composés qui peuvent entraver la croissance des plantes de jicama."
+      }
+    },
+    {
+      "plantId": "beans",
+      "reason": {
+        "en": "While both are legumes, different bean varieties can attract specific pests like bean leaf beetles that may also target jicama.",
+        "ur": "اگرچہ دونوں پھلیاں ہیں، مختلف پھلیوں کی اقسام بین لیف بیٹل جیسے مخصوص کیڑوں کو اپنی طرف متوجہ کر سکتی ہیں جو جیکاما کو بھی نشانہ بنا سکتے ہیں۔",
+        "ar": "على الرغم من أن كلاهما من البقوليات، إلا أن أنواع الفول المختلفة يمكن أن تجذب آفات معينة مثل خنفساء أوراق الفول التي قد تستهدف الجيكاما أيضًا.",
+        "fr": "Bien que les deux soient des légumineuses, différentes variétés de haricots peuvent attirer des parasites spécifiques comme les chrysomèles des haricots qui peuvent également cibler le jicama."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and weakening young plants.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور جوان پودوں کو کمزور کرتے ہیں۔",
+        "ar": "حشرات صغيرة ذات جسم ناعم تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتضعف النباتات الصغيرة.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et affaiblissant les jeunes plantes."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause leaves to look stippled, pale, and eventually turn yellow and drop, especially in hot, dry conditions. Fine webbing may be visible.",
+        "ur": "بہت چھوٹے کیڑے جو پتوں کو پیلا اور کمزور کر دیتے ہیں اور پھر پتے گر جاتے ہیں، خاص طور پر گرم اور خشک حالات میں۔ پتوں پر باریک جالا بھی نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تتسبب في ظهور الأوراق منقطة، باهتة، وتتحول في النهاية إلى اللون الأصفر وتتساقط، خاصة في الظروف الحارة والجافة. قد تكون الخيوط الدقيقة مرئية.",
+        "fr": "Minuscules ravageurs qui donnent aux feuilles un aspect pointillé, pâle, finissent par jaunir et tomber, surtout par temps chaud et sec. De fines toiles peuvent être visibles."
+      }
+    },
+    {
+      "pestId": "bean_leaf_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small beetles that chew holes in leaves, especially on young plants. Can transmit bean pod mottle virus.",
+        "ur": "چھوٹے کیڑے جو پتوں میں سوراخ کرتے ہیں، خاص طور پر جوان پودوں پر۔ بین پوڈ موٹل وائرس منتقل کر سکتے ہیں۔",
+        "ar": "خنافس صغيرة تمضغ ثقوبًا في الأوراق، خاصة على النباتات الصغيرة. يمكن أن تنقل فيروس تبرقش قرون الفول.",
+        "fr": "Petits coléoptères qui mâchent des trous dans les feuilles, surtout sur les jeunes plantes. Peuvent transmettre le virus de la marbrure des gousses de haricot."
+      }
+    },
+    {
+      "pestId": "whiteflies",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, white, winged insects that fly up when the plant is disturbed. They suck sap, weaken the plant, and can transmit viruses.",
+        "ur": "چھوٹے سفید اڑنے والے کیڑے جو پودے کو ہلانے پر اڑتے ہیں۔ یہ پودے کو کمزور کرتے ہیں اور وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة بيضاء مجنحة تطير عندما يضطرب النبات. تمتص العصارة، تضعف النبات، ويمكن أن تنقل الفيروسات.",
+        "fr": "De minuscules insectes blancs ailés qui s'envolent lorsque la plante est dérangée. Ils sucent la sève, affaiblissent la plante et transmettent des virus."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Can reduce photosynthesis and weaken the plant.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے دھبے ظاہر ہوتے ہیں۔ یہ فوٹو سنتھیسز کو کم کر سکتا ہے اور پودے کو کمزور کر سکتا ہے۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يمكن أن يقلل من عملية التمثيل الضوئي ويضعف النبات.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Peut réduire la photosynthèse et affaiblir la plante."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by overwatering or poorly draining soil, leading to wilting, yellowing leaves, and soft, decaying roots. Fatal if not addressed.",
+        "ur": "زیادہ پانی دینے یا خراب نکاسی والی مٹی کی وجہ سے ہوتا ہے، جس سے پتے مرجھا جاتے ہیں، پیلے ہو جاتے ہیں، اور جڑیں نرم ہو کر گل جاتی ہیں۔ اگر علاج نہ کیا جائے تو مہلک ہو سکتا ہے۔",
+        "ar": "تسببه الإفراط في الري أو التربة سيئة التصريف، مما يؤدي إلى ذبول واصفرار الأوراق، وجذور ناعمة ومتعفنة. قاتل إذا لم يتم معالجته.",
+        "fr": "Causé par un arrosage excessif ou un sol mal drainé, entraînant le flétrissement, le jaunissement des feuilles et des racines molles et pourrissantes. Mortel si non traité."
+      }
+    },
+    {
+      "pestId": "nematodes",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Microscopic roundworms that attack plant roots, causing galls or lesions, leading to stunted growth and reduced tuber yield.",
+        "ur": "خوردبینی گول کیڑے جو پودوں کی جڑوں پر حملہ کرتے ہیں، گانٹھیں یا زخم پیدا کرتے ہیں، جس سے نشوونما رک جاتی ہے اور گٹھلی کی پیداوار کم ہو جاتی ہے۔",
+        "ar": "ديدان مستديرة مجهرية تهاجم جذور النباتات، مسببة عقيدات أو آفات، مما يؤدي إلى توقف النمو وانخفاض محصول الدرنات.",
+        "fr": "Vers ronds microscopiques qui attaquent les racines des plantes, provoquant des galles ou des lésions, entraînant un retard de croissance et une réduction du rendement des tubercules."
+      }
+    },
+    {
+      "pestId": "poor_tuber_development",
+      "vulnerableStages": [
+        "ROOT_BULKING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Tubers remain small or malformed, often due to insufficient phosphorus/potassium, excessive nitrogen, short growing season, or compacted soil.",
+        "ur": "گٹھلیاں چھوٹی یا بدشکل رہ جاتی ہیں، اکثر فاسفورس/پوٹاشیم کی کمی، زیادہ نائٹروجن، مختصر بڑھنے کا موسم، یا سخت مٹی کی وجہ سے۔",
+        "ar": "تبقى الدرنات صغيرة أو مشوهة، غالبًا بسبب نقص الفوسفور/البوتاسيوم، أو النيتروجين الزائد، أو موسم النمو القصير، أو التربة المضغوطة.",
+        "fr": "Les tubercules restent petits ou mal formés, souvent en raison d'un manque de phosphore/potassium, d'un excès d'azote, d'une saison de croissance courte ou d'un sol compacté."
+      }
+    },
+    {
+      "pestId": "flower_drop",
+      "vulnerableStages": [
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">35 or <15"
+      },
+      "plantSpecificNotes": {
+        "en": "Flowers dry up and fall off, often due to environmental stress like extreme temperatures, inconsistent watering, or if not removed by the gardener.",
+        "ur": "پھول سوکھ کر گر جاتے ہیں، اکثر شدید درجہ حرارت، بے قاعدہ پانی، یا اگر مالی کی طرف سے نہ ہٹائے جائیں تو ماحولیاتی دباؤ کی وجہ سے۔",
+        "ar": "تجف الأزهار وتتساقط، غالبًا بسبب الإجهاد البيئي مثل درجات الحرارة القصوى، أو الري غير المنتظم، أو إذا لم يقم البستاني بإزالتها.",
+        "fr": "Les fleurs se dessèchent et tombent, souvent en raison de stress environnementaux comme des températures extrêmes, un arrosage irrégulier, ou si elles ne sont pas retirées par le jardinier."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 180,
+    "firstHarvestDayMax": 240,
+    "continuousHarvest": false,
+    "harvestWindowDays": 45,
+    "readinessSigns": [
+      {
+        "en": "Vines start to yellow and die back",
+        "ur": "بیلیں پیلی پڑنے لگتی ہیں اور مر جاتی ہیں",
+        "ar": "تبدأ الكرمات في الاصفرار والموت",
+        "fr": "Les vignes commencent à jaunir et à mourir"
+      },
+      {
+        "en": "Tubers are firm and large",
+        "ur": "گٹھلیاں مضبوط اور بڑی ہوتی ہیں",
+        "ar": "الدرنات صلبة وكبيرة",
+        "fr": "Les tubercules sont fermes et gros"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Carefully dig around the plant with a spade, loosening the soil before gently lifting the tubers.",
+        "ur": "پودے کے گرد احتیاط سے بیلچے سے کھدائی کریں، مٹی کو ڈھیلا کریں پھر آہستہ سے گٹھلیوں کو اٹھائیں۔",
+        "ar": "احفر بعناية حول النبات باستخدام مجرفة، وقم بتفكيك التربة قبل رفع الدرنات بلطف.",
+        "fr": "Creusez délicatement autour de la plante avec une bêche, ameublissez le sol avant de soulever doucement les tubercules."
+      },
+      "INTERMEDIATE": {
+        "en": "Use a garden fork to carefully loosen the soil in a wide circle around the plant, then pull the plant gently by the base to extract the tubers.",
+        "ur": "پودے کے گرد ایک بڑے دائرے میں مٹی کو احتیاط سے ڈھیلا کرنے کے لیے باغیچے کا کانٹا استعمال کریں، پھر گٹھلیوں کو نکالنے کے لیے پودے کو آہستہ سے جڑ سے کھینچیں۔",
+        "ar": "استخدم شوكة الحديقة لتفكيك التربة بعناية في دائرة واسعة حول النبات، ثم اسحب النبات بلطف من القاعدة لاستخراج الدرنات.",
+        "fr": "Utilisez une fourche de jardin pour ameublir délicatement le sol en un large cercle autour de la plante, puis tirez doucement la plante par la base pour extraire les tubercules."
+      },
+      "EXPERT": {
+        "en": "Monitor vine senescence; once foliage begins to naturally die back, carefully excavate the tubers, ensuring not to puncture or bruise them for optimal storage.",
+        "ur": "بیل کے بڑھاپے کی نگرانی کریں؛ ایک بار جب پتے قدرتی طور پر مرنے لگیں، تو گٹھلیوں کو احتیاط سے کھودیں، اس بات کو یقینی بنائیں کہ بہترین ذخیرہ کے لیے انہیں چھیدیں یا کچلیں نہیں۔",
+        "ar": "راقب شيخوخة الكرمة؛ بمجرد أن يبدأ الغطاء النباتي في الموت بشكل طبيعي، قم بحفر الدرنات بعناية، مع التأكد من عدم ثقبها أو كدمتها لتخزينها الأمثل.",
+        "fr": "Surveillez la sénescence de la vigne; une fois que le feuillage commence à mourir naturellement, déterrez délicatement les tubercules, en veillant à ne pas les percer ou les meurtrir pour un stockage optimal."
+      }
+    },
+    "storage": {
+      "en": "Store in a cool, dry, dark place (like a root cellar or pantry) at 12-16°C (54-61°F). Do not refrigerate.",
+      "ur": "ٹھنڈی، خشک، تاریک جگہ (جیسے جڑ کا تہہ خانہ یا پینٹری) میں 12-16°C (54-61°F) پر ذخیرہ کریں۔ فریج میں نہ رکھیں۔",
+      "ar": "تخزن في مكان بارد وجاف ومظلم (مثل قبو الجذور أو المخزن) عند 12-16 درجة مئوية (54-61 درجة فهرنهايت). لا تضعها في الثلاجة.",
+      "fr": "Conserver dans un endroit frais, sec et sombre (comme une cave à légumes ou un garde-manger) à 12-16°C (54-61°F). Ne pas réfrigérer."
+    },
+    "yieldEstimateKg": {
+      "10L": 1.5,
+      "20L": 3,
+      "30L": 4.5,
+      "GROUND": 6
+    }
+  }
+}
