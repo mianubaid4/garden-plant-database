@@ -1,0 +1,1096 @@
+{
+  "id": "tatsoi",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1601004654060-912217621021?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "names": {
+    "en": {
+      "common": "Tatsoi",
+      "alternate": [
+        "Spoon Mustard",
+        "Rosette Bok Choy",
+        "Tat Choy"
+      ]
+    },
+    "ur": {
+      "common": "تاتسوئی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "تاتسوي",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Tatsoi",
+      "alternate": []
+    },
+    "botanical": "Brassica rapa subsp. narinosa",
+    "aliases": [
+      "spoon mustard",
+      "rosette bok choy",
+      "tat choy"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "leafy green",
+  "germinationDays": 7,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 5,
+    "rainSkipWateringMm": 8
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "leafy-green",
+    "container-friendly",
+    "fast-growing",
+    "salad-green"
+  ],
+  "temperature": {
+    "optimalMinC": 10,
+    "optimalMaxC": 21,
+    "survivalMinC": -5,
+    "survivalMaxC": 27,
+    "germinationMinC": 7,
+    "germinationOptimalC": 18,
+    "flowerDropAboveC": 25,
+    "flowerDropBelowC": -5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "LOW",
+    "daysToMaturity": 30,
+    "requiredGDD": 500,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 7,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 25,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 20,
+      "highWindKmh": 30,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 4,
+    "sunHoursOptimal": 6,
+    "sunHoursMax": 8
+  },
+  "water": {
+    "baseMlPer10L": 600,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent Moisture",
+    "soilMoisturePreference": "Keep soil consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "high",
+    "rootRotRisk": "Medium if soil remains soggy",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting",
+      "bitter taste",
+      "bolting"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stunted growth",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or gentle watering at base",
+    "thingsToAvoid": [
+      "overhead watering (can promote disease)",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Use pots with drainage",
+        "ur": "ڈرینیج والے گملے استعمال کریں",
+        "ar": "استخدم أواني بفتحات تصريف",
+        "fr": "Utilisez des pots avec drainage"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Fabric breathes well",
+        "ur": "کپڑے کے گملے بہتر ہیں",
+        "ar": "أكياس الزراعة جيدة التهوية",
+        "fr": "Les sacs de culture sont respirants"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 15,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Space well",
+        "ur": "فاصلہ رکھیں",
+        "ar": "اترك مسافة كافية",
+        "fr": "Espacez bien"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Deep soil helps root development",
+        "ur": "گہری مٹی جڑوں کی نشوونما میں مدد کرتی ہے",
+        "ar": "التربة العميقة تساعد على تطور الجذور",
+        "fr": "Un sol profond aide au développement des racines"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "21-45 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand.",
+              "ur": "50% مٹی، 30% کھاد، 20% ریت ملائیں",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable"
+            },
+            "INTERMEDIATE": {
+              "en": "Add balanced organic fertilizer to the mix.",
+              "ur": "مکس میں متوازن نامیاتی کھاد شامل کریں",
+              "ar": "أضف سمادًا عضويًا متوازنًا",
+              "fr": "Ajoutez un engrais organique équilibré"
+            },
+            "EXPERT": {
+              "en": "Test soil pH (6.0-7.0) and amend with compost for optimal fertility.",
+              "ur": "مٹی کا پی ایچ (6.0-7.0) چیک کریں اور کھاد سے بہتر بنائیں",
+              "ar": "اختبر درجة حموضة التربة (6.0-7.0) وعدلها بالسماد",
+              "fr": "Testez le pH du sol (6.0-7.0) et amendez avec du compost"
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/8 inch deep, 1 inch apart.",
+              "ur": "بیج 1/8 انچ گہرائی میں، 1 انچ کے فاصلے پر بوئیں",
+              "ar": "ابذر البذور بعمق 1/8 بوصة، بمسافة 1 بوصة",
+              "fr": "Semez les graines à 1/8 de pouce de profondeur, à 1 pouce d'intervalle"
+            },
+            "INTERMEDIATE": {
+              "en": "Sow seeds thinly, 1/8 inch deep, and cover lightly with fine soil.",
+              "ur": "بیج پتلے بوئیں، 1/8 انچ گہرائی میں، اور ہلکی مٹی سے ڈھانپیں",
+              "ar": "ابذر البذور رقيقة، بعمق 1/8 بوصة، وغطها برفق",
+              "fr": "Semez finement, à 1/8 de pouce de profondeur, et couvrez légèrement"
+            },
+            "EXPERT": {
+              "en": "Broadcast sow thinly over prepared bed, rake lightly to cover, ensuring good seed-to-soil contact.",
+              "ur": "تیار شدہ بستر پر پتلے بیج بکھیریں، ہلکے سے ڈھانپیں",
+              "ar": "انثر البذور رقيقة على السرير المحضر، واغطها برفق",
+              "fr": "Semez à la volée finement, ratissez légèrement pour couvrir"
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 3,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم الصغيرة التي تظهر من التربة.",
+              "fr": "Vérifiez les petites pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture levels to aid germination.",
+              "ur": "انکرن میں مدد کے لیے مستقل نمی کی سطح کو یقینی بنائیں",
+              "ar": "تأكد من مستويات رطوبة ثابتة للمساعدة في الإنبات",
+              "fr": "Assurez une humidité constante pour la germination"
+            },
+            "EXPERT": {
+              "en": "Monitor for uniform emergence and signs of damping-off disease.",
+              "ur": "یکساں انکرن اور بیماری کی علامات کی نگرانی کریں",
+              "ar": "راقب الإنبات الموحد وعلامات مرض الذبول",
+              "fr": "Surveillez l'émergence uniforme et le mildiou"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 50,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface daily to keep it moist.",
+              "ur": "مٹی کی سطح کو روزانہ نم رکھنے کے لیے چھڑکاؤ کریں",
+              "ar": "رش سطح التربة يوميًا لإبقائها رطبة",
+              "fr": "Vaporisez la surface du sol quotidiennement"
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist, but avoid waterlogging.",
+              "ur": "مٹی کو مستقل طور پر نم رکھیں، لیکن پانی جمع نہ ہونے دیں",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن تجنب التشبع بالمياه",
+              "fr": "Gardez le sol constamment humide, mais évitez l'engorgement"
+            },
+            "EXPERT": {
+              "en": "Maintain high humidity around seeds for optimal germination rates.",
+              "ur": "بہترین انکرن کے لیے بیجوں کے گرد زیادہ نمی برقرار رکھیں",
+              "ar": "حافظ على رطوبة عالية حول البذور لمعدلات إنبات مثالية",
+              "fr": "Maintenez une humidité élevée autour des graines"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing delicate seedlings.",
+              "ur": "نازک پودوں کو پریشان کیے بغیر آہستہ پانی دیں",
+              "ar": "اسقِ بلطف لتجنب إزعاج الشتلات الرقيقة",
+              "fr": "Arrosez doucement pour ne pas déranger les jeunes pousses"
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain even moisture, avoid overhead watering to prevent disease.",
+              "ur": "مستقل نمی برقرار رکھیں، بیماری سے بچنے کے لیے اوپر سے پانی نہ دیں",
+              "ar": "حافظ على رطوبة متساوية، تجنب الري العلوي لمنع الأمراض",
+              "fr": "Maintenez une humidité uniforme, évitez l'arrosage par le haut"
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a meter, ensuring consistent hydration without waterlogging.",
+              "ur": "مٹی کی نمی کو میٹر سے چیک کریں، پانی جمع کیے بغیر مستقل ہائیڈریشن یقینی بنائیں",
+              "ar": "راقب رطوبة التربة بمقياس، مع ضمان ترطيب ثابت دون تشبع بالمياه",
+              "fr": "Surveillez l'humidité du sol avec un humidimètre"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "True leaves form",
+        "ur": "نئے پتے آنا",
+        "ar": "تكون الأوراق",
+        "fr": "Apparition des feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 4-6 inches apart for optimal growth.",
+              "ur": "بہترین نشوونما کے لیے پودوں کو 4-6 انچ کے فاصلے پر پتلا کریں",
+              "ar": "خفف الشتلات إلى 4-6 بوصات لنمو مثالي",
+              "fr": "Éclaircissez les semis à 4-6 pouces d'intervalle"
+            },
+            "INTERMEDIATE": {
+              "en": "Snip weaker seedlings at soil level to prevent root disturbance of remaining plants.",
+              "ur": "کمزور پودوں کو مٹی کی سطح پر کاٹ دیں تاکہ باقی پودوں کی جڑوں کو نقصان نہ پہنچے",
+              "ar": "اقطع الشتلات الضعيفة عند مستوى التربة لمنع إزعاج الجذور",
+              "fr": "Coupez les semis les plus faibles au niveau du sol"
+            },
+            "EXPERT": {
+              "en": "Thin for optimal spacing, considering mature plant size and air circulation to prevent disease.",
+              "ur": "بہترین فاصلے کے لیے پتلا کریں، پودے کے سائز اور ہوا کی گردش کو مدنظر رکھیں",
+              "ar": "خفف للمسافات المثلى، مع مراعاة حجم النبات البالغ ودوران الهواء",
+              "fr": "Éclaircissez pour un espacement optimal, en tenant compte de la taille adulte"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of plants, avoiding wetting the leaves.",
+              "ur": "پتوں کو گیلا کیے بغیر پودوں کی جڑوں میں پانی دیں",
+              "ar": "اسقِ قاعدة النباتات، مع تجنب تبليل الأوراق",
+              "fr": "Arrosez à la base des plantes, en évitant les feuilles"
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply when the top inch of soil is dry to the touch.",
+              "ur": "جب مٹی کی اوپری انچ خشک ہو تو گہرا پانی دیں",
+              "ar": "اسقِ بعمق عندما تكون الطبقة العلوية من التربة جافة",
+              "fr": "Arrosez profondément lorsque le premier pouce de sol est sec"
+            },
+            "EXPERT": {
+              "en": "Ensure consistent moisture to prevent premature bolting, especially in warmer conditions.",
+              "ur": "قبل از وقت بولٹنگ سے بچنے کے لیے مستقل نمی یقینی بنائیں",
+              "ar": "تأكد من رطوبة ثابتة لمنع التزهير المبكر",
+              "fr": "Assurez une humidité constante pour éviter la montaison précoce"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 20,
+      "durationDaysWarm": 15,
+      "durationDaysCool": 25,
+      "description": {
+        "en": "Rapid leaf growth",
+        "ur": "تیز پتوں کی نشوونما",
+        "ar": "نمو الأوراق السريع",
+        "fr": "Croissance rapide des feuilles"
+      },
+      "emoji": "🥬",
+      "tips": [],
+      "tasks": {
+        "fertilizing": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer every 2-3 weeks.",
+              "ur": "ہر 2-3 ہفتوں میں متوازن مائع کھاد استعمال کریں",
+              "ar": "استخدم سمادًا سائلًا متوازنًا كل 2-3 أسابيع",
+              "fr": "Appliquez un engrais liquide équilibré toutes les 2-3 semaines"
+            },
+            "INTERMEDIATE": {
+              "en": "Use a nitrogen-rich organic fertilizer to promote lush leaf growth.",
+              "ur": "پتوں کی نشوونما کے لیے نائٹروجن سے بھرپور نامیاتی کھاد استعمال کریں",
+              "ar": "استخدم سمادًا عضويًا غنيًا بالنيتروجين لتعزيز نمو الأوراق",
+              "fr": "Utilisez un engrais organique riche en azote"
+            },
+            "EXPERT": {
+              "en": "Foliar feed with diluted fish emulsion or seaweed extract for quick nutrient uptake.",
+              "ur": "تیز غذائی اجزاء کے لیے پتلی مچھلی کے ایمولشن یا سمندری سوار کے عرق سے پتوں کو کھاد دیں",
+              "ar": "تغذية ورقية بمستحلب السمك المخفف أو مستخلص الأعشاب البحرية",
+              "fr": "Nourrissez par voie foliaire avec de l'émulsion de poisson ou d'algues"
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids and slugs. Remove them by hand or spray with water.",
+              "ur": "ایفڈز اور سلگس چیک کریں۔ انہیں ہاتھ سے ہٹائیں یا پانی سے چھڑکیں",
+              "ar": "تحقق من المن والرخويات. أزلها يدويًا أو رش بالماء",
+              "fr": "Vérifiez les pucerons et les limaces. Retirez-les à la main"
+            },
+            "INTERMEDIATE": {
+              "en": "Spray with insecticidal soap or neem oil if pests are present.",
+              "ur": "اگر کیڑے موجود ہوں تو کیڑے مار صابن یا نیم کا تیل چھڑکیں",
+              "ar": "رش بالصابون المبيد للحشرات أو زيت النيم إذا كانت الآفات موجودة",
+              "fr": "Pulvérisez du savon insecticide ou de l'huile de neem"
+            },
+            "EXPERT": {
+              "en": "Implement IPM strategies, consider row covers for prevention against flea beetles and other pests.",
+              "ur": "آئی پی ایم کی حکمت عملیوں کو نافذ کریں، کیڑوں سے بچاؤ کے لیے قطار کے کور پر غور کریں",
+              "ar": "نفذ استراتيجيات IPM، فكر في أغطية الصفوف للوقاية من خنافس البراغيث",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée, utilisez des voiles anti-insectes"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Flea beetles",
+              "ur": "فلی بیٹلز",
+              "ar": "خنافس البراغيث",
+              "fr": "Altises"
+            },
+            {
+              "en": "Slugs",
+              "ur": "سلگس",
+              "ar": "الرخويات",
+              "fr": "Limaces"
+            }
+          ]
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for holes, discoloration, or signs of pests.",
+              "ur": "پتوں پر سوراخ، رنگت یا کیڑوں کی علامات چیک کریں",
+              "ar": "تحقق من الأوراق بحثًا عن ثقوب أو تغير اللون أو علامات الآفات",
+              "fr": "Vérifiez les feuilles pour les trous ou la décoloration"
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect undersides of leaves for pests and early signs of disease.",
+              "ur": "کیڑوں اور بیماری کی ابتدائی علامات کے لیے پتوں کے نیچے کا معائنہ کریں",
+              "ar": "افحص الجانب السفلي من الأوراق بحثًا عن الآفات وعلامات المرض المبكرة",
+              "fr": "Inspectez le dessous des feuilles pour les parasites et maladies"
+            },
+            "EXPERT": {
+              "en": "Monitor for signs of nutrient deficiencies, water stress, or early bolting.",
+              "ur": "غذائی اجزاء کی کمی، پانی کی کمی یا قبل از وقت بولٹنگ کی علامات کی نگرانی کریں",
+              "ar": "راقب علامات نقص المغذيات، إجهاد الماء، أو التزهير المبكر",
+              "fr": "Surveillez les carences nutritives, le stress hydrique ou la montaison"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            },
+            {
+              "en": "Holes in leaves",
+              "ur": "پتوں میں سوراخ",
+              "ar": "ثقوب في الأوراق",
+              "fr": "Trous dans les feuilles"
+            },
+            {
+              "en": "Bolting (premature flowering)",
+              "ur": "بولٹنگ (قبل از وقت پھول آنا)",
+              "ar": "التزهير المبكر",
+              "fr": "Montaison (floraison prématurée)"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, especially during dry spells.",
+              "ur": "مٹی کو مستقل طور پر نم رکھیں، خاص طور پر خشک موسم میں",
+              "ar": "حافظ على رطوبة التربة باستمرار، خاصة خلال فترات الجفاف",
+              "fr": "Gardez le sol constamment humide, surtout pendant les périodes sèches"
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply to encourage strong root growth and prevent shallow roots.",
+              "ur": "مضبوط جڑوں کی نشوونما کے لیے گہرا پانی دیں",
+              "ar": "اسقِ بعمق لتشجيع نمو الجذور القوية",
+              "fr": "Arrosez profondément pour favoriser un enracinement fort"
+            },
+            "EXPERT": {
+              "en": "Avoid water stress to prevent bitterness in leaves and premature bolting.",
+              "ur": "پتوں میں کڑواہٹ اور قبل از وقت بولٹنگ سے بچنے کے لیے پانی کی کمی سے بچیں",
+              "ar": "تجنب إجهاد الماء لمنع مرارة الأوراق والتزهير المبكر",
+              "fr": "Évitez le stress hydrique pour prévenir l'amertume et la montaison"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Leaves ready for harvest",
+        "ur": "پتے کٹائی کے لیے تیار ہیں",
+        "ar": "الأوراق جاهزة للحصاد",
+        "fr": "Feuilles prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harvest outer leaves when they are 4-6 inches long.",
+              "ur": "جب بیرونی پتے 4-6 انچ لمبے ہو جائیں تو انہیں کاٹ لیں",
+              "ar": "احصد الأوراق الخارجية عندما يبلغ طولها 4-6 بوصات",
+              "fr": "Récoltez les feuilles extérieures lorsqu'elles mesurent 4-6 pouces"
+            },
+            "INTERMEDIATE": {
+              "en": "Cut leaves at the base, leaving the inner rosette to regrow for continuous harvest.",
+              "ur": "پتوں کو جڑ سے کاٹیں، اندرونی گچھے کو دوبارہ اگنے دیں",
+              "ar": "اقطع الأوراق من القاعدة، تاركًا الوردة الداخلية لتنمو مرة أخرى",
+              "fr": "Coupez les feuilles à la base, laissant la rosette intérieure repousser"
+            },
+            "EXPERT": {
+              "en": "Perform cut-and-come-again harvesting for continuous yield, ensuring not to damage the crown.",
+              "ur": "مسلسل پیداوار کے لیے کٹائی کریں، تاج کو نقصان نہ پہنچائیں",
+              "ar": "قم بحصاد متكرر للحصول على محصول مستمر، مع التأكد من عدم إتلاف التاج",
+              "fr": "Effectuez une récolte 'couper et revenir' pour un rendement continu"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue regular watering to support leaf production.",
+              "ur": "پتوں کی پیداوار کو سہارا دینے کے لیے باقاعدہ پانی جاری رکھیں",
+              "ar": "استمر في الري المنتظم لدعم إنتاج الأوراق",
+              "fr": "Continuez l'arrosage régulier pour soutenir la production de feuilles"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure adequate moisture for vigorous regrowth after each harvest.",
+              "ur": "ہر کٹائی کے بعد مضبوط دوبارہ نشوونما کے لیے کافی نمی یقینی بنائیں",
+              "ar": "تأكد من رطوبة كافية لإعادة النمو القوي بعد كل حصاد",
+              "fr": "Assurez une humidité adéquate pour une repousse vigoureuse"
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture closely to support continuous production and prevent bolting.",
+              "ur": "مسلسل پیداوار اور بولٹنگ سے بچنے کے لیے مٹی کی نمی کی قریب سے نگرانی کریں",
+              "ar": "راقب رطوبة التربة عن كثب لدعم الإنتاج المستمر ومنع التزهير",
+              "fr": "Surveillez attentivement l'humidité du sol pour une production continue"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots, promoting early leaf development.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے، ابتدائی پتوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة دون حرق الجذور الدقيقة، مما يعزز نمو الأوراق المبكر.",
+          "fr": "Donne un coup de pouce nutritif doux sans brûler les jeunes racines délicates, favorisant le développement précoce des feuilles."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Organic Nitrogen Mix",
+          "ur": "کمپوسٹ چائے یا نامیاتی نائٹروجن مکس",
+          "ar": "شاي الكمبوست",
+          "fr": "Thé de compost"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔",
+          "ar": "اخلط",
+          "fr": "Mélangez"
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Rich in Nitrogen, supports vigorous leaf growth, which is crucial for Tatsoi's harvest.",
+          "ur": "یہ نائٹروجن سے بھرپور ہے، جو پودے کے پتوں کی بہترین نشوونما کرتا ہے، جو ٹاٹسوئی کی کٹائی کے لیے اہم ہے۔",
+          "ar": "غني بالنيتروجين، يدعم نمو الأوراق القوي، وهو أمر بالغ الأهمية لحصاد التاتسوي.",
+          "fr": "Riche en azote, soutient une croissance vigoureuse des feuilles, essentielle pour la récolte du Tatsoi."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not typically fertilized for leaf harvest",
+          "ur": "پتوں کی کٹائی کے لیے عام طور پر کھاد نہیں دی جاتی",
+          "ar": "لا يتم تسميدها عادة لحصاد الأوراق",
+          "fr": "Généralement non fertilisé pour la récolte des feuilles"
+        },
+        "preparation": {
+          "en": "N/A",
+          "ur": "N/A",
+          "ar": "N/A",
+          "fr": "N/A"
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "N/A",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Tatsoi is usually harvested before it bolts (flowers). Fertilizing during flowering is not common for leaf production.",
+          "ur": "ٹاٹسوئی کو عام طور پر پھول آنے سے پہلے کاٹ لیا جاتا ہے۔ پتوں کی پیداوار کے لیے پھول آنے کے دوران کھاد دینا عام نہیں ہے۔",
+          "ar": "يتم حصاد التاتسوي عادة قبل أن يزهر. التسميد أثناء الإزهار ليس شائعًا لإنتاج الأوراق.",
+          "fr": "Le Tatsoi est généralement récolté avant la montaison (floraison). La fertilisation pendant la floraison n'est pas courante pour la production de feuilles."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable for leaf harvest",
+          "ur": "پتوں کی کٹائی کے لیے لاگو نہیں",
+          "ar": "لا ينطبق على حصاد الأوراق",
+          "fr": "Non applicable pour la récolte des feuilles"
+        },
+        "preparation": {
+          "en": "N/A",
+          "ur": "N/A",
+          "ar": "N/A",
+          "fr": "N/A"
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "N/A",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Tatsoi is grown for its leaves, not fruit. This stage is not relevant for typical cultivation.",
+          "ur": "ٹاٹسوئی اس کے پتوں کے لیے اگایا جاتا ہے، پھل کے لیے نہیں۔ یہ مرحلہ عام کاشت کے لیے متعلقہ نہیں ہے۔",
+          "ar": "يزرع التاتسوي لأوراقه، وليس لثماره. هذه المرحلة ليست ذات صلة بالزراعة النموذجية.",
+          "fr": "Le Tatsoi est cultivé pour ses feuilles, pas ses fruits. Cette étape n'est pas pertinente pour la culture typique."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-10-10 or 20-20-20)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 20-10-10 یا 20-20-20)",
+          "ar": "سماد متوازن (مثل 20-10-10 أو 20-20-20)",
+          "fr": "NPK équilibré (ex: 20-10-10 ou 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "High nitrogen concentration drives robust leaf production, essential for Tatsoi.",
+          "ur": "نائٹروجن پتوں کی بھرپور نشوونما میں مدد کرتا ہے، جو ٹاٹسوئی کے لیے ضروری ہے۔",
+          "ar": "تركيز النيتروجين العالي يدفع إنتاج الأوراق القوي، وهو ضروري للتاتسوي.",
+          "fr": "Une forte concentration en azote favorise une production robuste de feuilles, essentielle pour le Tatsoi."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not typically fertilized for leaf harvest",
+          "ur": "پتوں کی کٹائی کے لیے عام طور پر کھاد نہیں دی جاتی",
+          "ar": "لا يتم تسميدها عادة لحصاد الأوراق",
+          "fr": "Généralement non fertilisé pour la récolte des feuilles"
+        },
+        "preparation": {
+          "en": "N/A",
+          "ur": "N/A",
+          "ar": "N/A",
+          "fr": "N/A"
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "N/A",
+        "applyAfterWatering": false
+      },
+      "FRUITING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable for leaf harvest",
+          "ur": "پتوں کی کٹائی کے لیے لاگو نہیں",
+          "ar": "لا ينطبق على حصاد الأوراق",
+          "fr": "Non applicable pour la récolte des feuilles"
+        },
+        "preparation": {
+          "en": "N/A",
+          "ur": "N/A",
+          "ar": "N/A",
+          "fr": "N/A"
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "N/A",
+        "applyAfterWatering": false
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "N/A",
+        "week2": "N/A",
+        "alternating": false
+      },
+      "FRUITING": {
+        "week1": "N/A",
+        "week2": "N/A",
+        "alternating": false
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Shades the soil, keeping roots cool and moist, which can extend the harvest of both plants.",
+        "ur": "مٹی کو سایہ فراہم کرتا ہے، جڑوں کو ٹھنڈا اور نم رکھتا ہے، جو دونوں پودوں کی کٹائی کو بڑھا سکتا ہے۔",
+        "ar": "يظلل التربة، مما يحافظ على برودة ورطوبة الجذور، ويمكن أن يطيل حصاد كلا النباتين.",
+        "fr": "Ombrage le sol, gardant les racines fraîches et humides, ce qui peut prolonger la récolte des deux plantes."
+      }
+    },
+    {
+      "plantId": "spinach",
+      "benefit": {
+        "en": "Similar growth requirements and can be interplanted to maximize space and yield.",
+        "ur": "اسی طرح کی نشوونما کی ضروریات ہیں اور جگہ اور پیداوار کو زیادہ سے زیادہ کرنے کے لیے ایک ساتھ لگایا جا سکتا ہے۔",
+        "ar": "متطلبات نمو مماثلة ويمكن زراعتهما معًا لزيادة المساحة والإنتاج.",
+        "fr": "Exigences de croissance similaires et peut être interplanté pour maximiser l'espace et le rendement."
+      }
+    },
+    {
+      "plantId": "radish",
+      "benefit": {
+        "en": "Fast-growing, can be harvested before Tatsoi matures, loosening the soil and making space.",
+        "ur": "تیزی سے بڑھنے والا، ٹاٹسوئی کے پختہ ہونے سے پہلے کاٹا جا سکتا ہے، مٹی کو ڈھیلا کرتا ہے اور جگہ بناتا ہے۔",
+        "ar": "سريع النمو، يمكن حصاده قبل نضوج التاتسوي، مما يخفف التربة ويوفر مساحة.",
+        "fr": "À croissance rapide, peut être récolté avant que le Tatsoi ne mûrisse, ameublissant le sol et créant de l'espace."
+      }
+    },
+    {
+      "plantId": "dill",
+      "benefit": {
+        "en": "Attracts beneficial insects like hoverflies and parasitic wasps that prey on aphids and cabbage worms.",
+        "ur": "ایسے فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے جیسے ہورفلائیز اور پرجیوی بھڑ جو افڈس اور گوبھی کے کیڑوں کو کھاتے ہیں۔",
+        "ar": "يجذب الحشرات المفيدة مثل حوامات الزهور والدبابير الطفيلية التي تفترس حشرات المن وديدان الملفوف.",
+        "fr": "Attire les insectes bénéfiques comme les syrphes et les guêpes parasitoïdes qui se nourrissent des pucerons et des vers du chou."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other soil-borne pests, improving soil health for Tatsoi.",
+        "ur": "نیماٹوڈس اور دیگر مٹی سے پیدا ہونے والے کیڑوں کو دور بھگاتا ہے، ٹاٹسوئی کے لیے مٹی کی صحت کو بہتر بناتا ہے۔",
+        "ar": "يطرد الديدان الخيطية والآفات الأخرى التي تنتقل عن طريق التربة، مما يحسن صحة التربة للتاتسوي.",
+        "fr": "Repousse les nématodes et autres parasites du sol, améliorant la santé du sol pour le Tatsoi."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Can stunt the growth of brassicas like Tatsoi due to differing nutrient needs and potential allelopathic effects.",
+        "ur": "ٹاٹسوئی جیسے براسیکا کی نشوونما کو روک سکتا ہے کیونکہ غذائی اجزاء کی مختلف ضروریات اور ممکنہ ایلوپیتھک اثرات ہوتے ہیں۔",
+        "ar": "يمكن أن يعيق نمو الكرنب مثل التاتسوي بسبب اختلاف احتياجات المغذيات والتأثيرات الأليلوباثية المحتملة.",
+        "fr": "Peut ralentir la croissance des brassicacées comme le Tatsoi en raison de besoins nutritifs différents et d'effets allélopathiques potentiels."
+      }
+    },
+    {
+      "plantId": "strawberry",
+      "reason": {
+        "en": "Both are heavy feeders and compete for nutrients, potentially leading to reduced yields for both.",
+        "ur": "دونوں زیادہ غذائی اجزاء استعمال کرتے ہیں اور غذائی اجزاء کے لیے مقابلہ کرتے ہیں، جس سے دونوں کی پیداوار کم ہو سکتی ہے۔",
+        "ar": "كلاهما يستهلك الكثير من المغذيات ويتنافسان عليها، مما قد يؤدي إلى انخفاض المحصول لكلاهما.",
+        "fr": "Les deux sont de gros consommateurs de nutriments et se concurrencent, ce qui peut entraîner une réduction des rendements pour les deux."
+      }
+    },
+    {
+      "plantId": "pole_bean",
+      "reason": {
+        "en": "Can stunt the growth of brassicas. Also, pole beans can shade out low-growing Tatsoi.",
+        "ur": "براسیکا کی نشوونما کو روک سکتا ہے۔ اس کے علاوہ، پول بینز کم بڑھنے والے ٹاٹسوئی کو سایہ دے سکتے ہیں۔",
+        "ar": "يمكن أن يعيق نمو الكرنب. كما أن الفاصوليا المتسلقة يمكن أن تظلل التاتسوي منخفض النمو.",
+        "fr": "Peut ralentir la croissance des brassicacées. De plus, les haricots grimpants peuvent ombrager le Tatsoi à croissance basse."
+      }
+    },
+    {
+      "plantId": "rue",
+      "reason": {
+        "en": "Known to inhibit the growth of many plants, including brassicas.",
+        "ur": "بہت سے پودوں کی نشوونما کو روکنے کے لیے جانا جاتا ہے، بشمول براسیکا۔",
+        "ar": "معروف بتثبيط نمو العديد من النباتات، بما في ذلك الكرنب.",
+        "fr": "Connu pour inhiber la croissance de nombreuses plantes, y compris les brassicacées."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and causing distorted growth. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور نشوونما کو بگاڑتے ہیں۔ وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه النمو. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant une croissance déformée. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "flea_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, jumping beetles that chew small, round holes in leaves, especially on young seedlings. Severe infestations can stunt growth.",
+        "ur": "چھوٹے، اچھلنے والے کیڑے جو پتوں میں چھوٹے، گول سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ شدید حملہ نشوونما کو روک سکتا ہے۔",
+        "ar": "خنافس صغيرة قافزة تمضغ ثقوبًا صغيرة مستديرة في الأوراق، خاصة على الشتلات الصغيرة. يمكن أن تؤدي الإصابات الشديدة إلى توقف النمو.",
+        "fr": "Petits coléoptères sauteurs qui mâchent de petits trous ronds dans les feuilles, surtout sur les jeunes semis. Les infestations graves peuvent ralentir la croissance."
+      }
+    },
+    {
+      "pestId": "cabbage_worms",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Green caterpillars that chew large, irregular holes in leaves, often leaving behind dark green droppings. Can quickly defoliate plants.",
+        "ur": "سبز کیڑے جو پتوں میں بڑے، بے قاعدہ سوراخ کرتے ہیں، اکثر گہرے سبز رنگ کے فضلات چھوڑ جاتے ہیں۔ پودوں کو تیزی سے پتے سے محروم کر سکتے ہیں۔",
+        "ar": "يرقات خضراء تمضغ ثقوبًا كبيرة وغير منتظمة في الأوراق، وغالبًا ما تترك وراءها فضلات خضراء داكنة. يمكن أن تجرد النباتات من أوراقها بسرعة.",
+        "fr": "Chenilles vertes qui mâchent de grands trous irréguliers dans les feuilles, laissant souvent des excréments vert foncé. Peuvent rapidement défolier les plantes."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Leave irregular holes in leaves and silvery slime trails. Most active in damp, cool conditions, especially on young, tender leaves.",
+        "ur": "پتوں میں بے قاعدہ سوراخ اور چاندی کی طرح کی لیس دار پگڈنڈیاں چھوڑ جاتے ہیں۔ نم، ٹھنڈے حالات میں، خاص طور پر نوجوان، نرم پتوں پر سب سے زیادہ فعال ہوتے ہیں۔",
+        "ar": "تترك ثقوبًا غير منتظمة في الأوراق وآثارًا فضية لزجة. تكون أكثر نشاطًا في الظروف الرطبة والباردة، خاصة على الأوراق الصغيرة والرقيقة.",
+        "fr": "Laissent des trous irréguliers dans les feuilles et des traces de bave argentées. Plus actifs par temps humide et frais, surtout sur les jeunes feuilles tendres."
+      }
+    },
+    {
+      "pestId": "downy_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Yellowish spots on the upper surface of leaves, with fuzzy gray or purplish mold on the undersides. Can cause leaves to wilt and die.",
+        "ur": "پتوں کی اوپری سطح پر پیلے دھبے، نیچے کی طرف بھوری یا جامنی رنگ کی پھپھوندی کے ساتھ۔ پتوں کو مرجھا کر مرنے کا سبب بن سکتا ہے۔",
+        "ar": "بقع صفراء على السطح العلوي للأوراق، مع عفن رمادي أو أرجواني زغبي على الجانب السفلي. يمكن أن تتسبب في ذبول الأوراق وموتها.",
+        "fr": "Taches jaunâtres sur la face supérieure des feuilles, avec une moisissure grise ou violacée duveteuse sur la face inférieure. Peut faire flétrir et mourir les feuilles."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Causes leaves to yellow and die off prematurely.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے دھبے ظاہر ہوتے ہیں، جس سے پتے پیلے ہو کر گر جاتے ہیں۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يسبب اصفرار الأوراق وموتها المبكر.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Fait jaunir et mourir les feuilles prématurément."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Premature flowering stalk development, often triggered by warm temperatures or stress. Leaves become bitter and tough.",
+        "ur": "وقت سے پہلے پھولوں کے تنے کی نشوونما، جو اکثر گرم درجہ حرارت یا دباؤ کی وجہ سے ہوتی ہے۔ پتے کڑوے اور سخت ہو جاتے ہیں۔",
+        "ar": "تطور مبكر لساق الزهرة، غالبًا ما يحدث بسبب درجات الحرارة الدافئة أو الإجهاد. تصبح الأوراق مرة وقاسية.",
+        "fr": "Développement prématuré de la tige florale, souvent déclenché par des températures chaudes ou le stress. Les feuilles deviennent amères et dures."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 21,
+    "firstHarvestDayMax": 45,
+    "continuousHarvest": true,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Rosettes are full and leaves are tender",
+        "ur": "پتے بھرے ہوئے اور نرم ہوں",
+        "ar": "الورود ممتلئة والأوراق طرية",
+        "fr": "Les rosettes sont pleines et les feuilles sont tendres"
+      },
+      {
+        "en": "Outer leaves are 4-6 inches long",
+        "ur": "بیرونی پتے 4-6 انچ لمبے ہوں",
+        "ar": "الأوراق الخارجية بطول 4-6 بوصات",
+        "fr": "Les feuilles extérieures mesurent 4-6 pouces de long"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Cut outer leaves at the base, leaving the inner leaves to grow for continuous harvest.",
+        "ur": "بیرونی پتوں کو جڑ سے کاٹ دیں، اندرونی پتوں کو مسلسل کٹائی کے لیے بڑھنے دیں۔",
+        "ar": "اقطع الأوراق الخارجية من القاعدة، واترك الأوراق الداخلية لتنمو لحصاد مستمر.",
+        "fr": "Coupez les feuilles extérieures à la base, en laissant les feuilles intérieures pousser pour une récolte continue."
+      },
+      "INTERMEDIATE": {
+        "en": "For a full harvest, cut the entire rosette at the soil line when it reaches desired size.",
+        "ur": "مکمل کٹائی کے لیے، جب پودا مطلوبہ سائز تک پہنچ جائے تو پوری گٹھی کو مٹی کی سطح سے کاٹ دیں۔",
+        "ar": "لحصاد كامل، اقطع الوردة بأكملها عند خط التربة عندما تصل إلى الحجم المطلوب.",
+        "fr": "Pour une récolte complète, coupez la rosette entière au niveau du sol lorsqu'elle atteint la taille désirée."
+      },
+      "EXPERT": {
+        "en": "Monitor for signs of bolting (central stalk elongation) and harvest immediately to prevent bitterness.",
+        "ur": "بولٹنگ (مرکزی تنے کی لمبائی) کے آثار کی نگرانی کریں اور کڑواہٹ سے بچنے کے لیے فوری طور پر کاٹ لیں۔",
+        "ar": "راقب علامات التزهير المبكر (استطالة الساق المركزية) واحصد فورًا لمنع المرارة.",
+        "fr": "Surveillez les signes de montaison (allongement de la tige centrale) et récoltez immédiatement pour éviter l'amertume."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate in a plastic bag for up to 1 week",
+      "ur": "پلاسٹک بیگ میں 1 ہفتے تک فریج میں رکھیں",
+      "ar": "احفظ في الثلاجة في كيس بلاستيكي لمدة تصل إلى أسبوع",
+      "fr": "Réfrigérer dans un sac plastique jusqu'à 1 semaine"
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2
+    }
+  }
+}
