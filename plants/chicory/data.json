@@ -1,0 +1,1140 @@
+{
+  "id": "chicory",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1628191010751-d4169229e018?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Chicory",
+      "alternate": [
+        "Witloof",
+        "Radicchio",
+        "Endive (some varieties)",
+        "Blue Daisy",
+        "Coffee Weed",
+        "Succory"
+      ]
+    },
+    "ur": {
+      "common": "کاسنی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "هندباء",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Chicorée",
+      "alternate": []
+    },
+    "botanical": "Cichorium intybus",
+    "aliases": [
+      "witloof",
+      "radicchio",
+      "endive",
+      "blue daisy",
+      "coffee weed",
+      "succory",
+      "kasni",
+      "hindabaa"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "leafy green",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 25,
+    "slowGrowthBelowC": 7,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [],
+  "metadata": {
+    "growthHabits": {}
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "leafy-green",
+    "root-crop",
+    "container-friendly",
+    "edible-leaves",
+    "edible-roots"
+  ],
+  "temperature": {
+    "optimalMinC": 10,
+    "optimalMaxC": 24,
+    "survivalMinC": -5,
+    "survivalMaxC": 30,
+    "germinationMinC": 7,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 75,
+    "requiredGDD": 900,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": 5,
+      "frostWarningC": 0,
+      "heavyRainMm": 25,
+      "highWindKmh": 35,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 700,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent Moisture",
+    "soilMoisturePreference": "Keep soil consistently moist, but not soggy",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "medium",
+    "rootRotRisk": "Medium if soil remains wet for prolonged periods",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "bitter taste in leaves",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "soft stems",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Base watering",
+    "thingsToAvoid": [
+      "extreme dryness",
+      "waterlogging",
+      "overhead watering in humid conditions"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Ensure good drainage and sufficient depth for taproot development.",
+        "ur": "اچھی نکاسی اور جڑوں کی نشوونما کے لیے کافی گہرائی یقینی بنائیں۔",
+        "ar": "تأكد من الصرف الجيد والعمق الكافي لتطور الجذور.",
+        "fr": "Assurez un bon drainage et une profondeur suffisante pour le développement de la racine pivotante."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 15,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Fabric bags provide good aeration and drainage.",
+        "ur": "کپڑے کے تھیلے اچھی ہوا اور نکاسی فراہم کرتے ہیں۔",
+        "ar": "توفر الأكياس القماشية تهوية وصرفًا جيدين.",
+        "fr": "Les sacs en tissu offrent une bonne aération et un bon drainage."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Space plants adequately for air circulation and growth.",
+        "ur": "پودوں کو ہوا کی گردش اور نشوونما کے لیے مناسب فاصلے پر لگائیں۔",
+        "ar": "افصل النباتات بشكل كافٍ لتدوير الهواء والنمو.",
+        "fr": "Espacez suffisamment les plantes pour la circulation de l'air et la croissance."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for controlling soil quality and drainage.",
+        "ur": "مٹی کے معیار اور نکاسی کو کنٹرول کرنے کے لیے بہترین۔",
+        "ar": "ممتاز للتحكم في جودة التربة والصرف.",
+        "fr": "Excellent pour contrôler la qualité du sol et le drainage."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "60-90 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Seed sowing for chicory",
+        "ur": "چکوری کے بیج بونا",
+        "ar": "بذر بذور الهندباء",
+        "fr": "Semis de chicorée"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Chicory prefers cool weather for best growth. Sow in early spring or late summer.",
+          "ur": "چکوری بہترین نشوونما کے لیے ٹھنڈے موسم کو ترجیح دیتی ہے۔ ابتدائی موسم بہار یا موسم گرما کے آخر میں بوئیں۔",
+          "ar": "تفضل الهندباء الطقس البارد للنمو الأمثل. ازرع في أوائل الربيع أو أواخر الصيف.",
+          "fr": "La chicorée préfère le temps frais pour une meilleure croissance. Semez au début du printemps ou à la fin de l'été."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Prepare well-draining soil with compost.",
+              "ur": "کمپوسٹ کے ساتھ اچھی نکاسی والی مٹی تیار کریں۔",
+              "ar": "جهز تربة جيدة التصريف بالسماد العضوي.",
+              "fr": "Préparez un sol bien drainé avec du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is loose and rich in organic matter.",
+              "ur": "یقینی بنائیں کہ مٹی ڈھیلی اور نامیاتی مادے سے بھرپور ہو۔",
+              "ar": "تأكد من أن التربة فضفاضة وغنية بالمواد العضوية.",
+              "fr": "Assurez-vous que le sol est meuble et riche en matière organique."
+            },
+            "EXPERT": {
+              "en": "Amend soil to a pH of 6.0-7.0 for optimal growth.",
+              "ur": "بہترین نشوونما کے لیے مٹی کا pH 6.0-7.0 پر ایڈجسٹ کریں۔",
+              "ar": "عدّل التربة لتصل إلى درجة حموضة 6.0-7.0 للنمو الأمثل.",
+              "fr": "Amendez le sol à un pH de 6,0-7,0 pour une croissance optimale."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep, 6-12 inches apart.",
+              "ur": "بیج 1/4 انچ گہرائی میں، 6-12 انچ کے فاصلے پر بوئیں۔",
+              "ar": "ازرع البذور بعمق 1/4 بوصة، بمسافة 6-12 بوصة بينها.",
+              "fr": "Semez les graines à 1/4 de pouce de profondeur, espacées de 6 à 12 pouces."
+            },
+            "INTERMEDIATE": {
+              "en": "Sow thinly in rows, covering lightly with soil.",
+              "ur": "قطاروں میں پتلے بوئیں، مٹی سے ہلکا ڈھانپیں۔",
+              "ar": "ازرع رقيقًا في صفوف، وغطِها برفق بالتربة.",
+              "fr": "Semez finement en rangs, en recouvrant légèrement de terre."
+            },
+            "EXPERT": {
+              "en": "Direct sow for best results, ensuring consistent spacing.",
+              "ur": "بہترین نتائج کے لیے براہ راست بوئیں، مستقل فاصلہ یقینی بنائیں۔",
+              "ar": "ازرع مباشرة للحصول على أفضل النتائج، مع ضمان تباعد ثابت.",
+              "fr": "Semez directement pour de meilleurs résultats, en assurant un espacement constant."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist with a gentle mist.",
+              "ur": "مٹی کو ہلکے چھڑکاؤ سے مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار برذاذ خفيف.",
+              "fr": "Maintenez le sol constamment humide avec une légère brumisation."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure top inch of soil remains damp.",
+              "ur": "یقینی بنائیں کہ مٹی کی اوپری انچ نم رہے۔",
+              "ar": "تأكد من بقاء البوصة العلوية من التربة رطبة.",
+              "fr": "Assurez-vous que le premier pouce de sol reste humide."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture closely to prevent drying out.",
+              "ur": "خشک ہونے سے بچنے کے لیے مٹی کی نمی کی قریب سے نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة عن كثب لمنع الجفاف.",
+              "fr": "Surveillez attentivement l'humidité du sol pour éviter le dessèchement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Chicory sprouts appear",
+        "ur": "چکوری کی کونپلیں نکلنا",
+        "ar": "ظهور براعم الهندباء",
+        "fr": "Germination de la chicorée"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for small green sprouts emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی سبز کونپلیں تلاش کریں۔",
+              "ar": "ابحث عن البراعم الخضراء الصغيرة التي تظهر من التربة.",
+              "fr": "Recherchez de petites pousses vertes émergeant du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Check for consistent emergence across the planting area.",
+              "ur": "پودے لگانے والے علاقے میں مستقل ابھرنے کی جانچ کریں۔",
+              "ar": "تحقق من الظهور المتسق عبر منطقة الزراعة.",
+              "fr": "Vérifiez l'émergence constante sur toute la zone de plantation."
+            },
+            "EXPERT": {
+              "en": "Assess germination rate and uniformity.",
+              "ur": "انکرن کی شرح اور یکسانیت کا اندازہ لگائیں۔",
+              "ar": "قيم معدل الإنبات والتوحيد.",
+              "fr": "Évaluez le taux de germination et l'uniformité."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour éviter de perturber les jeunes pousses délicates."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture without waterlogging.",
+              "ur": "پانی جمع کیے بغیر مٹی کی مستقل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار دون إغراقها بالماء.",
+              "fr": "Maintenez une humidité constante du sol sans engorgement."
+            },
+            "EXPERT": {
+              "en": "Use a fine spray nozzle to prevent soil compaction.",
+              "ur": "مٹی کے کمپیکشن کو روکنے کے لیے ایک عمدہ سپرے نوزل استعمال کریں۔",
+              "ar": "استخدم فوهة رش دقيقة لمنع انضغاط التربة.",
+              "fr": "Utilisez une buse de pulvérisation fine pour éviter le compactage du sol."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Chicory true leaves form",
+        "ur": "چکوری کے اصلی پتے بننا",
+        "ar": "تكون الأوراق الحقيقية للهندباء",
+        "fr": "Formation des vraies feuilles de chicorée"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Thinning is crucial for healthy chicory growth, allowing plants enough space.",
+          "ur": "صحت مند چکوری کی نشوونما کے لیے پتلا کرنا بہت ضروری ہے، تاکہ پودوں کو کافی جگہ مل سکے۔",
+          "ar": "التخفيف ضروري لنمو الهندباء الصحي، مما يتيح للنباتات مساحة كافية.",
+          "fr": "L'éclaircissage est crucial pour une croissance saine de la chicorée, permettant aux plantes suffisamment d'espace."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 6-12 inches apart once they have a few true leaves.",
+              "ur": "جب پودوں میں چند اصلی پتے آ جائیں تو انہیں 6-12 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "خفف الشتلات لتكون بمسافة 6-12 بوصة بمجرد أن يكون لديها بضع أوراق حقيقية.",
+              "fr": "Éclaircissez les semis à 6-12 pouces d'intervalle une fois qu'ils ont quelques vraies feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Select the strongest seedlings and remove weaker ones by pinching at the soil line.",
+              "ur": "مضبوط ترین پودوں کا انتخاب کریں اور کمزور پودوں کو مٹی کی سطح پر چٹکی کاٹ کر ہٹا دیں۔",
+              "ar": "اختر أقوى الشتلات وأزل الأضعف عن طريق القرص عند خط التربة.",
+              "fr": "Sélectionnez les semis les plus forts et retirez les plus faibles en pinçant au niveau du sol."
+            },
+            "EXPERT": {
+              "en": "Ensure proper air circulation and light penetration by precise thinning.",
+              "ur": "صحیح ہوا کی گردش اور روشنی کی رسائی کو یقینی بنانے کے لیے درست پتلا کریں۔",
+              "ar": "تأكد من دوران الهواء المناسب واختراق الضوء عن طريق التخفيف الدقيق.",
+              "fr": "Assurez une bonne circulation de l'air et une pénétration de la lumière par un éclaircissage précis."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plants, keeping leaves dry.",
+              "ur": "پودوں کی جڑوں میں پانی دیں، پتوں کو خشک رکھیں۔",
+              "ar": "اسقِ عند قاعدة النباتات، مع إبقاء الأوراق جافة.",
+              "fr": "Arrosez à la base des plantes, en gardant les feuilles sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Deeply water to encourage root development.",
+              "ur": "جڑوں کی نشوونما کی حوصلہ افزائی کے لیے گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق لتشجيع نمو الجذور.",
+              "fr": "Arrosez profondément pour encourager le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture to prevent both overwatering and drying out.",
+              "ur": "زیادہ پانی دینے اور خشک ہونے دونوں سے بچنے کے لیے مٹی کی نمی کی نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة لمنع الإفراط في الري والجفاف.",
+              "fr": "Surveillez l'humidité du sol pour éviter à la fois l'excès d'eau et le dessèchement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 55,
+      "description": {
+        "en": "Rapid leaf and root growth",
+        "ur": "پتوں اور جڑوں کی تیز نشوونما",
+        "ar": "نمو سريع للأوراق والجذور",
+        "fr": "Croissance rapide des feuilles et des racines"
+      },
+      "emoji": "🥬",
+      "tips": [
+        {
+          "en": "Consistent moisture is key for tender leaves and good root development.",
+          "ur": "نرم پتوں اور جڑوں کی اچھی نشوونما کے لیے مستقل نمی ضروری ہے۔",
+          "ar": "الرطوبة المستمرة هي المفتاح للأوراق الرقيقة وتطور الجذور الجيد.",
+          "fr": "Une humidité constante est essentielle pour des feuilles tendres et un bon développement des racines."
+        },
+        {
+          "en": "For some varieties (e.g., Witloof chicory), blanching can reduce bitterness. This involves covering the plants to exclude light.",
+          "ur": "کچھ اقسام (مثلاً، وٹلوف چکوری) کے لیے، بلانچنگ کڑواہٹ کو کم کر سکتی ہے۔ اس میں پودوں کو روشنی سے بچانے کے لیے ڈھانپنا شامل ہے۔",
+          "ar": "بالنسبة لبعض الأصناف (مثل الهندباء الويتلوف)، يمكن أن يقلل التبييض من المرارة. يتضمن ذلك تغطية النباتات لحجب الضوء.",
+          "fr": "Pour certaines variétés (ex: chicorée Witloof), le blanchiment peut réduire l'amertume. Cela implique de couvrir les plantes pour exclure la lumière."
+        }
+      ],
+      "tasks": {
+        "weeding": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any weeds growing around your chicory plants.",
+              "ur": "اپنی چکوری کے پودوں کے ارد گرد اگنے والی تمام جڑی بوٹیاں ہٹا دیں۔",
+              "ar": "أزل أي أعشاب تنمو حول نباتات الهندباء.",
+              "fr": "Enlevez toutes les mauvaises herbes poussant autour de vos plants de chicorée."
+            },
+            "INTERMEDIATE": {
+              "en": "Weed regularly to prevent competition for nutrients and water.",
+              "ur": "غذائی اجزاء اور پانی کے لیے مقابلہ کو روکنے کے لیے باقاعدگی سے گھاس نکالیں۔",
+              "ar": "قم بإزالة الأعشاب الضارة بانتظام لمنع المنافسة على المغذيات والماء.",
+              "fr": "Désherbez régulièrement pour éviter la concurrence pour les nutriments et l'eau."
+            },
+            "EXPERT": {
+              "en": "Implement shallow cultivation to avoid disturbing chicory roots.",
+              "ur": "چکوری کی جڑوں کو پریشان کیے بغیر ہلکی کاشت کریں۔",
+              "ar": "نفذ زراعة سطحية لتجنب إزعاج جذور الهندباء.",
+              "fr": "Mettez en œuvre une culture superficielle pour éviter de perturber les racines de chicorée."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for slugs, snails, and aphids. Remove manually or use organic spray.",
+              "ur": "سلگس، گھونگوں اور ایفڈز کی جانچ کریں۔ دستی طور پر ہٹائیں یا نامیاتی سپرے استعمال کریں۔",
+              "ar": "تحقق من وجود البزاقات والقواقع والمن. أزلها يدويًا أو استخدم رذاذًا عضويًا.",
+              "fr": "Vérifiez la présence de limaces, escargots et pucerons. Retirez-les manuellement ou utilisez un spray bio."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply diatomaceous earth around plants for slug control.",
+              "ur": "سلگ کنٹرول کے لیے پودوں کے ارد گرد ڈائیٹومیشیئس ارتھ لگائیں۔",
+              "ar": "ضع تراب الدياتومي حول النباتات للتحكم في البزاقات.",
+              "fr": "Appliquez de la terre de diatomées autour des plantes pour le contrôle des limaces."
+            },
+            "EXPERT": {
+              "en": "Monitor for common chicory pests like flea beetles and leaf miners; use targeted organic treatments.",
+              "ur": "چکوری کے عام کیڑوں جیسے فلی بیٹلز اور لیف مائنرز کی نگرانی کریں؛ ہدف شدہ نامیاتی علاج استعمال کریں۔",
+              "ar": "راقب آفات الهندباء الشائعة مثل خنافس البراغيث وحفارات الأوراق؛ استخدم علاجات عضوية مستهدفة.",
+              "fr": "Surveillez les ravageurs courants de la chicorée comme les altises et les mineuses; utilisez des traitements biologiques ciblés."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently to keep soil moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے گہرا اور مستقل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار للحفاظ على رطوبة التربة.",
+              "fr": "Arrosez profondément et régulièrement pour maintenir le sol humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid overhead watering to prevent fungal diseases.",
+              "ur": "فنگل بیماریوں کو روکنے کے لیے اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تجنب الري العلوي لمنع الأمراض الفطرية.",
+              "fr": "Évitez l'arrosage par le haut pour prévenir les maladies fongiques."
+            },
+            "EXPERT": {
+              "en": "Implement drip irrigation for efficient and consistent moisture delivery.",
+              "ur": "موثر اور مستقل نمی کی فراہمی کے لیے ڈرپ ایریگیشن کا نظام نافذ کریں۔",
+              "ar": "نفذ نظام الري بالتنقيط لتوصيل الرطوبة بكفاءة وثبات.",
+              "fr": "Mettez en œuvre l'irrigation goutte à goutte pour une distribution d'humidité efficace et constante."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 35,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Chicory flowers bloom (bolting)",
+        "ur": "چکوری کے پھول کھلنا (بولٹنگ)",
+        "ar": "تزهر أزهار الهندباء (التزهير)",
+        "fr": "Floraison de la chicorée (montée en graine)"
+      },
+      "emoji": "🌸",
+      "tips": [
+        {
+          "en": "If growing for leaves, harvest before or as soon as flowering stalks appear to prevent bitterness.",
+          "ur": "اگر پتوں کے لیے اگا رہے ہیں، تو کڑواہٹ سے بچنے کے لیے پھولوں کے ڈنٹھل ظاہر ہونے سے پہلے یا فوراً بعد کاٹ لیں۔",
+          "ar": "إذا كنت تزرع للأوراق، فاحصد قبل أو بمجرد ظهور سيقان الزهور لمنع المرارة.",
+          "fr": "Si vous cultivez pour les feuilles, récoltez avant ou dès l'apparition des tiges florales pour éviter l'amertume."
+        },
+        {
+          "en": "Chicory flowers are edible and can be a beautiful addition to salads.",
+          "ur": "چکوری کے پھول کھانے کے قابل ہوتے ہیں اور سلاد میں ایک خوبصورت اضافہ ہو سکتے ہیں۔",
+          "ar": "أزهار الهندباء صالحة للأكل ويمكن أن تكون إضافة جميلة للسلطات.",
+          "fr": "Les fleurs de chicorée sont comestibles et peuvent être un bel ajout aux salades."
+        }
+      ],
+      "tasks": {
+        "boltingManagement": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off flower stalks as they appear to prolong leaf harvest.",
+              "ur": "پتوں کی کٹائی کو طول دینے کے لیے پھولوں کے ڈنٹھل ظاہر ہوتے ہی انہیں چٹکی کاٹ کر ہٹا دیں۔",
+              "ar": "اقطع سيقان الزهور فور ظهورها لإطالة حصاد الأوراق.",
+              "fr": "Pincez les tiges florales dès leur apparition pour prolonger la récolte des feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly inspect plants for signs of bolting, especially in warm weather.",
+              "ur": "خاص طور پر گرم موسم میں، پودوں کو بولٹنگ کے آثار کے لیے باقاعدگی سے معائنہ کریں۔",
+              "ar": "افحص النباتات بانتظام بحثًا عن علامات التزهير، خاصة في الطقس الدافئ.",
+              "fr": "Inspectez régulièrement les plantes pour détecter les signes de montée en graine, surtout par temps chaud."
+            },
+            "EXPERT": {
+              "en": "Allow some plants to bolt for seed saving or to attract pollinators.",
+              "ur": "بیج بچانے یا پولینیٹرز کو راغب کرنے کے لیے کچھ پودوں کو بولٹ ہونے دیں۔",
+              "ar": "اسمح لبعض النباتات بالتزهير لحفظ البذور أو لجذب الملقحات.",
+              "fr": "Laissez certaines plantes monter en graine pour la récolte de graines ou pour attirer les pollinisateurs."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue checking for pests and remove them.",
+              "ur": "کیڑوں کی جانچ جاری رکھیں اور انہیں ہٹا دیں۔",
+              "ar": "استمر في فحص الآفات وإزالتها.",
+              "fr": "Continuez à vérifier la présence de ravageurs et à les éliminer."
+            },
+            "INTERMEDIATE": {
+              "en": "Use insecticidal soap for aphid infestations.",
+              "ur": "ایفڈ کے حملوں کے لیے کیڑے مار صابن استعمال کریں۔",
+              "ar": "استخدم صابون مبيد الحشرات لآفات المن.",
+              "fr": "Utilisez du savon insecticide pour les infestations de pucerons."
+            },
+            "EXPERT": {
+              "en": "Introduce beneficial insects like ladybugs to control aphid populations.",
+              "ur": "ایفڈ کی آبادی کو کنٹرول کرنے کے لیے لیڈی بگ جیسے فائدہ مند کیڑے متعارف کروائیں۔",
+              "ar": "أدخل الحشرات النافعة مثل الدعسوقة للتحكم في أعداد المن.",
+              "fr": "Introduisez des insectes bénéfiques comme les coccinelles pour contrôler les populations de pucerons."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 700,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent watering, especially if harvesting leaves.",
+              "ur": "مستقل پانی دینا جاری رکھیں، خاص طور پر اگر پتے کاٹ رہے ہوں۔",
+              "ar": "حافظ على الري المستمر، خاصة إذا كنت تحصد الأوراق.",
+              "fr": "Maintenez un arrosage constant, surtout si vous récoltez les feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to support both leaf and potential root development.",
+              "ur": "پتوں اور ممکنہ جڑوں کی نشوونما دونوں کو سہارا دینے کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لدعم نمو الأوراق والجذور المحتملة.",
+              "fr": "Assurez un arrosage profond pour soutenir le développement des feuilles et des racines potentielles."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on plant stress and environmental conditions.",
+              "ur": "پودوں کے دباؤ اور ماحولیاتی حالات کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على إجهاد النبات والظروف البيئية.",
+              "fr": "Ajustez l'arrosage en fonction du stress de la plante et des conditions environnementales."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Chicory leaves or roots are ready for harvest",
+        "ur": "چکوری کے پتے یا جڑیں کٹائی کے لیے تیار ہیں",
+        "ar": "أوراق أو جذور الهندباء جاهزة للحصاد",
+        "fr": "Les feuilles ou les racines de chicorée sont prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest outer leaves for a 'cut-and-come-again' approach, or harvest whole heads.",
+          "ur": "بیرونی پتوں کو 'کاٹ کر دوبارہ اگنے' کے طریقے سے کاٹیں، یا پورے سر کاٹ لیں۔",
+          "ar": "احصد الأوراق الخارجية باتباع طريقة 'القطع والنمو مجددًا'، أو احصد الرؤوس بأكملها.",
+          "fr": "Récoltez les feuilles extérieures selon l'approche 'couper et revenir', ou récoltez des têtes entières."
+        },
+        {
+          "en": "For root chicory, harvest roots in late fall before the ground freezes.",
+          "ur": "جڑ والی چکوری کے لیے، موسم خزاں کے آخر میں زمین جمنے سے پہلے جڑیں کاٹ لیں۔",
+          "ar": "بالنسبة للهندباء الجذرية، احصد الجذور في أواخر الخريف قبل أن تتجمد الأرض.",
+          "fr": "Pour la chicorée à racines, récoltez les racines à la fin de l'automne avant que le sol ne gèle."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut outer leaves 1 inch above the crown for continuous harvest.",
+              "ur": "مسلسل کٹائی کے لیے بیرونی پتوں کو تاج سے 1 انچ اوپر کاٹیں۔",
+              "ar": "اقطع الأوراق الخارجية 1 بوصة فوق التاج للحصاد المستمر.",
+              "fr": "Coupez les feuilles extérieures à 1 pouce au-dessus de la couronne pour une récolte continue."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest whole heads by cutting at the soil line, or dig roots carefully.",
+              "ur": "مٹی کی سطح پر کاٹ کر پورے سر کاٹیں، یا جڑوں کو احتیاط سے کھودیں۔",
+              "ar": "احصد الرؤوس بأكملها عن طريق القطع عند خط التربة، أو احفر الجذور بعناية.",
+              "fr": "Récoltez les têtes entières en coupant au niveau du sol, ou déterrez les racines avec précaution."
+            },
+            "EXPERT": {
+              "en": "Time harvest for optimal flavor, usually before bolting for leaves, or after a full season for roots.",
+              "ur": "بہترین ذائقے کے لیے کٹائی کا وقت مقرر کریں، عام طور پر پتوں کے لیے بولٹنگ سے پہلے، یا جڑوں کے لیے پورے موسم کے بعد۔",
+              "ar": "حدد وقت الحصاد للحصول على أفضل نكهة، عادة قبل التزهير للأوراق، أو بعد موسم كامل للجذور.",
+              "fr": "Planifiez la récolte pour une saveur optimale, généralement avant la montée en graine pour les feuilles, ou après une saison complète pour les racines."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue regular watering to support new leaf growth.",
+              "ur": "نئے پتوں کی نشوونما کو سہارا دینے کے لیے باقاعدہ پانی دینا جاری رکھیں۔",
+              "ar": "استمر في الري المنتظم لدعم نمو الأوراق الجديدة.",
+              "fr": "Continuez un arrosage régulier pour soutenir la croissance de nouvelles feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Reduce watering slightly if harvesting roots to concentrate sugars.",
+              "ur": "اگر جڑیں کاٹ رہے ہوں تو شکر کو مرتکز کرنے کے لیے پانی کو تھوڑا کم کریں۔",
+              "ar": "قلل الري قليلاً إذا كنت تحصد الجذور لتركيز السكريات.",
+              "fr": "Réduisez légèrement l'arrosage si vous récoltez les racines pour concentrer les sucres."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on harvest type and desired plant response.",
+              "ur": "کٹائی کی قسم اور مطلوبہ پودوں کے ردعمل کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على نوع الحصاد واستجابة النبات المطلوبة.",
+              "fr": "Ajustez l'arrosage en fonction du type de récolte et de la réponse souhaitée de la plante."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Diluted Compost Tea or Liquid Seaweed",
+          "ur": "پتلی کمپوسٹ چائے یا مائع سی ویڈ",
+          "ar": "شاي الكمبوست المخفف أو مستخلص الطحالب البحرية السائل",
+          "fr": "Thé de compost dilué ou extrait d'algues liquides"
+        },
+        "preparation": {
+          "en": "Mix 1 part compost tea or liquid seaweed with 10 parts water. Stir well.",
+          "ur": "1 حصہ کمپوسٹ چائے یا مائع سی ویڈ کو 10 حصے پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط جزءًا واحدًا من شاي الكمبوست أو مستخلص الطحالب البحرية مع 10 أجزاء من الماء. حرك جيدًا.",
+          "fr": "Mélangez 1 part de thé de compost ou d'extrait d'algues liquides avec 10 parts d'eau. Remuez bien."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young, developing plants.",
+          "ur": "نوجوان پودوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة للنباتات الصغيرة النامية.",
+          "fr": "Fournit un léger coup de pouce nutritif aux jeunes plantes en développement."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Balanced Organic Fertilizer or Compost",
+          "ur": "متوازن نامیاتی کھاد یا کمپوسٹ",
+          "ar": "سماد عضوي متوازن أو كمبوست",
+          "fr": "Engrais organique équilibré ou compost"
+        },
+        "preparation": {
+          "en": "Side-dress with 1-2 inches of well-rotted compost or apply a balanced organic granular fertilizer according to package directions.",
+          "ur": "پودے کے ارد گرد 1-2 انچ اچھی طرح گلی ہوئی کمپوسٹ ڈالیں یا پیکیج کی ہدایات کے مطابق متوازن نامیاتی دانے دار کھاد استعمال کریں۔",
+          "ar": "ضع طبقة جانبية بسمك 1-2 بوصة من الكمبوست المتحلل جيدًا أو استخدم سمادًا عضويًا حبيبيًا متوازنًا وفقًا لتعليمات العبوة.",
+          "fr": "Appliquez 2-5 cm de compost bien décomposé ou un engrais granulaire organique équilibré selon les instructions."
+        },
+        "quantityPer10L": 200,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Supports strong leaf growth for greens and healthy root development for root chicory.",
+          "ur": "پتوں کی مضبوط نشوونما اور جڑوں کی صحت مند نشوونما میں مدد کرتا ہے۔",
+          "ar": "يدعم نمو الأوراق القوي للخضروات وتطور الجذور الصحي للشكوريا الجذرية.",
+          "fr": "Soutient une forte croissance des feuilles pour les salades et un développement sain des racines pour la chicorée à racines."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "note": {
+          "en": "Chicory is typically harvested before or at the onset of flowering for best leaf/root quality. Fertilization during flowering is usually not necessary unless growing for seed.",
+          "ur": "چکوری کو عام طور پر پھول آنے سے پہلے یا اس کے آغاز پر بہترین پتوں/جڑوں کے معیار کے لیے کاٹا جاتا ہے۔ پھول آنے کے دوران کھاد ڈالنا عام طور پر ضروری نہیں ہوتا جب تک کہ بیجوں کے لیے نہ اگایا جائے۔",
+          "ar": "عادة ما يتم حصاد الشيكوريا قبل أو عند بدء الإزهار للحصول على أفضل جودة للأوراق/الجذور. التسميد أثناء الإزهار ليس ضروريًا عادةً إلا إذا كنت تزرع للبذور.",
+          "fr": "La chicorée est généralement récoltée avant ou au début de la floraison pour une meilleure qualité des feuilles/racines. La fertilisation pendant la floraison n'est généralement pas nécessaire, sauf pour la production de graines."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Chicory is not typically grown for fruit. If growing for seed, follow flowering stage recommendations.",
+          "ur": "چکوری عام طور پر پھل کے لیے نہیں اگائی جاتی۔ اگر بیجوں کے لیے اگا رہے ہیں، تو پھول آنے کے مرحلے کی سفارشات پر عمل کریں۔",
+          "ar": "لا تزرع الشيكوريا عادة للثمار. إذا كنت تزرع للبذور، اتبع توصيات مرحلة الإزهار.",
+          "fr": "La chicorée n'est généralement pas cultivée pour ses fruits. Si vous la cultivez pour les graines, suivez les recommandations de la phase de floraison."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 20-10-10)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10 یا 20-10-10)",
+          "ar": "سماد NPK متوازن (مثل 10-10-10 أو 20-10-10)",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of granular NPK fertilizer in 1 gallon of water. Apply to the soil around the plants.",
+          "ur": "1 چمچ دانے دار NPK کھاد کو 4 لیٹر پانی میں حل کریں۔ پودوں کے ارد گرد مٹی میں ڈالیں۔",
+          "ar": "أذب ملعقة كبيرة من سماد NPK الحبيبي في 4 لتر من الماء. اسقِ التربة حول النباتات.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais NPK granulaire dans 4 litres d'eau. Appliquez au sol autour des plantes."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes vigorous leaf growth for greens. Adjust N content based on whether you're growing for leaves or roots.",
+          "ur": "پتوں کی بھرپور نشوونما کو فروغ دیتا ہے۔ نائٹروجن کی مقدار کو اس بنیاد پر ایڈجسٹ کریں کہ آپ پتوں یا جڑوں کے لیے اگا رہے ہیں۔",
+          "ar": "يعزز نمو الأوراق القوي للخضروات. اضبط محتوى النيتروجين بناءً على ما إذا كنت تزرع للأوراق أو الجذور.",
+          "fr": "Favorise une croissance vigoureuse des feuilles pour les salades. Ajustez la teneur en N selon que vous cultivez pour les feuilles ou les racines."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "note": {
+          "en": "Not typically fertilized during flowering for chicory, as it's usually harvested before or at this stage.",
+          "ur": "چکوری کو عام طور پر پھول آنے کے دوران کھاد نہیں دی جاتی، کیونکہ اسے عام طور پر اس مرحلے سے پہلے یا اس پر کاٹا جاتا ہے۔",
+          "ar": "لا يتم تسميد الشيكوريا عادةً أثناء الإزهار، حيث يتم حصادها عادةً قبل أو في هذه المرحلة.",
+          "fr": "Généralement pas fertilisée pendant la floraison pour la chicorée, car elle est récoltée avant ou à ce stade."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Not applicable for chicory.",
+          "ur": "چکوری کے لیے قابل اطلاق نہیں۔",
+          "ar": "غير قابل للتطبيق على الشيكوريا.",
+          "fr": "Non applicable pour la chicorée."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true,
+        "note": {
+          "en": "Alternate between organic and chemical fertilizers to provide a steady supply of nutrients for robust growth.",
+          "ur": "مضبوط نشوونما کے لیے غذائی اجزاء کی مستقل فراہمی کے لیے نامیاتی اور کیمیائی کھادوں کے درمیان باری باری استعمال کریں۔",
+          "ar": "تناوب بين الأسمدة العضوية والكيميائية لتوفير إمداد ثابت من العناصر الغذائية لنمو قوي.",
+          "fr": "Alternez entre les engrais organiques et chimiques pour un apport constant de nutriments et une croissance robuste."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "note": {
+          "en": "Not typically fertilized during flowering for chicory.",
+          "ur": "چکوری کو عام طور پر پھول آنے کے دوران کھاد نہیں دی جاتی۔",
+          "ar": "لا يتم تسميد الشيكوريا عادةً أثناء الإزهار.",
+          "fr": "Généralement pas fertilisée pendant la floraison pour la chicorée."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "note": {
+          "en": "Not applicable for chicory.",
+          "ur": "چکوری کے لیے قابل اطلاق نہیں۔",
+          "ar": "غير قابل للتطبيق على الشيكوريا.",
+          "fr": "Non applicable for chicory."
+        }
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Carrots help loosen the soil, which benefits chicory's root development, especially for root chicory varieties.",
+        "ur": "گاجریں مٹی کو ڈھیلا کرنے میں مدد کرتی ہیں، جو چکوری کی جڑوں کی نشوونما کے لیے فائدہ مند ہے، خاص طور پر جڑ والی چکوری کی اقسام کے لیے۔",
+        "ar": "تساعد الجزر على تفكيك التربة، مما يفيد نمو جذور الشيكوريا، خاصة لأصناف الشيكوريا الجذرية.",
+        "fr": "Les carottes aident à ameublir le sol, ce qui favorise le développement des racines de la chicorée, surtout pour les variétés à racines."
+      }
+    },
+    {
+      "plantId": "radish",
+      "benefit": {
+        "en": "Similar to carrots, radishes help break up compacted soil, improving aeration and drainage for chicory roots.",
+        "ur": "گاجروں کی طرح، مولی بھی سخت مٹی کو توڑنے میں مدد کرتی ہے، جس سے چکوری کی جڑوں کے لیے ہوا اور نکاسی بہتر ہوتی ہے۔",
+        "ar": "مثل الجزر، تساعد الفجل على تفتيت التربة المضغوطة، مما يحسن التهوية والصرف لجذور الشيكوريا.",
+        "fr": "Comme les carottes, les radis aident à briser le sol compacté, améliorant l'aération et le drainage pour les racines de chicorée."
+      }
+    },
+    {
+      "plantId": "beans",
+      "benefit": {
+        "en": "Legumes like beans fix nitrogen in the soil, providing a natural nutrient boost for chicory's leafy growth.",
+        "ur": "پھلیاں جیسے کہ لوبیا مٹی میں نائٹروجن کو ٹھیک کرتی ہیں، جو چکوری کے پتوں کی نشوونما کے لیے قدرتی غذائی اجزاء فراہم کرتی ہیں۔",
+        "ar": "البقوليات مثل الفول تثبت النيتروجين في التربة، مما يوفر دفعة غذائية طبيعية لنمو أوراق الشيكوريا.",
+        "fr": "Les légumineuses comme les haricots fixent l'azote dans le sol, fournissant un apport nutritif naturel pour la croissance des feuilles de chicorée."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Marigolds are known to deter nematodes and other soil-borne pests that can harm chicory roots.",
+        "ur": "میریگولڈز نیماٹوڈس اور دیگر مٹی سے پیدا ہونے والے کیڑوں کو دور بھگانے کے لیے جانے جاتے ہیں جو چکوری کی جڑوں کو نقصان پہنچا سکتے ہیں۔",
+        "ar": "تشتهر القطيفة بصد الديدان الخيطية والآفات الأخرى التي تنتقل عن طريق التربة والتي يمكن أن تضر بجذور الشيكوريا.",
+        "fr": "Les œillets d'Inde sont connus pour repousser les nématodes et autres parasites du sol qui peuvent nuire aux racines de la chicorée."
+      }
+    },
+    {
+      "plantId": "lettuce",
+      "benefit": {
+        "en": "Chicory and lettuce have similar growing requirements and can be interplanted to maximize garden space.",
+        "ur": "چکوری اور لیٹش کی بڑھوتری کی ضروریات ایک جیسی ہیں اور انہیں باغ کی جگہ کو زیادہ سے زیادہ استعمال کرنے کے لیے ایک ساتھ لگایا جا سکتا ہے۔",
+        "ar": "تتشابه متطلبات نمو الشيكوريا والخس ويمكن زراعتهما معًا لزيادة مساحة الحديقة.",
+        "fr": "La chicorée et la laitue ont des exigences de croissance similaires et peuvent être plantées ensemble pour maximiser l'espace du jardin."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Fennel is known to inhibit the growth of many plants, including chicory, due to chemicals released from its roots.",
+        "ur": "سونف اپنی جڑوں سے خارج ہونے والے کیمیکلز کی وجہ سے چکوری سمیت کئی پودوں کی نشوونما کو روکنے کے لیے جانی جاتی ہے۔",
+        "ar": "يشتهر الشمر بتثبيط نمو العديد من النباتات، بما في ذلك الشيكوريا، بسبب المواد الكيميائية التي تطلقها جذوره.",
+        "fr": "Le fenouil est connu pour inhiber la croissance de nombreuses plantes, y compris la chicorée, en raison des substances chimiques libérées par ses racines."
+      }
+    },
+    {
+      "plantId": "brassicas",
+      "reason": {
+        "en": "Members of the brassica family (cabbage, broccoli, kale) can compete with chicory for nutrients and attract similar pests.",
+        "ur": "براسیکا خاندان کے افراد (گوبھی، بروکولی، کالی) چکوری کے ساتھ غذائی اجزاء کے لیے مقابلہ کر سکتے ہیں اور اسی طرح کے کیڑوں کو اپنی طرف متوجہ کر سکتے ہیں۔",
+        "ar": "يمكن لأفراد عائلة الكرنب (الملفوف، البروكلي، الكرنب الأجعد) التنافس مع الشيكوريا على العناصر الغذائية وجذب آفات مماثلة.",
+        "fr": "Les membres de la famille des brassicacées (chou, brocoli, chou frisé) peuvent concurrencer la chicorée pour les nutriments et attirer des parasites similaires."
+      }
+    },
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Potatoes can share certain diseases with chicory, increasing the risk of infection for both plants.",
+        "ur": "آلو چکوری کے ساتھ کچھ بیماریاں بانٹ سکتے ہیں، جس سے دونوں پودوں کے لیے انفیکشن کا خطرہ بڑھ جاتا ہے۔",
+        "ar": "يمكن أن تتشارك البطاطس بعض الأمراض مع الشيكوريا، مما يزيد من خطر الإصابة لكلا النباتين.",
+        "fr": "Les pommes de terre peuvent partager certaines maladies avec la chicorée, augmentant le risque d'infection pour les deux plantes."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and causing distorted growth. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں اور پتوں کے نچلے حصوں پر جمع ہو کر رس چوستے ہیں اور نشوونما کو بگاڑتے ہیں۔ وائرس منتقل کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه النمو. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant une croissance déformée. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Chew irregular holes in leaves, especially on young plants. Active in damp, cool conditions, leaving silvery slime trails.",
+        "ur": "پتوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ نم، ٹھنڈے حالات میں سرگرم ہوتے ہیں، چاندی کی چپچپی پگڈنڈیاں چھوڑتے ہیں۔",
+        "ar": "تحدث ثقوبًا غير منتظمة في الأوراق، خاصة على النباتات الصغيرة. نشطة في الظروف الرطبة والباردة، وتترك آثارًا فضية لزجة.",
+        "fr": "Mâchent des trous irréguliers dans les feuilles, surtout sur les jeunes plantes. Actifs par temps humide et frais, laissant des traces de bave argentée."
+      }
+    },
+    {
+      "pestId": "leaf_miners",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae tunnel between the upper and lower surfaces of leaves, creating winding white or translucent trails. Reduces photosynthetic capacity.",
+        "ur": "لاروا پتوں کی اوپری اور نچلی سطحوں کے درمیان سرنگیں بناتے ہیں، جس سے سفید یا شفاف پگڈنڈیاں بنتی ہیں۔ فوٹو سنتھیٹک صلاحیت کو کم کرتا ہے۔",
+        "ar": "تحفر اليرقات أنفاقًا بين السطح العلوي والسفلي للأوراق، مما يخلق مسارات بيضاء أو شفافة متعرجة. يقلل من قدرة التمثيل الضوئي.",
+        "fr": "Les larves creusent des galeries entre les surfaces supérieure et inférieure des feuilles, créant des traces blanches ou translucides. Réduit la capacité photosynthétique."
+      }
+    },
+    {
+      "pestId": "downy_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Yellowish spots on the upper leaf surface, with fuzzy gray or purplish mold on the underside. Thrives in cool, wet conditions.",
+        "ur": "پتوں کی اوپری سطح پر پیلے دھبے، نچلی سطح پر بھوری یا جامنی رنگ کی پھپھوندی۔ ٹھنڈے، گیلے حالات میں پروان چڑھتا ہے۔",
+        "ar": "بقع صفراء على السطح العلوي للأوراق، مع عفن رمادي أو أرجواني زغبي على الجانب السفلي. يزدهر في الظروف الباردة والرطبة.",
+        "fr": "Taches jaunâtres sur la face supérieure des feuilles, avec une moisissure grise ou violacée duveteuse sur le dessous. Prospère par temps frais et humide."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches on leaves and stems. Can stunt growth and reduce yield. Favors dry conditions with high humidity at night.",
+        "ur": "پتوں اور تنوں پر سفید، پاؤڈر جیسے دھبے. نشوونما کو روک سکتے ہیں اور پیداوار کو کم کر سکتے ہیں۔ رات کو زیادہ نمی کے ساتھ خشک حالات کو پسند کرتا ہے۔",
+        "ar": "بقع بيضاء مسحوقية على الأوراق والسيقان. يمكن أن تعيق النمو وتقلل الغلة. تفضل الظروف الجافة مع الرطوبة العالية ليلاً.",
+        "fr": "Taches blanches et poudreuses sur les feuilles et les tiges. Peut ralentir la croissance et réduire le rendement. Préfère les conditions sèches avec une humidité nocturne élevée."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by overwatering or poorly draining soil. Roots become soft and brown, leading to wilting and plant death.",
+        "ur": "زیادہ پانی دینے یا خراب نکاسی والی مٹی کی وجہ سے ہوتا ہے۔ جڑیں نرم اور بھوری ہو جاتی ہیں، جس سے پودا مرجھا جاتا ہے اور مر جاتا ہے۔",
+        "ar": "تسببه الإفراط في الري أو التربة سيئة التصريف. تصبح الجذور ناعمة وبنية، مما يؤدي إلى الذبول وموت النبات.",
+        "fr": "Causé par un arrosage excessif ou un sol mal drainé. Les racines deviennent molles et brunes, entraînant le flétrissement et la mort de la plante."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Premature flowering and seed stalk development, often triggered by heat stress or inconsistent watering. Makes leaves bitter.",
+        "ur": "وقت سے پہلے پھول آنا اور بیج کے تنے کی نشوونما، جو اکثر گرمی کے دباؤ یا بے قاعدہ پانی کی وجہ سے ہوتی ہے۔ پتوں کو کڑوا بنا دیتا ہے۔",
+        "ar": "الإزهار المبكر وتطور ساق البذور، غالبًا ما يحدث بسبب الإجهاد الحراري أو الري غير المنتظم. يجعل الأوراق مرة.",
+        "fr": "Floraison prématurée et développement de la tige florale, souvent déclenchés par le stress thermique ou un arrosage irrégulier. Rend les feuilles amères."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 30,
+    "firstHarvestDayMax": 60,
+    "continuousHarvest": true,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Leaves are tender and 6-12 inches tall (for greens)",
+        "ur": "پتے نرم اور 6-12 انچ لمبے ہوں (سبزیوں کے لیے)",
+        "ar": "الأوراق طرية وطولها 6-12 بوصة (للخضروات)",
+        "fr": "Les feuilles sont tendres et mesurent 15-30 cm de haut (pour les salades)"
+      },
+      {
+        "en": "Roots are mature (for root chicory, typically 90-120 days)",
+        "ur": "جڑیں پختہ ہوں (جڑ والی چکوری کے لیے، عام طور پر 90-120 دن)",
+        "ar": "الجذور ناضجة (للشيكوريا الجذرية، عادة 90-120 يومًا)",
+        "fr": "Les racines sont matures (pour la chicorée à racines, généralement 90-120 jours)"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "For greens, snip outer leaves near the base, leaving the inner leaves to grow. For roots, gently loosen soil and pull up the entire plant.",
+        "ur": "سبزیوں کے لیے، بیرونی پتوں کو بنیاد کے قریب کاٹ دیں، اندرونی پتوں کو بڑھنے دیں۔ جڑوں کے لیے، مٹی کو آہستہ سے ڈھیلا کریں اور پورے پودے کو اوپر کھینچیں۔",
+        "ar": "للخضروات، قص الأوراق الخارجية بالقرب من القاعدة، مع ترك الأوراق الداخلية لتنمو. للجذور، قم بفك التربة بلطف واسحب النبات بأكمله.",
+        "fr": "Pour les feuilles, coupez les feuilles extérieures près de la base, en laissant les feuilles intérieures pousser. Pour les racines, ameublissez doucement le sol et tirez la plante entière."
+      },
+      "INTERMEDIATE": {
+        "en": "Use sharp scissors or a knife to cut leaves cleanly to encourage regrowth. For roots, use a garden fork to carefully lift the root without damage.",
+        "ur": "دوبارہ نشوونما کی حوصلہ افزائی کے لیے تیز قینچی یا چاقو کا استعمال کرتے ہوئے پتوں کو صاف ستھرا کاٹیں۔ جڑوں کے لیے، باغیچے کے کانٹے کا استعمال کرتے ہوئے جڑ کو نقصان پہنچائے بغیر احتیاط سے اٹھائیں۔",
+        "ar": "استخدم مقصًا حادًا أو سكينًا لقص الأوراق بشكل نظيف لتشجيع إعادة النمو. للجذور، استخدم شوكة الحديقة لرفع الجذر بعناية دون إتلافه.",
+        "fr": "Utilisez des ciseaux ou un couteau aiguisé pour couper les feuilles proprement afin d'encourager la repousse. Pour les racines, utilisez une fourche de jardin pour soulever délicatement la racine sans l'endommager."
+      },
+      "EXPERT": {
+        "en": "Practice successive harvesting of outer leaves to maintain continuous production. For roots, time harvest precisely for optimal size and flavor, typically after a light frost for improved sweetness.",
+        "ur": "مسلسل پیداوار کو برقرار رکھنے کے لیے بیرونی پتوں کی پے در پے کٹائی کی مشق کریں۔ جڑوں کے لیے، بہترین سائز اور ذائقے کے لیے کٹائی کا وقت درست رکھیں، عام طور پر ہلکی ٹھنڈ کے بعد مٹھاس کو بہتر بنانے کے لیے۔",
+        "ar": "مارس الحصاد المتتالي للأوراق الخارجية للحفاظ على الإنتاج المستمر. للجذور، حدد وقت الحصاد بدقة للحصول على الحجم والنكهة الأمثل، عادة بعد صقيع خفيف لتحسين الحلاوة.",
+        "fr": "Pratiquez la récolte successive des feuilles extérieures pour maintenir une production continue. Pour les racines, planifiez la récolte précisément pour une taille et une saveur optimales, généralement après une légère gelée pour une meilleure douceur."
+      }
+    },
+    "storage": {
+      "en": "Fresh greens: Refrigerate in a plastic bag for up to a week. Roots: Store in a cool, dark, humid place (like a root cellar) for several months, or blanch and freeze.",
+      "ur": "تازہ سبزیاں: پلاسٹک کے تھیلے میں ایک ہفتے تک فریج میں رکھیں۔ جڑیں: کئی مہینوں تک ٹھنڈی، تاریک، نم جگہ (جیسے جڑ کا تہہ خانہ) میں رکھیں، یا بلانچ کر کے منجمد کریں۔",
+      "ar": "الخضروات الطازجة: تُحفظ في الثلاجة في كيس بلاستيكي لمدة تصل إلى أسبوع. الجذور: تُخزن في مكان بارد ومظلم ورطب (مثل قبو الجذور) لعدة أشهر، أو تُسلق وتُجمد.",
+      "fr": "Feuilles fraîches : Réfrigérer dans un sac plastique jusqu'à une semaine. Racines : Conserver dans un endroit frais, sombre et humide (cave) pendant plusieurs mois, ou blanchir et congeler."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2.5
+    }
+  }
+}

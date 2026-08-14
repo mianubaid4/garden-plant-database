@@ -1,0 +1,1414 @@
+{
+  "id": "pigeon-pea",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1629827598226-e17992762295?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Pigeon Pea",
+      "alternate": [
+        "Toor Dal",
+        "Arhar Dal",
+        "Gungo Pea",
+        "Congo Pea",
+        "Gandule Bean",
+        "No-eye Pea"
+      ]
+    },
+    "ur": {
+      "common": "اَرہر",
+      "alternate": [
+        "تور دال",
+        "کبوتر مٹر"
+      ]
+    },
+    "ar": {
+      "common": "بازلاء الحمام",
+      "alternate": [
+        "عدس الحمام",
+        "البازلاء الهندية"
+      ]
+    },
+    "fr": {
+      "common": "Pois cajan",
+      "alternate": [
+        "Pois d'Angole",
+        "Pois de Congo"
+      ]
+    },
+    "botanical": "Cajanus cajan",
+    "aliases": [
+      "arhar",
+      "toor",
+      "gungo",
+      "gandule",
+      "cajanus"
+    ]
+  },
+  "category": "legume",
+  "subcategory": "shrub",
+  "germinationDays": 7,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 15,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "BUSH",
+    "TALL_SHRUB"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "BUSH": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Compact, bushy varieties that grow to a moderate size, typically 1-2 meters tall. Less pruning is generally needed.",
+          "ur": "چھوٹی، جھاڑی دار اقسام جو درمیانے سائز تک بڑھتی ہیں، عام طور پر 1-2 میٹر اونچی۔ کم کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "TALL_SHRUB": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Larger, more vigorous varieties that can grow up to 3-4 meters tall. May require pruning for shape and productivity.",
+          "ur": "بڑی، زیادہ مضبوط اقسام جو 3-4 میٹر تک اونچی ہو سکتی ہیں۔ شکل اور پیداواریت کے لیے کٹائی کی ضرورت پڑ سکتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Primarily self-pollinating, aided by wind and insects.",
+        "ur": "بنیادی طور پر خود پولینیٹنگ، ہوا اور کیڑوں سے مدد ملتی ہے۔",
+        "ar": "تلقيح ذاتي بشكل أساسي، بمساعدة الرياح والحشرات.",
+        "fr": "Principalement auto-pollinisateur, aidé par le vent et les insectes."
+      }
+    ]
+  },
+  "tags": [
+    "legume",
+    "drought-tolerant",
+    "nitrogen-fixer",
+    "warm-season",
+    "perennial",
+    "shrub",
+    "food-forest"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 30,
+    "survivalMinC": 10,
+    "survivalMaxC": 40,
+    "germinationMinC": 20,
+    "germinationOptimalC": 28,
+    "flowerDropAboveC": 35,
+    "flowerDropBelowC": 15
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 120,
+    "requiredGDD": 1500,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 18,
+      "airTempMinC": 20
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 38,
+      "coldStressCriticalC": 10,
+      "frostWarningC": 2,
+      "heavyRainMm": 30,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Deep and Infrequent",
+    "soilMoisturePreference": "Allow topsoil to dry between waterings, Do not keep soil soggy",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "Medium during flowering and pod development",
+    "rootRotRisk": "Medium if soil remains wet for prolonged periods",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 40,
+      "max": 65
+    },
+    "drynessThreshold": {
+      "warning": 30,
+      "critical": 15
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf yellowing",
+      "flower drop",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing lower leaves",
+      "root rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Deep root watering",
+    "thingsToAvoid": [
+      "standing water",
+      "shallow frequent watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Requires a large pot due to its deep taproot and shrub-like growth.",
+        "ur": "گہری جڑوں اور جھاڑی نما نشوونما کی وجہ سے ایک بڑے گملے کی ضرورت ہوتی ہے۔",
+        "ar": "يتطلب وعاءً كبيرًا بسبب جذره الوتدي العميق ونموه الشجيري.",
+        "fr": "Nécessite un grand pot en raison de sa racine pivotante profonde et de sa croissance arbustive."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 40,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Fabric grow bags provide good aeration and drainage, suitable for its root system.",
+        "ur": "فیبرک گرو بیگز اچھی ہوا اور نکاسی فراہم کرتے ہیں، اس کے جڑ کے نظام کے لیے موزوں ہیں۔",
+        "ar": "توفر أكياس الزراعة القماشية تهوية وتصريفًا جيدين، وهي مناسبة لنظام جذورها.",
+        "fr": "Les sacs de culture en tissu offrent une bonne aération et un bon drainage, adaptés à son système racinaire."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Thrives in well-drained soil with ample space for root development.",
+        "ur": "اچھی نکاسی والی مٹی میں جڑوں کی نشوونما کے لیے کافی جگہ کے ساتھ پھلتا پھولتا ہے۔",
+        "ar": "يزدهر في التربة جيدة التصريف مع مساحة واسعة لتطور الجذور.",
+        "fr": "Prospère dans un sol bien drainé avec un espace suffisant pour le développement des racines."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 50,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for providing deep, well-drained soil, ideal for pigeon pea.",
+        "ur": "گہری، اچھی نکاسی والی مٹی فراہم کرنے کے لیے بہترین، کبوتر مٹر کے لیے مثالی۔",
+        "ar": "ممتاز لتوفير تربة عميقة وجيدة التصريف، مثالية لبازلاء الحمام.",
+        "fr": "Excellent pour fournir un sol profond et bien drainé, idéal pour le pois cajan."
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Seed sowing for pigeon pea",
+        "ur": "کبوتر مٹر کے بیج بونا",
+        "ar": "بذر بذور البازلاء الحمراء",
+        "fr": "Semis de pois cajan"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Pigeon peas prefer direct sowing as they don't transplant well.",
+          "ur": "کبوتر مٹر براہ راست بونے کو ترجیح دیتے ہیں کیونکہ وہ اچھی طرح سے منتقل نہیں ہوتے۔",
+          "ar": "تفضل البازلاء الحمراء البذر المباشر لأنها لا تتحمل النقل جيدًا.",
+          "fr": "Les pois cajan préfèrent le semis direct car ils ne se transplantes pas bien."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Ensure well-drained soil. Pigeon peas tolerate poor soil.",
+              "ur": "اچھی نکاسی والی مٹی کو یقینی بنائیں۔ کبوتر مٹر خراب مٹی کو برداشت کرتے ہیں۔",
+              "ar": "تأكد من تربة جيدة التصريف. البازلاء الحمراء تتحمل التربة الفقيرة.",
+              "fr": "Assurez un sol bien drainé. Les pois cajan tolèrent les sols pauvres."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with compost for better drainage and nutrients.",
+              "ur": "بہتر نکاسی اور غذائی اجزاء کے لیے مٹی میں کھاد ملائیں۔",
+              "ar": "عدّل التربة بالسماد لتحسين الصرف والمغذيات.",
+              "fr": "Amendez le sol avec du compost pour un meilleur drainage et des nutriments."
+            },
+            "EXPERT": {
+              "en": "Check soil pH (6.0-7.0) and ensure good aeration.",
+              "ur": "مٹی کا پی ایچ (6.0-7.0) چیک کریں اور اچھی ہوا کو یقینی بنائیں۔",
+              "ar": "تحقق من درجة حموضة التربة (6.0-7.0) وتأكد من تهوية جيدة.",
+              "fr": "Vérifiez le pH du sol (6.0-7.0) et assurez une bonne aération."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1 inch deep and 6-12 inches apart.",
+              "ur": "بیج 1 انچ گہرائی میں اور 6-12 انچ کے فاصلے پر بوئیں۔",
+              "ar": "ازرع البذور بعمق 1 بوصة وعلى بعد 6-12 بوصة.",
+              "fr": "Semez les graines à 1 pouce de profondeur et à 6-12 pouces d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2 seeds per hole, 1 inch deep, thinning later to the strongest.",
+              "ur": "ہر سوراخ میں 2 بیج 1 انچ گہرائی میں بوئیں، بعد میں مضبوط ترین کو پتلا کریں۔",
+              "ar": "ازرع بذرتين في كل حفرة بعمق 1 بوصة، ثم خفف إلى الأقوى لاحقًا.",
+              "fr": "Plantez 2 graines par trou à 1 pouce de profondeur, éclaircissez ensuite le plus fort."
+            },
+            "EXPERT": {
+              "en": "Direct sow 1 inch deep, ensuring proper spacing for air circulation.",
+              "ur": "براہ راست 1 انچ گہرائی میں بوئیں، ہوا کی گردش کے لیے مناسب فاصلہ یقینی بنائیں۔",
+              "ar": "ازرع مباشرة بعمق 1 بوصة، مع ضمان تباعد مناسب لتدفق الهواء.",
+              "fr": "Semez directement à 1 pouce de profondeur, en assurant un espacement adéquat pour la circulation de l'air."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for sprouts, usually within 5-10 days.",
+              "ur": "کونپلیں چیک کریں، عام طور پر 5-10 دنوں کے اندر۔",
+              "ar": "تحقق من البراعم، عادة في غضون 5-10 أيام.",
+              "fr": "Vérifiez les pousses, généralement dans les 5-10 jours."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor soil moisture and look for emerging seedlings.",
+              "ur": "مٹی کی نمی کی نگرانی کریں اور ابھرتے ہوئے پودوں کو دیکھیں۔",
+              "ar": "راقب رطوبة التربة وابحث عن الشتلات الناشئة.",
+              "fr": "Surveillez l'humidité du sol et recherchez les jeunes pousses."
+            },
+            "EXPERT": {
+              "en": "Assess germination rate and uniformity across the planting area.",
+              "ur": "پودے لگانے والے علاقے میں انکرن کی شرح اور یکسانیت کا اندازہ لگائیں۔",
+              "ar": "قم بتقييم معدل الإنبات والتوحيد عبر منطقة الزراعة.",
+              "fr": "Évaluez le taux de germination et l'uniformité sur la zone de plantation."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist until germination.",
+              "ur": "انکرن تک مٹی کو مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار حتى الإنبات.",
+              "fr": "Gardez le sol constamment humide jusqu'à la germination."
+            },
+            "INTERMEDIATE": {
+              "en": "Mist lightly to avoid disturbing seeds.",
+              "ur": "بیجوں کو پریشان کیے بغیر ہلکا چھڑکاؤ کریں۔",
+              "ar": "رش خفيف لتجنب إزعاج البذور.",
+              "fr": "Vaporisez légèrement pour éviter de déranger les graines."
+            },
+            "EXPERT": {
+              "en": "Maintain optimal surface moisture for even germination.",
+              "ur": "یکساں انکرن کے لیے بہترین سطح کی نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة سطح مثالية لإنبات متساوٍ.",
+              "fr": "Maintenez une humidité de surface optimale pour une germination uniforme."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Pigeon pea sprouts appear",
+        "ur": "کبوتر مٹر کی کونپلیں نکلنا",
+        "ar": "ظهور براعم البازلاء الحمراء",
+        "fr": "Germination des pois cajan"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid damaging delicate sprouts.",
+              "ur": "نازک کونپلوں کو نقصان پہنچانے سے بچنے کے لیے آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إتلاف البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour éviter d'endommager les jeunes pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil consistently moist, but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں، لیکن پانی سے بھری نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن ليس مشبعة بالماء.",
+              "fr": "Gardez le sol constamment humide, mais pas gorgé d'eau."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels closely to prevent damping-off.",
+              "ur": "ڈیمپنگ آف کو روکنے کے لیے مٹی کی نمی کی سطح کی قریب سے نگرانی کریں۔",
+              "ar": "راقب مستويات رطوبة التربة عن كثب لمنع ذبول الشتلات.",
+              "fr": "Surveillez attentivement les niveaux d'humidité du sol pour prévenir la fonte des semis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Pigeon pea true leaves form",
+        "ur": "کبوتر مٹر کے نئے پتے آنا",
+        "ar": "تكون الأوراق الحقيقية للبازلاء الحمراء",
+        "fr": "Apparition des vraies feuilles de pois cajan"
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Thinning is important for healthy growth if multiple seeds were sown together.",
+          "ur": "اگر ایک ساتھ کئی بیج بوئے گئے ہوں تو صحت مند نشوونما کے لیے پتلا کرنا ضروری ہے۔",
+          "ar": "التخفيف مهم للنمو الصحي إذا تم زرع بذور متعددة معًا.",
+          "fr": "L'éclaircissage est important pour une croissance saine si plusieurs graines ont été semées ensemble."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If you planted multiple seeds, thin to the strongest seedling, leaving 12-18 inches between plants.",
+              "ur": "اگر آپ نے کئی بیج لگائے ہیں، تو سب سے مضبوط پودے کو پتلا کریں، پودوں کے درمیان 12-18 انچ کا فاصلہ چھوڑ دیں۔",
+              "ar": "إذا زرعت بذورًا متعددة، خفف إلى أقوى شتلة، مع ترك 12-18 بوصة بين النباتات.",
+              "fr": "Si vous avez planté plusieurs graines, éclaircissez pour ne garder que le plant le plus fort, en laissant 12-18 pouces entre les plants."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully snip weaker seedlings at the soil line to avoid disturbing roots of the chosen plant.",
+              "ur": "منتخب پودے کی جڑوں کو پریشان کیے بغیر کمزور پودوں کو مٹی کی سطح پر احتیاط سے کاٹ دیں۔",
+              "ar": "اقطع الشتلات الأضعف بعناية عند خط التربة لتجنب إزعاج جذور النبات المختار.",
+              "fr": "Coupez délicatement les jeunes pousses plus faibles au niveau du sol pour éviter de perturber les racines du plant choisi."
+            },
+            "EXPERT": {
+              "en": "Optimize plant spacing based on variety and expected mature size for maximum yield.",
+              "ur": "زیادہ سے زیادہ پیداوار کے لیے قسم اور متوقع پختہ سائز کی بنیاد پر پودوں کے فاصلے کو بہتر بنائیں۔",
+              "ar": "حسّن تباعد النباتات بناءً على التنوع والحجم المتوقع للنضج لتحقيق أقصى إنتاجية.",
+              "fr": "Optimisez l'espacement des plants en fonction de la variété et de la taille adulte prévue pour un rendement maximal."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant, allowing the top inch of soil to dry between waterings.",
+              "ur": "پودے کی جڑ میں پانی دیں، پانی دینے کے درمیان مٹی کی اوپری انچ کو خشک ہونے دیں۔",
+              "ar": "اسقِ قاعدة النبات، مما يسمح للجزء العلوي من التربة بالجفاف بين الريات.",
+              "fr": "Arrosez à la base de la plante, en laissant le premier pouce de terre sécher entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کی حوصلہ افزائی کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لتشجيع نمو جذور قوية.",
+              "fr": "Assurez un arrosage profond pour encourager un fort développement racinaire."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a finger test; adjust frequency based on weather.",
+              "ur": "انگلی کے ٹیسٹ سے مٹی کی نمی کی نگرانی کریں؛ موسم کے مطابق تعدد کو ایڈجسٹ کریں۔",
+              "ar": "راقب رطوبة التربة باختبار الإصبع؛ اضبط التكرار بناءً على الطقس.",
+              "fr": "Surveillez l'humidité du sol avec un test au doigt; ajustez la fréquence en fonction de la météo."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 50,
+      "durationDaysWarm": 40,
+      "durationDaysCool": 65,
+      "description": {
+        "en": "Rapid growth of pigeon pea foliage",
+        "ur": "کبوتر مٹر کے پتوں کی تیز نشوونما",
+        "ar": "نمو سريع لأوراق البازلاء الحمراء",
+        "fr": "Croissance rapide du feuillage de pois cajan"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Pigeon peas are nitrogen fixers, so they generally don't need much nitrogen fertilizer.",
+          "ur": "کبوتر مٹر نائٹروجن فکسر ہیں، لہذا انہیں عام طور پر زیادہ نائٹروجن کھاد کی ضرورت نہیں ہوتی۔",
+          "ar": "البازلاء الحمراء مثبتة للنيتروجين، لذا لا تحتاج عادة إلى الكثير من سماد النيتروجين.",
+          "fr": "Les pois cajan fixent l'azote, ils n'ont donc généralement pas besoin de beaucoup d'engrais azoté."
+        }
+      ],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect for common pests like aphids. Spray with soapy water if found.",
+              "ur": "ایفڈز جیسے عام کیڑوں کے لیے معائنہ کریں۔ اگر پائے جائیں تو صابن والے پانی سے چھڑکاؤ کریں۔",
+              "ar": "افحص الآفات الشائعة مثل المن. رش بالماء والصابون إذا وجدت.",
+              "fr": "Inspectez les ravageurs courants comme les pucerons. Vaporisez de l'eau savonneuse si trouvé."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic neem oil spray preventatively, especially if pests are common in your area.",
+              "ur": "احتیاطی طور پر نامیاتی نیم کے تیل کا چھڑکاؤ کریں، خاص طور پر اگر آپ کے علاقے میں کیڑے عام ہوں۔",
+              "ar": "رش زيت النيم العضوي وقائيًا، خاصة إذا كانت الآفات شائعة في منطقتك.",
+              "fr": "Appliquez un spray d'huile de neem biologique préventivement, surtout si les ravageurs sont courants dans votre région."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, rotating organic sprays.",
+              "ur": "ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی کو نافذ کریں، نامیاتی سپرے کو گھماتے ہوئے۔",
+              "ar": "نفذ استراتيجية متكاملة لإدارة الآفات (IPM)، مع تناوب الرش العضوي.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM), en alternant les sprays biologiques."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for discoloration or signs of insect damage.",
+              "ur": "پتوں کو رنگت کی تبدیلی یا کیڑوں کے نقصان کی علامات کے لیے چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن تغير اللون أو علامات تلف الحشرات.",
+              "fr": "Vérifiez les feuilles pour la décoloration ou les signes de dommages causés par les insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for early signs of fungal diseases or nutrient deficiencies.",
+              "ur": "فنگل بیماریوں یا غذائی اجزاء کی کمی کی ابتدائی علامات کو دیکھیں۔",
+              "ar": "ابحث عن العلامات المبكرة للأمراض الفطرية أو نقص المغذيات.",
+              "fr": "Recherchez les premiers signes de maladies fongiques ou de carences nutritionnelles."
+            },
+            "EXPERT": {
+              "en": "Perform a thorough inspection of the entire plant, including undersides of leaves and stems.",
+              "ur": "پوری پودے کا مکمل معائنہ کریں، بشمول پتوں اور تنوں کے نچلے حصے کا۔",
+              "ar": "قم بفحص شامل للنبات بأكمله، بما في ذلك الجوانب السفلية للأوراق والسيقان.",
+              "fr": "Effectuez une inspection approfondie de toute la plante, y compris le dessous des feuilles et des tiges."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Leaf spot",
+              "ur": "پتوں پر دھبے",
+              "ar": "بقع الأوراق",
+              "fr": "Taches foliaires"
+            }
+          ]
+        },
+        "pruning": {
+          "required": false,
+          "dayOffset": 20,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch back growing tips to encourage bushier growth, if desired.",
+              "ur": "اگر چاہیں تو جھاڑی دار نشوونما کی حوصلہ افزائی کے لیے بڑھتے ہوئے سروں کو چٹکی بھریں۔",
+              "ar": "اقطع الأطراف النامية لتشجيع النمو الأكثر كثافة، إذا رغبت في ذلك.",
+              "fr": "Pincez les extrémités de croissance pour encourager une croissance plus touffue, si désiré."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove any dead, diseased, or damaged branches to maintain plant health.",
+              "ur": "پودے کی صحت کو برقرار رکھنے کے لیے کسی بھی مردہ، بیمار یا خراب شاخوں کو ہٹا دیں۔",
+              "ar": "أزل أي فروع ميتة أو مريضة أو تالفة للحفاظ على صحة النبات.",
+              "fr": "Retirez toutes les branches mortes, malades ou endommagées pour maintenir la santé de la plante."
+            },
+            "EXPERT": {
+              "en": "Prune for air circulation and light penetration, especially in dense varieties.",
+              "ur": "ہوا کی گردش اور روشنی کی دخول کے لیے چھانٹیں، خاص طور پر گھنی اقسام میں۔",
+              "ar": "قم بالتقليم لتدفق الهواء واختراق الضوء، خاصة في الأصناف الكثيفة.",
+              "fr": "Taillez pour la circulation de l'air et la pénétration de la lumière, surtout dans les variétés denses."
+            }
+          }
+        },
+        "support": {
+          "required": false,
+          "dayOffset": 30,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Taller varieties may benefit from staking to prevent lodging.",
+              "ur": "لمبی اقسام کو گرنے سے روکنے کے لیے سہارے کی ضرورت پڑ سکتی ہے۔",
+              "ar": "قد تستفيد الأصناف الأطول من الدعم لمنع السقوط.",
+              "fr": "Les variétés plus hautes peuvent bénéficier d'un tuteurage pour éviter le couchage."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide a sturdy stake or small trellis for support as the plant grows.",
+              "ur": "پودے کے بڑھنے کے ساتھ سہارے کے لیے ایک مضبوط لکڑی یا چھوٹی ٹریلس فراہم کریں۔",
+              "ar": "وفر وتدًا قويًا أو تعريشة صغيرة للدعم مع نمو النبات.",
+              "fr": "Fournissez un tuteur solide ou un petit treillis pour le soutien à mesure que la plante grandit."
+            },
+            "EXPERT": {
+              "en": "Install a robust support system early for optimal plant structure and yield.",
+              "ur": "بہترین پودے کی ساخت اور پیداوار کے لیے ابتدائی طور پر ایک مضبوط سپورٹ سسٹم نصب کریں۔",
+              "ar": "قم بتركيب نظام دعم قوي مبكرًا للحصول على هيكل نباتي وإنتاجية مثالية.",
+              "fr": "Installez un système de support robuste tôt pour une structure végétale et un rendement optimaux."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply but less frequently, allowing soil to dry slightly between waterings.",
+              "ur": "گہرا پانی دیں لیکن کم بار، پانی دینے کے درمیان مٹی کو تھوڑا خشک ہونے دیں۔",
+              "ar": "اسقِ بعمق ولكن بشكل أقل تكرارًا، مما يسمح للتربة بالجفاف قليلاً بين الريات.",
+              "fr": "Arrosez profondément mais moins fréquemment, en laissant le sol sécher légèrement entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Pigeon peas are drought-tolerant but benefit from consistent moisture during active growth.",
+              "ur": "کبوتر مٹر خشک سالی کو برداشت کرتے ہیں لیکن فعال نشوونما کے دوران مسلسل نمی سے فائدہ اٹھاتے ہیں۔",
+              "ar": "البازلاء الحمراء مقاومة للجفاف ولكنها تستفيد من الرطوبة المستمرة أثناء النمو النشط.",
+              "fr": "Les pois cajan sont tolérants à la sécheresse mais bénéficient d'une humidité constante pendant la croissance active."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation to promote deep root growth and prevent water stress.",
+              "ur": "گہری جڑوں کی نشوونما کو فروغ دینے اور پانی کے دباؤ کو روکنے کے لیے آبپاشی کو بہتر بنائیں۔",
+              "ar": "حسّن الري لتعزيز نمو الجذور العميقة ومنع إجهاد الماء.",
+              "fr": "Optimisez l'irrigation pour favoriser la croissance profonde des racines et prévenir le stress hydrique."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Pigeon pea flowers bloom",
+        "ur": "کبوتر مٹر کے پھول کھلنا",
+        "ar": "إزهار البازلاء الحمراء",
+        "fr": "Floraison des pois cajan"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "Consistent watering during flowering is crucial for good pod set.",
+          "ur": "پھول آنے کے دوران مسلسل پانی دینا اچھی پھلی کے لیے بہت ضروری ہے۔",
+          "ar": "الري المستمر أثناء الإزهار أمر بالغ الأهمية لتكوين القرون بشكل جيد.",
+          "fr": "Un arrosage constant pendant la floraison est crucial pour une bonne nouaison."
+        }
+      ],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Watch for pod borers and other flower-damaging pests. Hand-pick if few.",
+              "ur": "پھلی کے کیڑوں اور پھولوں کو نقصان پہنچانے والے دیگر کیڑوں پر نظر رکھیں۔ اگر کم ہوں تو ہاتھ سے چن لیں۔",
+              "ar": "راقب ديدان القرون والآفات الأخرى التي تلحق الضرر بالزهور. التقطها يدويًا إذا كانت قليلة.",
+              "fr": "Surveillez les foreurs de gousses et autres ravageurs qui endommagent les fleurs. Ramassez-les à la main si peu nombreux."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply targeted organic pest control if pest pressure increases.",
+              "ur": "اگر کیڑوں کا دباؤ بڑھ جائے تو ہدف شدہ نامیاتی کیڑوں پر قابو پانے کا استعمال کریں۔",
+              "ar": "طبق مكافحة الآفات العضوية المستهدفة إذا زاد ضغط الآفات.",
+              "fr": "Appliquez un contrôle biologique ciblé des ravageurs si la pression des ravageurs augmente."
+            },
+            "EXPERT": {
+              "en": "Deploy beneficial insects or pheromone traps for effective pest management.",
+              "ur": "مؤثر کیڑوں کے انتظام کے لیے فائدہ مند کیڑے یا فیرومون ٹریپس تعینات کریں۔",
+              "ar": "انشر الحشرات النافعة أو مصائد الفيرومونات لإدارة الآفات بفعالية.",
+              "fr": "Déployez des insectes utiles ou des pièges à phéromones pour une gestion efficace des ravageurs."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for healthy flower development and any signs of stress or disease.",
+              "ur": "صحت مند پھولوں کی نشوونما اور تناؤ یا بیماری کی کسی بھی علامت کو چیک کریں۔",
+              "ar": "تحقق من نمو الزهور الصحي وأي علامات إجهاد أو مرض.",
+              "fr": "Vérifiez le développement sain des fleurs et tout signe de stress ou de maladie."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for flower drop, which can indicate water stress or nutrient imbalance.",
+              "ur": "پھولوں کے گرنے کو دیکھیں، جو پانی کے دباؤ یا غذائی اجزاء کے عدم توازن کی نشاندہی کر سکتا ہے۔",
+              "ar": "ابحث عن تساقط الزهور، والذي يمكن أن يشير إلى إجهاد الماء أو عدم توازن المغذيات.",
+              "fr": "Recherchez la chute des fleurs, ce qui peut indiquer un stress hydrique ou un déséquilibre nutritionnel."
+            },
+            "EXPERT": {
+              "en": "Monitor for specific pests that target flowers, such as thrips or flower beetles.",
+              "ur": "پھولوں کو نشانہ بنانے والے مخصوص کیڑوں، جیسے تھرپس یا پھولوں کے بھنوروں کی نگرانی کریں۔",
+              "ar": "راقب الآفات المحددة التي تستهدف الزهور، مثل التربس أو خنافس الزهور.",
+              "fr": "Surveillez les ravageurs spécifiques qui ciblent les fleurs, tels que les thrips ou les coléoptères floricoles."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Pod borers",
+              "ur": "پھلی کے کیڑے",
+              "ar": "ديدان القرون",
+              "fr": "Foreurs de gousses"
+            },
+            {
+              "en": "Flower drop",
+              "ur": "پھولوں کا گرنا",
+              "ar": "تساقط الزهور",
+              "fr": "Chute des fleurs"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent moisture to support flower and pod development.",
+              "ur": "پھول اور پھلی کی نشوونما کو سہارا دینے کے لیے مسلسل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة ثابتة لدعم نمو الزهور والقرون.",
+              "fr": "Maintenez une humidité constante pour soutenir le développement des fleurs et des gousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid overwatering, which can lead to root rot, but don't let the soil dry out completely.",
+              "ur": "زیادہ پانی دینے سے گریز کریں، جو جڑوں کے سڑنے کا باعث بن سکتا ہے، لیکن مٹی کو مکمل طور پر خشک نہ ہونے دیں۔",
+              "ar": "تجنب الإفراط في الري، والذي يمكن أن يؤدي إلى تعفن الجذور، ولكن لا تدع التربة تجف تمامًا.",
+              "fr": "Évitez l'arrosage excessif, qui peut entraîner la pourriture des racines, mais ne laissez pas le sol sécher complètement."
+            },
+            "EXPERT": {
+              "en": "Implement drip irrigation for precise water delivery and efficiency.",
+              "ur": "پانی کی درست ترسیل اور کارکردگی کے لیے ڈرپ آبپاشی کو نافذ کریں۔",
+              "ar": "نفذ الري بالتنقيط لتوصيل المياه بدقة وكفاءة.",
+              "fr": "Mettez en œuvre l'irrigation goutte à goutte pour une distribution d'eau précise et efficace."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 50,
+      "durationDaysWarm": 40,
+      "durationDaysCool": 65,
+      "description": {
+        "en": "Pigeon pea pods develop",
+        "ur": "کبوتر مٹر کی پھلیاں بننا",
+        "ar": "تكون قرون البازلاء الحمراء",
+        "fr": "Développement des gousses de pois cajan"
+      },
+      "emoji": "🫛",
+      "tips": [
+        {
+          "en": "Pigeon peas can be harvested green for fresh consumption or left to dry for mature seeds.",
+          "ur": "کبوتر مٹر کو تازہ استعمال کے لیے سبز کاٹا جا سکتا ہے یا پکے ہوئے بیجوں کے لیے خشک ہونے دیا جا سکتا ہے۔",
+          "ar": "يمكن حصاد البازلاء الحمراء خضراء للاستهلاك الطازج أو تركها لتجف للحصول على بذور ناضجة.",
+          "fr": "Les pois cajan peuvent être récoltés verts pour une consommation fraîche ou laissés sécher pour des graines matures."
+        }
+      ],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check pods for signs of insect damage or disease.",
+              "ur": "پھلیوں کو کیڑوں کے نقصان یا بیماری کی علامات کے لیے چیک کریں۔",
+              "ar": "تحقق من القرون بحثًا عن علامات تلف الحشرات أو الأمراض.",
+              "fr": "Vérifiez les gousses pour les signes de dommages causés par les insectes ou de maladies."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for discoloration, holes, or abnormal growth on pods.",
+              "ur": "پھلیوں پر رنگت کی تبدیلی، سوراخ یا غیر معمولی نشوونما کو دیکھیں۔",
+              "ar": "ابحث عن تغير اللون أو الثقوب أو النمو غير الطبيعي على القرون.",
+              "fr": "Recherchez la décoloration, les trous ou la croissance anormale sur les gousses."
+            },
+            "EXPERT": {
+              "en": "Monitor for specific pod pests like pod borers and assess their impact on yield.",
+              "ur": "پھلی کے مخصوص کیڑوں جیسے پھلی کے کیڑوں کی نگرانی کریں اور پیداوار پر ان کے اثرات کا اندازہ لگائیں۔",
+              "ar": "راقب آفات القرون المحددة مثل ديدان القرون وقم بتقييم تأثيرها على الإنتاجية.",
+              "fr": "Surveillez les ravageurs spécifiques des gousses comme les foreurs de gousses et évaluez leur impact sur le rendement."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Pod borers",
+              "ur": "پھلی کے کیڑے",
+              "ar": "ديدان القرون",
+              "fr": "Foreurs de gousses"
+            },
+            {
+              "en": "Fungal spots",
+              "ur": "فنگل دھبے",
+              "ar": "بقع فطرية",
+              "fr": "Taches fongiques"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly to ensure good pod filling.",
+              "ur": "اچھی پھلی بھرنے کو یقینی بنانے کے لیے باقاعدگی سے پانی دیں۔",
+              "ar": "اسقِ بانتظام لضمان امتلاء القرون بشكل جيد.",
+              "fr": "Arrosez régulièrement pour assurer un bon remplissage des gousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Deep watering is essential during pod development to prevent stress.",
+              "ur": "پھلی کی نشوونما کے دوران تناؤ کو روکنے کے لیے گہرا پانی دینا ضروری ہے۔",
+              "ar": "الري العميق ضروري أثناء نمو القرون لمنع الإجهاد.",
+              "fr": "Un arrosage profond est essentiel pendant le développement des gousses pour prévenir le stress."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on pod load and environmental conditions to optimize yield.",
+              "ur": "پیداوار کو بہتر بنانے کے لیے پھلی کے بوجھ اور ماحولیاتی حالات کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على حمل القرون والظروف البيئية لتحسين الإنتاجية.",
+              "fr": "Ajustez l'arrosage en fonction de la charge des gousses et des conditions environnementales pour optimiser le rendement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Pigeon pea pods ready for harvest",
+        "ur": "کبوتر مٹر کی پھلیاں کٹائی کے لیے تیار",
+        "ar": "قرون البازلاء الحمراء جاهزة للحصاد",
+        "fr": "Gousses de pois cajan prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "For fresh eating, harvest pods when they are plump and green. For dry beans, allow pods to dry completely on the plant.",
+          "ur": "تازہ کھانے کے لیے، پھلیوں کو اس وقت کاٹیں جب وہ موٹی اور سبز ہوں۔ خشک پھلیوں کے لیے، پھلیوں کو پودے پر مکمل طور پر خشک ہونے دیں۔",
+          "ar": "للاستهلاك الطازج، احصد القرون عندما تكون ممتلئة وخضراء. للحصول على الفول الجاف، اترك القرون لتجف تمامًا على النبات.",
+          "fr": "Pour une consommation fraîche, récoltez les gousses lorsqu'elles sont charnues et vertes. Pour les haricots secs, laissez les gousses sécher complètement sur la plante."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pick green pods when they are full-sized but still tender. For dry beans, wait until pods are brown and brittle.",
+              "ur": "سبز پھلیوں کو اس وقت چنیں جب وہ مکمل سائز کی ہوں لیکن ابھی بھی نرم ہوں۔ خشک پھلیوں کے لیے، پھلیوں کے بھورے اور ٹوٹنے والے ہونے تک انتظار کریں۔",
+              "ar": "التقط القرون الخضراء عندما تكون كاملة الحجم ولكن لا تزال طرية. بالنسبة للفول الجاف، انتظر حتى تصبح القرون بنية وهشة.",
+              "fr": "Cueillez les gousses vertes lorsqu'elles sont de pleine taille mais encore tendres. Pour les haricots secs, attendez que les gousses soient brunes et cassantes."
+            },
+            "INTERMEDIATE": {
+              "en": "Use sharp shears to snip pods from the plant, being careful not to damage stems.",
+              "ur": "پودے سے پھلیوں کو کاٹنے کے لیے تیز قینچی کا استعمال کریں، تنوں کو نقصان نہ پہنچانے کا خیال رکھیں۔",
+              "ar": "استخدم مقصًا حادًا لقص القرون من النبات، مع الحرص على عدم إتلاف السيقان.",
+              "fr": "Utilisez des ciseaux aiguisés pour couper les gousses de la plante, en veillant à ne pas endommager les tiges."
+            },
+            "EXPERT": {
+              "en": "Implement a staggered harvest for green pods to encourage continuous production.",
+              "ur": "مسلسل پیداوار کی حوصلہ افزائی کے لیے سبز پھلیوں کے لیے ایک مرحلہ وار کٹائی کو نافذ کریں۔",
+              "ar": "نفذ حصادًا متدرجًا للقرون الخضراء لتشجيع الإنتاج المستمر.",
+              "fr": "Mettez en œuvre une récolte échelonnée pour les gousses vertes afin d'encourager une production continue."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue moderate watering for green pod harvest. Reduce water for dry bean harvest.",
+              "ur": "سبز پھلی کی کٹائی کے لیے اعتدال پسند پانی جاری رکھیں۔ خشک پھلی کی کٹائی کے لیے پانی کم کریں۔",
+              "ar": "استمر في الري المعتدل لحصاد القرون الخضراء. قلل الماء لحصاد الفول الجاف.",
+              "fr": "Continuez un arrosage modéré pour la récolte des gousses vertes. Réduisez l'eau pour la récolte des haricots secs."
+            },
+            "INTERMEDIATE": {
+              "en": "For dry beans, gradually reduce watering as pods mature to aid drying.",
+              "ur": "خشک پھلیوں کے لیے، پھلیوں کے پختہ ہونے کے ساتھ آہستہ آہستہ پانی کم کریں تاکہ خشک ہونے میں مدد ملے۔",
+              "ar": "بالنسبة للفول الجاف، قلل الري تدريجيًا مع نضوج القرون للمساعدة في التجفيف.",
+              "fr": "Pour les haricots secs, réduisez progressivement l'arrosage à mesure que les gousses mûrissent pour faciliter le séchage."
+            },
+            "EXPERT": {
+              "en": "Optimize water management to balance fresh pod quality and dry bean yield.",
+              "ur": "تازہ پھلی کے معیار اور خشک پھلی کی پیداوار کو متوازن کرنے کے لیے پانی کے انتظام کو بہتر بنائیں۔",
+              "ar": "حسّن إدارة المياه لتحقيق التوازن بين جودة القرون الطازجة وإنتاجية الفول الجاف.",
+              "fr": "Optimisez la gestion de l'eau pour équilibrer la qualité des gousses fraîches et le rendement en haricots secs."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Compost Tea",
+          "ur": "مائع سی ویڈ یا کمپوسٹ چائے",
+          "ar": "مستخلص الطحالب البحرية أو شاي الكمبوست",
+          "fr": "Extrait d'algues ou thé de compost"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of liquid seaweed extract or compost tea in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مائع سی ویڈ یا کمپوسٹ چائے 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستخلص الطحالب البحرية أو شاي الكمبوست في 4 لترات من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'extrait d'algues liquides ou de thé de compost dans 4 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young plants, promoting root development without excessive nitrogen.",
+          "ur": "نوجوان پودوں کو ہلکی غذائیت فراہم کرتا ہے، جڑوں کی نشوونما کو فروغ دیتا ہے بغیر زیادہ نائٹروجن کے۔",
+          "ar": "يوفر دفعة غذائية لطيفة للنباتات الصغيرة، ويعزز نمو الجذور دون زيادة النيتروجين.",
+          "fr": "Fournit un léger coup de pouce nutritif aux jeunes plantes, favorisant le développement des racines sans excès d'azote."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Compost Tea or Rock Phosphate",
+          "ur": "کمپوسٹ چائے یا راک فاسفیٹ",
+          "ar": "شاي الكمبوست أو فوسفات الصخور",
+          "fr": "Thé de compost ou phosphate de roche"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost in 1 gallon of water for 24-48 hours. For rock phosphate, sprinkle 1-2 tablespoons around the base.",
+          "ur": "ایک کپ کمپوسٹ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ راک فاسفیٹ کے لیے، 1-2 کھانے کے چمچ جڑوں کے گرد چھڑکیں۔",
+          "ar": "انقع كوباً من الكمبوست الغني في 4 لترات من الماء لمدة 24-48 ساعة. لفوسفات الصخور، انثر 1-2 ملعقة كبيرة حول القاعدة.",
+          "fr": "Faites tremper 1 tasse de compost riche dans 4 litres d'eau pendant 24-48 heures. Pour le phosphate de roche, saupoudrez 1-2 cuillères à soupe autour de la base."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Pigeon peas fix their own nitrogen, so focus on phosphorus for root and overall plant health. Apply less frequently due to N-fixation.",
+          "ur": "کبوتر مٹر اپنی نائٹروجن خود بناتے ہیں، لہذا جڑوں اور پودے کی مجموعی صحت کے لیے فاسفورس پر توجہ دیں۔ نائٹروجن فکسیشن کی وجہ سے کم بار لگائیں۔",
+          "ar": "تثبت البازلاء النيتروجين بنفسها، لذا ركز على الفوسفور لصحة الجذور والنبات بشكل عام. طبق السماد بشكل أقل تكراراً بسبب تثبيت النيتروجين.",
+          "fr": "Les pois cajan fixent leur propre azote, concentrez-vous donc sur le phosphore pour la santé des racines et de la plante. Appliquez moins fréquemment en raison de la fixation d'azote."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Poudre d'os et cendre de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts blossom production and supports strong pod development. Phosphorus is crucial for legumes.",
+          "ur": "پھولوں کی پیداوار بڑھاتا ہے اور مضبوط پھلیوں کی نشوونما میں مدد کرتا ہے۔ فاسفورس پھلیوں کے لیے بہت اہم ہے۔",
+          "ar": "يعزز إنتاج الأزهار ويدعم نمو القرون القوية. الفوسفور ضروري للبقوليات.",
+          "fr": "Stimule la production de fleurs et soutient le développement de gousses robustes. Le phosphore est crucial pour les légumineuses."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Banana Peel Tea (High Potassium) & Rock Phosphate",
+          "ur": "کیلے کے چھلکے کی چائے (زیادہ پوٹاشیم) اور راک فاسفیٹ",
+          "ar": "شاي قشر الموز (عالي البوتاسيوم) وفوسفات الصخور",
+          "fr": "Thé de peau de banane (riche en potassium) et phosphate de roche"
+        },
+        "preparation": {
+          "en": "Chop 3-4 banana peels, steep in 1 gallon of water for 48 hours. Mix in 1 tablespoon of rock phosphate. Pour around roots.",
+          "ur": "3 سے 4 کیلے کے چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ 1 کھانے کا چمچ راک فاسفیٹ شامل کریں اور جڑوں میں ڈالیں۔",
+          "ar": "قطع 3-4 قشور موز، وانقعها في 4 لترات من الماء لمدة 48 ساعة. اخلط ملعقة كبيرة من فوسفات الصخور. اسكب حول الجذور.",
+          "fr": "Hachez 3-4 peaux de banane, faites-les tremper dans 4 litres d'eau pendant 48 heures. Mélangez 1 cuillère à soupe de phosphate de roche. Versez autour des racines."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium aids in pod filling and seed development, while phosphorus continues to support overall plant vigor.",
+          "ur": "پوٹاشیم پھلیوں کو بھرنے اور بیجوں کی نشوونما میں مدد کرتا ہے، جبکہ فاسفورس پودے کی مجموعی طاقت کو برقرار رکھتا ہے۔",
+          "ar": "يساعد البوتاسيوم في ملء القرون وتطور البذور، بينما يستمر الفوسفور في دعم حيوية النبات بشكل عام.",
+          "fr": "Le potassium aide au remplissage des gousses et au développement des graines, tandis que le phosphore continue de soutenir la vigueur générale de la plante."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Low Nitrogen NPK (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن این پی کے (مثلاً 5-10-10)",
+          "ar": "سماد NPK منخفض النيتروجين (مثل 5-10-10)",
+          "fr": "NPK faible en azote (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 5-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 5-10-10 في 4 لترات من الماء. اخلط حتى يذوب تماماً.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 5-10-10 dans 4 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Pigeon peas are nitrogen fixers, so avoid high nitrogen fertilizers which can inhibit nodule formation.",
+          "ur": "کبوتر مٹر نائٹروجن فکسر ہیں، لہذا زیادہ نائٹروجن والی کھادوں سے پرہیز کریں جو نوڈول کی تشکیل کو روک سکتی ہیں۔",
+          "ar": "البازلاء تثبت النيتروجين، لذا تجنب الأسمدة عالية النيتروجين التي قد تمنع تكوين العقد الجذرية.",
+          "fr": "Les pois cajan fixent l'azote, évitez donc les engrais riches en azote qui peuvent inhiber la formation des nodosités."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Phosphorus & Potassium Fertilizer (e.g., 0-10-10)",
+          "ur": "زیادہ فاسفورس اور پوٹاشیم کھاد (مثلاً 0-10-10)",
+          "ar": "سماد عالي الفوسفور والبوتاسيوم (مثل 0-10-10)",
+          "fr": "Engrais riche en Phosphore et Potassium (ex: 0-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 2 tablespoons of granular 0-10-10 fertilizer per plant. Water immediately after applying to activate.",
+          "ur": "پودے کے گرد 2 چمچ 0-10-10 والی دانے دار کھاد استعمال کریں۔ کھاد ڈالنے کے فوراً بعد پانی دیں۔",
+          "ar": "طبق ملعقتين كبيرتين من سماد 0-10-10 الحبيبي لكل نبات. اسقِ الماء فوراً بعد التطبيق لتنشيطه.",
+          "fr": "Appliquez 2 cuillères à soupe d'engrais granulaire 0-10-10 par plante. Arrosez immédiatement après l'application pour activer."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes abundant flowering and strong pod set, essential for a good harvest.",
+          "ur": "بہت زیادہ پھولوں اور مضبوط پھلیوں کی تشکیل کو فروغ دیتا ہے، جو اچھی فصل کے لیے ضروری ہے۔",
+          "ar": "يعزز الإزهار الوفير وتكوين القرون القوية، وهو أمر ضروري لحصاد جيد.",
+          "fr": "Favorise une floraison abondante et une bonne nouaison des gousses, essentiel pour une bonne récolte."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Phosphorus & Potassium Fertilizer (e.g., 0-10-10)",
+          "ur": "زیادہ فاسفورس اور پوٹاشیم کھاد (مثلاً 0-10-10)",
+          "ar": "سماد عالي الفوسفور والبوتاسيوم (مثل 0-10-10)",
+          "fr": "Engrais riche en Phosphore et Potassium (ex: 0-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 0-10-10 fertilizer in 1 gallon of water. Apply as a drench around the base.",
+          "ur": "ایک چمچ 0-10-10 کھاد 4 لیٹر پانی میں حل کریں۔ اسے جڑوں کے گرد ڈالیں۔",
+          "ar": "أذب ملعقة كبيرة من سماد 0-10-10 في 4 لترات من الماء. طبقها كغمر حول القاعدة.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais 0-10-10 dans 4 litres d'eau. Appliquez en arrosage au pied."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Continues to support pod development and ensures healthy, well-filled seeds.",
+          "ur": "پھلیوں کی نشوونما کو جاری رکھتا ہے اور صحت مند، اچھی طرح بھرے ہوئے بیجوں کو یقینی بناتا ہے۔",
+          "ar": "يستمر في دعم نمو القرون ويضمن بذوراً صحية وممتلئة جيداً.",
+          "fr": "Continue de soutenir le développement des gousses et assure des graines saines et bien remplies."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Low Nitrogen NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "High P/K Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Banana Peel Tea",
+        "week2": "High P/K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "corn",
+      "benefit": {
+        "en": "Pigeon peas fix nitrogen in the soil, benefiting nitrogen-hungry corn. They can also provide a living trellis for climbing varieties.",
+        "ur": "کبوتر مٹر مٹی میں نائٹروجن کو ٹھیک کرتے ہیں، جو نائٹروجن کے بھوکے مکئی کو فائدہ پہنچاتا ہے۔ وہ چڑھنے والی اقسام کے لیے ایک زندہ سہارا بھی فراہم کر سکتے ہیں۔",
+        "ar": "تثبت البازلاء النيتروجين في التربة، مما يفيد الذرة التي تحتاج إلى النيتروجين. يمكنها أيضاً توفير دعامة حية للأصناف المتسلقة.",
+        "fr": "Les pois cajan fixent l'azote dans le sol, bénéficiant au maïs gourmand en azote. Ils peuvent également servir de tuteur vivant pour les variétés grimpantes."
+      }
+    },
+    {
+      "plantId": "sorghum",
+      "benefit": {
+        "en": "Similar to corn, sorghum benefits from the nitrogen fixed by pigeon peas. The deep roots of pigeon peas can also improve soil structure.",
+        "ur": "مکئی کی طرح، جوار بھی کبوتر مٹر کے ذریعے طے شدہ نائٹروجن سے فائدہ اٹھاتا ہے۔ کبوتر مٹر کی گہری جڑیں مٹی کی ساخت کو بھی بہتر بنا سکتی ہیں۔",
+        "ar": "مثل الذرة، يستفيد الذرة الرفيعة من النيتروجين الذي تثبته البازلاء. يمكن لجذور البازلاء العميقة أيضاً تحسين بنية التربة.",
+        "fr": "Similaire au maïs, le sorgho bénéficie de l'azote fixé par les pois cajan. Les racines profondes des pois cajan peuvent également améliorer la structure du sol."
+      }
+    },
+    {
+      "plantId": "okra",
+      "benefit": {
+        "en": "Okra benefits from the improved soil fertility due to nitrogen fixation. The taller pigeon pea plants can also provide some shade.",
+        "ur": "اوکرا نائٹروجن فکسیشن کی وجہ سے بہتر مٹی کی زرخیزی سے فائدہ اٹھاتا ہے۔ لمبے کبوتر مٹر کے پودے کچھ سایہ بھی فراہم کر سکتے ہیں۔",
+        "ar": "تستفيد البامية من خصوبة التربة المحسنة بفضل تثبيت النيتروجين. يمكن لنباتات البازلاء الأطول أيضاً توفير بعض الظل.",
+        "fr": "Le gombo bénéficie de l'amélioration de la fertilité du sol grâce à la fixation d'azote. Les plants de pois cajan plus hauts peuvent également fournir de l'ombre."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Marigolds are known to repel nematodes, which can be a problem for pigeon peas, especially in warmer climates.",
+        "ur": "میریگولڈز نیماٹوڈس کو دور بھگانے کے لیے جانے جاتے ہیں، جو کبوتر مٹر کے لیے ایک مسئلہ ہو سکتے ہیں، خاص طور پر گرم آب و ہوا میں۔",
+        "ar": "تشتهر القطيفة بصد الديدان الخيطية، والتي يمكن أن تكون مشكلة للبازلاء، خاصة في المناخات الدافئة.",
+        "fr": "Les œillets d'Inde sont connus pour repousser les nématodes, qui peuvent être un problème pour les pois cajan, surtout dans les climats chauds."
+      }
+    },
+    {
+      "plantId": "sweet_potato",
+      "benefit": {
+        "en": "Sweet potatoes act as a living mulch, suppressing weeds and conserving soil moisture, while benefiting from the nitrogen fixed by pigeon peas.",
+        "ur": "شکرقندی ایک زندہ ملچ کے طور پر کام کرتی ہے، گھاس کو دباتی ہے اور مٹی کی نمی کو محفوظ رکھتی ہے، جبکہ کبوتر مٹر کے ذریعے طے شدہ نائٹروجن سے فائدہ اٹھاتی ہے۔",
+        "ar": "تعمل البطاطا الحلوة كغطاء حي، حيث تقمع الأعشاب الضارة وتحافظ على رطوبة التربة، بينما تستفيد من النيتروجين الذي تثبته البازلاء.",
+        "fr": "Les patates douces agissent comme un paillis vivant, supprimant les mauvaises herbes et conservant l'humidité du sol, tout en bénéficiant de l'azote fixé par les pois cajan."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "garlic",
+      "reason": {
+        "en": "Some studies suggest that alliums (like garlic and onions) can inhibit the growth of legumes, potentially affecting nodule formation.",
+        "ur": "کچھ مطالعات سے پتہ چلتا ہے کہ ایلیم (جیسے لہسن اور پیاز) پھلیوں کی نشوونما کو روک سکتے ہیں، ممکنہ طور پر نوڈول کی تشکیل کو متاثر کر سکتے ہیں۔",
+        "ar": "تشير بعض الدراسات إلى أن البصليات (مثل الثوم والبصل) يمكن أن تمنع نمو البقوليات، مما قد يؤثر على تكوين العقد الجذرية.",
+        "fr": "Certaines études suggèrent que les alliacées (comme l'ail et les oignons) peuvent inhiber la croissance des légumineuses, affectant potentiellement la formation des nodosités."
+      }
+    },
+    {
+      "plantId": "onion",
+      "reason": {
+        "en": "Similar to garlic, onions can release compounds that may hinder the beneficial nitrogen-fixing bacteria associated with pigeon peas.",
+        "ur": "لہسن کی طرح، پیاز بھی ایسے مرکبات جاری کر سکتے ہیں جو کبوتر مٹر سے منسلک فائدہ مند نائٹروجن فکسنگ بیکٹیریا کو روک سکتے ہیں۔",
+        "ar": "على غرار الثوم، يمكن للبصل أن يطلق مركبات قد تعيق البكتيريا المفيدة المثبتة للنيتروجين المرتبطة بالبازلاء.",
+        "fr": "Comme l'ail, les oignons peuvent libérer des composés qui peuvent entraver les bactéries fixatrices d'azote bénéfiques associées aux pois cajan."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Fennel is known to exude substances from its roots that can inhibit the growth of many other plants, including legumes.",
+        "ur": "سونف اپنی جڑوں سے ایسے مادے خارج کرنے کے لیے جانا جاتا ہے جو پھلیوں سمیت بہت سے دوسرے پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "يشتهر الشمر بإفراز مواد من جذوره يمكن أن تمنع نمو العديد من النباتات الأخرى، بما في ذلك البقوليات.",
+        "fr": "Le fenouil est connu pour exuder des substances de ses racines qui peuvent inhiber la croissance de nombreuses autres plantes, y compris les légumineuses."
+      }
+    },
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "Members of the Brassica family can compete heavily for nutrients and may release compounds that inhibit the growth of other plants.",
+        "ur": "براسیکا خاندان کے ارکان غذائی اجزاء کے لیے سخت مقابلہ کر سکتے ہیں اور ایسے مرکبات جاری کر سکتے ہیں جو دوسرے پودوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "يمكن لأفراد عائلة الكرنب التنافس بشدة على العناصر الغذائية وقد تطلق مركبات تمنع نمو النباتات الأخرى.",
+        "fr": "Les membres de la famille des Brassicacées peuvent fortement concurrencer les nutriments et libérer des composés qui inhibent la croissance d'autres plantes."
+      }
+    },
+    {
+      "plantId": "broccoli",
+      "reason": {
+        "en": "As a Brassica, broccoli can stunt the growth of pigeon peas due to competition for resources and potential allelopathic effects.",
+        "ur": "براسیکا کے طور پر، بروکولی کبوتر مٹر کی نشوونما کو روک سکتی ہے کیونکہ وسائل کے لیے مقابلہ اور ممکنہ ایلوپیتھک اثرات کی وجہ سے۔",
+        "ar": "بصفته من عائلة الكرنب، يمكن للبروكلي أن يعيق نمو البازلاء بسبب التنافس على الموارد والتأثيرات الأليلوباثية المحتملة.",
+        "fr": "En tant que Brassicacée, le brocoli peut freiner la croissance des pois cajan en raison de la concurrence pour les ressources et des effets allélopathiques potentiels."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "fusarium_wilt",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "25-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves yellow, wilt, and drop, often starting on one side of the plant. Stems may show vascular discoloration. Can be lethal.",
+        "ur": "پتے پیلے ہو جاتے ہیں، مرجھا جاتے ہیں اور گر جاتے ہیں، اکثر پودے کے ایک طرف سے شروع ہوتا ہے۔ تنوں میں عروقی رنگت کی تبدیلی نظر آ سکتی ہے۔ یہ جان لیوا ہو سکتا ہے۔",
+        "ar": "تصفر الأوراق وتذبل وتسقط، وغالباً ما تبدأ من جانب واحد من النبات. قد تظهر السيقان تلوناً وعائياً. يمكن أن يكون قاتلاً.",
+        "fr": "Les feuilles jaunissent, flétrissent et tombent, souvent en commençant par un côté de la plante. Les tiges peuvent montrer une décoloration vasculaire. Peut être mortel."
+      }
+    },
+    {
+      "pestId": "sterility_mosaic_disease",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes stunted growth, mosaic pattern on leaves, and severe reduction or complete absence of flowers and pods, leading to sterility. Transmitted by eriophyid mites.",
+        "ur": "نشوونما رک جاتی ہے، پتوں پر موزیک پیٹرن بن جاتا ہے، اور پھولوں اور پھلیوں میں شدید کمی یا مکمل غیر موجودگی ہوتی ہے، جس سے بانجھ پن ہوتا ہے۔ ایریوفائیڈ مائٹس کے ذریعے منتقل ہوتا ہے۔",
+        "ar": "يسبب تقزم النمو، ونمط فسيفسائي على الأوراق، وانخفاضاً شديداً أو غياباً كاملاً للأزهار والقرون، مما يؤدي إلى العقم. ينتقل عن طريق العث الأريوفييدي.",
+        "fr": "Provoque un retard de croissance, un motif en mosaïque sur les feuilles, et une réduction sévère ou une absence totale de fleurs et de gousses, entraînant la stérilité. Transmis par les acariens ériophyides."
+      }
+    },
+    {
+      "pestId": "pod_borer",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into young pods and feed on developing seeds, causing significant yield loss. Look for holes in pods and frass.",
+        "ur": "لاروا جوان پھلیوں میں سوراخ کرتے ہیں اور بڑھتے ہوئے بیجوں کو کھاتے ہیں، جس سے پیداوار میں نمایاں کمی آتی ہے۔ پھلیوں میں سوراخ اور فضلہ تلاش کریں۔",
+        "ar": "تخترق اليرقات القرون الصغيرة وتتغذى على البذور النامية، مما يسبب خسارة كبيرة في المحصول. ابحث عن ثقوب في القرون وفضلات الحشرات.",
+        "fr": "Les larves forent les jeunes gousses et se nourrissent des graines en développement, causant des pertes de rendement importantes. Cherchez des trous dans les gousses et des excréments."
+      }
+    },
+    {
+      "pestId": "cercospora_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, circular to angular spots with reddish-brown margins and grayish centers appear on leaves. Severe infection can lead to defoliation.",
+        "ur": "پتوں پر چھوٹے، گول سے کونیی دھبے جن کے کنارے سرخی مائل بھورے اور مرکز سرمئی ہوتے ہیں۔ شدید انفیکشن پتوں کے گرنے کا سبب بن سکتا ہے۔",
+        "ar": "تظهر بقع صغيرة دائرية إلى زاوية ذات حواف بنية محمرة ومراكز رمادية على الأوراق. يمكن أن تؤدي العدوى الشديدة إلى تساقط الأوراق.",
+        "fr": "De petites taches circulaires à angulaires avec des marges brun-rougeâtre et des centres grisâtres apparaissent sur les feuilles. Une infection sévère peut entraîner la défoliation."
+      }
+    },
+    {
+      "pestId": "rust",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, reddish-brown pustules (like rust) appear on the undersides of leaves, eventually spreading to stems and pods. Can cause premature defoliation.",
+        "ur": "پتوں کے نیچے چھوٹے، سرخی مائل بھورے دانے (زنگ کی طرح) ظاہر ہوتے ہیں، جو بالآخر تنوں اور پھلیوں تک پھیل جاتے ہیں۔ یہ وقت سے پہلے پتوں کے گرنے کا سبب بن سکتا ہے۔",
+        "ar": "تظهر بثور صغيرة بنية محمرة (مثل الصدأ) على الجانب السفلي من الأوراق، وتنتشر في النهاية إلى السيقان والقرون. يمكن أن تسبب تساقط الأوراق المبكر.",
+        "fr": "De petites pustules brun-rougeâtre (comme de la rouille) apparaissent sur le dessous des feuilles, se propageant finalement aux tiges et aux gousses. Peut provoquer une défoliation prématurée."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and secreting sticky honeydew. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "termites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Can attack the roots and lower stems, especially in dry, sandy soils. Causes wilting and eventual death of the plant. Look for mud tunnels.",
+        "ur": "خشک، ریتیلی مٹی میں جڑوں اور نچلے تنوں پر حملہ کر سکتے ہیں۔ پودے کے مرجھانے اور بالآخر مرنے کا سبب بنتے ہیں۔ مٹی کی سرنگیں تلاش کریں۔",
+        "ar": "يمكن أن تهاجم الجذور والسيقان السفلية، خاصة في التربة الجافة والرملية. تسبب الذبول وموت النبات في النهاية. ابحث عن أنفاق الطين.",
+        "fr": "Peuvent attaquer les racines et les tiges inférieures, surtout dans les sols secs et sableux. Provoquent le flétrissement et la mort éventuelle de la plante. Cherchez des tunnels de boue."
+      }
+    },
+    {
+      "pestId": "waterlogging",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Pigeon peas are sensitive to waterlogging. Prolonged wet conditions can lead to root rot, yellowing leaves, and stunted growth. Ensure good drainage.",
+        "ur": "کبوتر مٹر پانی کے جمنے کے لیے حساس ہیں۔ طویل گیلے حالات جڑوں کے گلنے، پتوں کے پیلے ہونے اور نشوونما کے رکنے کا سبب بن سکتے ہیں۔ اچھی نکاسی کو یقینی بنائیں۔",
+        "ar": "البازلاء حساسة لتشبع التربة بالمياه. يمكن أن تؤدي الظروف الرطبة المطولة إلى تعفن الجذور، واصفرار الأوراق، وتقزم النمو. تأكد من الصرف الجيد.",
+        "fr": "Les pois cajan sont sensibles à l'engorgement. Des conditions humides prolongées peuvent entraîner la pourriture des racines, le jaunissement des feuilles et un retard de croissance. Assurez un bon drainage."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 90,
+    "firstHarvestDayMax": 120,
+    "continuousHarvest": true,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Pods are plump, tender, and bright green for fresh consumption. For dry peas, pods will be dry, brittle, and turn yellow/brown.",
+        "ur": "تازہ استعمال کے لیے پھل موٹے، نرم اور چمکدار سبز ہوں۔ خشک دال کے لیے، پھل خشک، خستہ اور پیلے/بھورے ہو جائیں گے۔",
+        "ar": "القرون ممتلئة وطرية وذات لون أخضر فاتح للاستهلاك الطازج. بالنسبة للبازلاء الجافة، ستكون القرون جافة وهشة وتتحول إلى اللون الأصفر/البني.",
+        "fr": "Les gousses sont charnues, tendres et d'un vert vif pour la consommation fraîche. Pour les pois secs, les gousses seront sèches, cassantes et vireront au jaune/brun."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently snap or twist green pods from the plant when they are plump. For dry peas, wait until pods are fully dry on the plant before picking.",
+        "ur": "جب سبز پھل موٹے ہو جائیں تو انہیں پودے سے آہستہ سے توڑیں یا موڑیں۔ خشک دال کے لیے، پھل کو پودے پر مکمل طور پر خشک ہونے تک انتظار کریں پھر توڑیں۔",
+        "ar": "اقطف القرون الخضراء بلطف أو قم بلفها من النبات عندما تكون ممتلئة. بالنسبة للبازلاء الجافة، انتظر حتى تجف القرون تماماً على النبات قبل القطف.",
+        "fr": "Cassez ou tournez délicatement les gousses vertes de la plante lorsqu'elles sont charnues. Pour les pois secs, attendez que les gousses soient complètement sèches sur la plante avant de les cueillir."
+      },
+      "INTERMEDIATE": {
+        "en": "Use clean snips or scissors to cut green pods from the stem, leaving a small piece of stem attached. Harvest regularly to encourage more production.",
+        "ur": "صاف قینچی یا کینچی کا استعمال کرتے ہوئے سبز پھل کو تنے سے کاٹیں، تنے کا ایک چھوٹا سا ٹکڑا لگا رہنے دیں۔ مزید پیداوار کی حوصلہ افزائی کے لیے باقاعدگی سے کٹائی کریں۔",
+        "ar": "استخدم مقصاً نظيفاً لقطع القرون الخضراء من الساق، مع ترك قطعة صغيرة من الساق متصلة. احصد بانتظام لتشجيع المزيد من الإنتاج.",
+        "fr": "Utilisez des ciseaux propres pour couper les gousses vertes de la tige, en laissant un petit morceau de tige attaché. Récoltez régulièrement pour encourager une production accrue."
+      },
+      "EXPERT": {
+        "en": "For fresh consumption, pick pods when seeds are fully formed but still tender. For dry peas, allow pods to fully mature and dry on the plant for maximum flavor and storage life. Consider multiple harvests for green pods.",
+        "ur": "تازہ استعمال کے لیے، پھل کو اس وقت توڑیں جب بیج مکمل طور پر بن جائیں لیکن ابھی بھی نرم ہوں۔ خشک دال کے لیے، پھل کو پودے پر مکمل طور پر پکنے اور خشک ہونے دیں تاکہ زیادہ سے زیادہ ذائقہ اور ذخیرہ کرنے کی مدت حاصل ہو۔ سبز پھلیوں کے لیے متعدد کٹائیوں پر غور کریں۔",
+        "ar": "للاستهلاك الطازج، اقطف القرون عندما تكون البذور مكتملة التكوين ولكنها لا تزال طرية. بالنسبة للبازلاء الجافة، اترك القرون لتنضج وتجف تماماً على النبات للحصول على أقصى نكهة وعمر تخزين. فكر في حصاد متعدد للقرون الخضراء.",
+        "fr": "Pour la consommation fraîche, cueillez les gousses lorsque les graines sont entièrement formées mais encore tendres. Pour les pois secs, laissez les gousses mûrir et sécher complètement sur la plante pour une saveur et une durée de conservation maximales. Envisagez plusieurs récoltes pour les gousses vertes."
+      }
+    },
+    "storage": {
+      "en": "Fresh pods: Refrigerate in a perforated bag for up to a week. Dry peas: Store in an airtight container in a cool, dry place for up to a year or more.",
+      "ur": "تازہ پھل: سوراخ والے تھیلے میں ایک ہفتے تک فریج میں رکھیں۔ خشک دال: ٹھنڈی، خشک جگہ پر ہوا بند ڈبے میں ایک سال یا اس سے زیادہ عرصے تک رکھیں۔",
+      "ar": "القرون الطازجة: تُحفظ في الثلاجة في كيس مثقوب لمدة تصل إلى أسبوع. البازلاء الجافة: تُخزن في وعاء محكم الإغلاق في مكان بارد وجاف لمدة تصل إلى عام أو أكثر.",
+      "fr": "Gousses fraîches : Réfrigérer dans un sac perforé jusqu'à une semaine. Pois secs : Conserver dans un récipient hermétique dans un endroit frais et sec jusqu'à un an ou plus."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1.5,
+      "30L": 2.5,
+      "GROUND": 5
+    }
+  }
+}
