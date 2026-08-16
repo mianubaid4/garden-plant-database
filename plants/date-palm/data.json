@@ -1,0 +1,1401 @@
+{
+  "id": "date-palm",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1579656531640-c38a1922921b?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Date Palm",
+      "alternate": [
+        "Phoenix Palm"
+      ]
+    },
+    "ur": {
+      "common": "کھجور",
+      "alternate": [
+        "نخلہ"
+      ]
+    },
+    "ar": {
+      "common": "نخلة التمر",
+      "alternate": [
+        "نخل"
+      ]
+    },
+    "fr": {
+      "common": "Dattier",
+      "alternate": [
+        "Palmier dattier"
+      ]
+    },
+    "botanical": "Phoenix dactylifera",
+    "aliases": [
+      "khajoor",
+      "nakhlah",
+      "dattier",
+      "date tree"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "tree",
+  "germinationDays": 30,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 60,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 90,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "PALM"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "PALM": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Single or multi-trunked tree. Requires occasional pruning of dead fronds and thinning of fruit clusters.",
+          "ur": "ایک یا کئی تنوں والا درخت۔ مردہ پتوں کی کٹائی اور پھل کے گچھوں کو پتلا کرنے کی ضرورت ہوتی ہے۔",
+          "ar": "شجرة ذات جذع واحد أو متعدد. تتطلب تقليمًا عرضيًا للسعف الميت وتخفيف عناقيد الفاكهة.",
+          "fr": "Arbre à tronc unique ou multiple. Nécessite une taille occasionnelle des frondes mortes et un éclaircissage des grappes de fruits."
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": false,
+    "handPollinationRecommended": true,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Date palms are dioecious, meaning male and female flowers are on separate trees. Hand pollination is essential for commercial fruit production, transferring pollen from male to female flowers.",
+        "ur": "کھجور کے درخت دو جنسی ہوتے ہیں، یعنی نر اور مادہ پھول الگ الگ درختوں پر ہوتے ہیں۔ تجارتی پھل کی پیداوار کے لیے ہاتھ سے پولینیشن ضروری ہے، نر پھولوں سے مادہ پھولوں میں پولن منتقل کرنا۔",
+        "ar": "نخيل التمر أحادي المسكن، مما يعني أن الأزهار الذكرية والأنثوية توجد على أشجار منفصلة. التلقيح اليدوي ضروري للإنتاج التجاري للفاكهة، حيث يتم نقل حبوب اللقاح من الأزهار الذكرية إلى الأزهار الأنثوية.",
+        "fr": "Les dattiers sont dioïques, ce qui signifie que les fleurs mâles et femelles sont sur des arbres séparés. La pollinisation manuelle est essentielle pour la production commerciale de fruits, en transférant le pollen des fleurs mâles aux fleurs femelles."
+      }
+    ]
+  },
+  "tags": [
+    "tree",
+    "fruit",
+    "desert-plant",
+    "drought-tolerant",
+    "slow-from-seed",
+    "long-lived",
+    "subtropical"
+  ],
+  "temperature": {
+    "optimalMinC": 25,
+    "optimalMaxC": 35,
+    "survivalMinC": -5,
+    "survivalMaxC": 50,
+    "germinationMinC": 20,
+    "germinationOptimalC": 30,
+    "flowerDropAboveC": 45,
+    "flowerDropBelowC": 10
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 1825,
+    "requiredGDD": 5000,
+    "baseTempC": 15,
+    "plantingConditions": {
+      "soilTempMinC": 20,
+      "airTempMinC": 25
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 45,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 50,
+      "highWindKmh": 80,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 8,
+    "sunHoursOptimal": 10,
+    "sunHoursMax": 14
+  },
+  "water": {
+    "baseMlPer10L": 2000,
+    "intervalDaysBase": 7,
+    "intervalDaysHot": 3,
+    "intervalDaysExtreme": 2,
+    "intervalDaysCool": 14,
+    "drainageSensitivity": "high",
+    "wateringNature": "Deep and Infrequent",
+    "soilMoisturePreference": "Allow soil to dry out between deep waterings",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "Medium (drought tolerant once established, but needs water for fruit)",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 30,
+      "max": 50
+    },
+    "drynessThreshold": {
+      "warning": 20,
+      "critical": 10
+    },
+    "waterStressSymptoms": [
+      "frond browning",
+      "slow growth",
+      "reduced fruit size",
+      "premature fruit drop"
+    ],
+    "overwateringSymptoms": [
+      "yellowing fronds",
+      "root rot",
+      "stem base decay",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Deep basin irrigation",
+    "thingsToAvoid": [
+      "shallow frequent watering",
+      "standing water around trunk",
+      "overhead watering"
+    ],
+    "bestWateringTime": "Early morning or late evening"
+  },
+  "rootBehavior": {
+    "depth": "very deep",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "regulate soil temperature",
+      "weed suppression",
+      "protect roots"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Requires very large pots with excellent drainage; only for young plants or specific dwarf varieties. Will eventually outgrow.",
+        "ur": "بہت بڑے گملے اور بہترین نکاسی آب کی ضرورت ہوتی ہے؛ صرف چھوٹے پودوں یا مخصوص بونے اقسام کے لیے۔ بالآخر یہ گملے سے بڑا ہو جائے گا۔",
+        "ar": "يتطلب أواني كبيرة جداً مع تصريف ممتاز؛ فقط للنباتات الصغيرة أو الأصناف القزمة المحددة. ستتجاوز حجم الوعاء في النهاية.",
+        "fr": "Nécessite de très grands pots avec un excellent drainage ; uniquement pour les jeunes plantes ou des variétés naines spécifiques. Finira par dépasser la taille du pot."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric bags can help with aeration but still need large size and will eventually be outgrown.",
+        "ur": "کپڑے کے تھیلے ہوا کی گردش میں مدد کرتے ہیں لیکن پھر بھی بڑے سائز کی ضرورت ہوتی ہے اور بالآخر یہ تھیلے سے بڑا ہو جائے گا۔",
+        "ar": "الأكياس القماشية تساعد في التهوية ولكنها لا تزال بحاجة إلى حجم كبير وستتجاوز حجم الكيس في النهاية.",
+        "fr": "Les sacs en tissu peuvent aider à l'aération mais nécessitent toujours une grande taille et finiront par être dépassés."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 150,
+      "wateringMultiplier": 0.7,
+      "notes": {
+        "en": "Ideal for date palms; requires deep, well-drained soil and ample space for root development and mature size.",
+        "ur": "کھجور کے لیے مثالی؛ گہری، اچھی نکاسی والی مٹی اور جڑوں کی نشوونما اور مکمل سائز کے لیے کافی جگہ کی ضرورت ہوتی ہے۔",
+        "ar": "مثالي لنخيل التمر؛ يتطلب تربة عميقة جيدة التصريف ومساحة واسعة لتطور الجذور وحجمها الناضج.",
+        "fr": "Idéal pour les dattiers ; nécessite un sol profond et bien drainé et un espace suffisant pour le développement des racines et la taille adulte."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 200,
+      "minDepthCm": 100,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Only for very large, deep raised beds to accommodate extensive root system and provide adequate drainage.",
+        "ur": "صرف بہت بڑے، گہرے اونچے بستروں کے لیے تاکہ وسیع جڑوں کے نظام کو جگہ مل سکے اور مناسب نکاسی آب فراہم کی جا سکے۔",
+        "ar": "فقط لأحواض الزراعة المرتفعة الكبيرة والعميقة جداً لاستيعاب نظام الجذور الواسع وتوفير الصرف الكافي.",
+        "fr": "Uniquement pour les très grands lits surélevés profonds afin d'accueillir un système racinaire étendu et d'assurer un drainage adéquat."
+      }
+    }
+  },
+  "isTree": true,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "5-8 years",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Soaking and planting date palm seeds",
+        "ur": "کھجور کے بیج بھگونا اور بونا",
+        "ar": "نقع وزراعة بذور نخيل التمر",
+        "fr": "Trempage et semis des graines de palmier dattier"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "seedSoak": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Soak seeds in warm water for 24-48 hours.",
+              "ur": "بیجوں کو 24-48 گھنٹے گرم پانی میں بھگو دیں۔",
+              "ar": "انقع البذور في ماء دافئ لمدة 24-48 ساعة.",
+              "fr": "Faites tremper les graines dans de l'eau tiède pendant 24-48 heures."
+            },
+            "INTERMEDIATE": {
+              "en": "Change water every 12 hours during soaking.",
+              "ur": "بھگونے کے دوران ہر 12 گھنٹے بعد پانی تبدیل کریں۔",
+              "ar": "غيّر الماء كل 12 ساعة أثناء النقع.",
+              "fr": "Changez l'eau toutes les 12 heures pendant le trempage."
+            },
+            "EXPERT": {
+              "en": "Scarify seeds lightly before soaking for better germination.",
+              "ur": "بہتر انکرن کے لیے بھگونے سے پہلے بیجوں کو ہلکا سا کھرچیں۔",
+              "ar": "خدش البذور برفق قبل النقع لتحسين الإنبات.",
+              "fr": "Scarifiez légèrement les graines avant le trempage pour une meilleure germination."
+            }
+          }
+        },
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use well-draining potting mix, ideally sandy loam.",
+              "ur": "اچھی نکاسی والی مٹی استعمال کریں، مثالی طور پر ریتلی لوم۔",
+              "ar": "استخدم خليط تأصيص جيد التصريف، ويفضل التربة الرملية الطينية.",
+              "fr": "Utilisez un terreau bien drainant, idéalement un loam sableux."
+            },
+            "INTERMEDIATE": {
+              "en": "Mix sand, compost, and perlite for optimal drainage.",
+              "ur": "بہترین نکاسی کے لیے ریت، کھاد اور پرلائٹ مکس کریں۔",
+              "ar": "اخلط الرمل والسماد والبيرلايت لتصريف مثالي.",
+              "fr": "Mélangez sable, compost et perlite pour un drainage optimal."
+            },
+            "EXPERT": {
+              "en": "Ensure pH is between 7.0-8.0 for best results.",
+              "ur": "بہترین نتائج کے لیے پی ایچ 7.0-8.0 کے درمیان رکھیں۔",
+              "ar": "تأكد من أن درجة الحموضة تتراوح بين 7.0-8.0 للحصول على أفضل النتائج.",
+              "fr": "Assurez-vous que le pH est entre 7.0 et 8.0 pour de meilleurs résultats."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 1,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant seeds 1 inch deep in individual pots.",
+              "ur": "بیجوں کو انفرادی گملوں میں 1 انچ گہرائی میں بوئیں۔",
+              "ar": "ازرع البذور بعمق 1 بوصة في أوعية فردية.",
+              "fr": "Plantez les graines à 1 pouce de profondeur dans des pots individuels."
+            },
+            "INTERMEDIATE": {
+              "en": "Place seeds horizontally and cover lightly with soil.",
+              "ur": "بیجوں کو افقی طور پر رکھیں اور مٹی سے ہلکا سا ڈھانپیں۔",
+              "ar": "ضع البذور أفقياً وقم بتغطيتها برفق بالتربة.",
+              "fr": "Placez les graines horizontalement et couvrez-les légèrement de terre."
+            },
+            "EXPERT": {
+              "en": "Maintain soil temperature around 85-95°F (29-35°C) for faster germination.",
+              "ur": "تیز انکرن کے لیے مٹی کا درجہ حرارت 85-95°F (29-35°C) کے قریب رکھیں۔",
+              "ar": "حافظ على درجة حرارة التربة حوالي 85-95 درجة فهرنهايت (29-35 درجة مئوية) لإنبات أسرع.",
+              "fr": "Maintenez la température du sol autour de 29-35°C pour une germination plus rapide."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist, but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں، لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن ليس مشبعة بالماء.",
+              "fr": "Gardez le sol constamment humide, mais pas gorgé d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a spray bottle to mist the soil surface daily.",
+              "ur": "مٹی کی سطح کو روزانہ سپرے بوتل سے نم کریں۔",
+              "ar": "استخدم زجاجة رذاذ لرش سطح التربة يومياً.",
+              "fr": "Utilisez un vaporisateur pour humidifier la surface du sol quotidiennement."
+            },
+            "EXPERT": {
+              "en": "Monitor moisture levels with a hygrometer to prevent drying out.",
+              "ur": "خشک ہونے سے بچنے کے لیے ہائیگرومیٹر سے نمی کی سطح کی نگرانی کریں۔",
+              "ar": "راقب مستويات الرطوبة باستخدام مقياس الرطوبة لمنع الجفاف.",
+              "fr": "Surveillez les niveaux d'humidité avec un hygromètre pour éviter le dessèchement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 180,
+      "description": {
+        "en": "First shoot emerges from seed",
+        "ur": "بیج سے پہلی کونپل نکلنا",
+        "ar": "يظهر أول برعم من البذرة",
+        "fr": "Première pousse émerge de la graine"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing the sprout.",
+              "ur": "کونپل کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البرعم.",
+              "fr": "Arrosez doucement pour ne pas déranger la pousse."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture, crucial for root development.",
+              "ur": "جڑوں کی نشوونما کے لیے مٹی کی نمی کو مستقل رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، وهو أمر بالغ الأهمية لنمو الجذور.",
+              "fr": "Maintenez une humidité constante du sol, cruciale pour le développement des racines."
+            },
+            "EXPERT": {
+              "en": "Use bottom watering to encourage deeper root growth.",
+              "ur": "گہری جڑوں کی نشوونما کی حوصلہ افزائی کے لیے نیچے سے پانی دیں۔",
+              "ar": "استخدم الري السفلي لتشجيع نمو الجذور الأعمق.",
+              "fr": "Utilisez l'arrosage par le bas pour encourager une croissance racinaire plus profonde."
+            }
+          }
+        },
+        "light": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide bright, indirect light.",
+              "ur": "روشن، بالواسطہ روشنی فراہم کریں۔",
+              "ar": "وفر إضاءة ساطعة وغير مباشرة.",
+              "fr": "Fournissez une lumière vive et indirecte."
+            },
+            "INTERMEDIATE": {
+              "en": "Place under a grow light for 12-14 hours daily.",
+              "ur": "روزانہ 12-14 گھنٹے گرو لائٹ کے نیچے رکھیں۔",
+              "ar": "ضعها تحت ضوء النمو لمدة 12-14 ساعة يومياً.",
+              "fr": "Placez sous une lampe de croissance pendant 12-14 heures par jour."
+            },
+            "EXPERT": {
+              "en": "Ensure adequate air circulation to prevent damping-off.",
+              "ur": "ڈیمپنگ آف سے بچنے کے لیے مناسب ہوا کی گردش کو یقینی بنائیں۔",
+              "ar": "تأكد من تهوية كافية لمنع ذبول الشتلات.",
+              "fr": "Assurez une circulation d'air adéquate pour prévenir la fonte des semis."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 180,
+      "durationDaysWarm": 120,
+      "durationDaysCool": 240,
+      "description": {
+        "en": "Young date palm develops first true fronds",
+        "ur": "نوجوان کھجور کے درخت میں پہلے سچے پتے نکلنا",
+        "ar": "نخيل التمر الصغير يطور سعفه الحقيقي الأول",
+        "fr": "Jeune palmier dattier développe ses premières vraies palmes"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 60,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Move seedling to a larger pot (at least 1 gallon) once roots fill the current one.",
+              "ur": "جب جڑیں موجودہ گملے کو بھر دیں تو پودے کو بڑے گملے (کم از کم 1 گیلن) میں منتقل کریں۔",
+              "ar": "انقل الشتلة إلى وعاء أكبر (1 جالون على الأقل) بمجرد أن تمتلئ الجذور بالوعاء الحالي.",
+              "fr": "Déplacez le semis dans un pot plus grand (au moins 1 gallon) une fois que les racines remplissent le pot actuel."
+            },
+            "INTERMEDIATE": {
+              "en": "Handle roots carefully to minimize shock; water thoroughly after transplanting.",
+              "ur": "صدمے کو کم کرنے کے لیے جڑوں کو احتیاط سے سنبھالیں؛ منتقل کرنے کے بعد اچھی طرح پانی دیں۔",
+              "ar": "تعامل مع الجذور بعناية لتقليل الصدمة؛ اسقِ جيداً بعد الزرع.",
+              "fr": "Manipulez les racines avec soin pour minimiser le choc ; arrosez abondamment après le repiquage."
+            },
+            "EXPERT": {
+              "en": "Ensure the new pot has excellent drainage and use a similar soil mix.",
+              "ur": "یقینی بنائیں کہ نئے گملے میں بہترین نکاسی ہو اور اسی طرح کی مٹی کا مرکب استعمال کریں۔",
+              "ar": "تأكد من أن الوعاء الجديد يتمتع بتصريف ممتاز واستخدم خليط تربة مماثل.",
+              "fr": "Assurez-vous que le nouveau pot a un excellent drainage et utilisez un mélange de terre similaire."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly, allowing the top inch of soil to dry between waterings.",
+              "ur": "باقاعدگی سے پانی دیں، پانی دینے کے درمیان مٹی کی اوپری انچ کو خشک ہونے دیں۔",
+              "ar": "اسقِ بانتظام، مع السماح للجزء العلوي من التربة بالجفاف بين الريات.",
+              "fr": "Arrosez régulièrement, en laissant le pouce supérieur du sol sécher entre les arrosages."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer at half strength once a month.",
+              "ur": "مہینے میں ایک بار آدھی طاقت کا متوازن مائع کھاد استعمال کریں۔",
+              "ar": "ضع سماداً سائلاً متوازناً بنصف القوة مرة واحدة شهرياً.",
+              "fr": "Appliquez un engrais liquide équilibré à demi-dose une fois par mois."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a slow-release palm-specific fertilizer.",
+              "ur": "کھجور کے لیے مخصوص سست ریلیز کھاد استعمال کریں۔",
+              "ar": "استخدم سماداً بطيء الإطلاق خاصاً بالنخيل.",
+              "fr": "Utilisez un engrais à libération lente spécifique aux palmiers."
+            },
+            "EXPERT": {
+              "en": "Monitor for nutrient deficiencies and adjust fertilizer blend accordingly.",
+              "ur": "غذائی اجزاء کی کمی کی نگرانی کریں اور اس کے مطابق کھاد کا مرکب ایڈجسٹ کریں۔",
+              "ar": "راقب نقص المغذيات واضبط مزيج السماد وفقاً لذلك.",
+              "fr": "Surveillez les carences en nutriments et ajustez le mélange d'engrais en conséquence."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 300,
+      "durationDaysCool": 365,
+      "description": {
+        "en": "Palm grows, trunk develops, fronds mature (multi-year stage)",
+        "ur": "کھجور کا درخت بڑھتا ہے، تنا بنتا ہے، پتے پختہ ہوتے ہیں (کئی سالہ مرحلہ)",
+        "ar": "ينمو النخيل، يتطور الجذع، تنضج السعف (مرحلة متعددة السنوات)",
+        "fr": "Le palmier pousse, le tronc se développe, les palmes mûrissent (étape pluriannuelle)"
+      },
+      "emoji": "🌴",
+      "tips": [],
+      "tasks": {
+        "offshootRemoval": {
+          "isRecurring": true,
+          "intervalDays": 180,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove offshoots (suckers) from the base of the palm to encourage main trunk growth.",
+              "ur": "مرکزی تنے کی نشوونما کی حوصلہ افزائی کے لیے کھجور کے تنے سے نکلنے والی شاخیں (سکرز) ہٹا دیں۔",
+              "ar": "أزل الفسائل (السرطانات) من قاعدة النخيل لتشجيع نمو الجذع الرئيسي.",
+              "fr": "Retirez les rejets (drageons) de la base du palmier pour encourager la croissance du tronc principal."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully detach offshoots with a sharp, sterilized tool for propagation or disposal.",
+              "ur": "تکثیر یا ٹھکانے لگانے کے لیے تیز، جراثیم سے پاک اوزار سے شاخوں کو احتیاط سے الگ کریں۔",
+              "ar": "افصل الفسائل بعناية باستخدام أداة حادة ومعقمة للتكاثر أو التخلص منها.",
+              "fr": "Détachez soigneusement les rejets avec un outil tranchant et stérilisé pour la propagation ou l'élimination."
+            },
+            "EXPERT": {
+              "en": "Time offshoot removal to coincide with active growth for best success if propagating.",
+              "ur": "اگر تکثیر کر رہے ہیں تو بہترین کامیابی کے لیے شاخوں کو ہٹانے کا وقت فعال نشوونما کے ساتھ ملائیں۔",
+              "ar": "حدد توقيت إزالة الفسائل ليتزامن مع النمو النشط لتحقيق أفضل نجاح إذا كنت تقوم بالتكاثر.",
+              "fr": "Planifiez l'élimination des rejets pour qu'elle coïncide avec la croissance active pour un meilleur succès si vous propagez."
+            }
+          }
+        },
+        "pruning": {
+          "isRecurring": true,
+          "intervalDays": 365,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove only dead, yellowed, or diseased fronds close to the trunk.",
+              "ur": "صرف مردہ، پیلے یا بیمار پتوں کو تنے کے قریب سے ہٹا دیں۔",
+              "ar": "أزل فقط السعف الميت أو الأصفر أو المريض بالقرب من الجذع.",
+              "fr": "Retirez uniquement les palmes mortes, jaunies ou malades près du tronc."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a sharp saw or pruning shears; avoid cutting into the trunk.",
+              "ur": "تیز آری یا کینچی استعمال کریں؛ تنے کو کاٹنے سے گریز کریں۔",
+              "ar": "استخدم منشاراً حاداً أو مقص تقليم؛ تجنب القطع في الجذع.",
+              "fr": "Utilisez une scie ou un sécateur tranchant ; évitez de couper dans le tronc."
+            },
+            "EXPERT": {
+              "en": "Leave a few rows of green fronds for optimal health and fruit production.",
+              "ur": "بہترین صحت اور پھل کی پیداوار کے لیے سبز پتوں کی چند قطاریں چھوڑ دیں۔",
+              "ar": "اترك بضعة صفوف من السعف الأخضر للصحة المثلى وإنتاج الفاكهة.",
+              "fr": "Laissez quelques rangées de palmes vertes pour une santé et une production de fruits optimales."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 90,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a slow-release palm fertilizer around the base of the tree.",
+              "ur": "درخت کی بنیاد کے گرد سست ریلیز کھجور کی کھاد استعمال کریں۔",
+              "ar": "ضع سماداً بطيء الإطلاق خاصاً بالنخيل حول قاعدة الشجرة.",
+              "fr": "Appliquez un engrais pour palmiers à libération lente autour de la base de l'arbre."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fertilizer balanced for palms (e.g., 8-2-12 with micronutrients).",
+              "ur": "کھجوروں کے لیے متوازن کھاد استعمال کریں (مثلاً 8-2-12 مائیکرو نیوٹرینٹس کے ساتھ)۔",
+              "ar": "استخدم سماداً متوازناً للنخيل (مثل 8-2-12 مع المغذيات الدقيقة).",
+              "fr": "Utilisez un engrais équilibré pour palmiers (par exemple, 8-2-12 avec des micronutriments)."
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests annually to tailor nutrient application.",
+              "ur": "غذائی اجزاء کے استعمال کو ایڈجسٹ کرنے کے لیے سالانہ مٹی کے ٹیسٹ کروائیں۔",
+              "ar": "قم بإجراء اختبارات التربة سنوياً لتخصيص تطبيق المغذيات.",
+              "fr": "Effectuez des analyses de sol annuellement pour adapter l'application des nutriments."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 5000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, especially during dry periods.",
+              "ur": "ہفتے میں ایک بار گہرا پانی دیں، خاص طور پر خشک موسم میں۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، خاصة خلال الفترات الجافة.",
+              "fr": "Arrosez profondément une fois par semaine, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure water penetrates at least 2-3 feet into the soil.",
+              "ur": "یقینی بنائیں کہ پانی کم از کم 2-3 فٹ مٹی میں گہرائی تک پہنچے۔",
+              "ar": "تأكد من أن الماء يتغلغل بعمق 2-3 أقدام على الأقل في التربة.",
+              "fr": "Assurez-vous que l'eau pénètre au moins 2-3 pieds dans le sol."
+            },
+            "EXPERT": {
+              "en": "Use drip irrigation for efficient and consistent deep watering.",
+              "ur": "موثر اور مستقل گہرے پانی کے لیے ڈرپ ایریگیشن استعمال کریں۔",
+              "ar": "استخدم الري بالتنقيط للري العميق الفعال والمتسق.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour un arrosage profond efficace et constant."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect fronds for signs of pests like scale or mites.",
+              "ur": "پتوں کو کیڑوں جیسے سکیل یا مائٹس کے نشانات کے لیے چیک کریں۔",
+              "ar": "افحص السعف بحثاً عن علامات الآفات مثل الحشرات القشرية أو العناكب.",
+              "fr": "Inspectez les palmes pour détecter les signes de parasites comme les cochenilles ou les acariens."
+            },
+            "INTERMEDIATE": {
+              "en": "Treat localized infestations with horticultural oil or insecticidal soap.",
+              "ur": "مقامی کیڑوں کے حملوں کا باغبانی کے تیل یا کیڑے مار صابن سے علاج کریں۔",
+              "ar": "عالج الإصابات الموضعية بالزيت البستاني أو الصابون المبيد للحشرات.",
+              "fr": "Traitez les infestations localisées avec de l'huile horticole ou du savon insecticide."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy for long-term control.",
+              "ur": "طویل مدتی کنٹرول کے لیے مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں۔",
+              "ar": "طبق استراتيجية الإدارة المتكاملة للآفات (IPM) للتحكم طويل الأمد.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM) pour un contrôle à long terme."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Red Palm Weevil",
+              "ur": "سرخ کھجور کا سسری",
+              "ar": "سوسة النخيل الحمراء",
+              "fr": "Charançon rouge du palmier"
+            },
+            {
+              "en": "Scale Insects",
+              "ur": "سکیل کیڑے",
+              "ar": "الحشرات القشرية",
+              "fr": "Cochenilles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 45,
+      "durationDaysCool": 75,
+      "description": {
+        "en": "Inflorescences emerge, requiring pollination (annual stage)",
+        "ur": "پھول نکلتے ہیں، پولینیشن کی ضرورت ہوتی ہے (سالانہ مرحلہ)",
+        "ar": "تظهر النورات، تتطلب التلقيح (مرحلة سنوية)",
+        "fr": "Les inflorescences émergent, nécessitant une pollinisation (étape annuelle)"
+      },
+      "emoji": "🌼",
+      "tips": [],
+      "tasks": {
+        "pollination": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Hand pollinate female flowers by dusting them with pollen from male flowers.",
+              "ur": "نر پھولوں سے پولن لے کر مادہ پھولوں کو ہاتھ سے پولینیٹ کریں۔",
+              "ar": "لقح الأزهار الأنثوية يدوياً عن طريق رشها بحبوب اللقاح من الأزهار الذكرية.",
+              "fr": "Pollinisez manuellement les fleurs femelles en les saupoudrant de pollen des fleurs mâles."
+            },
+            "INTERMEDIATE": {
+              "en": "Collect fresh pollen from male spathes and apply to female spathes within 24-48 hours.",
+              "ur": "نر سپیتھس سے تازہ پولن جمع کریں اور 24-48 گھنٹے کے اندر مادہ سپیتھس پر لگائیں۔",
+              "ar": "اجمع حبوب اللقاح الطازجة من الأغلفة الذكرية وضعها على الأغلفة الأنثوية في غضون 24-48 ساعة.",
+              "fr": "Collectez le pollen frais des spathes mâles et appliquez-le sur les spathes femelles dans les 24-48 heures."
+            },
+            "EXPERT": {
+              "en": "Ensure optimal pollen viability and apply multiple times for best fruit set.",
+              "ur": "بہترین پھل کے لیے پولن کی بہترین کارکردگی کو یقینی بنائیں اور کئی بار لگائیں۔",
+              "ar": "تأكد من حيوية حبوب اللقاح المثلى وقم بتطبيقها عدة مرات للحصول على أفضل عقد للثمار.",
+              "fr": "Assurez une viabilité optimale du pollen et appliquez plusieurs fois pour une meilleure nouaison."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 6000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent deep watering during flowering to support fruit set.",
+              "ur": "پھول آنے کے دوران پھل کے لیے مستقل گہرا پانی دیں۔",
+              "ar": "حافظ على ري عميق ومنتظم خلال فترة الإزهار لدعم عقد الثمار.",
+              "fr": "Maintenez un arrosage profond et constant pendant la floraison pour soutenir la nouaison."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid water stress, which can lead to flower drop.",
+              "ur": "پانی کی کمی سے بچیں، جو پھولوں کے گرنے کا سبب بن سکتی ہے۔",
+              "ar": "تجنب الإجهاد المائي، الذي يمكن أن يؤدي إلى تساقط الأزهار.",
+              "fr": "Évitez le stress hydrique, qui peut entraîner la chute des fleurs."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture carefully to prevent both drought and waterlogging.",
+              "ur": "خشک سالی اور پانی کے جمع ہونے دونوں سے بچنے کے لیے مٹی کی نمی کی احتیاط سے نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة بعناية لمنع الجفاف والتشبع بالمياه.",
+              "fr": "Surveillez attentivement l'humidité du sol pour prévenir à la fois la sécheresse et l'engorgement."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 120,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 150,
+      "description": {
+        "en": "Dates develop from pollinated flowers",
+        "ur": "پولینیٹڈ پھولوں سے کھجوریں بنتی ہیں",
+        "ar": "تتطور التمور من الأزهار الملقحة",
+        "fr": "Les dattes se développent à partir des fleurs pollinisées"
+      },
+      "emoji": "🍇",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 45,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove some developing dates from each cluster to improve size and quality of remaining fruit.",
+              "ur": "ہر گچھے سے کچھ بڑھتی ہوئی کھجوریں ہٹا دیں تاکہ باقی پھلوں کا سائز اور معیار بہتر ہو۔",
+              "ar": "أزل بعض التمور النامية من كل عنقود لتحسين حجم وجودة الثمار المتبقية.",
+              "fr": "Retirez quelques dattes en développement de chaque grappe pour améliorer la taille et la qualité des fruits restants."
+            },
+            "INTERMEDIATE": {
+              "en": "Thin clusters by removing 1/3 to 1/2 of the dates, focusing on smaller or damaged ones.",
+              "ur": "گچھوں کو 1/3 سے 1/2 کھجوریں ہٹا کر پتلا کریں، چھوٹی یا خراب کھجوروں پر توجہ دیں۔",
+              "ar": "خفف العناقيد بإزالة 1/3 إلى 1/2 من التمور، مع التركيز على الأصغر أو التالفة.",
+              "fr": "Éclaircissez les grappes en retirant 1/3 à 1/2 des dattes, en vous concentrant sur les plus petites ou endommagées."
+            },
+            "EXPERT": {
+              "en": "Optimize thinning based on cultivar and desired fruit size/yield.",
+              "ur": "کاشت اور مطلوبہ پھل کے سائز/پیداوار کی بنیاد پر پتلا کرنے کو بہتر بنائیں۔",
+              "ar": "حسّن التخفيف بناءً على الصنف وحجم/محصول الثمار المطلوب.",
+              "fr": "Optimisez l'éclaircissage en fonction du cultivar et de la taille/rendement des fruits souhaités."
+            }
+          }
+        },
+        "bagging": {
+          "required": true,
+          "dayOffset": 60,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cover date clusters with mesh bags to protect them from birds and insects.",
+              "ur": "کھجور کے گچھوں کو پرندوں اور کیڑوں سے بچانے کے لیے جالی دار تھیلوں سے ڈھانپیں۔",
+              "ar": "غطِ عناقيد التمر بأكياس شبكية لحمايتها من الطيور والحشرات.",
+              "fr": "Couvrez les grappes de dattes avec des sacs en filet pour les protéger des oiseaux et des insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Use breathable, fine-mesh bags that allow air circulation but prevent pest entry.",
+              "ur": "ہوا کی گردش کی اجازت دینے والے لیکن کیڑوں کے داخلے کو روکنے والے سانس لینے والے، باریک جالی دار تھیلے استعمال کریں۔",
+              "ar": "استخدم أكياساً شبكية دقيقة ومسامية تسمح بتدوير الهواء ولكن تمنع دخول الآفات.",
+              "fr": "Utilisez des sacs en filet fin et respirants qui permettent la circulation de l'air mais empêchent l'entrée des parasites."
+            },
+            "EXPERT": {
+              "en": "Secure bags tightly around the fruit stalk to prevent pests from crawling in.",
+              "ur": "کیڑوں کو اندر گھسنے سے روکنے کے لیے تھیلوں کو پھل کے تنے کے گرد مضبوطی سے باندھیں۔",
+              "ar": "ثبت الأكياس بإحكام حول ساق الثمرة لمنع الآفات من الزحف.",
+              "fr": "Fixez fermement les sacs autour de la tige du fruit pour empêcher les parasites de s'y introduire."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 8000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide ample deep watering during fruit development for plump, juicy dates.",
+              "ur": "موٹی، رسیلی کھجوروں کے لیے پھل کی نشوونما کے دوران کافی گہرا پانی دیں۔",
+              "ar": "وفر رياً عميقاً وفيراً أثناء نمو الثمار للحصول على تمور ممتلئة وعصيرية.",
+              "fr": "Fournissez un arrosage profond et abondant pendant le développement des fruits pour des dattes charnues et juteuses."
+            },
+            "INTERMEDIATE": {
+              "en": "Consistent moisture is key; avoid fluctuations that can cause fruit splitting.",
+              "ur": "مستقل نمی کلید ہے؛ اتار چڑھاؤ سے بچیں جو پھل کے پھٹنے کا سبب بن سکتا ہے۔",
+              "ar": "الرطوبة المستمرة هي المفتاح؛ تجنب التقلبات التي يمكن أن تسبب تشقق الثمار.",
+              "fr": "Une humidité constante est essentielle ; évitez les fluctuations qui peuvent provoquer l'éclatement des fruits."
+            },
+            "EXPERT": {
+              "en": "Monitor soil tension and adjust irrigation based on evapotranspiration rates.",
+              "ur": "مٹی کے تناؤ کی نگرانی کریں اور بخارات کے اخراج کی شرح کی بنیاد پر آبپاشی کو ایڈجسٹ کریں۔",
+              "ar": "راقب توتر التربة واضبط الري بناءً على معدلات التبخر والنتح.",
+              "fr": "Surveillez la tension du sol et ajustez l'irrigation en fonction des taux d'évapotranspiration."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Dates ripen and are ready for collection",
+        "ur": "کھجوریں پک جاتی ہیں اور جمع کرنے کے لیے تیار ہوتی ہیں",
+        "ar": "تنضج التمور وتكون جاهزة للجمع",
+        "fr": "Les dattes mûrissent et sont prêtes à être cueillies"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harvest dates when they reach their characteristic color and soften slightly.",
+              "ur": "کھجوروں کو اس وقت کاٹیں جب وہ اپنا مخصوص رنگ حاصل کر لیں اور تھوڑی نرم ہو جائیں۔",
+              "ar": "احصد التمور عندما تصل إلى لونها المميز وتلين قليلاً.",
+              "fr": "Récoltez les dattes lorsqu'elles atteignent leur couleur caractéristique et ramollissent légèrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Dates ripen in stages; pick individual dates or entire strands as they mature.",
+              "ur": "کھجوریں مراحل میں پکتی ہیں؛ انفرادی کھجوریں یا پورے گچھے پختہ ہونے پر توڑیں۔",
+              "ar": "تنضج التمور على مراحل؛ قطف التمور الفردية أو العناقيد بأكملها عندما تنضج.",
+              "fr": "Les dattes mûrissent par étapes ; cueillez les dattes individuelles ou des grappes entières à mesure qu'elles mûrissent."
+            },
+            "EXPERT": {
+              "en": "Use specialized tools for harvesting from tall palms, ensuring safety and minimizing fruit damage.",
+              "ur": "اونچے کھجوروں سے کٹائی کے لیے خصوصی اوزار استعمال کریں، حفاظت کو یقینی بنائیں اور پھلوں کو نقصان سے بچائیں۔",
+              "ar": "استخدم أدوات متخصصة للحصاد من النخيل الطويل، مع ضمان السلامة وتقليل تلف الثمار.",
+              "fr": "Utilisez des outils spécialisés pour la récolte des palmiers hauts, en assurant la sécurité et en minimisant les dommages aux fruits."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "mlPer10LContainer": 4000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering slightly during the final ripening stage to concentrate sugars.",
+              "ur": "آخری پکنے کے مرحلے کے دوران پانی کو تھوڑا کم کریں تاکہ شکر کی مقدار بڑھ جائے۔",
+              "ar": "قلل الري قليلاً خلال مرحلة النضج النهائية لتركيز السكريات.",
+              "fr": "Réduisez légèrement l'arrosage pendant la phase finale de maturation pour concentrer les sucres."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure enough moisture to prevent fruit shriveling but avoid excess.",
+              "ur": "پھل کے سکڑنے سے بچنے کے لیے کافی نمی کو یقینی بنائیں لیکن زیادہ پانی سے گریز کریں۔",
+              "ar": "تأكد من وجود رطوبة كافية لمنع ذبول الثمار ولكن تجنب الإفراط.",
+              "fr": "Assurez une humidité suffisante pour éviter le flétrissement des fruits mais évitez l'excès."
+            },
+            "EXPERT": {
+              "en": "Adjust irrigation based on weather conditions and fruit moisture content.",
+              "ur": "موسمی حالات اور پھل کی نمی کی مقدار کی بنیاد پر آبپاشی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على الظروف الجوية ومحتوى رطوبة الثمار.",
+              "fr": "Ajustez l'irrigation en fonction des conditions météorologiques et de la teneur en humidité des fruits."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Well-rotted Compost or Manure",
+          "ur": "اچھی طرح گلی ہوئی کھاد یا گوبر",
+          "ar": "سماد عضوي متحلل جيداً",
+          "fr": "Compost ou fumier bien décomposé"
+        },
+        "preparation": {
+          "en": "Spread 2-3 kg of compost or well-rotted manure around the base of the young palm. Gently scratch into the topsoil.",
+          "ur": "نوجوان کھجور کے پودے کے گرد 2-3 کلوگرام کھاد یا گوبر پھیلائیں۔ اسے مٹی کی اوپری تہہ میں ہلکا سا ملائیں۔",
+          "ar": "انشر 2-3 كجم من السماد العضوي أو السماد المتحلل جيداً حول قاعدة النخلة الصغيرة. اخلطه برفق مع الطبقة العليا من التربة.",
+          "fr": "Étalez 2-3 kg de compost ou de fumier bien décomposé autour de la base du jeune palmier. Incorporez-le délicatement dans la couche superficielle du sol."
+        },
+        "quantityPer10L": 2000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Establishes strong root system and improves soil structure for young palms.",
+          "ur": "نوجوان کھجور کے پودوں کے لیے مضبوط جڑوں کا نظام قائم کرتا ہے اور مٹی کی ساخت کو بہتر بناتا ہے۔",
+          "ar": "يؤسس نظام جذور قوي ويحسن بنية التربة للنخيل الصغير.",
+          "fr": "Établit un système racinaire solide et améliore la structure du sol pour les jeunes palmiers."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Composted Chicken Manure or Blood Meal",
+          "ur": "کمپوسٹ شدہ مرغی کا گوبر یا بلڈ میل",
+          "ar": "سماد دجاج عضوي أو مسحوق الدم",
+          "fr": "Fumier de poulet composté ou farine de sang"
+        },
+        "preparation": {
+          "en": "Spread 1-2 kg of composted chicken manure or 200-300g of blood meal around the drip line of the palm. Water in thoroughly.",
+          "ur": "کھجور کے پودے کے ڈرپ لائن کے گرد 1-2 کلوگرام کمپوسٹ شدہ مرغی کا گوبر یا 200-300 گرام بلڈ میل پھیلائیں۔ اچھی طرح پانی دیں۔",
+          "ar": "انشر 1-2 كجم من سماد الدجاج العضوي أو 200-300 جرام من مسحوق الدم حول خط تنقيط النخلة. اسقِ جيداً.",
+          "fr": "Étalez 1-2 kg de fumier de poulet composté ou 200-300g de farine de sang autour de la ligne d'égouttement du palmier. Arrosez abondamment."
+        },
+        "quantityPer10L": 1500,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes vigorous frond growth essential for a healthy mature palm.",
+          "ur": "صحت مند بالغ کھجور کے لیے مضبوط پتوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز نمو الأوراق القوي الضروري لنخلة ناضجة وصحية.",
+          "fr": "Favorise une croissance vigoureuse des palmes, essentielle pour un palmier mature et sain."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Kelp Meal and Wood Ash Blend",
+          "ur": "کیلپ میل اور لکڑی کی راکھ کا مرکب",
+          "ar": "مزيج من وجبة عشب البحر ورماد الخشب",
+          "fr": "Mélange de farine d'algues et de cendre de bois"
+        },
+        "preparation": {
+          "en": "Mix 500g kelp meal and 200g wood ash. Spread around the drip line of the palm. Water in thoroughly.",
+          "ur": "500 گرام کیلپ میل اور 200 گرام لکڑی کی راکھ ملائیں۔ کھجور کے پودے کے ڈرپ لائن کے گرد پھیلائیں۔ اچھی طرح پانی دیں۔",
+          "ar": "اخلط 500 جرام من وجبة عشب البحر و 200 جرام من رماد الخشب. انشرها حول خط تنقيط النخلة. اسقِ جيداً.",
+          "fr": "Mélangez 500g de farine d'algues et 200g de cendre de bois. Étalez autour de la ligne d'égouttement du palmier. Arrosez abondamment."
+        },
+        "quantityPer10L": 700,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential potassium and micronutrients for fruit development and quality.",
+          "ur": "پھلوں کی نشوونما اور معیار کے لیے ضروری پوٹاشیم اور مائیکرو نیوٹرینٹس فراہم کرتا ہے۔",
+          "ar": "يوفر البوتاسيوم والمغذيات الدقيقة الأساسية لتطور الفاكهة وجودتها.",
+          "fr": "Fournit le potassium et les micronutriments essentiels pour le développement et la qualité des fruits."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Kelp Meal and Wood Ash Blend",
+          "ur": "کیلپ میل اور لکڑی کی راکھ کا مرکب",
+          "ar": "مزيج من وجبة عشب البحر ورماد الخشب",
+          "fr": "Mélange de farine d'algues et de cendre de bois"
+        },
+        "preparation": {
+          "en": "Mix 500g kelp meal and 200g wood ash. Spread around the drip line of the palm. Water in thoroughly.",
+          "ur": "500 گرام کیلپ میل اور 200 گرام لکڑی کی راکھ ملائیں۔ کھجور کے پودے کے ڈرپ لائن کے گرد پھیلائیں۔ اچھی طرح پانی دیں۔",
+          "ar": "اخلط 500 جرام من وجبة عشب البحر و 200 جرام من رماد الخشب. انشرها حول خط تنقيط النخلة. اسقِ جيداً.",
+          "fr": "Mélangez 500g de farine d'algues et 200g de cendre de bois. Étalez autour de la ligne d'égouttement du palmier. Arrosez abondamment."
+        },
+        "quantityPer10L": 700,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential potassium and micronutrients for fruit development and quality.",
+          "ur": "پھلوں کی نشوونما اور معیار کے لیے ضروری پوٹاشیم اور مائیکرو نیوٹرینٹس فراہم کرتا ہے۔",
+          "ar": "يوفر البوتاسيوم والمغذيات الدقيقة الأساسية لتطور الفاكهة وجودتها.",
+          "fr": "Fournit le potassium et les micronutriments essentiels pour le développement et la qualité des fruits."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10)",
+          "fr": "NPK équilibré (ex: 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 50g of 10-10-10 NPK granular fertilizer in 10 liters of water. Apply around the base.",
+          "ur": "10 لیٹر پانی میں 50 گرام 10-10-10 این پی کے دانے دار کھاد حل کریں۔ جڑوں کے گرد استعمال کریں۔",
+          "ar": "أذب 50 جرامًا من سماد NPK الحبيبي 10-10-10 في 10 لترات من الماء. طبق حول القاعدة.",
+          "fr": "Dissolvez 50g d'engrais granulaire NPK 10-10-10 dans 10 litres d'eau. Appliquez autour de la base."
+        },
+        "quantityPer10L": 50,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports overall healthy growth in young palms.",
+          "ur": "نوجوان کھجور کے پودوں میں مجموعی صحت مند نشوونما کو سہارا دیتا ہے۔",
+          "ar": "يدعم النمو الصحي العام في النخيل الصغير.",
+          "fr": "Soutient une croissance saine globale chez les jeunes palmiers."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "High Nitrogen NPK (e.g., 20-10-10)",
+          "ur": "زیادہ نائٹروجن والا این پی کے (مثلاً 20-10-10)",
+          "ar": "سماد NPK عالي النيتروجين (مثل 20-10-10)",
+          "fr": "NPK riche en azote (ex: 20-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 100g of 20-10-10 NPK granular fertilizer in 10 liters of water. Apply around the drip line.",
+          "ur": "10 لیٹر پانی میں 100 گرام 20-10-10 این پی کے دانے دار کھاد حل کریں۔ ڈرپ لائن کے گرد استعمال کریں۔",
+          "ar": "أذب 100 جرام من سماد NPK الحبيبي 20-10-10 في 10 لترات من الماء. طبق حول خط التنقيط.",
+          "fr": "Dissolvez 100g d'engrais granulaire NPK 20-10-10 dans 10 litres d'eau. Appliquez autour de la ligne d'égouttement."
+        },
+        "quantityPer10L": 100,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Boosts frond development and overall tree vigor.",
+          "ur": "پتوں کی نشوونما اور درخت کی مجموعی طاقت کو بڑھاتا ہے۔",
+          "ar": "يعزز نمو الأوراق وقوة الشجرة بشكل عام.",
+          "fr": "Stimule le développement des palmes et la vigueur générale de l'arbre."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "High Potassium NPK (e.g., 12-6-24) with micronutrients",
+          "ur": "زیادہ پوٹاشیم والا این پی کے (مثلاً 12-6-24) مائیکرو نیوٹرینٹس کے ساتھ",
+          "ar": "سماد NPK عالي البوتاسيوم (مثل 12-6-24) مع مغذيات دقيقة",
+          "fr": "NPK riche en potassium (ex: 12-6-24) avec micronutriments"
+        },
+        "preparation": {
+          "en": "Dissolve 150g of 12-6-24 NPK granular fertilizer in 10 liters of water. Apply around the drip line.",
+          "ur": "10 لیٹر پانی میں 150 گرام 12-6-24 این پی کے دانے دار کھاد حل کریں۔ ڈرپ لائن کے گرد استعمال کریں۔",
+          "ar": "أذب 150 جرامًا من سماد NPK الحبيبي 12-6-24 في 10 لترات من الماء. طبق حول خط التنقيط.",
+          "fr": "Dissolvez 150g d'engrais granulaire NPK 12-6-24 dans 10 litres d'eau. Appliquez autour de la ligne d'égouttement."
+        },
+        "quantityPer10L": 150,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes fruit set, size, and sugar content.",
+          "ur": "پھلوں کی ترتیب، سائز اور مٹھاس کو بہتر بناتا ہے۔",
+          "ar": "يحسن عقد الثمار وحجمها ومحتواها من السكر.",
+          "fr": "Optimise la nouaison, la taille et la teneur en sucre des fruits."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "High Potassium NPK (e.g., 12-6-24) with micronutrients",
+          "ur": "زیادہ پوٹاشیم والا این پی کے (مثلاً 12-6-24) مائیکرو نیوٹرینٹس کے ساتھ",
+          "ar": "سماد NPK عالي البوتاسيوم (مثل 12-6-24) مع مغذيات دقيقة",
+          "fr": "NPK riche en potassium (ex: 12-6-24) avec micronutriments"
+        },
+        "preparation": {
+          "en": "Dissolve 150g of 12-6-24 NPK granular fertilizer in 10 liters of water. Apply around the drip line.",
+          "ur": "10 لیٹر پانی میں 150 گرام 12-6-24 این پی کے دانے دار کھاد حل کریں۔ ڈرپ لائن کے گرد استعمال کریں۔",
+          "ar": "أذب 150 جرامًا من سماد NPK الحبيبي 12-6-24 في 10 لترات من الماء. طبق حول خط التنقيط.",
+          "fr": "Dissolvez 150g d'engrais granulaire NPK 12-6-24 dans 10 litres d'eau. Appliquez autour de la ligne d'égouttement."
+        },
+        "quantityPer10L": 150,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes fruit set, size, and sugar content.",
+          "ur": "پھلوں کی ترتیب، سائز اور مٹھاس کو بہتر بناتا ہے۔",
+          "ar": "يحسن عقد الثمار وحجمها ومحتواها من السكر.",
+          "fr": "Optimise la nouaison, la taille et la teneur en sucre des fruits."
+        }
+      }
+    },
+    "HYBRID": {
+      "SEEDLING": {
+        "week1": "Compost",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "VEGETATIVE": {
+        "week1": "Composted Chicken Manure",
+        "week2": "High N NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Kelp Meal",
+        "week2": "High K NPK",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "High K NPK",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "alfalfa",
+      "benefit": {
+        "en": "Nitrogen fixation, improves soil structure, and attracts beneficial insects.",
+        "ur": "نائٹروجن کی فکسیشن، مٹی کی ساخت کو بہتر بناتا ہے، اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "تثبيت النيتروجين، يحسن بنية التربة، ويجذب الحشرات النافعة.",
+        "fr": "Fixation de l'azote, améliore la structure du sol et attire les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "legumes",
+      "benefit": {
+        "en": "Nitrogen fixation, acts as green manure, and helps suppress weeds around the palm.",
+        "ur": "نائٹروجن کی فکسیشن، سبز کھاد کے طور پر کام کرتا ہے، اور کھجور کے گرد جڑی بوٹیوں کو دبانے میں مدد کرتا ہے۔",
+        "ar": "تثبيت النيتروجين، يعمل كسماد أخضر، ويساعد على قمع الأعشاب الضارة حول النخلة.",
+        "fr": "Fixation de l'azote, agit comme engrais vert et aide à supprimer les mauvaises herbes autour du palmier."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other soil-borne pests, and attracts pollinators.",
+        "ur": "نیماٹوڈس اور دیگر مٹی سے پیدا ہونے والے کیڑوں کو دور بھگاتا ہے، اور پولینیٹرز کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يطرد النيماتودا والآفات الأخرى التي تنقلها التربة، ويجذب الملقحات.",
+        "fr": "Repousse les nématodes et autres parasites du sol, et attire les pollinisateurs."
+      }
+    },
+    {
+      "plantId": "aromatic_herbs",
+      "benefit": {
+        "en": "Deters various pests, can be used as ground cover, and some attract beneficial insects.",
+        "ur": "مختلف کیڑوں کو دور بھگاتا ہے، زمینی پودوں کے طور پر استعمال کیا جا سکتا ہے، اور کچھ فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتے ہیں۔",
+        "ar": "يطرد الآفات المختلفة، يمكن استخدامه كغطاء أرضي، وبعضها يجذب الحشرات النافعة.",
+        "fr": "Repousse divers parasites, peut être utilisé comme couvre-sol, et certains attirent les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "clover",
+      "benefit": {
+        "en": "Retains soil moisture, suppresses weeds, and reduces soil temperature around the palm.",
+        "ur": "مٹی کی نمی کو برقرار رکھتا ہے، جڑی بوٹیوں کو دباتا ہے، اور کھجور کے گرد مٹی کا درجہ حرارت کم کرتا ہے۔",
+        "ar": "يحافظ على رطوبة التربة، يقمع الأعشاب الضارة، ويقلل من درجة حرارة التربة حول النخلة.",
+        "fr": "Retient l'humidité du sol, supprime les mauvaises herbes et réduit la température du sol autour du palmier."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "water_hungry_plants",
+      "reason": {
+        "en": "Plants that require excessive water can compete with date palms, which are adapted to arid conditions, potentially leading to water stress for the palm.",
+        "ur": "ایسے پودے جو زیادہ پانی استعمال کرتے ہیں وہ کھجور کے درخت سے مقابلہ کر سکتے ہیں، جو خشک حالات کے عادی ہیں، جس سے کھجور کے درخت کو پانی کی کمی کا سامنا کرنا پڑ سکتا ہے۔",
+        "ar": "النباتات التي تتطلب كميات مياه زائدة يمكن أن تتنافس مع نخيل التمر، الذي يتكيف مع الظروف القاحلة، مما قد يؤدي إلى إجهاد مائي للنخلة.",
+        "fr": "Les plantes qui nécessitent une eau excessive peuvent concurrencer les palmiers dattiers, adaptés aux conditions arides, entraînant potentiellement un stress hydrique pour le palmier."
+      }
+    },
+    {
+      "plantId": "dense_groundcover",
+      "reason": {
+        "en": "Very dense ground cover directly around the palm's trunk can create excessive humidity, promoting fungal diseases or hindering air circulation.",
+        "ur": "کھجور کے تنے کے گرد بہت گھنی زمینی پودوں کی تہہ زیادہ نمی پیدا کر سکتی ہے، جس سے فنگل بیماریاں بڑھ سکتی ہیں یا ہوا کی گردش میں رکاوٹ پیدا ہو سکتی ہے۔",
+        "ar": "الغطاء الأرضي الكثيف جدًا حول جذع النخلة يمكن أن يخلق رطوبة زائدة، مما يعزز الأمراض الفطرية أو يعيق دوران الهواء.",
+        "fr": "Une couverture végétale très dense directement autour du tronc du palmier peut créer une humidité excessive, favorisant les maladies fongiques ou entravant la circulation de l'air."
+      }
+    },
+    {
+      "plantId": "root_competitors",
+      "reason": {
+        "en": "Plants with aggressive root systems planted too close can compete heavily for nutrients and water, especially when the palm is young.",
+        "ur": "ایسے پودے جن کی جڑیں بہت تیزی سے پھیلتی ہیں، اگر کھجور کے قریب لگائے جائیں تو غذائی اجزاء اور پانی کے لیے شدید مقابلہ کر سکتے ہیں، خاص طور پر جب کھجور کا درخت جوان ہو۔",
+        "ar": "النباتات ذات الجذور العدوانية المزروعة بالقرب جدًا يمكن أن تتنافس بشدة على العناصر الغذائية والمياه، خاصة عندما تكون النخلة صغيرة.",
+        "fr": "Les plantes avec des systèmes racinaires agressifs plantées trop près peuvent fortement concurrencer les nutriments et l'eau, surtout lorsque le palmier est jeune."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "bayoud_disease",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "low",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes wilting and drying of fronds from the base upwards, internal reddish-brown streaks in vascular tissue. Highly destructive and often fatal.",
+        "ur": "پتوں کو نیچے سے اوپر کی طرف سوکھنے اور مرجھانے کا سبب بنتا ہے، اندرونی عروقی بافتوں میں سرخی مائل بھوری دھاریاں پڑ جاتی ہیں۔ یہ بہت تباہ کن اور اکثر مہلک ہوتا ہے۔",
+        "ar": "يسبب ذبول وجفاف الأوراق من القاعدة إلى الأعلى، وخطوطًا داخلية حمراء بنية في الأنسجة الوعائية. مدمر للغاية وغالبًا ما يكون قاتلاً.",
+        "fr": "Provoque le flétrissement et le dessèchement des palmes de la base vers le haut, des stries internes brun-rougeâtre dans le tissu vasculaire. Très destructeur et souvent fatal."
+      }
+    },
+    {
+      "pestId": "khamedj_disease",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Affects inflorescences, causing necrosis, blackening, and failure to set fruit. Can significantly reduce yield.",
+        "ur": "پھولوں کو متاثر کرتا ہے، جس سے نیکروسس، کالا پن، اور پھل نہ لگنے کا سبب بنتا ہے۔ پیداوار کو نمایاں طور پر کم کر سکتا ہے۔",
+        "ar": "يصيب النورات، مسبباً النخر، الاسوداد، وفشل عقد الثمار. يمكن أن يقلل الغلة بشكل كبير.",
+        "fr": "Affecte les inflorescences, provoquant la nécrose, le noircissement et l'échec de la nouaison. Peut réduire considérablement le rendement."
+      }
+    },
+    {
+      "pestId": "graphiola_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, black, raised spots (sori) on fronds, especially older ones. Primarily aesthetic, but severe infections can reduce photosynthetic capacity.",
+        "ur": "پتوں پر چھوٹے، کالے، ابھرے ہوئے دھبے (سوری) نمودار ہوتے ہیں، خاص طور پر پرانے پتوں پر۔ بنیادی طور پر جمالیاتی نقصان ہے، لیکن شدید انفیکشن فوٹو سنتھیٹک صلاحیت کو کم کر سکتے ہیں۔",
+        "ar": "بقع سوداء صغيرة ومرتفعة (سوري) على الأوراق، خاصة القديمة. ضرر جمالي بالدرجة الأولى، لكن العدوى الشديدة يمكن أن تقلل من قدرة التمثيل الضوئي.",
+        "fr": "Petites taches noires et surélevées (sores) sur les palmes, surtout les plus anciennes. Principalement esthétique, mais les infections sévères peuvent réduire la capacité photosynthétique."
+      }
+    },
+    {
+      "pestId": "red_palm_weevil",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into the trunk and crown, causing internal damage, frond collapse, and eventual death of the palm. Extremely destructive and difficult to detect early.",
+        "ur": "لاروا تنے اور تاج میں سوراخ کرتے ہیں، جس سے اندرونی نقصان، پتوں کا گرنا، اور بالآخر کھجور کی موت واقع ہوتی ہے۔ انتہائی تباہ کن اور ابتدائی طور پر پتہ لگانا مشکل ہے۔",
+        "ar": "تحفر اليرقات في الجذع والتاج، مما يسبب أضرارًا داخلية، وانهيار الأوراق، وموت النخلة في النهاية. مدمر للغاية ويصعب اكتشافه مبكرًا.",
+        "fr": "Les larves forent dans le tronc et la couronne, causant des dommages internes, l'effondrement des palmes et la mort éventuelle du palmier. Extrêmement destructeur et difficile à détecter tôt."
+      }
+    },
+    {
+      "pestId": "dubas_bug",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "low",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Sap-sucking insect, causes yellowing of fronds, honeydew secretion leading to sooty mold, and reduced fruit quality and yield.",
+        "ur": "رس چوسنے والا کیڑا، پتوں کا پیلا پن، شہد کی طرح کا مادہ خارج کرنا جس سے کالی پھپھوندی لگتی ہے، اور پھلوں کے معیار اور پیداوار میں کمی کا سبب بنتا ہے۔",
+        "ar": "حشرة ماصة للعصارة، تسبب اصفرار الأوراق، وإفراز الندوة العسلية التي تؤدي إلى العفن السخامي، وتقليل جودة الثمار والإنتاج.",
+        "fr": "Insecte suceur de sève, provoque le jaunissement des palmes, la sécrétion de miellat entraînant la fumagine, et une réduction de la qualité et du rendement des fruits."
+      }
+    },
+    {
+      "pestId": "date_mite",
+      "vulnerableStages": [
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<40%",
+        "temp": ">30"
+      },
+      "plantSpecificNotes": {
+        "en": "Feeds on developing dates, causing skin hardening, cracking, and reduced market value. Often called 'Ghobar mite' or 'Date dust mite'.",
+        "ur": "بڑھتے ہوئے کھجوروں پر حملہ کرتا ہے، جس سے جلد سخت ہو جاتی ہے، پھٹ جاتی ہے، اور بازار کی قیمت کم ہو جاتی ہے۔ اسے اکثر 'غبار مائٹ' یا 'ڈیٹ ڈسٹ مائٹ' کہا جاتا ہے۔",
+        "ar": "يتغذى على التمور النامية، مسبباً تصلب الجلد، وتشققه، وتقليل القيمة السوقية. غالبًا ما يسمى 'عث الغبار' أو 'عث التمر'.",
+        "fr": "Se nourrit des dattes en développement, provoquant le durcissement de la peau, des fissures et une réduction de la valeur marchande. Souvent appelé 'acarien Ghobar' ou 'acarien de la poussière de datte'."
+      }
+    },
+    {
+      "pestId": "black_scorch",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes blackening and necrosis on fronds, fruit stalks, and trunk. Can lead to heart rot and palm death if untreated.",
+        "ur": "پتوں، پھلوں کے ڈنٹھلوں اور تنے پر کالا پن اور نیکروسس کا سبب بنتا ہے۔ اگر علاج نہ کیا جائے تو دل کی سڑن اور کھجور کی موت کا باعث بن سکتا ہے۔",
+        "ar": "يسبب اسوداد ونخر على الأوراق، وسيقان الثمار، والجذع. يمكن أن يؤدي إلى تعفن القلب وموت النخلة إذا لم يتم علاجه.",
+        "fr": "Provoque le noircissement et la nécrose sur les palmes, les pédoncules et le tronc. Peut entraîner la pourriture du cœur et la mort du palmier si non traité."
+      }
+    },
+    {
+      "pestId": "lethal_yellowing",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes premature fruit drop, blackening of inflorescences, and yellowing of older fronds, progressing to the entire crown. Fatal.",
+        "ur": "پھلوں کا وقت سے پہلے گرنا، پھولوں کا کالا پڑنا، اور پرانے پتوں کا پیلا ہونا، جو پورے تاج تک پھیل جاتا ہے۔ مہلک ہے۔",
+        "ar": "يسبب تساقط الثمار المبكر، واسوداد النورات، واصفرار الأوراق القديمة، ويتطور ليشمل التاج بأكمله. قاتل.",
+        "fr": "Provoque la chute prématurée des fruits, le noircissement des inflorescences et le jaunissement des palmes plus âgées, progressant vers toute la couronne. Fatal."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 120,
+    "firstHarvestDayMax": 210,
+    "continuousHarvest": true,
+    "harvestWindowDays": 90,
+    "readinessSigns": [
+      {
+        "en": "Full color (yellow/red to amber/brown/black depending on variety)",
+        "ur": "پورا رنگ (قسم کے لحاظ سے پیلا/سرخ سے عنبر/بھورا/کالا)",
+        "ar": "لون كامل (أصفر/أحمر إلى كهرماني/بني/أسود حسب الصنف)",
+        "fr": "Couleur pleine (jaune/rouge à ambre/brun/noir selon la variété)"
+      },
+      {
+        "en": "Softening of flesh",
+        "ur": "گودے کا نرم ہونا",
+        "ar": "لين اللب",
+        "fr": "Ramollissement de la chair"
+      },
+      {
+        "en": "Sweet taste",
+        "ur": "میٹھا ذائقہ",
+        "ar": "طعم حلو",
+        "fr": "Goût sucré"
+      },
+      {
+        "en": "Slight wrinkling (for some varieties at 'Tamr' stage)",
+        "ur": "ہلکی سی جھری (بعض اقسام کے لیے 'تمر' مرحلے پر)",
+        "ar": "تجعد خفيف (لبعض الأصناف في مرحلة 'التمر')",
+        "fr": "Léger plissement (pour certaines variétés au stade 'Tamr')"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Cut the entire bunch when most dates are ripe.",
+        "ur": "جب زیادہ تر کھجوریں پک جائیں تو پورا گچھا کاٹ لیں۔",
+        "ar": "اقطع العنقود بأكمله عندما تنضج معظم التمور.",
+        "fr": "Coupez la grappe entière lorsque la plupart des dattes sont mûres."
+      },
+      "INTERMEDIATE": {
+        "en": "Selectively pick individual ripe dates from the bunch.",
+        "ur": "گچھے سے انفرادی پکی ہوئی کھجوریں چن کر توڑیں۔",
+        "ar": "اختر التمور الناضجة بشكل فردي من العنقود.",
+        "fr": "Cueillez sélectivement les dattes mûres individuellement de la grappe."
+      },
+      "EXPERT": {
+        "en": "Monitor sugar content and moisture for optimal harvest stage (Khalal, Rutab, Tamr).",
+        "ur": "بہترین کٹائی کے مرحلے (خلال، رطب، تمر) کے لیے چینی کی مقدار اور نمی کی نگرانی کریں۔",
+        "ar": "راقب محتوى السكر والرطوبة لمرحلة الحصاد المثلى (خلال، رطب، تمر).",
+        "fr": "Surveillez la teneur en sucre et l'humidité pour un stade de récolte optimal (Khalal, Rutab, Tamr)."
+      }
+    },
+    "storage": {
+      "en": "Store fresh, ripe dates at room temperature for short term; refrigerate for longer storage. Dried dates can be stored in a cool, dry place for extended periods.",
+      "ur": "تازہ، پکی ہوئی کھجوروں کو مختصر مدت کے لیے کمرے کے درجہ حرارت پر رکھیں؛ طویل ذخیرہ کے لیے فریج میں رکھیں۔ خشک کھجوروں کو طویل مدت کے لیے ٹھنڈی، خشک جگہ پر رکھا جا سکتا ہے۔",
+      "ar": "خزن التمور الطازجة والناضجة في درجة حرارة الغرفة لفترة قصيرة؛ ضعها في الثلاجة للتخزين الأطول. يمكن تخزين التمور المجففة في مكان بارد وجاف لفترات طويلة.",
+      "fr": "Conservez les dattes fraîches et mûres à température ambiante pour une courte durée; réfrigérez pour une conservation plus longue. Les dattes séchées peuvent être conservées dans un endroit frais et sec pendant de longues périodes."
+    },
+    "yieldEstimateKg": {
+      "10L": 0,
+      "20L": 0,
+      "30L": 0,
+      "GROUND": 100
+    }
+  }
+}

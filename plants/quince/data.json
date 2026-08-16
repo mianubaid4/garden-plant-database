@@ -1,0 +1,1517 @@
+{
+  "id": "quince",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627308595167-17257218320c?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Quince",
+      "alternate": []
+    },
+    "ur": {
+      "common": "بہی",
+      "alternate": []
+    },
+    "ar": {
+      "common": "سفرجل",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Coing",
+      "alternate": []
+    },
+    "botanical": "Cydonia oblonga",
+    "aliases": [
+      "beh",
+      "safarjal",
+      "coing"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "tree",
+  "germinationDays": 45,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 40,
+    "slowGrowthBelowC": 7,
+    "rainSkipWateringMm": 15
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 45,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "STANDARD_TREE",
+    "DWARF_TREE"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "STANDARD_TREE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Grows into a full-sized tree, requiring regular pruning for shape, health, and fruit production.",
+          "ur": "ایک مکمل سائز کا درخت بنتا ہے، جسے شکل، صحت اور پھل کی پیداوار کے لیے باقاعدہ کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "DWARF_TREE": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Grows into a smaller, more manageable tree, suitable for smaller gardens or containers. Requires regular pruning.",
+          "ur": "ایک چھوٹا، زیادہ قابل انتظام درخت بنتا ہے، جو چھوٹے باغات یا گملوں کے لیے موزوں ہے۔ باقاعدہ کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Pollinated by bees and other insects, and wind.",
+        "ur": "شہد کی مکھیوں اور دیگر کیڑوں، اور ہوا کے ذریعے پولینیٹ ہوتا ہے۔",
+        "ar": "يتم تلقيحه بواسطة النحل والحشرات الأخرى، والرياح.",
+        "fr": "Pollinisé par les abeilles et autres insectes, et le vent."
+      }
+    ]
+  },
+  "tags": [
+    "fruit",
+    "tree",
+    "temperate",
+    "deciduous",
+    "slow-from-seed"
+  ],
+  "temperature": {
+    "optimalMinC": 15,
+    "optimalMaxC": 28,
+    "survivalMinC": -20,
+    "survivalMaxC": 38,
+    "germinationMinC": 12,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 32,
+    "flowerDropBelowC": -2
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 100,
+    "requiredGDD": 1800,
+    "baseTempC": 7,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 35,
+      "coldStressCriticalC": -5,
+      "frostWarningC": -2,
+      "heavyRainMm": 30,
+      "highWindKmh": 50,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 12
+  },
+  "water": {
+    "baseMlPer10L": 1500,
+    "intervalDaysBase": 5,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 7,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Deep and Infrequent",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "High during establishment and fruiting",
+    "rootRotRisk": "Medium if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 40,
+      "max": 65
+    },
+    "drynessThreshold": {
+      "warning": 30,
+      "critical": 20
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "leaf scorch",
+      "fruit drop",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "root rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Drip irrigation or slow deep watering",
+    "thingsToAvoid": [
+      "shallow frequent watering",
+      "waterlogging",
+      "overhead watering (can promote disease)"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "regulate soil temperature",
+      "suppress weeds"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Use large pots with excellent drainage, especially for dwarf varieties.",
+        "ur": "بڑے گملے استعمال کریں جن میں بہترین نکاسی ہو، خاص طور پر بونے اقسام کے لیے۔",
+        "ar": "استخدم أواني كبيرة ذات تصريف ممتاز، خاصة للأصناف القزمة.",
+        "fr": "Utilisez de grands pots avec un excellent drainage, surtout pour les variétés naines."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 50,
+      "minDepthCm": 45,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Fabric grow bags provide good aeration and drainage for container-grown quince.",
+        "ur": "فیبرک گرو بیگز گملوں میں اگائے گئے بہی کے لیے اچھی ہوا اور نکاسی فراہم کرتے ہیں۔",
+        "ar": "توفر أكياس الزراعة القماشية تهوية وتصريفًا جيدين للسفرجل المزروع في الأواني.",
+        "fr": "Les sacs de culture en tissu offrent une bonne aération et un bon drainage pour les coings cultivés en conteneur."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.6,
+      "notes": {
+        "en": "Ensure well-drained soil and adequate spacing for mature tree growth.",
+        "ur": "پختہ درخت کی نشوونما کے لیے اچھی نکاسی والی مٹی اور مناسب فاصلہ یقینی بنائیں۔",
+        "ar": "تأكد من التربة جيدة التصريف والمسافة الكافية لنمو الشجرة الناضجة.",
+        "fr": "Assurez un sol bien drainé et un espacement adéquat pour la croissance de l'arbre mature."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Raised beds allow for better soil control and drainage, beneficial for quince.",
+        "ur": "اونچے بستر مٹی کے بہتر کنٹرول اور نکاسی کی اجازت دیتے ہیں، جو بہی کے لیے فائدہ مند ہے۔",
+        "ar": "تسمح الأسرة المرتفعة بتحكم أفضل في التربة والصرف، وهو مفيد للسفرجل.",
+        "fr": "Les plates-bandes surélevées permettent un meilleur contrôle du sol et du drainage, bénéfique pour le coing."
+      }
+    }
+  },
+  "isTree": true,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "3-5 years (from grafted tree), 5-10 years (from seed)",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Seed stratification and sowing, or planting cuttings.",
+        "ur": "بیجوں کی تہہ بندی اور بونا، یا قلم لگانا۔",
+        "ar": "تطبيق الطبقات الباردة على البذور وزراعتها، أو زراعة العقل.",
+        "fr": "Stratification et semis des graines, ou plantation de boutures."
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Quince seeds require cold stratification for 60-90 days before sowing.",
+          "ur": "کوینس کے بیجوں کو بونے سے پہلے 60-90 دن تک سرد تہہ بندی کی ضرورت ہوتی ہے۔",
+          "ar": "تتطلب بذور السفرجل طبقات باردة لمدة 60-90 يومًا قبل الزراعة.",
+          "fr": "Les graines de coing nécessitent une stratification à froid de 60 à 90 jours avant le semis."
+        }
+      ],
+      "tasks": {
+        "seedStratification": {
+          "required": true,
+          "dayOffset": -90,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Place seeds in moist sand/peat in a sealed bag in the refrigerator for 60-90 days.",
+              "ur": "بیجوں کو نم ریت/پیٹ میں ایک بند تھیلے میں 60-90 دن کے لیے فریج میں رکھیں۔",
+              "ar": "ضع البذور في رمل/خث رطب في كيس محكم الإغلاق في الثلاجة لمدة 60-90 يومًا.",
+              "fr": "Placez les graines dans du sable/tourbe humide dans un sac scellé au réfrigérateur pendant 60-90 jours."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture and temperature (3-5°C) during stratification.",
+              "ur": "تہہ بندی کے دوران مستقل نمی اور درجہ حرارت (3-5°C) کو یقینی بنائیں۔",
+              "ar": "تأكد من الرطوبة ودرجة الحرارة الثابتة (3-5 درجات مئوية) أثناء الطبقات الباردة.",
+              "fr": "Assurez une humidité et une température constantes (3-5°C) pendant la stratification."
+            },
+            "EXPERT": {
+              "en": "Monitor for mold; air out bag periodically. Consider gibberellic acid for stubborn seeds.",
+              "ur": "پھپھوندی کے لیے نگرانی کریں؛ تھیلے کو وقتاً فوقتاً ہوا دیں۔ ضدی بیجوں کے لیے جبریلک ایسڈ پر غور کریں۔",
+              "ar": "راقب العفن؛ قم بتهوية الكيس بشكل دوري. فكر في حمض الجبريليك للبذور العنيدة.",
+              "fr": "Surveillez la moisissure; aérez le sac périodiquement. Envisagez l'acide gibbérellique pour les graines tenaces."
+            }
+          }
+        },
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use a well-draining potting mix for seed trays or small pots.",
+              "ur": "بیجوں کی ٹرے یا چھوٹے گملوں کے لیے اچھی نکاسی والی مٹی کا استعمال کریں۔",
+              "ar": "استخدم خليط تأصيص جيد التصريف لصواني البذور أو الأواني الصغيرة.",
+              "fr": "Utilisez un terreau bien drainant pour les plateaux de semis ou les petits pots."
+            },
+            "INTERMEDIATE": {
+              "en": "Mix equal parts compost, perlite, and peat moss for optimal drainage and aeration.",
+              "ur": "بہترین نکاسی اور ہوا کے لیے کھاد، پرلائٹ اور پیٹ ماس کے برابر حصے ملائیں۔",
+              "ar": "اخلط أجزاء متساوية من السماد والبيرلايت وطحالب الخث لتصريف وتهوية مثاليين.",
+              "fr": "Mélangez des parts égales de compost, de perlite et de tourbe pour un drainage et une aération optimaux."
+            },
+            "EXPERT": {
+              "en": "Sterilize potting mix to prevent damping-off disease. Ensure pH is slightly acidic (6.0-7.0).",
+              "ur": "ڈیمپنگ آف بیماری سے بچنے کے لیے مٹی کو جراثیم سے پاک کریں۔ پی ایچ کو ہلکا تیزابی (6.0-7.0) رکھیں۔",
+              "ar": "عقم خليط التأصيص لمنع مرض الذبول. تأكد من أن الرقم الهيدروجيني حمضي قليلاً (6.0-7.0).",
+              "fr": "Stérilisez le terreau pour prévenir la fonte des semis. Assurez un pH légèrement acide (6.0-7.0)."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep in pots or trays. Cover lightly with soil.",
+              "ur": "بیجوں کو گملوں یا ٹرے میں 1/4 انچ گہرائی میں بوئیں۔ مٹی سے ہلکا ڈھانپیں۔",
+              "ar": "ازرع البذور بعمق 1/4 بوصة في الأواني أو الصواني. غطها برفق بالتربة.",
+              "fr": "Semez les graines à 1/4 de pouce de profondeur dans des pots ou des plateaux. Couvrez légèrement de terre."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2-3 seeds per pot to ensure germination, thinning later to the strongest seedling.",
+              "ur": "انکرن کو یقینی بنانے کے لیے ہر گملے میں 2-3 بیج بوئیں، بعد میں سب سے مضبوط پودے کو پتلا کریں۔",
+              "ar": "ازرع 2-3 بذور في كل وعاء لضمان الإنبات، ثم قم بتخفيفها لاحقًا إلى الشتلة الأقوى.",
+              "fr": "Plantez 2-3 graines par pot pour assurer la germination, éclaircissez ensuite pour ne garder que le plant le plus fort."
+            },
+            "EXPERT": {
+              "en": "Maintain consistent soil temperature around 20-25°C for optimal germination.",
+              "ur": "بہترین انکرن کے لیے مٹی کا درجہ حرارت 20-25°C کے قریب رکھیں۔",
+              "ar": "حافظ على درجة حرارة التربة ثابتة حوالي 20-25 درجة مئوية للإنبات الأمثل.",
+              "fr": "Maintenez une température du sol constante autour de 20-25°C pour une germination optimale."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface to keep it consistently moist but not waterlogged.",
+              "ur": "مٹی کی سطح کو مسلسل نم رکھنے کے لیے چھڑکاؤ کریں لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "رش سطح التربة للحفاظ عليها رطبة باستمرار ولكن ليست مشبعة بالماء.",
+              "fr": "Vaporisez la surface du sol pour la maintenir constamment humide mais non gorgée d'eau."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fine mist sprayer to avoid disturbing the seeds.",
+              "ur": "بیجوں کو پریشان کرنے سے بچنے کے لیے ایک باریک چھڑکاؤ والا سپرےر استعمال کریں۔",
+              "ar": "استخدم بخاخ رذاذ ناعم لتجنب إزعاج البذور.",
+              "fr": "Utilisez un pulvérisateur à brouillard fin pour éviter de déranger les graines."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a hygrometer; aim for consistent, light dampness.",
+              "ur": "ہائیگرومیٹر سے مٹی کی نمی کی نگرانی کریں؛ مستقل، ہلکی نمی کا ہدف رکھیں۔",
+              "ar": "راقب رطوبة التربة بمقياس الرطوبة؛ استهدف رطوبة خفيفة وثابتة.",
+              "fr": "Surveillez l'humidité du sol avec un hygromètre; visez une humidité légère et constante."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "First sprouts emerge from the soil.",
+        "ur": "پہلی کونپلیں مٹی سے نکلتی ہیں۔",
+        "ar": "تظهر البراعم الأولى من التربة.",
+        "fr": "Les premières pousses émergent du sol."
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Provide adequate light once sprouts appear to prevent leggy growth.",
+          "ur": "کونپلیں نکلنے کے بعد مناسب روشنی فراہم کریں تاکہ لمبی نشوونما سے بچا جا سکے۔",
+          "ar": "وفر إضاءة كافية بمجرد ظهور البراعم لمنع النمو الطويل والضعيف.",
+          "fr": "Fournissez une lumière adéquate dès l'apparition des pousses pour éviter une croissance étiolée."
+        }
+      ],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 10,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check daily for tiny green shoots emerging from the soil.",
+              "ur": "روزانہ مٹی سے نکلنے والی چھوٹی سبز کونپلوں کو چیک کریں۔",
+              "ar": "تحقق يوميًا من ظهور براعم خضراء صغيرة من التربة.",
+              "fr": "Vérifiez quotidiennement l'apparition de petites pousses vertes du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent warmth and humidity for successful germination.",
+              "ur": "کامیاب انکرن کے لیے مستقل گرمی اور نمی کو یقینی بنائیں۔",
+              "ar": "تأكد من الدفء والرطوبة المستمرين لإنبات ناجح.",
+              "fr": "Assurez une chaleur et une humidité constantes pour une germination réussie."
+            },
+            "EXPERT": {
+              "en": "Document germination rates and conditions for future reference.",
+              "ur": "مستقبل کے حوالے کے لیے انکرن کی شرح اور حالات کو دستاویزی شکل دیں۔",
+              "ar": "وثق معدلات الإنبات والظروف للرجوع إليها مستقبلاً.",
+              "fr": "Documentez les taux de germination et les conditions pour référence future."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to keep the soil moist without disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر مٹی کو نم رکھنے کے لیے آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف للحفاظ على رطوبة التربة دون إزعاج البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour maintenir le sol humide sans perturber les jeunes pousses délicates."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a watering can with a fine rose or bottom-water to avoid splashing.",
+              "ur": "پانی چھڑکنے سے بچنے کے لیے باریک روز والے پانی دینے والے کین یا نیچے سے پانی دیں۔",
+              "ar": "استخدم مرشة ذات رأس ناعم أو اسقِ من الأسفل لتجنب الرش.",
+              "fr": "Utilisez un arrosoir avec une pomme fine ou arrosez par le bas pour éviter les éclaboussures."
+            },
+            "EXPERT": {
+              "en": "Maintain optimal soil moisture tension to encourage root development.",
+              "ur": "جڑوں کی نشوونما کو فروغ دینے کے لیے مٹی کی نمی کی بہترین کشیدگی برقرار رکھیں۔",
+              "ar": "حافظ على توتر رطوبة التربة الأمثل لتشجيع نمو الجذور.",
+              "fr": "Maintenez une tension d'humidité du sol optimale pour encourager le développement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 240,
+      "durationDaysWarm": 180,
+      "durationDaysCool": 300,
+      "description": {
+        "en": "Seedlings develop true leaves and strengthen.",
+        "ur": "پودے اصلی پتے تیار کرتے ہیں اور مضبوط ہوتے ہیں۔",
+        "ar": "تنمو الشتلات أوراقًا حقيقية وتتقوى.",
+        "fr": "Les jeunes plants développent de vraies feuilles et se renforcent."
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Harden off seedlings gradually before transplanting outdoors.",
+          "ur": "بیرونی منتقلی سے پہلے پودوں کو آہستہ آہستہ سخت کریں۔",
+          "ar": "قم بتقوية الشتلات تدريجياً قبل نقلها إلى الخارج.",
+          "fr": "Endurcissez progressivement les jeunes plants avant de les transplanter à l'extérieur."
+        }
+      ],
+      "tasks": {
+        "transplantToNurseryPot": {
+          "required": true,
+          "dayOffset": 30,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once seedlings have 2-3 true leaves, carefully transplant them into larger nursery pots (e.g., 1-gallon).",
+              "ur": "جب پودوں میں 2-3 اصلی پتے آ جائیں، تو انہیں احتیاط سے بڑے نرسری گملوں (مثلاً 1 گیلن) میں منتقل کریں۔",
+              "ar": "بمجرد أن تحتوي الشتلات على 2-3 أوراق حقيقية، انقلها بعناية إلى أواني حضانة أكبر (مثل 1 جالون).",
+              "fr": "Une fois que les jeunes plants ont 2-3 vraies feuilles, transplantez-les délicatement dans des pots de pépinière plus grands (par exemple, 1 gallon)."
+            },
+            "INTERMEDIATE": {
+              "en": "Handle seedlings by their leaves, not stems, to avoid damage. Ensure good root contact with new soil.",
+              "ur": "پودوں کو پتوں سے پکڑیں، تنوں سے نہیں، تاکہ نقصان سے بچا جا سکے۔ نئی مٹی کے ساتھ جڑوں کا اچھا رابطہ یقینی بنائیں۔",
+              "ar": "تعامل مع الشتلات من أوراقها، وليس سيقانها، لتجنب التلف. تأكد من ملامسة الجذور الجيدة للتربة الجديدة.",
+              "fr": "Manipulez les jeunes plants par leurs feuilles, pas par leurs tiges, pour éviter les dommages. Assurez un bon contact des racines avec le nouveau sol."
+            },
+            "EXPERT": {
+              "en": "Minimize root disturbance during transplant. Water immediately after to settle soil.",
+              "ur": "منتقلی کے دوران جڑوں کی پریشانی کو کم سے کم کریں۔ مٹی کو ٹھیک کرنے کے لیے فوراً پانی دیں۔",
+              "ar": "قلل من اضطراب الجذور أثناء النقل. اسقِ الماء فورًا بعد ذلك لتثبيت التربة.",
+              "fr": "Minimisez la perturbation des racines lors du repiquage. Arrosez immédiatement après pour tasser le sol."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the seedling, allowing the top inch of soil to dry slightly between waterings.",
+              "ur": "پودے کی جڑ میں پانی دیں، پانی دینے کے درمیان مٹی کی اوپری انچ کو تھوڑا خشک ہونے دیں۔",
+              "ar": "اسقِ قاعدة الشتلة، مما يسمح للجزء العلوي من التربة بالجفاف قليلاً بين الريات.",
+              "fr": "Arrosez à la base du jeune plant, en laissant le premier pouce de terre sécher légèrement entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure thorough watering that reaches the entire root ball, promoting deep root growth.",
+              "ur": "پوری جڑ کی گیند تک پہنچنے والا مکمل پانی یقینی بنائیں، گہری جڑوں کی نشوونما کو فروغ دیں۔",
+              "ar": "تأكد من الري الشامل الذي يصل إلى كرة الجذر بأكملها، مما يعزز نمو الجذور العميقة.",
+              "fr": "Assurez un arrosage en profondeur qui atteint toute la motte, favorisant une croissance racinaire profonde."
+            },
+            "EXPERT": {
+              "en": "Monitor for signs of over or under-watering (wilting, yellowing leaves). Adjust frequency as needed.",
+              "ur": "زیادہ یا کم پانی دینے کی علامات (مرجھانا، پتوں کا پیلا ہونا) کی نگرانی کریں۔ ضرورت کے مطابق تعدد کو ایڈجسٹ کریں۔",
+              "ar": "راقب علامات الإفراط في الري أو نقصه (الذبول، اصفرار الأوراق). اضبط التكرار حسب الحاجة.",
+              "fr": "Surveillez les signes de sur-arrosage ou de sous-arrosage (flétrissement, jaunissement des feuilles). Ajustez la fréquence au besoin."
+            }
+          }
+        },
+        "lightFertilization": {
+          "isRecurring": true,
+          "intervalDays": 21,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a diluted liquid fertilizer (half strength) every 3 weeks.",
+              "ur": "ہر 3 ہفتوں میں پتلا مائع کھاد (آدھی طاقت) استعمال کریں۔",
+              "ar": "طبق سمادًا سائلًا مخففًا (نصف القوة) كل 3 أسابيع.",
+              "fr": "Appliquez un engrais liquide dilué (demi-dose) toutes les 3 semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a balanced, slow-release granular fertilizer or a balanced liquid feed.",
+              "ur": "متوازن، آہستہ جاری ہونے والا دانے دار کھاد یا متوازن مائع کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا حبيبيًا متوازنًا بطيء الإطلاق أو سمادًا سائلًا متوازنًا.",
+              "fr": "Utilisez un engrais granulaire à libération lente équilibré ou un engrais liquide équilibré."
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests to determine specific nutrient deficiencies and tailor fertilization.",
+              "ur": "مخصوص غذائی اجزاء کی کمی کا تعین کرنے اور کھاد کو ایڈجسٹ کرنے کے لیے مٹی کے ٹیسٹ کریں۔",
+              "ar": "قم بإجراء اختبارات التربة لتحديد نقص المغذيات المحددة وتكييف التسميد.",
+              "fr": "Effectuez des analyses de sol pour déterminer les carences spécifiques en nutriments et adapter la fertilisation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 1460,
+      "durationDaysWarm": 1095,
+      "durationDaysCool": 1825,
+      "description": {
+        "en": "Young quince tree establishes, grows vigorously, and forms its structure.",
+        "ur": "نوجوان کوینس کا درخت قائم ہوتا ہے، تیزی سے بڑھتا ہے، اور اپنی ساخت بناتا ہے۔",
+        "ar": "تستقر شجرة السفرجل الصغيرة، وتنمو بقوة، وتشكل هيكلها.",
+        "fr": "Le jeune cognassier s'établit, pousse vigoureusement et forme sa structure."
+      },
+      "emoji": "🌳",
+      "tips": [
+        {
+          "en": "Proper formative pruning in the first few years is crucial for a strong, productive tree.",
+          "ur": "پہلے چند سالوں میں مناسب تشکیلاتی کٹائی ایک مضبوط، پیداواری درخت کے لیے بہت ضروری ہے۔",
+          "ar": "التقليم التكويني الصحيح في السنوات القليلة الأولى أمر بالغ الأهمية لشجرة قوية ومنتجة.",
+          "fr": "Une taille de formation appropriée au cours des premières années est cruciale pour un arbre fort et productif."
+        }
+      ],
+      "tasks": {
+        "plantingOut": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 60,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Choose a sunny spot with well-draining soil. Dig a hole twice as wide as the root ball.",
+              "ur": "اچھی نکاسی والی مٹی کے ساتھ دھوپ والی جگہ کا انتخاب کریں۔ جڑ کی گیند سے دو گنا چوڑا گڑھا کھودیں۔",
+              "ar": "اختر بقعة مشمسة ذات تربة جيدة التصريف. احفر حفرة بعرض ضعف كرة الجذر.",
+              "fr": "Choisissez un endroit ensoleillé avec un sol bien drainé. Creusez un trou deux fois plus large que la motte."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with compost. Plant at the same depth as in the nursery pot. Water thoroughly.",
+              "ur": "مٹی کو کھاد سے بہتر بنائیں۔ نرسری گملے کی گہرائی پر لگائیں۔ اچھی طرح پانی دیں۔",
+              "ar": "حسن التربة بالسماد. ازرع على نفس العمق كما في وعاء الحضانة. اسقِ جيدًا.",
+              "fr": "Amendez le sol avec du compost. Plantez à la même profondeur que dans le pot de pépinière. Arrosez abondamment."
+            },
+            "EXPERT": {
+              "en": "Consider soil pH (6.0-7.0 ideal). Create a watering basin around the tree. Mulch heavily.",
+              "ur": "مٹی کے پی ایچ (6.0-7.0 مثالی) پر غور کریں۔ درخت کے گرد پانی کا ایک بیسن بنائیں۔ بھاری مقدار میں ملچ کریں۔",
+              "ar": "ضع في اعتبارك الرقم الهيدروجيني للتربة (6.0-7.0 مثالي). أنشئ حوض ري حول الشجرة. غطِ التربة بكثافة.",
+              "fr": "Considérez le pH du sol (6.0-7.0 idéal). Créez une cuvette d'arrosage autour de l'arbre. Paillez abondamment."
+            }
+          }
+        },
+        "formativePruning": {
+          "isRecurring": true,
+          "intervalDays": 365,
+          "dayOffset": 180,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any dead, damaged, or crossing branches. Aim for an open vase shape.",
+              "ur": "کسی بھی مردہ، خراب شدہ، یا ایک دوسرے کو کاٹنے والی شاخوں کو ہٹا دیں۔ کھلے گلدان کی شکل کا ہدف رکھیں۔",
+              "ar": "أزل أي فروع ميتة أو تالفة أو متقاطعة. استهدف شكل مزهرية مفتوحة.",
+              "fr": "Supprimez les branches mortes, endommagées ou qui se croisent. Visez une forme en vase ouvert."
+            },
+            "INTERMEDIATE": {
+              "en": "Establish a strong central leader or 3-5 well-spaced scaffold branches. Remove suckers and water sprouts.",
+              "ur": "ایک مضبوط مرکزی رہنما یا 3-5 اچھی طرح پھیلی ہوئی بنیادی شاخیں قائم کریں۔ سکرز اور واٹر سپراؤٹس کو ہٹا دیں۔",
+              "ar": "أنشئ قائدًا مركزيًا قويًا أو 3-5 فروع هيكلية متباعدة جيدًا. أزل السرطانات والفروع المائية.",
+              "fr": "Établissez une tige centrale forte ou 3-5 branches charpentières bien espacées. Supprimez les gourmands et les rejets."
+            },
+            "EXPERT": {
+              "en": "Prune to encourage fruit spur development and maintain tree vigor. Balance vegetative and reproductive growth.",
+              "ur": "پھل کے سپرز کی نشوونما کو فروغ دینے اور درخت کی طاقت کو برقرار رکھنے کے لیے کٹائی کریں۔ نباتاتی اور تولیدی نشوونما کو متوازن کریں۔",
+              "ar": "قم بالتقليم لتشجيع نمو براعم الفاكهة والحفاظ على حيوية الشجرة. وازن بين النمو الخضري والتكاثري.",
+              "fr": "Taillez pour encourager le développement des dards fruitiers et maintenir la vigueur de l'arbre. Équilibrez la croissance végétative et reproductive."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 90,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect leaves for common pests like aphids or caterpillars. Remove manually or spray with insecticidal soap.",
+              "ur": "ایفڈز یا کیٹرپلرز جیسے عام کیڑوں کے لیے پتوں کا معائنہ کریں۔ دستی طور پر ہٹا دیں یا کیڑے مار صابن سے سپرے کریں۔",
+              "ar": "افحص الأوراق بحثًا عن الآفات الشائعة مثل المن أو اليرقات. أزلها يدويًا أو رشها بصابون مبيد للحشرات.",
+              "fr": "Inspectez les feuilles pour les parasites courants comme les pucerons ou les chenilles. Retirez-les manuellement ou pulvérisez avec du savon insecticide."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply dormant oil in late winter to control overwintering pests and eggs.",
+              "ur": "سردیوں کے آخر میں سویا ہوا تیل استعمال کریں تاکہ سردیوں میں رہنے والے کیڑوں اور انڈوں کو کنٹرول کیا جا سکے۔",
+              "ar": "طبق الزيت الشتوي في أواخر الشتاء للتحكم في الآفات والبيض التي تقضي الشتاء.",
+              "fr": "Appliquez de l'huile de dormance en fin d'hiver pour contrôler les parasites et les œufs hivernants."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, including beneficial insects and targeted treatments.",
+              "ur": "مفید کیڑوں اور ہدف شدہ علاج سمیت ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں۔",
+              "ar": "طبق استراتيجية متكاملة لإدارة الآفات (IPM)، بما في ذلك الحشرات النافعة والعلاجات المستهدفة.",
+              "fr": "Mettez en œuvre une stratégie de lutte intégrée contre les ravageurs (IPM), y compris les insectes auxiliaires et les traitements ciblés."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 1500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, especially during dry periods, to encourage deep root growth.",
+              "ur": "خاص طور پر خشک ادوار میں، گہری جڑوں کی نشوونما کو فروغ دینے کے لیے ہفتے میں ایک بار گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، خاصة خلال الفترات الجافة، لتشجيع نمو الجذور العميقة.",
+              "fr": "Arrosez profondément une fois par semaine, surtout pendant les périodes sèches, pour encourager la croissance des racines profondes."
+            },
+            "INTERMEDIATE": {
+              "en": "Check soil moisture 6-8 inches deep before watering. Adjust frequency based on rainfall and temperature.",
+              "ur": "پانی دینے سے پہلے 6-8 انچ گہرائی میں مٹی کی نمی چیک کریں۔ بارش اور درجہ حرارت کی بنیاد پر تعدد کو ایڈجسٹ کریں۔",
+              "ar": "تحقق من رطوبة التربة بعمق 6-8 بوصات قبل الري. اضبط التكرار بناءً على هطول الأمطار ودرجة الحرارة.",
+              "fr": "Vérifiez l'humidité du sol à 6-8 pouces de profondeur avant d'arroser. Ajustez la fréquence en fonction des précipitations et de la température."
+            },
+            "EXPERT": {
+              "en": "Utilize drip irrigation for efficient water delivery, minimizing evaporation and fungal issues.",
+              "ur": "پانی کی موثر ترسیل کے لیے ڈرپ ایریگیشن کا استعمال کریں، بخارات اور فنگل مسائل کو کم کریں۔",
+              "ar": "استخدم الري بالتنقيط لتوصيل المياه بكفاءة، مما يقلل من التبخر والمشاكل الفطرية.",
+              "fr": "Utilisez l'irrigation goutte à goutte pour une distribution d'eau efficace, minimisant l'évaporation et les problèmes fongiques."
+            }
+          }
+        },
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 180,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced granular fertilizer (e.g., 10-10-10) around the drip line in spring.",
+              "ur": "بہار میں ڈرپ لائن کے گرد متوازن دانے دار کھاد (مثلاً 10-10-10) استعمال کریں۔",
+              "ar": "طبق سمادًا حبيبيًا متوازنًا (مثل 10-10-10) حول خط التنقيط في الربيع.",
+              "fr": "Appliquez un engrais granulaire équilibré (par exemple, 10-10-10) autour de la ligne d'égouttement au printemps."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a slow-release fruit tree fertilizer. Avoid over-fertilizing nitrogen, which can reduce fruiting.",
+              "ur": "آہستہ جاری ہونے والا پھل کے درخت کا کھاد استعمال کریں۔ نائٹروجن کی زیادہ کھاد سے گریز کریں، جو پھل کو کم کر سکتی ہے۔",
+              "ar": "استخدم سمادًا بطيء الإطلاق لأشجار الفاكهة. تجنب الإفراط في تسميد النيتروجين، مما قد يقلل من الإثمار.",
+              "fr": "Utilisez un engrais pour arbres fruitiers à libération lente. Évitez de sur-fertiliser en azote, ce qui peut réduire la fructification."
+            },
+            "EXPERT": {
+              "en": "Perform soil tests annually to tailor nutrient application. Consider foliar feeding for micronutrients.",
+              "ur": "غذائی اجزاء کے استعمال کو ایڈجسٹ کرنے کے لیے سالانہ مٹی کے ٹیسٹ کریں۔ مائیکرونیوٹرینٹس کے لیے پتوں سے کھاد دینے پر غور کریں۔",
+              "ar": "قم بإجراء اختبارات التربة سنويًا لتكييف تطبيق المغذيات. فكر في التغذية الورقية للمغذيات الدقيقة.",
+              "fr": "Effectuez des analyses de sol annuellement pour adapter l'apport en nutriments. Envisagez la fertilisation foliaire pour les micronutriments."
+            }
+          }
+        },
+        "staking": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If the young tree is unstable, use a single stake and soft ties to provide support.",
+              "ur": "اگر نوجوان درخت غیر مستحکم ہے، تو سہارا فراہم کرنے کے لیے ایک ہی لکڑی اور نرم پٹیاں استعمال کریں۔",
+              "ar": "إذا كانت الشجرة الصغيرة غير مستقرة، استخدم وتدًا واحدًا وربطات ناعمة لتوفير الدعم.",
+              "fr": "Si le jeune arbre est instable, utilisez un seul tuteur et des liens souples pour le soutenir."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure stakes are placed outside the root ball and ties allow for some movement to encourage trunk strength.",
+              "ur": "یقینی بنائیں کہ لکڑیاں جڑ کی گیند کے باہر رکھی گئی ہیں اور پٹیاں تنے کی مضبوطی کو فروغ دینے کے لیے کچھ حرکت کی اجازت دیتی ہیں۔",
+              "ar": "تأكد من وضع الأوتاد خارج كرة الجذر وأن الروابط تسمح ببعض الحركة لتشجيع قوة الجذع.",
+              "fr": "Assurez-vous que les tuteurs sont placés à l'extérieur de la motte et que les liens permettent un certain mouvement pour encourager la force du tronc."
+            },
+            "EXPERT": {
+              "en": "Remove stakes once the tree is well-established (typically after 1-2 years) to prevent girdling.",
+              "ur": "درخت کے اچھی طرح قائم ہونے کے بعد (عام طور پر 1-2 سال بعد) گھیراؤ سے بچنے کے لیے لکڑیوں کو ہٹا دیں۔",
+              "ar": "أزل الأوتاد بمجرد أن تستقر الشجرة جيدًا (عادة بعد 1-2 سنة) لمنع التضييق.",
+              "fr": "Retirez les tuteurs une fois que l'arbre est bien établi (généralement après 1-2 ans) pour éviter le cernage."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 30,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Quince tree produces beautiful pinkish-white blossoms in spring.",
+        "ur": "کوینس کا درخت بہار میں خوبصورت گلابی سفید پھول پیدا کرتا ہے۔",
+        "ar": "تنتج شجرة السفرجل أزهارًا وردية بيضاء جميلة في الربيع.",
+        "fr": "Le cognassier produit de magnifiques fleurs blanc rosé au printemps."
+      },
+      "emoji": "🌸",
+      "tips": [
+        {
+          "en": "Protect blossoms from late spring frosts if temperatures are expected to drop.",
+          "ur": "اگر درجہ حرارت گرنے کی توقع ہو تو بہار کے آخر کی ٹھنڈ سے پھولوں کو بچائیں۔",
+          "ar": "احمِ الأزهار من الصقيع المتأخر في الربيع إذا كان من المتوقع أن تنخفض درجات الحرارة.",
+          "fr": "Protégez les fleurs des gelées tardives de printemps si les températures sont censées chuter."
+        }
+      ],
+      "tasks": {
+        "pestDiseaseCheck": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Inspect flowers and young leaves for signs of pests or diseases like fire blight (blackened shoots).",
+              "ur": "پھولوں اور نوجوان پتوں کا کیڑوں یا آگ کی بیماری (کالے ہوئے ٹہنیاں) جیسی بیماریوں کی علامات کے لیے معائنہ کریں۔",
+              "ar": "افحص الأزهار والأوراق الصغيرة بحثًا عن علامات الآفات أو الأمراض مثل اللفحة النارية (البراعم المتفحمة).",
+              "fr": "Inspectez les fleurs et les jeunes feuilles pour détecter les signes de parasites ou de maladies comme le feu bactérien (pousses noircies)."
+            },
+            "INTERMEDIATE": {
+              "en": "Prune out any affected branches immediately, cutting well below the infected area. Sterilize tools.",
+              "ur": "کسی بھی متاثرہ شاخوں کو فوری طور پر کاٹ دیں، متاثرہ علاقے سے کافی نیچے کاٹیں۔ اوزاروں کو جراثیم سے پاک کریں۔",
+              "ar": "قم بتقليم أي فروع مصابة على الفور، وقطعها جيدًا تحت المنطقة المصابة. عقم الأدوات.",
+              "fr": "Taillez immédiatement les branches affectées, en coupant bien en dessous de la zone infectée. Stérilisez les outils."
+            },
+            "EXPERT": {
+              "en": "Apply copper-based fungicides preventatively for fire blight in susceptible varieties during bloom.",
+              "ur": "پھول آنے کے دوران حساس اقسام میں آگ کی بیماری کے لیے تانبے پر مبنی فنگس کش ادویات کا احتیاطی طور پر استعمال کریں۔",
+              "ar": "طبق مبيدات الفطريات القائمة على النحاس وقائيًا لمرض اللفحة النارية في الأصناف الحساسة أثناء الإزهار.",
+              "fr": "Appliquez préventivement des fongicides à base de cuivre contre le feu bactérien sur les variétés sensibles pendant la floraison."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Fire Blight",
+              "ur": "آگ کی بیماری",
+              "ar": "اللفحة النارية",
+              "fr": "Feu bactérien"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent soil moisture to support flower development. Avoid water stress.",
+              "ur": "پھولوں کی نشوونما کو سہارا دینے کے لیے مٹی کی مستقل نمی برقرار رکھیں۔ پانی کی کمی سے بچیں۔",
+              "ar": "حافظ على رطوبة التربة ثابتة لدعم نمو الأزهار. تجنب إجهاد الماء.",
+              "fr": "Maintenez une humidité constante du sol pour soutenir le développement des fleurs. Évitez le stress hydrique."
+            },
+            "INTERMEDIATE": {
+              "en": "Deep water around the drip line, ensuring water penetrates 12-18 inches into the soil.",
+              "ur": "ڈرپ لائن کے گرد گہرا پانی دیں، یقینی بنائیں کہ پانی مٹی میں 12-18 انچ تک داخل ہو۔",
+              "ar": "اسقِ بعمق حول خط التنقيط، مع التأكد من أن الماء يتغلغل 12-18 بوصة في التربة.",
+              "fr": "Arrosez profondément autour de la ligne d'égouttement, en vous assurant que l'eau pénètre de 12 à 18 pouces dans le sol."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels closely, especially during dry spells, to prevent blossom drop.",
+              "ur": "خاص طور پر خشک ادوار میں، پھولوں کے گرنے سے بچنے کے لیے مٹی کی نمی کی سطحوں کی قریب سے نگرانی کریں۔",
+              "ar": "راقب مستويات رطوبة التربة عن كثب، خاصة خلال فترات الجفاف، لمنع تساقط الأزهار.",
+              "fr": "Surveillez attentivement les niveaux d'humidité du sol, surtout pendant les périodes de sécheresse, pour éviter la chute des fleurs."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 120,
+      "durationDaysWarm": 100,
+      "durationDaysCool": 140,
+      "description": {
+        "en": "Small fruits set and grow, maturing over summer and fall.",
+        "ur": "چھوٹے پھل لگتے ہیں اور بڑھتے ہیں، گرمیوں اور خزاں میں پکتے ہیں۔",
+        "ar": "تتكون الثمار الصغيرة وتنمو، وتنضج خلال الصيف والخريف.",
+        "fr": "Les petits fruits se forment et grossissent, mûrissant pendant l'été et l'automne."
+      },
+      "emoji": "🍐",
+      "tips": [
+        {
+          "en": "Thinning excess fruit can lead to larger, healthier quinces and prevent branch breakage.",
+          "ur": "زیادہ پھل کو پتلا کرنے سے بڑے، صحت مند کوینس حاصل ہوتے ہیں اور شاخوں کے ٹوٹنے سے بچا جا سکتا ہے۔",
+          "ar": "يمكن أن يؤدي تخفيف الثمار الزائدة إلى سفرجل أكبر وأكثر صحة ويمنع تكسر الفروع.",
+          "fr": "L'éclaircissage des fruits en excès peut conduire à des coings plus gros et plus sains et prévenir la rupture des branches."
+        }
+      ],
+      "tasks": {
+        "thinning": {
+          "required": false,
+          "dayOffset": 30,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "When fruits are about 1 inch in diameter, remove smaller or damaged ones, leaving 6-8 inches between fruits.",
+              "ur": "جب پھل تقریباً 1 انچ قطر کے ہوں، تو چھوٹے یا خراب شدہ پھلوں کو ہٹا دیں، پھلوں کے درمیان 6-8 انچ کا فاصلہ چھوڑ دیں۔",
+              "ar": "عندما تكون الثمار بقطر حوالي 1 بوصة، أزل الثمار الأصغر أو التالفة، مع ترك مسافة 6-8 بوصات بين الثمار.",
+              "fr": "Lorsque les fruits ont environ 1 pouce de diamètre, retirez les plus petits ou endommagés, en laissant 6 à 8 pouces entre les fruits."
+            },
+            "INTERMEDIATE": {
+              "en": "Thin to one fruit per cluster, or space fruits 6-8 inches apart on branches to optimize size and quality.",
+              "ur": "ہر گچھے میں ایک پھل تک پتلا کریں، یا پھلوں کو شاخوں پر 6-8 انچ کے فاصلے پر رکھیں تاکہ سائز اور معیار کو بہتر بنایا جا سکے۔",
+              "ar": "خفف إلى ثمرة واحدة لكل عنقود، أو باعد الثمار 6-8 بوصات على الفروع لتحسين الحجم والجودة.",
+              "fr": "Éclaircissez à un fruit par grappe, ou espacez les fruits de 6 à 8 pouces sur les branches pour optimiser la taille et la qualité."
+            },
+            "EXPERT": {
+              "en": "Consider the tree's overall load and vigor when thinning. Aim for balanced fruit distribution.",
+              "ur": "پتلا کرتے وقت درخت کے مجموعی بوجھ اور طاقت پر غور کریں۔ پھلوں کی متوازن تقسیم کا ہدف رکھیں۔",
+              "ar": "ضع في اعتبارك الحمل الكلي للشجرة وحيويتها عند التخفيف. استهدف توزيعًا متوازنًا للثمار.",
+              "fr": "Tenez compte de la charge globale et de la vigueur de l'arbre lors de l'éclaircissage. Visez une distribution équilibrée des fruits."
+            }
+          }
+        },
+        "pestDiseaseControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Monitor fruits for wormholes (codling moth) or spots (quince leaf blight). Remove affected fruits.",
+              "ur": "پھلوں کو کیڑوں کے سوراخ (کوڈلنگ موتھ) یا دھبوں (کوینس لیف بلائٹ) کے لیے چیک کریں۔ متاثرہ پھلوں کو ہٹا دیں۔",
+              "ar": "راقب الثمار بحثًا عن ثقوب الديدان (عثة التفاح) أو البقع (لفحة أوراق السفرجل). أزل الثمار المصابة.",
+              "fr": "Surveillez les fruits pour les trous de vers (carpocapse) ou les taches (tavelure du cognassier). Retirez les fruits affectés."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest control methods like pheromone traps for codling moth or neem oil for general pests.",
+              "ur": "کوڈلنگ موتھ کے لیے فیرومون ٹریپس یا عام کیڑوں کے لیے نیم کا تیل جیسے نامیاتی کیڑوں کے کنٹرول کے طریقے استعمال کریں۔",
+              "ar": "طبق طرق مكافحة الآفات العضوية مثل مصائد الفيرومونات لعثة التفاح أو زيت النيم للآفات العامة.",
+              "fr": "Appliquez des méthodes de lutte antiparasitaire biologique comme les pièges à phéromones pour le carpocapse ou l'huile de neem pour les parasites généraux."
+            },
+            "EXPERT": {
+              "en": "Implement a full IPM program, including sanitation, monitoring, and targeted biological or low-impact chemical controls.",
+              "ur": "صفائی، نگرانی، اور ہدف شدہ حیاتیاتی یا کم اثر والے کیمیائی کنٹرول سمیت ایک مکمل IPM پروگرام نافذ کریں۔",
+              "ar": "طبق برنامج IPM كامل، بما في ذلك الصرف الصحي، والمراقبة، والضوابط البيولوجية المستهدفة أو الكيميائية منخفضة التأثير.",
+              "fr": "Mettez en œuvre un programme IPM complet, incluant l'assainissement, la surveillance et des contrôles biologiques ou chimiques à faible impact ciblés."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Codling Moth",
+              "ur": "کوڈلنگ موتھ",
+              "ar": "عثة التفاح",
+              "fr": "Carpocapse"
+            },
+            {
+              "en": "Quince Leaf Blight",
+              "ur": "کوینس لیف بلائٹ",
+              "ar": "لفحة أوراق السفرجل",
+              "fr": "Tavelure du cognassier"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 1800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and regularly during fruit development to prevent fruit drop and cracking.",
+              "ur": "پھل کی نشوونما کے دوران پھل گرنے اور پھٹنے سے بچنے کے لیے گہرا اور باقاعدگی سے پانی دیں۔",
+              "ar": "اسقِ بعمق وبانتظام أثناء نمو الثمار لمنع تساقط الثمار وتكسرها.",
+              "fr": "Arrosez profondément et régulièrement pendant le développement des fruits pour éviter la chute et la fissuration des fruits."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture, especially during dry spells, as irregular watering can lead to problems.",
+              "ur": "خاص طور پر خشک ادوار میں، مستقل نمی کو یقینی بنائیں، کیونکہ بے قاعدہ پانی دینے سے مسائل پیدا ہو سکتے ہیں۔",
+              "ar": "تأكد من الرطوبة المستمرة، خاصة خلال فترات الجفاف، حيث يمكن أن يؤدي الري غير المنتظم إلى مشاكل.",
+              "fr": "Assurez une humidité constante, surtout pendant les périodes de sécheresse, car un arrosage irrégulier peut entraîner des problèmes."
+            },
+            "EXPERT": {
+              "en": "Use soil moisture sensors to optimize irrigation, aiming for even moisture throughout the root zone.",
+              "ur": "جڑوں کے علاقے میں یکساں نمی کا ہدف رکھتے ہوئے، آبپاشی کو بہتر بنانے کے لیے مٹی کی نمی کے سینسر استعمال کریں۔",
+              "ar": "استخدم مستشعرات رطوبة التربة لتحسين الري، بهدف الحصول على رطوبة متساوية في جميع أنحاء منطقة الجذر.",
+              "fr": "Utilisez des capteurs d'humidité du sol pour optimiser l'irrigation, en visant une humidité uniforme dans toute la zone racinaire."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 45,
+      "durationDaysCool": 45,
+      "description": {
+        "en": "Quince fruits ripen and are ready for harvest in late fall.",
+        "ur": "کوینس کے پھل پک جاتے ہیں اور خزاں کے آخر میں کٹائی کے لیے تیار ہوتے ہیں۔",
+        "ar": "تنضج ثمار السفرجل وتكون جاهزة للحصاد في أواخر الخريف.",
+        "fr": "Les coings mûrissent et sont prêts à être récoltés à la fin de l'automne."
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Quince fruits are typically hard and aromatic when ripe, turning yellow. They are best picked before a hard frost.",
+          "ur": "کوینس کے پھل عام طور پر پکنے پر سخت اور خوشبودار ہوتے ہیں، پیلے ہو جاتے ہیں۔ انہیں سخت ٹھنڈ سے پہلے توڑنا بہتر ہے۔",
+          "ar": "ثمار السفرجل تكون صلبة وعطرية عادة عند النضج، وتتحول إلى اللون الأصفر. من الأفضل قطفها قبل الصقيع الشديد.",
+          "fr": "Les coings sont généralement durs et aromatiques à maturité, virant au jaune. Il est préférable de les cueillir avant une forte gelée."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently twist or cut ripe, yellow quinces from the branch. Handle carefully to avoid bruising.",
+              "ur": "پکے ہوئے، پیلے کوینس کو شاخ سے آہستہ سے موڑیں یا کاٹیں۔ چوٹ لگنے سے بچنے کے لیے احتیاط سے سنبھالیں۔",
+              "ar": "لف أو اقطع السفرجل الأصفر الناضج برفق من الفرع. تعامل معه بحذر لتجنب الكدمات.",
+              "fr": "Tournez ou coupez délicatement les coings jaunes mûrs de la branche. Manipulez-les avec soin pour éviter les meurtrissures."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest when fruits are fully yellow and fragrant. A slight give when pressed indicates ripeness.",
+              "ur": "جب پھل مکمل طور پر پیلے اور خوشبودار ہوں تو کٹائی کریں۔ دبانے پر ہلکا سا نرم ہونا پکنے کی نشاندہی کرتا ہے۔",
+              "ar": "احصد عندما تكون الثمار صفراء بالكامل وعطرية. يشير الانثناء الطفيف عند الضغط إلى النضج.",
+              "fr": "Récoltez lorsque les fruits sont entièrement jaunes et parfumés. Une légère souplesse à la pression indique la maturité."
+            },
+            "EXPERT": {
+              "en": "Store harvested quinces in a cool, dark place. They can last for several weeks or months.",
+              "ur": "کٹائی شدہ کوینس کو ٹھنڈی، تاریک جگہ پر ذخیرہ کریں۔ وہ کئی ہفتوں یا مہینوں تک رہ سکتے ہیں۔",
+              "ar": "خزن السفرجل المحصود في مكان بارد ومظلم. يمكن أن يدوم لعدة أسابيع أو أشهر.",
+              "fr": "Conservez les coings récoltés dans un endroit frais et sombre. Ils peuvent durer plusieurs semaines ou mois."
+            }
+          }
+        },
+        "postHarvestPruning": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 45,
+          "instruction": {
+            "BEGINNER": {
+              "en": "After harvest, remove any dead, diseased, or crossing branches to maintain tree health.",
+              "ur": "کٹائی کے بعد، درخت کی صحت کو برقرار رکھنے کے لیے کسی بھی مردہ، بیمار، یا ایک دوسرے کو کاٹنے والی شاخوں کو ہٹا دیں۔",
+              "ar": "بعد الحصاد، أزل أي فروع ميتة أو مريضة أو متقاطعة للحفاظ على صحة الشجرة.",
+              "fr": "Après la récolte, supprimez les branches mortes, malades ou qui se croisent pour maintenir la santé de l'arbre."
+            },
+            "INTERMEDIATE": {
+              "en": "Perform light corrective pruning to improve air circulation and sunlight penetration.",
+              "ur": "ہوا کی گردش اور سورج کی روشنی کے داخلے کو بہتر بنانے کے لیے ہلکی اصلاحی کٹائی کریں۔",
+              "ar": "قم بتقليم تصحيحي خفيف لتحسين دوران الهواء واختراق ضوء الشمس.",
+              "fr": "Effectuez une taille corrective légère pour améliorer la circulation de l'air et la pénétration de la lumière du soleil."
+            },
+            "EXPERT": {
+              "en": "Balance pruning for fruit production and tree structure. Avoid heavy pruning in fall to prevent winter injury.",
+              "ur": "پھل کی پیداوار اور درخت کی ساخت کے لیے کٹائی کو متوازن کریں۔ سردیوں کی چوٹ سے بچنے کے لیے خزاں میں بھاری کٹائی سے گریز کریں۔",
+              "ar": "وازن بين التقليم لإنتاج الفاكهة وهيكل الشجرة. تجنب التقليم الثقيل في الخريف لمنع إصابات الشتاء.",
+              "fr": "Équilibrez la taille pour la production de fruits et la structure de l'arbre. Évitez la taille sévère en automne pour prévenir les blessures hivernales."
+            }
+          }
+        },
+        "wateringReduction": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gradually reduce watering as the tree enters dormancy in late fall.",
+              "ur": "خزاں کے آخر میں درخت کے سست ہونے پر آہستہ آہستہ پانی کم کریں۔",
+              "ar": "قلل الري تدريجياً مع دخول الشجرة في فترة السكون في أواخر الخريف.",
+              "fr": "Réduisez progressivement l'arrosage à mesure que l'arbre entre en dormance à la fin de l'automne."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide just enough water to prevent the soil from completely drying out.",
+              "ur": "مٹی کو مکمل طور پر خشک ہونے سے بچانے کے لیے صرف اتنا پانی فراہم کریں۔",
+              "ar": "وفر ما يكفي من الماء لمنع التربة من الجفاف تمامًا.",
+              "fr": "Fournissez juste assez d'eau pour empêcher le sol de sécher complètement."
+            },
+            "EXPERT": {
+              "en": "Ensure adequate soil moisture before winter freeze to protect roots, but avoid waterlogging.",
+              "ur": "جڑوں کو بچانے کے لیے سردیوں کی ٹھنڈ سے پہلے مٹی کی مناسب نمی کو یقینی بنائیں، لیکن پانی جمع ہونے سے بچیں۔",
+              "ar": "تأكد من رطوبة التربة الكافية قبل تجمد الشتاء لحماية الجذور، ولكن تجنب تشبع التربة بالماء.",
+              "fr": "Assurez une humidité adéquate du sol avant le gel hivernal pour protéger les racines, mais évitez l'engorgement."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Compost or Well-rotted Manure",
+          "ur": "کمپوسٹ یا گلی ہوئی کھاد",
+          "ar": "سماد عضوي أو روث متحلل",
+          "fr": "Compost ou fumier bien décomposé"
+        },
+        "preparation": {
+          "en": "Spread a 2-inch layer around the base of the young tree, keeping it a few inches away from the trunk. Water thoroughly.",
+          "ur": "نوجوان درخت کے گرد 2 انچ کی تہہ پھیلائیں، تنے سے چند انچ دور رکھیں۔ اچھی طرح پانی دیں۔",
+          "ar": "انشر طبقة 5 سم حول قاعدة الشجرة الصغيرة، مع إبقائها على بعد بضعة سنتيمترات من الجذع. اسقِ جيدًا.",
+          "fr": "Étalez une couche de 5 cm autour de la base du jeune arbre, en la gardant à quelques centimètres du tronc. Arrosez abondamment."
+        },
+        "quantityPer10L": 1000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Provides slow-release nutrients for root establishment and initial growth of young quince trees.",
+          "ur": "نوجوان کوئنس کے درختوں کی جڑوں کے قیام اور ابتدائی نشوونما کے لیے آہستہ آہستہ غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يوفر مغذيات بطيئة الإطلاق لتأسيس الجذور والنمو الأولي لأشجار السفرجل الصغيرة.",
+          "fr": "Fournit des nutriments à libération lente pour l'établissement des racines et la croissance initiale des jeunes cognassiers."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Balanced Organic Tree Food or Compost Tea",
+          "ur": "متوازن نامیاتی درخت کی خوراک یا کمپوسٹ چائے",
+          "ar": "غذاء عضوي متوازن للأشجار أو شاي الكمبوست",
+          "fr": "Engrais organique équilibré pour arbres ou thé de compost"
+        },
+        "preparation": {
+          "en": "Apply granular organic tree food according to package directions around the drip line, or steep 1 cup of compost in 1 gallon of water for 24-48 hours and apply liquid.",
+          "ur": "پیکج کی ہدایات کے مطابق دانے دار نامیاتی درخت کی خوراک کو ڈرپ لائن کے گرد لگائیں، یا 1 کپ کمپوسٹ کو 4 لیٹر پانی میں 24-48 گھنٹے بھگو کر مائع استعمال کریں۔",
+          "ar": "طبق سماد الأشجار العضوي الحبيبي حسب توجيهات العبوة حول خط التنقيط، أو انقع كوبًا من الكمبوست في 4 لترات من الماء لمدة 24-48 ساعة واستخدم السائل.",
+          "fr": "Appliquez l'engrais organique granulaire pour arbres selon les instructions de l'emballage autour de la ligne d'égouttement, ou faites tremper 1 tasse de compost dans 4 litres d'eau pendant 24-48 heures et appliquez le liquide."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports healthy canopy development and overall tree vigor before flowering.",
+          "ur": "پھول آنے سے پہلے صحت مند چھتری کی نشوونما اور درخت کی مجموعی طاقت کو سہارا دیتا ہے۔",
+          "ar": "يدعم نمو التاج الصحي وقوة الشجرة بشكل عام قبل الإزهار.",
+          "fr": "Soutient le développement sain de la canopée et la vigueur générale de l'arbre avant la floraison."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "ہڈیوں کا چورا اور لکڑی کی راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب (فوسفور وبوتاسيوم)",
+          "fr": "Farine d'os et cendres de bois (Phosphore et Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 1-2 cups of bone meal and 1/2 cup of wood ash around the drip line of the tree. Gently scratch into the topsoil and water in.",
+          "ur": "درخت کی ڈرپ لائن کے گرد 1-2 کپ ہڈیوں کا چورا اور 1/2 کپ لکڑی کی راکھ چھڑکیں۔ ہلکے سے مٹی میں ملائیں اور پانی دیں۔",
+          "ar": "انثر 1-2 كوب من مسحوق العظام و 1/2 كوب من رماد الخشب حول خط التنقيط للشجرة. اخلطها برفق في التربة السطحية واسقِ.",
+          "fr": "Saupoudrez 1 à 2 tasses de farine d'os et 1/2 tasse de cendres de bois autour de la ligne d'égouttement de l'arbre. Grattez doucement la couche superficielle du sol et arrosez."
+        },
+        "quantityPer10L": 200,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Enhances flower production and fruit set, providing essential nutrients for developing fruit.",
+          "ur": "پھولوں کی پیداوار اور پھل لگنے کو بڑھاتا ہے، پھل کی نشوونما کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يعزز إنتاج الزهور وعقد الثمار، ويوفر العناصر الغذائية الأساسية لتطوير الفاكهة.",
+          "fr": "Améliore la production florale et la nouaison, fournissant des nutriments essentiels pour le développement des fruits."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 45,
+        "product": {
+          "en": "Kelp Meal or Greensand (High Potassium)",
+          "ur": "کیلپ میل یا گرین سینڈ (ہائی پوٹاشیم)",
+          "ar": "وجبة عشب البحر أو الرمل الأخضر (بوتاسيوم عالي)",
+          "fr": "Farine d'algues ou sable vert (riche en potassium)"
+        },
+        "preparation": {
+          "en": "Spread 1-2 cups of kelp meal or greensand around the drip line of the tree. Water thoroughly after application.",
+          "ur": "درخت کی ڈرپ لائن کے گرد 1-2 کپ کیلپ میل یا گرین سینڈ پھیلائیں۔ لگانے کے بعد اچھی طرح پانی دیں۔",
+          "ar": "انشر 1-2 كوب من وجبة عشب البحر أو الرمل الأخضر حول خط التنقيط للشجرة. اسقِ جيدًا بعد التطبيق.",
+          "fr": "Étalez 1 à 2 tasses de farine d'algues ou de sable vert autour de la ligne d'égouttement de l'arbre. Arrosez abondamment après l'application."
+        },
+        "quantityPer10L": 150,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is crucial for fruit size, flavor, and overall quality of quince.",
+          "ur": "پوٹاشیم کوئنس کے پھل کے سائز، ذائقہ اور مجموعی معیار کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم ضروري لحجم الثمار ونكهتها وجودتها الشاملة للسفرجل.",
+          "fr": "Le potassium est crucial pour la taille, la saveur et la qualité globale du coing."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 45,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10)",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10)",
+          "ar": "سماد متوازن NPK (مثلاً 10-10-10)",
+          "fr": "NPK équilibré (ex: 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of granular NPK fertilizer in 1 gallon of water. Apply around the base of the young tree.",
+          "ur": "1 چمچ دانے دار NPK کھاد کو 4 لیٹر پانی میں حل کریں۔ نوجوان درخت کی بنیاد کے گرد لگائیں۔",
+          "ar": "أذب ملعقة كبيرة من سماد NPK الحبيبي في 4 لترات من الماء. طبق حول قاعدة الشجرة الصغيرة.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais NPK granulaire dans 4 litres d'eau. Appliquez autour de la base du jeune arbre."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential nutrients for strong initial growth and root development.",
+          "ur": "مضبوط ابتدائی نشوونما اور جڑوں کی نشوونما کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يوفر العناصر الغذائية الأساسية لنمو أولي قوي وتطور الجذور.",
+          "fr": "Fournit les nutriments essentiels pour une croissance initiale forte et le développement des racines."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Balanced NPK (e.g., 12-12-12)",
+          "ur": "متوازن این پی کے (مثلاً 12-12-12)",
+          "ar": "سماد متوازن NPK (مثلاً 12-12-12)",
+          "fr": "NPK équilibré (ex: 12-12-12)"
+        },
+        "preparation": {
+          "en": "Apply granular fertilizer at the rate of 1/2 cup per inch of trunk diameter, spread evenly around the drip line. Water thoroughly.",
+          "ur": "دانے دار کھاد کو تنے کے قطر کے ہر انچ کے لیے 1/2 کپ کی شرح سے لگائیں، ڈرپ لائن کے گرد یکساں طور پر پھیلائیں۔ اچھی طرح پانی دیں۔",
+          "ar": "طبق السماد الحبيبي بمعدل 1/2 كوب لكل بوصة من قطر الجذع، انشره بالتساوي حول خط التنقيط. اسقِ جيدًا.",
+          "fr": "Appliquez l'engrais granulaire à raison de 1/2 tasse par pouce de diamètre du tronc, répartissez uniformément autour de la ligne d'égouttement. Arrosez abondamment."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes vigorous leaf and branch growth for a healthy tree structure.",
+          "ur": "صحت مند درخت کی ساخت کے لیے مضبوط پتوں اور شاخوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز النمو القوي للأوراق والفروع لهيكل شجرة صحي.",
+          "fr": "Favorise une croissance vigoureuse des feuilles et des branches pour une structure d'arbre saine."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus & Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور والبوتاسيوم (مثلاً 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore et potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Apply granular fertilizer at the rate of 1/4 cup per inch of trunk diameter, spread around the drip line. Water immediately.",
+          "ur": "دانے دار کھاد کو تنے کے قطر کے ہر انچ کے لیے 1/4 کپ کی شرح سے لگائیں، ڈرپ لائن کے گرد پھیلائیں۔ فوراً پانی دیں۔",
+          "ar": "طبق السماد الحبيبي بمعدل 1/4 كوب لكل بوصة من قطر الجذع، انشره حول خط التنقيط. اسقِ فورًا.",
+          "fr": "Appliquez l'engrais granulaire à raison de 1/4 tasse par pouce de diamètre du tronc, répartissez autour de la ligne d'égouttement. Arrosez immédiatement."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Encourages abundant flowering and strong fruit set without excessive vegetative growth.",
+          "ur": "زیادہ پودوں کی نشوونما کے بغیر وافر پھول اور مضبوط پھل لگنے کی حوصلہ افزائی کرتا ہے۔",
+          "ar": "يشجع على الإزهار الوفير وعقد الثمار القوي دون نمو خضري مفرط.",
+          "fr": "Encourage une floraison abondante et une nouaison forte sans croissance végétative excessive."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 45,
+        "product": {
+          "en": "High Potassium Fertilizer (e.g., 0-0-50 or 5-8-10)",
+          "ur": "ہائی پوٹاشیم کھاد (مثلاً 0-0-50 یا 5-8-10)",
+          "ar": "سماد عالي البوتاسيوم (مثلاً 0-0-50 أو 5-8-10)",
+          "fr": "Engrais riche en potassium (ex: 0-0-50 ou 5-8-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high-K fertilizer in 1 gallon of water. Apply around the drip line of the tree.",
+          "ur": "1 چمچ ہائی-K کھاد کو 4 لیٹر پانی میں حل کریں۔ درخت کی ڈرپ لائن کے گرد لگائیں۔",
+          "ar": "أذب ملعقة صغيرة من سماد عالي البوتاسيوم في 4 لترات من الماء. طبق حول خط التنقيط للشجرة.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en K dans 4 litres d'eau. Appliquez autour de la ligne d'égouttement de l'arbre."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Boosts fruit development, improves sugar content, and enhances overall fruit quality.",
+          "ur": "پھل کی نشوونما کو بڑھاتا ہے، چینی کی مقدار کو بہتر بناتا ہے، اور پھل کے مجموعی معیار کو بڑھاتا ہے۔",
+          "ar": "يعزز نمو الثمار، ويحسن محتوى السكر، ويعزز جودة الثمار بشكل عام.",
+          "fr": "Stimule le développement des fruits, améliore la teneur en sucre et la qualité globale des fruits."
+        }
+      }
+    },
+    "HYBRID": {
+      "SEEDLING": {
+        "week1": "Compost",
+        "week2": "Balanced NPK (diluted)",
+        "alternating": true
+      },
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P&K Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "High K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "comfrey",
+      "benefit": {
+        "en": "Acts as a dynamic accumulator, drawing up nutrients from deep in the soil and making them available to quince. Also provides excellent mulch.",
+        "ur": "گہری مٹی سے غذائی اجزاء نکال کر کوئنس کے لیے دستیاب کرتا ہے۔ بہترین ملچ بھی فراہم کرتا ہے۔",
+        "ar": "يعمل كمجمع ديناميكي، يسحب المغذيات من عمق التربة ويجعلها متاحة للسفرجل. كما يوفر نشارة ممتازة.",
+        "fr": "Agit comme un accumulateur dynamique, puisant les nutriments en profondeur et les rendant disponibles pour le coing. Fournit également un excellent paillis."
+      }
+    },
+    {
+      "plantId": "nasturtium",
+      "benefit": {
+        "en": "Acts as a trap crop for aphids, drawing them away from quince trees. Also deters other pests and attracts beneficial insects.",
+        "ur": "ایفڈز کے لیے ایک ٹریپ فصل کے طور پر کام کرتا ہے، انہیں کوئنس کے درختوں سے دور رکھتا ہے۔ دیگر کیڑوں کو بھی بھگاتا ہے اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يعمل كمحصول فخ للحشرات المن، يجذبها بعيدًا عن أشجار السفرجل. كما يطرد الآفات الأخرى ويجذب الحشرات النافعة.",
+        "fr": "Agit comme une plante-piège pour les pucerons, les éloignant des cognassiers. Repousse également d'autres parasites et attire les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Roots release chemicals that deter nematodes, which can damage quince roots. Attracts pollinators and beneficial insects.",
+        "ur": "جڑیں ایسے کیمیکل خارج کرتی ہیں جو نیماٹوڈز کو روکتے ہیں، جو کوئنس کی جڑوں کو نقصان پہنچا سکتے ہیں۔ پولینیٹرز اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "تطلق الجذور مواد كيميائية تردع الديدان الخيطية التي يمكن أن تلحق الضرر بجذور السفرجل. تجذب الملقحات والحشرات النافعة.",
+        "fr": "Les racines libèrent des substances chimiques qui repoussent les nématodes, pouvant endommager les racines du coing. Attire les pollinisateurs et les insectes bénéfiques."
+      }
+    },
+    {
+      "plantId": "chives",
+      "benefit": {
+        "en": "Emits a strong scent that can deter common fruit tree pests like aphids and apple scab.",
+        "ur": "ایک مضبوط خوشبو خارج کرتا ہے جو عام پھل کے درختوں کے کیڑوں جیسے ایفڈز اور ایپل سکاب کو روک سکتی ہے۔",
+        "ar": "تنبعث منها رائحة قوية يمكن أن تردع آفات أشجار الفاكهة الشائعة مثل حشرات المن وجرب التفاح.",
+        "fr": "Émet une forte odeur qui peut dissuader les parasites courants des arbres fruitiers comme les pucerons et la tavelure du pommier."
+      }
+    },
+    {
+      "plantId": "legumes",
+      "benefit": {
+        "en": "Fix nitrogen in the soil, improving soil fertility for quince trees. Examples include clover or vetch as ground cover.",
+        "ur": "مٹی میں نائٹروجن کو ٹھیک کرتے ہیں، کوئنس کے درختوں کے لیے مٹی کی زرخیزی کو بہتر بناتے ہیں۔ مثالوں میں گراؤنڈ کور کے طور پر سہ شاخہ یا ویچ شامل ہیں۔",
+        "ar": "تثبت النيتروجين في التربة، مما يحسن خصوبة التربة لأشجار السفرجل. تشمل الأمثلة البرسيم أو البيقية كغطاء أرضي.",
+        "fr": "Fixent l'azote dans le sol, améliorant la fertilité du sol pour les cognassiers. Exemples: trèfle ou vesce comme couvre-sol."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "walnut",
+      "reason": {
+        "en": "Walnut trees release juglone, a chemical toxic to many plants, including quince, which can cause stunted growth or death.",
+        "ur": "اخروٹ کے درخت جگلون نامی کیمیکل خارج کرتے ہیں، جو کوئنس سمیت کئی پودوں کے لیے زہریلا ہے، جس سے نشوونما رک سکتی ہے یا موت ہو سکتی ہے۔",
+        "ar": "تطلق أشجار الجوز مادة الجغلون، وهي مادة كيميائية سامة للعديد من النباتات، بما في ذلك السفرجل، مما قد يسبب توقف النمو أو الموت.",
+        "fr": "Les noyers libèrent de la juglone, une substance chimique toxique pour de nombreuses plantes, y compris le coing, pouvant entraîner un retard de croissance ou la mort."
+      }
+    },
+    {
+      "plantId": "apple",
+      "reason": {
+        "en": "While related, planting apples too close to quince can increase the risk of shared diseases like fire blight and codling moth infestations.",
+        "ur": "اگرچہ متعلقہ ہیں، سیب کو کوئنس کے بہت قریب لگانے سے فائر بلائٹ اور کوڈلنگ موتھ جیسے مشترکہ بیماریوں کا خطرہ بڑھ سکتا ہے۔",
+        "ar": "على الرغم من الصلة، فإن زراعة التفاح بالقرب من السفرجل يمكن أن يزيد من خطر الأمراض المشتركة مثل اللفحة النارية وإصابات عثة التفاح.",
+        "fr": "Bien que liés, planter des pommiers trop près des cognassiers peut augmenter le risque de maladies partagées comme le feu bactérien et les infestations de carpocapse."
+      }
+    },
+    {
+      "plantId": "pear",
+      "reason": {
+        "en": "Similar to apples, pears are susceptible to many of the same pests and diseases as quince, especially fire blight, making them poor companions.",
+        "ur": "سیب کی طرح، ناشپاتی بھی کوئنس کی طرح بہت سے کیڑوں اور بیماریوں کا شکار ہوتی ہے، خاص طور پر فائر بلائٹ، جو انہیں خراب ساتھی بناتی ہے۔",
+        "ar": "على غرار التفاح، الكمثرى عرضة للعديد من نفس الآفات والأمراض مثل السفرجل، وخاصة اللفحة النارية، مما يجعلها رفقاء سيئين.",
+        "fr": "Similaire aux pommes, les poires sont sensibles aux mêmes parasites et maladies que le coing, en particulier le feu bactérien, ce qui en fait de mauvais compagnons."
+      }
+    },
+    {
+      "plantId": "raspberry",
+      "reason": {
+        "en": "Raspberries can harbor diseases like verticillium wilt, which can spread to quince trees and cause significant damage.",
+        "ur": "راسبیری ورٹیسیلیم ولٹ جیسی بیماریوں کو پناہ دے سکتی ہے، جو کوئنس کے درختوں میں پھیل کر کافی نقصان پہنچا سکتی ہے۔",
+        "ar": "يمكن أن تؤوي التوت أمراضًا مثل ذبول الفرتيسيليوم، والتي يمكن أن تنتشر إلى أشجار السفرجل وتسبب أضرارًا كبيرة.",
+        "fr": "Les framboisiers peuvent héberger des maladies comme la verticilliose, qui peut se propager aux cognassiers et causer des dommages importants."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "fire_blight",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "18-29"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes blossoms, shoots, and branches to blacken and shrivel as if scorched by fire. Can spread rapidly and be fatal to the tree.",
+        "ur": "پھولوں، ٹہنیوں اور شاخوں کو سیاہ اور سکڑنے کا سبب بنتا ہے جیسے آگ سے جل گئے ہوں۔ تیزی سے پھیل سکتا ہے اور درخت کے لیے مہلک ہو سکتا ہے۔",
+        "ar": "يتسبب في اسوداد وتجعد الأزهار والبراعم والفروع كما لو كانت محترقة بالنار. يمكن أن ينتشر بسرعة ويكون قاتلاً للشجرة.",
+        "fr": "Provoque le noircissement et le flétrissement des fleurs, des pousses et des branches comme si elles étaient brûlées par le feu. Peut se propager rapidement et être fatal à l'arbre."
+      }
+    },
+    {
+      "pestId": "codling_moth",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">15"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into developing quince fruits, causing internal damage and making them inedible. Look for small entry holes and frass.",
+        "ur": "لاروا کوئنس کے پھلوں میں سوراخ کرتا ہے، اندرونی نقصان پہنچاتا ہے اور انہیں ناقابل استعمال بناتا ہے۔ چھوٹے داخلے کے سوراخ اور فریس تلاش کریں۔",
+        "ar": "تخترق اليرقات ثمار السفرجل النامية، مما يسبب أضرارًا داخلية ويجعلها غير صالحة للأكل. ابحث عن ثقوب دخول صغيرة وفضلات.",
+        "fr": "Les larves forent les fruits de coing en développement, causant des dommages internes et les rendant immangeables. Cherchez de petits trous d'entrée et des excréments."
+      }
+    },
+    {
+      "pestId": "quince_curculio",
+      "vulnerableStages": [
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Small beetles that lay eggs in developing fruit, causing dimples and deformities on the fruit surface. Larvae feed inside the fruit.",
+        "ur": "چھوٹے کیڑے جو پھل میں انڈے دیتے ہیں، جس سے پھل کی سطح پر گڑھے اور خرابیاں پیدا ہوتی ہیں۔ لاروا پھل کے اندر کھاتے ہیں۔",
+        "ar": "خنافس صغيرة تضع بيضها في الثمار النامية، مما يسبب انبعاجات وتشوهات على سطح الثمرة. تتغذى اليرقات داخل الثمرة.",
+        "fr": "Petits coléoptères qui pondent leurs œufs dans les fruits en développement, provoquant des fossettes et des déformations à la surface du fruit. Les larves se nourrissent à l'intérieur du fruit."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Cluster on new growth and undersides of leaves, sucking sap and causing distorted leaves and stunted growth. May excrete sticky honeydew.",
+        "ur": "نئی نشوونما اور پتوں کے نیچے جمع ہوتے ہیں، رس چوستے ہیں اور پتوں کو خراب کرتے ہیں اور نشوونما کو روکتے ہیں۔ چپچپا شہد خارج کر سکتے ہیں۔",
+        "ar": "تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه الأوراق وتوقف النمو. قد تفرز ندى عسلي لزج.",
+        "fr": "Se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant des feuilles déformées et un retard de croissance. Peuvent excréter du miellat collant."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery patches on leaves, shoots, and sometimes fruit. Can stunt growth and reduce fruit quality.",
+        "ur": "پتوں، ٹہنیوں اور کبھی کبھار پھلوں پر سفید، پاؤڈر جیسے دھبے پڑ جاتے ہیں۔ نشوونما کو روک سکتا ہے اور پھل کے معیار کو کم کر سکتا ہے۔",
+        "ar": "بقع بيضاء مسحوقية على الأوراق والبراعم وأحيانًا الثمار. يمكن أن تعيق النمو وتقلل من جودة الثمار.",
+        "fr": "Taches blanches et poudreuses sur les feuilles, les pousses et parfois les fruits. Peut ralentir la croissance et réduire la qualité des fruits."
+      }
+    },
+    {
+      "pestId": "leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Various fungal diseases cause dark spots on leaves, often leading to premature defoliation and weakened trees.",
+        "ur": "مختلف فنگل بیماریاں پتوں پر گہرے دھبے پیدا کرتی ہیں، جو اکثر وقت سے پہلے پتوں کے گرنے اور درختوں کو کمزور کرنے کا باعث بنتی ہیں۔",
+        "ar": "تسبب أمراض فطرية مختلفة بقعًا داكنة على الأوراق، مما يؤدي غالبًا إلى تساقط الأوراق المبكر وإضعاف الأشجار.",
+        "fr": "Diverses maladies fongiques provoquent des taches sombres sur les feuilles, entraînant souvent une défoliation prématurée et un affaiblissement des arbres."
+      }
+    },
+    {
+      "pestId": "brown_rot",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes blossoms to blight and fruit to rot, often with fuzzy brown spores. Spreads quickly in wet, warm conditions.",
+        "ur": "پھولوں کو جھلساتا ہے اور پھلوں کو سڑاتا ہے، اکثر بھورے پھپھوندی والے بیجوں کے ساتھ۔ گیلے، گرم حالات میں تیزی سے پھیلتا ہے۔",
+        "ar": "يتسبب في ذبول الأزهار وتعفن الثمار، غالبًا مع جراثيم بنية زغبية. ينتشر بسرعة في الظروف الرطبة والدافئة.",
+        "fr": "Provoque le flétrissement des fleurs et la pourriture des fruits, souvent avec des spores brunes duveteuses. Se propage rapidement par temps humide et chaud."
+      }
+    },
+    {
+      "pestId": "chlorosis",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves turn yellow, especially between the veins, while veins remain green. Often due to iron deficiency in alkaline soils or poor drainage.",
+        "ur": "پتے پیلے ہو جاتے ہیں، خاص طور پر رگوں کے درمیان، جبکہ رگیں سبز رہتی ہیں۔ اکثر الکلائن مٹی میں آئرن کی کمی یا ناقص نکاسی آب کی وجہ سے ہوتا ہے۔",
+        "ar": "تتحول الأوراق إلى اللون الأصفر، خاصة بين العروق، بينما تبقى العروق خضراء. غالبًا ما يكون بسبب نقص الحديد في التربة القلوية أو سوء الصرف.",
+        "fr": "Les feuilles jaunissent, surtout entre les nervures, tandis que les nervures restent vertes. Souvent dû à une carence en fer dans les sols alcalins ou à un mauvais drainage."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 150,
+    "firstHarvestDayMax": 180,
+    "continuousHarvest": false,
+    "harvestWindowDays": 45,
+    "readinessSigns": [
+      {
+        "en": "Golden yellow skin",
+        "ur": "سنہری پیلی جلد",
+        "ar": "جلد أصفر ذهبي",
+        "fr": "Peau jaune doré"
+      },
+      {
+        "en": "Strong aromatic fragrance",
+        "ur": "مضبوط خوشبودار مہک",
+        "ar": "رائحة عطرية قوية",
+        "fr": "Parfum aromatique intense"
+      },
+      {
+        "en": "Slightly soft to the touch",
+        "ur": "چھونے پر ہلکا نرم",
+        "ar": "ناعم قليلاً عند اللمس",
+        "fr": "Légèrement mou au toucher"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Gently twist the fruit from the branch. If it doesn't come off easily, it's not ready.",
+        "ur": "پھل کو شاخ سے آہستہ سے موڑیں۔ اگر یہ آسانی سے نہ اترے تو یہ تیار نہیں ہے۔",
+        "ar": "لف الثمرة برفق من الفرع. إذا لم تنفصل بسهولة، فهي ليست جاهزة.",
+        "fr": "Tournez délicatement le fruit de la branche. S'il ne se détache pas facilement, il n'est pas prêt."
+      },
+      "INTERMEDIATE": {
+        "en": "Use clean pruning shears to cut the stem just above the fruit, leaving a short stem attached.",
+        "ur": "پھل کے اوپر تنے کو کاٹنے کے لیے صاف کینچی کا استعمال کریں، ایک چھوٹا تنا لگا رہنے دیں۔",
+        "ar": "استخدم مقص تقليم نظيف لقطع الساق فوق الثمرة مباشرة، مع ترك ساق قصير متصل.",
+        "fr": "Utilisez des sécateurs propres pour couper la tige juste au-dessus du fruit, en laissant une courte tige attachée."
+      },
+      "EXPERT": {
+        "en": "Harvest when fully colored and fragrant but still firm. Handle carefully to avoid bruising, which can lead to rot.",
+        "ur": "جب پھل مکمل رنگین اور خوشبودار ہو لیکن پھر بھی سخت ہو تو کاٹ لیں۔ چوٹ لگنے سے بچنے کے لیے احتیاط سے ہینڈل کریں، جو سڑنے کا باعث بن سکتا ہے۔",
+        "ar": "احصد عندما يكون لونه كاملاً وعطريًا ولكنه لا يزال صلبًا. تعامل بحذر لتجنب الكدمات، التي يمكن أن تؤدي إلى التعفن.",
+        "fr": "Récoltez lorsque le fruit est entièrement coloré et parfumé mais encore ferme. Manipulez avec soin pour éviter les meurtrissures, qui peuvent entraîner la pourriture."
+      }
+    },
+    "storage": {
+      "en": "Store in a cool, dark place for several weeks, or refrigerate for up to 2-3 months. Do not wash until ready to use.",
+      "ur": "کئی ہفتوں تک ٹھنڈی، تاریک جگہ پر رکھیں، یا 2-3 ماہ تک ریفریجریٹ کریں۔ استعمال کے لیے تیار ہونے تک نہ دھوئیں۔",
+      "ar": "خزن في مكان بارد ومظلم لعدة أسابيع، أو في الثلاجة لمدة تصل إلى 2-3 أشهر. لا تغسل حتى تصبح جاهزًا للاستخدام.",
+      "fr": "Conservez dans un endroit frais et sombre pendant plusieurs semaines, ou réfrigérez jusqu'à 2-3 mois. Ne lavez pas avant d'être prêt à utiliser."
+    },
+    "yieldEstimateKg": {
+      "GROUND": 30
+    }
+  }
+}

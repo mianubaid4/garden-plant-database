@@ -1,0 +1,1397 @@
+{
+  "id": "coconut",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1587334080186-353642398516?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Coconut",
+      "alternate": [
+        "Coco Palm"
+      ]
+    },
+    "ur": {
+      "common": "ناریل",
+      "alternate": [
+        "کوکو پام"
+      ]
+    },
+    "ar": {
+      "common": "جوز الهند",
+      "alternate": [
+        "نخلة جوز الهند"
+      ]
+    },
+    "fr": {
+      "common": "Noix de coco",
+      "alternate": [
+        "Cocotier"
+      ]
+    },
+    "botanical": "Cocos nucifera",
+    "aliases": [
+      "nariyal",
+      "narial",
+      "jauz alhind",
+      "cocotier",
+      "coco"
+    ]
+  },
+  "category": "fruit",
+  "subcategory": "tropical",
+  "germinationDays": 120,
+  "weatherRules": {
+    "highRiskFungalHumidity": 90,
+    "highWindSupportKmh": 60,
+    "slowGrowthBelowC": 20,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 60,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "TALL",
+    "DWARF"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "TALL": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Tall varieties can grow up to 30 meters and take 5-7 years to bear fruit. Requires occasional pruning of old fronds.",
+          "ur": "لمبی اقسام 30 میٹر تک بڑھ سکتی ہیں اور پھل دینے میں 5-7 سال لگتے ہیں۔ پرانے پتوں کی کبھی کبھار کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      },
+      "DWARF": {
+        "pruningRequired": true,
+        "description": {
+          "en": "Dwarf varieties are smaller, typically 5-10 meters, and can bear fruit in 3-5 years. Requires occasional pruning.",
+          "ur": "بونی اقسام چھوٹی ہوتی ہیں، عام طور پر 5-10 میٹر، اور 3-5 سال میں پھل دے سکتی ہیں۔ کبھی کبھار کٹائی کی ضرورت ہوتی ہے۔"
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": [
+      {
+        "en": "Pollinated by wind and insects.",
+        "ur": "ہوا اور کیڑوں کے ذریعے پولینیشن ہوتی ہے۔",
+        "ar": "يتم التلقيح بواسطة الرياح والحشرات.",
+        "fr": "Pollinisé par le vent et les insectes."
+      }
+    ]
+  },
+  "tags": [
+    "tropical",
+    "fruit",
+    "tree",
+    "perennial",
+    "slow-from-seed",
+    "full-sun",
+    "high-water"
+  ],
+  "temperature": {
+    "optimalMinC": 24,
+    "optimalMaxC": 32,
+    "survivalMinC": 15,
+    "survivalMaxC": 40,
+    "germinationMinC": 25,
+    "germinationOptimalC": 30,
+    "flowerDropAboveC": 38,
+    "flowerDropBelowC": 18
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "EXTREME",
+    "daysToMaturity": 365,
+    "requiredGDD": 4000,
+    "baseTempC": 20,
+    "plantingConditions": {
+      "soilTempMinC": 25,
+      "airTempMinC": 24
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 38,
+      "coldStressCriticalC": 15,
+      "frostWarningC": 5,
+      "heavyRainMm": 50,
+      "highWindKmh": 70,
+      "consecutiveRainyDays": 5
+    }
+  },
+  "light": {
+    "sunHoursMin": 8,
+    "sunHoursOptimal": 10,
+    "sunHoursMax": 14
+  },
+  "water": {
+    "baseMlPer10L": 2000,
+    "intervalDaysBase": 1,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 2,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Deep and Consistent",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "High",
+    "rootRotRisk": "Medium to High if drainage is poor",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "yellowing fronds",
+      "stunted growth",
+      "nut drop"
+    ],
+    "overwateringSymptoms": [
+      "root rot",
+      "yellowing fronds",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Deep watering at the base",
+    "thingsToAvoid": [
+      "standing water",
+      "shallow frequent watering"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "deep",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "regulate soil temperature",
+      "suppress weeds"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Only for very young seedlings; requires frequent watering and eventual transplant to ground.",
+        "ur": "صرف بہت چھوٹے پودوں کے لیے؛ بار بار پانی دینے اور بالآخر زمین میں منتقل کرنے کی ضرورت ہے۔",
+        "ar": "فقط للشتلات الصغيرة جداً؛ يتطلب سقيًا متكررًا وزرعًا نهائيًا في الأرض.",
+        "fr": "Uniquement pour les très jeunes plants ; nécessite un arrosage fréquent et une transplantation éventuelle en pleine terre."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 100,
+      "minDepthCm": 60,
+      "wateringMultiplier": 1.8,
+      "notes": {
+        "en": "Similar to pots, good for temporary growth but not long-term.",
+        "ur": "گملوں کی طرح، عارضی نشوونما کے لیے اچھا ہے لیکن طویل مدتی کے لیے نہیں۔",
+        "ar": "مشابهة للأواني، جيدة للنمو المؤقت ولكن ليست طويلة الأجل.",
+        "fr": "Similaire aux pots, bon pour la croissance temporaire mais pas à long terme."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 100,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Ideal for mature coconut trees, requires ample space and good drainage.",
+        "ur": "بالغ ناریل کے درختوں کے لیے مثالی، کافی جگہ اور اچھی نکاسی آب کی ضرورت ہوتی ہے۔",
+        "ar": "مثالي لأشجار جوز الهند الناضجة، يتطلب مساحة واسعة وتصريفًا جيدًا.",
+        "fr": "Idéal pour les cocotiers matures, nécessite un grand espace et un bon drainage."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 200,
+      "minDepthCm": 80,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Can be used in areas with poor drainage, but still requires significant depth and volume.",
+        "ur": "خراب نکاسی آب والے علاقوں میں استعمال کیا جا سکتا ہے، لیکن پھر بھی کافی گہرائی اور حجم کی ضرورت ہوتی ہے۔",
+        "ar": "يمكن استخدامه في المناطق ذات التصريف السيئ، ولكنه لا يزال يتطلب عمقًا وحجمًا كبيرين.",
+        "fr": "Peut être utilisé dans les zones mal drainées, mais nécessite toujours une profondeur et un volume importants."
+      }
+    }
+  },
+  "isTree": true,
+  "slowFromSeed": true,
+  "timeToHarvestFromSeed": "5-7 years",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Planting the whole coconut nut for germination.",
+        "ur": "ناریل کے پورے پھل کو انکرن کے لیے بونا۔",
+        "ar": "زراعة ثمرة جوز الهند الكاملة للإنبات.",
+        "fr": "Plantation de la noix de coco entière pour la germination."
+      },
+      "emoji": "🥥",
+      "tips": [
+        {
+          "en": "Choose a fresh, mature coconut that still has water inside.",
+          "ur": "ایک تازہ، پکا ہوا ناریل منتخب کریں جس میں ابھی بھی پانی موجود ہو۔",
+          "ar": "اختر ثمرة جوز هند طازجة وناضجة لا يزال بداخلها ماء.",
+          "fr": "Choisissez une noix de coco fraîche et mature qui contient encore de l'eau."
+        },
+        {
+          "en": "Plant in a warm, humid environment for best results.",
+          "ur": "بہترین نتائج کے لیے گرم، مرطوب ماحول میں لگائیں۔",
+          "ar": "ازرع في بيئة دافئة ورطبة للحصول على أفضل النتائج.",
+          "fr": "Plantez dans un environnement chaud et humide pour de meilleurs résultats."
+        }
+      ],
+      "tasks": {
+        "nutSelection": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Select a brown, mature coconut with water inside. Shake it to check.",
+              "ur": "پانی والے بھورے، پکے ہوئے ناریل کا انتخاب کریں۔ چیک کرنے کے لیے اسے ہلائیں۔",
+              "ar": "اختر ثمرة جوز هند بنية وناضجة تحتوي على ماء. رجها للتحقق.",
+              "fr": "Sélectionnez une noix de coco brune et mature avec de l'eau à l'intérieur. Secouez-la pour vérifier."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure the nut is free from cracks and has a healthy 'eye'.",
+              "ur": "یقینی بنائیں کہ ناریل میں دراڑیں نہ ہوں اور اس کی 'آنکھ' صحت مند ہو۔",
+              "ar": "تأكد من أن الثمرة خالية من الشقوق ولها 'عين' صحية.",
+              "fr": "Assurez-vous que la noix est exempte de fissures et possède un 'œil' sain."
+            },
+            "EXPERT": {
+              "en": "Source nuts from a reputable supplier, ideally freshly fallen.",
+              "ur": "معتبر سپلائر سے ناریل حاصل کریں، ترجیحاً تازہ گرے ہوئے ہوں۔",
+              "ar": "احصل على الثمار من مورد موثوق به، ويفضل أن تكون طازجة السقوط.",
+              "fr": "Procurez-vous des noix auprès d'un fournisseur réputé, idéalement fraîchement tombées."
+            }
+          }
+        },
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use well-draining soil, like a mix of sand and potting soil.",
+              "ur": "اچھی نکاسی والی مٹی استعمال کریں، جیسے ریت اور پٹنگ مٹی کا مرکب۔",
+              "ar": "استخدم تربة جيدة التصريف، مثل خليط من الرمل وتربة الأصيص.",
+              "fr": "Utilisez un sol bien drainé, comme un mélange de sable et de terreau."
+            },
+            "INTERMEDIATE": {
+              "en": "Prepare a mix of sandy loam, compost, and perlite for drainage.",
+              "ur": "نکاسی کے لیے ریتلی لوم، کھاد اور پرلائٹ کا مرکب تیار کریں۔",
+              "ar": "جهز خليطًا من التربة الرملية، السماد العضوي، والبيرلايت للصرف.",
+              "fr": "Préparez un mélange de terreau sableux, de compost et de perlite pour le drainage."
+            },
+            "EXPERT": {
+              "en": "Ensure pH is between 6.0-7.0. Consider adding coir for moisture retention.",
+              "ur": "یقینی بنائیں کہ پی ایچ 6.0-7.0 کے درمیان ہے۔ نمی برقرار رکھنے کے لیے کوئر شامل کرنے پر غور کریں۔",
+              "ar": "تأكد من أن الرقم الهيدروجيني بين 6.0-7.0. فكر في إضافة ألياف جوز الهند للاحتفاظ بالرطوبة.",
+              "fr": "Assurez-vous que le pH est entre 6.0 et 7.0. Envisagez d'ajouter de la fibre de coco pour la rétention d'humidité."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Bury about two-thirds of the coconut horizontally in a large pot, with the 'eye' facing up.",
+              "ur": "ناریل کا تقریباً دو تہائی حصہ افقی طور پر ایک بڑے گملے میں دفن کریں، جس کی 'آنکھ' اوپر کی طرف ہو۔",
+              "ar": "ادفن حوالي ثلثي ثمرة جوز الهند أفقيًا في وعاء كبير، مع توجيه 'العين' للأعلى.",
+              "fr": "Enterrez environ les deux tiers de la noix de coco horizontalement dans un grand pot, l'«œil» tourné vers le haut."
+            },
+            "INTERMEDIATE": {
+              "en": "Place the nut with the broadest end down, partially covered, allowing the top third to be exposed.",
+              "ur": "ناریل کو چوڑے سرے کے ساتھ نیچے رکھیں، جزوی طور پر ڈھکا ہوا، اوپر کا ایک تہائی حصہ کھلا چھوڑ دیں۔",
+              "ar": "ضع الثمرة بالطرف الأعرض للأسفل، مغطاة جزئيًا، مع ترك الثلث العلوي مكشوفًا.",
+              "fr": "Placez la noix avec l'extrémité la plus large vers le bas, partiellement recouverte, en laissant le tiers supérieur exposé."
+            },
+            "EXPERT": {
+              "en": "Orient the nut to maximize exposure to warmth and light for the emerging sprout.",
+              "ur": "نکلنے والی کونپل کے لیے گرمی اور روشنی کی زیادہ سے زیادہ نمائش کے لیے ناریل کو ترتیب دیں۔",
+              "ar": "وجه الثمرة لزيادة تعرضها للدفء والضوء للبرعم الناشئ.",
+              "fr": "Orientez la noix pour maximiser l'exposition à la chaleur et à la lumière pour la pousse émergente."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 500,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep the soil consistently moist, but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں، لیکن پانی سے بھری ہوئی نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن لا تغمرها بالماء.",
+              "fr": "Gardez le sol constamment humide, mais pas détrempé."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure good drainage to prevent rot while maintaining humidity.",
+              "ur": "نمی برقرار رکھتے ہوئے سڑنے سے بچنے کے لیے اچھی نکاسی کو یقینی بنائیں۔",
+              "ar": "تأكد من الصرف الجيد لمنع التعفن مع الحفاظ على الرطوبة.",
+              "fr": "Assurez un bon drainage pour éviter la pourriture tout en maintenant l'humidité."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply; aim for a consistently damp, tropical environment.",
+              "ur": "مٹی کی نمی کو گہرائی سے مانیٹر کریں؛ مسلسل نم، اشنکٹبندیی ماحول کا ہدف بنائیں۔",
+              "ar": "راقب رطوبة التربة بعمق؛ اهدف إلى بيئة استوائية رطبة باستمرار.",
+              "fr": "Surveillez l'humidité du sol en profondeur ; visez un environnement tropical constamment humide."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 180,
+      "durationDaysWarm": 150,
+      "durationDaysCool": 240,
+      "description": {
+        "en": "The sprout emerges from the coconut nut.",
+        "ur": "ناریل کے پھل سے کونپل نکلنا۔",
+        "ar": "يخرج البرعم من ثمرة جوز الهند.",
+        "fr": "La pousse émerge de la noix de coco."
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Patience is key; germination can take several months.",
+          "ur": "صبر کلید ہے؛ انکرن میں کئی مہینے لگ سکتے ہیں۔",
+          "ar": "الصبر هو المفتاح؛ قد يستغرق الإنبات عدة أشهر.",
+          "fr": "La patience est essentielle ; la germination peut prendre plusieurs mois."
+        },
+        {
+          "en": "Provide consistent warmth and humidity.",
+          "ur": "مسلسل گرمی اور نمی فراہم کریں۔",
+          "ar": "وفر دفئًا ورطوبة ثابتة.",
+          "fr": "Fournissez une chaleur et une humidité constantes."
+        }
+      ],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 60,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Regularly check the 'eye' of the coconut for signs of a sprout.",
+              "ur": "ناریل کی 'آنکھ' کو کونپل کے آثار کے لیے باقاعدگی سے چیک کریں۔",
+              "ar": "افحص 'عين' جوز الهند بانتظام بحثًا عن علامات البرعم.",
+              "fr": "Vérifiez régulièrement l'«œil» de la noix de coco pour des signes de pousse."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for a small, white shoot emerging from one of the three 'eyes'.",
+              "ur": "تین 'آنکھوں' میں سے ایک سے نکلنے والی ایک چھوٹی، سفید کونپل تلاش کریں۔",
+              "ar": "ابحث عن برعم أبيض صغير يخرج من إحدى 'العيون' الثلاث.",
+              "fr": "Recherchez une petite pousse blanche émergeant de l'un des trois «yeux»."
+            },
+            "EXPERT": {
+              "en": "Monitor for root development if possible, ensuring the nut remains stable.",
+              "ur": "اگر ممکن ہو تو جڑوں کی نشوونما کی نگرانی کریں، اس بات کو یقینی بناتے ہوئے کہ ناریل مستحکم رہے۔",
+              "ar": "راقب تطور الجذور إن أمكن، مع التأكد من بقاء الثمرة ثابتة.",
+              "fr": "Surveillez le développement des racines si possible, en vous assurant que la noix reste stable."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 600,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep the soil consistently moist around the nut.",
+              "ur": "ناریل کے ارد گرد مٹی کو مسلسل نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار حول الثمرة.",
+              "fr": "Gardez le sol constamment humide autour de la noix."
+            },
+            "INTERMEDIATE": {
+              "en": "Water deeply when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez profondément lorsque le pouce supérieur du sol semble sec."
+            },
+            "EXPERT": {
+              "en": "Maintain high humidity, potentially using a humidity dome or misting.",
+              "ur": "زیادہ نمی برقرار رکھیں، ممکنہ طور پر نمی کا گنبد یا چھڑکاؤ استعمال کریں۔",
+              "ar": "حافظ على رطوبة عالية، ربما باستخدام قبة رطوبة أو الرش.",
+              "fr": "Maintenez une humidité élevée, éventuellement en utilisant un dôme d'humidité ou en brumisant."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 300,
+      "durationDaysCool": 450,
+      "description": {
+        "en": "The young palm develops its first true fronds.",
+        "ur": "نوجوان کھجور اپنے پہلے حقیقی پتے تیار کرتی ہے۔",
+        "ar": "تطور النخلة الصغيرة سعفها الحقيقي الأول.",
+        "fr": "Le jeune palmier développe ses premières vraies frondes."
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Ensure the seedling receives plenty of direct sunlight.",
+          "ur": "یقینی بنائیں کہ پودے کو کافی براہ راست سورج کی روشنی ملے۔",
+          "ar": "تأكد من حصول الشتلة على الكثير من أشعة الشمس المباشرة.",
+          "fr": "Assurez-vous que le jeune plant reçoit beaucoup de lumière directe du soleil."
+        },
+        {
+          "en": "Protect from strong winds and cold temperatures.",
+          "ur": "تیز ہواؤں اور سرد درجہ حرارت سے بچائیں۔",
+          "ar": "احمِ من الرياح القوية ودرجات الحرارة الباردة.",
+          "fr": "Protégez des vents forts et des températures froides."
+        }
+      ],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 180,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once the seedling has 3-4 leaves, transplant it to a larger pot or its final location.",
+              "ur": "جب پودے میں 3-4 پتے آ جائیں، تو اسے ایک بڑے گملے یا اس کی آخری جگہ پر منتقل کریں۔",
+              "ar": "بمجرد أن تحتوي الشتلة على 3-4 أوراق، انقلها إلى وعاء أكبر أو موقعها النهائي.",
+              "fr": "Une fois que le jeune plant a 3-4 feuilles, transplantez-le dans un pot plus grand ou à son emplacement final."
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully remove the seedling, disturbing the roots as little as possible.",
+              "ur": "احتیاط سے پودے کو ہٹائیں، جڑوں کو کم سے کم پریشان کریں۔",
+              "ar": "أزل الشتلة بعناية، مع إزعاج الجذور بأقل قدر ممكن.",
+              "fr": "Retirez délicatement le jeune plant, en dérangeant les racines le moins possible."
+            },
+            "EXPERT": {
+              "en": "Prepare the final planting site with rich, well-draining soil and ample space for future growth.",
+              "ur": "مستقبل کی نشوونما کے لیے بھرپور، اچھی نکاسی والی مٹی اور کافی جگہ کے ساتھ آخری پودے لگانے کی جگہ تیار کریں۔",
+              "ar": "جهز موقع الزراعة النهائي بتربة غنية وجيدة التصريف ومساحة واسعة للنمو المستقبلي.",
+              "fr": "Préparez le site de plantation final avec un sol riche et bien drainé et un espace suffisant pour la croissance future."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly to keep the soil moist, especially during dry periods.",
+              "ur": "مٹی کو نم رکھنے کے لیے باقاعدگی سے پانی دیں، خاص طور پر خشک ادوار میں۔",
+              "ar": "اسقِ بانتظام للحفاظ على رطوبة التربة، خاصة خلال الفترات الجافة.",
+              "fr": "Arrosez régulièrement pour maintenir le sol humide, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure deep watering to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کی حوصلہ افزائی کے لیے گہرا پانی یقینی بنائیں۔",
+              "ar": "تأكد من الري العميق لتشجيع نمو الجذور القوية.",
+              "fr": "Assurez un arrosage profond pour encourager un fort développement des racines."
+            },
+            "EXPERT": {
+              "en": "Adjust watering frequency based on soil type, climate, and plant size.",
+              "ur": "مٹی کی قسم، آب و ہوا اور پودے کے سائز کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط تكرار الري بناءً على نوع التربة والمناخ وحجم النبات.",
+              "fr": "Ajustez la fréquence d'arrosage en fonction du type de sol, du climat et de la taille de la plante."
+            }
+          }
+        },
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer every month.",
+              "ur": "ہر ماہ ایک متوازن مائع کھاد کا استعمال کریں۔",
+              "ar": "ضع سمادًا سائلًا متوازنًا كل شهر.",
+              "fr": "Appliquez un engrais liquide équilibré chaque mois."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a slow-release palm fertilizer with micronutrients.",
+              "ur": "مائیکرو نیوٹرینٹس کے ساتھ سست ریلیز پام کھاد استعمال کریں۔",
+              "ar": "استخدم سماد نخيل بطيء الإطلاق مع المغذيات الدقيقة.",
+              "fr": "Utilisez un engrais pour palmiers à libération lente avec des micronutriments."
+            },
+            "EXPERT": {
+              "en": "Conduct soil tests to determine specific nutrient deficiencies and apply accordingly.",
+              "ur": "مخصوص غذائی اجزاء کی کمی کا تعین کرنے کے لیے مٹی کے ٹیسٹ کریں اور اس کے مطابق استعمال کریں۔",
+              "ar": "قم بإجراء اختبارات التربة لتحديد نقص المغذيات المحددة وتطبيقها وفقًا لذلك.",
+              "fr": "Effectuez des analyses de sol pour déterminer les carences spécifiques en nutriments et appliquez en conséquence."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 1825,
+      "durationDaysWarm": 1500,
+      "durationDaysCool": 2100,
+      "description": {
+        "en": "The palm grows rapidly, developing a strong trunk and many fronds.",
+        "ur": "کھجور تیزی سے بڑھتی ہے، ایک مضبوط تنا اور بہت سے پتے تیار کرتی ہے۔",
+        "ar": "تنمو النخلة بسرعة، وتطور جذعًا قويًا وسعفًا كثيرًا.",
+        "fr": "Le palmier pousse rapidement, développant un tronc solide et de nombreuses frondes."
+      },
+      "emoji": "🌴",
+      "tips": [
+        {
+          "en": "Ensure adequate space for the palm to grow to its full size.",
+          "ur": "یقینی بنائیں کہ کھجور کو اپنی پوری سائز تک بڑھنے کے لیے کافی جگہ ملے۔",
+          "ar": "تأكد من توفر مساحة كافية للنخلة لتنمو إلى حجمها الكامل.",
+          "fr": "Assurez un espace adéquat pour que le palmier atteigne sa pleine taille."
+        },
+        {
+          "en": "Regularly remove dead or yellowing fronds to maintain health.",
+          "ur": "صحت برقرار رکھنے کے لیے باقاعدگی سے مردہ یا پیلے پتے ہٹائیں۔",
+          "ar": "أزل السعف الميت أو المصفر بانتظام للحفاظ على الصحة.",
+          "fr": "Retirez régulièrement les frondes mortes ou jaunissantes pour maintenir la santé."
+        }
+      ],
+      "tasks": {
+        "fertilization": {
+          "isRecurring": true,
+          "intervalDays": 90,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a slow-release palm fertilizer every 3 months.",
+              "ur": "ہر 3 ماہ بعد سست ریلیز پام کھاد کا استعمال کریں۔",
+              "ar": "ضع سماد نخيل بطيء الإطلاق كل 3 أشهر.",
+              "fr": "Appliquez un engrais pour palmiers à libération lente tous les 3 mois."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a fertilizer specifically formulated for palms, rich in potassium and magnesium.",
+              "ur": "کھجوروں کے لیے خاص طور پر تیار کردہ کھاد استعمال کریں، جو پوٹاشیم اور میگنیشیم سے بھرپور ہو۔",
+              "ar": "استخدم سمادًا مصممًا خصيصًا للنخيل، غنيًا بالبوتاسيوم والمغنيسيوم.",
+              "fr": "Utilisez un engrais spécialement formulé pour les palmiers, riche en potassium et en magnésium."
+            },
+            "EXPERT": {
+              "en": "Monitor for nutrient deficiencies (e.g., yellowing fronds for potassium deficiency) and apply targeted supplements.",
+              "ur": "غذائی اجزاء کی کمی (مثلاً، پوٹاشیم کی کمی کے لیے پیلے پتے) کی نگرانی کریں اور ہدف شدہ سپلیمنٹس استعمال کریں۔",
+              "ar": "راقب نقص المغذيات (مثل اصفرار السعف لنقص البوتاسيوم) وطبق المكملات المستهدفة.",
+              "fr": "Surveillez les carences en nutriments (par exemple, jaunissement des frondes pour une carence en potassium) et appliquez des suppléments ciblés."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 2000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply once a week, especially during dry seasons.",
+              "ur": "خشک موسموں میں خاص طور پر ہفتے میں ایک بار گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق مرة واحدة في الأسبوع، خاصة خلال المواسم الجافة.",
+              "fr": "Arrosez profondément une fois par semaine, surtout pendant les saisons sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure the root zone is thoroughly saturated, allowing for good drainage.",
+              "ur": "یقینی بنائیں کہ جڑوں کا علاقہ اچھی طرح سیراب ہو، اچھی نکاسی کی اجازت دیتے ہوئے۔",
+              "ar": "تأكد من تشبع منطقة الجذور تمامًا، مع السماح بالصرف الجيد.",
+              "fr": "Assurez-vous que la zone racinaire est complètement saturée, permettant un bon drainage."
+            },
+            "EXPERT": {
+              "en": "Implement an irrigation schedule that considers rainfall, soil type, and palm age.",
+              "ur": "بارش، مٹی کی قسم اور کھجور کی عمر کو مدنظر رکھتے ہوئے آبپاشی کا شیڈول نافذ کریں۔",
+              "ar": "نفذ جدول ري يأخذ في الاعتبار هطول الأمطار ونوع التربة وعمر النخلة.",
+              "fr": "Mettez en œuvre un programme d'irrigation qui tient compte des précipitations, du type de sol et de l'âge du palmier."
+            }
+          }
+        },
+        "pruning": {
+          "isRecurring": true,
+          "intervalDays": 180,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove only completely dead, brown fronds that are hanging down.",
+              "ur": "صرف مکمل طور پر مردہ، بھورے پتے ہٹائیں جو نیچے لٹک رہے ہوں۔",
+              "ar": "أزل فقط السعف الميت تمامًا والبني الذي يتدلى.",
+              "fr": "Retirez uniquement les frondes complètement mortes et brunes qui pendent."
+            },
+            "INTERMEDIATE": {
+              "en": "Prune yellowing or diseased fronds, cutting close to the trunk without damaging it.",
+              "ur": "پیلے یا بیمار پتے کاٹ دیں، تنے کو نقصان پہنچائے بغیر تنے کے قریب سے کاٹیں۔",
+              "ar": "قم بتقليم السعف المصفر أو المريض، بالقطع بالقرب من الجذع دون إتلافه.",
+              "fr": "Taillez les frondes jaunissantes ou malades, en coupant près du tronc sans l'endommager."
+            },
+            "EXPERT": {
+              "en": "Avoid over-pruning green fronds, as they are vital for nutrient production and palm health.",
+              "ur": "سبز پتوں کو زیادہ کاٹنے سے گریز کریں، کیونکہ وہ غذائی اجزاء کی پیداوار اور کھجور کی صحت کے لیے اہم ہیں۔",
+              "ar": "تجنب الإفراط في تقليم السعف الأخضر، لأنه حيوي لإنتاج المغذيات وصحة النخلة.",
+              "fr": "Évitez de trop tailler les frondes vertes, car elles sont vitales pour la production de nutriments et la santé du palmier."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "The coconut palm begins to produce flower spathes.",
+        "ur": "ناریل کا درخت پھولوں کے گچھے پیدا کرنا شروع کرتا ہے۔",
+        "ar": "تبدأ نخلة جوز الهند في إنتاج غمد الزهور.",
+        "fr": "Le cocotier commence à produire des spathes florales."
+      },
+      "emoji": "🌸",
+      "tips": [
+        {
+          "en": "Ensure consistent watering and nutrition to support flower development.",
+          "ur": "پھولوں کی نشوونما کو سہارا دینے کے لیے مسلسل پانی اور غذائیت کو یقینی بنائیں۔",
+          "ar": "تأكد من الري والتغذية المستمرين لدعم نمو الزهور.",
+          "fr": "Assurez un arrosage et une nutrition constants pour soutenir le développement des fleurs."
+        },
+        {
+          "en": "Some varieties may benefit from hand pollination if natural pollinators are scarce.",
+          "ur": "اگر قدرتی پولینیٹرز کم ہوں تو کچھ اقسام کو ہاتھ سے پولینیشن سے فائدہ ہو سکتا ہے۔",
+          "ar": "قد تستفيد بعض الأصناف من التلقيح اليدوي إذا كانت الملقحات الطبيعية نادرة.",
+          "fr": "Certaines variétés peuvent bénéficier de la pollinisation manuelle si les pollinisateurs naturels sont rares."
+        }
+      ],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for new flower spathes emerging from the crown of the palm.",
+              "ur": "کھجور کے تاج سے نکلنے والے نئے پھولوں کے گچھے تلاش کریں۔",
+              "ar": "ابحث عن غمد الزهور الجديد الذي يخرج من تاج النخلة.",
+              "fr": "Recherchez de nouvelles spathes florales émergeant de la couronne du palmier."
+            },
+            "INTERMEDIATE": {
+              "en": "Observe the health of the flowers and check for any signs of pest damage.",
+              "ur": "پھولوں کی صحت کا مشاہدہ کریں اور کیڑوں کے نقصان کی کسی بھی علامت کو چیک کریں۔",
+              "ar": "راقب صحة الزهور وتحقق من أي علامات لتلف الآفات.",
+              "fr": "Observez la santé des fleurs et vérifiez tout signe de dommages causés par les parasites."
+            },
+            "EXPERT": {
+              "en": "Assess pollination success and consider supplementary hand pollination if fruit set is low.",
+              "ur": "پولینیشن کی کامیابی کا اندازہ لگائیں اور اگر پھل کم لگ رہے ہوں تو اضافی ہاتھ سے پولینیشن پر غور کریں۔",
+              "ar": "قيم نجاح التلقيح وفكر في التلقيح اليدوي التكميلي إذا كان عقد الثمار منخفضًا.",
+              "fr": "Évaluez le succès de la pollinisation et envisagez une pollinisation manuelle supplémentaire si la nouaison est faible."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 2500,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent deep watering to support flowering and early fruit set.",
+              "ur": "پھولوں اور ابتدائی پھل لگنے کو سہارا دینے کے لیے مسلسل گہرا پانی برقرار رکھیں۔",
+              "ar": "حافظ على الري العميق المستمر لدعم الإزهار وعقد الثمار المبكر.",
+              "fr": "Maintenez un arrosage profond et constant pour soutenir la floraison et la nouaison précoce."
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid water stress during this critical period, which can lead to flower drop.",
+              "ur": "اس نازک دور میں پانی کے دباؤ سے بچیں، جو پھولوں کے گرنے کا سبب بن سکتا ہے۔",
+              "ar": "تجنب الإجهاد المائي خلال هذه الفترة الحرجة، والذي يمكن أن يؤدي إلى تساقط الزهور.",
+              "fr": "Évitez le stress hydrique pendant cette période critique, qui peut entraîner la chute des fleurs."
+            },
+            "EXPERT": {
+              "en": "Ensure optimal soil moisture levels to maximize flower viability and potential fruit yield.",
+              "ur": "پھولوں کی بقا اور ممکنہ پھل کی پیداوار کو زیادہ سے زیادہ کرنے کے لیے مٹی کی نمی کی بہترین سطح کو یقینی بنائیں۔",
+              "ar": "تأكد من مستويات رطوبة التربة المثلى لزيادة حيوية الزهور وعائد الثمار المحتمل.",
+              "fr": "Assurez des niveaux d'humidité du sol optimaux pour maximiser la viabilité des fleurs et le rendement potentiel des fruits."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 270,
+      "durationDaysWarm": 240,
+      "durationDaysCool": 330,
+      "description": {
+        "en": "Flowers develop into young coconuts, which then mature.",
+        "ur": "پھول چھوٹے ناریل میں تبدیل ہوتے ہیں، جو پھر پختہ ہوتے ہیں۔",
+        "ar": "تتطور الزهور إلى ثمار جوز الهند الصغيرة، ثم تنضج.",
+        "fr": "Les fleurs se transforment en jeunes noix de coco, qui mûrissent ensuite."
+      },
+      "emoji": "🥥",
+      "tips": [
+        {
+          "en": "Consistent water and nutrients are crucial for large, healthy coconuts.",
+          "ur": "بڑے، صحت مند ناریل کے لیے مسلسل پانی اور غذائی اجزاء بہت اہم ہیں۔",
+          "ar": "الماء والمغذيات المستمرة ضرورية لإنتاج جوز الهند الكبير والصحي.",
+          "fr": "Un apport constant en eau et en nutriments est crucial pour des noix de coco grandes et saines."
+        },
+        {
+          "en": "Protect developing fruits from pests and strong winds.",
+          "ur": "بڑھتے ہوئے پھلوں کو کیڑوں اور تیز ہواؤں سے بچائیں۔",
+          "ar": "احمِ الثمار النامية من الآفات والرياح القوية.",
+          "fr": "Protégez les fruits en développement des parasites et des vents forts."
+        }
+      ],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check developing coconuts for signs of pests or disease.",
+              "ur": "بڑھتے ہوئے ناریل کو کیڑوں یا بیماری کی علامات کے لیے چیک کریں۔",
+              "ar": "افحص ثمار جوز الهند النامية بحثًا عن علامات الآفات أو الأمراض.",
+              "fr": "Vérifiez les noix de coco en développement pour des signes de parasites ou de maladies."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for discolored spots, holes, or premature dropping of fruits.",
+              "ur": "پھلوں کے رنگین دھبوں، سوراخوں یا وقت سے پہلے گرنے کی تلاش کریں۔",
+              "ar": "ابحث عن البقع المتغيرة اللون، الثقوب، أو تساقط الثمار المبكر.",
+              "fr": "Recherchez des taches décolorées, des trous ou une chute prématurée des fruits."
+            },
+            "EXPERT": {
+              "en": "Monitor for common coconut pests like rhinoceros beetles or red palm weevils.",
+              "ur": "گینڈا بھونرا یا سرخ کھجور کے بھونرے جیسے عام ناریل کے کیڑوں کی نگرانی کریں۔",
+              "ar": "راقب آفات جوز الهند الشائعة مثل خنافس وحيد القرن أو سوسة النخيل الحمراء.",
+              "fr": "Surveillez les parasites courants du cocotier comme les scarabées rhinocéros ou les charançons rouges du palmier."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Rhinoceros Beetle",
+              "ur": "گینڈا بھونرا",
+              "ar": "خنفساء وحيد القرن",
+              "fr": "Scarabée rhinocéros"
+            },
+            {
+              "en": "Red Palm Weevil",
+              "ur": "سرخ کھجور کا بھونرا",
+              "ar": "سوسة النخيل الحمراء",
+              "fr": "Charançon rouge du palmier"
+            },
+            {
+              "en": "Nut Drop",
+              "ur": "ناریل کا گرنا",
+              "ar": "تساقط الثمار",
+              "fr": "Chute des noix"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "mlPer10LContainer": 3000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide ample water to the base of the palm, especially during dry spells.",
+              "ur": "خشک ادوار میں خاص طور پر کھجور کے تنے کو کافی پانی فراہم کریں۔",
+              "ar": "وفر كمية كافية من الماء لقاعدة النخلة، خاصة خلال فترات الجفاف.",
+              "fr": "Fournissez amplement d'eau à la base du palmier, surtout pendant les périodes de sécheresse."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture to prevent premature nut drop and promote full development.",
+              "ur": "وقت سے پہلے ناریل کے گرنے سے بچنے اور مکمل نشوونما کو فروغ دینے کے لیے مسلسل نمی کو یقینی بنائیں۔",
+              "ar": "تأكد من الرطوبة المستمرة لمنع تساقط الثمار المبكر وتعزيز التطور الكامل.",
+              "fr": "Assurez une humidité constante pour éviter la chute prématurée des noix et favoriser un développement complet."
+            },
+            "EXPERT": {
+              "en": "Optimize irrigation to meet the high water demands of fruiting palms, considering soil type and climate.",
+              "ur": "پھل دینے والی کھجوروں کی زیادہ پانی کی ضروریات کو پورا کرنے کے لیے آبپاشی کو بہتر بنائیں، مٹی کی قسم اور آب و ہوا کو مدنظر رکھتے ہوئے۔",
+              "ar": "حسن الري لتلبية احتياجات النخيل المثمر العالية من المياه، مع مراعاة نوع التربة والمناخ.",
+              "fr": "Optimisez l'irrigation pour répondre aux besoins élevés en eau des palmiers fruitiers, en tenant compte du type de sol et du climat."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 365,
+      "durationDaysWarm": 365,
+      "durationDaysCool": 365,
+      "description": {
+        "en": "Mature coconuts are ready for collection.",
+        "ur": "پکے ہوئے ناریل جمع کرنے کے لیے تیار ہیں۔",
+        "ar": "ثمار جوز الهند الناضجة جاهزة للجمع.",
+        "fr": "Les noix de coco matures sont prêtes à être récoltées."
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Coconuts can be harvested at different stages depending on desired use (tender for water, mature for meat/oil).",
+          "ur": "ناریل کو مطلوبہ استعمال کے لحاظ سے مختلف مراحل پر کاٹا جا سکتا ہے (پانی کے لیے نرم، گوشت/تیل کے لیے پکا ہوا)۔",
+          "ar": "يمكن حصاد جوز الهند في مراحل مختلفة حسب الاستخدام المطلوب (طري للماء، ناضج للحم/الزيت).",
+          "fr": "Les noix de coco peuvent être récoltées à différents stades selon l'utilisation souhaitée (tendres pour l'eau, matures pour la chair/l'huile)."
+        },
+        {
+          "en": "Use caution when harvesting, as falling coconuts can be dangerous.",
+          "ur": "کٹائی کرتے وقت احتیاط برتیں، کیونکہ گرتے ہوئے ناریل خطرناک ہو سکتے ہیں۔",
+          "ar": "توخَ الحذر عند الحصاد، حيث يمكن أن تكون ثمار جوز الهند المتساقطة خطيرة.",
+          "fr": "Soyez prudent lors de la récolte, car les noix de coco qui tombent peuvent être dangereuses."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 30,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Collect coconuts that have fallen naturally or are easily accessible and brown.",
+              "ur": "قدرتی طور پر گرے ہوئے یا آسانی سے قابل رسائی اور بھورے ناریل جمع کریں۔",
+              "ar": "اجمع ثمار جوز الهند التي سقطت بشكل طبيعي أو التي يسهل الوصول إليها وتكون بنية اللون.",
+              "fr": "Ramassez les noix de coco tombées naturellement ou celles qui sont facilement accessibles et brunes."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest mature coconuts by carefully cutting the stem with a long pole or climbing.",
+              "ur": "پکے ہوئے ناریل کو لمبی چھڑی سے احتیاط سے تنا کاٹ کر یا چڑھ کر کاٹیں۔",
+              "ar": "احصد ثمار جوز الهند الناضجة بقطع الساق بعناية باستخدام عمود طويل أو بالتسلق.",
+              "fr": "Récoltez les noix de coco matures en coupant délicatement la tige avec une longue perche ou en grimpant."
+            },
+            "EXPERT": {
+              "en": "Assess maturity by sound (hollow for mature) and husk color. Use proper safety equipment for climbing.",
+              "ur": "آواز (پکے ہوئے کے لیے کھوکھلی) اور بھوسی کے رنگ سے پختگی کا اندازہ لگائیں۔ چڑھنے کے لیے مناسب حفاظتی سامان استعمال کریں۔",
+              "ar": "قيم النضج بالصوت (أجوف للناضج) ولون القشرة. استخدم معدات السلامة المناسبة للتسلق.",
+              "fr": "Évaluez la maturité par le son (creux pour mature) et la couleur de la coque. Utilisez un équipement de sécurité approprié pour l'escalade."
+            }
+          }
+        },
+        "postHarvestCare": {
+          "isRecurring": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Store harvested coconuts in a cool, dry place.",
+              "ur": "کٹائی شدہ ناریل کو ٹھنڈی، خشک جگہ پر ذخیرہ کریں۔",
+              "ar": "خزن ثمار جوز الهند المحصودة في مكان بارد وجاف.",
+              "fr": "Conservez les noix de coco récoltées dans un endroit frais et sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Process coconuts for water, milk, or oil depending on your needs.",
+              "ur": "اپنی ضروریات کے مطابق پانی، دودھ یا تیل کے لیے ناریل کو پروسیس کریں۔",
+              "ar": "قم بمعالجة ثمار جوز الهند للحصول على الماء أو الحليب أو الزيت حسب احتياجاتك.",
+              "fr": "Transformez les noix de coco pour l'eau, le lait ou l'huile selon vos besoins."
+            },
+            "EXPERT": {
+              "en": "Consider sustainable harvesting practices to ensure long-term productivity of the palm.",
+              "ur": "کھجور کی طویل مدتی پیداواریت کو یقینی بنانے کے لیے پائیدار کٹائی کے طریقوں پر غور کریں۔",
+              "ar": "فكر في ممارسات الحصاد المستدامة لضمان إنتاجية النخلة على المدى الطويل.",
+              "fr": "Envisagez des pratiques de récolte durables pour assurer la productivité à long terme du palmier."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Well-rotted Compost or Manure",
+          "ur": "اچھی طرح گلی ہوئی کھاد یا گوبر",
+          "ar": "سماد عضوي متحلل أو روث",
+          "fr": "Compost bien décomposé ou fumier"
+        },
+        "preparation": {
+          "en": "Apply 1-2 kg of well-rotted compost or manure around the base of the young coconut plant. Gently mix into the topsoil.",
+          "ur": "نوجوان ناریل کے پودے کے گرد 1-2 کلو اچھی طرح گلی ہوئی کھاد یا گوبر ڈالیں۔ اسے مٹی میں ہلکا سا مکس کریں۔",
+          "ar": "ضع 1-2 كجم من السماد العضوي المتحلل أو الروث حول قاعدة شتلة جوز الهند. اخلطه بلطف مع التربة السطحية.",
+          "fr": "Appliquez 1-2 kg de compost bien décomposé ou de fumier autour de la base du jeune cocotier. Mélangez doucement à la terre de surface."
+        },
+        "quantityPer10L": 1000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential nutrients for strong root development and early growth.",
+          "ur": "مضبوط جڑوں کی نشوونما اور ابتدائی بڑھوتری کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يوفر العناصر الغذائية الأساسية لنمو الجذور القوية والنمو المبكر.",
+          "fr": "Fournit les nutriments essentiels pour un fort développement racinaire et une croissance précoce."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Compost, Green Manure (e.g., Gliricidia leaves)",
+          "ur": "کمپوسٹ، سبز کھاد (مثلاً گلیرسیڈیا کے پتے)",
+          "ar": "سماد عضوي، سماد أخضر (مثل أوراق الجليريسيديا)",
+          "fr": "Compost, engrais vert (ex: feuilles de Gliricidia)"
+        },
+        "preparation": {
+          "en": "Apply 5-10 kg of compost or incorporate green manure around the base of the growing tree. This improves soil structure and nutrient availability.",
+          "ur": "بڑھتے ہوئے درخت کے گرد 5-10 کلو کمپوسٹ ڈالیں یا سبز کھاد شامل کریں۔ یہ مٹی کی ساخت اور غذائی اجزاء کی دستیابی کو بہتر بناتا ہے۔",
+          "ar": "ضع 5-10 كجم من السماد العضوي أو ادمج السماد الأخضر حول قاعدة الشجرة النامية. هذا يحسن بنية التربة وتوافر المغذيات.",
+          "fr": "Appliquez 5-10 kg de compost ou incorporez de l'engrais vert autour de la base de l'arbre en croissance. Cela améliore la structure du sol et la disponibilité des nutriments."
+        },
+        "quantityPer10L": 5000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous frond development and prepares the tree for future fruiting.",
+          "ur": "مضبوط پتوں کی نشوونما میں مدد کرتا ہے اور درخت کو مستقبل میں پھل دینے کے لیے تیار کرتا ہے۔",
+          "ar": "يدعم النمو القوي للأوراق ويجهز الشجرة للإثمار المستقبلي.",
+          "fr": "Soutient le développement vigoureux des frondes et prépare l'arbre à la future fructification."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Wood Ash (Potassium), Rock Phosphate (Phosphorus), Epsom Salts (Magnesium)",
+          "ur": "لکڑی کی راکھ (پوٹاشیم)، راک فاسفیٹ (فاسفورس)، ایپسوم سالٹس (میگنیشیم)",
+          "ar": "رماد الخشب (بوتاسيوم)، فوسفات الصخور (فوسفور)، أملاح إبسوم (مغنيسيوم)",
+          "fr": "Cendre de bois (Potassium), Phosphate de roche (Phosphore), Sels d'Epsom (Magnésium)"
+        },
+        "preparation": {
+          "en": "Apply 500g wood ash, 250g rock phosphate, and 100g Epsom salts per tree around the drip line. Gently scratch into the soil.",
+          "ur": "ہر درخت کے گرد 500 گرام لکڑی کی راکھ، 250 گرام راک فاسفیٹ، اور 100 گرام ایپسوم سالٹس ڈالیں۔ اسے مٹی میں ہلکا سا مکس کریں۔",
+          "ar": "ضع 500 جرام من رماد الخشب، 250 جرام من فوسفات الصخور، و 100 جرام من أملاح إبسوم لكل شجرة حول خط التنقيط. اخلطه بلطف مع التربة.",
+          "fr": "Appliquez 500g de cendre de bois, 250g de phosphate de roche et 100g de sels d'Epsom par arbre autour de la ligne d'égouttement. Grattez doucement le sol."
+        },
+        "quantityPer10L": 850,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Boosts flower production and provides crucial minerals for nut formation.",
+          "ur": "پھولوں کی پیداوار کو بڑھاتا ہے اور ناریل بننے کے لیے اہم معدنیات فراہم کرتا ہے۔",
+          "ar": "يعزز إنتاج الزهور ويوفر المعادن الأساسية لتكوين الثمار.",
+          "fr": "Stimule la production florale et fournit des minéraux cruciaux pour la formation des noix."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Compost, Potassium-rich organic matter (e.g., banana peels, seaweed meal)",
+          "ur": "کمپوسٹ، پوٹاشیم سے بھرپور نامیاتی مادہ (مثلاً کیلے کے چھلکے، سی ویڈ میل)",
+          "ar": "سماد عضوي، مواد عضوية غنية بالبوتاسيوم (مثل قشور الموز، وجبة الأعشاب البحرية)",
+          "fr": "Compost, matière organique riche en potassium (ex: peaux de banane, farine d'algues)"
+        },
+        "preparation": {
+          "en": "Apply 10-15 kg of compost and incorporate potassium-rich organic matter around the tree's base. This supports continuous fruiting.",
+          "ur": "درخت کی جڑوں کے گرد 10-15 کلو کمپوسٹ اور پوٹاشیم سے بھرپور نامیاتی مادہ شامل کریں۔ یہ مسلسل پھل دینے میں مدد کرتا ہے۔",
+          "ar": "ضع 10-15 كجم من السماد العضوي وادمج المواد العضوية الغنية بالبوتاسيوم حول قاعدة الشجرة. هذا يدعم الإثمار المستمر.",
+          "fr": "Appliquez 10-15 kg de compost et incorporez de la matière organique riche en potassium autour de la base de l'arbre. Cela soutient la fructification continue."
+        },
+        "quantityPer10L": 10000,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for nut size, quality, and overall yield.",
+          "ur": "پوٹاشیم ناریل کے سائز، معیار اور مجموعی پیداوار کے لیے بہت اہم ہے۔",
+          "ar": "البوتاسيوم حيوي لحجم الثمار وجودتها والإنتاج الكلي.",
+          "fr": "Le potassium est vital pour la taille, la qualité et le rendement global des noix."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 60,
+        "product": {
+          "en": "Balanced NPK (e.g., 15-5-20 or 10-10-10)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 15-5-20 یا 10-10-10)",
+          "ar": "سماد NPK متوازن (مثل 15-5-20 أو 10-10-10)",
+          "fr": "NPK équilibré (ex: 15-5-20 ou 10-10-10)"
+        },
+        "preparation": {
+          "en": "Apply 500g - 1kg of granular NPK fertilizer per tree, spread evenly around the drip line. Water thoroughly after application.",
+          "ur": "ہر درخت کے گرد 500 گرام - 1 کلو دانے دار NPK کھاد یکساں طور پر پھیلائیں۔ کھاد ڈالنے کے بعد اچھی طرح پانی دیں۔",
+          "ar": "ضع 500 جرام - 1 كجم من سماد NPK الحبيبي لكل شجرة، موزعة بالتساوي حول خط التنقيط. اسقِ جيدًا بعد التطبيق.",
+          "fr": "Appliquez 500g - 1kg d'engrais NPK granulaire par arbre, réparti uniformément autour de la ligne d'égouttement. Arrosez abondamment après l'application."
+        },
+        "quantityPer10L": 750,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong vegetative growth and frond development.",
+          "ur": "مضبوط پودوں کی نشوونما اور پتوں کی بڑھوتری کو فروغ دیتا ہے۔",
+          "ar": "يعزز النمو الخضري القوي وتطور الأوراق.",
+          "fr": "Favorise une croissance végétative vigoureuse et le développement des frondes."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "High Potassium & Magnesium Fertilizer (e.g., Muriate of Potash, Epsom Salts)",
+          "ur": "زیادہ پوٹاشیم اور میگنیشیم کھاد (مثلاً پوٹاش کا میوریٹ، ایپسوم سالٹس)",
+          "ar": "سماد عالي البوتاسيوم والمغنيسيوم (مثل كلوريد البوتاسيوم، أملاح إبسوم)",
+          "fr": "Engrais riche en Potassium et Magnésium (ex: Muriate de Potasse, Sels d'Epsom)"
+        },
+        "preparation": {
+          "en": "Apply 500g Muriate of Potash and 200g Epsom salts per tree around the drip line. Water immediately to dissolve.",
+          "ur": "ہر درخت کے گرد 500 گرام پوٹاش کا میوریٹ اور 200 گرام ایپسوم سالٹس ڈالیں۔ حل کرنے کے لیے فوراً پانی دیں۔",
+          "ar": "ضع 500 جرام من كلوريد البوتاسيوم و 200 جرام من أملاح إبسوم لكل شجرة حول خط التنقيط. اسقِ فوراً للذوبان.",
+          "fr": "Appliquez 500g de Muriate de Potasse et 200g de sels d'Epsom par arbre autour de la ligne d'égouttement. Arrosez immédiatement pour dissoudre."
+        },
+        "quantityPer10L": 700,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Crucial for flower development and preventing nutrient deficiencies during this critical stage.",
+          "ur": "اس اہم مرحلے کے دوران پھولوں کی نشوونما اور غذائی اجزاء کی کمی کو روکنے کے لیے بہت اہم ہے۔",
+          "ar": "حيوي لتطور الزهور ومنع نقص المغذيات خلال هذه المرحلة الحرجة.",
+          "fr": "Crucial pour le développement floral et la prévention des carences nutritionnelles à ce stade critique."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 90,
+        "product": {
+          "en": "Coconut-specific fertilizer (e.g., 8-4-24-4Mg-0.5B-10Cl) or High K, Mg, B blend",
+          "ur": "ناریل کی مخصوص کھاد (مثلاً 8-4-24-4Mg-0.5B-10Cl) یا زیادہ پوٹاشیم، میگنیشیم، بورون کا مرکب",
+          "ar": "سماد خاص بجوز الهند (مثل 8-4-24-4Mg-0.5B-10Cl) أو خليط عالي البوتاسيوم والمغنيسيوم والبورون",
+          "fr": "Engrais spécifique au cocotier (ex: 8-4-24-4Mg-0.5B-10Cl) ou mélange riche en K, Mg, B"
+        },
+        "preparation": {
+          "en": "Apply 1-2 kg of specialized coconut fertilizer per tree, spread around the base. Water well after application.",
+          "ur": "ہر درخت کے گرد 1-2 کلو ناریل کی مخصوص کھاد پھیلائیں۔ کھاد ڈالنے کے بعد اچھی طرح پانی دیں۔",
+          "ar": "ضع 1-2 كجم من سماد جوز الهند المتخصص لكل شجرة، موزعة حول القاعدة. اسقِ جيدًا بعد التطبيق.",
+          "fr": "Appliquez 1-2 kg d'engrais spécialisé pour cocotier par arbre, réparti autour de la base. Arrosez bien après l'application."
+        },
+        "quantityPer10L": 1500,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes nut yield, size, and oil content. Chloride is particularly important for coconuts.",
+          "ur": "ناریل کی پیداوار، سائز اور تیل کے مواد کو بہتر بناتا ہے۔ کلورائیڈ ناریل کے لیے خاص طور پر اہم ہے۔",
+          "ar": "يحسن محصول الثمار وحجمها ومحتواها الزيتي. الكلوريد مهم بشكل خاص لجوز الهند.",
+          "fr": "Optimise le rendement, la taille et la teneur en huile des noix. Le chlorure est particulièrement important pour les cocotiers."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost/Green Manure",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Wood Ash/Epsom Salts",
+        "week2": "High K & Mg Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Compost/Potassium-rich organic matter",
+        "week2": "Coconut-specific fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "gliricidia",
+      "benefit": {
+        "en": "Nitrogen-fixing legume, provides green manure, shade for young plants, and improves soil fertility.",
+        "ur": "نائٹروجن فکسنگ پھلی دار پودا، سبز کھاد فراہم کرتا ہے، نوجوان پودوں کو سایہ دیتا ہے، اور مٹی کی زرخیزی کو بہتر بناتا ہے۔",
+        "ar": "نبات بقولي مثبت للنيتروجين، يوفر سمادًا أخضر، وظلاً للنباتات الصغيرة، ويحسن خصوبة التربة.",
+        "fr": "Légumineuse fixatrice d'azote, fournit de l'engrais vert, de l'ombre pour les jeunes plantes et améliore la fertilité du sol."
+      }
+    },
+    {
+      "plantId": "pineapple",
+      "benefit": {
+        "en": "Acts as a groundcover, suppresses weeds, conserves soil moisture, and utilizes space efficiently between coconut trees.",
+        "ur": "زمین کو ڈھانپتا ہے، جڑی بوٹیوں کو دباتا ہے، مٹی کی نمی کو برقرار رکھتا ہے، اور ناریل کے درختوں کے درمیان جگہ کو مؤثر طریقے سے استعمال کرتا ہے۔",
+        "ar": "يعمل كغطاء أرضي، يقمع الأعشاب الضارة، يحافظ على رطوبة التربة، ويستخدم المساحة بكفاءة بين أشجار جوز الهند.",
+        "fr": "Agit comme couvre-sol, supprime les mauvaises herbes, conserve l'humidité du sol et utilise efficacement l'espace entre les cocotiers."
+      }
+    },
+    {
+      "plantId": "vanilla",
+      "benefit": {
+        "en": "Can be grown as a climbing crop on coconut trunks, benefiting from the shade and support, adding economic value.",
+        "ur": "ناریل کے تنوں پر چڑھنے والی فصل کے طور پر اگایا جا سکتا ہے، سائے اور سہارے سے فائدہ اٹھاتا ہے، اقتصادی قدر میں اضافہ کرتا ہے۔",
+        "ar": "يمكن زراعته كنبات متسلق على جذوع جوز الهند، مستفيدًا من الظل والدعم، مما يضيف قيمة اقتصادية.",
+        "fr": "Peut être cultivée comme plante grimpante sur les troncs de cocotiers, bénéficiant de l'ombre et du support, ajoutant une valeur économique."
+      }
+    },
+    {
+      "plantId": "black_pepper",
+      "benefit": {
+        "en": "Similar to vanilla, it can climb coconut trunks, providing an additional cash crop and utilizing vertical space.",
+        "ur": "ونیلا کی طرح، یہ ناریل کے تنوں پر چڑھ سکتا ہے، ایک اضافی نقد فصل فراہم کرتا ہے اور عمودی جگہ کا استعمال کرتا ہے۔",
+        "ar": "مشابه للفانيليا، يمكنه التسلق على جذوع جوز الهند، مما يوفر محصولًا نقديًا إضافيًا ويستخدم المساحة العمودية.",
+        "fr": "Similaire à la vanille, il peut grimper sur les troncs de cocotiers, offrant une culture de rente supplémentaire et utilisant l'espace vertical."
+      }
+    },
+    {
+      "plantId": "ginger_turmeric",
+      "benefit": {
+        "en": "Shade-tolerant root crops that can be grown in the interspaces, utilizing partial shade and adding diversity to the farm.",
+        "ur": "سایہ برداشت کرنے والی جڑ والی فصلیں جو درمیانی جگہوں پر اگائی جا سکتی ہیں، جزوی سائے کا استعمال کرتی ہیں اور فارم میں تنوع پیدا کرتی ہیں۔",
+        "ar": "محاصيل جذرية تتحمل الظل يمكن زراعتها في المساحات البينية، مستفيدة من الظل الجزئي وتضيف تنوعًا للمزرعة.",
+        "fr": "Cultures racinaires tolérantes à l'ombre qui peuvent être cultivées dans les interlignes, utilisant l'ombre partielle et ajoutant de la diversité à la ferme."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "large_aggressive_weeds",
+      "reason": {
+        "en": "Compete heavily with young coconut plants for water, nutrients, and sunlight, hindering their growth and establishment.",
+        "ur": "نوجوان ناریل کے پودوں کے ساتھ پانی، غذائی اجزاء اور سورج کی روشنی کے لیے شدید مقابلہ کرتے ہیں، ان کی نشوونما اور قیام میں رکاوٹ ڈالتے ہیں۔",
+        "ar": "تتنافس بشدة مع نباتات جوز الهند الصغيرة على الماء والمغذيات وضوء الشمس، مما يعيق نموها وتأسيسها.",
+        "fr": "Concurrencent fortement les jeunes cocotiers pour l'eau, les nutriments et la lumière du soleil, entravant leur croissance et leur établissement."
+      }
+    },
+    {
+      "plantId": "deep_rooted_crops",
+      "reason": {
+        "en": "Crops with extensive deep root systems can compete directly with coconut roots for water and nutrients in the same soil layers.",
+        "ur": "گہرے جڑوں والے پودے ناریل کی جڑوں کے ساتھ ایک ہی مٹی کی تہوں میں پانی اور غذائی اجزاء کے لیے براہ راست مقابلہ کر سکتے ہیں۔",
+        "ar": "المحاصيل ذات أنظمة الجذور العميقة الواسعة يمكن أن تتنافس مباشرة مع جذور جوز الهند على الماء والمغذيات في نفس طبقات التربة.",
+        "fr": "Les cultures avec des systèmes racinaires profonds et étendus peuvent concurrencer directement les racines de cocotiers pour l'eau et les nutriments dans les mêmes couches de sol."
+      }
+    },
+    {
+      "plantId": "parasitic_plants",
+      "reason": {
+        "en": "Certain parasitic plants (e.g., mistletoe species) can attach to coconut trees, drawing nutrients and weakening the host.",
+        "ur": "بعض پرجیوی پودے (مثلاً مسٹلٹو کی اقسام) ناریل کے درختوں سے منسلک ہو کر غذائی اجزاء حاصل کر سکتے ہیں اور میزبان کو کمزور کر سکتے ہیں۔",
+        "ar": "بعض النباتات الطفيلية (مثل أنواع الدبق) يمكن أن تلتصق بأشجار جوز الهند، وتسحب المغذيات وتضعف المضيف.",
+        "fr": "Certaines plantes parasites (ex: espèces de gui) peuvent s'attacher aux cocotiers, puisant les nutriments et affaiblissant l'hôte."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "rhinoceros_beetle",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "25-35"
+      },
+      "plantSpecificNotes": {
+        "en": "Adult beetles bore into the unopened fronds and growing points, causing characteristic V-shaped cuts on emerging leaves and damage to the crown, which can be fatal to young plants.",
+        "ur": "بالغ بھونرے نہ کھلے پتوں اور بڑھتے ہوئے حصوں میں سوراخ کرتے ہیں، جس سے نکلنے والے پتوں پر مخصوص V-شکل کے کٹ لگتے ہیں اور تاج کو نقصان پہنچتا ہے، جو نوجوان پودوں کے لیے مہلک ہو سکتا ہے۔",
+        "ar": "تثقب الخنافس البالغة الأوراق غير المتفتحة ونقاط النمو، مما يسبب قطعًا مميزة على شكل حرف V على الأوراق الناشئة وتلفًا للتاج، والذي يمكن أن يكون قاتلاً للنباتات الصغيرة.",
+        "fr": "Les coléoptères adultes forent dans les frondes non ouvertes et les points de croissance, causant des coupes en V caractéristiques sur les feuilles émergentes et des dommages à la couronne, ce qui peut être fatal aux jeunes plantes."
+      }
+    },
+    {
+      "pestId": "red_palm_weevil",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae bore into the trunk and crown, creating tunnels and feeding on soft tissues. Symptoms include wilting fronds, chewed fibers, and eventually the collapse and death of the palm.",
+        "ur": "لاروا تنے اور تاج میں سوراخ کرتے ہیں، سرنگیں بناتے ہیں اور نرم بافتوں کو کھاتے ہیں۔ علامات میں پتوں کا مرجھانا، چبائے ہوئے ریشے، اور بالآخر کھجور کا گرنا اور مرنا شامل ہیں۔",
+        "ar": "تثقب اليرقات الجذع والتاج، مما يخلق أنفاقًا ويتغذى على الأنسجة الرخوة. تشمل الأعراض ذبول الأوراق، والألياف الممضوغة، وفي النهاية انهيار وموت النخلة.",
+        "fr": "Les larves forent dans le tronc et la couronne, créant des tunnels et se nourrissant des tissus mous. Les symptômes incluent le flétrissement des frondes, des fibres mâchées, et finalement l'effondrement et la mort du palmier."
+      }
+    },
+    {
+      "pestId": "coconut_mite",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<70%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny mites infest the tender parts of young nuts under the perianth, causing characteristic triangular lesions, malformation, and premature nut drop, leading to significant yield loss.",
+        "ur": "چھوٹے کیڑے پھول کے نیچے نوجوان ناریل کے نرم حصوں پر حملہ کرتے ہیں، جس سے مخصوص مثلثی زخم، بدشکلی، اور وقت سے پہلے ناریل گر جاتے ہیں، جس سے پیداوار میں نمایاں کمی آتی ہے۔",
+        "ar": "تصيب العثث الصغيرة الأجزاء الرقيقة من الثمار الصغيرة تحت الغلاف الزهري، مما يسبب آفات مثلثة مميزة، وتشوهًا، وتساقطًا مبكرًا للثمار، مما يؤدي إلى خسارة كبيرة في المحصول.",
+        "fr": "De minuscules acariens infestent les parties tendres des jeunes noix sous le périanthe, causant des lésions triangulaires caractéristiques, une malformation et une chute prématurée des noix, entraînant une perte de rendement significative."
+      }
+    },
+    {
+      "pestId": "lethal_yellowing",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "A phytoplasma disease transmitted by planthoppers. Symptoms include premature nut drop, blackening of inflorescences, and progressive yellowing and death of fronds, starting from the oldest.",
+        "ur": "ایک فائٹوپلازما بیماری جو پلانٹ ہاپرز کے ذریعے پھیلتی ہے۔ علامات میں وقت سے پہلے ناریل کا گرنا، پھولوں کا کالا ہونا، اور پتوں کا پیلا پڑنا اور مرنا شامل ہے، جو سب سے پرانے پتوں سے شروع ہوتا ہے۔",
+        "ar": "مرض فيتوبلازمي ينتقل بواسطة حشرات النطاط. تشمل الأعراض تساقط الثمار المبكر، واسوداد النورات، واصفرار وموت الأوراق التدريجي، بدءًا من الأقدم.",
+        "fr": "Maladie à phytoplasme transmise par les cicadelles. Les symptômes incluent la chute prématurée des noix, le noircissement des inflorescences, et le jaunissement progressif et la mort des frondes, en commençant par les plus anciennes."
+      }
+    },
+    {
+      "pestId": "bud_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by the fungus Phytophthora palmivora. The spear leaf and young fronds rot and turn brown, leading to the death of the growing bud and eventually the entire palm.",
+        "ur": "فنگس Phytophthora palmivora کی وجہ سے ہوتا ہے۔ نیزے کا پتا اور نوجوان پتے گل جاتے ہیں اور بھورے ہو جاتے ہیں، جس سے بڑھتا ہوا کلی اور بالآخر پوری کھجور مر جاتی ہے۔",
+        "ar": "تسببه الفطريات Phytophthora palmivora. تتعفن ورقة الرمح والأوراق الصغيرة وتتحول إلى اللون البني، مما يؤدي إلى موت البرعم النامي وفي النهاية النخلة بأكملها.",
+        "fr": "Causée par le champignon Phytophthora palmivora. La feuille de lance et les jeunes frondes pourrissent et brunissent, entraînant la mort du bourgeon de croissance et finalement de tout le palmier."
+      }
+    },
+    {
+      "pestId": "stem_bleeding",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "A fungal disease (Thielaviopsis paradoxa) characterized by reddish-brown liquid oozing from cracks in the trunk. Can lead to internal decay, weakening the tree and reducing yield.",
+        "ur": "ایک فنگل بیماری (Thielaviopsis paradoxa) جس کی خصوصیت تنے میں دراڑوں سے سرخ بھورے مائع کا رسنا ہے۔ یہ اندرونی سڑن کا باعث بن سکتا ہے، درخت کو کمزور کر سکتا ہے اور پیداوار کو کم کر سکتا ہے۔",
+        "ar": "مرض فطري (Thielaviopsis paradoxa) يتميز بسائل بني محمر يتسرب من الشقوق في الجذع. يمكن أن يؤدي إلى تعفن داخلي، مما يضعف الشجرة ويقلل من المحصول.",
+        "fr": "Maladie fongique (Thielaviopsis paradoxa) caractérisée par un liquide brun rougeâtre suintant des fissures du tronc. Peut entraîner une pourriture interne, affaiblissant l'arbre et réduisant le rendement."
+      }
+    },
+    {
+      "pestId": "root_wilt_disease",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "A complex disease causing yellowing and drooping of older fronds, reduction in nut size and number, and overall decline of the palm. Often associated with nutrient deficiencies and environmental stress.",
+        "ur": "ایک پیچیدہ بیماری جو پرانے پتوں کے پیلے پڑنے اور لٹکنے، ناریل کے سائز اور تعداد میں کمی، اور کھجور کے مجموعی زوال کا سبب بنتی ہے۔ اکثر غذائی اجزاء کی کمی اور ماحولیاتی دباؤ سے منسلک ہوتی ہے۔",
+        "ar": "مرض معقد يسبب اصفرار وذبول الأوراق القديمة، وانخفاض حجم وعدد الثمار، وتدهور عام للنخلة. غالبًا ما يرتبط بنقص المغذيات والإجهاد البيئي.",
+        "fr": "Maladie complexe causant le jaunissement et le flétrissement des frondes plus âgées, la réduction de la taille et du nombre des noix, et le déclin général du palmier. Souvent associée à des carences nutritionnelles et au stress environnemental."
+      }
+    },
+    {
+      "pestId": "grey_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by the fungus Pestalotiopsis palmarum. Appears as small, greyish-brown spots with dark borders on fronds, which can coalesce and cause extensive leaf blight and defoliation.",
+        "ur": "فنگس Pestalotiopsis palmarum کی وجہ سے ہوتا ہے۔ پتوں پر چھوٹے، سرمئی بھورے دھبے ظاہر ہوتے ہیں جن کے کنارے گہرے ہوتے ہیں، جو مل کر پتوں کی وسیع بیماری اور پتے گرنے کا سبب بن سکتے ہیں۔",
+        "ar": "تسببه الفطريات Pestalotiopsis palmarum. يظهر على شكل بقع صغيرة رمادية بنية ذات حواف داكنة على الأوراق، والتي يمكن أن تتحد وتسبب لفحة واسعة للأوراق وتساقطها.",
+        "fr": "Causée par le champignon Pestalotiopsis palmarum. Apparaît sous forme de petites taches gris-brun avec des bords sombres sur les frondes, qui peuvent fusionner et provoquer une brûlure foliaire étendue et la défoliation."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 1825,
+    "firstHarvestDayMax": 3650,
+    "continuousHarvest": true,
+    "harvestWindowDays": 365,
+    "readinessSigns": [
+      {
+        "en": "Green (for tender/drinking coconuts, 6-7 months old)",
+        "ur": "سبز (نرم/پینے والے ناریل کے لیے، 6-7 ماہ پرانا)",
+        "ar": "أخضر (لجوز الهند الطري/للشرب، بعمر 6-7 أشهر)",
+        "fr": "Vert (pour les noix de coco tendres/à boire, 6-7 mois)"
+      },
+      {
+        "en": "Brown (for mature/cooking coconuts, 10-12 months old)",
+        "ur": "بھورا (پکے/کھانے والے ناریل کے لیے، 10-12 ماہ پرانا)",
+        "ar": "بني (لجوز الهند الناضج/للطبخ، بعمر 10-12 شهرًا)",
+        "fr": "Brun (pour les noix de coco mûres/à cuisiner, 10-12 mois)"
+      },
+      {
+        "en": "Sound of water sloshing (mature)",
+        "ur": "پانی کے ہلنے کی آواز (پکا ہوا)",
+        "ar": "صوت الماء يترجرج (ناضج)",
+        "fr": "Bruit de l'eau qui clapote (mûr)"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Wait for mature brown coconuts to fall naturally or use a long pole to gently dislodge them.",
+        "ur": "پکے ہوئے بھورے ناریل کے قدرتی طور پر گرنے کا انتظار کریں یا انہیں آہستہ سے گرانے کے لیے ایک لمبی چھڑی کا استعمال کریں۔",
+        "ar": "انتظر حتى تسقط ثمار جوز الهند البنية الناضجة بشكل طبيعي أو استخدم عمودًا طويلاً لإسقاطها بلطف.",
+        "fr": "Attendez que les noix de coco brunes mûres tombent naturellement ou utilisez une longue perche pour les déloger doucement."
+      },
+      "INTERMEDIATE": {
+        "en": "Use a specialized harvesting pole with a curved blade to cut mature coconuts from the bunch.",
+        "ur": "گچھے سے پکے ہوئے ناریل کاٹنے کے لیے مڑے ہوئے بلیڈ والی ایک مخصوص کٹائی کی چھڑی کا استعمال کریں۔",
+        "ar": "استخدم عمود حصاد متخصص بشفرة منحنية لقطع ثمار جوز الهند الناضجة من العنقود.",
+        "fr": "Utilisez une perche de récolte spécialisée avec une lame incurvée pour couper les noix de coco mûres du régime."
+      },
+      "EXPERT": {
+        "en": "Climb the tree using traditional methods or climbing gear and use a sharp knife to carefully cut down the desired nuts.",
+        "ur": "روایتی طریقوں یا چڑھنے کے سامان کا استعمال کرتے ہوئے درخت پر چڑھیں اور مطلوبہ ناریل کو احتیاط سے کاٹنے کے لیے تیز چاقو کا استعمال کریں۔",
+        "ar": "تسلق الشجرة باستخدام الطرق التقليدية أو معدات التسلق واستخدم سكينًا حادًا لقطع الثمار المطلوبة بعناية.",
+        "fr": "Grimpez à l'arbre en utilisant des méthodes traditionnelles ou du matériel d'escalade et utilisez un couteau aiguisé pour couper soigneusement les noix désirées."
+      }
+    },
+    "storage": {
+      "en": "Mature coconuts: Cool, dry place for several months. Tender coconuts: Refrigerate and consume within 1-2 weeks.",
+      "ur": "پکے ہوئے ناریل: ٹھنڈی، خشک جگہ پر کئی مہینوں تک۔ نرم ناریل: فریج میں رکھیں اور 1-2 ہفتوں کے اندر استعمال کریں۔",
+      "ar": "جوز الهند الناضج: مكان بارد وجاف لعدة أشهر. جوز الهند الطري: يبرد ويستهلك في غضون 1-2 أسبوع.",
+      "fr": "Noix de coco mûres: Endroit frais et sec pendant plusieurs mois. Noix de coco tendres: Réfrigérer et consommer dans les 1-2 semaines."
+    },
+    "yieldEstimateKg": {
+      "GROUND": 50
+    }
+  }
+}
