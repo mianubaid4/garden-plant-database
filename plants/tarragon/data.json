@@ -1,0 +1,1290 @@
+{
+  "id": "tarragon",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1627914041764-904017215266?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Tarragon",
+      "alternate": []
+    },
+    "ur": {
+      "common": "ٹیرگن",
+      "alternate": []
+    },
+    "ar": {
+      "common": "طرخون",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Estragon",
+      "alternate": []
+    },
+    "botanical": "Artemisia dracunculus",
+    "aliases": [
+      "estragon",
+      "dragon herb",
+      "french tarragon"
+    ]
+  },
+  "category": "herb",
+  "subcategory": "culinary",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "herb",
+    "perennial",
+    "culinary",
+    "container-friendly",
+    "drought-tolerant",
+    "aromatic"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 25,
+    "survivalMinC": -5,
+    "survivalMaxC": 35,
+    "germinationMinC": 18,
+    "germinationOptimalC": 21,
+    "flowerDropAboveC": 30,
+    "flowerDropBelowC": 10
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 75,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 15,
+      "airTempMinC": 18
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 30,
+      "coldStressCriticalC": 5,
+      "frostWarningC": 0,
+      "heavyRainMm": 20,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 500,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "high",
+    "wateringNature": "Moderate and Consistent",
+    "soilMoisturePreference": "Allow soil to dry slightly between waterings",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "medium",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 40,
+      "max": 60
+    },
+    "drynessThreshold": {
+      "warning": 30,
+      "critical": 15
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "yellowing leaves"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "drooping",
+      "root rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Bottom watering or at soil level",
+    "thingsToAvoid": [
+      "overhead watering",
+      "soggy soil",
+      "standing water"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "weed suppression",
+      "moisture retention",
+      "temperature moderation"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Ensure good drainage to prevent root rot.",
+        "ur": "جڑوں کے گلنے سے بچنے کے لیے اچھی نکاسی کو یقینی بنائیں۔",
+        "ar": "تأكد من الصرف الجيد لمنع تعفن الجذور.",
+        "fr": "Assurez un bon drainage pour éviter la pourriture des racines."
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Excellent for drainage and air circulation.",
+        "ur": "نکاسی اور ہوا کی گردش کے لیے بہترین ہے۔",
+        "ar": "ممتاز للصرف وتدوير الهواء.",
+        "fr": "Excellent pour le drainage et la circulation de l'air."
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 25,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Prefers well-drained soil; avoid heavy clay.",
+        "ur": "اچھی نکاسی والی مٹی کو ترجیح دیتا ہے؛ بھاری چکنی مٹی سے گریز کریں۔",
+        "ar": "يفضل التربة جيدة التصريف؛ تجنب الطين الثقيل.",
+        "fr": "Préfère un sol bien drainé ; évitez l'argile lourde."
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Well-drained soil is crucial for healthy growth.",
+        "ur": "صحت مند نشوونما کے لیے اچھی نکاسی والی مٹی ضروری ہے۔",
+        "ar": "التربة جيدة التصريف ضرورية للنمو الصحي.",
+        "fr": "Un sol bien drainé est crucial pour une croissance saine."
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "60-90 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Seed sowing (for Russian Tarragon) or preparing cuttings/divisions (for French Tarragon)",
+        "ur": "بیج بونا (روسی ترخون کے لیے) یا کٹنگ/تقسیم تیار کرنا (فرانسیسی ترخون کے لیے)",
+        "ar": "بذر البذور (للطرخون الروسي) أو تحضير العقل/التقسيمات (للطرخون الفرنسي)",
+        "fr": "Semis (pour l'Estragon de Russie) ou préparation de boutures/divisions (pour l'Estragon français)"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "French Tarragon is best propagated from cuttings or divisions as its seeds are often sterile.",
+          "ur": "فرانسیسی ترخون کو کٹنگ یا تقسیم سے اگانا بہتر ہے کیونکہ اس کے بیج اکثر بانجھ ہوتے ہیں۔",
+          "ar": "من الأفضل تكاثر الطرخون الفرنسي من العقل أو التقسيمات لأن بذوره غالبًا ما تكون عقيمة.",
+          "fr": "L'Estragon français est mieux propagé par boutures ou divisions car ses graines sont souvent stériles."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use well-draining potting mix.",
+              "ur": "اچھی نکاسی والی مٹی استعمال کریں۔",
+              "ar": "استخدم خليط تربة جيد التصريف.",
+              "fr": "Utilisez un terreau bien drainant."
+            },
+            "INTERMEDIATE": {
+              "en": "Mix potting soil with sand or perlite for drainage.",
+              "ur": "نکاسی کے لیے مٹی کو ریت یا پرلائٹ کے ساتھ ملائیں۔",
+              "ar": "اخلط تربة التأصيص بالرمل أو البيرلايت لتحسين الصرف.",
+              "fr": "Mélangez le terreau avec du sable ou de la perlite pour le drainage."
+            },
+            "EXPERT": {
+              "en": "Ensure a pH of 6.0-7.5 and excellent drainage.",
+              "ur": "پی ایچ 6.0-7.5 اور بہترین نکاسی کو یقینی بنائیں۔",
+              "ar": "تأكد من درجة حموضة 6.0-7.5 وصرف ممتاز.",
+              "fr": "Assurez un pH de 6.0-7.5 et un excellent drainage."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds lightly on the surface, do not cover much.",
+              "ur": "بیجوں کو سطح پر ہلکے سے بوئیں، زیادہ نہ ڈھانپیں۔",
+              "ar": "انثر البذور برفق على السطح، لا تغطها كثيرًا.",
+              "fr": "Semez les graines légèrement en surface, ne couvrez pas trop."
+            },
+            "INTERMEDIATE": {
+              "en": "Press seeds gently into soil, barely covering them.",
+              "ur": "بیجوں کو مٹی میں آہستہ سے دبائیں، بمشکل ڈھانپیں۔",
+              "ar": "اضغط البذور برفق في التربة، بالكاد تغطيها.",
+              "fr": "Appuyez doucement les graines dans le sol, en les couvrant à peine."
+            },
+            "EXPERT": {
+              "en": "Surface sow seeds, requiring light for germination.",
+              "ur": "بیجوں کو سطح پر بوئیں، انکرن کے لیے روشنی کی ضرورت ہوتی ہے۔",
+              "ar": "ازرع البذور على السطح، فهي تحتاج إلى الضوء للإنبات.",
+              "fr": "Semez les graines en surface, elles nécessitent de la lumière pour germer."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface daily to keep it moist.",
+              "ur": "مٹی کی سطح کو روزانہ نم رکھنے کے لیے چھڑکاؤ کریں۔",
+              "ar": "رش سطح التربة يوميًا للحفاظ على رطوبتها.",
+              "fr": "Vaporisez la surface du sol quotidiennement pour la maintenir humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture without waterlogging.",
+              "ur": "پانی جمع کیے بغیر مستقل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة ثابتة دون إغراق بالماء.",
+              "fr": "Maintenez une humidité constante sans engorgement."
+            },
+            "EXPERT": {
+              "en": "Use a fine mist to prevent disturbing shallow seeds.",
+              "ur": "گہرے بیجوں کو پریشان کیے بغیر باریک چھڑکاؤ استعمال کریں۔",
+              "ar": "استخدم رذاذًا ناعمًا لمنع إزعاج البذور السطحية.",
+              "fr": "Utilisez une fine brume pour éviter de déranger les graines peu profondes."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for tiny green sprouts emerging.",
+              "ur": "چھوٹی سبز کونپلیں نکلتی ہوئی دیکھیں۔",
+              "ar": "ابحث عن براعم خضراء صغيرة تظهر.",
+              "fr": "Recherchez de minuscules pousses vertes qui émergent."
+            },
+            "INTERMEDIATE": {
+              "en": "Check for uniform germination and seedling health.",
+              "ur": "یکساں انکرن اور پودوں کی صحت کی جانچ کریں۔",
+              "ar": "تحقق من الإنبات الموحد وصحة الشتلات.",
+              "fr": "Vérifiez la germination uniforme et la santé des semis."
+            },
+            "EXPERT": {
+              "en": "Monitor for any damping-off disease.",
+              "ur": "کسی بھی بیماری کے لیے نگرانی کریں۔",
+              "ar": "راقب أي مرض ذبول.",
+              "fr": "Surveillez toute maladie de fonte des semis."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing delicate sprouts.",
+              "ur": "نازک کونپلوں کو پریشان کیے بغیر آہستہ سے پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج البراعم الرقيقة.",
+              "fr": "Arrosez doucement pour éviter de perturber les jeunes pousses délicates."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep the soil consistently moist, not soggy.",
+              "ur": "مٹی کو مسلسل نم رکھیں، گیلی نہ ہو۔",
+              "ar": "حافظ على التربة رطبة باستمرار، وليست مشبعة بالماء.",
+              "fr": "Maintenez le sol constamment humide, pas détrempé."
+            },
+            "EXPERT": {
+              "en": "Ensure good air circulation to prevent fungal issues.",
+              "ur": "فنگل مسائل سے بچنے کے لیے اچھی ہوا کی گردش کو یقینی بنائیں۔",
+              "ar": "تأكد من تهوية جيدة لمنع مشاكل الفطريات.",
+              "fr": "Assurez une bonne circulation de l'air pour prévenir les problèmes fongiques."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "True leaves form and seedlings strengthen",
+        "ur": "نئے پتے بنتے ہیں اور پودے مضبوط ہوتے ہیں",
+        "ar": "تتكون الأوراق الحقيقية وتتقوى الشتلات",
+        "fr": "Les vraies feuilles se forment et les semis se renforcent"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 6-12 inches apart.",
+              "ur": "پودوں کو 6-12 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "خفف الشتلات لتكون على بعد 6-12 بوصة.",
+              "fr": "Éclaircissez les semis à 15-30 cm d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove weaker seedlings, leaving the strongest.",
+              "ur": "کمزور پودوں کو ہٹا دیں، مضبوط ترین کو چھوڑ دیں۔",
+              "ar": "أزل الشتلات الأضعف، واترك الأقوى.",
+              "fr": "Supprimez les semis les plus faibles, en laissant les plus forts."
+            },
+            "EXPERT": {
+              "en": "Snip seedlings at soil level to avoid disturbing roots.",
+              "ur": "جڑوں کو پریشان کیے بغیر مٹی کی سطح پر پودوں کو کاٹ دیں۔",
+              "ar": "اقطع الشتلات عند مستوى التربة لتجنب إزعاج الجذور.",
+              "fr": "Coupez les semis au niveau du sol pour éviter de perturber les racines."
+            }
+          }
+        },
+        "transplant": {
+          "required": false,
+          "dayOffset": 14,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Move seedlings to larger pots or garden bed.",
+              "ur": "پودوں کو بڑے گملوں یا باغیچے میں منتقل کریں۔",
+              "ar": "انقل الشتلات إلى أوعية أكبر أو حوض الحديقة.",
+              "fr": "Déplacez les semis dans des pots plus grands ou un parterre de jardin."
+            },
+            "INTERMEDIATE": {
+              "en": "Harden off seedlings before transplanting outdoors.",
+              "ur": "بیرونی منتقلی سے پہلے پودوں کو سخت کریں۔",
+              "ar": "قم بتقوية الشتلات قبل زرعها في الهواء الطلق.",
+              "fr": "Endurcissez les semis avant de les transplanter à l'extérieur."
+            },
+            "EXPERT": {
+              "en": "Transplant carefully, ensuring minimal root disturbance.",
+              "ur": "جڑوں کو کم سے کم پریشان کیے بغیر احتیاط سے منتقل کریں۔",
+              "ar": "انقل بعناية، مع ضمان الحد الأدنى من اضطراب الجذور.",
+              "fr": "Transplantez avec soin, en assurant un minimum de perturbation des racines."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the seedlings.",
+              "ur": "پودوں کی جڑوں میں پانی دیں۔",
+              "ar": "اسقِ عند قاعدة الشتلات.",
+              "fr": "Arrosez à la base des semis."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil moist but not waterlogged.",
+              "ur": "مٹی کو نم رکھیں لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة ولكن لا تغمرها بالماء.",
+              "fr": "Gardez le sol humide mais pas détrempé."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply to encourage root growth.",
+              "ur": "جڑوں کی نشوونما کو فروغ دینے کے لیے مٹی کی گہرائی میں نمی کی نگرانی کریں۔",
+              "ar": "راقب رطوبة التربة بعمق لتشجيع نمو الجذور.",
+              "fr": "Surveillez l'humidité du sol en profondeur pour encourager la croissance des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 45,
+      "durationDaysCool": 75,
+      "description": {
+        "en": "Rapid leaf growth and establishment",
+        "ur": "پتوں کی تیزی سے نشوونما اور پودے کا قیام",
+        "ar": "نمو سريع للأوراق وتأسيس النبات",
+        "fr": "Croissance rapide des feuilles et établissement"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Pinch back regularly to encourage bushier growth and prevent legginess.",
+          "ur": "جھاڑی دار نشوونما کو فروغ دینے اور لمبا ہونے سے روکنے کے لیے باقاعدگی سے چٹکی بھریں۔",
+          "ar": "قرص بانتظام لتشجيع النمو الكثيف ومنع التمدد.",
+          "fr": "Pincez régulièrement pour encourager une croissance plus touffue et éviter l'étiolement."
+        }
+      ],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for pests and spray with insecticidal soap if needed.",
+              "ur": "کیڑوں کی جانچ کریں اور ضرورت پڑنے پر کیڑے مار صابن سے چھڑکاؤ کریں۔",
+              "ar": "تحقق من الآفات ورش بالصابون المبيد للحشرات إذا لزم الأمر.",
+              "fr": "Vérifiez la présence de parasites et pulvérisez du savon insecticide si nécessaire."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray preventatively, especially for aphids.",
+              "ur": "خاص طور پر ایفڈز کے لیے نامیاتی کیڑے مار دوا کا احتیاطی طور پر استعمال کریں۔",
+              "ar": "استخدم رذاذًا عضويًا للآفات بشكل وقائي، خاصة للمن.",
+              "fr": "Appliquez un spray antiparasitaire biologique préventivement, surtout contre les pucerons."
+            },
+            "EXPERT": {
+              "en": "Implement integrated pest management (IPM) strategies.",
+              "ur": "متفقہ کیڑوں کے انتظام (IPM) کی حکمت عملیوں کو نافذ کریں۔",
+              "ar": "نفذ استراتيجيات الإدارة المتكاملة للآفات (IPM).",
+              "fr": "Mettez en œuvre des stratégies de lutte intégrée contre les ravageurs (IPM)."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for discoloration or signs of pests.",
+              "ur": "پتوں پر رنگت کی تبدیلی یا کیڑوں کے آثار کی جانچ کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن تغير اللون أو علامات الآفات.",
+              "fr": "Vérifiez les feuilles pour toute décoloration ou signe de parasites."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect undersides of leaves for aphids or spider mites.",
+              "ur": "ایفڈز یا مکڑی کے کیڑوں کے لیے پتوں کے نچلے حصے کا معائنہ کریں۔",
+              "ar": "افحص الجانب السفلي من الأوراق بحثًا عن المن أو العناكب الحمراء.",
+              "fr": "Inspectez le dessous des feuilles pour les pucerons ou les tétranyques."
+            },
+            "EXPERT": {
+              "en": "Monitor for early signs of fungal diseases like powdery mildew.",
+              "ur": "پاؤڈری پھپھوندی جیسی فنگل بیماریوں کی ابتدائی علامات کی نگرانی کریں۔",
+              "ar": "راقب العلامات المبكرة للأمراض الفطرية مثل البياض الدقيقي.",
+              "fr": "Surveillez les premiers signes de maladies fongiques comme l'oïdium."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Spider Mites",
+              "ur": "مکڑی کیڑے",
+              "ar": "سوس العنكبوت",
+              "fr": "Tétranyques"
+            },
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            }
+          ]
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 20,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off the top few inches of stems to encourage bushier growth.",
+              "ur": "جھاڑی دار نشوونما کو فروغ دینے کے لیے تنوں کے اوپر کے چند انچ کاٹ دیں۔",
+              "ar": "اقطع بضعة سنتيمترات من قمم السيقان لتشجيع النمو الكثيف.",
+              "fr": "Pincez les quelques centimètres supérieurs des tiges pour encourager une croissance plus touffue."
+            },
+            "INTERMEDIATE": {
+              "en": "Regularly prune to maintain shape and promote new leaf production.",
+              "ur": "شکل برقرار رکھنے اور نئے پتوں کی پیداوار کو فروغ دینے کے لیے باقاعدگی سے چھانٹ چھانٹ کریں۔",
+              "ar": "قم بالتقليم بانتظام للحفاظ على الشكل وتعزيز إنتاج الأوراق الجديدة.",
+              "fr": "Taillez régulièrement pour maintenir la forme et favoriser la production de nouvelles feuilles."
+            },
+            "EXPERT": {
+              "en": "Harvest outer leaves and pinch back stems to just above a leaf node.",
+              "ur": "بیرونی پتے کاٹیں اور تنوں کو پتے کے نوڈ کے بالکل اوپر سے چٹکی بھریں۔",
+              "ar": "احصد الأوراق الخارجية واقرص السيقان فوق عقدة ورقية مباشرة.",
+              "fr": "Récoltez les feuilles extérieures et pincez les tiges juste au-dessus d'un nœud foliaire."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water when the top inch of soil feels dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک محسوس ہو تو پانی دیں۔",
+              "ar": "اسقِ عندما تشعر أن الطبقة العلوية من التربة جافة.",
+              "fr": "Arrosez lorsque le premier pouce de terre est sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide consistent moisture, avoiding waterlogging.",
+              "ur": "مستقل نمی فراہم کریں، پانی جمع ہونے سے گریز کریں۔",
+              "ar": "وفر رطوبة ثابتة، مع تجنب التشبع بالماء.",
+              "fr": "Apportez une humidité constante, en évitant l'engorgement."
+            },
+            "EXPERT": {
+              "en": "Deep watering encourages strong root development.",
+              "ur": "گہرا پانی دینا مضبوط جڑوں کی نشوونما کو فروغ دیتا ہے۔",
+              "ar": "الري العميق يشجع على نمو جذور قوية.",
+              "fr": "Un arrosage profond favorise un fort développement racinaire."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Flowers bloom (often pinched off for French Tarragon to maintain flavor)",
+        "ur": "پھول کھلتے ہیں (فرانسیسی ترخون کے لیے ذائقہ برقرار رکھنے کے لیے اکثر کاٹ دیے جاتے ہیں)",
+        "ar": "تتفتح الأزهار (غالبًا ما يتم قرصها للطرخون الفرنسي للحفاظ على النكهة)",
+        "fr": "Les fleurs éclosent (souvent pincées pour l'Estragon français afin de maintenir la saveur)"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "For French Tarragon, pinch off flower buds as they appear to direct energy into leaf production and maintain flavor.",
+          "ur": "فرانسیسی ترخون کے لیے، پھولوں کی کلیوں کو ظاہر ہوتے ہی چٹکی بھریں تاکہ توانائی پتوں کی پیداوار میں منتقل ہو اور ذائقہ برقرار رہے۔",
+          "ar": "بالنسبة للطرخون الفرنسي، قم بقرص براعم الزهور فور ظهورها لتوجيه الطاقة نحو إنتاج الأوراق والحفاظ على النكهة.",
+          "fr": "Pour l'Estragon français, pincez les boutons floraux dès leur apparition pour diriger l'énergie vers la production de feuilles et maintenir la saveur."
+        }
+      ],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue checking for pests and treat as needed.",
+              "ur": "کیڑوں کی جانچ جاری رکھیں اور ضرورت کے مطابق علاج کریں۔",
+              "ar": "استمر في فحص الآفات وعالجها حسب الحاجة.",
+              "fr": "Continuez à vérifier la présence de parasites et traitez si nécessaire."
+            },
+            "INTERMEDIATE": {
+              "en": "Be mindful of beneficial insects when applying pest control.",
+              "ur": "کیڑوں پر قابو پاتے وقت فائدہ مند کیڑوں کا خیال رکھیں۔",
+              "ar": "كن حذرًا من الحشرات النافعة عند تطبيق مكافحة الآفات.",
+              "fr": "Soyez attentif aux insectes bénéfiques lors de l'application de la lutte antiparasitaire."
+            },
+            "EXPERT": {
+              "en": "Utilize biological controls or targeted organic sprays.",
+              "ur": "حیاتیاتی کنٹرول یا ہدف شدہ نامیاتی سپرے استعمال کریں۔",
+              "ar": "استخدم المكافحة البيولوجية أو الرش العضوي المستهدف.",
+              "fr": "Utilisez des contrôles biologiques ou des pulvérisations organiques ciblées."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for any signs of stress or disease.",
+              "ur": "تناؤ یا بیماری کی کسی بھی علامت کی جانچ کریں۔",
+              "ar": "تحقق من أي علامات إجهاد أو مرض.",
+              "fr": "Vérifiez tout signe de stress ou de maladie."
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for powdery mildew, especially in humid conditions.",
+              "ur": "خاص طور پر مرطوب حالات میں پاؤڈری پھپھوندی کی نگرانی کریں۔",
+              "ar": "راقب البياض الدقيقي، خاصة في الظروف الرطبة.",
+              "fr": "Surveillez l'oïdium, surtout dans des conditions humides."
+            },
+            "EXPERT": {
+              "en": "Assess overall plant vigor and nutrient status.",
+              "ur": "پودے کی مجموعی قوت اور غذائی حالت کا اندازہ لگائیں۔",
+              "ar": "قيم حيوية النبات وحالته الغذائية بشكل عام.",
+              "fr": "Évaluez la vigueur globale de la plante et son état nutritionnel."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "البياض الدقيقي",
+              "fr": "Oïdium"
+            },
+            {
+              "en": "Leaf Spot",
+              "ur": "پتوں پر دھبے",
+              "ar": "بقع الأوراق",
+              "fr": "Taches foliaires"
+            }
+          ]
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off any flower buds to encourage more leaf growth.",
+              "ur": "مزید پتوں کی نشوونما کو فروغ دینے کے لیے کسی بھی پھول کی کلیوں کو چٹکی بھریں۔",
+              "ar": "اقطع أي براعم زهور لتشجيع نمو المزيد من الأوراق.",
+              "fr": "Pincez tous les boutons floraux pour encourager une plus grande croissance des feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Deadhead spent flowers or pinch back stems to maintain plant vigor.",
+              "ur": "پودے کی قوت برقرار رکھنے کے لیے خشک پھولوں کو ہٹا دیں یا تنوں کو چٹکی بھریں۔",
+              "ar": "قم بإزالة الأزهار الذابلة أو قرص السيقان للحفاظ على حيوية النبات.",
+              "fr": "Éliminez les fleurs fanées ou pincez les tiges pour maintenir la vigueur de la plante."
+            },
+            "EXPERT": {
+              "en": "Strategically prune to manage plant size and maximize leaf production.",
+              "ur": "پودے کے سائز کو منظم کرنے اور پتوں کی پیداوار کو زیادہ سے زیادہ کرنے کے لیے حکمت عملی سے چھانٹ چھانٹ کریں۔",
+              "ar": "قم بالتقليم بشكل استراتيجي لإدارة حجم النبات وزيادة إنتاج الأوراق.",
+              "fr": "Taillez stratégiquement pour gérer la taille de la plante et maximiser la production de feuilles."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 350,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly, allowing soil to dry slightly between waterings.",
+              "ur": "باقاعدگی سے پانی دیں، پانی دینے کے درمیان مٹی کو تھوڑا خشک ہونے دیں۔",
+              "ar": "اسقِ بانتظام، مع السماح للتربة بالجفاف قليلًا بين الريات.",
+              "fr": "Arrosez régulièrement, en laissant le sol sécher légèrement entre les arrosages."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure good drainage to prevent root rot.",
+              "ur": "جڑوں کے سڑنے سے بچنے کے لیے اچھی نکاسی کو یقینی بنائیں۔",
+              "ar": "تأكد من الصرف الجيد لمنع تعفن الجذور.",
+              "fr": "Assurez un bon drainage pour prévenir la pourriture des racines."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on weather and plant needs.",
+              "ur": "موسم اور پودے کی ضروریات کے مطابق پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على الطقس واحتياجات النبات.",
+              "fr": "Ajustez l'arrosage en fonction de la météo et des besoins de la plante."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Leaves ready for harvest",
+        "ur": "پتے کٹائی کے لیے تیار ہیں",
+        "ar": "الأوراق جاهزة للحصاد",
+        "fr": "Feuilles prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest in the morning after the dew has dried for best flavor.",
+          "ur": "بہترین ذائقے کے لیے شبنم خشک ہونے کے بعد صبح کے وقت کٹائی کریں۔",
+          "ar": "احصد في الصباح بعد جفاف الندى للحصول على أفضل نكهة.",
+          "fr": "Récoltez le matin après que la rosée ait séché pour une meilleure saveur."
+        },
+        {
+          "en": "Regular harvesting encourages more growth.",
+          "ur": "باقاعدہ کٹائی مزید نشوونما کو فروغ دیتی ہے۔",
+          "ar": "الحصاد المنتظم يشجع على المزيد من النمو.",
+          "fr": "La récolte régulière encourage une plus grande croissance."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Snip off outer leaves or top few inches of stems.",
+              "ur": "بیرونی پتے یا تنوں کے اوپر کے چند انچ کاٹ دیں۔",
+              "ar": "اقطع الأوراق الخارجية أو بضعة سنتيمترات من قمم السيقان.",
+              "fr": "Coupez les feuilles extérieures ou les quelques centimètres supérieurs des tiges."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest up to one-third of the plant at a time.",
+              "ur": "ایک وقت میں پودے کا ایک تہائی حصہ کاٹیں۔",
+              "ar": "احصد ما يصل إلى ثلث النبات في المرة الواحدة.",
+              "fr": "Récoltez jusqu'à un tiers de la plante à la fois."
+            },
+            "EXPERT": {
+              "en": "Prune stems just above a leaf node to promote branching.",
+              "ur": "شاخوں کو فروغ دینے کے لیے تنوں کو پتے کے نوڈ کے بالکل اوپر سے چھانٹیں۔",
+              "ar": "قم بتقليم السيقان فوق عقدة ورقية مباشرة لتعزيز التفرع.",
+              "fr": "Taillez les tiges juste au-dessus d'un nœud foliaire pour favoriser la ramification."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 300,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent watering to support continuous growth.",
+              "ur": "مسلسل نشوونما کو سہارا دینے کے لیے مستقل پانی دیں۔",
+              "ar": "حافظ على الري المستمر لدعم النمو المتواصل.",
+              "fr": "Maintenez un arrosage constant pour soutenir une croissance continue."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil remains moist, especially after harvesting.",
+              "ur": "خاص طور پر کٹائی کے بعد مٹی کو نم رکھیں۔",
+              "ar": "تأكد من بقاء التربة رطبة، خاصة بعد الحصاد.",
+              "fr": "Assurez-vous que le sol reste humide, surtout après la récolte."
+            },
+            "EXPERT": {
+              "en": "Monitor plant response to watering and adjust as needed for optimal yield.",
+              "ur": "پانی دینے پر پودے کے ردعمل کی نگرانی کریں اور بہترین پیداوار کے لیے ضرورت کے مطابق ایڈجسٹ کریں۔",
+              "ar": "راقب استجابة النبات للري واضبطه حسب الحاجة للحصول على أفضل محصول.",
+              "fr": "Surveillez la réponse de la plante à l'arrosage et ajustez si nécessaire pour un rendement optimal."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Diluted Liquid Seaweed",
+          "ur": "مائع سی ویڈ کا پتلا محلول",
+          "ar": "مستخلص الطحالب البحرية المخفف",
+          "fr": "Extrait d'algues liquide dilué"
+        },
+        "preparation": {
+          "en": "Mix 1/2 tablespoon of liquid seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "آدھا کھانے کا چمچ مائع سی ویڈ کا عرق 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط 1/2 ملعقة كبيرة من مستخلص الطحالب البحرية السائل في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1/2 cuillère à soupe d'extrait d'algues liquide dans 3.7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 25,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle nutrients for root development without overwhelming young plants.",
+          "ur": "یہ نوجوان پودوں کو زیادہ غذائیت دیے بغیر جڑوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر مغذيات لطيفة لتطور الجذور دون إرهاق النباتات الصغيرة.",
+          "fr": "Fournit des nutriments doux pour le développement des racines sans surcharger les jeunes plantes."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 30,
+        "product": {
+          "en": "Compost Tea or Balanced Organic Liquid",
+          "ur": "کمپوسٹ چائے یا متوازن نامیاتی مائع",
+          "ar": "شاي الكمبوست أو سماد عضوي متوازن",
+          "fr": "Thé de compost ou engrais organique équilibré"
+        },
+        "preparation": {
+          "en": "Steep 1/2 cup of compost in 1 gallon of water for 24 hours. Strain. Or use a very diluted balanced organic liquid.",
+          "ur": "آدھا کپ کمپوسٹ کو 4 لیٹر پانی میں 24 گھنٹے کے لیے بھگو دیں۔ چھان لیں۔ یا بہت پتلا متوازن نامیاتی مائع استعمال کریں۔",
+          "ar": "انقع 1/2 كوب من الكمبوست في 3.7 لتر من الماء لمدة 24 ساعة. صفيه. أو استخدم سائلاً عضويًا متوازنًا مخففًا جدًا.",
+          "fr": "Faites tremper 1/2 tasse de compost dans 3.7 litres d'eau pendant 24 heures. Filtrez. Ou utilisez un liquide organique équilibré très dilué."
+        },
+        "quantityPer10L": 200,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports healthy leaf growth. Avoid over-fertilizing to maintain flavor intensity.",
+          "ur": "صحت مند پتوں کی نشوونما میں مدد کرتا ہے۔ ذائقے کی شدت کو برقرار رکھنے کے لیے زیادہ کھاد ڈالنے سے گریز کریں۔",
+          "ar": "يدعم نمو الأوراق الصحي. تجنب الإفراط في التسميد للحفاظ على شدة النكهة.",
+          "fr": "Soutient une croissance saine des feuilles. Évitez la surfertilisation pour maintenir l'intensité de la saveur."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable",
+          "ur": "قابل اطلاق نہیں",
+          "ar": "غير قابل للتطبيق",
+          "fr": "Non applicable"
+        },
+        "preparation": {
+          "en": "Tarragon is primarily grown for its leaves; flowering is not the main goal and heavy fertilization is not recommended.",
+          "ur": "ٹیرگن بنیادی طور پر اس کے پتوں کے لیے اگایا جاتا ہے؛ پھول آنا بنیادی مقصد نہیں ہے اور زیادہ کھاد ڈالنے کی سفارش نہیں کی جاتی ہے۔",
+          "ar": "يُزرع الطرخون بشكل أساسي لأوراقه؛ الإزهار ليس الهدف الرئيسي ولا يُنصح بالتسميد الثقيل.",
+          "fr": "L'estragon est principalement cultivé pour ses feuilles ; la floraison n'est pas l'objectif principal et une fertilisation lourde n'est pas recommandée."
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "any",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Tarragon is primarily grown for its leaves; flowering is not the main goal and heavy fertilization is not recommended.",
+          "ur": "ٹیرگن بنیادی طور پر اس کے پتوں کے لیے اگایا جاتا ہے؛ پھول آنا بنیادی مقصد نہیں ہے اور زیادہ کھاد ڈالنے کی سفارش نہیں کی جاتی ہے۔",
+          "ar": "يُزرع الطرخون بشكل أساسي لأوراقه؛ الإزهار ليس الهدف الرئيسي ولا يُنصح بالتسميد الثقيل.",
+          "fr": "L'estragon est principalement cultivé pour ses feuilles ; la floraison n'est pas l'objectif principal et une fertilisation lourde n'est pas recommandée."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable",
+          "ur": "قابل اطلاق نہیں",
+          "ar": "غير قابل للتطبيق",
+          "fr": "Non applicable"
+        },
+        "preparation": {
+          "en": "Tarragon rarely produces viable seeds and is not grown for fruit.",
+          "ur": "ٹیرگن شاذ و نادر ہی قابل عمل بیج پیدا کرتا ہے اور اسے پھل کے لیے نہیں اگایا جاتا ہے۔",
+          "ar": "نادرًا ما ينتج الطرخون بذورًا قابلة للحياة ولا يُزرع من أجل الفاكهة.",
+          "fr": "L'estragon produit rarement des graines viables et n'est pas cultivé pour ses fruits."
+        },
+        "quantityPer10L": 0,
+        "unit": "ml",
+        "timing": "any",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Tarragon rarely produces viable seeds and is not grown for fruit.",
+          "ur": "ٹیرگن شاذ و نادر ہی قابل عمل بیج پیدا کرتا ہے اور اسے پھل کے لیے نہیں اگایا جاتا ہے۔",
+          "ar": "نادرًا ما ينتج الطرخون بذورًا قابلة للحياة ولا يُزرع من أجل الفاكهة.",
+          "fr": "L'estragon produit rarement des graines viables et n'est pas cultivé pour ses fruits."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "SEEDLING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable",
+          "ur": "قابل اطلاق نہیں",
+          "ar": "غير قابل للتطبيق",
+          "fr": "Non applicable"
+        },
+        "preparation": {
+          "en": "Chemical fertilizers are generally not recommended for young tarragon plants or for maintaining optimal flavor.",
+          "ur": "کیمیائی کھادیں عام طور پر نوجوان ٹیرگن کے پودوں کے لیے یا بہترین ذائقہ برقرار رکھنے کے لیے تجویز نہیں کی جاتی ہیں۔",
+          "ar": "لا يُنصح عمومًا بالأسمدة الكيميائية لنباتات الطرخون الصغيرة أو للحفاظ على النكهة المثلى.",
+          "fr": "Les engrais chimiques ne sont généralement pas recommandés pour les jeunes plants d'estragon ou pour maintenir une saveur optimale."
+        },
+        "quantityPer10L": 0,
+        "unit": "g",
+        "timing": "any",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Chemical fertilizers are generally not recommended for young tarragon plants or for maintaining optimal flavor.",
+          "ur": "کیمیائی کھادیں عام طور پر نوجوان ٹیرگن کے پودوں کے لیے یا بہترین ذائقہ برقرار رکھنے کے لیے تجویز نہیں کی جاتی ہیں۔",
+          "ar": "لا يُنصح عمومًا بالأسمدة الكيميائية لنباتات الطرخون الصغيرة أو للحفاظ على النكهة المثلى.",
+          "fr": "Les engrais chimiques ne sont généralement pas recommandés pour les jeunes plants d'estragon ou pour maintenir une saveur optimale."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 45,
+        "product": {
+          "en": "Very Diluted Balanced NPK (e.g., 5-5-5)",
+          "ur": "بہت پتلا متوازن این پی کے (مثلاً 5-5-5)",
+          "ar": "سماد NPK متوازن مخفف جداً (مثلاً 5-5-5)",
+          "fr": "NPK équilibré très dilué (ex. 5-5-5)"
+        },
+        "preparation": {
+          "en": "Dissolve 1/4 teaspoon of balanced NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چوتھائی چمچ متوازن این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب 1/4 ملعقة صغيرة من مسحوق NPK المتوازن في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1/4 de cuillère à café de poudre NPK équilibrée dans 3.7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 2,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Use sparingly. Over-fertilizing with nitrogen can reduce the intense flavor of tarragon leaves.",
+          "ur": "احتیاط سے استعمال کریں۔ نائٹروجن کے ساتھ زیادہ کھاد ڈالنے سے ٹیرگن کے پتوں کا شدید ذائقہ کم ہو سکتا ہے۔",
+          "ar": "استخدم باعتدال. الإفراط في التسميد بالنيتروجين يمكن أن يقلل من النكهة القوية لأوراق الطرخون.",
+          "fr": "Utilisez avec parcimonie. Une surfertilisation en azote peut réduire la saveur intense des feuilles d'estragon."
+        }
+      },
+      "FLOWERING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable",
+          "ur": "قابل اطلاق نہیں",
+          "ar": "غير قابل للتطبيق",
+          "fr": "Non applicable"
+        },
+        "preparation": {
+          "en": "Not typically needed for tarragon, which is grown for its foliage.",
+          "ur": "ٹیرگن کے لیے عام طور پر ضرورت نہیں ہوتی، جسے اس کے پتوں کے لیے اگایا جاتا ہے۔",
+          "ar": "لا يُحتاج إليه عادةً للطرخون، الذي يُزرع لأوراقه.",
+          "fr": "Généralement pas nécessaire pour l'estragon, qui est cultivé pour son feuillage."
+        },
+        "quantityPer10L": 0,
+        "unit": "g",
+        "timing": "any",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Not typically needed for tarragon, which is grown for its foliage.",
+          "ur": "ٹیرگن کے لیے عام طور پر ضرورت نہیں ہوتی، جسے اس کے پتوں کے لیے اگایا جاتا ہے۔",
+          "ar": "لا يُحتاج إليه عادةً للطرخون، الذي يُزرع لأوراقه.",
+          "fr": "Généralement pas nécessaire pour l'estragon, qui est cultivé pour son feuillage."
+        }
+      },
+      "FRUITING": {
+        "apply": false,
+        "intervalDays": 0,
+        "product": {
+          "en": "Not applicable",
+          "ur": "قابل اطلاق نہیں",
+          "ar": "غير قابل للتطبيق",
+          "fr": "Non applicable"
+        },
+        "preparation": {
+          "en": "Not applicable for tarragon.",
+          "ur": "ٹیرگن کے لیے قابل اطلاق نہیں ہے۔",
+          "ar": "غير قابل للتطبيق على الطرخون.",
+          "fr": "Non applicable pour l'estragon."
+        },
+        "quantityPer10L": 0,
+        "unit": "g",
+        "timing": "any",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Not applicable for tarragon.",
+          "ur": "ٹیرگن کے لیے قابل اطلاق نہیں ہے۔",
+          "ar": "غير قابل للتطبيق على الطرخون.",
+          "fr": "Non applicable pour l'estragon."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Very Diluted Balanced NPK",
+        "alternating": true,
+        "note": {
+          "en": "Alternate between organic and very diluted chemical fertilizers every 2-3 weeks during the vegetative stage. Reduce frequency if plant shows signs of over-fertilization.",
+          "ur": "نامیاتی اور بہت پتلی کیمیائی کھادوں کے درمیان ہر 2-3 ہفتوں میں باری باری استعمال کریں، خاص طور پر پودے کی نشوونما کے مرحلے میں۔ اگر پودا زیادہ کھاد کے آثار دکھائے تو تعدد کم کریں۔",
+          "ar": "تناوب بين الأسمدة العضوية والكيميائية المخففة جدًا كل 2-3 أسابيع خلال المرحلة الخضرية. قلل التكرار إذا أظهر النبات علامات الإفراط في التسميد.",
+          "fr": "Alternez entre les engrais organiques et chimiques très dilués toutes les 2-3 semaines pendant la phase végétative. Réduisez la fréquence si la plante montre des signes de surfertilisation."
+        }
+      },
+      "FLOWERING": {
+        "week1": "Not applicable",
+        "week2": "Not applicable",
+        "alternating": false,
+        "note": {
+          "en": "Fertilization is generally not needed during flowering for tarragon, as the focus is on leaf production.",
+          "ur": "ٹیرگن کے پھول آنے کے دوران عام طور پر کھاد کی ضرورت نہیں ہوتی، کیونکہ توجہ پتوں کی پیداوار پر ہوتی ہے۔",
+          "ar": "لا يُحتاج إلى التسميد عمومًا خلال فترة إزهار الطرخون، حيث ينصب التركيز على إنتاج الأوراق.",
+          "fr": "La fertilisation n'est généralement pas nécessaire pendant la floraison de l'estragon, car l'accent est mis sur la production de feuilles."
+        }
+      },
+      "FRUITING": {
+        "week1": "Not applicable",
+        "week2": "Not applicable",
+        "alternating": false,
+        "note": {
+          "en": "Tarragon is not grown for fruit, so specific fruiting fertilizers are not applicable.",
+          "ur": "ٹیرگن پھل کے لیے نہیں اگایا جاتا، لہذا پھل کے لیے مخصوص کھادیں قابل اطلاق نہیں ہیں۔",
+          "ar": "لا يُزرع الطرخون من أجل الفاكهة، لذا فإن الأسمدة الخاصة بالفاكهة غير قابلة للتطبيق.",
+          "fr": "L'estragon n'est pas cultivé pour ses fruits, donc les engrais spécifiques aux fruits ne sont pas applicables."
+        }
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "eggplant",
+      "benefit": {
+        "en": "Deters pests and enhances growth.",
+        "ur": "کیڑوں کو دور بھگاتا ہے اور نشوونما کو بہتر بناتا ہے۔",
+        "ar": "يطرد الآفات ويعزز النمو.",
+        "fr": "Repousse les parasites et améliore la croissance."
+      }
+    },
+    {
+      "plantId": "pepper",
+      "benefit": {
+        "en": "Deters pests and enhances growth.",
+        "ur": "کیڑوں کو دور بھگاتا ہے اور نشوونما کو بہتر بناتا ہے۔",
+        "ar": "يطرد الآفات ويعزز النمو.",
+        "fr": "Repousse les parasites et améliore la croissance."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "benefit": {
+        "en": "Deters pests like hornworms and improves overall vigor.",
+        "ur": "ٹماٹر کے کیڑوں جیسے ہارن ورمز کو دور بھگاتا ہے اور مجموعی قوت کو بہتر بناتا ہے۔",
+        "ar": "يطرد الآفات مثل دودة قرن الطماطم ويحسن الحيوية العامة.",
+        "fr": "Repousse les parasites comme les sphinx de la tomate et améliore la vigueur générale."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other harmful insects.",
+        "ur": "نیماٹوڈس اور دیگر نقصان دہ کیڑوں کو دور بھگاتا ہے۔",
+        "ar": "يطرد الديدان الخيطية والحشرات الضارة الأخرى.",
+        "fr": "Repousse les nématodes et autres insectes nuisibles."
+      }
+    },
+    {
+      "plantId": "chives",
+      "benefit": {
+        "en": "General good neighbor, can deter aphids.",
+        "ur": "عام طور پر اچھا پڑوسی، افڈس کو دور بھگا سکتا ہے۔",
+        "ar": "رفيق جيد بشكل عام، يمكن أن يطرد حشرات المن.",
+        "fr": "Bon voisin général, peut repousser les pucerons."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "cabbage",
+      "reason": {
+        "en": "All members of the brassica family (cabbage, broccoli, kale) can stunt the growth of tarragon.",
+        "ur": "گوبھی کے خاندان کے تمام پودے (گوبھی، بروکولی، کیلے) ٹیرگن کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "جميع أفراد عائلة الكرنب (الملفوف، البروكلي، الكرنب الأجعد) يمكن أن تعيق نمو الطرخون.",
+        "fr": "Tous les membres de la famille des brassicacées (chou, brocoli, chou frisé) peuvent ralentir la croissance de l'estragon."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces substances from its roots that inhibit the growth of many plants, including tarragon.",
+        "ur": "اس کی جڑوں سے ایسے مادے نکلتے ہیں جو بہت سے پودوں کی نشوونما کو روکتے ہیں، بشمول ٹیرگن۔",
+        "ar": "تنتج جذوره مواد تثبط نمو العديد من النباتات، بما في ذلك الطرخون.",
+        "fr": "Produit des substances à partir de ses racines qui inhibent la croissance de nombreuses plantes, y compris l'estragon."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Can release allelopathic chemicals that inhibit the growth of nearby plants.",
+        "ur": "ایسے کیمیکل جاری کر سکتا ہے جو قریبی پودوں کی نشوونما کو روکتے ہیں۔",
+        "ar": "يمكن أن تطلق مواد كيميائية مثبطة للنمو تؤثر على النباتات المجاورة.",
+        "fr": "Peut libérer des produits chimiques allélopathiques qui inhibent la croissance des plantes voisines."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and secreting sticky honeydew. Can weaken young plants.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ یہ نوجوان پودوں کو کمزور کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات أجسام ناعمة تتجمع على النمو الجديد وتحت الأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تضعف النباتات الصغيرة.",
+        "fr": "Petits insectes au corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peuvent affaiblir les jeunes plants."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause leaves to look stippled, pale, and eventually turn yellow and drop. Fine webbing may be visible, especially in hot, dry conditions.",
+        "ur": "بہت چھوٹے کیڑے جو پتوں کو پیلا اور کمزور کر دیتے ہیں اور پھر پتے گر جاتے ہیں۔ پتوں پر باریک جالا بھی نظر آ سکتا ہے، خاص طور پر گرم اور خشک حالات میں۔",
+        "ar": "آفات صغيرة تتسبب في ظهور الأوراق منقطة، باهتة، وتتحول في النهاية إلى اللون الأصفر وتتساقط. قد تكون الخيوط الدقيقة مرئية، خاصة في الظروف الحارة والجافة.",
+        "fr": "Minuscules ravageurs qui donnent aux feuilles un aspect pointillé, pâle, finissent par jaunir et tomber. De fines toiles peuvent être visibles, surtout par temps chaud et sec."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Occurs in humid conditions with poor air circulation. Can reduce plant vigor and flavor.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے دھبے ظاہر ہوتے ہیں۔ یہ مرطوب حالات میں ناقص ہوا کی گردش کے ساتھ ہوتا ہے۔ پودے کی طاقت اور ذائقہ کو کم کر سکتا ہے۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يحدث في الظروف الرطبة مع ضعف دوران الهواء. يمكن أن يقلل من حيوية النبات ونكهته.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Se produit dans des conditions humides avec une mauvaise circulation de l'air. Peut réduire la vigueur et la saveur de la plante."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by overwatering and poor drainage. Leaves yellow, wilt, and the plant eventually collapses. Roots become soft and brown.",
+        "ur": "زیادہ پانی دینے اور ناقص نکاسی آب کی وجہ سے ہوتا ہے۔ پتے پیلے ہو جاتے ہیں، مرجھا جاتے ہیں، اور پودا بالآخر گر جاتا ہے۔ جڑیں نرم اور بھوری ہو جاتی ہیں۔",
+        "ar": "يحدث بسبب الإفراط في الري وسوء الصرف. تصفر الأوراق وتذبل، وينهار النبات في النهاية. تصبح الجذور ناعمة وبنية.",
+        "fr": "Causé par un arrosage excessif et un mauvais drainage. Les feuilles jaunissent, flétrissent et la plante finit par s'effondrer. Les racines deviennent molles et brunes."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Chew irregular holes in leaves, especially on young plants. Leave silvery slime trails. Active in damp, cool conditions.",
+        "ur": "پتوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ چاندی کی طرح کی چپچپی پگڈنڈیاں چھوڑتے ہیں۔ نم اور ٹھنڈے حالات میں سرگرم ہوتے ہیں۔",
+        "ar": "تحدث ثقوبًا غير منتظمة في الأوراق، خاصة على النباتات الصغيرة. تترك آثارًا مخاطية فضية. تنشط في الظروف الرطبة والباردة.",
+        "fr": "Mâchent des trous irréguliers dans les feuilles, surtout sur les jeunes plants. Laissent des traces de bave argentées. Actifs dans des conditions humides et fraîches."
+      }
+    },
+    {
+      "pestId": "yellowing_leaves",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Leaves turn yellow, often due to overwatering, poor drainage, nutrient deficiency (especially iron or nitrogen), or compacted soil. Can also be a sign of root rot.",
+        "ur": "پتے پیلے ہو جاتے ہیں، اکثر زیادہ پانی دینے، ناقص نکاسی آب، غذائی اجزاء کی کمی (خاص طور پر آئرن یا نائٹروجن)، یا سخت مٹی کی وجہ سے۔ یہ جڑ کے سڑنے کی علامت بھی ہو سکتی ہے۔",
+        "ar": "تتحول الأوراق إلى اللون الأصفر، غالبًا بسبب الإفراط في الري، سوء الصرف، نقص المغذيات (خاصة الحديد أو النيتروجين)، أو التربة المضغوطة. يمكن أن يكون أيضًا علامة على تعفن الجذور.",
+        "fr": "Les feuilles jaunissent, souvent en raison d'un arrosage excessif, d'un mauvais drainage, d'une carence en nutriments (surtout fer ou azote) ou d'un sol compacté. Peut aussi être un signe de pourriture des racines."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 180,
+    "readinessSigns": [
+      {
+        "en": "Lush, fragrant leaves, before flowering for best flavor. Plant is at least 6-8 inches tall.",
+        "ur": "گھنے، خوشبودار پتے، بہترین ذائقے کے لیے پھول آنے سے پہلے۔ پودا کم از کم 6-8 انچ لمبا ہو۔",
+        "ar": "أوراق خضراء مورقة وعطرة، قبل الإزهار للحصول على أفضل نكهة. يجب أن يكون طول النبات 6-8 بوصات على الأقل.",
+        "fr": "Feuilles luxuriantes et parfumées, avant la floraison pour une meilleure saveur. La plante mesure au moins 15-20 cm de haut."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Snip outer leaves or stems with scissors, leaving at least 4-6 inches of growth.",
+        "ur": "بیرونی پتوں یا تنوں کو قینچی سے کاٹ لیں، کم از کم 4-6 انچ کی نشوونما چھوڑ دیں۔",
+        "ar": "اقطع الأوراق أو السيقان الخارجية بالمقص، مع ترك 4-6 بوصات على الأقل من النمو.",
+        "fr": "Coupez les feuilles ou les tiges extérieures avec des ciseaux, en laissant au moins 10-15 cm de croissance."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest regularly by cutting stems about 1/3 of the way down to encourage bushier growth.",
+        "ur": "جھاڑی دار نشوونما کی حوصلہ افزائی کے لیے تنوں کو تقریباً 1/3 نیچے سے کاٹ کر باقاعدگی سے کٹائی کریں۔",
+        "ar": "احصد بانتظام عن طريق قطع السيقان حوالي ثلث طولها لتشجيع نمو أكثر كثافة.",
+        "fr": "Récoltez régulièrement en coupant les tiges à environ un tiers de leur longueur pour favoriser une croissance plus touffue."
+      },
+      "EXPERT": {
+        "en": "For drying, harvest just before flowering when essential oils are at their peak. Cut entire stems.",
+        "ur": "خشک کرنے کے لیے، پھول آنے سے ٹھیک پہلے کٹائی کریں جب ضروری تیل اپنے عروج پر ہوں۔ پوری شاخیں کاٹ لیں۔",
+        "ar": "للتجفيف، احصد قبل الإزهار مباشرة عندما تكون الزيوت العطرية في ذروتها. اقطع السيقان بأكملها.",
+        "fr": "Pour le séchage, récoltez juste avant la floraison lorsque les huiles essentielles sont à leur apogée. Coupez les tiges entières."
+      }
+    },
+    "storage": {
+      "en": "Fresh: wrapped in a damp paper towel in the fridge for up to 2 weeks. Dried: in an airtight container. Frozen: chopped in ice cube trays with water/oil.",
+      "ur": "تازہ: فریج میں نم کاغذ کے تولیے میں لپیٹ کر 2 ہفتوں تک۔ خشک: ہوا بند کنٹینر میں۔ منجمد: پانی/تیل کے ساتھ آئس کیوب ٹرے میں کاٹ کر۔",
+      "ar": "طازج: ملفوف بمنشفة ورقية رطبة في الثلاجة لمدة تصل إلى أسبوعين. مجفف: في وعاء محكم الإغلاق. مجمد: مفروم في صواني مكعبات الثلج بالماء/الزيت.",
+      "fr": "Frais : enveloppé dans un essuie-tout humide au réfrigérateur jusqu'à 2 semaines. Séché : dans un récipient hermétique. Congelé : haché dans des bacs à glaçons avec de l'eau/huile."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.2,
+      "20L": 0.4,
+      "30L": 0.6,
+      "GROUND": 1
+    }
+  }
+}
