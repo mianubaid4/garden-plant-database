@@ -1,0 +1,1389 @@
+{
+  "id": "fennel",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1621262430349-4f7f4f4f4f4f?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Fennel",
+      "alternate": [
+        "Florence Fennel",
+        "Finocchio"
+      ]
+    },
+    "ur": {
+      "common": "سونف",
+      "alternate": []
+    },
+    "ar": {
+      "common": "شمر",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Fenouil",
+      "alternate": []
+    },
+    "botanical": "Foeniculum vulgare",
+    "aliases": [
+      "saunf",
+      "finocchio",
+      "fenouil",
+      "shamar"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "bulb",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 25,
+    "slowGrowthBelowC": 10,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 21,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "BULBING",
+    "LEAFY_SEED"
+  ],
+  "metadata": {
+    "growthHabits": {
+      "BULBING": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Grown for its swollen, edible bulb. Requires consistent moisture and cool temperatures to prevent bolting. Thinning is crucial for bulb development.",
+          "ur": "اسے اس کے پھولے ہوئے، کھانے کے قابل بلب کے لیے اگایا جاتا ہے۔ بولٹنگ سے بچنے کے لیے مستقل نمی اور ٹھنڈے درجہ حرارت کی ضرورت ہوتی ہے۔ بلب کی نشوونما کے لیے پتلا کرنا بہت ضروری ہے۔",
+          "ar": "يزرع من أجل بصيلته المنتفخة الصالحة للأكل. يتطلب رطوبة ثابتة ودرجات حرارة باردة لمنع التزهير المبكر. التخفيف ضروري لتطور البصيلة.",
+          "fr": "Cultivé pour son bulbe charnu et comestible. Nécessite une humidité constante et des températures fraîches pour éviter la montaison. L'éclaircissage est crucial pour le développement du bulbe."
+        }
+      },
+      "LEAFY_SEED": {
+        "pruningRequired": false,
+        "description": {
+          "en": "Grown for its aromatic leaves or seeds. Less sensitive to bolting than bulb varieties, but still prefers moderate temperatures.",
+          "ur": "اسے اس کے خوشبودار پتوں یا بیجوں کے لیے اگایا جاتا ہے۔ بلب کی اقسام کے مقابلے میں بولٹنگ کے لیے کم حساس ہوتا ہے، لیکن پھر بھی معتدل درجہ حرارت کو ترجیح دیتا ہے۔",
+          "ar": "يزرع من أجل أوراقه العطرية أو بذوره. أقل حساسية للتزهير المبكر من أصناف البصيلات، ولكنه لا يزال يفضل درجات الحرارة المعتدلة.",
+          "fr": "Cultivé pour ses feuilles aromatiques ou ses graines. Moins sensible à la montaison que les variétés à bulbe, mais préfère tout de même des températures modérées."
+        }
+      }
+    }
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "bulb",
+    "herb",
+    "aromatic",
+    "container-friendly",
+    "fast-growing"
+  ],
+  "temperature": {
+    "optimalMinC": 15,
+    "optimalMaxC": 24,
+    "survivalMinC": -4,
+    "survivalMaxC": 30,
+    "germinationMinC": 10,
+    "germinationOptimalC": 20,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 75,
+    "requiredGDD": 800,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 15
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -1,
+      "heavyRainMm": 20,
+      "highWindKmh": 30,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 600,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 2,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent moisture, avoid waterlogging",
+    "soilMoisturePreference": "Keep soil consistently moist but not soggy",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "medium",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "bolting",
+      "stunted growth",
+      "bitter taste"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "soft bulb",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or base watering",
+    "thingsToAvoid": [
+      "overhead watering",
+      "standing water",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "high",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "keep soil cool"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Use pots with good drainage",
+        "ur": "اچھے نکاسی والے گملے استعمال کریں",
+        "ar": "استخدم أواني ذات تصريف جيد",
+        "fr": "Utilisez des pots avec un bon drainage"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 25,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric bags provide good aeration",
+        "ur": "کپڑے کے تھیلے اچھی ہوا کی گردش فراہم کرتے ہیں",
+        "ar": "الأكياس القماشية توفر تهوية جيدة",
+        "fr": "Les sacs en tissu offrent une bonne aération"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Ensure well-drained soil",
+        "ur": "یقینی بنائیں کہ مٹی اچھی طرح سے نکاسی والی ہو",
+        "ar": "تأكد من تربة جيدة التصريف",
+        "fr": "Assurez-vous d'un sol bien drainé"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Ideal for controlling soil conditions",
+        "ur": "مٹی کی حالتوں کو کنٹرول کرنے کے لیے مثالی",
+        "ar": "مثالي للتحكم في ظروف التربة",
+        "fr": "Idéal pour contrôler les conditions du sol"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "60-90 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand for well-draining soil.",
+              "ur": "اچھی نکاسی والی مٹی کے لیے 50% مٹی، 30% کھاد، 20% ریت ملائیں۔",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل لتربة جيدة التصريف.",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable pour un sol bien drainé."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil is loose and well-drained, adding perlite if heavy.",
+              "ur": "یقینی بنائیں کہ مٹی ڈھیلی اور اچھی نکاسی والی ہے، اگر بھاری ہو تو پرلائٹ شامل کریں۔",
+              "ar": "تأكد من أن التربة فضفاضة وجيدة التصريف، أضف البيرلايت إذا كانت ثقيلة.",
+              "fr": "Assurez-vous que le sol est meuble et bien drainé, ajoutez de la perlite si lourd."
+            },
+            "EXPERT": {
+              "en": "Prepare a fertile, well-draining loam with a pH of 6.0-7.0.",
+              "ur": "6.0-7.0 پی ایچ کے ساتھ زرخیز، اچھی نکاسی والی لوم مٹی تیار کریں۔",
+              "ar": "جهز تربة طينية خصبة وجيدة التصريف بدرجة حموضة 6.0-7.0.",
+              "fr": "Préparez un limon fertile et bien drainé avec un pH de 6.0-7.0."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep, 4-6 inches apart.",
+              "ur": "بیج 1/4 انچ گہرائی میں، 4-6 انچ کے فاصلے پر بوئیں۔",
+              "ar": "ابذر البذور بعمق 1/4 بوصة، بمسافة 4-6 بوصات بينها.",
+              "fr": "Semez les graines à 1/4 de pouce de profondeur, espacées de 4-6 pouces."
+            },
+            "INTERMEDIATE": {
+              "en": "Plant 2 seeds per spot, 1/4 inch deep, later thinning to strongest.",
+              "ur": "ہر جگہ 2 بیج 1/4 انچ گہرائی میں بوئیں، بعد میں مضبوط ترین کو پتلا کریں۔",
+              "ar": "ازرع بذرتين في كل بقعة، بعمق 1/4 بوصة، ثم خفف للأقوى.",
+              "fr": "Plantez 2 graines par endroit, à 1/4 de pouce de profondeur, éclaircissez ensuite le plus fort."
+            },
+            "EXPERT": {
+              "en": "Direct sow 1/4\" deep, ensuring good seed-to-soil contact for optimal germination.",
+              "ur": "1/4 انچ گہرائی میں براہ راست بوئیں، بہترین انکرن کے لیے بیج اور مٹی کے درمیان اچھا رابطہ یقینی بنائیں۔",
+              "ar": "ازرع مباشرة بعمق 1/4 بوصة، مع ضمان تلامس جيد بين البذور والتربة للإنبات الأمثل.",
+              "fr": "Semez directement à 1/4\" de profondeur, assurez un bon contact graine-sol pour une germination optimale."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for sprouts.",
+              "ur": "کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم.",
+              "fr": "Vérifiez les pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Check moisture and sprouts.",
+              "ur": "نمی اور کونپلیں چیک کریں۔",
+              "ar": "تحقق من الرطوبة والبراعم.",
+              "fr": "Vérifiez l'humidité et les pousses."
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination and seedling vigor.",
+              "ur": "یکساں انکرن اور پودوں کی طاقت کا معائنہ کریں۔",
+              "ar": "افحص الإنبات الموحد وقوة الشتلات.",
+              "fr": "Inspectez la germination uniforme et la vigueur des semis."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil surface to keep it moist.",
+              "ur": "مٹی کی سطح کو نم رکھنے کے لیے چھڑکاؤ کریں۔",
+              "ar": "رش سطح التربة لإبقائها رطبة.",
+              "fr": "Vaporisez la surface du sol pour le maintenir humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent surface moisture without waterlogging.",
+              "ur": "پانی جمع کیے بغیر سطح کی نمی کو برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة سطحية ثابتة دون إغراق بالماء.",
+              "fr": "Maintenez une humidité de surface constante sans engorgement."
+            },
+            "EXPERT": {
+              "en": "Ensure even moisture penetration to encourage root development.",
+              "ur": "جڑوں کی نشوونما کو فروغ دینے کے لیے یکساں نمی کی رسائی یقینی بنائیں۔",
+              "ar": "تأكد من تغلغل الرطوبة بالتساوي لتشجيع نمو الجذور.",
+              "fr": "Assurez une pénétration uniforme de l'humidité pour favoriser le développement des racines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to keep soil moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے آہستہ پانی دیں۔",
+              "ar": "اسقِ بلطف للحفاظ على رطوبة التربة.",
+              "fr": "Arrosez doucement pour maintenir le sol humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist, but avoid overwatering.",
+              "ur": "مٹی کو مسلسل نم رکھیں، لیکن زیادہ پانی دینے سے گریز کریں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، ولكن تجنب الإفراط في الري.",
+              "fr": "Maintenez le sol constamment humide, mais évitez l'excès d'eau."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture levels closely to prevent damping-off.",
+              "ur": "ڈیمپنگ آف کو روکنے کے لیے مٹی کی نمی کی سطحوں کی قریب سے نگرانی کریں۔",
+              "ar": "راقب مستويات رطوبة التربة عن كثب لمنع ذبول الشتلات.",
+              "fr": "Surveillez attentivement les niveaux d'humidité du sol pour prévenir la fonte des semis."
+            }
+          }
+        },
+        "thinning": {
+          "required": true,
+          "dayOffset": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 4-6 inches apart once they have a few true leaves.",
+              "ur": "جب پودوں پر چند اصلی پتے آ جائیں تو انہیں 4-6 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "خفف الشتلات لتكون بمسافة 4-6 بوصات بمجرد ظهور بضعة أوراق حقيقية.",
+              "fr": "Éclaircissez les semis à 4-6 pouces d'intervalle une fois qu'ils ont quelques vraies feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Select the strongest seedlings and carefully remove weaker ones to ensure proper spacing.",
+              "ur": "مضبوط ترین پودوں کا انتخاب کریں اور مناسب فاصلہ یقینی بنانے کے لیے کمزور پودوں کو احتیاط سے ہٹا دیں۔",
+              "ar": "اختر أقوى الشتلات وقم بإزالة الأضعف بعناية لضمان التباعد المناسب.",
+              "fr": "Sélectionnez les semis les plus forts et retirez délicatement les plus faibles pour assurer un espacement correct."
+            },
+            "EXPERT": {
+              "en": "Thin to final spacing of 8-12 inches, considering future bulb development.",
+              "ur": "مستقبل کے بلب کی نشوونما کو مدنظر رکھتے ہوئے 8-12 انچ کے حتمی فاصلے پر پتلا کریں۔",
+              "ar": "خفف إلى مسافة نهائية تتراوح بين 8-12 بوصة، مع الأخذ في الاعتبار نمو البصلة المستقبلي.",
+              "fr": "Éclaircissez à un espacement final de 8-12 pouces, en tenant compte du développement futur du bulbe."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "True leaves form",
+        "ur": "نئے پتے آنا",
+        "ar": "تكون الأوراق",
+        "fr": "Apparition des feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": false,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If not done, thin seedlings to 8-12 inches apart for bulb development.",
+              "ur": "اگر نہیں کیا گیا تو، بلب کی نشوونما کے لیے پودوں کو 8-12 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "إذا لم يتم ذلك، خفف الشتلات لتكون بمسافة 8-12 بوصة لنمو البصلة.",
+              "fr": "Si ce n'est pas fait, éclaircissez les semis à 8-12 pouces d'intervalle pour le développement du bulbe."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure adequate air circulation and light penetration by thinning to final spacing.",
+              "ur": "حتمی فاصلے پر پتلا کرکے مناسب ہوا کی گردش اور روشنی کی رسائی کو یقینی بنائیں۔",
+              "ar": "تأكد من دوران الهواء الكافي وتغلغل الضوء عن طريق التخفيف إلى المسافة النهائية.",
+              "fr": "Assurez une circulation d'air et une pénétration de lumière adéquates en éclaircissant à l'espacement final."
+            },
+            "EXPERT": {
+              "en": "Optimize plant spacing for maximum bulb size and to prevent overcrowding.",
+              "ur": "بلب کے زیادہ سے زیادہ سائز اور زیادہ بھیڑ کو روکنے کے لیے پودوں کے فاصلے کو بہتر بنائیں۔",
+              "ar": "حسّن تباعد النباتات للحصول على أقصى حجم للبصلة ولمنع الاكتظاظ.",
+              "fr": "Optimisez l'espacement des plantes pour une taille de bulbe maximale et pour éviter le surpeuplement."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water consistently at the base, keeping soil moist.",
+              "ur": "مٹی کو نم رکھتے ہوئے، بنیاد پر مسلسل پانی دیں۔",
+              "ar": "اسقِ باستمرار عند القاعدة، مع الحفاظ على رطوبة التربة.",
+              "fr": "Arrosez constamment à la base, en maintenant le sol humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide deep, consistent watering to encourage strong root growth.",
+              "ur": "مضبوط جڑوں کی نشوونما کو فروغ دینے کے لیے گہرا، مسلسل پانی فراہم کریں۔",
+              "ar": "وفر سقيًا عميقًا ومستمرًا لتشجيع نمو الجذور القوية.",
+              "fr": "Fournissez un arrosage profond et constant pour encourager une forte croissance des racines."
+            },
+            "EXPERT": {
+              "en": "Maintain even soil moisture to prevent stress and promote healthy development.",
+              "ur": "تناؤ کو روکنے اور صحت مند نشوونما کو فروغ دینے کے لیے مٹی کی یکساں نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة المتساوية لمنع الإجهاد وتعزيز التطور الصحي.",
+              "fr": "Maintenez une humidité du sol uniforme pour prévenir le stress et favoriser un développement sain."
+            }
+          }
+        },
+        "fertilizing": {
+          "required": false,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a light liquid feed if leaves look pale.",
+              "ur": "اگر پتے پیلے نظر آئیں تو ہلکی مائع کھاد ڈالیں۔",
+              "ar": "ضع سمادًا سائلًا خفيفًا إذا بدت الأوراق شاحبة.",
+              "fr": "Appliquez un engrais liquide léger si les feuilles semblent pâles."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a balanced liquid fertilizer (e.g., 5-5-5) at half strength every 2 weeks.",
+              "ur": "ہر 2 ہفتوں میں آدھی طاقت کا متوازن مائع کھاد (مثلاً 5-5-5) استعمال کریں۔",
+              "ar": "استخدم سمادًا سائلًا متوازنًا (مثل 5-5-5) بنصف القوة كل أسبوعين.",
+              "fr": "Utilisez un engrais liquide équilibré (par exemple, 5-5-5) à demi-dose toutes les 2 semaines."
+            },
+            "EXPERT": {
+              "en": "Conduct a soil test to determine specific nutrient needs before applying fertilizer.",
+              "ur": "کھاد ڈالنے سے پہلے مخصوص غذائی ضروریات کا تعین کرنے کے لیے مٹی کا ٹیسٹ کریں۔",
+              "ar": "قم بإجراء اختبار للتربة لتحديد الاحتياجات الغذائية المحددة قبل وضع السماد.",
+              "fr": "Effectuez une analyse du sol pour déterminer les besoins spécifiques en nutriments avant d'appliquer de l'engrais."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Bulb formation begins",
+        "ur": "بلب بننا شروع ہوتا ہے",
+        "ar": "يبدأ تكون البصلة",
+        "fr": "La formation du bulbe commence"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Consistent moisture is key for tender, well-formed bulbs.",
+          "ur": "نرم، اچھی طرح سے بنے ہوئے بلب کے لیے مسلسل نمی ضروری ہے۔",
+          "ar": "الرطوبة المستمرة هي المفتاح للحصول على بصلات طرية وجيدة التكوين.",
+          "fr": "Une humidité constante est essentielle pour des bulbes tendres et bien formés."
+        },
+        {
+          "en": "Hilling (blanching) helps keep the bulb white and tender.",
+          "ur": "مٹی چڑھانا (بلانچنگ) بلب کو سفید اور نرم رکھنے میں مدد کرتا ہے۔",
+          "ar": "التكويم (التبييض) يساعد في الحفاظ على البصلة بيضاء وطرية.",
+          "fr": "Le buttage (blanchiment) aide à garder le bulbe blanc et tendre."
+        }
+      ],
+      "tasks": {
+        "hilling": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently mound soil around the base of the plant as the bulb starts to swell.",
+              "ur": "جب بلب پھولنا شروع ہو تو پودے کی بنیاد کے گرد آہستہ سے مٹی چڑھائیں۔",
+              "ar": "كوم التراب بلطف حول قاعدة النبات عندما تبدأ البصلة في الانتفاخ.",
+              "fr": "Buttez délicatement la terre autour de la base de la plante lorsque le bulbe commence à gonfler."
+            },
+            "INTERMEDIATE": {
+              "en": "Blanch the developing bulb by mounding soil or straw around it to protect from sun.",
+              "ur": "بلب کو سورج سے بچانے کے لیے اس کے گرد مٹی یا بھوسا چڑھاکر بلانچ کریں۔",
+              "ar": "بيض البصلة النامية عن طريق تكويم التربة أو القش حولها لحمايتها من الشمس.",
+              "fr": "Blanchissez le bulbe en développement en buttant de la terre ou de la paille autour pour le protéger du soleil."
+            },
+            "EXPERT": {
+              "en": "Implement a blanching strategy to achieve desired tenderness and flavor in the bulb.",
+              "ur": "بلب میں مطلوبہ نرمی اور ذائقہ حاصل کرنے کے لیے بلانچنگ کی حکمت عملی نافذ کریں۔",
+              "ar": "نفذ استراتيجية تبييض لتحقيق الطراوة والنكهة المرغوبة في البصلة.",
+              "fr": "Mettez en œuvre une stratégie de blanchiment pour obtenir la tendreté et la saveur désirées dans le bulbe."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently to keep the soil moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے گہرا اور مسلسل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار للحفاظ على رطوبة التربة.",
+              "fr": "Arrosez profondément et constamment pour maintenir le sol humide."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure even moisture penetration to prevent splitting of the developing bulb.",
+              "ur": "بلب کے پھٹنے سے بچنے کے لیے یکساں نمی کی رسائی یقینی بنائیں۔",
+              "ar": "تأكد من تغلغل الرطوبة بالتساوي لمنع تشقق البصلة النامية.",
+              "fr": "Assurez une pénétration uniforme de l'humidité pour éviter le fendillement du bulbe en développement."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture with a meter to maintain optimal conditions for bulb expansion.",
+              "ur": "بلب کی توسیع کے لیے بہترین حالات برقرار رکھنے کے لیے مٹی کی نمی کو میٹر سے مانیٹر کریں۔",
+              "ar": "راقب رطوبة التربة بمقياس للحفاظ على الظروف المثلى لتوسع البصلة.",
+              "fr": "Surveillez l'humidité du sol avec un humidimètre pour maintenir des conditions optimales pour l'expansion du bulbe."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids and slugs. Remove manually or spray with soapy water.",
+              "ur": "ایفڈز اور سلگس کو چیک کریں۔ دستی طور پر ہٹائیں یا صابن والے پانی سے چھڑکیں۔",
+              "ar": "تحقق من المن والرخويات. أزلها يدويًا أو رش بالماء والصابون.",
+              "fr": "Vérifiez les pucerons et les limaces. Retirez-les manuellement ou pulvérisez de l'eau savonneuse."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray (e.g., neem oil) preventatively, especially for aphids.",
+              "ur": "ایفڈز کے لیے نامیاتی کیڑے مار دوا (مثلاً نیم کا تیل) احتیاطی طور پر استعمال کریں۔",
+              "ar": "رش مبيد حشري عضوي (مثل زيت النيم) وقائيًا، خاصة للمن.",
+              "fr": "Appliquez un spray antiparasitaire biologique (ex: huile de neem) préventivement, surtout pour les pucerons."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, focusing on beneficial insects.",
+              "ur": "مفید کیڑوں پر توجہ مرکوز کرتے ہوئے ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں۔",
+              "ar": "نفذ استراتيجية متكاملة لإدارة الآفات (IPM)، مع التركيز على الحشرات النافعة.",
+              "fr": "Mettez en œuvre une stratégie de gestion intégrée des ravageurs (IPM), en se concentrant sur les insectes bénéfiques."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for spots or bugs.",
+              "ur": "پتوں پر دھبے یا کیڑے چیک کریں۔",
+              "ar": "تحقق من الأوراق بحثًا عن بقع أو حشرات.",
+              "fr": "Vérifiez les feuilles pour les taches ou les insectes."
+            },
+            "INTERMEDIATE": {
+              "en": "Look under leaves for aphids and inspect the bulb for signs of rot.",
+              "ur": "پتوں کے نیچے ایفڈز کو دیکھیں اور بلب کو سڑنے کی علامات کے لیے معائنہ کریں۔",
+              "ar": "ابحث تحت الأوراق عن المن وافحص البصلة بحثًا عن علامات التعفن.",
+              "fr": "Regardez sous les feuilles pour les pucerons et inspectez le bulbe pour des signes de pourriture."
+            },
+            "EXPERT": {
+              "en": "Monitor for early signs of fungal diseases or pest infestations, especially near the bulb.",
+              "ur": "فنگل بیماریوں یا کیڑوں کے حملے کی ابتدائی علامات کی نگرانی کریں، خاص طور پر بلب کے قریب۔",
+              "ar": "راقب العلامات المبكرة للأمراض الفطرية أو تفشي الآفات، خاصة بالقرب من البصلة.",
+              "fr": "Surveillez les premiers signes de maladies fongiques ou d'infestations de ravageurs, surtout près du bulbe."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Slugs",
+              "ur": "سلگس",
+              "ar": "الرخويات",
+              "fr": "Limaces"
+            },
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 20,
+      "durationDaysWarm": 15,
+      "durationDaysCool": 25,
+      "description": {
+        "en": "Flowers bloom (if allowed to bolt)",
+        "ur": "پھول کھلنا (اگر بولٹ کرنے کی اجازت ہو)",
+        "ar": "إزهار (إذا سمح له بالتزهير)",
+        "fr": "Floraison (si laissé monter en graine)"
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "If growing for bulbs, harvest before flowering to prevent bolting and maintain bulb quality.",
+          "ur": "اگر بلب کے لیے اگا رہے ہیں، تو پھول آنے سے پہلے کاٹ لیں تاکہ بولٹنگ کو روکا جا سکے اور بلب کا معیار برقرار رہے۔",
+          "ar": "إذا كنت تزرع البصلات، احصد قبل التزهير لمنع التزهير والحفاظ على جودة البصلة.",
+          "fr": "Si vous cultivez pour les bulbes, récoltez avant la floraison pour éviter la montée en graine et maintenir la qualité du bulbe."
+        },
+        {
+          "en": "If growing for seeds, allow flowers to fully develop.",
+          "ur": "اگر بیجوں کے لیے اگا رہے ہیں، تو پھولوں کو مکمل طور پر نشوونما پانے دیں۔",
+          "ar": "إذا كنت تزرع البذور، اسمح للأزهار بالتطور الكامل.",
+          "fr": "Si vous cultivez pour les graines, laissez les fleurs se développer pleinement."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain consistent moisture.",
+              "ur": "مسلسل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة ثابتة.",
+              "fr": "Maintenez une humidité constante."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure adequate water to support flower development or prevent bolting.",
+              "ur": "پھولوں کی نشوونما کو سہارا دینے یا بولٹنگ کو روکنے کے لیے کافی پانی یقینی بنائیں۔",
+              "ar": "تأكد من توفر الماء الكافي لدعم نمو الأزهار أو منع التزهير.",
+              "fr": "Assurez un arrosage adéquat pour soutenir le développement des fleurs ou prévenir la montée en graine."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on plant needs and environmental conditions to optimize seed set or bulb quality.",
+              "ur": "بیج کے سیٹ یا بلب کے معیار کو بہتر بنانے کے لیے پودوں کی ضروریات اور ماحولیاتی حالات کی بنیاد پر پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على احتياجات النبات والظروف البيئية لتحسين تكوين البذور أو جودة البصلة.",
+              "fr": "Ajustez l'arrosage en fonction des besoins de la plante et des conditions environnementales pour optimiser la nouaison ou la qualité du bulbe."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids and other pests. Spray with water if needed.",
+              "ur": "ایفڈز اور دیگر کیڑوں کو چیک کریں۔ ضرورت پڑنے پر پانی سے چھڑکیں۔",
+              "ar": "تحقق من المن والآفات الأخرى. رش بالماء إذا لزم الأمر.",
+              "fr": "Vérifiez les pucerons et autres ravageurs. Pulvérisez de l'eau si nécessaire."
+            },
+            "INTERMEDIATE": {
+              "en": "Use organic pest control methods, avoiding harsh chemicals that could harm pollinators.",
+              "ur": "نامیاتی کیڑوں کے کنٹرول کے طریقے استعمال کریں، ایسے سخت کیمیکلز سے گریز کریں جو پولینیٹرز کو نقصان پہنچا سکتے ہیں۔",
+              "ar": "استخدم طرق مكافحة الآفات العضوية، وتجنب المواد الكيميائية القاسية التي قد تضر الملقحات.",
+              "fr": "Utilisez des méthodes de lutte antiparasitaire biologique, en évitant les produits chimiques agressifs qui pourraient nuire aux pollinisateurs."
+            },
+            "EXPERT": {
+              "en": "Monitor beneficial insect populations and introduce them if necessary for natural pest control.",
+              "ur": "مفید کیڑوں کی آبادی کی نگرانی کریں اور قدرتی کیڑوں کے کنٹرول کے لیے ضرورت پڑنے پر انہیں متعارف کروائیں۔",
+              "ar": "راقب أعداد الحشرات النافعة وأدخلها إذا لزم الأمر للمكافحة الطبيعية للآفات.",
+              "fr": "Surveillez les populations d'insectes bénéfiques et introduisez-les si nécessaire pour un contrôle naturel des ravageurs."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check flowers for healthy development.",
+              "ur": "پھولوں کی صحت مند نشوونما کو چیک کریں۔",
+              "ar": "تحقق من نمو الأزهار الصحي.",
+              "fr": "Vérifiez le bon développement des fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect for signs of disease or pest damage on flowers and developing seeds.",
+              "ur": "پھولوں اور بڑھتے ہوئے بیجوں پر بیماری یا کیڑوں کے نقصان کی علامات کا معائنہ کریں۔",
+              "ar": "افحص علامات المرض أو تلف الآفات على الأزهار والبذور النامية.",
+              "fr": "Inspectez les signes de maladie ou de dommages causés par les ravageurs sur les fleurs et les graines en développement."
+            },
+            "EXPERT": {
+              "en": "Assess pollination success and potential issues affecting seed viability.",
+              "ur": "پولینیشن کی کامیابی اور بیج کی قابل عملیت کو متاثر کرنے والے ممکنہ مسائل کا جائزہ لیں۔",
+              "ar": "قيم نجاح التلقيح والمشكلات المحتملة التي تؤثر على حيوية البذور.",
+              "fr": "Évaluez le succès de la pollinisation et les problèmes potentiels affectant la viabilité des graines."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "SEED_DEVELOPMENT",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Seeds develop",
+        "ur": "بیج بنتے ہیں",
+        "ar": "تتطور البذور",
+        "fr": "Les graines se développent"
+      },
+      "emoji": "🌾",
+      "tips": [
+        {
+          "en": "Allow seeds to fully dry on the plant for best flavor and viability.",
+          "ur": "بہترین ذائقہ اور قابل عملیت کے لیے بیجوں کو پودے پر مکمل طور پر خشک ہونے دیں۔",
+          "ar": "اترك البذور تجف تمامًا على النبات للحصول على أفضل نكهة وحيوية.",
+          "fr": "Laissez les graines sécher complètement sur la plante pour une saveur et une viabilité optimales."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering as seeds mature.",
+              "ur": "جب بیج پختہ ہو جائیں تو پانی کم کر دیں۔",
+              "ar": "قلل الري مع نضوج البذور.",
+              "fr": "Réduisez l'arrosage à mesure que les graines mûrissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide just enough water to prevent wilting, encouraging seed drying.",
+              "ur": "بیجوں کو خشک ہونے کی ترغیب دینے کے لیے صرف اتنا پانی دیں کہ وہ مرجھائیں نہیں۔",
+              "ar": "وفر ما يكفي من الماء لمنع الذبول، مما يشجع على تجفيف البذور.",
+              "fr": "Fournissez juste assez d'eau pour éviter le flétrissement, encourageant le séchage des graines."
+            },
+            "EXPERT": {
+              "en": "Implement a controlled drying period to maximize seed quality and prevent mold.",
+              "ur": "بیج کے معیار کو زیادہ سے زیادہ کرنے اور پھپھوندی کو روکنے کے لیے ایک کنٹرول شدہ خشک کرنے کی مدت نافذ کریں۔",
+              "ar": "نفذ فترة تجفيف محكومة لزيادة جودة البذور ومنع العفن.",
+              "fr": "Mettez en œuvre une période de séchage contrôlée pour maximiser la qualité des graines et prévenir la moisissure."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check seed heads for color change (dull grey-green).",
+              "ur": "بیج کے سروں میں رنگ کی تبدیلی (مدھم سرمئی سبز) کو چیک کریں۔",
+              "ar": "تحقق من رؤوس البذور لتغير اللون (رمادي مخضر باهت).",
+              "fr": "Vérifiez les têtes de graines pour un changement de couleur (gris-vert terne)."
+            },
+            "INTERMEDIATE": {
+              "en": "Gently rub a few seeds to check if they are firm and dry.",
+              "ur": "چند بیجوں کو آہستہ سے رگڑ کر چیک کریں کہ آیا وہ سخت اور خشک ہیں۔",
+              "ar": "افرك بعض البذور برفق للتحقق مما إذا كانت صلبة وجافة.",
+              "fr": "Frottez doucement quelques graines pour vérifier si elles sont fermes et sèches."
+            },
+            "EXPERT": {
+              "en": "Monitor for signs of premature shattering or fungal growth on seed heads.",
+              "ur": "بیج کے سروں پر قبل از وقت بکھرنے یا فنگل کی نشوونما کی علامات کی نگرانی کریں۔",
+              "ar": "راقب علامات التفتت المبكر أو النمو الفطري على رؤوس البذور.",
+              "fr": "Surveillez les signes d'éclatement prématuré ou de croissance fongique sur les têtes de graines."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Mold",
+              "ur": "پھپھوندی",
+              "ar": "العفن",
+              "fr": "Moisissure"
+            },
+            {
+              "en": "Immature seeds",
+              "ur": "ناپختہ بیج",
+              "ar": "بذور غير ناضجة",
+              "fr": "Graines immatures"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Bulb, leaves, or seeds ready",
+        "ur": "بلب، پتے، یا بیج تیار ہیں",
+        "ar": "البصلة، الأوراق، أو البذور جاهزة",
+        "fr": "Bulbe, feuilles ou graines prêts"
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "Harvest bulbs when they are firm and 3-5 inches in diameter.",
+          "ur": "جب بلب سخت اور 3-5 انچ قطر کے ہو جائیں تو انہیں کاٹ لیں۔",
+          "ar": "احصد البصلات عندما تكون صلبة وبقطر 3-5 بوصات.",
+          "fr": "Récoltez les bulbes lorsqu'ils sont fermes et mesurent 3-5 pouces de diamètre."
+        },
+        {
+          "en": "Harvest leaves as needed for fresh use.",
+          "ur": "تازہ استعمال کے لیے ضرورت کے مطابق پتے کاٹ لیں۔",
+          "ar": "احصد الأوراق حسب الحاجة للاستخدام الطازج.",
+          "fr": "Récoltez les feuilles au besoin pour une utilisation fraîche."
+        },
+        {
+          "en": "Harvest seeds when heads are dry and dull grey-green.",
+          "ur": "جب بیج کے سر خشک اور مدھم سرمئی سبز ہو جائیں تو انہیں کاٹ لیں۔",
+          "ar": "احصد البذور عندما تكون الرؤوس جافة ورمادية خضراء باهتة.",
+          "fr": "Récoltez les graines lorsque les têtes sont sèches et gris-vert terne."
+        }
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "For bulbs, cut at the soil line. For leaves, snip outer fronds. For seeds, cut dried heads.",
+              "ur": "بلب کے لیے، مٹی کی سطح پر کاٹیں۔ پتوں کے لیے، بیرونی پتے کاٹیں۔ بیجوں کے لیے، خشک سر کاٹیں۔",
+              "ar": "للبصلات، اقطع عند خط التربة. للأوراق، اقطع الأوراق الخارجية. للبذور، اقطع الرؤوس الجافة.",
+              "fr": "Pour les bulbes, coupez au niveau du sol. Pour les feuilles, coupez les frondes extérieures. Pour les graines, coupez les têtes séchées."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest bulbs when firm and about the size of a tennis ball. Leaves can be harvested continuously.",
+              "ur": "جب بلب سخت اور ٹینس بال کے سائز کے ہو جائیں تو انہیں کاٹ لیں۔ پتے مسلسل کاٹے جا سکتے ہیں۔",
+              "ar": "احصد البصلات عندما تكون صلبة وبحجم كرة التنس تقريبًا. يمكن حصاد الأوراق باستمرار.",
+              "fr": "Récoltez les bulbes lorsqu'ils sont fermes et de la taille d'une balle de tennis. Les feuilles peuvent être récoltées en continu."
+            },
+            "EXPERT": {
+              "en": "Time bulb harvest before hot weather to prevent bolting. Collect seeds by shaking dried heads into a bag.",
+              "ur": "بولٹنگ کو روکنے کے لیے گرم موسم سے پہلے بلب کی کٹائی کا وقت مقرر کریں۔ خشک سروں کو ایک تھیلے میں ہلا کر بیج جمع کریں۔",
+              "ar": "حدد وقت حصاد البصلة قبل الطقس الحار لمنع التزهير. اجمع البذور عن طريق هز الرؤوس الجافة في كيس.",
+              "fr": "Planifiez la récolte des bulbes avant les fortes chaleurs pour éviter la montée en graine. Récoltez les graines en secouant les têtes séchées dans un sac."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce water for bulb harvest, maintain for leaf harvest.",
+              "ur": "بلب کی کٹائی کے لیے پانی کم کریں، پتوں کی کٹائی کے لیے برقرار رکھیں۔",
+              "ar": "قلل الماء لحصاد البصلة، حافظ عليه لحصاد الأوراق.",
+              "fr": "Réduisez l'eau pour la récolte des bulbes, maintenez-la pour la récolte des feuilles."
+            },
+            "INTERMEDIATE": {
+              "en": "Slightly reduce water for bulbs to concentrate flavor. Keep moist for continuous leaf production.",
+              "ur": "ذائقہ کو مرکوز کرنے کے لیے بلب کے لیے پانی تھوڑا کم کریں۔ پتوں کی مسلسل پیداوار کے لیے نم رکھیں۔",
+              "ar": "قلل الماء قليلاً للبصلات لتركيز النكهة. حافظ على الرطوبة لإنتاج الأوراق المستمر.",
+              "fr": "Réduisez légèrement l'eau pour les bulbes afin de concentrer la saveur. Maintenez humide pour une production continue de feuilles."
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on harvest goal: dry for seeds, moderate for bulbs, consistent for leaves.",
+              "ur": "کٹائی کے مقصد کی بنیاد پر پانی کو ایڈجسٹ کریں: بیجوں کے لیے خشک، بلب کے لیے معتدل، پتوں کے لیے مسلسل۔",
+              "ar": "اضبط الري بناءً على هدف الحصاد: جاف للبذور، معتدل للبصلات، ثابت للأوراق.",
+              "fr": "Ajustez l'arrosage en fonction de l'objectif de récolte: sec pour les graines, modéré pour les bulbes, constant pour les feuilles."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots, promoting strong initial growth.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے، ابتدائی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعطي دفعة مغذية لطيفة دون حرق الجذور الشابة الرقيقة، مما يعزز النمو الأولي القوي.",
+          "fr": "Donne un coup de pouce nutritif doux sans brûler les jeunes racines délicates, favorisant une forte croissance initiale."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Balanced Organic Granular (e.g., 5-5-5)",
+          "ur": "کمپوسٹ چائے یا متوازن نامیاتی دانے دار (مثلاً 5-5-5)",
+          "ar": "شاي الكمبوست أو سماد عضوي متوازن",
+          "fr": "Thé de compost ou engrais granulaire organique équilibré"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. Strain if spraying. For granular, sprinkle 2 tablespoons around the base.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔ دانے دار کے لیے، جڑوں کے گرد 2 چمچ چھڑکیں۔",
+          "ar": "انقع كوبًا من الكمبوست الغني أو مخلفات الديدان في 4 لترات من الماء لمدة 24-48 ساعة. حرك من حين لآخر. صفيه إذا كنت سترش. للسماد الحبيبي، رش ملعقتين كبيرتين حول القاعدة.",
+          "fr": "Faites infuser 1 tasse de compost riche ou de lombricompost dans 4 litres d'eau pendant 24 à 48 heures. Remuez occasionnellement. Filtrez si vous pulvérisez. Pour les granulés, saupoudrez 2 cuillères à soupe autour de la base."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports vigorous leaf growth and healthy bulb development. Fennel is a moderate feeder.",
+          "ur": "یہ پتوں کی بھرپور نشوونما اور صحت مند بلب کی نشوونما میں مدد کرتا ہے۔ سونف ایک درمیانی خوراک کا پودا ہے۔",
+          "ar": "يدعم نمو الأوراق القوي وتطور البصلة الصحية. الشمر نبات يتغذى باعتدال.",
+          "fr": "Soutient une croissance foliaire vigoureuse et un développement sain du bulbe. Le fenouil est un mangeur modéré."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal (Phosphorus) & Wood Ash (Potassium)",
+          "ur": "پتھروں کا چورا (فاسفورس) اور راکھ (پوٹاشیم)",
+          "ar": "مسحوق العظام (فوسفور) ورماد الخشب (بوتاسيوم)",
+          "fr": "Poudre d'os (Phosphore) & Cendre de bois (Potassium)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من رماد الخشب حول قاعدة النبات. ادمجها برفق في الطبقة العلوية من التربة بعمق 1 بوصة.",
+          "fr": "Saupoudrez 2 cuillères à soupe de poudre d'os et 1 cuillère à soupe de cendre de bois autour de la base de la plante. Grattez doucement dans le premier pouce de terre."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "If growing for seeds, this boosts flower and subsequent seed production. Not typically needed for bulb fennel.",
+          "ur": "اگر بیجوں کے لیے اگا رہے ہیں، تو یہ پھولوں اور اس کے بعد بیجوں کی پیداوار کو بڑھاتا ہے۔ بلب سونف کے لیے عام طور پر اس کی ضرورت نہیں ہوتی۔",
+          "ar": "إذا كنت تزرع من أجل البذور، فهذا يعزز إنتاج الزهور والبذور اللاحقة. لا يلزم عادة للشمر البصلي.",
+          "fr": "Si vous cultivez pour les graines, cela stimule la production de fleurs et de graines. Généralement pas nécessaire pour le fenouil bulbeux."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal or High-Potassium Organic Liquid",
+          "ur": "کیلپ میل یا زیادہ پوٹاشیم والا نامیاتی مائع",
+          "ar": "وجبة عشب البحر أو سائل عضوي عالي البوتاسيوم",
+          "fr": "Farine d'algues ou liquide organique riche en potassium"
+        },
+        "preparation": {
+          "en": "For kelp meal, sprinkle 1 tablespoon around the base. For liquid, dilute as per product instructions and water around roots.",
+          "ur": "کیلپ میل کے لیے، جڑوں کے گرد 1 چمچ چھڑکیں۔ مائع کے لیے، پروڈکٹ کی ہدایات کے مطابق پتلا کریں اور جڑوں کے گرد پانی دیں۔",
+          "ar": "بالنسبة لوجبة عشب البحر، رش ملعقة كبيرة حول القاعدة. للسائل، خففه حسب تعليمات المنتج واسقِ حول الجذور.",
+          "fr": "Pour la farine d'algues, saupoudrez 1 cuillère à soupe autour de la base. Pour le liquide, diluez selon les instructions du produit et arrosez autour des racines."
+        },
+        "quantityPer10L": 100,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Aids in the development and maturation of fennel seeds, improving their quality and flavor.",
+          "ur": "سونف کے بیجوں کی نشوونما اور پختگی میں مدد کرتا ہے، ان کے معیار اور ذائقے کو بہتر بناتا ہے۔",
+          "ar": "يساعد في تطوير ونضج بذور الشمر، مما يحسن جودتها ونكهتها.",
+          "fr": "Aide au développement et à la maturation des graines de fenouil, améliorant leur qualité et leur saveur."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 20-20-20)",
+          "ur": "بیلنسڈ این پی کے (مثلاً 10-10-10 یا 20-20-20)",
+          "ar": "سماد متوازن NPK (مثل 10-10-10 أو 20-20-20)",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 20-20-20)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK في 4 لترات من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK dans 4 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides essential nutrients for strong foliage and bulb formation.",
+          "ur": "مضبوط پتوں اور بلب کی تشکیل کے لیے ضروری غذائی اجزاء فراہم کرتا ہے۔",
+          "ar": "يوفر العناصر الغذائية الأساسية لنمو الأوراق القوي وتكوين البصلة.",
+          "fr": "Fournit les nutriments essentiels pour un feuillage robuste et la formation du bulbe."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, Higher Phosphorus & Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس اور پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "نيتروجين منخفض، فوسفور وبوتاسيوم أعلى (مثل 5-10-10)",
+          "fr": "Faible en azote, plus riche en phosphore et potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of granular fertilizer in 1 gallon of water, or apply 1 tablespoon granular per plant and water in.",
+          "ur": "ایک چمچ دانے دار کھاد 4 لیٹر پانی میں حل کریں، یا ہر پودے کے لیے 1 چمچ دانے دار استعمال کریں اور پانی دیں۔",
+          "ar": "أذب ملعقة صغيرة من السماد الحبيبي في 4 لترات من الماء، أو ضع ملعقة كبيرة من السماد الحبيبي لكل نبات واسقِ.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais granulaire dans 4 litres d'eau, ou appliquez 1 cuillère à soupe de granulés par plante et arrosez."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "If growing for seeds, this promotes strong flower development for better seed set.",
+          "ur": "اگر بیجوں کے لیے اگا رہے ہیں، تو یہ بہتر بیجوں کے لیے مضبوط پھولوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "إذا كنت تزرع من أجل البذور، فهذا يعزز نمو الزهور القوي لتحسين عقد البذور.",
+          "fr": "Si vous cultivez pour les graines, cela favorise un fort développement floral pour une meilleure nouaison."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High-Potassium Fertilizer (e.g., 0-0-50)",
+          "ur": "زیادہ پوٹاشیم والی کھاد (مثلاً 0-0-50)",
+          "ar": "سماد عالي البوتاسيوم (مثل 0-0-50)",
+          "fr": "Engrais riche en potassium (ex: 0-0-50)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high-potassium fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ زیادہ پوٹاشیم والی کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من السماد عالي البوتاسيوم في 4 لترات من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais riche en potassium dans 4 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports the final stages of seed development, enhancing size and viability.",
+          "ur": "بیجوں کی نشوونما کے آخری مراحل میں مدد کرتا ہے، سائز اور قابل عمل کو بڑھاتا ہے۔",
+          "ar": "يدعم المراحل النهائية لتطور البذور، مما يعزز حجمها وقابليتها للحياة.",
+          "fr": "Soutient les dernières étapes du développement des graines, améliorant leur taille et leur viabilité."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P/K Chemical",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "High-Potassium Chemical",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "dill",
+      "benefit": {
+        "en": "Attracts beneficial insects like hoverflies and parasitic wasps, which prey on aphids and other pests that might affect fennel.",
+        "ur": "فائدہ مند کیڑوں جیسے ہورفلائیز اور پرجیوی بھڑوں کو اپنی طرف متوجہ کرتا ہے، جو سونف کو متاثر کرنے والے افڈس اور دیگر کیڑوں کا شکار کرتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل حوامات الزهور والدبابير الطفيلية، التي تفترس حشرات المن والآفات الأخرى التي قد تؤثر على الشمر.",
+        "fr": "Attire les insectes bénéfiques comme les syrphes et les guêpes parasitoïdes, qui se nourrissent des pucerons et autres ravageurs du fenouil."
+      }
+    },
+    {
+      "plantId": "coriander",
+      "benefit": {
+        "en": "Similar to dill, coriander attracts a variety of beneficial insects that can help with pest control around fennel plants.",
+        "ur": "دھنیا بھی ڈل کی طرح فائدہ مند کیڑوں کی ایک قسم کو اپنی طرف متوجہ کرتا ہے جو سونف کے پودوں کے ارد گرد کیڑوں پر قابو پانے میں مدد کر سکتے ہیں۔",
+        "ar": "على غرار الشبت، يجذب الكزبرة مجموعة متنوعة من الحشرات النافعة التي يمكن أن تساعد في مكافحة الآفات حول نباتات الشمر.",
+        "fr": "Similaire à l'aneth, la coriandre attire une variété d'insectes bénéfiques qui peuvent aider à la lutte antiparasitaire autour des plants de fenouil."
+      }
+    },
+    {
+      "plantId": "mint",
+      "benefit": {
+        "en": "Its strong scent can deter slugs and snails, which are common pests for young fennel plants. Plant in containers to prevent invasiveness.",
+        "ur": "اس کی تیز خوشبو سلگ اور گھونگوں کو دور رکھ سکتی ہے، جو جوان سونف کے پودوں کے عام کیڑے ہیں۔ اس کے پھیلاؤ کو روکنے کے لیے اسے گملوں میں لگائیں۔",
+        "ar": "رائحتها القوية يمكن أن تردع الرخويات والقواقع، وهي آفات شائعة لنباتات الشمر الصغيرة. ازرعها في أوعية لمنع انتشارها.",
+        "fr": "Son odeur forte peut repousser les limaces et les escargots, ravageurs courants des jeunes plants de fenouil. Plantez en pots pour éviter l'envahissement."
+      }
+    },
+    {
+      "plantId": "calendula",
+      "benefit": {
+        "en": "Attracts pollinators and beneficial insects, and can also help deter some harmful pests from the garden.",
+        "ur": "پولینیٹرز اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، اور باغ سے کچھ نقصان دہ کیڑوں کو دور رکھنے میں بھی مدد کر سکتا ہے۔",
+        "ar": "يجذب الملقحات والحشرات النافعة، ويمكن أن يساعد أيضًا في ردع بعض الآفات الضارة من الحديقة.",
+        "fr": "Attire les pollinisateurs et les insectes bénéfiques, et peut également aider à repousser certains ravageurs du jardin."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Fennel is known to be allelopathic to tomatoes, inhibiting their growth and reducing yield.",
+        "ur": "سونف ٹماٹر کے لیے ایلوپیتھک ہے، جو ان کی نشوونما کو روکتا ہے اور پیداوار کو کم کرتا ہے۔",
+        "ar": "يُعرف الشمر بأنه مثبط لنمو الطماطم، حيث يمنع نموها ويقلل من المحصول.",
+        "fr": "Le fenouil est connu pour être allélopathique aux tomates, inhibant leur croissance et réduisant le rendement."
+      }
+    },
+    {
+      "plantId": "beans",
+      "reason": {
+        "en": "Fennel can stunt the growth of beans and reduce their productivity.",
+        "ur": "سونف پھلیوں کی نشوونما کو روک سکتا ہے اور ان کی پیداواری صلاحیت کو کم کر سکتا ہے۔",
+        "ar": "يمكن للشمر أن يعيق نمو الفاصوليا ويقلل من إنتاجيتها.",
+        "fr": "Le fenouil peut ralentir la croissance des haricots et réduire leur productivité."
+      }
+    },
+    {
+      "plantId": "kohlrabi",
+      "reason": {
+        "en": "Fennel has a negative effect on the growth of kohlrabi, leading to stunted plants.",
+        "ur": "سونف کا کولربی کی نشوونما پر منفی اثر پڑتا ہے، جس سے پودے چھوٹے رہ جاتے ہیں۔",
+        "ar": "للشمر تأثير سلبي على نمو الكرنب الساقي، مما يؤدي إلى تقزم النباتات.",
+        "fr": "Le fenouil a un effet négatif sur la croissance du chou-rave, entraînant des plantes chétives."
+      }
+    },
+    {
+      "plantId": "caraway",
+      "reason": {
+        "en": "Fennel can inhibit the growth of caraway, making them poor companions.",
+        "ur": "سونف کیراوے کی نشوونما کو روک سکتا ہے، جس سے وہ خراب ساتھی بن جاتے ہیں۔",
+        "ar": "يمكن للشمر أن يمنع نمو الكراوية، مما يجعلهما رفيقين سيئين.",
+        "fr": "Le fenouil peut inhiber la croissance du carvi, ce qui en fait de mauvais compagnons."
+      }
+    },
+    {
+      "plantId": "wormwood",
+      "reason": {
+        "en": "Wormwood is a strong allelopathic plant that can negatively affect fennel and many other garden plants.",
+        "ur": "ورم ووڈ ایک مضبوط ایلوپیتھک پودا ہے جو سونف اور باغ کے دیگر بہت سے پودوں کو منفی طور پر متاثر کر سکتا ہے۔",
+        "ar": "الشيح نبات قوي التأثير الأليلوباثي يمكن أن يؤثر سلبًا على الشمر والعديد من نباتات الحدائق الأخرى.",
+        "fr": "L'absinthe est une plante fortement allélopathique qui peut affecter négativement le fenouil et de nombreuses autres plantes de jardin."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and secreting sticky honeydew. Can stunt growth and deform leaves.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ یہ نشوونما کو روک سکتے ہیں اور پتوں کو خراب کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات جسم ناعم تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تعيق النمو وتشوه الأوراق.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peuvent ralentir la croissance et déformer les feuilles."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Chew irregular holes in leaves, especially on young, tender plants. Most active in cool, damp conditions, leaving slime trails.",
+        "ur": "پتوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر جوان، نازک پودوں پر۔ ٹھنڈے، نم حالات میں سب سے زیادہ فعال ہوتے ہیں، چپچپا نشانات چھوڑتے ہیں۔",
+        "ar": "تمضغ ثقوبًا غير منتظمة في الأوراق، خاصة على النباتات الصغيرة والطرية. تكون أكثر نشاطًا في الظروف الباردة والرطبة، تاركة وراءها آثارًا لزجة.",
+        "fr": "Mâchent des trous irréguliers dans les feuilles, surtout sur les jeunes plantes tendres. Plus actifs par temps frais et humide, laissant des traces de bave."
+      }
+    },
+    {
+      "pestId": "fennel_moth_caterpillar",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Also known as Black Swallowtail Caterpillars (Parsleyworms). Large green caterpillars with black and yellow stripes. They can rapidly defoliate fennel plants.",
+        "ur": "بلیک سویلٹیل کیٹرپلر (پارسلی ورمز) کے نام سے بھی جانا جاتا ہے۔ بڑے سبز کیٹرپلر جن پر سیاہ اور پیلی دھاریاں ہوتی ہیں۔ یہ سونف کے پودوں کو تیزی سے پتے سے محروم کر سکتے ہیں۔",
+        "ar": "تُعرف أيضًا باسم يرقات الفراشة السنونوية السوداء (ديدان البقدونس). يرقات خضراء كبيرة مخططة بالأسود والأصفر. يمكنها أن تجرد نباتات الشمر من أوراقها بسرعة.",
+        "fr": "Également connues sous le nom de chenilles du machaon (vers du persil). Grosses chenilles vertes avec des rayures noires et jaunes. Elles peuvent défolier rapidement les plants de fenouil."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Can lead to yellowing, stunted growth, and reduced bulb size.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے فنگل دھبے ظاہر ہوتے ہیں۔ یہ پتوں کے پیلے ہونے، نشوونما رکنے اور بلب کے سائز میں کمی کا باعث بن سکتے ہیں۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يمكن أن يؤدي إلى اصفرار الأوراق، وتقزم النمو، وتقليل حجم البصلة.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Peut entraîner un jaunissement, un retard de croissance et une réduction de la taille du bulbe."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by overwatering or poor drainage, leading to yellowing leaves, stunted growth, and a soft, mushy base or roots. Can be fatal.",
+        "ur": "زیادہ پانی دینے یا خراب نکاسی کی وجہ سے ہوتا ہے، جس سے پتے پیلے ہو جاتے ہیں، نشوونما رک جاتی ہے، اور بنیاد یا جڑیں نرم اور گلی ہوئی ہو جاتی ہیں۔ یہ مہلک ہو سکتا ہے۔",
+        "ar": "تحدث بسبب الإفراط في الري أو سوء الصرف، مما يؤدي إلى اصفرار الأوراق، وتقزم النمو، وقاعدة أو جذور ناعمة ومتعفنة. يمكن أن تكون قاتلة.",
+        "fr": "Causée par un arrosage excessif ou un mauvais drainage, entraînant un jaunissement des feuilles, un retard de croissance et une base ou des racines molles et pâteuses. Peut être fatal."
+      }
+    },
+    {
+      "pestId": "bolting",
+      "vulnerableStages": [
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Premature flowering (going to seed) often triggered by high temperatures, inconsistent watering, or overcrowding. The bulb stops forming and becomes woody and bitter.",
+        "ur": "وقت سے پہلے پھول آنا (بیج بننا) اکثر زیادہ درجہ حرارت، بے قاعدہ پانی یا زیادہ بھیڑ کی وجہ سے ہوتا ہے۔ بلب بننا بند ہو جاتا ہے اور لکڑی جیسا اور کڑوا ہو جاتا ہے۔",
+        "ar": "التزهير المبكر (التوجه نحو البذور) غالبًا ما يحدث بسبب درجات الحرارة المرتفعة، الري غير المنتظم، أو الاكتظاظ. تتوقف البصلة عن التكون وتصبح خشبية ومرة.",
+        "fr": "Floraison prématurée (montée en graine) souvent déclenchée par des températures élevées, un arrosage irrégulier ou un surpeuplement. Le bulbe cesse de se former et devient ligneux et amer."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 60,
+    "firstHarvestDayMax": 90,
+    "continuousHarvest": true,
+    "harvestWindowDays": 30,
+    "readinessSigns": [
+      {
+        "en": "Bulb is 2-4 inches in diameter, firm, and white. Outer leaves can be harvested anytime.",
+        "ur": "بلب 2-4 انچ قطر کا، مضبوط اور سفید ہو۔ بیرونی پتے کسی بھی وقت کاٹے جا سکتے ہیں۔",
+        "ar": "البصلة بقطر 2-4 بوصات، صلبة، وبيضاء. يمكن حصاد الأوراق الخارجية في أي وقت.",
+        "fr": "Le bulbe mesure 5-10 cm de diamètre, est ferme et blanc. Les feuilles extérieures peuvent être récoltées à tout moment."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "For bulb, cut at the soil line with a sharp knife, leaving the roots. Snip outer leaves as needed.",
+        "ur": "بلب کے لیے، تیز چاقو سے مٹی کی سطح پر کاٹیں، جڑوں کو چھوڑ دیں۔ ضرورت کے مطابق بیرونی پتے کاٹیں۔",
+        "ar": "للحصول على البصلة، اقطع عند خط التربة بسكين حاد، مع ترك الجذور. اقطع الأوراق الخارجية حسب الحاجة.",
+        "fr": "Pour le bulbe, coupez au niveau du sol avec un couteau aiguisé, en laissant les racines. Ciselez les feuilles extérieures au besoin."
+      },
+      "INTERMEDIATE": {
+        "en": "Cut the bulb at the base, leaving about an inch of the root crown for potential regrowth of small side shoots. Continuously harvest outer leaves.",
+        "ur": "بلب کو بنیاد سے کاٹیں، جڑ کے تاج کا تقریباً ایک انچ چھوڑ دیں تاکہ چھوٹے سائیڈ شوٹس دوبارہ اگ سکیں۔ بیرونی پتوں کو مسلسل کاٹتے رہیں۔",
+        "ar": "اقطع البصلة من القاعدة، مع ترك حوالي بوصة من تاج الجذر لإمكانية نمو براعم جانبية صغيرة. احصد الأوراق الخارجية باستمرار.",
+        "fr": "Coupez le bulbe à la base, en laissant environ un pouce de la couronne racinaire pour une repousse potentielle de petites pousses latérales. Récoltez continuellement les feuilles extérieures."
+      },
+      "EXPERT": {
+        "en": "Harvest bulbs when firm and 2-4 inches in diameter, ideally before hot weather triggers bolting. Continuously harvest outer leaves for culinary use.",
+        "ur": "بلب کو مضبوط اور 2-4 انچ قطر کا ہونے پر کاٹیں، مثالی طور پر گرم موسم کے بولٹنگ شروع ہونے سے پہلے۔ بیرونی پتوں کو کھانا پکانے کے لیے مسلسل کاٹتے رہیں۔",
+        "ar": "احصد البصلات عندما تكون صلبة وبقطر 2-4 بوصات، ويفضل قبل أن تؤدي درجات الحرارة المرتفعة إلى التزهير. احصد الأوراق الخارجية باستمرار للاستخدام في الطهي.",
+        "fr": "Récoltez les bulbes lorsqu'ils sont fermes et mesurent 5-10 cm de diamètre, idéalement avant que la chaleur ne provoque la montée en graine. Récoltez continuellement les feuilles extérieures pour un usage culinaire."
+      }
+    },
+    "storage": {
+      "en": "Bulbs: Refrigerator crisper drawer for 1-2 weeks. Leaves: Refrigerator in a damp paper towel for a few days.",
+      "ur": "بلب: فریج کے کرسپر دراز میں 1-2 ہفتے تک۔ پتے: فریج میں نم کاغذ کے تولیے میں چند دن تک۔",
+      "ar": "البصلات: في درج الخضروات بالثلاجة لمدة 1-2 أسبوع. الأوراق: في الثلاجة بقطعة قماش مبللة لبضعة أيام.",
+      "fr": "Bulbes: Tiroir à légumes du réfrigérateur pendant 1-2 semaines. Feuilles: Réfrigérateur dans une serviette en papier humide pendant quelques jours."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2.5
+    }
+  }
+}

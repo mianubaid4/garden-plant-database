@@ -1,0 +1,1353 @@
+{
+  "id": "brussels-sprouts",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1601004278455-7249822a129d?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Brussels Sprouts",
+      "alternate": []
+    },
+    "ur": {
+      "common": "برسلز سپراؤٹس",
+      "alternate": []
+    },
+    "ar": {
+      "common": "براعم بروكسل",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Choux de Bruxelles",
+      "alternate": []
+    },
+    "botanical": "Brassica oleracea var. gemmifera",
+    "aliases": [
+      "brussels",
+      "sprouts",
+      "choux de bruxelles",
+      "brussel sprouts"
+    ]
+  },
+  "category": "vegetable",
+  "subcategory": "cole crop",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 80,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 7,
+    "rainSkipWateringMm": 10
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [],
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "cool-season",
+    "vegetable",
+    "container-friendly",
+    "long-season",
+    "brassica"
+  ],
+  "temperature": {
+    "optimalMinC": 10,
+    "optimalMaxC": 24,
+    "survivalMinC": -7,
+    "survivalMaxC": 29,
+    "germinationMinC": 7,
+    "germinationOptimalC": 21,
+    "flowerDropAboveC": 27,
+    "flowerDropBelowC": -5
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 100,
+    "requiredGDD": 1500,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 27,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 25,
+      "highWindKmh": 40,
+      "consecutiveRainyDays": 4
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 3,
+    "drainageSensitivity": "medium",
+    "wateringNature": "Consistent Moisture",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "medium",
+    "underwateringSensitivity": "High during sprout development",
+    "rootRotRisk": "Medium if soil remains soggy",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "small sprouts"
+    ],
+    "overwateringSymptoms": [
+      "yellowing lower leaves",
+      "stunted growth",
+      "root rot"
+    ],
+    "preferredWateringMethod": "Soaker hose or drip irrigation",
+    "thingsToAvoid": [
+      "overhead watering (can promote disease)",
+      "letting soil dry out completely"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "medium"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Requires large pots for good yield",
+        "ur": "اچھی پیداوار کے لیے بڑے گملے درکار ہیں",
+        "ar": "يتطلب أواني كبيرة لإنتاج جيد",
+        "fr": "Nécessite de grands pots pour un bon rendement"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Fabric bags provide good aeration",
+        "ur": "کپڑے کے گملے اچھی ہوا فراہم کرتے ہیں",
+        "ar": "أكياس القماش توفر تهوية جيدة",
+        "fr": "Les sacs en tissu offrent une bonne aération"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 40,
+      "wateringMultiplier": 0.9,
+      "notes": {
+        "en": "Ensure good drainage and rich soil",
+        "ur": "اچھی نکاسی اور زرخیز مٹی یقینی بنائیں",
+        "ar": "تأكد من الصرف الجيد والتربة الغنية",
+        "fr": "Assurer un bon drainage et un sol riche"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 35,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for controlling soil conditions",
+        "ur": "مٹی کے حالات کو کنٹرول کرنے کے لیے بہترین",
+        "ar": "ممتاز للتحكم في ظروف التربة",
+        "fr": "Excellent pour contrôler les conditions du sol"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "90-120 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 10,
+      "durationDaysWarm": 7,
+      "durationDaysCool": 14,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis des graines"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mix 50% soil, 30% compost, 20% sand.",
+              "ur": "50% مٹی، 30% کھاد، 20% ریت ملائیں",
+              "ar": "اخلط 50% تربة، 30% سماد، 20% رمل",
+              "fr": "Mélangez 50% terre, 30% compost, 20% sable"
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with balanced organic matter.",
+              "ur": "مٹی کو متوازن نامیاتی مادے سے بہتر بنائیں",
+              "ar": "عدّل التربة بالمواد العضوية المتوازنة",
+              "fr": "Amendez le sol avec de la matière organique équilibrée"
+            },
+            "EXPERT": {
+              "en": "Ensure well-draining, fertile soil with pH 6.0-7.0.",
+              "ur": "یقینی بنائیں کہ مٹی اچھی نکاسی والی اور زرخیز ہو، پی ایچ 6.0-7.0 کے ساتھ",
+              "ar": "تأكد من تربة جيدة التصريف وخصبة بدرجة حموضة 6.0-7.0",
+              "fr": "Assurez un sol bien drainé et fertile avec un pH de 6.0-7.0"
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/2 inch deep, 2-3 inches apart.",
+              "ur": "بیج 1/2 انچ گہرائی میں، 2-3 انچ کے فاصلے پر بوئیں",
+              "ar": "ابذر البذور بعمق 1/2 بوصة، بمسافة 2-3 بوصات",
+              "fr": "Semez les graines à 1/2 pouce de profondeur, espacées de 2-3 pouces"
+            },
+            "INTERMEDIATE": {
+              "en": "Sow seeds indoors 4-6 weeks before last frost for transplanting.",
+              "ur": "آخری ٹھنڈ سے 4-6 ہفتے پہلے گھر کے اندر بیج بوئیں تاکہ بعد میں منتقل کیا جا سکے",
+              "ar": "ازرع البذور في الداخل قبل 4-6 أسابيع من آخر صقيع للزرع",
+              "fr": "Semez les graines à l'intérieur 4-6 semaines avant le dernier gel pour la transplantation"
+            },
+            "EXPERT": {
+              "en": "Direct sow in late spring/early summer for fall harvest, or start indoors.",
+              "ur": "موسم خزاں کی کٹائی کے لیے موسم بہار کے آخر/موسم گرما کے شروع میں براہ راست بوئیں، یا گھر کے اندر شروع کریں",
+              "ar": "ازرع مباشرة في أواخر الربيع/أوائل الصيف لحصاد الخريف، أو ابدأ في الداخل",
+              "fr": "Semez directement fin printemps/début été pour une récolte d'automne, ou démarrez à l'intérieur"
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 5,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for sprouts.",
+              "ur": "کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم.",
+              "fr": "Vérifiez les pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Check moisture and sprouts.",
+              "ur": "نمی اور کونپلیں چیک کریں",
+              "ar": "تحقق من الرطوبة",
+              "fr": "Vérifiez l'humidité"
+            },
+            "EXPERT": {
+              "en": "Inspect for uniform germination.",
+              "ur": "یکساں انکرن چیک کریں",
+              "ar": "افحص الإنبات الموحد",
+              "fr": "Inspectez la germination"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist the soil to keep it consistently moist.",
+              "ur": "مٹی کو مسلسل نم رکھنے کے لیے چھڑکاؤ کریں",
+              "ar": "رش التربة للحفاظ عليها رطبة باستمرار",
+              "fr": "Vaporisez le sol pour le maintenir constamment humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture without waterlogging.",
+              "ur": "مٹی کی نمی کو مسلسل برقرار رکھیں بغیر پانی جمع ہونے کے",
+              "ar": "حافظ على رطوبة التربة باستمرار دون تشبعها بالماء",
+              "fr": "Maintenez une humidité constante du sol sans engorgement"
+            },
+            "EXPERT": {
+              "en": "Use a fine spray to avoid disturbing seeds.",
+              "ur": "بیجوں کو خراب ہونے سے بچانے کے لیے باریک سپرے استعمال کریں",
+              "ar": "استخدم رذاذًا ناعمًا لتجنب إزعاج البذور",
+              "fr": "Utilisez un pulvérisateur fin pour éviter de déranger les graines"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to keep soil moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے آہستہ پانی دیں",
+              "ar": "اسقِ بلطف للحفاظ على رطوبة التربة",
+              "fr": "Arrosez doucement pour maintenir le sol humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture for young seedlings.",
+              "ur": "نوجوان پودوں کے لیے مسلسل نمی کو یقینی بنائیں",
+              "ar": "تأكد من رطوبة مستمرة للشتلات الصغيرة",
+              "fr": "Assurez une humidité constante pour les jeunes plants"
+            },
+            "EXPERT": {
+              "en": "Monitor soil surface for dryness and water accordingly.",
+              "ur": "مٹی کی سطح کو خشکی کے لیے مانیٹر کریں اور اسی کے مطابق پانی دیں",
+              "ar": "راقب سطح التربة للجفاف واسقِ وفقًا لذلك",
+              "fr": "Surveillez la surface du sol pour la sécheresse et arrosez en conséquence"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "True leaves form, ready for transplant",
+        "ur": "اصلی پتے بننا، منتقلی کے لیے تیار",
+        "ar": "تكون الأوراق الحقيقية، جاهزة للزرع",
+        "fr": "Formation des vraies feuilles, prêt à transplanter"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "thinning": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 2-3 inches apart.",
+              "ur": "پودوں کو 2-3 انچ کے فاصلے پر پتلا کریں",
+              "ar": "خفف الشتلات لتكون بمسافة 2-3 بوصات",
+              "fr": "Éclaircissez les semis à 2-3 pouces d'intervalle"
+            },
+            "INTERMEDIATE": {
+              "en": "Remove weaker seedlings, leaving strongest.",
+              "ur": "کمزور پودوں کو ہٹا دیں، مضبوط ترین کو چھوڑ دیں",
+              "ar": "أزل الشتلات الأضعف، واترك الأقوى",
+              "fr": "Retirez les semis les plus faibles, en laissant les plus forts"
+            },
+            "EXPERT": {
+              "en": "Thin to final spacing if direct sowing, or prepare for transplant.",
+              "ur": "اگر براہ راست بو رہے ہیں تو حتمی فاصلے پر پتلا کریں، یا منتقلی کے لیے تیار کریں",
+              "ar": "خفف إلى المسافة النهائية إذا كنت تزرع مباشرة، أو جهز للزرع",
+              "fr": "Éclaircissez à l'espacement final si vous semez directement, ou préparez pour la transplantation"
+            }
+          }
+        },
+        "transplant": {
+          "required": true,
+          "dayOffset": 14,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harden off seedlings for a week, then plant 18-24 inches apart.",
+              "ur": "پودوں کو ایک ہفتے کے لیے سخت کریں، پھر 18-24 انچ کے فاصلے پر لگائیں",
+              "ar": "قسّي الشتلات لمدة أسبوع، ثم ازرعها بمسافة 18-24 بوصة",
+              "fr": "Endurcissez les semis pendant une semaine, puis plantez-les à 18-24 pouces d'intervalle"
+            },
+            "INTERMEDIATE": {
+              "en": "Transplant hardened seedlings into well-prepared garden beds.",
+              "ur": "سخت کیے گئے پودوں کو اچھی طرح تیار شدہ باغیچے کے بستروں میں منتقل کریں",
+              "ar": "ازرع الشتلات المقساة في أحواض الحديقة المجهزة جيدًا",
+              "fr": "Transplantez les semis endurcis dans des plates-bandes bien préparées"
+            },
+            "EXPERT": {
+              "en": "Ensure proper spacing and depth, considering mature plant size.",
+              "ur": "پختہ پودے کے سائز کو مدنظر رکھتے ہوئے مناسب فاصلہ اور گہرائی کو یقینی بنائیں",
+              "ar": "تأكد من التباعد والعمق المناسبين، مع الأخذ في الاعتبار حجم النبات الناضج",
+              "fr": "Assurez un espacement et une profondeur appropriés, en tenant compte de la taille de la plante mature"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant.",
+              "ur": "پودے کی جڑ میں پانی دیں",
+              "ar": "اسقِ قاعدة النبات",
+              "fr": "Arrosez au pied de la plante"
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist, avoiding overhead watering.",
+              "ur": "مٹی کو مسلسل نم رکھیں، اوپر سے پانی دینے سے گریز کریں",
+              "ar": "حافظ على رطوبة التربة باستمرار، وتجنب الري العلوي",
+              "fr": "Maintenez le sol constamment humide, en évitant l'arrosage par le haut"
+            },
+            "EXPERT": {
+              "en": "Deep water to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کے لیے گہرا پانی دیں",
+              "ar": "سقي عميق لتشجيع نمو جذور قوية",
+              "fr": "Arrosez profondément pour encourager un fort développement racinaire"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 75,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Rapid stalk and leaf growth",
+        "ur": "تنے اور پتوں کی تیزی سے نشوونما",
+        "ar": "نمو سريع للساق والأوراق",
+        "fr": "Croissance rapide de la tige et des feuilles"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for cabbage worms and aphids. Handpick or spray with insecticidal soap.",
+              "ur": "گوبھی کے کیڑوں اور ایفڈز کو چیک کریں۔ ہاتھ سے چنیں یا کیڑے مار صابن سے سپرے کریں",
+              "ar": "تحقق من ديدان الملفوف والمن. التقطها يدويًا أو رش بالصابون المبيد للحشرات",
+              "fr": "Vérifiez la présence de vers du chou et de pucerons. Ramassez-les à la main ou pulvérisez du savon insecticide"
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic pest spray preventatively, especially for common brassica pests.",
+              "ur": "خاص طور پر عام براسیکا کیڑوں کے لیے نامیاتی کیڑے مار دوا کا احتیاطی طور پر استعمال کریں",
+              "ar": "رش مبيد حشري عضوي وقائيًا، خاصة لآفات الكرنب الشائعة",
+              "fr": "Appliquez un spray antiparasitaire biologique préventivement, surtout pour les ravageurs courants des brassicacées"
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy.",
+              "ur": "ایک مربوط کیڑوں کے انتظام (IPM) کی حکمت عملی نافذ کریں",
+              "ar": "نفذ استراتيجية متكاملة لإدارة الآفات (IPM)",
+              "fr": "Mettez en œuvre une stratégie de gestion intégrée des ravageurs (IPM)"
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check leaves for holes or discoloration.",
+              "ur": "پتوں پر سوراخ یا رنگت کی تبدیلی چیک کریں",
+              "ar": "تحقق من الأوراق بحثًا عن ثقوب أو تغير في اللون",
+              "fr": "Vérifiez les feuilles pour des trous ou une décoloration"
+            },
+            "INTERMEDIATE": {
+              "en": "Look for signs of common brassica diseases like clubroot or black rot.",
+              "ur": "عام براسیکا بیماریوں جیسے کلب روٹ یا بلیک روٹ کی علامات تلاش کریں",
+              "ar": "ابحث عن علامات أمراض الكرنب الشائعة مثل تعفن الجذور أو العفن الأسود",
+              "fr": "Recherchez les signes de maladies courantes des brassicacées comme la hernie du chou ou la pourriture noire"
+            },
+            "EXPERT": {
+              "en": "Monitor for nutrient deficiencies and early disease symptoms.",
+              "ur": "غذائی اجزاء کی کمی اور بیماری کی ابتدائی علامات کی نگرانی کریں",
+              "ar": "راقب نقص المغذيات وأعراض الأمراض المبكرة",
+              "fr": "Surveillez les carences nutritionnelles et les premiers symptômes de maladies"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Cabbage Worms",
+              "ur": "گوبھی کے کیڑے",
+              "ar": "ديدان الملفوف",
+              "fr": "Vers du chou"
+            },
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Yellowing leaves",
+              "ur": "پیلے پتے",
+              "ar": "أوراق صفراء",
+              "fr": "Feuilles jaunissantes"
+            }
+          ]
+        },
+        "support": {
+          "required": false,
+          "dayOffset": 30,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Stake tall plants if they become top-heavy.",
+              "ur": "اگر پودے بہت بھاری ہو جائیں تو انہیں سہارا دیں",
+              "ar": "ادعم النباتات الطويلة إذا أصبحت ثقيلة من الأعلى",
+              "fr": "Tuteurez les plantes hautes si elles deviennent trop lourdes"
+            },
+            "INTERMEDIATE": {
+              "en": "Provide support to prevent lodging in windy conditions.",
+              "ur": "ہوا والے حالات میں گرنے سے بچنے کے لیے سہارا فراہم کریں",
+              "ar": "وفر الدعم لمنع السقوط في الظروف العاصفة",
+              "fr": "Fournissez un support pour éviter le déchaussement par vent fort"
+            },
+            "EXPERT": {
+              "en": "Consider hilling soil around the base for added stability.",
+              "ur": "اضافی استحکام کے لیے پودے کی بنیاد کے گرد مٹی چڑھانے پر غور کریں",
+              "ar": "فكر في تكويم التربة حول القاعدة لزيادة الاستقرار",
+              "fr": "Envisagez de buter la terre autour de la base pour une stabilité accrue"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and regularly.",
+              "ur": "گہرا اور باقاعدگی سے پانی دیں",
+              "ar": "اسقِ بعمق وبانتظام",
+              "fr": "Arrosez profondément et régulièrement"
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture to prevent stress.",
+              "ur": "تناؤ سے بچنے کے لیے مٹی کی نمی کو مسلسل برقرار رکھیں",
+              "ar": "حافظ على رطوبة التربة باستمرار لمنع الإجهاد",
+              "fr": "Maintenez une humidité constante du sol pour éviter le stress"
+            },
+            "EXPERT": {
+              "en": "Ensure even moisture penetration to the root zone.",
+              "ur": "جڑوں کے علاقے میں یکساں نمی کی رسائی کو یقینی بنائیں",
+              "ar": "تأكد من تغلغل الرطوبة بالتساوي إلى منطقة الجذور",
+              "fr": "Assurez une pénétration uniforme de l'humidité jusqu'à la zone racinaire"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SPROUT_INITIATION",
+      "durationDaysBase": 25,
+      "durationDaysWarm": 20,
+      "durationDaysCool": 30,
+      "description": {
+        "en": "Small sprouts begin to form",
+        "ur": "چھوٹی کونپلیں بننا شروع ہو جاتی ہیں",
+        "ar": "تبدأ البراعم الصغيرة في التكون",
+        "fr": "Début de la formation des choux"
+      },
+      "emoji": "💚",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue checking for pests and treat as needed.",
+              "ur": "کیڑوں کی جانچ جاری رکھیں اور ضرورت کے مطابق علاج کریں",
+              "ar": "استمر في فحص الآفات وعالجها حسب الحاجة",
+              "fr": "Continuez à vérifier les parasites et traitez si nécessaire"
+            },
+            "INTERMEDIATE": {
+              "en": "Be vigilant for pests that can damage developing sprouts.",
+              "ur": "نشوونما پانے والی کونپلوں کو نقصان پہنچانے والے کیڑوں کے لیے چوکس رہیں",
+              "ar": "كن يقظًا للآفات التي يمكن أن تلحق الضرر بالبراعم النامية",
+              "fr": "Soyez vigilant face aux parasites qui peuvent endommager les choux en développement"
+            },
+            "EXPERT": {
+              "en": "Employ targeted organic pest control to protect sprout quality.",
+              "ur": "کونپلوں کے معیار کو بچانے کے لیے ہدف شدہ نامیاتی کیڑوں کے کنٹرول کا استعمال کریں",
+              "ar": "استخدم مكافحة الآفات العضوية المستهدفة لحماية جودة البراعم",
+              "fr": "Utilisez une lutte antiparasitaire biologique ciblée pour protéger la qualité des choux"
+            }
+          }
+        },
+        "pruning": {
+          "required": false,
+          "dayOffset": 10,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Remove any yellowing lower leaves to encourage sprout growth.",
+              "ur": "کونپلوں کی نشوونما کو فروغ دینے کے لیے کسی بھی پیلے نچلے پتوں کو ہٹا دیں",
+              "ar": "أزل أي أوراق سفلية مصفرة لتشجيع نمو البراعم",
+              "fr": "Retirez les feuilles inférieures jaunissantes pour encourager la croissance des choux"
+            },
+            "INTERMEDIATE": {
+              "en": "Carefully remove lower leaves that are shading sprouts or touching the soil.",
+              "ur": "احتیاط سے نچلے پتوں کو ہٹا دیں جو کونپلوں کو سایہ دے رہے ہیں یا مٹی کو چھو رہے ہیں",
+              "ar": "أزل بعناية الأوراق السفلية التي تظلل البراعم أو تلامس التربة",
+              "fr": "Retirez délicatement les feuilles inférieures qui ombragent les choux ou touchent le sol"
+            },
+            "EXPERT": {
+              "en": "Strategic removal of lower leaves can improve air circulation and sprout development.",
+              "ur": "نچلے پتوں کو حکمت عملی سے ہٹانا ہوا کی گردش اور کونپلوں کی نشوونما کو بہتر بنا سکتا ہے",
+              "ar": "الإزالة الاستراتيجية للأوراق السفلية يمكن أن تحسن دوران الهواء وتطور البراعم",
+              "fr": "L'élimination stratégique des feuilles inférieures peut améliorer la circulation de l'air et le développement des choux"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Keep soil consistently moist.",
+              "ur": "مٹی کو مسلسل نم رکھیں",
+              "ar": "حافظ على رطوبة التربة باستمرار",
+              "fr": "Maintenez le sol constamment humide"
+            },
+            "INTERMEDIATE": {
+              "en": "Avoid letting the soil dry out completely between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کو مکمل طور پر خشک ہونے سے بچیں",
+              "ar": "تجنب ترك التربة تجف تمامًا بين الريات",
+              "fr": "Évitez de laisser le sol sécher complètement entre les arrosages"
+            },
+            "EXPERT": {
+              "en": "Consistent moisture is crucial for sprout formation and quality.",
+              "ur": "کونپلوں کی تشکیل اور معیار کے لیے مسلسل نمی بہت ضروری ہے",
+              "ar": "الرطوبة المستمرة حاسمة لتكوين البراعم وجودتها",
+              "fr": "Une humidité constante est cruciale pour la formation et la qualité des choux"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SPROUT_DEVELOPMENT",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Sprouts mature and enlarge",
+        "ur": "کونپلیں پختہ اور بڑی ہوتی ہیں",
+        "ar": "تنضج البراعم وتكبر",
+        "fr": "Maturation et grossissement des choux"
+      },
+      "emoji": "🥬",
+      "tips": [],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check sprouts for firmness and size.",
+              "ur": "کونپلوں کی مضبوطی اور سائز چیک کریں",
+              "ar": "تحقق من صلابة وحجم البراعم",
+              "fr": "Vérifiez la fermeté et la taille des choux"
+            },
+            "INTERMEDIATE": {
+              "en": "Monitor for any signs of rot or pest damage on developing sprouts.",
+              "ur": "نشوونما پانے والی کونپلوں پر سڑنے یا کیڑوں کے نقصان کی کسی بھی علامت کی نگرانی کریں",
+              "ar": "راقب أي علامات تعفن أو تلف الآفات على البراعم النامية",
+              "fr": "Surveillez tout signe de pourriture ou de dommages causés par les parasites sur les choux en développement"
+            },
+            "EXPERT": {
+              "en": "Assess sprout density and uniformity along the stem.",
+              "ur": "تنے کے ساتھ کونپلوں کی کثافت اور یکسانیت کا اندازہ لگائیں",
+              "ar": "قيم كثافة البراعم وتوحيدها على طول الساق",
+              "fr": "Évaluez la densité et l'uniformité des choux le long de la tige"
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Loose sprouts",
+              "ur": "ڈھیلی کونپلیں",
+              "ar": "براعم رخوة",
+              "fr": "Choux lâches"
+            },
+            {
+              "en": "Pest damage",
+              "ur": "کیڑوں کا نقصان",
+              "ar": "تلف الآفات",
+              "fr": "Dommages des parasites"
+            }
+          ]
+        },
+        "topping": {
+          "required": false,
+          "dayOffset": 20,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch off the top growing point of the plant 3-4 weeks before harvest.",
+              "ur": "کٹائی سے 3-4 ہفتے پہلے پودے کے اوپر والے بڑھتے ہوئے حصے کو چٹکی سے توڑ دیں",
+              "ar": "اقطع نقطة النمو العلوية للنبات قبل 3-4 أسابيع من الحصاد",
+              "fr": "Pincez le point de croissance supérieur de la plante 3-4 semaines avant la récolte"
+            },
+            "INTERMEDIATE": {
+              "en": "Topping encourages uniform sprout maturation, especially in cooler climates.",
+              "ur": "اوپر سے کاٹنا کونپلوں کی یکساں پختگی کو فروغ دیتا ہے، خاص طور پر ٹھنڈے موسم میں",
+              "ar": "التقليم العلوي يشجع على نضج البراعم بشكل موحد، خاصة في المناخات الباردة",
+              "fr": "Le pincement favorise une maturation uniforme des choux, surtout dans les climats plus frais"
+            },
+            "EXPERT": {
+              "en": "Evaluate plant vigor and desired harvest timing before topping.",
+              "ur": "اوپر سے کاٹنے سے پہلے پودے کی طاقت اور مطلوبہ کٹائی کے وقت کا اندازہ لگائیں",
+              "ar": "قيم قوة النبات وتوقيت الحصاد المطلوب قبل التقليم العلوي",
+              "fr": "Évaluez la vigueur de la plante et le moment de récolte souhaité avant de pincer"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 1200,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water heavily to support sprout development.",
+              "ur": "کونپلوں کی نشوونما کو سہارا دینے کے لیے زیادہ پانی دیں",
+              "ar": "اسقِ بكثرة لدعم نمو البراعم",
+              "fr": "Arrosez abondamment pour soutenir le développement des choux"
+            },
+            "INTERMEDIATE": {
+              "en": "Consistent deep watering is essential for firm, sweet sprouts.",
+              "ur": "مضبوط، میٹھی کونپلوں کے لیے مسلسل گہرا پانی دینا ضروری ہے",
+              "ar": "الري العميق المستمر ضروري للحصول على براعم صلبة وحلوة",
+              "fr": "Un arrosage profond et constant est essentiel pour des choux fermes et sucrés"
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture carefully to prevent splitting or bitterness.",
+              "ur": "پھٹنے یا کڑواہٹ سے بچنے کے لیے مٹی کی نمی کو احتیاط سے مانیٹر کریں",
+              "ar": "راقب رطوبة التربة بعناية لمنع التشقق أو المرارة",
+              "fr": "Surveillez attentivement l'humidité du sol pour éviter le fendillement ou l'amertume"
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 60,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Sprouts ready for harvest",
+        "ur": "کونپلیں کٹائی کے لیے تیار",
+        "ar": "البراعم جاهزة للحصاد",
+        "fr": "Choux prêts à être récoltés"
+      },
+      "emoji": "🧺",
+      "tips": [],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Harvest sprouts from the bottom of the stalk upwards when firm and 1-1.5 inches.",
+              "ur": "کونپلوں کو تنے کے نیچے سے اوپر کی طرف کاٹیں جب وہ مضبوط اور 1-1.5 انچ کی ہوں",
+              "ar": "احصد البراعم من أسفل الساق إلى الأعلى عندما تكون صلبة وبحجم 1-1.5 بوصة",
+              "fr": "Récoltez les choux du bas de la tige vers le haut lorsqu'ils sont fermes et mesurent 1 à 1,5 pouce"
+            },
+            "INTERMEDIATE": {
+              "en": "Twist or snap off sprouts. Remove yellowing leaves as you go.",
+              "ur": "کونپلوں کو موڑ کر یا توڑ کر ہٹا دیں۔ پیلے پتوں کو بھی ہٹاتے جائیں",
+              "ar": "لف أو اقطع البراعم. أزل الأوراق الصفراء أثناء الحصاد",
+              "fr": "Tordez ou cassez les choux. Retirez les feuilles jaunissantes au fur et à mesure"
+            },
+            "EXPERT": {
+              "en": "Harvest after a light frost for enhanced flavor. Continue harvesting until a hard freeze.",
+              "ur": "بہتر ذائقے کے لیے ہلکی ٹھنڈ کے بعد کٹائی کریں۔ سخت ٹھنڈ پڑنے تک کٹائی جاری رکھیں",
+              "ar": "احصد بعد صقيع خفيف لتحسين النكهة. استمر في الحصاد حتى الصقيع الشديد",
+              "fr": "Récoltez après une légère gelée pour une saveur améliorée. Continuez à récolter jusqu'à un gel intense"
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 800,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Continue regular watering during harvest period.",
+              "ur": "کٹائی کے دوران باقاعدہ پانی دینا جاری رکھیں",
+              "ar": "استمر في الري المنتظم خلال فترة الحصاد",
+              "fr": "Continuez un arrosage régulier pendant la période de récolte"
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent moisture to support ongoing sprout production.",
+              "ur": "مسلسل کونپلوں کی پیداوار کو سہارا دینے کے لیے مسلسل نمی برقرار رکھیں",
+              "ar": "حافظ على رطوبة مستمرة لدعم إنتاج البراعم المستمر",
+              "fr": "Maintenez une humidité constante pour soutenir la production continue de choux"
+            },
+            "EXPERT": {
+              "en": "Adjust watering based on weather and soil conditions to optimize yield.",
+              "ur": "پیداوار کو بہتر بنانے کے لیے موسم اور مٹی کے حالات کی بنیاد پر پانی کو ایڈجسٹ کریں",
+              "ar": "اضبط الري بناءً على الظروف الجوية والتربة لتحسين الغلة",
+              "fr": "Ajustez l'arrosage en fonction des conditions météorologiques et du sol pour optimiser le rendement"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية",
+          "fr": "Extrait d'algues"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "خفف 5 مل",
+          "fr": "Diluez 5ml"
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Gives a gentle nutrient boost without burning young delicate roots.",
+          "ur": "یہ نازک جڑوں کو جلائے بغیر ضروری غذائیت فراہم کرتا ہے۔"
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Blood Meal",
+          "ur": "کمپوسٹ چائے یا بلڈ میل",
+          "ar": "شاي الكمبوست أو مسحوق الدم",
+          "fr": "Thé de compost ou farine de sang"
+        },
+        "preparation": {
+          "en": "Steep 1 cup of rich compost or worm castings in 1 gallon of water for 24-48 hours. Stir occasionally. For blood meal, sprinkle 1-2 tablespoons around the base.",
+          "ur": "ایک کپ کمپوسٹ یا ورم کاسٹنگ کو 4 لیٹر پانی میں 24 سے 48 گھنٹے تک بھگو دیں۔ وقفے وقفے سے ہلاتے رہیں۔ بلڈ میل کے لیے، 1-2 چمچ پودے کی جڑوں کے گرد چھڑکیں۔",
+          "ar": "انقع كوبًا من السماد العضوي في 4 لترات من الماء لمدة 24-48 ساعة. للدم المجفف، رش 1-2 ملعقة كبيرة حول القاعدة.",
+          "fr": "Faites infuser 1 tasse de compost dans 4 litres d'eau pendant 24-48h. Pour la farine de sang, saupoudrez 1-2 cuillères à soupe autour de la base."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Brussels Sprouts are heavy nitrogen feeders during their leafy growth phase.",
+          "ur": "برسلز سپراؤٹس پتوں کی نشوونما کے مرحلے میں نائٹروجن کے بہت زیادہ استعمال کنندہ ہیں۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal & Wood Ash (Phosphorus & Potassium)",
+          "ur": "پتھروں کا چورا اور راکھ (فاسفورس اور پوٹاشیم)",
+          "ar": "مسحوق العظام ورماد الخشب",
+          "fr": "Poudre d'os & cendre"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of wood ash around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ لکڑی کی راکھ چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر على السطح",
+          "fr": "Surfacez"
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Supports the formation and development of sprouts.",
+          "ur": "یہ سپراؤٹس کی تشکیل اور نشوونما میں مدد کرتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Kelp Meal or Banana Peel Tea (High Potassium)",
+          "ur": "کیلپ میل یا کیلے کے چھلکے کی چائے (ہائی پوٹاشیم)",
+          "ar": "مسحوق عشب البحر أو شاي قشر الموز",
+          "fr": "Farine d'algues ou thé de peau de banane"
+        },
+        "preparation": {
+          "en": "For kelp meal, sprinkle 1 tablespoon around the plant base. For banana peel tea, chop 3-4 peels, steep in 1 gallon of water for 48 hours. Pour around roots.",
+          "ur": "کیلپ میل کے لیے، 1 چمچ پودے کی جڑوں کے گرد چھڑکیں۔ کیلے کے چھلکے کی چائے کے لیے، 3-4 چھلکوں کو کاٹ کر 4 لیٹر پانی میں 48 گھنٹے بھگو دیں۔ جڑوں میں ڈالیں۔",
+          "ar": "رش ملعقة كبيرة من مسحوق عشب البحر حول النبات. لشاي قشر الموز، انقع 3-4 قشور في 4 لترات من الماء لمدة 48 ساعة.",
+          "fr": "Pour la farine d'algues, saupoudrez 1 cuillère à soupe. Pour le thé de peau de banane, faites tremper 3-4 peaux dans 4 litres d'eau pendant 48h."
+        },
+        "quantityPer10L": 300,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Potassium is vital for firm, well-formed sprouts.",
+          "ur": "پوٹاشیم مضبوط اور اچھی طرح سے بنے ہوئے سپراؤٹس کے لیے ضروری ہے۔"
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Nitrogen NPK (e.g., 24-8-16)",
+          "ur": "ہائی نائٹروجن این پی کے (مثلاً 24-8-16)",
+          "ar": "سماد عالي النيتروجين (مثل 24-8-16)",
+          "fr": "NPK riche en azote (ex: 24-8-16)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of high nitrogen NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ ہائی نائٹروجن این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes strong leafy growth, essential for healthy sprout production.",
+          "ur": "مضبوط پتوں کی نشوونما کو فروغ دیتا ہے، جو صحت مند سپراؤٹس کی پیداوار کے لیے ضروری ہے۔"
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK or Low Nitrogen (e.g., 5-10-10)",
+          "ur": "بیلنسڈ این پی کے یا کم نائٹروجن (مثلاً 5-10-10)",
+          "ar": "سماد متوازن أو منخفض النيتروجين (مثل 5-10-10)",
+          "fr": "NPK équilibré ou faible en azote (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 5-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports the plant as it shifts energy from leaf growth to sprout development.",
+          "ur": "پودے کو پتوں کی نشوونما سے سپراؤٹس کی نشوونما کی طرف توانائی منتقل کرنے میں مدد کرتا ہے۔"
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Potassium blend (e.g., 0-0-50 or 5-8-10)",
+          "ur": "ہائی پوٹاشیم بلینڈ (مثلاً 0-0-50 یا 5-8-10)",
+          "ar": "مزيج عالي البوتاسيوم (مثل 0-0-50 أو 5-8-10)",
+          "fr": "Mélange riche en potassium (ex: 0-0-50 ou 5-8-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of high potassium fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ ہائی پوٹاشیم کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب",
+          "fr": "Dissolvez"
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Ensures firm, dense, and flavorful sprouts.",
+          "ur": "مضبوط، گھنے اور ذائقہ دار سپراؤٹس کو یقینی بناتا ہے۔"
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "High Nitrogen NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "High Potassium blend",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "dill",
+      "benefit": {
+        "en": "Attracts beneficial insects like parasitic wasps and ladybugs, which prey on common Brassica pests like cabbage worms and aphids.",
+        "ur": "فائدہ مند کیڑوں جیسے پرجیوی بھڑ اور لیڈی بگ کو اپنی طرف متوجہ کرتا ہے، جو گوبھی کے کیڑوں اور افڈس جیسے عام کیڑوں کا شکار کرتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل الدبابير الطفيلية والخنافس، التي تفترس آفات الكرنب الشائعة مثل ديدان الكرنب والمن.",
+        "fr": "Attire les insectes bénéfiques comme les guêpes parasites et les coccinelles, qui se nourrissent des ravageurs des brassicacées comme les vers du chou et les pucerons."
+      }
+    },
+    {
+      "plantId": "mint",
+      "benefit": {
+        "en": "Its strong scent deters flea beetles, cabbage moths, and other common Brassica pests. Plant in containers to prevent invasiveness.",
+        "ur": "اس کی تیز خوشبو فلی بیٹلز، گوبھی کے پتنگوں اور دیگر عام کیڑوں کو دور رکھتی ہے۔ اسے برتنوں میں لگائیں تاکہ یہ پھیل نہ سکے۔",
+        "ar": "رائحته القوية تردع خنافس البراغيث وعث الكرنب وغيرها من آفات الكرنب الشائعة. ازرعه في أوعية لمنع انتشاره.",
+        "fr": "Son odeur forte repousse les altises, les papillons du chou et d'autres ravageurs des brassicacées. Plantez en pots pour éviter l'invasion."
+      }
+    },
+    {
+      "plantId": "rosemary",
+      "benefit": {
+        "en": "Deters cabbage moths, slugs, and snails with its aromatic foliage.",
+        "ur": "اپنی خوشبودار پتیوں سے گوبھی کے پتنگوں، سلگس اور گھونگوں کو دور رکھتا ہے۔",
+        "ar": "يردع عث الكرنب والقواقع والرخويات بأوراقه العطرية.",
+        "fr": "Repousse les papillons du chou, les limaces et les escargots grâce à son feuillage aromatique."
+      }
+    },
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes in the soil and deters other harmful insects above ground.",
+        "ur": "مٹی میں نیماٹوڈس کو دور بھگاتا ہے اور زمین کے اوپر دیگر نقصان دہ کیڑوں کو روکتا ہے۔",
+        "ar": "يطرد الديدان الخيطية في التربة ويردع الحشرات الضارة الأخرى فوق الأرض.",
+        "fr": "Repousse les nématodes dans le sol et dissuade d'autres insectes nuisibles en surface."
+      }
+    },
+    {
+      "plantId": "nasturtium",
+      "benefit": {
+        "en": "Acts as a trap crop, attracting aphids and cabbage worms away from Brussels Sprouts.",
+        "ur": "ایک ٹریپ فصل کے طور پر کام کرتا ہے، افڈس اور گوبھی کے کیڑوں کو برسلز سپراؤٹس سے دور اپنی طرف متوجہ کرتا ہے۔",
+        "ar": "يعمل كمحصول فخ، يجذب المن وديدان الكرنب بعيدًا عن براعم بروكسل.",
+        "fr": "Agit comme une plante piège, attirant les pucerons et les vers du chou loin des choux de Bruxelles."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "strawberry",
+      "reason": {
+        "en": "Can stunt the growth of Brussels Sprouts and compete for nutrients.",
+        "ur": "برسلز سپراؤٹس کی نشوونما کو روک سکتا ہے اور غذائی اجزاء کے لیے مقابلہ کرتا ہے۔",
+        "ar": "يمكن أن يعيق نمو براعم بروكسل ويتنافس على العناصر الغذائية.",
+        "fr": "Peut ralentir la croissance des choux de Bruxelles et concurrencer les nutriments."
+      }
+    },
+    {
+      "plantId": "tomato",
+      "reason": {
+        "en": "Can stunt the growth of Brussels Sprouts and may share some diseases.",
+        "ur": "برسلز سپراؤٹس کی نشوونما کو روک سکتا ہے اور کچھ بیماریاں مشترکہ ہو سکتی ہیں۔",
+        "ar": "يمكن أن يعيق نمو براعم بروكسل وقد يتشاركان بعض الأمراض.",
+        "fr": "Peut ralentir la croissance des choux de Bruxelles et partager certaines maladies."
+      }
+    },
+    {
+      "plantId": "pole_bean",
+      "reason": {
+        "en": "Can inhibit the growth of Brussels Sprouts.",
+        "ur": "برسلز سپراؤٹس کی نشوونما کو روک سکتا ہے۔",
+        "ar": "يمكن أن يثبط نمو براعم بروكسل.",
+        "fr": "Peut inhiber la croissance des choux de Bruxelles."
+      }
+    },
+    {
+      "plantId": "mustard_greens",
+      "reason": {
+        "en": "Attracts the same pests and diseases as Brussels Sprouts, increasing pest pressure.",
+        "ur": "برسلز سپراؤٹس جیسے ہی کیڑوں اور بیماریوں کو اپنی طرف متوجہ کرتا ہے، جس سے کیڑوں کا دباؤ بڑھ جاتا ہے۔",
+        "ar": "يجذب نفس الآفات والأمراض التي تصيب براعم بروكسل، مما يزيد من ضغط الآفات.",
+        "fr": "Attire les mêmes ravageurs et maladies que les choux de Bruxelles, augmentant la pression des nuisibles."
+      }
+    },
+    {
+      "plantId": "rue",
+      "reason": {
+        "en": "Known to inhibit the growth of Brassicas.",
+        "ur": "برسلز سپراؤٹس کی نشوونما کو روکنے کے لیے جانا جاتا ہے۔",
+        "ar": "معروف بتثبيط نمو الكرنب.",
+        "fr": "Connu pour inhiber la croissance des brassicacées."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "cabbage_worms",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Includes larvae of imported cabbageworm, cabbage looper, and diamondback moth. They chew irregular holes in leaves and bore into sprouts.",
+        "ur": "اس میں درآمد شدہ گوبھی کے کیڑے، گوبھی لوپر، اور ڈائمنڈ بیک موتھ کے لاروا شامل ہیں۔ یہ پتوں میں بے قاعدہ سوراخ کرتے ہیں اور سپراؤٹس میں گھس جاتے ہیں۔",
+        "ar": "يشمل يرقات دودة الكرنب المستوردة، ودودة الكرنب القافزة، وعثة الظهر الماسي. تمضغ ثقوبًا غير منتظمة في الأوراق وتدخل في البراعم.",
+        "fr": "Comprend les larves de la piéride du chou, de la fausse arpenteuse du chou et de la teigne des crucifères. Elles mâchent des trous irréguliers dans les feuilles et pénètrent dans les choux."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and causing distorted growth. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور پودے کی نشوونما کو خراب کرتے ہیں۔ وائرس پھیلا سکتے ہیں۔",
+        "ar": "حشرات صغيرة تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتسبب تشوه النمو. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant une croissance déformée. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "flea_beetles",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, jumping beetles that chew small, round holes (shot-hole effect) in leaves, especially on young plants. Can severely stunt growth.",
+        "ur": "چھوٹے، اچھلنے والے کیڑے جو پتوں میں چھوٹے، گول سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ نشوونما کو شدید طور پر روک سکتے ہیں۔",
+        "ar": "خنافس صغيرة تقفز وتمضغ ثقوبًا صغيرة مستديرة في الأوراق، خاصة على النباتات الصغيرة. يمكن أن تعيق النمو بشدة.",
+        "fr": "Petits coléoptères sauteurs qui mâchent de petits trous ronds dans les feuilles, surtout sur les jeunes plantes. Peuvent gravement retarder la croissance."
+      }
+    },
+    {
+      "pestId": "slugs_and_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Leave large, irregular holes in leaves and sprouts, often with silvery slime trails. Active in damp, cool conditions.",
+        "ur": "پتوں اور سپراؤٹس میں بڑے، بے قاعدہ سوراخ چھوڑتے ہیں، اکثر چاندی کی طرح کی لیس دار پگڈنڈیوں کے ساتھ۔ نم اور ٹھنڈے حالات میں سرگرم ہوتے ہیں۔",
+        "ar": "تترك ثقوبًا كبيرة وغير منتظمة في الأوراق والبراعم، غالبًا مع آثار لزجة فضية. نشطة في الظروف الرطبة والباردة.",
+        "fr": "Laissent de grands trous irréguliers dans les feuilles et les choux, souvent avec des traces de bave argentée. Actifs par temps humide et frais."
+      }
+    },
+    {
+      "pestId": "clubroot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Fungal disease causing swollen, distorted roots, leading to stunted growth, wilting, and yellowing leaves. Spores can persist in soil for years.",
+        "ur": "فنگل بیماری جو جڑوں کو سوجن اور خراب کرتی ہے، جس سے نشوونما رک جاتی ہے، پودا مرجھا جاتا ہے اور پتے پیلے ہو جاتے ہیں۔ اس کے بیج مٹی میں سالوں تک رہ سکتے ہیں۔",
+        "ar": "مرض فطري يسبب تورم وتشوه الجذور، مما يؤدي إلى توقف النمو، الذبول، واصفرار الأوراق. يمكن أن تبقى الجراثيم في التربة لسنوات.",
+        "fr": "Maladie fongique causant des racines gonflées et déformées, entraînant un retard de croissance, un flétrissement et un jaunissement des feuilles. Les spores peuvent persister dans le sol pendant des années."
+      }
+    },
+    {
+      "pestId": "black_rot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Bacterial disease causing V-shaped yellow lesions on leaf margins that turn brown, with black veins. Can spread systemically.",
+        "ur": "بیکٹیریل بیماری جو پتوں کے کناروں پر V-شکل کے پیلے دھبے پیدا کرتی ہے جو بھورے ہو جاتے ہیں، اور رگیں کالی ہو جاتی ہیں۔ یہ پورے پودے میں پھیل سکتی ہے۔",
+        "ar": "مرض بكتيري يسبب آفات صفراء على شكل حرف V على حواف الأوراق تتحول إلى اللون البني، مع عروق سوداء. يمكن أن ينتشر بشكل جهازي.",
+        "fr": "Maladie bactérienne provoquant des lésions jaunes en forme de V sur les bords des feuilles qui brunissent, avec des nervures noires. Peut se propager de manière systémique."
+      }
+    },
+    {
+      "pestId": "downy_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes yellow spots on the upper surface of leaves and fuzzy gray-purple mold on the underside. Thrives in cool, moist conditions.",
+        "ur": "پتوں کی اوپری سطح پر پیلے دھبے اور نچلی سطح پر بھوری-جامنی رنگ کی پھپھوندی پیدا کرتا ہے۔ ٹھنڈے، نم حالات میں پروان چڑھتا ہے۔",
+        "ar": "يسبب بقعًا صفراء على السطح العلوي للأوراق وعفنًا رماديًا-أرجوانيًا زغبيًا على الجانب السفلي. يزدهر في الظروف الباردة والرطبة.",
+        "fr": "Provoque des taches jaunes sur la face supérieure des feuilles et une moisissure gris-violet duveteuse sur la face inférieure. Prospère dans des conditions fraîches et humides."
+      }
+    },
+    {
+      "pestId": "alternaria_leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes dark, circular spots with concentric rings (target-like) on older leaves. Can lead to defoliation and reduced yield.",
+        "ur": "پرانے پتوں پر گول، گہرے دھبے پیدا کرتا ہے جن میں گول دائرے ہوتے ہیں۔ اس سے پتے گر سکتے ہیں اور پیداوار کم ہو سکتی ہے۔",
+        "ar": "يسبب بقعًا دائرية داكنة ذات حلقات متحدة المركز (تشبه الهدف) على الأوراق القديمة. يمكن أن يؤدي إلى تساقط الأوراق وانخفاض المحصول.",
+        "fr": "Provoque des taches circulaires sombres avec des anneaux concentriques (en forme de cible) sur les feuilles plus âgées. Peut entraîner la défoliation et une réduction du rendement."
+      }
+    },
+    {
+      "pestId": "root_maggots",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "10-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae of the cabbage maggot fly feed on roots, causing wilting, stunted growth, and eventual plant death. Often affects young plants.",
+        "ur": "گوبھی کی مکھی کے لاروا جڑوں کو کھاتے ہیں، جس سے پودا مرجھا جاتا ہے، نشوونما رک جاتی ہے اور آخر کار پودا مر جاتا ہے۔ اکثر نوجوان پودوں کو متاثر کرتا ہے۔",
+        "ar": "تتغذى يرقات ذبابة الكرنب على الجذور، مما يسبب الذبول، وتوقف النمو، وموت النبات في النهاية. غالبًا ما يصيب النباتات الصغيرة.",
+        "fr": "Les larves de la mouche du chou se nourrissent des racines, provoquant le flétrissement, un retard de croissance et la mort éventuelle de la plante. Affecte souvent les jeunes plantes."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 90,
+    "firstHarvestDayMax": 110,
+    "continuousHarvest": true,
+    "harvestWindowDays": 60,
+    "readinessSigns": [
+      {
+        "en": "Sprouts are firm, green, and 1-2 inches in diameter",
+        "ur": "سپراؤٹس مضبوط، سبز اور 1-2 انچ قطر کے ہوں",
+        "ar": "البراعم صلبة، خضراء، وقطرها 1-2 بوصة",
+        "fr": "Les choux sont fermes, verts et mesurent 2,5-5 cm de diamètre"
+      },
+      {
+        "en": "Lower leaves start to yellow",
+        "ur": "نیچے کے پتے پیلے ہونا شروع ہو جائیں",
+        "ar": "تبدأ الأوراق السفلية بالاصفرار",
+        "fr": "Les feuilles inférieures commencent à jaunir"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Twist or snap off sprouts from the bottom of the stalk upwards as they mature. Remove yellowing leaves below the harvested sprouts.",
+        "ur": "جیسے جیسے سپراؤٹس پختہ ہوتے جائیں، انہیں تنے کے نچلے حصے سے اوپر کی طرف موڑ کر یا توڑ کر اتاریں۔ کٹے ہوئے سپراؤٹس کے نیچے کے پیلے پتوں کو ہٹا دیں۔",
+        "ar": "لف أو اقطع البراعم من أسفل الساق إلى الأعلى عندما تنضج. أزل الأوراق الصفراء تحت البراعم المحصودة.",
+        "fr": "Tournez ou cassez les choux de la base de la tige vers le haut à mesure qu'ils mûrissent. Retirez les feuilles jaunissantes sous les choux récoltés."
+      },
+      "INTERMEDIATE": {
+        "en": "For a concentrated harvest, 'top' the plant by cutting off the top 6-8 inches of the stalk about 2-3 weeks before desired harvest. This encourages remaining sprouts to mature simultaneously.",
+        "ur": "ایک ساتھ زیادہ فصل حاصل کرنے کے لیے، مطلوبہ کٹائی سے 2-3 ہفتے پہلے تنے کے اوپر سے 6-8 انچ کاٹ دیں۔ یہ باقی سپراؤٹس کو ایک ساتھ پختہ ہونے کی ترغیب دیتا ہے۔",
+        "ar": "للحصول على حصاد مركز، 'قم بتقليم' النبات بقطع الجزء العلوي من الساق (6-8 بوصات) قبل 2-3 أسابيع من الحصاد المطلوب. هذا يشجع البراعم المتبقية على النضوج في وقت واحد.",
+        "fr": "Pour une récolte concentrée, 'étêtez' la plante en coupant les 15-20 cm supérieurs de la tige environ 2-3 semaines avant la récolte souhaitée. Cela encourage les choux restants à mûrir simultanément."
+      },
+      "EXPERT": {
+        "en": "Harvest sprouts when they are firm and tight. For best flavor, harvest after a light frost. Continue harvesting upwards until the plant is exhausted or hard frost arrives.",
+        "ur": "سپراؤٹس کو اس وقت کاٹیں جب وہ مضبوط اور سخت ہوں۔ بہترین ذائقے کے لیے، ہلکی ٹھنڈ کے بعد کاٹیں۔ پودا ختم ہونے یا سخت ٹھنڈ آنے تک اوپر کی طرف کٹائی جاری رکھیں۔",
+        "ar": "احصد البراعم عندما تكون صلبة ومحكمة. للحصول على أفضل نكهة، احصد بعد صقيع خفيف. استمر في الحصاد صعودًا حتى ينتهي النبات أو يحل الصقيع الشديد.",
+        "fr": "Récoltez les choux lorsqu'ils sont fermes et serrés. Pour une meilleure saveur, récoltez après une légère gelée. Continuez à récolter vers le haut jusqu'à ce que la plante soit épuisée ou qu'un gel intense arrive."
+      }
+    },
+    "storage": {
+      "en": "Refrigerate unwashed sprouts in a perforated bag for up to 1 week. For longer storage, blanch and freeze.",
+      "ur": "بغیر دھوئے سپراؤٹس کو سوراخ والے تھیلے میں 1 ہفتے تک فریج میں رکھیں۔ زیادہ دیر تک ذخیرہ کرنے کے لیے، ابال کر فریز کریں۔",
+      "ar": "احفظ البراعم غير المغسولة في كيس مثقوب في الثلاجة لمدة تصل إلى أسبوع. للتخزين لفترة أطول، قم بسلقها وتجميدها.",
+      "fr": "Réfrigérez les choux non lavés dans un sac perforé jusqu'à 1 semaine. Pour une conservation plus longue, blanchissez et congelez."
+    },
+    "yieldEstimateKg": {
+      "10L": 1.5,
+      "20L": 3,
+      "30L": 4.5,
+      "GROUND": 6
+    }
+  }
+}
