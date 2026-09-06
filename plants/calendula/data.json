@@ -1,0 +1,1319 @@
+{
+  "id": "calendula",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1620667086043-34e8579482d9?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Calendula",
+      "alternate": [
+        "Pot Marigold",
+        "Garden Marigold",
+        "Ruddles",
+        "Scotch Marigold"
+      ]
+    },
+    "ur": {
+      "common": "گل اشرفی",
+      "alternate": [
+        "زرگل"
+      ]
+    },
+    "ar": {
+      "common": "آذريون",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Souci",
+      "alternate": [
+        "Souci des jardins"
+      ]
+    },
+    "botanical": "Calendula officinalis",
+    "aliases": [
+      "pot marigold",
+      "garden marigold",
+      "ruddles",
+      "scotch marigold",
+      "gul-e-ashrafi",
+      "zergul",
+      "aazaryoon",
+      "souci"
+    ]
+  },
+  "category": "flower",
+  "subcategory": "annual",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 75,
+    "highWindSupportKmh": 30,
+    "slowGrowthBelowC": 5,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 30,
+    "avoidNitrogenDuringFruiting": false,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [],
+  "metadata": {
+    "growthHabits": {}
+  },
+  "pollination": {
+    "selfPollinating": true,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "annual",
+    "edible-flowers",
+    "medicinal",
+    "pollinator-friendly",
+    "container-friendly",
+    "cool-season",
+    "cut-flower"
+  ],
+  "temperature": {
+    "optimalMinC": 15,
+    "optimalMaxC": 24,
+    "survivalMinC": -5,
+    "survivalMaxC": 30,
+    "germinationMinC": 18,
+    "germinationOptimalC": 21,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 0
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "MEDIUM",
+    "daysToMaturity": 60,
+    "requiredGDD": 800,
+    "baseTempC": 5,
+    "plantingConditions": {
+      "soilTempMinC": 10,
+      "airTempMinC": 10
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 28,
+      "coldStressCriticalC": 0,
+      "frostWarningC": -2,
+      "heavyRainMm": 20,
+      "highWindKmh": 30,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 500,
+    "intervalDaysBase": 3,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 5,
+    "drainageSensitivity": "high",
+    "wateringNature": "Moderate and Consistent",
+    "soilMoisturePreference": "Keep soil consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "medium",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 45,
+      "max": 65
+    },
+    "drynessThreshold": {
+      "warning": 35,
+      "critical": 20
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "reduced flowering",
+      "stunted growth"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "stem rot",
+      "stunted growth"
+    ],
+    "preferredWateringMethod": "Base of plant, avoid overhead",
+    "thingsToAvoid": [
+      "overhead watering",
+      "standing water",
+      "soggy soil"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "shallow-medium",
+    "transplantSensitivity": "low",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "moderate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Good drainage is essential",
+        "ur": "اچھی نکاسی ضروری ہے",
+        "ar": "الصرف الجيد ضروري",
+        "fr": "Un bon drainage est essentiel"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 5,
+      "minDepthCm": 15,
+      "wateringMultiplier": 1.3,
+      "notes": {
+        "en": "Fabric bags promote air pruning",
+        "ur": "کپڑے کے تھیلے جڑوں کی ہوا سے کٹائی کو فروغ دیتے ہیں",
+        "ar": "أكياس القماش تعزز تقليم الجذور الهوائي",
+        "fr": "Les sacs en tissu favorisent l'élagage aérien des racines"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 20,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Space plants for air circulation",
+        "ur": "ہوا کی گردش کے لیے پودوں کو فاصلے پر لگائیں",
+        "ar": "تباعد النباتات لتهوية جيدة",
+        "fr": "Espacez les plantes pour une bonne circulation de l'air"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 10,
+      "minDepthCm": 20,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Excellent for drainage and soil control",
+        "ur": "نکاسی اور مٹی کے کنٹرول کے لیے بہترین",
+        "ar": "ممتاز للصرف والتحكم في التربة",
+        "fr": "Excellent pour le drainage et le contrôle du sol"
+      }
+    }
+  },
+  "isTree": false,
+  "slowFromSeed": false,
+  "timeToHarvestFromSeed": "60-75 days",
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Seed sowing",
+        "ur": "بیج بونا",
+        "ar": "بذر البذور",
+        "fr": "Semis"
+      },
+      "emoji": "🌱",
+      "tips": [],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Use well-draining potting mix.",
+              "ur": "اچھی نکاسی والی مٹی استعمال کریں۔",
+              "ar": "استخدم تربة تأصيص جيدة التصريف.",
+              "fr": "Utilisez un terreau bien drainé."
+            },
+            "INTERMEDIATE": {
+              "en": "Amend soil with compost for fertility.",
+              "ur": "زرخیزی کے لیے کھاد شامل کریں۔",
+              "ar": "عدّل التربة بالسماد العضوي للخصوبة.",
+              "fr": "Amendez le sol avec du compost."
+            },
+            "EXPERT": {
+              "en": "Ensure pH 6.0-7.0; add perlite for drainage.",
+              "ur": "پی ایچ 6.0-7.0 یقینی بنائیں؛ نکاسی کے لیے پرلائٹ شامل کریں۔",
+              "ar": "تأكد من pH 6.0-7.0؛ أضف البيرلايت للتصريف.",
+              "fr": "Assurez un pH de 6.0-7.0; ajoutez de la perlite."
+            }
+          }
+        },
+        "sowing": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Sow seeds 1/4 inch deep, lightly cover.",
+              "ur": "بیج 1/4 انچ گہرائی میں بوئیں، ہلکا ڈھانپیں۔",
+              "ar": "ازرع البذور بعمق 1/4 بوصة، غطها برفق.",
+              "fr": "Semez les graines à 1/4 de profondeur, couvrez légèrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Space seeds 6-12 inches apart or in rows.",
+              "ur": "بیجوں کو 6-12 انچ کے فاصلے پر یا قطاروں میں بوئیں۔",
+              "ar": "افصل البذور 6-12 بوصة أو في صفوف.",
+              "fr": "Espacez les graines de 6 à 12 pouces."
+            },
+            "EXPERT": {
+              "en": "Direct sow after last frost, or start indoors 6-8 weeks prior.",
+              "ur": "آخری ٹھنڈ کے بعد براہ راست بوئیں، یا 6-8 ہفتے پہلے گھر کے اندر شروع کریں۔",
+              "ar": "ازرع مباشرة بعد آخر صقيع، أو ابدأ في الداخل قبل 6-8 أسابيع.",
+              "fr": "Semez directement après le dernier gel, ou démarrez à l'intérieur 6-8 semaines avant."
+            }
+          }
+        },
+        "germinationCheck": {
+          "dayOffsetFromStageStart": 3,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for tiny sprouts.",
+              "ur": "چھوٹی کونپلیں چیک کریں۔",
+              "ar": "تحقق من البراعم الصغيرة.",
+              "fr": "Vérifiez les petites pousses."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture for germination.",
+              "ur": "انکرن کے لیے مستقل نمی یقینی بنائیں۔",
+              "ar": "تأكد من رطوبة ثابتة للإنبات.",
+              "fr": "Assurez une humidité constante pour la germination."
+            },
+            "EXPERT": {
+              "en": "Monitor soil temperature for optimal germination (60-70°F).",
+              "ur": "بہترین انکرن کے لیے مٹی کا درجہ حرارت (60-70°F) چیک کریں۔",
+              "ar": "راقب درجة حرارة التربة للإنبات الأمثل (60-70 درجة فهرنهايت).",
+              "fr": "Surveillez la température du sol (15-21°C)."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 1,
+          "mlPer10LContainer": 100,
+          "method": "mist",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Mist soil daily to keep moist.",
+              "ur": "مٹی کو نم رکھنے کے لیے روزانہ چھڑکاؤ کریں۔",
+              "ar": "رش التربة يوميًا للحفاظ على رطوبتها.",
+              "fr": "Vaporisez le sol quotidiennement."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain light, even moisture.",
+              "ur": "ہلکی، یکساں نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة خفيفة ومتساوية.",
+              "fr": "Maintenez une humidité légère et uniforme."
+            },
+            "EXPERT": {
+              "en": "Avoid waterlogging; ensure good drainage.",
+              "ur": "پانی جمع ہونے سے بچیں؛ اچھی نکاسی یقینی بنائیں۔",
+              "ar": "تجنب التشبع بالمياه؛ تأكد من تصريف جيد.",
+              "fr": "Évitez l'engorgement; assurez un bon drainage."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 7,
+      "durationDaysWarm": 5,
+      "durationDaysCool": 10,
+      "description": {
+        "en": "Sprouts appear",
+        "ur": "کونپلیں نکلنا",
+        "ar": "ظهور البراعم",
+        "fr": "Germination"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 150,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently to avoid disturbing seedlings.",
+              "ur": "پودوں کو خراب کیے بغیر آہستہ پانی دیں۔",
+              "ar": "اسقِ بلطف لتجنب إزعاج الشتلات.",
+              "fr": "Arrosez doucement pour ne pas déranger les semis."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist, not soggy.",
+              "ur": "مٹی کو مسلسل نم رکھیں، گیلی نہ ہو۔",
+              "ar": "حافظ على رطوبة التربة باستمرار، لا مشبعة.",
+              "fr": "Gardez le sol constamment humide, pas détrempé."
+            },
+            "EXPERT": {
+              "en": "Monitor for damping-off disease in humid conditions.",
+              "ur": "مرطوب حالات میں ڈیمپنگ آف بیماری کے لیے نگرانی کریں۔",
+              "ar": "راقب مرض الذبول في الظروف الرطبة.",
+              "fr": "Surveillez la fonte des semis en conditions humides."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "True leaves form",
+        "ur": "نئے پتے آنا",
+        "ar": "تكون الأوراق الحقيقية",
+        "fr": "Apparition des vraies feuilles"
+      },
+      "emoji": "🪴",
+      "tips": [],
+      "tasks": {
+        "transplant": {
+          "required": true,
+          "dayOffset": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Thin seedlings to 6-8 inches apart.",
+              "ur": "پودوں کو 6-8 انچ کے فاصلے پر پتلا کریں۔",
+              "ar": "خفف الشتلات لتكون على بعد 6-8 بوصات.",
+              "fr": "Éclaircissez les semis à 6-8 pouces d'intervalle."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove weaker seedlings, leaving strongest.",
+              "ur": "کمزور پودوں کو ہٹا دیں، مضبوط ترین کو چھوڑ دیں۔",
+              "ar": "أزل الشتلات الأضعف، واترك الأقوى.",
+              "fr": "Retirez les semis les plus faibles, en laissant les plus forts."
+            },
+            "EXPERT": {
+              "en": "Harden off seedlings before transplanting outdoors.",
+              "ur": "بیرونی منتقلی سے پہلے پودوں کو سخت کریں۔",
+              "ar": "قسّي الشتلات قبل زرعها في الخارج.",
+              "fr": "Endurcissez les semis avant de les transplanter à l'extérieur."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 250,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant.",
+              "ur": "پودے کی جڑ میں پانی دیں۔",
+              "ar": "اسقِ قاعدة النبات.",
+              "fr": "Arrosez à la base de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow top inch of soil to dry between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کی اوپری انچ کو خشک ہونے دیں۔",
+              "ar": "دع البوصة العلوية من التربة تجف بين الريات.",
+              "fr": "Laissez le pouce supérieur du sol sécher entre les arrosages."
+            },
+            "EXPERT": {
+              "en": "Ensure good air circulation to prevent fungal issues.",
+              "ur": "فنگل مسائل سے بچنے کے لیے اچھی ہوا کی گردش یقینی بنائیں۔",
+              "ar": "تأكد من تهوية جيدة لمنع مشاكل الفطريات.",
+              "fr": "Assurez une bonne circulation de l'air."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 18,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Rapid growth, bushy development",
+        "ur": "تیز نشوونما، جھاڑی دار ترقی",
+        "ar": "نمو سريع، تطور كثيف",
+        "fr": "Croissance rapide, développement buissonnant"
+      },
+      "emoji": "🌿",
+      "tips": [],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for aphids; spray with soapy water if seen.",
+              "ur": "ایفڈز چیک کریں؛ نظر آئیں تو صابن والے پانی سے چھڑکیں۔",
+              "ar": "تحقق من المن؛ رش بالماء والصابون إذا شوهد.",
+              "fr": "Vérifiez les pucerons; vaporisez de l'eau savonneuse."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply organic insecticidal soap preventatively.",
+              "ur": "نامیاتی کیڑے مار صابن احتیاطی طور پر استعمال کریں۔",
+              "ar": "طبق صابون مبيد حشري عضوي وقائيًا.",
+              "fr": "Appliquez du savon insecticide bio préventivement."
+            },
+            "EXPERT": {
+              "en": "Introduce beneficial insects like ladybugs.",
+              "ur": "لیڈی بگ جیسے فائدہ مند کیڑے متعارف کروائیں۔",
+              "ar": "أدخل الحشرات النافعة مثل الدعسوقة.",
+              "fr": "Introduisez des insectes bénéfiques comme les coccinelles."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for yellowing leaves or holes.",
+              "ur": "پیلے پتے یا سوراخ تلاش کریں۔",
+              "ar": "ابحث عن الأوراق الصفراء أو الثقوب.",
+              "fr": "Recherchez les feuilles jaunissantes ou les trous."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect undersides of leaves for pests.",
+              "ur": "کیڑوں کے لیے پتوں کے نیچے کا معائنہ کریں۔",
+              "ar": "افحص الجانب السفلي من الأوراق بحثًا عن الآفات.",
+              "fr": "Inspectez le dessous des feuilles pour les parasites."
+            },
+            "EXPERT": {
+              "en": "Monitor for early signs of powdery mildew or other fungal issues.",
+              "ur": "پاؤڈری پھپھوندی یا دیگر فنگل مسائل کی ابتدائی علامات کی نگرانی کریں۔",
+              "ar": "راقب العلامات المبكرة للبياض الدقيقي أو مشاكل فطرية أخرى.",
+              "fr": "Surveillez les premiers signes d'oïdium."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            }
+          ]
+        },
+        "pruning": {
+          "required": true,
+          "dayOffset": 10,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Pinch back young plants to encourage bushier growth.",
+              "ur": "جھاڑی دار نشوونما کی حوصلہ افزائی کے لیے جوان پودوں کو چٹکی بھریں۔",
+              "ar": "قرص النباتات الصغيرة لتشجيع النمو الكثيف.",
+              "fr": "Pincez les jeunes plantes pour favoriser une croissance plus touffue."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove spent flowers and leggy stems.",
+              "ur": "خراب پھولوں اور لمبی شاخوں کو ہٹا دیں۔",
+              "ar": "أزل الزهور الذابلة والسيقان الطويلة.",
+              "fr": "Retirez les fleurs fanées et les tiges étiolées."
+            },
+            "EXPERT": {
+              "en": "Regularly deadhead to promote continuous blooming.",
+              "ur": "مسلسل پھولوں کو فروغ دینے کے لیے باقاعدگی سے ڈیڈ ہیڈ کریں۔",
+              "ar": "قم بإزالة الزهور الذابلة بانتظام لتعزيز الإزهار المستمر.",
+              "fr": "Éliminez régulièrement les fleurs fanées pour une floraison continue."
+            }
+          }
+        },
+        "support": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Provide light support if plants become leggy or fall over.",
+              "ur": "اگر پودے لمبے ہو جائیں یا گر جائیں تو ہلکی مدد فراہم کریں۔",
+              "ar": "قدم دعمًا خفيفًا إذا أصبحت النباتات طويلة أو سقطت.",
+              "fr": "Fournissez un léger support si les plantes deviennent étiolées."
+            },
+            "INTERMEDIATE": {
+              "en": "Use small stakes or a ring support for taller varieties.",
+              "ur": "لمبی اقسام کے لیے چھوٹے ڈنڈے یا رنگ سپورٹ استعمال کریں۔",
+              "ar": "استخدم أوتادًا صغيرة أو دعمًا حلقيًا للأصناف الأطول.",
+              "fr": "Utilisez de petits tuteurs ou un support annulaire pour les variétés plus grandes."
+            },
+            "EXPERT": {
+              "en": "Consider companion planting to provide natural support.",
+              "ur": "قدرتی مدد فراہم کرنے کے لیے ساتھی پودے لگانے پر غور کریں۔",
+              "ar": "فكر في الزراعة المصاحبة لتوفير دعم طبيعي.",
+              "fr": "Envisagez la plantation associée pour un soutien naturel."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply when the top inch of soil is dry.",
+              "ur": "جب مٹی کی اوپری انچ خشک ہو تو گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق عندما تجف البوصة العلوية من التربة.",
+              "fr": "Arrosez profondément lorsque le pouce supérieur du sol est sec."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture for vigorous growth.",
+              "ur": "زوردار نشوونما کے لیے مستقل نمی یقینی بنائیں۔",
+              "ar": "تأكد من رطوبة ثابتة لنمو قوي.",
+              "fr": "Assurez une humidité constante pour une croissance vigoureuse."
+            },
+            "EXPERT": {
+              "en": "Avoid overhead watering to prevent leaf diseases.",
+              "ur": "پتوں کی بیماریوں سے بچنے کے لیے اوپر سے پانی دینے سے گریز کریں۔",
+              "ar": "تجنب الري العلوي لمنع أمراض الأوراق.",
+              "fr": "Évitez l'arrosage par le haut pour prévenir les maladies foliaires."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 60,
+      "durationDaysWarm": 50,
+      "durationDaysCool": 70,
+      "description": {
+        "en": "Flowers bloom continuously",
+        "ur": "پھول مسلسل کھلتے ہیں",
+        "ar": "تتفتح الزهور باستمرار",
+        "fr": "Les fleurs s'épanouissent continuellement"
+      },
+      "emoji": "🌼",
+      "tips": [
+        "Deadhead regularly for more blooms."
+      ],
+      "tasks": {
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for common pests like aphids or whiteflies.",
+              "ur": "ایفڈز یا سفید مکھیوں جیسے عام کیڑوں کو چیک کریں۔",
+              "ar": "تحقق من الآفات الشائعة مثل المن أو الذباب الأبيض.",
+              "fr": "Vérifiez les parasites courants comme les pucerons."
+            },
+            "INTERMEDIATE": {
+              "en": "Use organic pest control methods if needed.",
+              "ur": "ضرورت پڑنے پر نامیاتی کیڑے مار طریقے استعمال کریں۔",
+              "ar": "استخدم طرق مكافحة الآفات العضوية إذا لزم الأمر.",
+              "fr": "Utilisez des méthodes de lutte antiparasitaire biologique."
+            },
+            "EXPERT": {
+              "en": "Monitor beneficial insect populations.",
+              "ur": "فائدہ مند کیڑوں کی آبادی کی نگرانی کریں۔",
+              "ar": "راقب أعداد الحشرات النافعة.",
+              "fr": "Surveillez les populations d'insectes bénéfiques."
+            }
+          }
+        },
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check flowers for discoloration or damage.",
+              "ur": "پھولوں میں رنگت یا نقصان کی جانچ کریں۔",
+              "ar": "تحقق من تغير لون الزهور أو تلفها.",
+              "fr": "Vérifiez la décoloration ou les dommages des fleurs."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for signs of fungal diseases on leaves and petals.",
+              "ur": "پتوں اور پنکھڑیوں پر فنگل بیماریوں کی علامات تلاش کریں۔",
+              "ar": "ابحث عن علامات الأمراض الفطرية على الأوراق والبتلات.",
+              "fr": "Recherchez les signes de maladies fongiques."
+            },
+            "EXPERT": {
+              "en": "Assess overall plant vigor and bloom quality.",
+              "ur": "پودے کی مجموعی طاقت اور پھولوں کے معیار کا اندازہ لگائیں۔",
+              "ar": "قيم الحيوية العامة للنبات وجودة الإزهار.",
+              "fr": "Évaluez la vigueur générale de la plante et la qualité des fleurs."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "بياض دقيقي",
+              "fr": "Oïdium"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water regularly to support continuous blooming.",
+              "ur": "مسلسل پھولوں کو سہارا دینے کے لیے باقاعدگی سے پانی دیں۔",
+              "ar": "اسقِ بانتظام لدعم الإزهار المستمر.",
+              "fr": "Arrosez régulièrement pour soutenir une floraison continue."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil evenly moist, especially during dry spells.",
+              "ur": "خاص طور پر خشک موسم میں مٹی کو یکساں طور پر نم رکھیں۔",
+              "ar": "حافظ على رطوبة التربة بالتساوي، خاصة خلال فترات الجفاف.",
+              "fr": "Gardez le sol uniformément humide, surtout pendant les périodes sèches."
+            },
+            "EXPERT": {
+              "en": "Deep watering encourages strong root development.",
+              "ur": "گہرا پانی مضبوط جڑوں کی نشوونما کو فروغ دیتا ہے۔",
+              "ar": "الري العميق يشجع على نمو جذور قوية.",
+              "fr": "Un arrosage profond favorise un fort développement racinaire."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Seed heads develop and mature",
+        "ur": "بیج کے سر بنتے اور پکتے ہیں",
+        "ar": "تتطور رؤوس البذور وتنضج",
+        "fr": "Les têtes de graines se développent et mûrissent"
+      },
+      "emoji": "🌻",
+      "tips": [
+        "Allow some flowers to go to seed for future planting or continuous self-seeding."
+      ],
+      "tasks": {
+        "inspection": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check seed heads for dryness and maturity.",
+              "ur": "بیج کے سروں کو خشکی اور پختگی کے لیے چیک کریں۔",
+              "ar": "تحقق من رؤوس البذور للجفاف والنضج.",
+              "fr": "Vérifiez les têtes de graines pour la sécheresse et la maturité."
+            },
+            "INTERMEDIATE": {
+              "en": "Look for seeds to be firm and dark brown/black.",
+              "ur": "بیجوں کو مضبوط اور گہرا بھورا/سیاہ ہونے کے لیے دیکھیں۔",
+              "ar": "ابحث عن البذور لتكون صلبة وذات لون بني داكن/أسود.",
+              "fr": "Recherchez des graines fermes et brun foncé/noir."
+            },
+            "EXPERT": {
+              "en": "Monitor for any signs of mold or rot on maturing seed heads.",
+              "ur": "پکنے والے بیج کے سروں پر پھپھوندی یا سڑنے کی کسی بھی علامت کی نگرانی کریں۔",
+              "ar": "راقب أي علامات للعفن أو التعفن على رؤوس البذور الناضجة.",
+              "fr": "Surveillez tout signe de moisissure ou de pourriture."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Mold",
+              "ur": "پھپھوندی",
+              "ar": "العفن",
+              "fr": "Moisissure"
+            },
+            {
+              "en": "Rot",
+              "ur": "سڑنا",
+              "ar": "التعفن",
+              "fr": "Pourriture"
+            }
+          ]
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering slightly as seeds mature.",
+              "ur": "بیج پکنے کے ساتھ پانی کم کریں۔",
+              "ar": "قلل الري قليلاً مع نضوج البذور.",
+              "fr": "Réduisez légèrement l'arrosage à mesure que les graines mûrissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Allow soil to dry more between waterings.",
+              "ur": "پانی دینے کے درمیان مٹی کو زیادہ خشک ہونے دیں۔",
+              "ar": "دع التربة تجف أكثر بين الريات.",
+              "fr": "Laissez le sol sécher davantage entre les arrosages."
+            },
+            "EXPERT": {
+              "en": "Ensure good air circulation around plants to aid seed drying.",
+              "ur": "بیجوں کو خشک کرنے میں مدد کے لیے پودوں کے گرد اچھی ہوا کی گردش یقینی بنائیں۔",
+              "ar": "تأكد من تهوية جيدة حول النباتات للمساعدة في تجفيف البذور.",
+              "fr": "Assurez une bonne circulation de l'air pour le séchage des graines."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 90,
+      "durationDaysCool": 90,
+      "description": {
+        "en": "Flowers and seeds ready for harvest",
+        "ur": "پھول اور بیج کٹائی کے لیے تیار ہیں",
+        "ar": "الزهور والبذور جاهزة للحصاد",
+        "fr": "Fleurs et graines prêtes à être récoltées"
+      },
+      "emoji": "🧺",
+      "tips": [
+        "Harvest flowers in the morning after dew has dried.",
+        "For seed saving, allow seed heads to fully dry on the plant."
+      ],
+      "tasks": {
+        "harvesting": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Snip open calendula flowers at the base of the stem.",
+              "ur": "کھلے ہوئے کیلنڈولا پھولوں کو تنے کی بنیاد سے کاٹ لیں۔",
+              "ar": "اقطع زهور الكاليندولا المفتوحة من قاعدة الساق.",
+              "fr": "Coupez les fleurs de calendula ouvertes à la base de la tige."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest flowers regularly to encourage more blooms.",
+              "ur": "مزید پھولوں کی حوصلہ افزائی کے لیے باقاعدگی سے پھول کاٹیں۔",
+              "ar": "احصد الزهور بانتظام لتشجيع المزيد من الإزهار.",
+              "fr": "Récoltez les fleurs régulièrement pour encourager plus de floraisons."
+            },
+            "EXPERT": {
+              "en": "For seed saving, collect dried seed heads when they are brittle and dark.",
+              "ur": "بیج بچانے کے لیے، خشک بیج کے سروں کو جمع کریں جب وہ ٹوٹنے والے اور گہرے ہوں۔",
+              "ar": "لحفظ البذور، اجمع رؤوس البذور الجافة عندما تكون هشة وداكنة.",
+              "fr": "Pour la conservation des graines, récoltez les têtes de graines séchées."
+            }
+          }
+        },
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 500,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Maintain moderate watering during harvest period.",
+              "ur": "کٹائی کے دوران اعتدال پسند پانی برقرار رکھیں۔",
+              "ar": "حافظ على ري معتدل خلال فترة الحصاد.",
+              "fr": "Maintenez un arrosage modéré pendant la période de récolte."
+            },
+            "INTERMEDIATE": {
+              "en": "Adjust watering based on weather and plant needs.",
+              "ur": "موسم اور پودے کی ضروریات کے مطابق پانی کو ایڈجسٹ کریں۔",
+              "ar": "اضبط الري بناءً على الطقس واحتياجات النبات.",
+              "fr": "Ajustez l'arrosage en fonction de la météo."
+            },
+            "EXPERT": {
+              "en": "Ensure good drainage to prevent root rot, especially with frequent harvesting.",
+              "ur": "جڑوں کے سڑنے سے بچنے کے لیے اچھی نکاسی یقینی بنائیں، خاص طور پر بار بار کٹائی کے ساتھ۔",
+              "ar": "تأكد من تصريف جيد لمنع تعفن الجذور، خاصة مع الحصاد المتكرر.",
+              "fr": "Assurez un bon drainage pour prévenir la pourriture des racines."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Diluted Liquid Seaweed or Compost Tea",
+          "ur": "مائع سی ویڈ یا کمپوسٹ چائے",
+          "ar": "مستخلص الطحالب البحرية المخفف أو شاي الكمبوست",
+          "fr": "Extrait d'algues liquide dilué ou thé de compost"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of liquid seaweed or 1 cup of compost tea in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مائع سی ویڈ یا ایک کپ کمپوسٹ چائے 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستخلص الطحالب البحرية أو كوب من شاي الكمبوست في 4 لترات من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'extrait d'algues liquide ou 1 tasse de thé de compost dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides gentle nutrients for young root development without burning.",
+          "ur": "نئی جڑوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے بغیر جلائے۔",
+          "ar": "يوفر مغذيات لطيفة لتنمية الجذور الصغيرة دون حرق.",
+          "fr": "Fournit des nutriments doux pour le développement des jeunes racines sans brûler."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced Organic Liquid Feed or Compost Tea",
+          "ur": "متوازن نامیاتی مائع کھاد یا کمپوسٹ چائے",
+          "ar": "سماد عضوي سائل متوازن أو شاي الكمبوست",
+          "fr": "Engrais liquide organique équilibré ou thé de compost"
+        },
+        "preparation": {
+          "en": "Follow product instructions for liquid feed or steep 1 cup of rich compost in 1 gallon of water for 24-48 hours. Strain if spraying.",
+          "ur": "مائع کھاد کے لیے مصنوعات کی ہدایات پر عمل کریں یا ایک کپ کمپوسٹ کو 4 لیٹر پانی میں 24-48 گھنٹے بھگو دیں۔",
+          "ar": "اتبع تعليمات المنتج للسماد السائل أو انقع كوبًا من الكمبوست الغني في 4 لترات من الماء لمدة 24-48 ساعة. صفيه إذا كنت سترش.",
+          "fr": "Suivez les instructions du produit pour l'engrais liquide ou faites tremper 1 tasse de compost riche dans 3,7 litres d'eau pendant 24-48 heures. Filtrez si vous pulvérisez."
+        },
+        "quantityPer10L": 200,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports healthy foliage growth without encouraging excessive nitrogen, which can reduce flowering.",
+          "ur": "پتوں کی صحت مند نشوونما میں مدد کرتا ہے بغیر زیادہ نائٹروجن کے، جو پھولوں کی پیداوار کو کم کر سکتا ہے۔",
+          "ar": "يدعم نمو الأوراق الصحي دون تشجيع النيتروجين الزائد، الذي يمكن أن يقلل من الإزهار.",
+          "fr": "Soutient une croissance saine du feuillage sans favoriser un excès d'azote, ce qui peut réduire la floraison."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal or Organic Bloom Booster (higher P, K)",
+          "ur": "بون میل یا نامیاتی پھولوں کا بوسٹر (زیادہ فاسفورس، پوٹاشیم)",
+          "ar": "مسحوق العظام أو معزز الإزهار العضوي (عالي الفوسفور والبوتاسيوم)",
+          "fr": "Poudre d'os ou stimulateur de floraison organique (plus de P, K)"
+        },
+        "preparation": {
+          "en": "Sprinkle 1-2 tablespoons of bone meal around the base of the plant and gently scratch into the soil, or follow liquid booster instructions.",
+          "ur": "پودے کی جڑوں کے گرد 1-2 کھانے کے چمچ بون میل چھڑکیں اور ہلکے سے مٹی میں ملائیں، یا مائع بوسٹر کی ہدایات پر عمل کریں۔",
+          "ar": "انثر 1-2 ملعقة كبيرة من مسحوق العظام حول قاعدة النبات واخدشها برفق في التربة، أو اتبع تعليمات المعزز السائل.",
+          "fr": "Saupoudrez 1 à 2 cuillères à soupe de poudre d'os autour de la base de la plante et grattez doucement dans le sol, ou suivez les instructions du stimulateur liquide."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "evening",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Encourages abundant and vibrant blooms throughout the season.",
+          "ur": "موسم بھر بھرپور اور روشن پھولوں کی حوصلہ افزائی کرتا ہے۔",
+          "ar": "يشجع على الإزهار الوفير والنابض بالحياة طوال الموسم.",
+          "fr": "Encourage une floraison abondante et éclatante tout au long de la saison."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Diluted Compost Tea or Organic Bloom Booster",
+          "ur": "کمپوسٹ چائے یا نامیاتی پھولوں کا بوسٹر",
+          "ar": "شاي الكمبوست المخفف أو معزز الإزهار العضوي",
+          "fr": "Thé de compost dilué ou stimulateur de floraison organique"
+        },
+        "preparation": {
+          "en": "Same as vegetative/flowering, but at a slightly lighter concentration. Follow product instructions.",
+          "ur": "سبزیوں/پھولوں کی طرح، لیکن تھوڑی ہلکی مقدار میں۔ مصنوعات کی ہدایات پر عمل کریں۔",
+          "ar": "نفس طريقة مرحلة النمو الخضري/الإزهار، ولكن بتركيز أخف قليلاً. اتبع تعليمات المنتج.",
+          "fr": "Identique aux phases végétative/floraison, mais à une concentration légèrement plus légère. Suivez les instructions du produit."
+        },
+        "quantityPer10L": 150,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Sustains continuous flowering and supports healthy seed development if desired.",
+          "ur": "مسلسل پھولوں کو برقرار رکھتا ہے اور اگر مطلوب ہو تو صحت مند بیجوں کی نشوونما میں مدد کرتا ہے۔",
+          "ar": "يحافظ على الإزهار المستمر ويدعم نمو البذور الصحية إذا رغبت في ذلك.",
+          "fr": "Maintient une floraison continue et soutient le développement sain des graines si désiré."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 10-10-10 or 5-5-5) at half strength",
+          "ur": "متوازن این پی کے (مثلاً 10-10-10 یا 5-5-5) آدھی طاقت پر",
+          "ar": "سماد NPK متوازن (مثل 10-10-10 أو 5-5-5) بنصف القوة",
+          "fr": "NPK équilibré (ex: 10-10-10 ou 5-5-5) à demi-dose"
+        },
+        "preparation": {
+          "en": "Dissolve 1/2 tablespoon of 10-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "آدھا کھانے کا چمچ 10-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب نصف ملعقة كبيرة من مسحوق NPK 10-10-10 في 4 لترات من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1/2 cuillère à soupe de poudre NPK 10-10-10 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes healthy growth without encouraging excessive foliage at the expense of flowers.",
+          "ur": "پھولوں کی قیمت پر زیادہ پتوں کی حوصلہ افزائی کیے بغیر صحت مند نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز النمو الصحي دون تشجيع النمو الورقي المفرط على حساب الأزهار.",
+          "fr": "Favorise une croissance saine sans encourager un feuillage excessif au détriment des fleurs."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore/potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 5-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک کھانے کا چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 5-10-10 في 4 لترات من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 5-10-10 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Boosts flower production and maintains bloom quality.",
+          "ur": "پھولوں کی پیداوار کو بڑھاتا ہے اور پھولوں کے معیار کو برقرار رکھتا ہے۔",
+          "ar": "يعزز إنتاج الأزهار ويحافظ على جودة الإزهار.",
+          "fr": "Stimule la production de fleurs et maintient la qualité de la floraison."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Low Nitrogen, High Phosphorus/Potassium (e.g., 5-10-10)",
+          "ur": "کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم (مثلاً 5-10-10)",
+          "ar": "سماد منخفض النيتروجين، عالي الفوسفور/البوتاسيوم (مثل 5-10-10)",
+          "fr": "Faible en azote, riche en phosphore/potassium (ex: 5-10-10)"
+        },
+        "preparation": {
+          "en": "Same as flowering stage. Dissolve 1 tablespoon of 5-10-10 NPK powder into 1 gallon of water.",
+          "ur": "پھولوں کے مرحلے کی طرح۔ ایک کھانے کا چمچ 5-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔",
+          "ar": "نفس طريقة مرحلة الإزهار. أذب ملعقة كبيرة من مسحوق NPK 5-10-10 في 4 لترات من الماء.",
+          "fr": "Identique à la phase de floraison. Dissolvez 1 cuillère à soupe de poudre NPK 5-10-10 dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Maintains bloom quality and supports healthy seed set for continuous production.",
+          "ur": "پھولوں کے معیار کو برقرار رکھتا ہے اور مسلسل پیداوار کے لیے صحت مند بیجوں کی نشوونما میں مدد کرتا ہے۔",
+          "ar": "يحافظ على جودة الإزهار ويدعم نمو البذور الصحية للإنتاج المستمر.",
+          "fr": "Maintient la qualité de la floraison et soutient le développement sain des graines pour une production continue."
+        }
+      }
+    },
+    "HYBRID": {
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK (half strength)",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "Low N, High P/K Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Diluted Compost Tea",
+        "week2": "Low N, High P/K Fertilizer",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "tomato",
+      "benefit": {
+        "en": "Attracts beneficial insects like ladybugs and hoverflies that prey on tomato pests, and can deter nematodes.",
+        "ur": "ٹماٹر کے کیڑوں پر حملہ کرنے والے فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، اور نیماٹوڈس کو دور رکھ سکتا ہے۔",
+        "ar": "يجذب الحشرات النافعة مثل الدعسوقة والحوامات التي تفترس آفات الطماطم، ويمكن أن يطرد الديدان الخيطية.",
+        "fr": "Attire les insectes bénéfiques comme les coccinelles et les syrphes qui se nourrissent des parasites de la tomate, et peut repousser les nématodes."
+      }
+    },
+    {
+      "plantId": "asparagus",
+      "benefit": {
+        "en": "Attracts beneficial insects to the garden, which can help control pests affecting asparagus. Also deters nematodes.",
+        "ur": "باغ میں فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، جو اسپرگس کو متاثر کرنے والے کیڑوں کو کنٹرول کرنے میں مدد کر سکتے ہیں۔ نیماٹوڈس کو بھی دور رکھتا ہے۔",
+        "ar": "يجذب الحشرات النافعة إلى الحديقة، مما يساعد في مكافحة الآفات التي تصيب الهليون. كما يطرد الديدان الخيطية.",
+        "fr": "Attire les insectes bénéfiques au jardin, ce qui peut aider à contrôler les parasites affectant les asperges. Repousse également les nématodes."
+      }
+    },
+    {
+      "plantId": "carrot",
+      "benefit": {
+        "en": "Attracts beneficial insects like lacewings and parasitic wasps, which help control common garden pests.",
+        "ur": "فائدہ مند کیڑوں جیسے لیس ونگز اور پرجیوی بھڑوں کو اپنی طرف متوجہ کرتا ہے، جو عام باغیچے کے کیڑوں کو کنٹرول کرنے میں مدد کرتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل أسد المن والدبابير الطفيلية، مما يساعد في مكافحة آفات الحدائق الشائعة.",
+        "fr": "Attire les insectes bénéfiques comme les chrysopes et les guêpes parasitoïdes, qui aident à contrôler les parasites courants du jardin."
+      }
+    },
+    {
+      "plantId": "rose",
+      "benefit": {
+        "en": "Calendula can act as a trap crop for aphids, drawing them away from roses, and its strong scent may deter them.",
+        "ur": "کیلنڈولا افڈس کے لیے ایک پھندا فصل کے طور پر کام کر سکتا ہے، انہیں گلاب سے دور رکھتا ہے، اور اس کی تیز خوشبو انہیں بھگا سکتی ہے۔",
+        "ar": "يمكن أن يعمل الكاليندولا كمحصول فخ للمن، يجذبها بعيدًا عن الورود، وقد تردع رائحته القوية المن.",
+        "fr": "Le calendula peut servir de plante-piège pour les pucerons, les éloignant des roses, et son parfum fort peut les dissuader."
+      }
+    },
+    {
+      "plantId": "basil",
+      "benefit": {
+        "en": "Attracts pollinators and beneficial insects, contributing to overall garden health and potentially deterring some pests.",
+        "ur": "پولینیٹرز اور فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، جو باغ کی مجموعی صحت میں حصہ ڈالتا ہے اور ممکنہ طور پر کچھ کیڑوں کو دور رکھتا ہے۔",
+        "ar": "يجذب الملقحات والحشرات النافعة، مما يساهم في صحة الحديقة بشكل عام وقد يطرد بعض الآفات.",
+        "fr": "Attire les pollinisateurs et les insectes bénéfiques, contribuant à la santé globale du jardin et pouvant dissuader certains parasites."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Fennel produces substances from its roots that can inhibit the growth of many nearby plants, including calendula.",
+        "ur": "سونف اپنی جڑوں سے ایسے مادے پیدا کرتی ہے جو کیلنڈولا سمیت بہت سے قریبی پودوں کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "ينتج الشمر مواد من جذوره يمكن أن تمنع نمو العديد من النباتات القريبة، بما في ذلك الكاليندولا.",
+        "fr": "Le fenouil produit des substances de ses racines qui peuvent inhiber la croissance de nombreuses plantes voisines, y compris le calendula."
+      }
+    },
+    {
+      "plantId": "corn",
+      "reason": {
+        "en": "Tall, dense plants like corn can shade out calendula, which requires full sun to thrive and produce abundant blooms.",
+        "ur": "مکئی جیسے لمبے، گھنے پودے کیلنڈولا کو چھاؤں دے سکتے ہیں، جسے بھرپور دھوپ کی ضرورت ہوتی ہے تاکہ وہ اچھی طرح بڑھے اور بھرپور پھول پیدا کرے۔",
+        "ar": "يمكن للنباتات الطويلة والكثيفة مثل الذرة أن تحجب ضوء الشمس عن الكاليندولا، الذي يتطلب شمسًا كاملة ليزدهر وينتج أزهارًا وفيرة.",
+        "fr": "Les plantes hautes et denses comme le maïs peuvent ombrager le calendula, qui a besoin de plein soleil pour prospérer et produire des fleurs abondantes."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and the undersides of leaves, sucking sap and secreting sticky honeydew. Can cause distorted growth and sooty mold.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور چپچپا مادہ چھوڑتے ہیں۔ یہ پودے کی نشوونما کو بگاڑ سکتے ہیں اور کالی پھپھوندی کا سبب بن سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات جسم ناعم تتجمع على النمو الجديد والجوانب السفلية للأوراق، تمتص العصارة وتفرز ندى عسلي لزج. يمكن أن تسبب نموًا مشوهًا وعفنًا سخاميًا.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et sécrétant du miellat collant. Peut provoquer une croissance déformée et de la fumagine."
+      }
+    },
+    {
+      "pestId": "whiteflies",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">60%",
+        "temp": ">25"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny, white, winged insects that fly up when the plant is disturbed. They suck sap, weaken the plant, and can transmit viruses. Often found on the undersides of leaves.",
+        "ur": "چھوٹے سفید اڑنے والے کیڑے جو پودے کو ہلانے پر اڑتے ہیں۔ یہ پودے کو کمزور کرتے ہیں اور وائرس پھیلا سکتے ہیں۔ اکثر پتوں کے نیچے پائے جاتے ہیں۔",
+        "ar": "حشرات صغيرة بيضاء مجنحة تطير عندما يضطرب النبات. تمتص العصارة، تضعف النبات، ويمكن أن تنقل الفيروسات. غالبًا ما توجد على الجوانب السفلية للأوراق.",
+        "fr": "De minuscules insectes blancs ailés qui s'envolent lorsque la plante est dérangée. Ils sucent la sève, affaiblissent la plante et peuvent transmettre des virus. Souvent trouvés sous les feuilles."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause leaves to look stippled, pale, and eventually turn yellow and drop. Fine webbing may be visible on the undersides of leaves in severe infestations.",
+        "ur": "بہت چھوٹے کیڑے جو پتوں کو پیلا اور کمزور کر دیتے ہیں اور پھر پتے گر جاتے ہیں۔ شدید حملے میں پتوں کے نیچے باریک جالا بھی نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تتسبب في ظهور الأوراق منقطة، باهتة، وتتحول في النهاية إلى اللون الأصفر وتتساقط. قد تكون الخيوط الدقيقة مرئية على الجوانب السفلية للأوراق في الإصابات الشديدة.",
+        "fr": "Minuscules ravageurs qui donnent aux feuilles un aspect pointillé, pâle, finissent par jaunir et tomber. De fines toiles peuvent être visibles sous les feuilles lors d'infestations sévères."
+      }
+    },
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "20-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery fungal spots appear mainly on the upper surface of leaves. Causes leaves to yellow, distort, and die off prematurely, reducing vigor and flowering.",
+        "ur": "پتوں کی اوپری سطح پر سفید پاؤڈر جیسے دھبے ظاہر ہوتے ہیں، جس سے پتے پیلے، بگڑ کر گر جاتے ہیں، اور پودے کی طاقت اور پھولوں کی پیداوار کم ہو جاتی ہے۔",
+        "ar": "تظهر بقع فطرية بيضاء ومسحوقية بشكل أساسي على السطح العلوي للأوراق. يسبب اصفرار الأوراق، تشوهها، وموتها المبكر، مما يقلل من حيوية النبات والإزهار.",
+        "fr": "Des taches fongiques blanches et poudreuses apparaissent principalement sur la face supérieure des feuilles. Fait jaunir, déformer et mourir les feuilles prématurément, réduisant la vigueur et la floraison."
+      }
+    },
+    {
+      "pestId": "leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "18-28"
+      },
+      "plantSpecificNotes": {
+        "en": "Various fungal or bacterial leaf spots can appear as small, dark, circular lesions on leaves, often with a yellow halo. Can lead to defoliation.",
+        "ur": "پتوں پر مختلف فنگل یا بیکٹیریل دھبے چھوٹے، گہرے، گول نشانات کے طور پر ظاہر ہو سکتے ہیں، اکثر پیلے ہالے کے ساتھ۔ اس سے پتے گر سکتے ہیں۔",
+        "ar": "يمكن أن تظهر بقع الأوراق الفطرية أو البكتيرية المختلفة كآفات صغيرة، داكنة، دائرية على الأوراق، غالبًا مع هالة صفراء. يمكن أن تؤدي إلى تساقط الأوراق.",
+        "fr": "Diverses taches foliaires fongiques ou bactériennes peuvent apparaître comme de petites lésions circulaires sombres sur les feuilles, souvent avec un halo jaune. Peut entraîner la défoliation."
+      }
+    },
+    {
+      "pestId": "root_rot",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Caused by overwatering or poorly draining soil, leading to wilting, yellowing leaves, and eventual plant collapse as roots decay. Prevent with good drainage.",
+        "ur": "زیادہ پانی دینے یا خراب نکاسی والی مٹی کی وجہ سے ہوتا ہے، جس سے پتے مرجھا جاتے ہیں، پیلے پڑ جاتے ہیں، اور جڑوں کے گلنے سے پودا مر جاتا ہے۔ اچھی نکاسی سے بچاؤ ممکن ہے۔",
+        "ar": "تسببه الإفراط في الري أو التربة سيئة التصريف، مما يؤدي إلى ذبول الأوراق واصفرارها، وانهيار النبات في النهاية مع تعفن الجذور. يمكن الوقاية منه بالصرف الجيد.",
+        "fr": "Causé par un arrosage excessif ou un sol mal drainé, entraînant le flétrissement, le jaunissement des feuilles et l'effondrement éventuel de la plante à mesure que les racines pourrissent. Prévenir avec un bon drainage."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "These mollusks chew irregular holes in leaves, especially on young seedlings. Look for slime trails as evidence of their presence.",
+        "ur": "یہ کیڑے پتوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر نوجوان پودوں پر۔ ان کی موجودگی کے ثبوت کے طور پر چپچپی پگڈنڈیوں کو تلاش کریں۔",
+        "ar": "تمضغ هذه الرخويات ثقوبًا غير منتظمة في الأوراق، خاصة على الشتلات الصغيرة. ابحث عن آثار المخاط كدليل على وجودها.",
+        "fr": "Ces mollusques mâchent des trous irréguliers dans les feuilles, surtout sur les jeunes semis. Cherchez des traces de bave comme preuve de leur présence."
+      }
+    },
+    {
+      "pestId": "aster_yellows",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "18-30"
+      },
+      "plantSpecificNotes": {
+        "en": "A serious, incurable disease transmitted by leafhoppers. Symptoms include yellowing leaves, stunted growth, distorted and green flowers, and witches' broom formations. Remove infected plants immediately.",
+        "ur": "ایک سنگین، لاعلاج بیماری جو لیف ہاپرز کے ذریعے پھیلتی ہے۔ علامات میں پتوں کا پیلا ہونا، نشوونما کا رک جانا، بگڑے ہوئے اور سبز پھول، اور جادوگرنی کی جھاڑو جیسی شکلیں شامل ہیں۔ متاثرہ پودوں کو فوری طور پر ہٹا دیں۔",
+        "ar": "مرض خطير وغير قابل للشفاء ينتقل عن طريق نطاطات الأوراق. تشمل الأعراض اصفرار الأوراق، توقف النمو، تشوه وازهار خضراء، وتكوينات مكنسة الساحرة. أزل النباتات المصابة فورًا.",
+        "fr": "Une maladie grave et incurable transmise par les cicadelles. Les symptômes incluent le jaunissement des feuilles, un retard de croissance, des fleurs déformées et vertes, et des balais de sorcière. Retirez immédiatement les plantes infectées."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 45,
+    "firstHarvestDayMax": 60,
+    "continuousHarvest": true,
+    "harvestWindowDays": 120,
+    "readinessSigns": [
+      {
+        "en": "Fully open flowers with vibrant color, before they start to go to seed.",
+        "ur": "مکمل کھلے ہوئے پھول جو روشن رنگ کے ہوں، بیج بننے سے پہلے۔",
+        "ar": "أزهار مفتوحة بالكامل ذات لون نابض بالحياة، قبل أن تبدأ في تكوين البذور.",
+        "fr": "Fleurs entièrement ouvertes avec une couleur éclatante, avant qu'elles ne commencent à monter en graines."
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Snip the stem just below the flower head using clean scissors or your fingernails.",
+        "ur": "صاف قینچی یا ناخنوں کا استعمال کرتے ہوئے پھول کے سر کے بالکل نیچے تنے کو کاٹ دیں۔",
+        "ar": "اقطع الساق أسفل رأس الزهرة مباشرة باستخدام مقص نظيف أو أظافرك.",
+        "fr": "Coupez la tige juste en dessous de la tête de la fleur avec des ciseaux propres ou vos ongles."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest regularly (every 1-3 days) to encourage more blooms. Deadhead spent flowers to prolong the flowering season.",
+        "ur": "زیادہ پھولوں کی حوصلہ افزائی کے لیے باقاعدگی سے (ہر 1-3 دن بعد) کٹائی کریں۔ پھولوں کے موسم کو طول دینے کے لیے مرجھائے ہوئے پھولوں کو ہٹا دیں۔",
+        "ar": "احصد بانتظام (كل 1-3 أيام) لتشجيع المزيد من الإزهار. أزل الأزهار الذابلة لإطالة موسم الإزهار.",
+        "fr": "Récoltez régulièrement (tous les 1 à 3 jours) pour encourager plus de fleurs. Supprimez les fleurs fanées pour prolonger la saison de floraison."
+      },
+      "EXPERT": {
+        "en": "For medicinal use, harvest flowers in the morning after dew has dried but before the sun is too strong, when their potency is highest. Dry quickly in a dark, well-ventilated area.",
+        "ur": "دواؤں کے استعمال کے لیے، صبح کے وقت شبنم خشک ہونے کے بعد لیکن سورج کی شدت بڑھنے سے پہلے پھولوں کی کٹائی کریں، جب ان کی افادیت سب سے زیادہ ہو۔ انہیں تاریک، اچھی ہوادار جگہ پر جلدی خشک کریں۔",
+        "ar": "للاستخدام الطبي، احصد الأزهار في الصباح بعد جفاف الندى ولكن قبل أن تصبح الشمس قوية جدًا، عندما تكون فعاليتها في ذروتها. جففها بسرعة في منطقة مظلمة وجيدة التهوية.",
+        "fr": "Pour un usage médicinal, récoltez les fleurs le matin après que la rosée ait séché mais avant que le soleil ne soit trop fort, lorsque leur puissance est maximale. Séchez rapidement dans un endroit sombre et bien ventilé."
+      }
+    },
+    "storage": {
+      "en": "Fresh flowers can be stored in a vase with water for a few days. For longer storage, dry the petals or whole flower heads in a dark, well-ventilated area.",
+      "ur": "تازہ پھولوں کو چند دنوں کے لیے پانی کے گلدان میں رکھا جا سکتا ہے۔ طویل ذخیرہ کے لیے، پھولوں کی پتیوں یا پورے پھولوں کے سروں کو تاریک، اچھی ہوادار جگہ پر خشک کریں۔",
+      "ar": "يمكن تخزين الأزهار الطازجة في مزهرية بها ماء لبضعة أيام. للتخزين لفترة أطول، جفف البتلات أو رؤوس الأزهار الكاملة في منطقة مظلمة وجيدة التهوية.",
+      "fr": "Les fleurs fraîches peuvent être conservées dans un vase avec de l'eau pendant quelques jours. Pour un stockage plus long, séchez les pétales ou les têtes de fleurs entières dans un endroit sombre et bien ventilé."
+    },
+    "yieldEstimateKg": {
+      "10L": 0.1,
+      "20L": 0.2,
+      "30L": 0.3,
+      "GROUND": 0.5
+    }
+  }
+}
