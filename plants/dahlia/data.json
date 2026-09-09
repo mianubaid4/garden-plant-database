@@ -1,0 +1,1458 @@
+{
+  "id": "dahlia",
+  "version": "1.0",
+  "defaultImage": "https://images.unsplash.com/photo-1596700877983-347589255018?auto=format&fit=crop&q=80&w=600&h=600",
+  "names": {
+    "en": {
+      "common": "Dahlia",
+      "alternate": []
+    },
+    "ur": {
+      "common": "ڈاہلیا",
+      "alternate": []
+    },
+    "ar": {
+      "common": "داليا",
+      "alternate": []
+    },
+    "fr": {
+      "common": "Dahlia",
+      "alternate": []
+    },
+    "botanical": "Dahlia pinnata",
+    "aliases": [
+      "dahlia flower",
+      "garden dahlia"
+    ]
+  },
+  "category": "flower",
+  "subcategory": "tuberous",
+  "germinationDays": 10,
+  "weatherRules": {
+    "highRiskFungalHumidity": 70,
+    "highWindSupportKmh": 25,
+    "slowGrowthBelowC": 15,
+    "rainSkipWateringMm": 5
+  },
+  "fertilizerRules": {
+    "maxFrequencyDays": 14,
+    "avoidNitrogenDuringFruiting": true,
+    "avoidDuringTransplantShock": true,
+    "waitingPeriodAfterPestTreatmentDays": 7
+  },
+  "growthTypes": [
+    "CACTUS",
+    "DECORATIVE",
+    "BALL",
+    "POMPON",
+    "WATERLILY"
+  ],
+  "metadata": {
+    "growthHabits": {}
+  },
+  "pollination": {
+    "selfPollinating": false,
+    "handPollinationRecommended": false,
+    "flowerVibrationTask": false,
+    "triggers": []
+  },
+  "tags": [
+    "summer",
+    "flowering",
+    "ornamental",
+    "container-friendly",
+    "cut-flower"
+  ],
+  "temperature": {
+    "optimalMinC": 18,
+    "optimalMaxC": 24,
+    "survivalMinC": 5,
+    "survivalMaxC": 30,
+    "germinationMinC": 18,
+    "germinationOptimalC": 21,
+    "flowerDropAboveC": 28,
+    "flowerDropBelowC": 10
+  },
+  "climateAndSeasonality": {
+    "frostSensitivity": "HIGH",
+    "daysToMaturity": 100,
+    "requiredGDD": 1000,
+    "baseTempC": 10,
+    "plantingConditions": {
+      "soilTempMinC": 15,
+      "airTempMinC": 15
+    },
+    "forecastAlertThresholds": {
+      "heatStressCriticalC": 30,
+      "coldStressCriticalC": 5,
+      "frostWarningC": 2,
+      "heavyRainMm": 20,
+      "highWindKmh": 30,
+      "consecutiveRainyDays": 3
+    }
+  },
+  "light": {
+    "sunHoursMin": 6,
+    "sunHoursOptimal": 8,
+    "sunHoursMax": 10
+  },
+  "water": {
+    "baseMlPer10L": 1000,
+    "intervalDaysBase": 2,
+    "intervalDaysHot": 1,
+    "intervalDaysExtreme": 1,
+    "intervalDaysCool": 4,
+    "drainageSensitivity": "high",
+    "wateringNature": "Consistent and Deep",
+    "soilMoisturePreference": "Consistently moist, but not waterlogged",
+    "overwateringSensitivity": "high",
+    "underwateringSensitivity": "High during flowering",
+    "rootRotRisk": "High if soil remains wet",
+    "standingWaterTolerance": false,
+    "preferredMoistureRange": {
+      "min": 60,
+      "max": 80
+    },
+    "drynessThreshold": {
+      "warning": 45,
+      "critical": 30
+    },
+    "waterStressSymptoms": [
+      "wilting leaves",
+      "stunted growth",
+      "reduced flowering"
+    ],
+    "overwateringSymptoms": [
+      "yellowing leaves",
+      "soft stems",
+      "tuber rot"
+    ],
+    "preferredWateringMethod": "Drip irrigation or base watering",
+    "thingsToAvoid": [
+      "overhead watering",
+      "standing water",
+      "soggy soil"
+    ],
+    "bestWateringTime": "Early morning"
+  },
+  "rootBehavior": {
+    "depth": "medium",
+    "transplantSensitivity": "medium",
+    "waterloggingSensitivity": "high"
+  },
+  "mulching": {
+    "recommended": true,
+    "benefits": [
+      "retain moisture",
+      "suppress weeds",
+      "regulate soil temperature"
+    ]
+  },
+  "containers": {
+    "POT": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.2,
+      "notes": {
+        "en": "Good drainage is essential",
+        "ur": "اچھی نکاسی ضروری ہے",
+        "ar": "الصرف الجيد ضروري",
+        "fr": "Un bon drainage est essentiel"
+      }
+    },
+    "GROW_BAG": {
+      "minVolumeLiters": 20,
+      "minDepthCm": 30,
+      "wateringMultiplier": 1.5,
+      "notes": {
+        "en": "Good drainage is essential",
+        "ur": "اچھی نکاسی ضروری ہے",
+        "ar": "الصرف الجيد ضروري",
+        "fr": "Un bon drainage est essentiel"
+      }
+    },
+    "GROUND": {
+      "minDepthCm": 30,
+      "wateringMultiplier": 0.8,
+      "notes": {
+        "en": "Good drainage is essential",
+        "ur": "اچھی نکاسی ضروری ہے",
+        "ar": "الصرف الجيد ضروري",
+        "fr": "Un bon drainage est essentiel"
+      }
+    },
+    "RAISED_BED": {
+      "minVolumeLiters": 30,
+      "minDepthCm": 35,
+      "wateringMultiplier": 1,
+      "notes": {
+        "en": "Good drainage is essential",
+        "ur": "اچھی نکاسی ضروری ہے",
+        "ar": "الصرف الجيد ضروري",
+        "fr": "Un bon drainage est essentiel"
+      }
+    }
+  },
+  "lifecycle": [
+    {
+      "stage": "SOWING",
+      "durationDaysBase": 21,
+      "durationDaysWarm": 14,
+      "durationDaysCool": 28,
+      "description": {
+        "en": "Planting dahlia tubers or sowing seeds.",
+        "ur": "ڈہلیا کے گٹھے لگانا یا بیج بونا",
+        "ar": "زراعة درنات الداليا أو بذر البذور",
+        "fr": "Plantation des tubercules de dahlia ou semis"
+      },
+      "emoji": "🌱",
+      "tips": [
+        {
+          "en": "Plant tubers after all danger of frost has passed, when soil temperatures are consistently above 60°F (15°C).",
+          "ur": "تمام ٹھنڈ کا خطرہ گزر جانے کے بعد گٹھے لگائیں، جب مٹی کا درجہ حرارت مسلسل 15°C (60°F) سے اوپر ہو۔",
+          "ar": "ازرع الدرنات بعد زوال خطر الصقيع، عندما تكون درجة حرارة التربة أعلى من 15 درجة مئوية (60 درجة فهرنهايت) باستمرار.",
+          "fr": "Plantez les tubercules après tout risque de gel, lorsque la température du sol est constamment supérieure à 15°C (60°F)."
+        }
+      ],
+      "tasks": {
+        "soilPrep": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 15,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Ensure well-draining soil. Mix in some compost.",
+              "ur": "اچھی نکاسی والی مٹی یقینی بنائیں۔ کچھ کھاد ملائیں۔",
+              "ar": "تأكد من تربة جيدة التصريف. اخلط بعض السماد العضوي.",
+              "fr": "Assurez un sol bien drainé. Mélangez du compost."
+            },
+            "INTERMEDIATE": {
+              "en": "Prepare a rich, well-draining bed with organic matter.",
+              "ur": "نامیاتی مادے کے ساتھ ایک زرخیز، اچھی نکاسی والی جگہ تیار کریں۔",
+              "ar": "جهز تربة غنية وجيدة التصريف بمواد عضوية.",
+              "fr": "Préparez un lit riche et bien drainé avec de la matière organique."
+            },
+            "EXPERT": {
+              "en": "Amend soil to a pH of 6.5-7.0 with balanced nutrients and excellent drainage.",
+              "ur": "مٹی کو 6.5-7.0 پی ایچ پر متوازن غذائی اجزاء اور بہترین نکاسی کے ساتھ تیار کریں۔",
+              "ar": "عدّل التربة لتصل إلى درجة حموضة 6.5-7.0 مع مغذيات متوازنة وصرف ممتاز.",
+              "fr": "Amendez le sol à un pH de 6.5-7.0 avec des nutriments équilibrés et un excellent drainage."
+            }
+          }
+        },
+        "planting": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Plant tubers 4-6 inches deep, eye facing up. Cover lightly.",
+              "ur": "گٹھے 4-6 انچ گہرائی میں لگائیں، آنکھ اوپر کی طرف ہو۔ ہلکا سا ڈھانپ دیں۔",
+              "ar": "ازرع الدرنات بعمق 4-6 بوصات، والعين متجهة للأعلى. غطها برفق.",
+              "fr": "Plantez les tubercules à 10-15 cm de profondeur, l'œil vers le haut. Couvrez légèrement."
+            },
+            "INTERMEDIATE": {
+              "en": "Place tubers horizontally in a hole 6 inches deep, backfill gently.",
+              "ur": "گٹھے کو 6 انچ گہرے سوراخ میں افقی طور پر رکھیں، آہستہ سے مٹی بھریں۔",
+              "ar": "ضع الدرنات أفقياً في حفرة بعمق 6 بوصات، ثم املأها بالتربة برفق.",
+              "fr": "Placez les tubercules horizontalement dans un trou de 15 cm de profondeur, rebouchez délicatement."
+            },
+            "EXPERT": {
+              "en": "Ensure proper spacing (18-24 inches) and depth for optimal tuber development.",
+              "ur": "بہترین گٹھے کی نشوونما کے لیے مناسب فاصلہ (18-24 انچ) اور گہرائی یقینی بنائیں۔",
+              "ar": "تأكد من التباعد المناسب (18-24 بوصة) والعمق لتطور الدرنات الأمثل.",
+              "fr": "Assurez un espacement (45-60 cm) et une profondeur appropriés pour un développement optimal des tubercules."
+            }
+          }
+        },
+        "initialWatering": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water lightly after planting.",
+              "ur": "لگانے کے بعد ہلکا پانی دیں۔",
+              "ar": "اسقِ برفق بعد الزراعة.",
+              "fr": "Arrosez légèrement après la plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Provide a gentle, thorough watering to settle the soil.",
+              "ur": "مٹی کو بٹھانے کے لیے نرم، مکمل پانی دیں۔",
+              "ar": "اسقِ جيداً بلطف لتثبيت التربة.",
+              "fr": "Arrosez doucement et abondamment pour tasser le sol."
+            },
+            "EXPERT": {
+              "en": "Water deeply once, then withhold water until sprouts emerge.",
+              "ur": "ایک بار گہرا پانی دیں، پھر کونپلیں نکلنے تک پانی نہ دیں۔",
+              "ar": "اسقِ بعمق مرة واحدة، ثم امتنع عن الري حتى تظهر البراعم.",
+              "fr": "Arrosez profondément une fois, puis retenez l'eau jusqu'à l'apparition des pousses."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "GERMINATION",
+      "durationDaysBase": 15,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Dahlia sprouts emerge from tubers or seeds.",
+        "ur": "ڈہلیا کی کونپلیں گٹھوں یا بیجوں سے نکلتی ہیں",
+        "ar": "تظهر براعم الداليا من الدرنات أو البذور",
+        "fr": "Les pousses de dahlia émergent des tubercules ou des graines"
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Avoid overwatering during this stage, as tubers can rot if kept too wet before sprouts are established.",
+          "ur": "اس مرحلے میں زیادہ پانی دینے سے گریز کریں، کیونکہ کونپلیں قائم ہونے سے پہلے گٹھے زیادہ گیلے رہنے پر سڑ سکتے ہیں۔",
+          "ar": "تجنب الإفراط في الري خلال هذه المرحلة، حيث يمكن أن تتعفن الدرنات إذا بقيت رطبة جداً قبل أن تتأسس البراعم.",
+          "fr": "Évitez l'excès d'eau à ce stade, car les tubercules peuvent pourrir s'ils sont trop humides avant que les pousses ne soient établies."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 4,
+          "mlPer10LContainer": 200,
+          "method": "gentle",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water gently around the planting area.",
+              "ur": "لگانے کی جگہ کے ارد گرد آہستہ سے پانی دیں۔",
+              "ar": "اسقِ برفق حول منطقة الزراعة.",
+              "fr": "Arrosez doucement autour de la zone de plantation."
+            },
+            "INTERMEDIATE": {
+              "en": "Keep soil consistently moist but not waterlogged.",
+              "ur": "مٹی کو مسلسل نم رکھیں لیکن پانی جمع نہ ہونے دیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار ولكن لا تغمرها بالماء.",
+              "fr": "Maintenez le sol constamment humide mais non gorgé d'eau."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture deeply; water only when the top inch is dry.",
+              "ur": "مٹی کی نمی کو گہرائی سے مانیٹر کریں؛ صرف اس وقت پانی دیں جب اوپر کی ایک انچ خشک ہو۔",
+              "ar": "راقب رطوبة التربة بعمق؛ اسقِ فقط عندما يكون السطح جافاً بمقدار بوصة واحدة.",
+              "fr": "Surveillez l'humidité du sol en profondeur ; arrosez seulement lorsque le premier pouce est sec."
+            }
+          }
+        },
+        "sproutCheck": {
+          "dayOffsetFromStageStart": 7,
+          "estimatedMinutes": 2,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Look for small green shoots emerging from the soil.",
+              "ur": "مٹی سے نکلنے والی چھوٹی سبز کونپلیں تلاش کریں۔",
+              "ar": "ابحث عن براعم خضراء صغيرة تظهر من التربة.",
+              "fr": "Recherchez de petites pousses vertes émergeant du sol."
+            },
+            "INTERMEDIATE": {
+              "en": "Check for multiple sprouts and healthy emergence.",
+              "ur": "متعدد کونپلوں اور صحت مند ابھرنے کی جانچ کریں۔",
+              "ar": "تحقق من ظهور براعم متعددة وصحية.",
+              "fr": "Vérifiez la présence de plusieurs pousses et une émergence saine."
+            },
+            "EXPERT": {
+              "en": "Assess sprout vigor and uniformity across the planting.",
+              "ur": "پودے کی طاقت اور پودے لگانے میں یکسانیت کا اندازہ لگائیں۔",
+              "ar": "قيّم قوة البراعم وتوحيدها عبر الزراعة.",
+              "fr": "Évaluez la vigueur et l'uniformité des pousses sur l'ensemble de la plantation."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "SEEDLING",
+      "durationDaysBase": 28,
+      "durationDaysWarm": 21,
+      "durationDaysCool": 35,
+      "description": {
+        "en": "Young dahlia plants develop true leaves and initial stems.",
+        "ur": "نئے ڈہلیا کے پودے اصلی پتے اور ابتدائی تنے بناتے ہیں۔",
+        "ar": "تنمو نباتات الداليا الصغيرة أوراقًا حقيقية وسيقانًا أولية.",
+        "fr": "Les jeunes plants de dahlia développent de vraies feuilles et des tiges initiales."
+      },
+      "emoji": "🪴",
+      "tips": [
+        {
+          "en": "Provide adequate sunlight (at least 6-8 hours) for strong, healthy growth.",
+          "ur": "مضبوط، صحت مند نشوونما کے لیے مناسب دھوپ (کم از کم 6-8 گھنٹے) فراہم کریں۔",
+          "ar": "وفر ضوء الشمس الكافي (6-8 ساعات على الأقل) لنمو قوي وصحي.",
+          "fr": "Fournissez un ensoleillement adéquat (au moins 6-8 heures) pour une croissance forte et saine."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "mlPer10LContainer": 400,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water at the base of the plant.",
+              "ur": "پودے کی جڑ میں پانی دیں۔",
+              "ar": "اسقِ عند قاعدة النبات.",
+              "fr": "Arrosez à la base de la plante."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure consistent moisture, avoiding wetting foliage.",
+              "ur": "مسلسل نمی یقینی بنائیں، پتوں کو گیلا کرنے سے گریز کریں۔",
+              "ar": "حافظ على رطوبة ثابتة، وتجنب تبليل الأوراق.",
+              "fr": "Assurez une humidité constante, en évitant de mouiller le feuillage."
+            },
+            "EXPERT": {
+              "en": "Deep water to encourage strong root development.",
+              "ur": "مضبوط جڑوں کی نشوونما کے لیے گہرا پانی دیں۔",
+              "ar": "اسقِ بعمق لتشجيع نمو الجذور القوي.",
+              "fr": "Arrosez profondément pour encourager un fort développement racinaire."
+            }
+          }
+        },
+        "pinching": {
+          "required": false,
+          "dayOffset": 14,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Once the plant has 3-4 sets of true leaves, pinch off the central growing tip to encourage bushier growth.",
+              "ur": "جب پودے میں 3-4 اصلی پتوں کے سیٹ ہوں، تو جھاڑی دار نشوونما کو فروغ دینے کے لیے مرکزی بڑھتی ہوئی نوک کو چٹکی بھریں۔",
+              "ar": "بمجرد أن يحتوي النبات على 3-4 مجموعات من الأوراق الحقيقية، قم بقرص الطرف النامي المركزي لتشجيع النمو الكثيف.",
+              "fr": "Une fois que la plante a 3-4 paires de vraies feuilles, pincez la pointe de croissance centrale pour encourager une croissance plus touffue."
+            },
+            "INTERMEDIATE": {
+              "en": "Pinch the main stem above the third or fourth set of leaves.",
+              "ur": "تیسرے یا چوتھے پتوں کے سیٹ کے اوپر مرکزی تنے کو چٹکی بھریں۔",
+              "ar": "اقرص الساق الرئيسية فوق المجموعة الثالثة أو الرابعة من الأوراق.",
+              "fr": "Pincez la tige principale au-dessus de la troisième ou quatrième paire de feuilles."
+            },
+            "EXPERT": {
+              "en": "Strategically pinch to shape the plant for optimal bloom production and structure.",
+              "ur": "بہترین پھولوں کی پیداوار اور ساخت کے لیے پودے کو شکل دینے کے لیے حکمت عملی سے چٹکی بھریں۔",
+              "ar": "اقرص بشكل استراتيجي لتشكيل النبات لإنتاج أزهار وهيكل أمثل.",
+              "fr": "Pincez stratégiquement pour façonner la plante afin d'optimiser la production de fleurs et la structure."
+            }
+          }
+        },
+        "staking": {
+          "required": true,
+          "dayOffset": 21,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Insert a sturdy stake near the plant to provide support as it grows.",
+              "ur": "پودے کے قریب ایک مضبوط سہارا لگائیں تاکہ بڑھتے ہوئے اسے مدد ملے۔",
+              "ar": "أدخل وتدًا قويًا بالقرب من النبات لتوفير الدعم أثناء نموه.",
+              "fr": "Insérez un tuteur solide près de la plante pour la soutenir à mesure qu'elle grandit."
+            },
+            "INTERMEDIATE": {
+              "en": "Install a strong stake (e.g., bamboo or metal) 1-2 inches from the tuber, burying it deeply.",
+              "ur": "گٹھے سے 1-2 انچ کے فاصلے پر ایک مضبوط سہارا (مثلاً بانس یا دھات) لگائیں، اسے گہرائی میں دفن کریں۔",
+              "ar": "ثبت وتدًا قويًا (مثل الخيزران أو المعدن) على بعد 1-2 بوصة من الدرنة، وادفنه بعمق.",
+              "fr": "Installez un tuteur solide (par exemple, en bambou ou en métal) à 2-5 cm du tubercule, en l'enfonçant profondément."
+            },
+            "EXPERT": {
+              "en": "Establish a robust staking or caging system early to prevent damage to mature plants.",
+              "ur": "بالغ پودوں کو نقصان سے بچانے کے لیے ابتدائی طور پر ایک مضبوط سہارا یا پنجرے کا نظام قائم کریں۔",
+              "ar": "أنشئ نظامًا قويًا للتوتير أو الأقفاص مبكرًا لمنع تلف النباتات الناضجة.",
+              "fr": "Mettez en place un système de tuteurage ou de cage robuste tôt pour éviter d'endommager les plantes matures."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "VEGETATIVE",
+      "durationDaysBase": 45,
+      "durationDaysWarm": 35,
+      "durationDaysCool": 60,
+      "description": {
+        "en": "Rapid growth of dahlia foliage and stems, developing a strong plant structure.",
+        "ur": "ڈہلیا کے پتوں اور تنوں کی تیزی سے نشوونما، ایک مضبوط پودے کی ساخت بنانا۔",
+        "ar": "نمو سريع لأوراق وسيقان الداليا، وتطوير هيكل نباتي قوي.",
+        "fr": "Croissance rapide du feuillage et des tiges de dahlia, développant une structure végétale solide."
+      },
+      "emoji": "🌿",
+      "tips": [
+        {
+          "en": "Continue pinching side shoots to encourage more blooms and a stronger plant structure.",
+          "ur": "زیادہ پھولوں اور مضبوط پودے کی ساخت کو فروغ دینے کے لیے سائیڈ شوٹس کو چٹکی بھرتے رہیں۔",
+          "ar": "استمر في قرص البراعم الجانبية لتشجيع المزيد من الأزهار وهيكل نباتي أقوى.",
+          "fr": "Continuez à pincer les pousses latérales pour encourager plus de fleurs et une structure végétale plus forte."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 800,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply 2-3 times a week, especially during dry spells.",
+              "ur": "ہفتے میں 2-3 بار گہرا پانی دیں، خاص طور پر خشک موسم میں۔",
+              "ar": "اسقِ بعمق 2-3 مرات في الأسبوع، خاصة خلال فترات الجفاف.",
+              "fr": "Arrosez profondément 2-3 fois par semaine, surtout pendant les périodes sèches."
+            },
+            "INTERMEDIATE": {
+              "en": "Maintain consistent soil moisture to support vigorous growth.",
+              "ur": "زوردار نشوونما کو سہارا دینے کے لیے مٹی کی مستقل نمی برقرار رکھیں۔",
+              "ar": "حافظ على رطوبة التربة باستمرار لدعم النمو القوي.",
+              "fr": "Maintenez une humidité constante du sol pour soutenir une croissance vigoureuse."
+            },
+            "EXPERT": {
+              "en": "Monitor soil moisture at root depth; adjust watering frequency based on weather and plant size.",
+              "ur": "جڑوں کی گہرائی میں مٹی کی نمی کی نگرانی کریں؛ موسم اور پودے کے سائز کی بنیاد پر پانی دینے کی فریکوئنسی کو ایڈجسٹ کریں۔",
+              "ar": "راقب رطوبة التربة على عمق الجذور؛ اضبط تكرار الري بناءً على الطقس وحجم النبات.",
+              "fr": "Surveillez l'humidité du sol à la profondeur des racines ; ajustez la fréquence d'arrosage en fonction de la météo et de la taille de la plante."
+            }
+          }
+        },
+        "fertilizing": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Apply a balanced liquid fertilizer every 2-3 weeks.",
+              "ur": "ہر 2-3 ہفتوں میں ایک متوازن مائع کھاد استعمال کریں۔",
+              "ar": "طبق سمادًا سائلًا متوازنًا كل 2-3 أسابيع.",
+              "fr": "Appliquez un engrais liquide équilibré toutes les 2-3 semaines."
+            },
+            "INTERMEDIATE": {
+              "en": "Use a low-nitrogen, high-phosphorus/potassium fertilizer to encourage blooms.",
+              "ur": "پھولوں کو فروغ دینے کے لیے کم نائٹروجن، زیادہ فاسفورس/پوٹاشیم کھاد استعمال کریں۔",
+              "ar": "استخدم سمادًا منخفض النيتروجين وعالي الفوسفور/البوتاسيوم لتشجيع الأزهار.",
+              "fr": "Utilisez un engrais à faible teneur en azote et riche en phosphore/potassium pour encourager la floraison."
+            },
+            "EXPERT": {
+              "en": "Implement a targeted feeding schedule based on soil tests and plant vigor, focusing on bloom development.",
+              "ur": "مٹی کے ٹیسٹ اور پودے کی طاقت کی بنیاد پر ایک ہدف شدہ خوراک کا شیڈول نافذ کریں، پھولوں کی نشوونما پر توجہ مرکوز کریں۔",
+              "ar": "طبق جدول تغذية مستهدفًا بناءً على اختبارات التربة وقوة النبات، مع التركيز على تطور الأزهار.",
+              "fr": "Mettez en œuvre un programme d'alimentation ciblé basé sur les analyses de sol et la vigueur de la plante, en se concentrant sur le développement des fleurs."
+            }
+          }
+        },
+        "support": {
+          "isRecurring": true,
+          "intervalDays": 10,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Gently tie growing stems to the stake as the plant gets taller.",
+              "ur": "جیسے جیسے پودا لمبا ہوتا جائے، بڑھتے ہوئے تنوں کو آہستہ سے سہارے سے باندھیں۔",
+              "ar": "اربط السيقان النامية برفق بالوتد كلما نما النبات أطول.",
+              "fr": "Attachez délicatement les tiges en croissance au tuteur à mesure que la plante grandit."
+            },
+            "INTERMEDIATE": {
+              "en": "Use soft ties to secure main stems to stakes, ensuring not to constrict growth.",
+              "ur": "اہم تنوں کو سہارے سے محفوظ کرنے کے لیے نرم پٹیاں استعمال کریں، اس بات کو یقینی بنائیں کہ نشوونما کو محدود نہ کریں۔",
+              "ar": "استخدم روابط ناعمة لتثبيت السيقان الرئيسية بالأوتاد، مع التأكد من عدم تقييد النمو.",
+              "fr": "Utilisez des liens souples pour fixer les tiges principales aux tuteurs, en veillant à ne pas entraver la croissance."
+            },
+            "EXPERT": {
+              "en": "Regularly adjust and reinforce staking system to support heavy foliage and future blooms.",
+              "ur": "بھاری پتوں اور مستقبل کے پھولوں کو سہارا دینے کے لیے سہارے کے نظام کو باقاعدگی سے ایڈجسٹ اور مضبوط کریں۔",
+              "ar": "اضبط وعزز نظام التوتير بانتظام لدعم الأوراق الكثيفة والأزهار المستقبلية.",
+              "fr": "Ajustez et renforcez régulièrement le système de tuteurage pour soutenir le feuillage dense et les futures fleurs."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 14,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for slugs and snails; remove them manually.",
+              "ur": "سلگس اور گھونگوں کی جانچ کریں؛ انہیں دستی طور پر ہٹا دیں۔",
+              "ar": "ابحث عن الرخويات والقواقع؛ أزلها يدوياً.",
+              "fr": "Vérifiez la présence de limaces et d'escargots ; retirez-les manuellement."
+            },
+            "INTERMEDIATE": {
+              "en": "Inspect for aphids and earwigs; use organic pest control if needed.",
+              "ur": "ایفڈز اور کان کیڑوں کی جانچ کریں؛ ضرورت پڑنے پر نامیاتی کیڑے مار دوا استعمال کریں۔",
+              "ar": "افحص بحثًا عن المن وحشرات الأذن؛ استخدم مكافحة الآفات العضوية إذا لزم الأمر.",
+              "fr": "Inspectez la présence de pucerons et de perce-oreilles ; utilisez un contrôle biologique des nuisibles si nécessaire."
+            },
+            "EXPERT": {
+              "en": "Implement an integrated pest management (IPM) strategy, including beneficial insects and targeted treatments.",
+              "ur": "مفید کیڑوں اور ہدف شدہ علاج سمیت ایک مربوط کیڑے مار انتظام (IPM) کی حکمت عملی نافذ کریں۔",
+              "ar": "طبق استراتيجية متكاملة لإدارة الآفات (IPM)، بما في ذلك الحشرات النافعة والعلاجات المستهدفة.",
+              "fr": "Mettez en œuvre une stratégie de gestion intégrée des ravageurs (IPM), incluant les insectes auxiliaires et les traitements ciblés."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Aphids",
+              "ur": "ایفڈز",
+              "ar": "المن",
+              "fr": "Pucerons"
+            },
+            {
+              "en": "Slugs/Snails",
+              "ur": "سلگس/گھونگے",
+              "ar": "الرخويات/القواقع",
+              "fr": "Limaces/Escargots"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FLOWERING",
+      "durationDaysBase": 90,
+      "durationDaysWarm": 75,
+      "durationDaysCool": 120,
+      "description": {
+        "en": "Dahlias produce abundant and vibrant blooms.",
+        "ur": "ڈہلیا کثرت سے اور روشن پھول پیدا کرتے ہیں۔",
+        "ar": "تنتج الداليا أزهارًا وفيرة ونابضة بالحياة.",
+        "fr": "Les dahlias produisent des fleurs abondantes et éclatantes."
+      },
+      "emoji": "🌼",
+      "tips": [
+        {
+          "en": "Deadhead regularly to encourage continuous blooming throughout the season.",
+          "ur": "موسم بھر مسلسل پھولوں کو فروغ دینے کے لیے باقاعدگی سے مردہ پھولوں کو ہٹائیں۔",
+          "ar": "قم بإزالة الزهور الذابلة بانتظام لتشجيع الإزهار المستمر طوال الموسم.",
+          "fr": "Supprimez régulièrement les fleurs fanées pour encourager une floraison continue tout au long de la saison."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "mlPer10LContainer": 1000,
+          "method": "deep",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Water deeply and consistently to support heavy blooming.",
+              "ur": "بھاری پھولوں کو سہارا دینے کے لیے گہرا اور مستقل پانی دیں۔",
+              "ar": "اسقِ بعمق وباستمرار لدعم الإزهار الكثيف.",
+              "fr": "Arrosez profondément et constamment pour soutenir une floraison abondante."
+            },
+            "INTERMEDIATE": {
+              "en": "Ensure soil remains evenly moist, especially during hot, dry periods.",
+              "ur": "یقینی بنائیں کہ مٹی یکساں طور پر نم رہے، خاص طور پر گرم، خشک ادوار میں۔",
+              "ar": "تأكد من بقاء التربة رطبة بالتساوي، خاصة خلال الفترات الحارة والجافة.",
+              "fr": "Assurez-vous que le sol reste uniformément humide, surtout pendant les périodes chaudes et sèches."
+            },
+            "EXPERT": {
+              "en": "Optimize watering to prevent stress, which can lead to fewer or smaller blooms.",
+              "ur": "تناؤ کو روکنے کے لیے پانی کو بہتر بنائیں، جس سے کم یا چھوٹے پھول ہو سکتے ہیں۔",
+              "ar": "حسّن الري لمنع الإجهاد، الذي يمكن أن يؤدي إلى أزهار أقل أو أصغر.",
+              "fr": "Optimisez l'arrosage pour prévenir le stress, qui peut entraîner moins ou de plus petites fleurs."
+            }
+          }
+        },
+        "deadheading": {
+          "isRecurring": true,
+          "intervalDays": 3,
+          "estimatedMinutes": 5,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Snip off spent flowers just above a leaf node.",
+              "ur": "خشک پھولوں کو پتے کے جوڑ کے اوپر سے کاٹ دیں۔",
+              "ar": "اقطع الزهور الذابلة فوق عقدة ورقية مباشرة.",
+              "fr": "Coupez les fleurs fanées juste au-dessus d'un nœud foliaire."
+            },
+            "INTERMEDIATE": {
+              "en": "Remove faded blooms promptly to redirect energy into new flower production.",
+              "ur": "نئی پھولوں کی پیداوار میں توانائی کو دوبارہ منتقل کرنے کے لیے فوری طور پر پھیکے پھولوں کو ہٹا دیں۔",
+              "ar": "أزل الأزهار الباهتة فوراً لإعادة توجيه الطاقة إلى إنتاج أزهار جديدة.",
+              "fr": "Retirez rapidement les fleurs fanées pour rediriger l'énergie vers la production de nouvelles fleurs."
+            },
+            "EXPERT": {
+              "en": "Practice strategic deadheading to maintain plant aesthetics and maximize bloom yield.",
+              "ur": "پودے کی خوبصورتی کو برقرار رکھنے اور پھولوں کی پیداوار کو زیادہ سے زیادہ کرنے کے لیے حکمت عملی سے مردہ پھولوں کو ہٹانے کی مشق کریں۔",
+              "ar": "مارس إزالة الزهور الذابلة بشكل استراتيجي للحفاظ على جمالية النبات وزيادة محصول الأزهار.",
+              "fr": "Pratiquez l'élimination stratégique des fleurs fanées pour maintenir l'esthétique de la plante et maximiser le rendement floral."
+            }
+          }
+        },
+        "pestControl": {
+          "isRecurring": true,
+          "intervalDays": 7,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Check for pests like earwigs and Japanese beetles; hand-pick if possible.",
+              "ur": "کان کیڑوں اور جاپانی بھنوروں جیسے کیڑوں کی جانچ کریں؛ اگر ممکن ہو تو ہاتھ سے چن لیں۔",
+              "ar": "ابحث عن الآفات مثل حشرات الأذن والخنافس اليابانية؛ التقطها يدوياً إذا أمكن.",
+              "fr": "Vérifiez la présence de perce-oreilles et de hannetons japonais ; retirez-les à la main si possible."
+            },
+            "INTERMEDIATE": {
+              "en": "Apply insecticidal soap or neem oil for persistent pest issues.",
+              "ur": "مسلسل کیڑوں کے مسائل کے لیے کیڑے مار صابن یا نیم کا تیل استعمال کریں۔",
+              "ar": "استخدم صابون مبيد للحشرات أو زيت النيم لمشاكل الآفات المستمرة.",
+              "fr": "Appliquez du savon insecticide ou de l'huile de neem pour les problèmes de ravageurs persistants."
+            },
+            "EXPERT": {
+              "en": "Monitor for signs of powdery mildew and botrytis; ensure good air circulation.",
+              "ur": "پاؤڈری پھپھوندی اور بوٹریٹس کی علامات کی نگرانی کریں؛ اچھی ہوا کی گردش یقینی بنائیں۔",
+              "ar": "راقب علامات البياض الدقيقي واللفحة الرمادية؛ تأكد من تهوية جيدة.",
+              "fr": "Surveillez les signes d'oïdium et de botrytis ; assurez une bonne circulation de l'air."
+            }
+          },
+          "checkFor": [
+            {
+              "en": "Earwigs",
+              "ur": "کان کیڑے",
+              "ar": "حشرات الأذن",
+              "fr": "Perce-oreilles"
+            },
+            {
+              "en": "Japanese Beetles",
+              "ur": "جاپانی بھنورے",
+              "ar": "الخنافس اليابانية",
+              "fr": "Hannetons japonais"
+            },
+            {
+              "en": "Powdery Mildew",
+              "ur": "پاؤڈری پھپھوندی",
+              "ar": "البياض الدقيقي",
+              "fr": "Oïdium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "FRUITING",
+      "durationDaysBase": 30,
+      "durationDaysWarm": 25,
+      "durationDaysCool": 40,
+      "description": {
+        "en": "Dahlia flowers fade, seeds may develop, and tubers mature underground.",
+        "ur": "ڈہلیا کے پھول مرجھا جاتے ہیں، بیج بن سکتے ہیں، اور گٹھے زمین کے اندر پکتے ہیں۔",
+        "ar": "تتلاشى أزهار الداليا، وقد تتطور البذور، وتنضج الدرنات تحت الأرض.",
+        "fr": "Les fleurs de dahlia fanent, les graines peuvent se développer et les tubercules mûrissent sous terre."
+      },
+      "emoji": "🍂",
+      "tips": [
+        {
+          "en": "Allow foliage to remain on the plant after the first light frost to help tubers mature and store energy for next season.",
+          "ur": "پہلی ہلکی ٹھنڈ کے بعد پتوں کو پودے پر رہنے دیں تاکہ گٹھے پک سکیں اور اگلے موسم کے لیے توانائی ذخیرہ کر سکیں۔",
+          "ar": "اترك الأوراق على النبات بعد أول صقيع خفيف لمساعدة الدرنات على النضج وتخزين الطاقة للموسم القادم.",
+          "fr": "Laissez le feuillage sur la plante après le premier léger gel pour aider les tubercules à mûrir et à stocker de l'énergie pour la saison prochaine."
+        }
+      ],
+      "tasks": {
+        "watering": {
+          "isRecurring": true,
+          "intervalDays": 5,
+          "mlPer10LContainer": 600,
+          "method": "base",
+          "timing": "morning",
+          "instruction": {
+            "BEGINNER": {
+              "en": "Reduce watering as the season ends and temperatures drop.",
+              "ur": "موسم کے اختتام اور درجہ حرارت گرنے کے ساتھ پانی کم کریں۔",
+              "ar": "قلل الري مع نهاية الموسم وانخفاض درجات الحرارة.",
+              "fr": "Réduisez l'arrosage à mesure que la saison se termine et que les températures baissent."
+            },
+            "INTERMEDIATE": {
+              "en": "Gradually decrease watering to encourage tuber maturation.",
+              "ur": "گٹھوں کی پختگی کو فروغ دینے کے لیے آہستہ آہستہ پانی کم کریں۔",
+              "ar": "قلل الري تدريجياً لتشجيع نضج الدرنات.",
+              "fr": "Diminuez progressivement l'arrosage pour encourager la maturation des tubercules."
+            },
+            "EXPERT": {
+              "en": "Withhold water completely after a hard frost to prepare tubers for dormancy.",
+              "ur": "سخت ٹھنڈ کے بعد گٹھوں کو غیر فعال حالت کے لیے تیار کرنے کے لیے پانی مکمل طور پر روک دیں۔",
+              "ar": "امتنع عن الري تمامًا بعد صقيع شديد لإعداد الدرنات للسبات.",
+              "fr": "Retenez complètement l'eau après un gel sévère pour préparer les tubercules à la dormance."
+            }
+          }
+        },
+        "seedCollection": {
+          "required": false,
+          "dayOffset": 15,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "If collecting seeds, allow flower heads to dry on the plant before snipping.",
+              "ur": "اگر بیج جمع کر رہے ہیں، تو پھولوں کے سروں کو کاٹنے سے پہلے پودے پر خشک ہونے دیں۔",
+              "ar": "إذا كنت تجمع البذور، اترك رؤوس الزهور لتجف على النبات قبل قصها.",
+              "fr": "Si vous collectez des graines, laissez les têtes de fleurs sécher sur la plante avant de les couper."
+            },
+            "INTERMEDIATE": {
+              "en": "Harvest seed heads when they are fully dry and brown, storing them in a cool, dry place.",
+              "ur": "بیج کے سروں کو مکمل طور پر خشک اور بھورا ہونے پر کاٹ لیں، انہیں ٹھنڈی، خشک جگہ پر ذخیرہ کریں۔",
+              "ar": "احصد رؤوس البذور عندما تكون جافة وبنية تمامًا، وخزنها في مكان بارد وجاف.",
+              "fr": "Récoltez les têtes de graines lorsqu'elles sont complètement sèches et brunes, en les stockant dans un endroit frais et sec."
+            },
+            "EXPERT": {
+              "en": "Select seeds from the most vigorous and desirable plants for future propagation.",
+              "ur": "مستقبل کی افزائش کے لیے سب سے مضبوط اور مطلوبہ پودوں سے بیج منتخب کریں۔",
+              "ar": "اختر البذور من النباتات الأكثر قوة ومرغوبة للتكاثر المستقبلي.",
+              "fr": "Sélectionnez les graines des plantes les plus vigoureuses et désirables pour la propagation future."
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": "HARVEST",
+      "durationDaysBase": 14,
+      "durationDaysWarm": 10,
+      "durationDaysCool": 20,
+      "description": {
+        "en": "Harvesting dahlia cut flowers and digging up tubers for winter storage.",
+        "ur": "ڈہلیا کے کٹے ہوئے پھولوں کی کٹائی اور سردیوں کے ذخیرے کے لیے گٹھے نکالنا۔",
+        "ar": "حصاد أزهار الداليا المقطوفة وحفر الدرنات للتخزين الشتوي.",
+        "fr": "Récolte des fleurs coupées de dahlia et déterrage des tubercules pour le stockage hivernal."
+      },
+      "emoji": "🧺",
+      "tips": [
+        {
+          "en": "For cut flowers, harvest in the early morning or late evening when they are fully open but not yet pollinated.",
+          "ur": "کٹے ہوئے پھولوں کے لیے، صبح سویرے یا دیر شام کٹائی کریں جب وہ مکمل طور پر کھلے ہوں لیکن ابھی تک پولینیٹ نہ ہوئے ہوں۔",
+          "ar": "للحصول على أزهار مقطوفة، احصدها في الصباح الباكر أو في وقت متأخر من المساء عندما تكون مفتوحة بالكامل ولكن لم يتم تلقيحها بعد.",
+          "fr": "Pour les fleurs coupées, récoltez-les tôt le matin ou en fin de soirée lorsqu'elles sont pleinement ouvertes mais pas encore pollinisées."
+        },
+        {
+          "en": "Dig tubers after a hard frost has blackened the foliage, but before the ground freezes solid.",
+          "ur": "سخت ٹھنڈ سے پتوں کے سیاہ ہونے کے بعد، لیکن زمین کے مکمل طور پر جمنے سے پہلے گٹھے نکالیں۔",
+          "ar": "احفر الدرنات بعد أن يسود الصقيع الأوراق، ولكن قبل أن تتجمد الأرض تمامًا.",
+          "fr": "Déterrez les tubercules après qu'un gel sévère ait noirci le feuillage, mais avant que le sol ne gèle complètement."
+        }
+      ],
+      "tasks": {
+        "flowerHarvesting": {
+          "isRecurring": true,
+          "intervalDays": 2,
+          "estimatedMinutes": 10,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Cut dahlia blooms with long stems for bouquets.",
+              "ur": "گلدستوں کے لیے لمبے تنوں والے ڈہلیا کے پھول کاٹیں۔",
+              "ar": "اقطع أزهار الداليا بسيقان طويلة للباقات.",
+              "fr": "Coupez les fleurs de dahlia avec de longues tiges pour les bouquets."
+            },
+            "INTERMEDIATE": {
+              "en": "Cut stems at an angle, just above a leaf node, to encourage more blooms.",
+              "ur": "زیادہ پھولوں کو فروغ دینے کے لیے تنوں کو پتے کے جوڑ کے اوپر سے ترچھا کاٹیں۔",
+              "ar": "اقطع السيقان بزاوية، فوق عقدة ورقية مباشرة، لتشجيع المزيد من الأزهار.",
+              "fr": "Coupez les tiges en biais, juste au-dessus d'un nœud foliaire, pour encourager plus de fleurs."
+            },
+            "EXPERT": {
+              "en": "Harvest flowers at the optimal stage of openness for vase life, removing lower leaves.",
+              "ur": "گلدان کی زندگی کے لیے پھولوں کو کھلنے کے بہترین مرحلے پر کاٹیں، نچلے پتے ہٹا دیں۔",
+              "ar": "احصد الأزهار في المرحلة المثلى من التفتح لعمر المزهرية، مع إزالة الأوراق السفلية.",
+              "fr": "Récoltez les fleurs au stade d'ouverture optimal pour la durée de vie en vase, en retirant les feuilles inférieures."
+            }
+          }
+        },
+        "tuberDigging": {
+          "required": true,
+          "dayOffset": 0,
+          "estimatedMinutes": 30,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Carefully dig around the plant with a shovel, lifting the entire clump of tubers.",
+              "ur": "احتیاط سے پودے کے ارد گرد بیلچے سے کھودیں، گٹھوں کے پورے گچھے کو اٹھا لیں۔",
+              "ar": "احفر بعناية حول النبات باستخدام مجرفة، وارفع كتلة الدرنات بأكملها.",
+              "fr": "Creusez délicatement autour de la plante avec une pelle, en soulevant toute la motte de tubercules."
+            },
+            "INTERMEDIATE": {
+              "en": "Loosen soil around the plant, then gently pry up the tuber clump, avoiding damage.",
+              "ur": "پودے کے ارد گرد کی مٹی کو ڈھیلا کریں، پھر آہستہ سے گٹھے کے گچھے کو اٹھائیں، نقصان سے بچیں۔",
+              "ar": "فك التربة حول النبات، ثم ارفع كتلة الدرنات برفق، مع تجنب التلف.",
+              "fr": "Desserrez le sol autour de la plante, puis soulevez délicatement la motte de tubercules, en évitant de l'endommager."
+            },
+            "EXPERT": {
+              "en": "Use a digging fork to carefully lift tubers, ensuring all eyes are intact for next season's growth.",
+              "ur": "گٹھے کو احتیاط سے اٹھانے کے لیے کھودنے والا کانٹا استعمال کریں، اس بات کو یقینی بنائیں کہ اگلے موسم کی نشوونما کے لیے تمام آنکھیں برقرار ہیں۔",
+              "ar": "استخدم شوكة حفر لرفع الدرنات بعناية، مع التأكد من أن جميع العيون سليمة لنمو الموسم القادم.",
+              "fr": "Utilisez une fourche à bêcher pour soulever délicatement les tubercules, en veillant à ce que tous les yeux soient intacts pour la croissance de la saison prochaine."
+            }
+          }
+        },
+        "tuberCuringStorage": {
+          "required": true,
+          "dayOffset": 1,
+          "estimatedMinutes": 20,
+          "instruction": {
+            "BEGINNER": {
+              "en": "Brush off excess soil, let tubers dry for a few days, then store in peat moss or sawdust.",
+              "ur": "اضافی مٹی صاف کریں، گٹھوں کو چند دن خشک ہونے دیں، پھر پیٹ ماس یا لکڑی کے برادے میں ذخیرہ کریں۔",
+              "ar": "نظف التربة الزائدة، اترك الدرنات تجف لبضعة أيام، ثم خزنها في طحالب الخث أو نشارة الخشب.",
+              "fr": "Brossez l'excès de terre, laissez les tubercules sécher quelques jours, puis stockez-les dans de la tourbe ou de la sciure."
+            },
+            "INTERMEDIATE": {
+              "en": "Clean tubers, allow to cure in a cool, dark place for 1-2 weeks, then pack in a breathable medium.",
+              "ur": "گٹھے صاف کریں، انہیں 1-2 ہفتوں کے لیے ٹھنڈی، تاریک جگہ پر خشک ہونے دیں، پھر انہیں سانس لینے والے میڈیم میں پیک کریں۔",
+              "ar": "نظف الدرنات، اتركها لتجف في مكان بارد ومظلم لمدة 1-2 أسبوع، ثم عبئها في وسط قابل للتنفس.",
+              "fr": "Nettoyez les tubercules, laissez-les sécher dans un endroit frais et sombre pendant 1-2 semaines, puis emballez-les dans un milieu respirant."
+            },
+            "EXPERT": {
+              "en": "Divide clumps, inspect for damage/disease, cure properly, and store at 40-50°F (4-10°C) with good air circulation.",
+              "ur": "گچھوں کو تقسیم کریں، نقصان/بیماری کی جانچ کریں، مناسب طریقے سے خشک کریں، اور 4-10°C (40-50°F) پر اچھی ہوا کی گردش کے ساتھ ذخیرہ کریں۔",
+              "ar": "قسّم الكتل، افحصها بحثًا عن التلف/الأمراض، عالجها بشكل صحيح، وخزنها عند 4-10 درجات مئوية (40-50 درجة فهرنهايت) مع تهوية جيدة.",
+              "fr": "Divisez les touffes, inspectez les dommages/maladies, séchez correctement et stockez à 4-10°C (40-50°F) avec une bonne circulation de l'air."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fertilizerSchedule": {
+    "ORGANIC": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Liquid Seaweed or Fish Emulsion",
+          "ur": "مائع سی ویڈ یا مچھلی کا عرق",
+          "ar": "مستخلص الطحالب البحرية أو مستحلب السمك",
+          "fr": "Extrait d'algues liquides ou émulsion de poisson"
+        },
+        "preparation": {
+          "en": "Mix 1 tablespoon of fish emulsion or seaweed extract in 1 gallon (approx 3.7 liters) of water. Stir well.",
+          "ur": "ایک کھانے کا چمچ مچھلی کا عرق یا سی ویڈ 4 لیٹر پانی میں ملائیں۔ اچھی طرح ہلائیں۔",
+          "ar": "اخلط ملعقة كبيرة من مستحلب السمك أو مستخلص الطحالب البحرية في 3.7 لتر من الماء. حرك جيداً.",
+          "fr": "Mélangez 1 cuillère à soupe d'émulsion de poisson ou d'extrait d'algues dans 3,7 litres d'eau. Remuez bien."
+        },
+        "quantityPer10L": 50,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle nutrient boost for young plants and root development.",
+          "ur": "نوجوان پودوں اور جڑوں کی نشوونما کے لیے ہلکی غذائیت فراہم کرتا ہے۔",
+          "ar": "يوفر دفعة غذائية لطيفة للنباتات الصغيرة وتطور الجذور.",
+          "fr": "Fournit un léger coup de pouce nutritif pour les jeunes plantes et le développement des racines."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Compost Tea or Balanced Organic Granular (e.g., 5-5-5)",
+          "ur": "کمپوسٹ چائے یا متوازن نامیاتی دانے دار کھاد",
+          "ar": "شاي الكمبوست أو سماد عضوي متوازن (مثلاً 5-5-5)",
+          "fr": "Thé de compost ou engrais granulaire organique équilibré (ex: 5-5-5)"
+        },
+        "preparation": {
+          "en": "For compost tea: Steep 1 cup of rich compost in 1 gallon of water for 24-48 hours. For granular: Sprinkle around the base.",
+          "ur": "کمپوسٹ چائے کے لیے: ایک کپ کمپوسٹ کو 4 لیٹر پانی میں 24-48 گھنٹے بھگو دیں۔ دانے دار کے لیے: پودے کی جڑوں کے گرد چھڑکیں۔",
+          "ar": "لشاي الكمبوست: انقع كوبًا من الكمبوست الغني في 3.7 لتر من الماء لمدة 24-48 ساعة. للسماد الحبيبي: انثر حول قاعدة النبات.",
+          "fr": "Pour le thé de compost: Laissez infuser 1 tasse de compost riche dans 3,7 litres d'eau pendant 24-48 heures. Pour le granulaire: Saupoudrez autour de la base."
+        },
+        "quantityPer10L": 500,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Supports strong stem and foliage growth without encouraging too much nitrogen for flowers.",
+          "ur": "مضبوط تنے اور پتوں کی نشوونما میں مدد کرتا ہے، پھولوں کے لیے زیادہ نائٹروجن کی حوصلہ افزائی نہیں کرتا۔",
+          "ar": "يدعم نمو الساق والأوراق القوي دون تشجيع النيتروجين الزائد على حساب الزهور.",
+          "fr": "Soutient une croissance robuste des tiges et du feuillage sans favoriser un excès d'azote au détriment des fleurs."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Bone Meal, Kelp Meal, or High P/K Organic Fertilizer (e.g., 2-8-4)",
+          "ur": "بون میل، کیلپ میل، یا زیادہ فاسفورس/پوٹاشیم والی نامیاتی کھاد",
+          "ar": "مسحوق العظام، مسحوق عشب البحر، أو سماد عضوي عالي الفوسفور/البوتاسيوم (مثلاً 2-8-4)",
+          "fr": "Farine d'os, farine d'algues, ou engrais organique riche en P/K (ex: 2-8-4)"
+        },
+        "preparation": {
+          "en": "Sprinkle 2 tablespoons of bone meal and 1 tablespoon of kelp meal around the base of the plant. Gently scratch into the top 1 inch of soil.",
+          "ur": "پودے کی جڑوں کے گرد 2 چمچ بون میل اور 1 چمچ کیلپ میل چھڑکیں۔ اسے مٹی کے اوپری حصے میں ہلکا سا دبا دیں۔",
+          "ar": "انثر ملعقتين كبيرتين من مسحوق العظام وملعقة كبيرة من مسحوق عشب البحر حول قاعدة النبات. اخلطها بلطف في الطبقة العلوية من التربة بعمق 2.5 سم.",
+          "fr": "Saupoudrez 2 cuillères à soupe de farine d'os et 1 cuillère à soupe de farine d'algues autour de la base de la plante. Grattez doucement dans le premier pouce de sol."
+        },
+        "quantityPer10L": 20,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": false,
+        "note": {
+          "en": "Boosts blossom production and enhances flower color and size. Avoid high nitrogen.",
+          "ur": "پھولوں کی پیداوار کو بڑھاتا ہے اور پھولوں کے رنگ اور سائز کو بہتر بناتا ہے۔ زیادہ نائٹروجن سے پرہیز کریں۔",
+          "ar": "يعزز إنتاج الأزهار ويحسن لون وحجم الزهور. تجنب النيتروجين العالي.",
+          "fr": "Stimule la production de fleurs et améliore leur couleur et leur taille. Évitez l'azote élevé."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Balanced Organic Liquid Feed or Lighter Flowering Fertilizer",
+          "ur": "متوازن نامیاتی مائع کھاد یا ہلکی پھولوں والی کھاد",
+          "ar": "سماد عضوي سائل متوازن أو سماد أزهار أخف",
+          "fr": "Engrais liquide organique équilibré ou engrais de floraison plus léger"
+        },
+        "preparation": {
+          "en": "Dilute liquid feed according to package instructions for maintenance. For granular, apply a reduced amount.",
+          "ur": "پیکیج کی ہدایات کے مطابق مائع کھاد کو پتلا کریں۔ دانے دار کے لیے، کم مقدار استعمال کریں۔",
+          "ar": "خفف السماد السائل حسب تعليمات العبوة للصيانة. للسماد الحبيبي، استخدم كمية مخفضة.",
+          "fr": "Diluez l'engrais liquide selon les instructions de l'emballage pour l'entretien. Pour le granulaire, appliquez une quantité réduite."
+        },
+        "quantityPer10L": 100,
+        "unit": "ml",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Maintains continuous bloom production throughout the season until frost.",
+          "ur": "موسم بھر ٹھنڈ پڑنے تک پھولوں کی مسلسل پیداوار کو برقرار رکھتا ہے۔",
+          "ar": "يحافظ على إنتاج الأزهار المستمر طوال الموسم حتى الصقيع.",
+          "fr": "Maintient une production continue de fleurs tout au long de la saison jusqu'aux gelées."
+        }
+      }
+    },
+    "CHEMICAL": {
+      "SEEDLING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Half-strength Balanced NPK (e.g., 10-10-10)",
+          "ur": "آدھی طاقت کا متوازن این پی کے",
+          "ar": "سماد NPK متوازن بنصف القوة (مثلاً 10-10-10)",
+          "fr": "NPK équilibré à demi-dose (ex: 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1/2 tablespoon of 10-10-10 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "آدھا چمچ 10-10-10 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب نصف ملعقة كبيرة من مسحوق NPK 10-10-10 في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1/2 cuillère à soupe de poudre NPK 10-10-10 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 5,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Provides a gentle start for young dahlia plants.",
+          "ur": "نوجوان ڈہلیا کے پودوں کے لیے ایک نرم آغاز فراہم کرتا ہے۔",
+          "ar": "يوفر بداية لطيفة لنباتات الداليا الصغيرة.",
+          "fr": "Offre un démarrage en douceur pour les jeunes plants de dahlia."
+        }
+      },
+      "VEGETATIVE": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "Balanced NPK (e.g., 20-20-20 or 10-10-10)",
+          "ur": "متوازن این پی کے",
+          "ar": "سماد NPK متوازن (مثلاً 20-20-20 أو 10-10-10)",
+          "fr": "NPK équilibré (ex: 20-20-20 ou 10-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of 20-20-20 NPK powder into 1 gallon of water. Mix until fully dissolved.",
+          "ur": "ایک چمچ 20-20-20 این پی کے پاؤڈر 4 لیٹر پانی میں حل کریں۔ مکمل حل ہونے تک مکس کریں۔",
+          "ar": "أذب ملعقة كبيرة من مسحوق NPK 20-20-20 في 3.7 لتر من الماء. اخلط حتى يذوب تمامًا.",
+          "fr": "Dissolvez 1 cuillère à soupe de poudre NPK 20-20-20 dans 3,7 litres d'eau. Mélangez jusqu'à dissolution complète."
+        },
+        "quantityPer10L": 10,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Promotes robust leaf and stem development.",
+          "ur": "مضبوط پتوں اور تنوں کی نشوونما کو فروغ دیتا ہے۔",
+          "ar": "يعزز نمو الأوراق والسيقان القوي.",
+          "fr": "Favorise un développement robuste des feuilles et des tiges."
+        }
+      },
+      "FLOWERING": {
+        "apply": true,
+        "intervalDays": 14,
+        "product": {
+          "en": "High Phosphorus/Potassium, Low Nitrogen Fertilizer (e.g., 5-10-10 or 0-10-10)",
+          "ur": "زیادہ فاسفورس/پوٹاشیم، کم نائٹروجن والی کھاد",
+          "ar": "سماد عالي الفوسفور/البوتاسيوم ومنخفض النيتروجين (مثلاً 5-10-10 أو 0-10-10)",
+          "fr": "Engrais riche en Phosphore/Potassium, faible en Azote (ex: 5-10-10 ou 0-10-10)"
+        },
+        "preparation": {
+          "en": "Dissolve 1 tablespoon of granular fertilizer in 1 gallon of water, or apply granular around the base as per package instructions.",
+          "ur": "ایک چمچ دانے دار کھاد 4 لیٹر پانی میں حل کریں، یا پیکیج کی ہدایات کے مطابق پودے کی جڑوں کے گرد دانے دار کھاد ڈالیں۔",
+          "ar": "أذب ملعقة كبيرة من السماد الحبيبي في 3.7 لتر من الماء، أو انثر السماد الحبيبي حول القاعدة حسب تعليمات العبوة.",
+          "fr": "Dissolvez 1 cuillère à soupe d'engrais granulaire dans 3,7 litres d'eau, ou appliquez le granulaire autour de la base selon les instructions de l'emballage."
+        },
+        "quantityPer10L": 15,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Optimizes flower bud formation and bloom quality.",
+          "ur": "پھولوں کی کلیوں کی تشکیل اور پھولوں کے معیار کو بہتر بناتا ہے۔",
+          "ar": "يحسن تكوين براعم الزهور وجودة الإزهار.",
+          "fr": "Optimise la formation des boutons floraux et la qualité des fleurs."
+        }
+      },
+      "FRUITING": {
+        "apply": true,
+        "intervalDays": 21,
+        "product": {
+          "en": "Lower Strength Balanced NPK or High Potassium Fertilizer",
+          "ur": "کم طاقت کا متوازن این پی کے یا زیادہ پوٹاشیم والی کھاد",
+          "ar": "سماد NPK متوازن بقوة أقل أو سماد عالي البوتاسيوم",
+          "fr": "NPK équilibré à faible dose ou engrais riche en potassium"
+        },
+        "preparation": {
+          "en": "Dissolve 1 teaspoon of balanced NPK or high K fertilizer in 1 gallon of water.",
+          "ur": "ایک چمچ متوازن این پی کے یا زیادہ پوٹاشیم والی کھاد 4 لیٹر پانی میں حل کریں۔",
+          "ar": "أذب ملعقة صغيرة من سماد NPK المتوازن أو سماد عالي البوتاسيوم في 3.7 لتر من الماء.",
+          "fr": "Dissolvez 1 cuillère à café d'engrais NPK équilibré ou riche en K dans 3,7 litres d'eau."
+        },
+        "quantityPer10L": 8,
+        "unit": "g",
+        "timing": "morning",
+        "applyAfterWatering": true,
+        "note": {
+          "en": "Helps sustain blooming and overall plant vigor late in the season.",
+          "ur": "موسم کے آخر میں پھولوں کی پیداوار اور پودے کی مجموعی طاقت کو برقرار رکھنے میں مدد کرتا ہے۔",
+          "ar": "يساعد على استدامة الإزهار وقوة النبات بشكل عام في أواخر الموسم.",
+          "fr": "Aide à maintenir la floraison et la vigueur générale de la plante en fin de saison."
+        }
+      }
+    },
+    "HYBRID": {
+      "SEEDLING": {
+        "week1": "Liquid Seaweed",
+        "week2": "Half-strength Balanced NPK",
+        "alternating": true
+      },
+      "VEGETATIVE": {
+        "week1": "Compost Tea",
+        "week2": "Balanced NPK",
+        "alternating": true
+      },
+      "FLOWERING": {
+        "week1": "Bone Meal",
+        "week2": "High P/K Chemical Fertilizer",
+        "alternating": true
+      },
+      "FRUITING": {
+        "week1": "Kelp Meal",
+        "week2": "Lower Strength Balanced NPK",
+        "alternating": true
+      }
+    }
+  },
+  "companions": [
+    {
+      "plantId": "marigold",
+      "benefit": {
+        "en": "Repels nematodes and other harmful soil pests, and can deter some flying insects.",
+        "ur": "نیماٹوڈس اور دیگر نقصان دہ مٹی کے کیڑوں کو دور بھگاتا ہے، اور کچھ اڑنے والے کیڑوں کو بھی روک سکتا ہے۔",
+        "ar": "يطرد الديدان الخيطية وغيرها من آفات التربة الضارة، ويمكن أن يردع بعض الحشرات الطائرة.",
+        "fr": "Repousse les nématodes et autres parasites du sol, et peut dissuader certains insectes volants."
+      }
+    },
+    {
+      "plantId": "nasturtium",
+      "benefit": {
+        "en": "Acts as a trap crop for aphids, drawing them away from dahlias, and can deter other pests.",
+        "ur": "ایفڈز کے لیے ایک جال فصل کے طور پر کام کرتا ہے، انہیں ڈہلیا سے دور رکھتا ہے، اور دیگر کیڑوں کو بھی روک سکتا ہے۔",
+        "ar": "يعمل كمحصول فخ للحشرات المن، يجذبها بعيدًا عن الداليا، ويمكن أن يردع آفات أخرى.",
+        "fr": "Agit comme une plante-piège pour les pucerons, les éloignant des dahlias, et peut dissuader d'autres parasites."
+      }
+    },
+    {
+      "plantId": "onion",
+      "benefit": {
+        "en": "Emits a strong scent that deters various pests, including aphids and slugs.",
+        "ur": "ایک مضبوط خوشبو خارج کرتا ہے جو مختلف کیڑوں، بشمول ایفڈز اور سلگس کو دور بھگاتا ہے۔",
+        "ar": "يصدر رائحة قوية تردع آفات مختلفة، بما في ذلك حشرات المن والقواقع.",
+        "fr": "Émet une forte odeur qui repousse divers parasites, y compris les pucerons et les limaces."
+      }
+    },
+    {
+      "plantId": "cosmos",
+      "benefit": {
+        "en": "Attracts beneficial insects like lacewings and hoverflies, which prey on pests like aphids.",
+        "ur": "لیک ونگز اور ہوور فلائیز جیسے فائدہ مند کیڑوں کو اپنی طرف متوجہ کرتا ہے، جو ایفڈز جیسے کیڑوں کا شکار کرتے ہیں۔",
+        "ar": "يجذب الحشرات النافعة مثل أسد المن وذباب السرفيد، التي تفترس آفات مثل حشرات المن.",
+        "fr": "Attire les insectes bénéfiques comme les chrysopes et les syrphes, qui se nourrissent de parasites comme les pucerons."
+      }
+    },
+    {
+      "plantId": "salvia",
+      "benefit": {
+        "en": "Attracts pollinators and can help deter deer and rabbits from munching on dahlias.",
+        "ur": "پولینیٹرز کو اپنی طرف متوجہ کرتا ہے اور ہرنوں اور خرگوشوں کو ڈہلیا کھانے سے روکنے میں مدد کر سکتا ہے۔",
+        "ar": "يجذب الملقحات ويمكن أن يساعد في ردع الغزلان والأرانب من أكل الداليا.",
+        "fr": "Attire les pollinisateurs et peut aider à dissuader les cerfs et les lapins de grignoter les dahlias."
+      }
+    }
+  ],
+  "badCompanions": [
+    {
+      "plantId": "potato",
+      "reason": {
+        "en": "Shares common diseases like blight and can attract similar pests, increasing disease pressure.",
+        "ur": "بیماریوں جیسے بلائٹ کا شکار ہوتے ہیں اور اسی طرح کے کیڑوں کو اپنی طرف متوجہ کر سکتے ہیں، جس سے بیماری کا دباؤ بڑھتا ہے۔",
+        "ar": "تتشارك في الأمراض الشائعة مثل اللفحة ويمكن أن تجذب آفات مماثلة، مما يزيد من ضغط الأمراض.",
+        "fr": "Partage des maladies communes comme le mildiou et peut attirer des parasites similaires, augmentant la pression des maladies."
+      }
+    },
+    {
+      "plantId": "corn",
+      "reason": {
+        "en": "Attracts corn borers, which can also tunnel into dahlia stems, causing damage and wilting.",
+        "ur": "مکئی کے کیڑوں کو اپنی طرف متوجہ کرتا ہے، جو ڈہلیا کے تنوں میں بھی سرنگ بنا سکتے ہیں، جس سے نقصان اور مرجھانا ہوتا ہے۔",
+        "ar": "يجذب ديدان الذرة، والتي يمكن أن تحفر أيضًا في سيقان الداليا، مما يسبب الضرر والذبول.",
+        "fr": "Attire les pyrales du maïs, qui peuvent également creuser des galeries dans les tiges de dahlia, causant des dommages et le flétrissement."
+      }
+    },
+    {
+      "plantId": "fennel",
+      "reason": {
+        "en": "Produces allelopathic chemicals that can inhibit the growth of nearby plants, including dahlias.",
+        "ur": "ایسے کیمیکلز پیدا کرتا ہے جو قریبی پودوں، بشمول ڈہلیا کی نشوونما کو روک سکتے ہیں۔",
+        "ar": "ينتج مواد كيميائية مثبطة للنمو (allelopathic) يمكن أن تعيق نمو النباتات القريبة، بما في ذلك الداليا.",
+        "fr": "Produit des substances allélopathiques qui peuvent inhiber la croissance des plantes voisines, y compris les dahlias."
+      }
+    },
+    {
+      "plantId": "sunflower",
+      "reason": {
+        "en": "Strongly competes for light, water, and nutrients, potentially stunting dahlia growth. Can also have allelopathic effects.",
+        "ur": "روشنی، پانی اور غذائی اجزاء کے لیے سخت مقابلہ کرتا ہے، جو ڈہلیا کی نشوونما کو روک سکتا ہے۔ اس کے الیللوپیتھک اثرات بھی ہو سکتے ہیں۔",
+        "ar": "يتنافس بشدة على الضوء والماء والمغذيات، مما قد يعيق نمو الداليا. يمكن أن يكون له أيضًا تأثيرات مثبطة للنمو.",
+        "fr": "Concurrence fortement pour la lumière, l'eau et les nutriments, pouvant freiner la croissance des dahlias. Peut également avoir des effets allélopathiques."
+      }
+    }
+  ],
+  "susceptibilities": [
+    {
+      "pestId": "powdery_mildew",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "50-70%",
+        "temp": "18-27"
+      },
+      "plantSpecificNotes": {
+        "en": "White, powdery spots appear on leaves and stems, often leading to distorted growth and reduced flowering. Common in humid conditions with poor air circulation.",
+        "ur": "پتوں اور تنوں پر سفید، پاؤڈر جیسے دھبے ظاہر ہوتے ہیں، جو اکثر خراب نشوونما اور پھولوں کی کمی کا باعث بنتے ہیں۔ مرطوب حالات اور خراب ہوا کی گردش میں عام ہے۔",
+        "ar": "تظهر بقع بيضاء مسحوقية على الأوراق والسيقان، مما يؤدي غالبًا إلى نمو مشوه وتقليل الإزهار. شائع في الظروف الرطبة مع ضعف تهوية الهواء.",
+        "fr": "Des taches blanches et poudreuses apparaissent sur les feuilles et les tiges, entraînant souvent une croissance déformée et une floraison réduite. Courant dans des conditions humides avec une mauvaise circulation de l'air."
+      }
+    },
+    {
+      "pestId": "botrytis_blight",
+      "vulnerableStages": [
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">85%",
+        "temp": "15-24"
+      },
+      "plantSpecificNotes": {
+        "en": "Also known as gray mold. Causes fuzzy gray growth on flowers, buds, and leaves, leading to rot. Prevalent in cool, wet conditions.",
+        "ur": "گرے مولڈ کے نام سے بھی جانا جاتا ہے۔ پھولوں، کلیوں اور پتوں پر بھوری رنگ کی پھپھوندی پیدا کرتا ہے، جس سے سڑن ہوتی ہے۔ ٹھنڈے، گیلے حالات میں عام ہے۔",
+        "ar": "يُعرف أيضًا بالعفن الرمادي. يسبب نموًا رماديًا زغبيًا على الأزهار والبراعم والأوراق، مما يؤدي إلى التعفن. ينتشر في الظروف الباردة والرطبة.",
+        "fr": "Aussi connu sous le nom de moisissure grise. Provoque une croissance grise et duveteuse sur les fleurs, les bourgeons et les feuilles, entraînant la pourriture. Prévalent dans des conditions fraîches et humides."
+      }
+    },
+    {
+      "pestId": "leaf_spot",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">70%",
+        "temp": "20-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Various fungal leaf spots cause dark, circular lesions on leaves, often with a yellow halo. Can lead to premature leaf drop.",
+        "ur": "مختلف فنگل لیف سپاٹ پتوں پر گہرے، گول دھبے پیدا کرتے ہیں، اکثر پیلے ہالے کے ساتھ۔ یہ وقت سے پہلے پتوں کے گرنے کا باعث بن سکتا ہے۔",
+        "ar": "تسبب بقع الأوراق الفطرية المختلفة آفات دائرية داكنة على الأوراق، غالبًا مع هالة صفراء. يمكن أن يؤدي إلى تساقط الأوراق المبكر.",
+        "fr": "Diverses taches foliaires fongiques provoquent des lésions circulaires sombres sur les feuilles, souvent avec un halo jaune. Peut entraîner une chute prématurée des feuilles."
+      }
+    },
+    {
+      "pestId": "aphids",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-25"
+      },
+      "plantSpecificNotes": {
+        "en": "Small, soft-bodied insects that cluster on new growth and undersides of leaves, sucking sap and causing distortion. Can transmit viruses.",
+        "ur": "چھوٹے، نرم جسم والے کیڑے جو نئے پتوں اور پتوں کے نیچے جمع ہو کر رس چوستے ہیں اور بگاڑ پیدا کرتے ہیں۔ وائرس منتقل کر سکتے ہیں۔",
+        "ar": "حشرات صغيرة ذات جسم ناعم تتجمع على النمو الجديد وتحت الأوراق، تمتص العصارة وتسبب التشوه. يمكن أن تنقل الفيروسات.",
+        "fr": "Petits insectes à corps mou qui se regroupent sur les nouvelles pousses et le dessous des feuilles, suçant la sève et provoquant des déformations. Peuvent transmettre des virus."
+      }
+    },
+    {
+      "pestId": "spider_mites",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "<50%",
+        "temp": ">27"
+      },
+      "plantSpecificNotes": {
+        "en": "Tiny pests that cause stippling (tiny dots) on leaves, leading to yellowing and bronzing. Fine webbing may be visible on severe infestations.",
+        "ur": "چھوٹے کیڑے جو پتوں پر چھوٹے نقطے (سٹپلنگ) پیدا کرتے ہیں، جس سے پتے پیلے اور کانسی کے رنگ کے ہو جاتے ہیں۔ شدید حملے میں باریک جالا نظر آ سکتا ہے۔",
+        "ar": "آفات صغيرة تسبب تنقيطًا (نقاط صغيرة) على الأوراق، مما يؤدي إلى اصفرارها وتلونها بالبرونز. قد تكون شبكة دقيقة مرئية في الإصابات الشديدة.",
+        "fr": "Minuscules parasites qui provoquent des piqûres (petits points) sur les feuilles, entraînant un jaunissement et un bronzage. Une fine toile peut être visible lors d'infestations sévères."
+      }
+    },
+    {
+      "pestId": "slugs_snails",
+      "vulnerableStages": [
+        "SEEDLING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": ">80%",
+        "temp": "10-20"
+      },
+      "plantSpecificNotes": {
+        "en": "Chew irregular holes in leaves and young shoots, especially on tender new growth. Active at night or in damp conditions.",
+        "ur": "پتوں اور جوان شاخوں میں بے قاعدہ سوراخ کرتے ہیں، خاص طور پر نرم نئی نشوونما پر۔ رات کو یا مرطوب حالات میں سرگرم رہتے ہیں۔",
+        "ar": "تأكل ثقوبًا غير منتظمة في الأوراق والبراعم الصغيرة، خاصة على النمو الجديد الرقيق. نشطة ليلاً أو في الظروف الرطبة.",
+        "fr": "Mâchent des trous irréguliers dans les feuilles et les jeunes pousses, surtout sur les nouvelles pousses tendres. Actifs la nuit ou par temps humide."
+      }
+    },
+    {
+      "pestId": "earwigs",
+      "vulnerableStages": [
+        "FLOWERING",
+        "VEGETATIVE"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "15-30"
+      },
+      "plantSpecificNotes": {
+        "en": "Feed on petals and leaves, creating ragged holes. Often hide in tight spaces during the day and feed at night.",
+        "ur": "پھولوں کی پتیوں اور پتوں پر کھاتے ہیں، جس سے کٹے ہوئے سوراخ بنتے ہیں۔ اکثر دن میں تنگ جگہوں پر چھپتے ہیں اور رات کو کھاتے ہیں۔",
+        "ar": "تتغذى على البتلات والأوراق، مما يخلق ثقوبًا خشنة. غالبًا ما تختبئ في الأماكن الضيقة خلال النهار وتتغذى ليلاً.",
+        "fr": "Se nourrissent des pétales et des feuilles, créant des trous irréguliers. Se cachent souvent dans des espaces restreints pendant la journée et se nourrissent la nuit."
+      }
+    },
+    {
+      "pestId": "dahlia_stem_borer",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": ">20"
+      },
+      "plantSpecificNotes": {
+        "en": "Larvae tunnel into dahlia stems, causing wilting, stunted growth, and eventual collapse of the affected stem.",
+        "ur": "لاروا ڈہلیا کے تنوں میں سرنگ بناتے ہیں، جس سے مرجھانا، نشوونما کا رک جانا، اور متاثرہ تنے کا بالآخر گر جانا ہوتا ہے۔",
+        "ar": "تحفر اليرقات أنفاقًا في سيقان الداليا، مما يسبب الذبول، وتوقف النمو، وانهيار الساق المصابة في النهاية.",
+        "fr": "Les larves creusent des galeries dans les tiges de dahlia, provoquant le flétrissement, un retard de croissance et l'effondrement éventuel de la tige affectée."
+      }
+    },
+    {
+      "pestId": "tuber_rot",
+      "vulnerableStages": [
+        "DORMANCY",
+        "SEEDLING"
+      ],
+      "weatherTriggers": {
+        "humidity": ">90%",
+        "temp": "<15"
+      },
+      "plantSpecificNotes": {
+        "en": "Soft, mushy, discolored tubers, often with a foul smell. Caused by excessive moisture, poor drainage, or damage during storage/planting.",
+        "ur": "نرم، گلے ہوئے، بدبودار ٹیوبرز۔ زیادہ نمی، ناقص نکاسی آب، یا ذخیرہ/پودے لگانے کے دوران نقصان کی وجہ سے ہوتا ہے۔",
+        "ar": "درنات ناعمة، طرية، متغيرة اللون، غالبًا ما تكون ذات رائحة كريهة. تسببها الرطوبة الزائدة، سوء الصرف، أو التلف أثناء التخزين/الزراعة.",
+        "fr": "Tubercules mous, pâteux, décolorés, souvent avec une mauvaise odeur. Causé par une humidité excessive, un mauvais drainage ou des dommages pendant le stockage/la plantation."
+      }
+    },
+    {
+      "pestId": "dahlia_mosaic_virus",
+      "vulnerableStages": [
+        "VEGETATIVE",
+        "FLOWERING",
+        "FRUITING"
+      ],
+      "weatherTriggers": {
+        "humidity": "any",
+        "temp": "any"
+      },
+      "plantSpecificNotes": {
+        "en": "Causes yellowing, mottling, ring spots, and distortion of leaves. Stunts plant growth and reduces flower quality. Spread by aphids.",
+        "ur": "پتوں کا پیلا ہونا، دھبے، گول نشانات اور بگاڑ کا باعث بنتا ہے۔ پودے کی نشوونما کو روکتا ہے اور پھولوں کے معیار کو کم کرتا ہے۔ ایفڈز کے ذریعے پھیلتا ہے۔",
+        "ar": "يسبب اصفرار، تبقع، بقع حلقية، وتشوه الأوراق. يعيق نمو النبات ويقلل من جودة الزهور. ينتشر عن طريق حشرات المن.",
+        "fr": "Provoque un jaunissement, des marbrures, des taches annulaires et une déformation des feuilles. Ralentit la croissance de la plante et réduit la qualité des fleurs. Propagé par les pucerons."
+      }
+    }
+  ],
+  "harvest": {
+    "firstHarvestDayMin": 70,
+    "firstHarvestDayMax": 100,
+    "continuousHarvest": true,
+    "harvestWindowDays": 90,
+    "readinessSigns": [
+      {
+        "en": "Flowers fully open with firm petals",
+        "ur": "پھول مکمل طور پر کھلے ہوئے اور پتیوں مضبوط ہوں",
+        "ar": "أزهار مفتوحة بالكامل ببتلات ثابتة",
+        "fr": "Fleurs entièrement ouvertes avec des pétales fermes"
+      },
+      {
+        "en": "Stem is sturdy and not soft below the bloom",
+        "ur": "تنا مضبوط ہو اور پھول کے نیچے نرم نہ ہو",
+        "ar": "الساق قوي وغير لين تحت الزهرة",
+        "fr": "La tige est robuste et non molle sous la fleur"
+      }
+    ],
+    "instruction": {
+      "BEGINNER": {
+        "en": "Cut stems with sharp scissors, leaving at least two sets of leaves on the plant.",
+        "ur": "تیز قینچی سے تنوں کو کاٹیں، پودے پر کم از کم دو سیٹ پتے چھوڑ دیں۔",
+        "ar": "اقطع السيقان بمقص حاد، مع ترك مجموعتين على الأقل من الأوراق على النبات.",
+        "fr": "Coupez les tiges avec des ciseaux aiguisés, en laissant au moins deux paires de feuilles sur la plante."
+      },
+      "INTERMEDIATE": {
+        "en": "Harvest in the early morning or late evening for best vase life. Remove lower leaves before placing in water.",
+        "ur": "بہترین گلدان کی زندگی کے لیے صبح سویرے یا دیر شام کٹائی کریں۔ پانی میں رکھنے سے پہلے نچلے پتے ہٹا دیں۔",
+        "ar": "احصد في الصباح الباكر أو في وقت متأخر من المساء للحصول على أفضل عمر في المزهرية. أزل الأوراق السفلية قبل وضعها في الماء.",
+        "fr": "Récoltez tôt le matin ou tard le soir pour une meilleure durée de vie en vase. Retirez les feuilles inférieures avant de les mettre dans l'eau."
+      },
+      "EXPERT": {
+        "en": "Make a clean cut above a leaf node to encourage new branching and more blooms. Condition flowers in cool water for several hours.",
+        "ur": "نئی شاخیں اور مزید پھولوں کی حوصلہ افزائی کے لیے پتے کے نوڈ کے اوپر صاف کٹ لگائیں۔ پھولوں کو کئی گھنٹوں تک ٹھنڈے پانی میں رکھیں۔",
+        "ar": "قم بقطع نظيف فوق عقدة ورقية لتشجيع التفرع الجديد والمزيد من الأزهار. قم بتكييف الزهور في ماء بارد لعدة ساعات.",
+        "fr": "Faites une coupe nette au-dessus d'un nœud foliaire pour encourager de nouvelles ramifications et plus de fleurs. Conditionnez les fleurs dans de l'eau fraîche pendant plusieurs heures."
+      }
+    },
+    "storage": {
+      "en": "In water, in a cool, dark place (e.g., vase life 5-7 days)",
+      "ur": "پانی میں، ٹھنڈی، تاریک جگہ پر (مثلاً گلدان کی زندگی 5-7 دن)",
+      "ar": "في الماء، في مكان بارد ومظلم (مثلاً عمر المزهرية 5-7 أيام)",
+      "fr": "Dans l'eau, dans un endroit frais et sombre (ex: durée de vie en vase 5-7 jours)"
+    },
+    "yieldEstimateKg": {
+      "10L": 0.5,
+      "20L": 1,
+      "30L": 1.5,
+      "GROUND": 2
+    }
+  }
+}
