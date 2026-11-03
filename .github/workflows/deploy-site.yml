@@ -1,0 +1,15 @@
+name: Trigger GrowSabz site rebuild
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plants/**'
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages
+        run: curl -fsS -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
